@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-21T21:24:58.513Z",
+  "generatedAt": "2026-11-21T23:08:12.513Z",
   "crawl": {
-    "crawledAt": "2026-11-21T21:24:56.628Z",
+    "crawledAt": "2026-11-21T23:08:11.146Z",
     "registerOk": true,
     "brandsTotal": 390,
     "brandsInScope": 306,
@@ -298,8 +298,7 @@
       "4": 13,
       "5": 16,
       "6": 38,
-      "7": 1477,
-      "none": 1
+      "7": 1478
     },
     "cors": {
       "browserReady": 242,
@@ -448,14 +447,11 @@
     {
       "code": "TD_RATE_WITHOUT_TERM",
       "description": "Term-deposit base rate with no determinable term (no duration, no MONTH/DAY tiers)",
-      "count": 126,
+      "count": 3,
       "examples": [
-        "Bank of China — Term Deposit CNY 3M: FIXED 1.60% Term Deposit CNY 3M",
-        "Bank of China — Term Deposit CNY 6M: FIXED 1.60% Term Deposit CNY 6M",
-        "Bank of China — Term Deposit CNY 12M: FIXED 1.70% Term Deposit CNY 12M",
-        "Bank of China — Special Term Deposit CNY 3M: FIXED 1.60% ",
-        "Bank of China — Special Term Deposit CNY 6M: FIXED 1.60% ",
-        "Bank of China — Special Term Deposit CNY 12M: FIXED 1.70% Special Term Deposit CNY 12M"
+        "Bank of China — Term Deposit XXX: FIXED 0.00% term deposit master account",
+        "Corporate and Institutional Banking — Term Deposit Account: FIXED 3.79% Rate is subject to change dependent on tenor and external interest rate environ…",
+        "Traditional Credit Union — Term Deposit: FIXED 0.00% Early withdrawal of a Term Deposit may incur an interest rate penalty. Daily ma…"
       ]
     },
     {
@@ -979,24 +975,58 @@
   ],
   "td12Coverage": {
     "products": 454,
-    "with12m": 138
+    "with12m": 140
   },
-  "extraction": {
-    "model": "claude-haiku-5-5",
-    "apiKey": "no_credit",
-    "items": 258,
-    "extracted": 0,
-    "failed": 258,
-    "cached": 0,
-    "called": 258,
-    "conditionTypes": {},
-    "rateSemantics": {},
-    "confidence": {},
-    "agreement": {
-      "itemsWithStructured": 0,
-      "fullRecall": 0,
-      "meanRecall": null
+  "review": {
+    "stats": {
+      "candidates": 167,
+      "reviewed": 163,
+      "stale": 4,
+      "queued": 4,
+      "belowThreshold": 0,
+      "threshold": 0.03
     },
-    "lowConfidenceExamples": []
+    "top": [
+      {
+        "key": "ing-bank-australia-ltd-2efdf8:b7bb9da4-3913-484c-8d2d-3fc99b9b4a72",
+        "brand": "ING BANK (Australia) Ltd",
+        "name": "Savings Maximiser",
+        "category": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "headline": 0.060000000000000005,
+        "reasons": [
+          "bonus/intro rows"
+        ]
+      },
+      {
+        "key": "movebank-2f3c1b:ff2bc097-6390-4e1d-b97a-a3ebc42df30c",
+        "brand": "MoveBank",
+        "name": "Growth Saver",
+        "category": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "headline": 0.0575,
+        "reasons": [
+          "bonus/intro rows"
+        ]
+      },
+      {
+        "key": "movebank-2f3c1b:4bb8798f-6059-4dea-89f9-db5015a30c89",
+        "brand": "MoveBank",
+        "name": "Bonus Saver",
+        "category": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "headline": 0.0545,
+        "reasons": [
+          "bonus/intro rows"
+        ]
+      },
+      {
+        "key": "movebank-2f3c1b:0b61e81c-a7f6-4845-ae64-f9dd29169030",
+        "brand": "MoveBank",
+        "name": "Term Deposit",
+        "category": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "headline": 0.0535,
+        "reasons": [
+          "overlapping base rows"
+        ]
+      }
+    ]
   }
 }

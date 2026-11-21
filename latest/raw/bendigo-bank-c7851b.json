@@ -45,7 +45,6 @@
         "applicationUri": "https://www.bendigobank.com.au/personal/transaction-accounts/easy-retirement-account/",
         "isTailored": false,
         "bundles": [],
-        "cardArt": [],
         "features": [
           {
             "featureType": "DIGITAL_BANKING"
@@ -58,6 +57,7 @@
             "additionalValue": "A card is available for the product to access funds"
           }
         ],
+        "cardArt": [],
         "constraints": [],
         "eligibility": [
           {
@@ -608,7 +608,6 @@
           }
         ],
         "eligibility": [],
-        "lendingRates": [],
         "fees": [
           {
             "name": "Bank Cheque Withdrawal",
@@ -629,6 +628,7 @@
             }
           }
         ],
+        "lendingRates": [],
         "depositRates": [
           {
             "depositRateType": "FIXED",
@@ -1468,8 +1468,6 @@
         "isTailored": false,
         "bundles": [],
         "cardArt": [],
-        "constraints": [],
-        "lendingRates": [],
         "features": [
           {
             "featureType": "UNLIMITED_TXNS"
@@ -1485,6 +1483,7 @@
             "additionalValue": "A card is available for the product to access funds"
           }
         ],
+        "constraints": [],
         "eligibility": [
           {
             "eligibilityType": "PENSION_RECIPIENT",
@@ -1499,15 +1498,6 @@
           {
             "eligibilityType": "RESIDENCY_STATUS",
             "additionalValue": "You need to be an Australian citizen or resident"
-          }
-        ],
-        "depositRates": [
-          {
-            "depositRateType": "VARIABLE",
-            "rate": "0.0000000000000000",
-            "calculationFrequency": "P1D",
-            "applicationFrequency": "P1Y",
-            "applicationType": "PERIODIC"
           }
         ],
         "fees": [
@@ -1631,6 +1621,16 @@
             "fixedAmount": {
               "amount": "0.000000"
             }
+          }
+        ],
+        "lendingRates": [],
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0000000000000000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1Y",
+            "applicationType": "PERIODIC"
           }
         ],
         "additionalInformation": {
@@ -3486,7 +3486,6 @@
         "isTailored": false,
         "bundles": [],
         "cardArt": [],
-        "constraints": [],
         "features": [
           {
             "featureType": "NPP_ENABLED"
@@ -3506,6 +3505,7 @@
           }
         ],
         "eligibility": [],
+        "constraints": [],
         "fees": [
           {
             "name": "Bank Cheque Fee",
@@ -3580,6 +3580,13 @@
         "isTailored": false,
         "bundles": [],
         "cardArt": [],
+        "constraints": [],
+        "eligibility": [
+          {
+            "eligibilityType": "OTHER",
+            "additionalInfo": "Grow your balance every month "
+          }
+        ],
         "features": [
           {
             "featureType": "OTHER",
@@ -3596,13 +3603,6 @@
           {
             "featureType": "DIGITAL_BANKING",
             "additionalInfo": "Ability for existing customers to open an account in e-banking"
-          }
-        ],
-        "constraints": [],
-        "eligibility": [
-          {
-            "eligibilityType": "OTHER",
-            "additionalInfo": "Grow your balance every month "
           }
         ],
         "fees": [],
@@ -3673,6 +3673,17 @@
         "isTailored": false,
         "bundles": [],
         "cardArt": [],
+        "constraints": [
+          {
+            "constraintType": "OPENING_BALANCE",
+            "additionalValue": "5000.00"
+          },
+          {
+            "constraintType": "MAX_BALANCE",
+            "additionalInfo": "The total of all FMD’s held in a client’s name must not exceed $800,000.00",
+            "additionalValue": "800000.00"
+          }
+        ],
         "features": [
           {
             "featureType": "OTHER",
@@ -3697,17 +3708,6 @@
           {
             "featureType": "OTHER",
             "additionalInfo": "31 day withdrawal notice if need to access funds before its maturity date."
-          }
-        ],
-        "constraints": [
-          {
-            "constraintType": "OPENING_BALANCE",
-            "additionalValue": "5000.00"
-          },
-          {
-            "constraintType": "MAX_BALANCE",
-            "additionalInfo": "The total of all FMD’s held in a client’s name must not exceed $800,000.00",
-            "additionalValue": "800000.00"
           }
         ],
         "eligibility": [
@@ -4282,6 +4282,7 @@
             "featureType": "NPP_ENABLED"
           }
         ],
+        "constraints": [],
         "eligibility": [
           {
             "eligibilityType": "MAX_AGE",
@@ -4289,7 +4290,6 @@
             "additionalInfo": "Available to children under 12 years. Account must be opened in the childs names with a parent or guardian acting as a non-titled member."
           }
         ],
-        "constraints": [],
         "fees": [],
         "lendingRates": [],
         "depositRates": [

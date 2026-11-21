@@ -1,6 +1,6 @@
 # CDR product data — crawl report
 
-Crawled 2026-11-21T21:24:56.628Z · report 2026-11-21T21:24:58.513Z
+Crawled 2026-11-21T23:08:11.146Z · report 2026-11-21T23:08:12.513Z
 
 ## Coverage
 
@@ -14,7 +14,7 @@ Crawled 2026-11-21T21:24:56.628Z · report 2026-11-21T21:24:58.513Z
 | Product details fetched | 1545 ok, 1 failed |
 | Products with deposit rates | TRANS_AND_SAVINGS_ACCOUNTS: 758, TERM_DEPOSITS: 646 |
 | List endpoint versions (x-v) | 5: 255, 3: 2, 4: 2 |
-| Detail endpoint versions (x-v) | 7: 1477, 6: 38, 5: 16, 4: 13, none: 1 |
+| Detail endpoint versions (x-v) | 7: 1478, 6: 38, 5: 16, 4: 13 |
 | Browser-callable (CORS ok with x-v) | 242 / 259 |
 
 ### Endpoints that failed
@@ -86,17 +86,18 @@ Tier application methods: WHOLE_BALANCE: 10128, PER_TIER: 1027
 
 Structured condition types: MIN_DEPOSIT_AMOUNT: 97, DEPOSIT_BALANCE_INCREASED: 55, MAX_WITHDRAWALS: 51, OTHER: 19, MIN_PURCHASES: 12, MIN_DEPOSITS: 11, MAX_WITHDRAWAL_AMOUNT: 9, ONLINE_ONLY: 9, EXISTING_CUST: 8, NEW_CUSTOMER: 5, NEW_ACCOUNTS: 4
 
-## Claude condition extraction (claude-haiku-5-5)
+## Claude review queue (weekly, in chat)
 
-| API key | Items | Extracted | Failed | From cache | API calls |
-| --- | --- | --- | --- | --- | --- |
-| no_credit | 258 | 0 | 258 | 0 | 258 |
+| Needing judgement | Reviewed | Changed since review | Queued (≥3.0%) | Below threshold |
+| --- | --- | --- | --- | --- |
+| 167 | 163 | 4 | 4 | 0 |
 
-Condition types: —
-
-Rate semantics: — · Confidence: —
-
-Agreement with banks' structured conditions: 0/0 items fully recovered
+| Brand | Product | Headline | Why |
+| --- | --- | --- | --- |
+| ING BANK (Australia) Ltd | Savings Maximiser | 6.00% | bonus/intro rows |
+| MoveBank | Growth Saver | 5.75% | bonus/intro rows |
+| MoveBank | Bonus Saver | 5.45% | bonus/intro rows |
+| MoveBank | Term Deposit | 5.35% | overlapping base rows |
 
 ## Data-quality flags
 
@@ -107,7 +108,7 @@ Agreement with banks' structured conditions: 0/0 items fully recovered
 | RATE_LOOKS_LIKE_PERCENT | 15 | Rate above 25% — probably published as a percentage ("5.33") instead of a fraction ("0.0533") |
 | SAVINGS_WITHOUT_BASE | 6 | Savings/transaction product with rates but no base (FIXED/VARIABLE/FLOATING/MARKET_LINKED) rate |
 | INTRO_WITHOUT_DURATION | 4 | INTRODUCTORY rate without an ISO 8601 duration in additionalValue |
-| TD_RATE_WITHOUT_TERM | 126 | Term-deposit base rate with no determinable term (no duration, no MONTH/DAY tiers) |
+| TD_RATE_WITHOUT_TERM | 3 | Term-deposit base rate with no determinable term (no duration, no MONTH/DAY tiers) |
 | TIER_MAX_ZERO | 58 | Tier maximumValue of 0 (often meant as "no maximum") |
 | TIER_NUMERIC_VALUES | 140 | Tier min/max sent as numbers instead of strings |
 | TIER_LEGACY_CONDITIONS | 3 | Tier applicabilityConditions as a single object (pre-v6 shape) |
@@ -168,12 +169,9 @@ Agreement with banks' structured conditions: 0/0 items fully recovered
 
 <details><summary>TD_RATE_WITHOUT_TERM — examples</summary>
 
-- Bank of China — Term Deposit CNY 3M: FIXED 1.60% Term Deposit CNY 3M
-- Bank of China — Term Deposit CNY 6M: FIXED 1.60% Term Deposit CNY 6M
-- Bank of China — Term Deposit CNY 12M: FIXED 1.70% Term Deposit CNY 12M
-- Bank of China — Special Term Deposit CNY 3M: FIXED 1.60% 
-- Bank of China — Special Term Deposit CNY 6M: FIXED 1.60% 
-- Bank of China — Special Term Deposit CNY 12M: FIXED 1.70% Special Term Deposit CNY 12M
+- Bank of China — Term Deposit XXX: FIXED 0.00% term deposit master account
+- Corporate and Institutional Banking — Term Deposit Account: FIXED 3.79% Rate is subject to change dependent on tenor and external interest rate environ…
+- Traditional Credit Union — Term Deposit: FIXED 0.00% Early withdrawal of a Term Deposit may incur an interest rate penalty. Daily ma…
 
 </details>
 
@@ -307,7 +305,7 @@ Headline = base + stacked bonuses (+ intro where present), assuming all conditio
 
 ## Top 12-month term deposits (personal AUD products)
 
-138 of 454 personal AUD term-deposit products have an identifiable 12-month rate.
+140 of 454 personal AUD term-deposit products have an identifiable 12-month rate.
 
 | Brand | Product | Rate | Paid / tiers |
 | --- | --- | --- | --- |

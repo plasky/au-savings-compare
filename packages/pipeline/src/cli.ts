@@ -14,6 +14,7 @@ import {
   type ExtractionOutput,
 } from './extract/conditions.js';
 import { CdrClient } from './http.js';
+import { buildCatalogue, renderCatalogueSummary } from './catalogue.js';
 import { normaliseAll } from './normalise.js';
 import { rankSavings, rankTermDeposits, renderRank, type RankOptions } from './rank.js';
 import { buildReport, loadRaws, renderMarkdown } from './report.js';
@@ -63,8 +64,7 @@ const { positionals, values } = parseArgs({
 /** Rank real products for a household scenario with the engine. */
 async function cmdRank() {
   const raws = await loadRaws(values.out!);
-  const brands = await readJsonIfExists<{ restricted?: Record<string, string> }>(join(dirname(values.reviews!), 'brands.json'));
-  const products = normaliseAll(raws, await loadReviews(), brands?.restricted ?? {});
+  const products = normaliseAll(raws, await loadReviews(), await loadBrandRestrictions());
   const now = new Date();
   const opts: RankOptions = {
     balance: Number(values.balance),
@@ -95,6 +95,41 @@ async function cmdRank() {
   }
   const counts = { savings: products.filter((p) => p.kind === 'savings').length, td: products.filter((p) => p.kind === 'term_deposit').length, reviewed: products.filter((p) => p.reviewed).length };
   console.log(`\n${counts.savings} savings and ${counts.td} term-deposit products normalised (${counts.reviewed} with reviews).`);
+}
+
+interface BrandsFile {
+  restricted?: Record<string, string>;
+  displayNames?: Record<string, string>;
+}
+
+async function loadBrands(): Promise<BrandsFile> {
+  return (await readJsonIfExists<BrandsFile>(join(dirname(values.reviews!), 'brands.json'))) ?? {};
+}
+
+async function loadBrandRestrictions(): Promise<Record<string, string>> {
+  return (await loadBrands()).restricted ?? {};
+}
+
+/** Write products.json: the normalised catalogue the web app loads. */
+async function cmdCatalogue() {
+  const raws = await loadRaws(values.out!);
+  const status = await readJsonIfExists<{ crawledAt?: string }>(join(values.out!, 'status.json'));
+  const catalogue = buildCatalogue({
+    raws,
+    reviews: await loadReviews(),
+    brandRestrictions: (await loadBrands()).restricted ?? {},
+    displayNames: (await loadBrands()).displayNames ?? {},
+    crawledAt: status?.crawledAt ?? null,
+  });
+  const file = join(values.out!, 'products.json');
+  await writeFile(file, JSON.stringify(catalogue));
+  const summary = renderCatalogueSummary(catalogue);
+  if (process.env.GITHUB_STEP_SUMMARY) {
+    const { appendFile } = await import('node:fs/promises');
+    await appendFile(process.env.GITHUB_STEP_SUMMARY, '\n' + summary);
+  }
+  log(summary);
+  log(`catalogue written to ${file}`);
 }
 
 async function loadReviews(): Promise<ReviewsFile> {
@@ -232,6 +267,7 @@ const commands: Record<string, () => Promise<void>> = {
   'review-batch': cmdReviewBatch,
   'review-apply': cmdReviewApply,
   rank: cmdRank,
+  catalogue: cmdCatalogue,
 };
 const command = positionals[0];
 if (!command || !commands[command]) {

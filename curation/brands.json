@@ -11,5 +11,21 @@
     "boq-specialist-79c765": "Medical, dental, veterinary and accounting professionals",
     "woolworths-team-bank-33fd08": "Woolworths and Endeavour Group team members and families",
     "laboratories-credit-union-01ca21": "Members joining by referral from an existing member"
+  },
+  "_comment_displayNames": "Readable names for brands whose CDR brandName is a legal or internal label. Keys are the exact brandName in the bank's data; anything not listed is tidied automatically (case, 'Ltd', 'Prod').",
+  "displayNames": {
+    "A-Auswide Bank": "Auswide Bank",
+    "AMB Bank Product ": "Australian Military Bank",
+    "Alex.Bank": "Alex Bank",
+    "Arab Bank Australia Ltd Prod": "Arab Bank Australia",
+    "BNK Bank (Goldfields Money/BCHL)": "BNK Bank",
+    "ING BANK (Australia) Ltd": "ING",
+    "LCU": "Laboratories Credit Union",
+    "Lending and bank accounts, both associated with BSB number 939 200": "AMP Bank",
+    "My State PM Production": "MyState Bank",
+    "NATIONAL AUSTRALIA BANK": "NAB",
+    "South West Slopes Credit Union Ltd trading as SWSbank": "SWSbank",
+    "SCCU": "SCCU",
+    "QBANK": "QBANK"
   }
 }

@@ -77,6 +77,10 @@ jobs:
         if: steps.crawl.outcome == 'success'
         run: pnpm --filter @asc/pipeline exec tsx src/cli.ts report --out "$OUT"
 
+      - name: Build the app catalogue (products.json)
+        if: steps.crawl.outcome == 'success'
+        run: pnpm --filter @asc/pipeline exec tsx src/cli.ts catalogue --out "$OUT" --reviews "$GITHUB_WORKSPACE/curation/reviews.json"
+
       - name: Upload crawl output
         if: always() && steps.crawl.outcome != 'skipped'
         uses: actions/upload-artifact@v7

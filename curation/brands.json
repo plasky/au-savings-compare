@@ -1,0 +1,15 @@
+{
+  "_comment": "Brands whose membership is restricted, so every product they offer is. Keys are endpoint slugs from the crawl. Sourced from the banks' own eligibility text during the 22 Nov 2026 review.",
+  "restricted": {
+    "qbank-a01288": "Police, emergency services, health workers and families (membership)",
+    "police-bank-d51dc6": "Current or retired police officers and families (membership)",
+    "border-bank-a0ec91": "Australian Border Force and biosecurity staff (membership)",
+    "teachers-mutual-bank-937447": "Education-sector employees and family (membership)",
+    "unibank-cc3047": "Education-sector employees and family (membership)",
+    "firefighters-mutual-bank-c2ac3e": "Firefighters and family (membership)",
+    "health-professionals-bank-e54229": "Health-sector employees and family (membership)",
+    "boq-specialist-79c765": "Medical, dental, veterinary and accounting professionals",
+    "woolworths-team-bank-33fd08": "Woolworths and Endeavour Group team members and families",
+    "laboratories-credit-union-01ca21": "Members joining by referral from an existing member"
+  }
+}

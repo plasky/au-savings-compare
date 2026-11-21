@@ -22,7 +22,7 @@ import {
   termRangesMonths,
 } from '../rates.js';
 import type { DepositRate, ProductDetail, RawEndpointFile } from '../types.js';
-import { parseRate, pct, sha256, truncate } from '../util.js';
+import { parseAmount, parseRate, pct, sha256, truncate } from '../util.js';
 
 export const REVIEW_VERSION = 'review-v2';
 export const DEFAULT_THRESHOLD = 0.03;
@@ -406,6 +406,15 @@ export function applyAnswers(
       }
     }
     if (c.category === 'TRANS_AND_SAVINGS_ACCOUNTS') {
+      const free = review.rows.filter((rr) => rr.role === 'BASE' && !rr.alternativeSet).map((rr) => rates[rr.index]!);
+      const range = (r: DepositRate) => {
+        const ts = (r.tiers ?? []).filter((t) => (t.unitOfMeasure ?? '').toUpperCase() === 'DOLLAR');
+        return ts.length
+          ? ts.map((t) => [parseAmount(t.minimumValue) ?? 0, parseAmount(t.maximumValue) || Number.POSITIVE_INFINITY] as const)
+          : [[0, Number.POSITIVE_INFINITY] as const];
+      };
+      const clash = free.some((a, i) => free.slice(i + 1).some((b) => range(a).some(([a0, a1]) => range(b).some(([b0, b1]) => a0 < b1 && b0 < a1))));
+      if (clash) result.warnings.push(`${label}: base rows overlap in balance coverage without an alternativeSet (the engine would treat them as alternatives)`);
       const composed = composedMax(review, rates);
       if (composed > 0.12) result.warnings.push(`${label}: composed headline ${pct(composed)} looks implausible`);
       if (review.statedHeadline !== null && Math.abs(composed - review.statedHeadline) > 0.0005) {

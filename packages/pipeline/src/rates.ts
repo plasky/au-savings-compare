@@ -185,10 +185,20 @@ export function isForeignCurrency(name: string | undefined, description?: string
 }
 
 /** Product looks aimed at businesses, SMSFs, trusts or organisations rather than individuals. */
+const SUPER_RE = /\b(superannuation|super fund|guaranteed super|pension account)\b/i;
+
 export function isNonPersonal(
   name: string | undefined,
   eligibility?: Array<{ eligibilityType?: string }>,
 ): boolean {
   if ((eligibility ?? []).some((e) => e.eligibilityType === 'BUSINESS')) return true;
-  return BUSINESS_RE.test(name ?? '');
+  return BUSINESS_RE.test(name ?? '') || SUPER_RE.test(name ?? '');
+}
+
+const RESTRICTED_NAME_RE = /\b(kids?|junior|youth|teens?|child(?:ren)?(?:'s)?|students?|pensioners?|seniors?|retire(?:e|es|ment)|over\s?55|55\s?\+|staff|broker|long service leave)\b/i;
+
+/** Audience restriction implied by a product name (for products without a review). */
+export function restrictionFromName(name: string | undefined): string | null {
+  const m = RESTRICTED_NAME_RE.exec(name ?? '');
+  return m ? `Name suggests a restricted audience ("${m[1]}")` : null;
 }

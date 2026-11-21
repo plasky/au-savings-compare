@@ -43,6 +43,8 @@ Each review covers **every** `depositRates` row, by its index, exactly once. Omi
 
 **`TOTAL_RATE`:** use this when the row's rate already includes the base. Signs: the text calls it the "total" or "introductory variable rate", or the rate equals an advertised headline (e.g. base 3.70% plus intro 5.80%, where the bank advertises 5.80%).
 
+**Overlapping base rows:** if two base rows cover the same balances (e.g. a rate published once untiered and again as bands, or advised and non-advised versions), put them in an `alternativeSet`. The validator warns when they overlap without one, and the engine would treat them as alternatives anyway.
+
 **`alternativeSet` and `option`:** examples are plan tiers (Revolut Standard/Ultra), age bands, customer types, and alternative bonus levels (e.g. bonus A *or* bonus B). Give each row a readable `option`, including any fee: `"Ultra plan (fee applies)"`. Rows that differ only by **DOLLAR tier** don't need a set, because tiers are evaluated by balance.
 
 **`conditions` types:**

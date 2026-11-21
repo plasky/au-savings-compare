@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 import { readFile, writeFile } from 'node:fs/promises';
-import { join } from 'node:path';
+import { dirname, join } from 'node:path';
 import { parseArgs } from 'node:util';
 import { crawl } from './crawl.js';
 import {
@@ -14,6 +14,8 @@ import {
   type ExtractionOutput,
 } from './extract/conditions.js';
 import { CdrClient } from './http.js';
+import { normaliseAll } from './normalise.js';
+import { rankSavings, rankTermDeposits, renderRank, type RankOptions } from './rank.js';
 import { buildReport, loadRaws, renderMarkdown } from './report.js';
 import {
   applyAnswers,
@@ -43,8 +45,57 @@ const { positionals, values } = parseArgs({
     threshold: { type: 'string' },
     file: { type: 'string', default: 'review-batch.md' },
     answers: { type: 'string', default: 'answers.json' },
+    balance: { type: 'string', default: '50000' },
+    deposit: { type: 'string', default: '1000' },
+    purchases: { type: 'string', default: '5' },
+    withdraw: { type: 'string', default: '0' },
+    ages: { type: 'string', default: '40,40' },
+    incomes: { type: 'string', default: '100000,100000' },
+    months: { type: 'string', default: '12' },
+    solo: { type: 'boolean', default: false },
+    all: { type: 'boolean', default: false },
+    td: { type: 'string' },
+    top: { type: 'string', default: '20' },
+    start: { type: 'string' },
   },
 });
+
+/** Rank real products for a household scenario with the engine. */
+async function cmdRank() {
+  const raws = await loadRaws(values.out!);
+  const brands = await readJsonIfExists<{ restricted?: Record<string, string> }>(join(dirname(values.reviews!), 'brands.json'));
+  const products = normaliseAll(raws, await loadReviews(), brands?.restricted ?? {});
+  const now = new Date();
+  const opts: RankOptions = {
+    balance: Number(values.balance),
+    monthlyDeposit: Number(values.deposit),
+    purchases: Number(values.purchases),
+    withdrawal: Number(values.withdraw),
+    ages: values.ages!.split(',').map(Number),
+    incomes: values.incomes!.split(',').map(Number),
+    months: Number(values.months),
+    joint: !values.solo,
+    includeRestricted: !!values.all,
+    startDate: values.start ?? new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth() + 1, 1)).toISOString().slice(0, 10),
+  };
+  const who = `${opts.joint ? 'joint' : 'sole'} account, ages ${opts.ages.join('/')}, incomes ${opts.incomes.map((i) => `$${i.toLocaleString('en-AU')}`).join('/')}`;
+  if (values.td) {
+    const term = Number(values.td);
+    const rows = rankTermDeposits(products, opts, term);
+    console.log(renderRank(rows, `Best ${term}-month term deposits for $${opts.balance.toLocaleString('en-AU')} (${who}; interest at maturity)`, Number(values.top)));
+  } else {
+    const rows = rankSavings(products, opts);
+    console.log(
+      renderRank(
+        rows,
+        `Best savings accounts over ${opts.months} months: $${opts.balance.toLocaleString('en-AU')} + $${opts.monthlyDeposit.toLocaleString('en-AU')}/month deposit, ${opts.purchases} card purchases/month, $${opts.withdrawal} withdrawals (${who})`,
+        Number(values.top),
+      ),
+    );
+  }
+  const counts = { savings: products.filter((p) => p.kind === 'savings').length, td: products.filter((p) => p.kind === 'term_deposit').length, reviewed: products.filter((p) => p.reviewed).length };
+  console.log(`\n${counts.savings} savings and ${counts.td} term-deposit products normalised (${counts.reviewed} with reviews).`);
+}
 
 async function loadReviews(): Promise<ReviewsFile> {
   const file = await readJsonIfExists<ReviewsFile>(values.reviews!);
@@ -180,6 +231,7 @@ const commands: Record<string, () => Promise<void>> = {
   'review-queue': cmdReviewQueue,
   'review-batch': cmdReviewBatch,
   'review-apply': cmdReviewApply,
+  rank: cmdRank,
 };
 const command = positionals[0];
 if (!command || !commands[command]) {

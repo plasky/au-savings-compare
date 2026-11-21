@@ -8,12 +8,14 @@ See [docs/PLAN.md](docs/PLAN.md) for the full plan.
 
 ## Status
 
-**Phase 0: data trial run.** The crawler, condition extraction and data-quality report are in `packages/pipeline`.
+**Phase 1 done.** The data pipeline runs nightly, and the calculation engine plus a command-line `rank` preview work against real banks. Next: the normalised `products.json` and then the web app.
 
 ## Layout
 
 ```
-packages/pipeline/   CDR crawler, Claude condition extraction, quality report (TypeScript, Node 22)
+packages/engine/     Interest, condition and household-tax engine (pure TypeScript)
+packages/pipeline/   CDR crawler, review tooling, normaliser, quality report, `rank` command (Node 22)
+curation/            reviews.json (weekly Claude reviews), brands.json (membership-restricted banks)
 .github/workflows/   crawl.yml (nightly + manual + on pipeline changes), ci.yml (typecheck + tests)
 docs/PLAN.md         product and technical plan
 ```
@@ -35,6 +37,7 @@ pnpm test
 pnpm --filter @asc/pipeline exec tsx src/cli.ts crawl --out out --limit 5   # quick crawl of 5 banks
 ANTHROPIC_API_KEY=... pnpm --filter @asc/pipeline exec tsx src/cli.ts extract --out out
 pnpm --filter @asc/pipeline exec tsx src/cli.ts report --out out             # writes out/report.md
+pnpm --filter @asc/pipeline exec tsx src/cli.ts rank --out out --balance 50000 --deposit 1000 --purchases 5   # rank real products
 ```
 
 ## Condition reviews

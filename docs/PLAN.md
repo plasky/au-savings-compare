@@ -74,7 +74,7 @@ Last updated 22 Nov 2026.
 
 ## Phases
 
-0. **Data trial run** (now): crawler, Claude extraction, quality report, nightly workflow.
+0. ✅ **Data trial run**: crawler, Claude review, quality report, nightly workflow.
 1. Engine core: savings, TDs, household tax, tests.
 2. Pipeline v1: normalised snapshot, overrides, ADI grouping, history.
 3. Web v1: explorer, allocation sliders, projections, toggles.
@@ -132,6 +132,34 @@ Last updated 22 Nov 2026.
 - 16 products have plan, age or balance-band alternatives.
 - 48 products are restricted to niche audiences (children, ADF, police, teachers, retirees 55+, first home buyers and so on).
 - Joint accounts: at least Bankwest Easy Saver is sole-holder only, and Westpac Life's 0.70% Spend&Save bonus excludes joint accounts.
+
+## Phase 1 status (22 Nov 2026): engine done
+
+**`packages/engine`** is pure TypeScript with no runtime dependencies:
+- **Accrual:** daily, on a 365-day year, credited monthly.
+- **Tiers:** banded (`PER_TIER`) or applied to the whole balance (`WHOLE_BALANCE`).
+- **Monthly conditions:** deposits (including external-only), purchases, balance growth, withdrawals, age, new/existing customer, sole-holder-only.
+- **Rate composition:** base + stacked bonuses + intro, with total-rate rows replacing the base, and alternative sets (best option, or the user's choice).
+- **Intro expiry**, and **rate shifts** that move variable base and total-rate rows.
+- **Term deposits:** at maturity or periodic, rollover or payout.
+- **Household tax:** per financial year (2026–27 at 15%, 2027–28 at 14%), including the low-income tax offset and the Medicare levy phase-in. Joint interest is split by ownership and taxed incrementally at each holder's own rate.
+- **Outputs:** real values via CPI, effective rates on the average daily balance, and warnings for joint-ineligible or restricted products.
+- **Tests:** 35, hand-calculated.
+
+**`pipeline/src/normalise.ts`** turns CDR product data plus aligned reviews into engine products:
+- Unreviewed products fall back to the CDR labels and structured conditions; free-text bonuses become an `OTHER` condition.
+- Overlapping base rows become alternatives (the Macquarie and CommBank duplicate-band patterns).
+- Fixed-term sub-options are dropped from at-call products, and super and pension products are excluded.
+- Restricted audiences come from the review, `curation/brands.json` (membership-restricted banks) or the product name.
+
+**`rank`** command example:
+`pnpm --filter @asc/pipeline exec tsx src/cli.ts rank --out <crawl>/latest --balance 50000 --deposit 1000 --purchases 5 --ages 45,43 --incomes 120000,80000 [--td 12] [--solo] [--all]`
+
+Results match published rates, e.g. Virgin Boost 6.30%, ING Maximiser 6.00%, RACQ 6.00%, BOQ Smart Saver 5.85%, and 12-month TDs from Unity 5.80%, Suncorp 5.75% and AMP GO 5.70%.
+
+**Next:**
+- Phase 2: publish a nightly `products.json` (normalised) and ADI grouping for the FCS.
+- Phase 3: the web app (explorer, allocation sliders, projections).
 
 ## Known constraints
 

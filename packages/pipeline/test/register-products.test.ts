@@ -99,6 +99,18 @@ describe('listAllProducts', () => {
     expect(res.totalPages).toBeNull();
   });
 
+  it('falls back to the holder default page size on a 400', async () => {
+    const { fetchFn, calls } = fakeFetch((c) =>
+      new URL(c.url).searchParams.has('page-size')
+        ? json({ errors: [{ code: 'urn:au-cds:error:cds-all:Field/Invalid', title: 'Invalid Field' }] }, 400)
+        : json({ data: { products: [{ productId: 'a' }] }, meta: { totalPages: 1 } }),
+    );
+    const res = await listAllProducts(new CdrClient({ fetchFn, sleep: noSleep }), 'https://h.au/x', 'k');
+    expect(res.ok).toBe(true);
+    expect(res.products).toHaveLength(1);
+    expect(calls.at(-1)!.url).not.toContain('page-size');
+  });
+
   it('reports an unexpected payload shape', async () => {
     const { fetchFn } = fakeFetch(() => json({ data: { items: [] } }));
     const res = await listAllProducts(new CdrClient({ fetchFn, sleep: noSleep }), 'https://h.au/x', 'k');

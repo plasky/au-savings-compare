@@ -3,14 +3,113 @@ import {
   collectItems,
   emptyCache,
   ExtractionSchema,
+  guardCaller,
   runExtraction,
   type Extraction,
 } from '../src/extract/conditions.js';
-import { appliesToTerm, savingsHeadline, termRangesMonths } from '../src/rates.js';
+import { appliesToTerm, isForeignCurrency, isNonPersonal, savingsHeadline, termRangesMonths } from '../src/rates.js';
 import { analyse, renderMarkdown } from '../src/report.js';
 import { boostSaver, introSaver, quirky, rawFile, tdNoTerm, termDeposit } from './fixtures/products.js';
 
 const flag = (r: ReturnType<typeof analyse>, code: string) => r.flags.find((f) => f.code === code)!;
+
+describe('savingsHeadline at a balance', () => {
+  const tier = (min: string, max?: string) => [{ name: 't', unitOfMeasure: 'DOLLAR', minimumValue: min, ...(max ? { maximumValue: max } : {}) }];
+
+  it('stacks distinct bonus rows (Virgin Money Boost Saver pattern)', () => {
+    const h = savingsHeadline([
+      { depositRateType: 'VARIABLE', rate: '0.0005' },
+      { depositRateType: 'BONUS', rate: '0.0050', additionalValue: 'Additional rate when you…', tiers: tier('0.00', '250000.00') },
+      { depositRateType: 'BONUS', rate: '0.0575', additionalValue: 'Deposit $1000 and make 5 purchases', tiers: tier('0.00', '250000.00') },
+    ]);
+    expect(h.bonusRows).toBe(2);
+    expect(h.ongoing).toBeCloseTo(0.063);
+  });
+
+  it('treats disjoint-tier bonus rows as alternatives (UBank pattern)', () => {
+    const text = 'Grow your balance by $1 each month';
+    const h = savingsHeadline(
+      [
+        { depositRateType: 'BONUS', rate: '0.056', additionalValue: text, tiers: tier('0.00', '100000.00') },
+        { depositRateType: 'BONUS', rate: '0.056', additionalValue: text, tiers: tier('100000.01', '250000.00') },
+        { depositRateType: 'BONUS', rate: '0.0', additionalValue: text, tiers: tier('1000000.01') },
+      ],
+      50_000,
+    );
+    expect(h.bonus).toBeCloseTo(0.056);
+    expect(h.base).toBeNull();
+  });
+
+  it('prefers variable base rows over FIXED promo rows (Bankwest competition pattern)', () => {
+    const h = savingsHeadline([
+      { depositRateType: 'VARIABLE', rate: '0.055', tiers: tier('0.00', '250000.99') },
+      { depositRateType: 'VARIABLE', rate: '0.026', tiers: tier('250001.00', '1000000.99') },
+      { depositRateType: 'FIXED', rate: '0.115', additionalInfo: 'Competition winners only', tiers: tier('0.00', '250000.99') },
+    ]);
+    expect(h.base).toBe(0.055);
+    expect(h.baseAlternatives).toBe(1);
+  });
+
+  it('counts overlapping base alternatives (Revolut plans pattern)', () => {
+    const h = savingsHeadline([
+      { depositRateType: 'VARIABLE', rate: '0.03', additionalInfo: 'Standard plan', tiers: tier('0.0', '1000000.0') },
+      { depositRateType: 'VARIABLE', rate: '0.0555', additionalInfo: 'Ultra plan', tiers: tier('0.0', '250000.0') },
+    ]);
+    expect(h.baseAlternatives).toBe(2);
+    expect(h.base).toBe(0.0555);
+  });
+});
+
+describe('product filters', () => {
+  it('detects foreign-currency and non-personal products', () => {
+    expect(isForeignCurrency('Term Deposit CNY 12M')).toBe(true);
+    expect(isForeignCurrency('USD Foreign Currency Account')).toBe(true);
+    expect(isForeignCurrency('Bonus Saver')).toBe(false);
+    expect(isNonPersonal('High Interest Savings Account (SMSF)')).toBe(true);
+    expect(isNonPersonal('Business WebSavings Account')).toBe(true);
+    expect(isNonPersonal('Easy Saver', [{ eligibilityType: 'BUSINESS' }])).toBe(true);
+    expect(isNonPersonal('Easy Saver', [{ eligibilityType: 'MIN_AGE' }])).toBe(false);
+  });
+});
+
+describe('guardCaller', () => {
+  const ok: Extraction = { noConditions: true, conditions: [], rateSemantics: 'ADDITIVE_TO_BASE', introPeriodMonths: null, confidence: 'high', notes: '' };
+
+  it('stops after a no-credit error', async () => {
+    const real = vi.fn(async () => {
+      throw Object.assign(new Error('400 {"error":{"message":"Your credit balance is too low to access the Anthropic API."}}'), { status: 400 });
+    });
+    const g = guardCaller(real);
+    await expect(g.callModel('a')).rejects.toThrow(/credit balance/);
+    await expect(g.callModel('b')).rejects.toThrow(/no credit/);
+    expect(real).toHaveBeenCalledTimes(1);
+    expect(g.status()).toBe('no_credit');
+  });
+
+  it('stops after a 401', async () => {
+    const g = guardCaller(async () => {
+      throw Object.assign(new Error('invalid x-api-key'), { status: 401 });
+    });
+    await expect(g.callModel('a')).rejects.toThrow();
+    await expect(g.callModel('b')).rejects.toThrow(/rejected/);
+    expect(g.status()).toBe('rejected');
+  });
+
+  it('gives up after N initial failures but keeps going once anything succeeds', async () => {
+    let n = 0;
+    const g = guardCaller(async () => {
+      n++;
+      throw new Error('overloaded');
+    }, 3);
+    for (let i = 0; i < 5; i++) await g.callModel('x').catch(() => undefined);
+    expect(n).toBe(3);
+    expect(g.status()).toBe('failing');
+
+    const g2 = guardCaller(async () => ok);
+    await g2.callModel('x');
+    expect(g2.status()).toBe('ok');
+  });
+});
 
 describe('rates helpers', () => {
   it('computes savings headlines', () => {
@@ -59,7 +158,9 @@ describe('analyse', () => {
   });
 
   it('ranks top savings and 12-month TDs', () => {
-    expect(report.topSavings[0]!.product).toBe('Quirky Saver'); // the bad 533% rate floats to the top — flagged above
+    // Quirky Saver's percent-formatted rate excludes it from the ranking (it's flagged instead).
+    expect(report.topSavings.map((t) => t.product)).toEqual(['Intro Saver', 'Boost Saver']);
+    expect(report.topSavings[0]!.headline).toBeCloseTo(0.065);
     expect(report.topTd12).toHaveLength(1);
     expect(report.topTd12[0]).toMatchObject({ product: 'Term Deposit', headline: 0.053, note: 'at maturity' });
     expect(report.td12Coverage).toEqual({ products: 2, with12m: 1 });

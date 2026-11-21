@@ -6,10 +6,10 @@ import {
   collectItems,
   createAnthropicCaller,
   emptyCache,
+  guardCaller,
   runExtraction,
   type ApiKeyStatus,
   type CacheFile,
-  type CallModel,
   type ExtractionOutput,
 } from './extract/conditions.js';
 import { CdrClient } from './http.js';
@@ -81,22 +81,7 @@ async function cmdExtract() {
     return;
   }
 
-  // Stop calling the API as soon as the key is rejected.
-  let rejected = false;
-  let succeeded = false;
-  const real = createAnthropicCaller({ apiKey });
-  const callModel: CallModel = async (input) => {
-    if (rejected) throw new Error('skipped: API key rejected');
-    try {
-      const result = await real(input);
-      succeeded = true;
-      return result;
-    } catch (e) {
-      const status = (e as { status?: number }).status;
-      if (status === 401 || status === 403) rejected = true;
-      throw e;
-    }
-  };
+  const { callModel, status } = guardCaller(createAnthropicCaller({ apiKey }));
 
   const { output, cache: nextCache } = await runExtraction({
     items,
@@ -107,14 +92,17 @@ async function cmdExtract() {
     noInformation,
     log,
   });
-  const keyStatus: ApiKeyStatus = rejected ? 'rejected' : succeeded ? 'ok' : 'unverified';
+  const keyStatus: ApiKeyStatus = output.stats.called === 0 ? 'unverified' : status();
   output.apiKey = keyStatus;
   await writeJson(outPath, output);
-  await writeJson(cachePath, nextCache);
+  // Keep previous cache entries if nothing could be extracted this run (e.g. no credit).
+  await writeJson(cachePath, keyStatus === 'ok' || keyStatus === 'unverified' ? nextCache : cache);
   log(
     `extract done: ${output.stats.cached} cached, ${output.stats.called} API calls, ${output.stats.failed} failed; API key: ${keyStatus}`,
   );
   if (keyStatus === 'rejected') warn('The Anthropic API rejected ANTHROPIC_API_KEY (401/403). Check the secret value.');
+  if (keyStatus === 'no_credit') warn('ANTHROPIC_API_KEY is valid but the Anthropic account has no credit (Plans & Billing).');
+  if (keyStatus === 'failing') warn('Initial Claude calls all failed; extraction stopped early. See conditions.json for errors.');
 }
 
 async function cmdReport() {

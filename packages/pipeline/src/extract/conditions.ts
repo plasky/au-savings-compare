@@ -187,7 +187,37 @@ export function emptyCache(): CacheFile {
 }
 
 /** Whether the Anthropic API key was present and accepted (the key itself is never recorded). */
-export type ApiKeyStatus = 'missing' | 'ok' | 'rejected' | 'unverified';
+export type ApiKeyStatus = 'missing' | 'ok' | 'rejected' | 'no_credit' | 'failing' | 'unverified';
+
+/**
+ * Wrap a model caller with a circuit breaker: stop calling once the key is
+ * rejected (401/403), the account has no credit, or the first N calls all fail.
+ */
+export function guardCaller(real: CallModel, maxInitialFailures = 8): { callModel: CallModel; status: () => ApiKeyStatus } {
+  let rejected = false;
+  let noCredit = false;
+  let succeeded = false;
+  let failuresBeforeSuccess = 0;
+  const callModel: CallModel = async (input) => {
+    if (rejected) throw new Error('skipped: API key rejected');
+    if (noCredit) throw new Error('skipped: Anthropic account has no credit');
+    if (!succeeded && failuresBeforeSuccess >= maxInitialFailures) throw new Error('skipped: initial calls all failed');
+    try {
+      const result = await real(input);
+      succeeded = true;
+      return result;
+    } catch (e) {
+      const err = e as { status?: number; message?: string };
+      if (err.status === 401 || err.status === 403) rejected = true;
+      else if (/credit balance/i.test(err.message ?? '')) noCredit = true;
+      if (!succeeded) failuresBeforeSuccess++;
+      throw e;
+    }
+  };
+  const status = (): ApiKeyStatus =>
+    rejected ? 'rejected' : noCredit ? 'no_credit' : succeeded ? 'ok' : failuresBeforeSuccess > 0 ? 'failing' : 'unverified';
+  return { callModel, status };
+}
 
 export interface ExtractionOutput {
   generatedAt: string;

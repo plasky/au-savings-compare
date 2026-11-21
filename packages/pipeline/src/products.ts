@@ -21,10 +21,13 @@ interface ListBody {
   meta?: { totalPages?: unknown; totalRecords?: unknown };
 }
 
-function pageUrl(endpoint: string, page: number, pageSize: number): string {
+/** Holder default page size when we omit page-size. */
+const DEFAULT_PAGE_SIZE = 25;
+
+function pageUrl(endpoint: string, page: number, pageSize: number | null): string {
   const u = new URL(endpoint);
   u.searchParams.set('page', String(page));
-  u.searchParams.set('page-size', String(pageSize));
+  if (pageSize !== null) u.searchParams.set('page-size', String(pageSize));
   return u.toString();
 }
 
@@ -47,10 +50,19 @@ export async function listAllProducts(
   client: CdrClient,
   endpoint: string,
   memoKey: string,
-  pageSize = PAGE_SIZE,
+  requestedPageSize = PAGE_SIZE,
   maxPages = MAX_PAGES,
 ): Promise<ListResult> {
-  const first = await client.get<ListBody>(pageUrl(endpoint, 1, pageSize), VERSIONS.productList, memoKey);
+  let pageSize: number | null = requestedPageSize;
+  let first = await client.get<ListBody>(pageUrl(endpoint, 1, pageSize), VERSIONS.productList, memoKey);
+  if (!first.ok && first.status === 400) {
+    // Some holders reject page-size values they don't support ("Invalid Field"); fall back to their default.
+    const retry = await client.get<ListBody>(pageUrl(endpoint, 1, null), VERSIONS.productList, memoKey);
+    if (retry.ok) {
+      first = retry;
+      pageSize = null;
+    }
+  }
   const base = {
     status: first.status,
     version: first.version,
@@ -84,7 +96,7 @@ export async function listAllProducts(
   } else {
     // No usable meta: keep paging while pages come back full.
     let lastCount = firstProducts.length;
-    for (let page = 2; lastCount >= pageSize && page <= maxPages; page++) {
+    for (let page = 2; lastCount >= (pageSize ?? DEFAULT_PAGE_SIZE) && page <= maxPages; page++) {
       const res = await client.get<ListBody>(pageUrl(endpoint, page, pageSize), VERSIONS.productList, memoKey);
       const products = res.ok ? extractProducts(res.body) : null;
       if (!products) break;

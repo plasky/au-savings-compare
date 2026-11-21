@@ -87,30 +87,85 @@ export function describeTiers(rate: DepositRate): string {
     .join('; ');
 }
 
+/** Whether a rate row applies at a given balance, judged by its DOLLAR tiers (no DOLLAR tiers = applies). */
+export function appliesAtBalance(rate: DepositRate, balance: number): boolean {
+  const dollarTiers = (rate.tiers ?? []).filter((t) => (t.unitOfMeasure ?? '').toUpperCase() === 'DOLLAR');
+  if (dollarTiers.length === 0) return true;
+  return dollarTiers.some((t) => {
+    const min = parseAmount(t.minimumValue) ?? 0;
+    const rawMax = parseAmount(t.maximumValue);
+    const max = rawMax === null || rawMax === 0 ? Number.POSITIVE_INFINITY : rawMax;
+    return balance >= min && balance <= max;
+  });
+}
+
 export interface SavingsHeadline {
+  balance: number;
   base: number | null;
+  /** Sum of distinct bonus rows applying at this balance (bonuses with different conditions stack). */
   bonus: number | null;
   intro: number | null;
   bonusRows: number;
-  /** base + best bonus (assumes bonus is additive, per the standard). */
+  /** Distinct base rates applying at this balance; >1 means plan/eligibility alternatives. */
+  baseAlternatives: number;
+  /** base + stacked bonuses (assumes additive, per the standard). */
   ongoing: number | null;
   /** ongoing + intro, where an intro rate exists. */
   withIntro: number | null;
 }
 
-export function savingsHeadline(rates: DepositRate[]): SavingsHeadline {
-  const max = (type: (t: string | undefined) => boolean) => {
-    const vals = rates
-      .filter((r) => type(r.depositRateType))
-      .map((r) => parseRate(r.rate))
-      .filter((v): v is number => v !== null);
-    return vals.length ? Math.max(...vals) : null;
-  };
-  const base = max(isBaseType);
-  const bonus = max((t) => t === 'BONUS' || t === 'BUNDLE_BONUS');
-  const intro = max((t) => t === 'INTRODUCTORY');
-  const bonusRows = rates.filter((r) => r.depositRateType === 'BONUS' || r.depositRateType === 'BUNDLE_BONUS').length;
+/**
+ * Indicative headline rates at a reference balance. Rows apply by DOLLAR
+ * tier; distinct bonus rows that apply at the same balance are summed (e.g.
+ * Virgin Money Boost Saver: 0.05% + 0.50% + 5.75% = 6.30%); overlapping base
+ * rows are alternatives (plans, special eligibility) and the best VARIABLE/
+ * FLOATING one is preferred over FIXED promotional rows. This is a diagnostic
+ * approximation; the engine (phase 1) will evaluate conditions properly.
+ */
+export function savingsHeadline(rates: DepositRate[], balance = 10_000): SavingsHeadline {
+  const applicable = rates
+    .filter((r) => appliesAtBalance(r, balance))
+    .map((r) => ({ r, v: parseRate(r.rate) }))
+    .filter((x): x is { r: DepositRate; v: number } => x.v !== null);
+
+  const bases = applicable.filter((x) => isBaseType(x.r.depositRateType));
+  const preferred = bases.filter((x) => x.r.depositRateType !== 'FIXED');
+  const baseVals = (preferred.length ? preferred : bases).map((x) => x.v);
+  const base = baseVals.length ? Math.max(...baseVals) : null;
+  const baseAlternatives = new Set(baseVals).size;
+
+  const seenBonus = new Set<string>();
+  const bonusVals: number[] = [];
+  for (const x of applicable) {
+    if (x.r.depositRateType !== 'BONUS' && x.r.depositRateType !== 'BUNDLE_BONUS') continue;
+    const sig = `${x.v}|${freeTextParts(x.r).join('|')}|${structuredConditionTypes(x.r).join(',')}`;
+    if (seenBonus.has(sig)) continue;
+    seenBonus.add(sig);
+    bonusVals.push(x.v);
+  }
+  const bonus = bonusVals.length ? bonusVals.reduce((a, b) => a + b, 0) : null;
+
+  const introVals = applicable.filter((x) => x.r.depositRateType === 'INTRODUCTORY').map((x) => x.v);
+  const intro = introVals.length ? Math.max(...introVals) : null;
+
   const ongoing = base === null && bonus === null ? null : (base ?? 0) + (bonus ?? 0);
   const withIntro = intro === null ? null : (ongoing ?? 0) + intro;
-  return { base, bonus, intro, bonusRows, ongoing, withIntro };
+  return { balance, base, bonus, intro, bonusRows: bonusVals.length, baseAlternatives, ongoing, withIntro };
+}
+
+const FOREIGN_CURRENCY_RE = /\b(USD|CNY|RMB|EUR|GBP|NZD|JPY|HKD|SGD|CAD|CHF|INR)\b|foreign currency/i;
+const BUSINESS_RE = /\b(business|smsf|self[- ]managed super|trust|corporate|commercial|community|club|not[- ]for[- ]profit|farm)\b/i;
+
+/** Product looks like a non-AUD (foreign-currency) product. */
+export function isForeignCurrency(name: string | undefined, description?: string): boolean {
+  return FOREIGN_CURRENCY_RE.test(`${name ?? ''} ${description ?? ''}`);
+}
+
+/** Product looks aimed at businesses, SMSFs, trusts or organisations rather than individuals. */
+export function isNonPersonal(
+  name: string | undefined,
+  eligibility?: Array<{ eligibilityType?: string }>,
+): boolean {
+  if ((eligibility ?? []).some((e) => e.eligibilityType === 'BUSINESS')) return true;
+  return BUSINESS_RE.test(name ?? '');
 }

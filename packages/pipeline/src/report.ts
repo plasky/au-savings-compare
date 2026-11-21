@@ -6,6 +6,8 @@ import {
   appliesToTerm,
   describeTiers,
   isBaseType,
+  isForeignCurrency,
+  isNonPersonal,
   KNOWN_DEPOSIT_RATE_TYPES,
   savingsHeadline,
   structuredConditionTypes,
@@ -124,7 +126,11 @@ const FLAG_DEFS = {
   TIER_NUMERIC_VALUES: 'Tier min/max sent as numbers instead of strings',
   TIER_LEGACY_CONDITIONS: 'Tier applicabilityConditions as a single object (pre-v6 shape)',
   BONUS_FREE_TEXT_ONLY: 'Bonus rate whose conditions exist only as free text',
-  HEADLINE_IMPLAUSIBLE: `Base + bonus above ${IMPLAUSIBLE_HEADLINE * 100}% — likely a "total rate" bonus double-counted, or bad data`,
+  HEADLINE_IMPLAUSIBLE: `Base + stacked bonuses at $10k above ${IMPLAUSIBLE_HEADLINE * 100}% — likely a "total rate" bonus double-counted, or bad data`,
+  OVERLAPPING_BASE_ROWS: 'Several different base rates apply at the same balance — plan or eligibility alternatives that need disambiguating',
+  INTRO_MAYBE_TOTAL: 'Introductory rate of 3%+ — probably published as the total rate rather than an add-on to base',
+  NON_AUD_PRODUCT: 'Foreign-currency product (to exclude)',
+  NON_PERSONAL_PRODUCT: 'Business / SMSF / trust / organisation product (to exclude for a household)',
 };
 
 function label(file: RawEndpointFile, d: ProductDetail | null, productId: string): string {
@@ -217,12 +223,26 @@ export function analyse(raws: RawEndpointFile[], status: CrawlStatus | null, ext
       }
 
       const brand = d.brandName ?? file.brands[0]?.brandName ?? file.slug;
+      const foreign = isForeignCurrency(d.name, d.description);
+      const nonPersonal = isNonPersonal(d.name, d.eligibility);
+      if (foreign) flags.add('NON_AUD_PRODUCT', where);
+      if (nonPersonal) flags.add('NON_PERSONAL_PRODUCT', where);
+      const percentFormatted = rates.some((r) => (parseRate(r.rate) ?? 0) > PERCENT_FORMATTED);
+      const rankable = !foreign && !nonPersonal && !percentFormatted;
+
       if (cat === 'TRANS_AND_SAVINGS_ACCOUNTS') {
         if (!hasBase) flags.add('SAVINGS_WITHOUT_BASE', where);
         const h = savingsHeadline(rates);
         const headline = Math.max(h.ongoing ?? 0, h.withIntro ?? 0);
         if ((h.ongoing ?? 0) > IMPLAUSIBLE_HEADLINE) flags.add('HEADLINE_IMPLAUSIBLE', `${where}: base ${pct(h.base)} + bonus ${pct(h.bonus)}`);
-        if (headline > 0) {
+        if (h.baseAlternatives > 1) flags.add('OVERLAPPING_BASE_ROWS', `${where}: ${h.baseAlternatives} base rates at $10k`);
+        if ((h.intro ?? 0) >= 0.03) flags.add('INTRO_MAYBE_TOTAL', `${where}: base ${pct(h.base)}, intro ${pct(h.intro)}`);
+        if (headline > 0 && rankable) {
+          const notes = [
+            h.bonusRows > 1 ? `${h.bonusRows} bonuses stacked` : '',
+            h.baseAlternatives > 1 ? `${h.baseAlternatives} base alternatives` : '',
+            (h.intro ?? 0) >= 0.03 ? 'intro may be total' : '',
+          ];
           topSavings.push({
             brand,
             product: d.name ?? p.productId,
@@ -231,12 +251,12 @@ export function analyse(raws: RawEndpointFile[], status: CrawlStatus | null, ext
             bonus: h.bonus,
             intro: h.intro,
             headline,
-            note: h.bonusRows > 1 ? `${h.bonusRows} bonus rows` : '',
+            note: notes.filter(Boolean).join('; '),
           });
         }
       }
 
-      if (cat === 'TERM_DEPOSITS') {
+      if (cat === 'TERM_DEPOSITS' && rankable) {
         tdProducts++;
         const candidates = rates
           .filter((r) => isBaseType(r.depositRateType) && appliesToTerm(r, 12))
@@ -436,15 +456,19 @@ export function renderMarkdown(r: Report): string {
   for (const f of r.flags.filter((f) => f.count)) {
     out.push(`<details><summary>${f.code} — examples</summary>\n\n${f.examples.map((x) => `- ${x}`).join('\n')}\n\n</details>`);
   }
-  out.push(`## Top savings headlines (base + best bonus, + intro where present)`);
+  out.push(`## Top savings headlines at a $10,000 balance (personal AUD products)`);
+  out.push(
+    'Headline = base + stacked bonuses (+ intro where present), assuming all conditions are met and adjustments are additive as the standard says. ' +
+      'Rows noted "intro may be total" are probably overstated.',
+  );
   out.push(
     table(
       ['Brand', 'Product', 'Base', 'Bonus', 'Intro', 'Headline', 'Note'],
       r.topSavings.map((t) => [t.brand, t.product, pct(t.base), pct(t.bonus), pct(t.intro), pct(t.headline), t.note]),
     ),
   );
-  out.push(`## Top 12-month term deposits`);
-  out.push(`${r.td12Coverage.with12m} of ${r.td12Coverage.products} term-deposit products have an identifiable 12-month rate.`);
+  out.push(`## Top 12-month term deposits (personal AUD products)`);
+  out.push(`${r.td12Coverage.with12m} of ${r.td12Coverage.products} personal AUD term-deposit products have an identifiable 12-month rate.`);
   out.push(table(['Brand', 'Product', 'Rate', 'Paid / tiers'], r.topTd12.map((t) => [t.brand, t.product, pct(t.headline), truncate(t.note, 90)])));
   return out.join('\n\n') + '\n';
 }

@@ -51,8 +51,28 @@ function tierRange(tier: RateTier, unit: string): Range | null {
   return { min, max: max === null || max === 0 ? null : max };
 }
 
-/** Term ranges (in months) a term-deposit rate row applies to, from additionalValue or MONTH/DAY tiers. */
-export function termRangesMonths(rate: DepositRate): Range[] {
+const TERM_TEXT_RE = /(\d+(?:\.\d+)?)\s*-?\s*(years?|yrs?|y|months?|mths?|mo|m|days?|d)\b/i;
+
+/** Parse a single term ("12 Month", "12M", "1 year", "90 days") from free text, in months. */
+export function termFromText(text: string | undefined | null): number | null {
+  if (!text) return null;
+  const m = TERM_TEXT_RE.exec(text);
+  if (!m) return null;
+  const n = Number(m[1]);
+  const unit = m[2]!.toLowerCase();
+  if (!Number.isFinite(n) || n <= 0) return null;
+  const months = unit.startsWith('y') ? n * 12 : unit.startsWith('d') ? n / 30.4375 : n;
+  // Reject implausible terms (e.g. "$5m" amounts read as months).
+  if (months > 120) return null;
+  return Math.round(months * 100) / 100;
+}
+
+/**
+ * Term ranges (in months) a term-deposit rate row applies to: from the ISO
+ * duration in additionalValue, MONTH/DAY tiers, the row's own text, and
+ * finally `fallbackText` (typically the product name, e.g. "12 Month Term Deposit").
+ */
+export function termRangesMonths(rate: DepositRate, fallbackText?: string): Range[] {
   const fromDuration = durationToMonths(rate.additionalValue);
   if (fromDuration !== null) return [{ min: fromDuration, max: fromDuration }];
   const ranges: Range[] = [];
@@ -62,11 +82,14 @@ export function termRangesMonths(rate: DepositRate): Range[] {
     const days = tierRange(tier, 'DAY');
     if (days) ranges.push({ min: days.min / 30.4375, max: days.max === null ? null : days.max / 30.4375 });
   }
-  return ranges;
+  if (ranges.length) return ranges;
+  const av = typeof rate.additionalValue === 'string' ? rate.additionalValue : undefined;
+  const fromText = termFromText(av) ?? termFromText(rate.additionalInfo) ?? termFromText(fallbackText);
+  return fromText !== null ? [{ min: fromText, max: fromText }] : [];
 }
 
-export function appliesToTerm(rate: DepositRate, months: number, tolerance = 0.5): boolean {
-  return termRangesMonths(rate).some((r) =>
+export function appliesToTerm(rate: DepositRate, months: number, tolerance = 0.5, fallbackText?: string): boolean {
+  return termRangesMonths(rate, fallbackText).some((r) =>
     r.max !== null && r.max === r.min
       ? Math.abs(r.min - months) <= tolerance
       : r.min - tolerance <= months && (r.max === null || months <= r.max + tolerance),

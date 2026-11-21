@@ -20,6 +20,7 @@ export const CONDITION_TYPES = [
   'AGE_RANGE',
   'LINKED_ACCOUNT',
   'ONLINE_ONLY',
+  'SOLE_HOLDER_ONLY',
   'OTHER',
 ] as const;
 
@@ -69,6 +70,7 @@ Rules:
   AGE_RANGE: eligibility by age; minAge/maxAge inclusive, null when open-ended.
   LINKED_ACCOUNT: must hold another specified product with the bank (e.g. an everyday transaction account).
   ONLINE_ONLY: must be opened or managed online only.
+  SOLE_HOLDER_ONLY: not available on joint accounts.
   OTHER: anything else; describe it.
 - Fill amount/count/minAge/maxAge only where relevant to the type, otherwise null.
 - rateSemantics: the CDR standard says a BONUS or INTRODUCTORY rate is added to the base rate. Use TOTAL_RATE_INCLUDING_BASE only if the text clearly says the quoted figure is the total rate (for example the row's rate equals a stated total that already includes the base). Use ADDITIVE_TO_BASE when the text describes it as a bonus/margin on top of the base or gives no contrary signal. Use UNCLEAR when the text conflicts.

@@ -76,6 +76,10 @@ export interface Report {
   topSavings: TopRow[];
   topTd12: TopRow[];
   td12Coverage: { products: number; with12m: number };
+  review?: {
+    stats: { candidates: number; reviewed: number; stale: number; queued: number; belowThreshold: number; threshold: number };
+    top: Array<{ brand: string; name: string; headline: number; reasons: string[] }>;
+  };
   extraction?: {
     model: string;
     apiKey: string;
@@ -193,7 +197,7 @@ export function analyse(raws: RawEndpointFile[], status: CrawlStatus | null, ext
         if (type === 'INTRODUCTORY' && !isIsoDuration(r.additionalValue)) {
           flags.add('INTRO_WITHOUT_DURATION', `${where}: additionalValue=${JSON.stringify(r.additionalValue ?? null)}`);
         }
-        if (cat === 'TERM_DEPOSITS' && isBaseType(type) && termRangesMonths(r).length === 0) {
+        if (cat === 'TERM_DEPOSITS' && isBaseType(type) && termRangesMonths(r, d.name).length === 0) {
           flags.add('TD_RATE_WITHOUT_TERM', `${where}: ${type} ${pct(value)} ${truncate(String(r.additionalValue ?? r.additionalInfo ?? ''), 80)}`);
         }
 
@@ -259,7 +263,7 @@ export function analyse(raws: RawEndpointFile[], status: CrawlStatus | null, ext
       if (cat === 'TERM_DEPOSITS' && rankable) {
         tdProducts++;
         const candidates = rates
-          .filter((r) => isBaseType(r.depositRateType) && appliesToTerm(r, 12))
+          .filter((r) => isBaseType(r.depositRateType) && appliesToTerm(r, 12, 0.5, d.name))
           .map((r) => ({ r, v: parseRate(r.rate) }))
           .filter((x): x is { r: DepositRate; v: number } => x.v !== null && x.v <= PERCENT_FORMATTED)
           .sort((a, b) => b.v - a.v);
@@ -434,6 +438,19 @@ export function renderMarkdown(r: Report): string {
     ),
   );
   out.push(`Structured condition types: ${kv(b.conditionTypes)}`);
+  if (r.review) {
+    const s = r.review.stats;
+    out.push(`## Claude review queue (weekly, in chat)`);
+    out.push(
+      table(
+        ['Needing judgement', 'Reviewed', 'Changed since review', `Queued (≥${(s.threshold * 100).toFixed(1)}%)`, 'Below threshold'],
+        [[s.candidates, s.reviewed, s.stale, s.queued, s.belowThreshold]],
+      ),
+    );
+    if (r.review.top.length) {
+      out.push(table(['Brand', 'Product', 'Headline', 'Why'], r.review.top.map((t) => [t.brand, t.name, pct(t.headline), t.reasons.join(', ')])));
+    }
+  }
   if (r.extraction) {
     const e = r.extraction;
     out.push(`## Claude condition extraction (${e.model})`);
@@ -484,6 +501,10 @@ export async function buildReport(outDir: string): Promise<Report> {
   const status = await readJsonIfExists<CrawlStatus>(join(outDir, 'status.json'));
   const extraction = await readJsonIfExists<ExtractionOutput>(join(outDir, 'conditions.json'));
   const report = analyse(raws, status, extraction);
+  const queue = await readJsonIfExists<{ stats: NonNullable<Report['review']>['stats']; items: NonNullable<Report['review']>['top'] }>(
+    join(outDir, 'review-queue.json'),
+  );
+  if (queue) report.review = { stats: queue.stats, top: queue.items.slice(0, 15) };
   await writeJson(join(outDir, 'report.json'), report);
   await writeFile(join(outDir, 'report.md'), renderMarkdown(report), 'utf8');
   return report;

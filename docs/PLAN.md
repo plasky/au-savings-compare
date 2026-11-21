@@ -10,7 +10,7 @@ Last updated 22 Nov 2026.
 | Products | Savings and transaction accounts, term deposits, cash ETFs. **Out of scope for now:** super (you're happy with your fund) and mortgage offset (no mortgage). |
 | Household | Two people, **joint accounts only**. Interest is split 50/50 and each half is taxed at that person's marginal rate. The Financial Claims Scheme limit is $250k per holder per ADI, so a two-holder joint balance is covered up to $500k per ADI. |
 | Data | Automated from day one: CDR product reference data, crawled nightly by GitHub Actions and published to the `data` branch. |
-| Bonus conditions | Banks' structured conditions plus **Claude extraction from day one** (`claude-haiku-5-5`, structured outputs), cached by text hash. A manual override file wins over both. |
+| Bonus conditions | **Weekly Claude review in Paul's chat**, using his Claude plan rather than paid API credit. The nightly crawl queues products whose rate structure needs judgement. Claude records how each product's rows combine, plus conditions and eligibility, in `curation/reviews.json`, validated by `review-apply` (see [WEEKLY_REVIEW.md](WEEKLY_REVIEW.md)). The paid-API extraction path stays available behind the `USE_ANTHROPIC_API` repo variable. |
 | Tax | Toggle between pre- and after-tax. Rules live in per-financial-year files (2026–27 brackets including the 15% rate, Medicare levy, low-income tax offset). |
 | Optimiser | Mode switch: **Manual / Optimised / Compare**. |
 | Deposit cycling | Off by default, available as a toggle. |
@@ -124,7 +124,14 @@ Last updated 22 Nov 2026.
 1. Move Claude extraction from per-row to **per-product "rate composition"**: send the whole `depositRates` array and ask for each row's role (base, plan alternative, stacking bonus, alternative bonus, intro), additive vs total, eligibility (age, new customer, plan fee, business), term (from name if needed) and conditions. Then check the result with deterministic rules, e.g. that the composed headline matches any total the text states. A manual overrides file covers what's left.
 2. The normaliser auto-corrects percent-formatted rates (and flags them), treats `max 0` as unbounded, and excludes non-AUD and non-personal products.
 3. Phase 2: keep raw responses as Actions artifacts, and commit only the compact normalised `products.json` (plus the extraction cache) to the `data` branch.
-4. **Blocker:** the Anthropic account behind `ANTHROPIC_API_KEY` needs credit. The key itself is valid and correctly placed.
+4. ~~Blocker: API credit~~ Replaced by the weekly in-chat review (22 Nov 2026).
+
+**First full review (22 Nov 2026):**
+- All **167** products needing judgement were reviewed: 110 high, 50 medium and 7 low confidence.
+- 17 rows turned out to be total rates, not add-ons, and 46 rows were excluded (competition prizes, staff-only, SMSF-only, overseas students and the like).
+- 16 products have plan, age or balance-band alternatives.
+- 48 products are restricted to niche audiences (children, ADF, police, teachers, retirees 55+, first home buyers and so on).
+- Joint accounts: at least Bankwest Easy Saver is sole-holder only, and Westpac Life's 0.70% Spend&Save bonus excludes joint accounts.
 
 ## Known constraints
 

@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+import { readFile, writeFile } from 'node:fs/promises';
 import { join } from 'node:path';
 import { parseArgs } from 'node:util';
 import { crawl } from './crawl.js';
@@ -14,6 +15,15 @@ import {
 } from './extract/conditions.js';
 import { CdrClient } from './http.js';
 import { buildReport, loadRaws, renderMarkdown } from './report.js';
+import {
+  applyAnswers,
+  buildCandidates,
+  buildQueue,
+  DEFAULT_THRESHOLD,
+  emptyReviews,
+  renderBatch,
+  type ReviewsFile,
+} from './review/review.js';
 import { readJsonIfExists, writeJson } from './util.js';
 import { EXTRACTION_MODEL, EXTRACTION_PROMPT_VERSION } from './config.js';
 
@@ -29,8 +39,57 @@ const { positionals, values } = parseArgs({
     limit: { type: 'string' },
     filter: { type: 'string' },
     concurrency: { type: 'string' },
+    reviews: { type: 'string', default: '../../curation/reviews.json' },
+    threshold: { type: 'string' },
+    file: { type: 'string', default: 'review-batch.md' },
+    answers: { type: 'string', default: 'answers.json' },
   },
 });
+
+async function loadReviews(): Promise<ReviewsFile> {
+  const file = await readJsonIfExists<ReviewsFile>(values.reviews!);
+  return file && file.entries ? file : emptyReviews();
+}
+
+/** Build the review queue from the crawl in --out and write review-queue.json (no inputs, just stats + keys). */
+async function cmdReviewQueue() {
+  const raws = await loadRaws(values.out!);
+  const threshold = values.threshold ? Number(values.threshold) : DEFAULT_THRESHOLD;
+  const { queue, stats } = buildQueue(raws, await loadReviews(), threshold);
+  await writeJson(join(values.out!, 'review-queue.json'), {
+    generatedAt: new Date().toISOString(),
+    stats,
+    items: queue.map((c) => ({ key: c.key, brand: c.brand, name: c.name, category: c.category, headline: c.headline, reasons: c.reasons })),
+  });
+  log(
+    `review queue: ${stats.queued} to review (≥${(threshold * 100).toFixed(1)}%), ${stats.reviewed} already reviewed, ` +
+      `${stats.stale} changed since review, ${stats.belowThreshold} below threshold, ${stats.candidates} candidates`,
+  );
+}
+
+/** Render the top --limit queued products to --file for reading. */
+async function cmdReviewBatch() {
+  const raws = await loadRaws(values.out!);
+  const threshold = values.threshold ? Number(values.threshold) : DEFAULT_THRESHOLD;
+  const { queue, stats } = buildQueue(raws, await loadReviews(), threshold);
+  const limit = values.limit ? Number(values.limit) : 40;
+  const batch = queue.slice(0, limit);
+  await writeFile(values.file!, renderBatch(batch), 'utf8');
+  log(`wrote ${batch.length} of ${stats.queued} queued products to ${values.file} (threshold ${(threshold * 100).toFixed(1)}%)`);
+}
+
+/** Validate --answers against the current crawl and merge into --reviews. */
+async function cmdReviewApply() {
+  const raws = await loadRaws(values.out!);
+  const reviews = await loadReviews();
+  const answers = JSON.parse(await readFile(values.answers!, 'utf8'));
+  const result = applyAnswers(answers, buildCandidates(raws), reviews);
+  for (const e of result.errors) console.log(`ERROR   ${e}`);
+  for (const w of result.warnings) console.log(`warning ${w}`);
+  if (result.applied.length) await writeJson(values.reviews!, reviews);
+  log(`applied ${result.applied.length} reviews, ${result.errors.length} errors, ${result.warnings.length} warnings`);
+  if (result.errors.length) process.exitCode = 1;
+}
 
 async function cmdCrawl() {
   const client = new CdrClient();
@@ -114,7 +173,14 @@ async function cmdReport() {
   log(`report written to ${join(values.out!, 'report.md')}`);
 }
 
-const commands: Record<string, () => Promise<void>> = { crawl: cmdCrawl, extract: cmdExtract, report: cmdReport };
+const commands: Record<string, () => Promise<void>> = {
+  crawl: cmdCrawl,
+  extract: cmdExtract,
+  report: cmdReport,
+  'review-queue': cmdReviewQueue,
+  'review-batch': cmdReviewBatch,
+  'review-apply': cmdReviewApply,
+};
 const command = positionals[0];
 if (!command || !commands[command]) {
   console.error(`usage: cli.ts <${Object.keys(commands).join('|')}> [--out dir] [--cache file] [--limit n] [--filter text]`);

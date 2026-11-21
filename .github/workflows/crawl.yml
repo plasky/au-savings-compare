@@ -14,6 +14,7 @@ on:
     branches: [main]
     paths:
       - 'packages/pipeline/src/**'
+      - 'curation/**'
       - '.github/workflows/crawl.yml'
 
 permissions:
@@ -60,8 +61,14 @@ jobs:
           if [[ "$LIMIT" =~ ^[0-9]+$ ]]; then LIMIT_ARG="--limit $LIMIT"; fi
           pnpm --filter @asc/pipeline exec tsx src/cli.ts crawl --out "$OUT" $LIMIT_ARG
 
-      - name: Extract bonus conditions with Claude
+      - name: Build the weekly Claude review queue
         if: steps.crawl.outcome == 'success'
+        run: pnpm --filter @asc/pipeline exec tsx src/cli.ts review-queue --out "$OUT" --reviews "$GITHUB_WORKSPACE/curation/reviews.json"
+
+      # Optional paid path: set the repository variable USE_ANTHROPIC_API=true (and the
+      # ANTHROPIC_API_KEY secret, with API credit) to extract conditions via the API nightly.
+      - name: Extract bonus conditions with the Claude API (optional)
+        if: steps.crawl.outcome == 'success' && vars.USE_ANTHROPIC_API == 'true'
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: pnpm --filter @asc/pipeline exec tsx src/cli.ts extract --out "$OUT" --cache "$CACHE"

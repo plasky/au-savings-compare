@@ -37,9 +37,11 @@ ANTHROPIC_API_KEY=... pnpm --filter @asc/pipeline exec tsx src/cli.ts extract --
 pnpm --filter @asc/pipeline exec tsx src/cli.ts report --out out             # writes out/report.md
 ```
 
-## Secrets
+## Condition reviews
 
-The crawl workflow needs `ANTHROPIC_API_KEY` as a repository Actions secret. Without it, the crawl and report still run, and the extraction step is skipped with a warning.
+Bonus conditions, and how each product's rate rows combine, are reviewed weekly by Claude in a chat session, with no API key needed. The crawl lists what needs reviewing in `latest/review-queue.json`, and reviews are committed to `curation/reviews.json`. See [docs/WEEKLY_REVIEW.md](docs/WEEKLY_REVIEW.md).
+
+Optional paid path: set the repo variable `USE_ANTHROPIC_API=true` and the `ANTHROPIC_API_KEY` secret (with API credit) to also run per-row extraction through the API every night.
 
 ## Data and disclaimer
 

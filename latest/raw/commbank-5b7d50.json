@@ -20,13 +20,13 @@
     "pagesFetched": 1,
     "productCount": 75,
     "categoryCounts": {
+      "REGULATED_TRUST_ACCOUNTS": 1,
       "OVERDRAFTS": 4,
       "TRANS_AND_SAVINGS_ACCOUNTS": 21,
       "CRED_AND_CHRG_CARDS": 15,
       "BUY_NOW_PAY_LATER": 1,
       "TERM_DEPOSITS": 5,
       "BUSINESS_LOANS": 4,
-      "REGULATED_TRUST_ACCOUNTS": 1,
       "MARGIN_LOANS": 2,
       "TRAVEL_CARDS": 1,
       "LEASES": 2,
@@ -18639,7 +18639,7 @@
           }
         ],
         "productId": "da527ba1942246edac4d5da36dbc1da8",
-        "lastUpdated": "2026-11-22T06:00:50.000Z",
+        "lastUpdated": "2026-11-22T08:00:05.000Z",
         "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
         "name": "Commonwealth Direct Investment Account",
         "description": "A cash management account for investors allowing you to trade and transact when and where it suits you.",

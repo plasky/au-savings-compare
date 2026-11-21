@@ -608,6 +608,7 @@
           }
         ],
         "eligibility": [],
+        "lendingRates": [],
         "fees": [
           {
             "name": "Bank Cheque Withdrawal",
@@ -628,7 +629,6 @@
             }
           }
         ],
-        "lendingRates": [],
         "depositRates": [
           {
             "depositRateType": "FIXED",
@@ -1209,6 +1209,7 @@
         "brandName": "Bendigo Bank",
         "isTailored": false,
         "bundles": [],
+        "cardArt": [],
         "features": [
           {
             "featureType": "OTHER",
@@ -1252,7 +1253,6 @@
             "featureType": "NPP_PAYID"
           }
         ],
-        "cardArt": [],
         "constraints": [
           {
             "constraintType": "OPENING_BALANCE",
@@ -1468,6 +1468,8 @@
         "isTailored": false,
         "bundles": [],
         "cardArt": [],
+        "constraints": [],
+        "lendingRates": [],
         "features": [
           {
             "featureType": "UNLIMITED_TXNS"
@@ -1483,7 +1485,6 @@
             "additionalValue": "A card is available for the product to access funds"
           }
         ],
-        "constraints": [],
         "eligibility": [
           {
             "eligibilityType": "PENSION_RECIPIENT",
@@ -1498,6 +1499,15 @@
           {
             "eligibilityType": "RESIDENCY_STATUS",
             "additionalValue": "You need to be an Australian citizen or resident"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0000000000000000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1Y",
+            "applicationType": "PERIODIC"
           }
         ],
         "fees": [
@@ -1621,16 +1631,6 @@
             "fixedAmount": {
               "amount": "0.000000"
             }
-          }
-        ],
-        "lendingRates": [],
-        "depositRates": [
-          {
-            "depositRateType": "VARIABLE",
-            "rate": "0.0000000000000000",
-            "calculationFrequency": "P1D",
-            "applicationFrequency": "P1Y",
-            "applicationType": "PERIODIC"
           }
         ],
         "additionalInformation": {
@@ -2033,6 +2033,7 @@
         "applicationUri": "https://applynow.bendigobank.com.au/apply/#/apply/new/depositAccounts/productSelection?productCode=DDA-14-TAA",
         "isTailored": false,
         "bundles": [],
+        "cardArt": [],
         "features": [
           {
             "featureType": "DIGITAL_BANKING",
@@ -2046,7 +2047,7 @@
             "additionalValue": "A card is available for the product to access funds"
           }
         ],
-        "cardArt": [],
+        "constraints": [],
         "eligibility": [],
         "fees": [
           {
@@ -2184,7 +2185,7 @@
             }
           }
         ],
-        "constraints": [],
+        "lendingRates": [],
         "depositRates": [
           {
             "depositRateType": "VARIABLE",
@@ -2194,7 +2195,6 @@
             "applicationType": "PERIODIC"
           }
         ],
-        "lendingRates": [],
         "additionalInformation": {
           "overviewUri": "https://www.bendigobank.com.au/personal/transaction-accounts/everyday-account/",
           "termsUri": "https://www.bendigobank.com.au/disclosure-documents/",
@@ -3486,6 +3486,7 @@
         "isTailored": false,
         "bundles": [],
         "cardArt": [],
+        "constraints": [],
         "features": [
           {
             "featureType": "NPP_ENABLED"
@@ -3504,7 +3505,6 @@
             "additionalValue": "2"
           }
         ],
-        "constraints": [],
         "eligibility": [],
         "fees": [
           {
@@ -4282,7 +4282,6 @@
             "featureType": "NPP_ENABLED"
           }
         ],
-        "constraints": [],
         "eligibility": [
           {
             "eligibilityType": "MAX_AGE",
@@ -4290,6 +4289,7 @@
             "additionalInfo": "Available to children under 12 years. Account must be opened in the childs names with a parent or guardian acting as a non-titled member."
           }
         ],
+        "constraints": [],
         "fees": [],
         "lendingRates": [],
         "depositRates": [

@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-21T21:16:59.747Z",
+  "generatedAt": "2026-11-21T21:24:58.513Z",
   "crawl": {
-    "crawledAt": "2026-11-21T21:16:49.021Z",
+    "crawledAt": "2026-11-21T21:24:56.628Z",
     "registerOk": true,
     "brandsTotal": 390,
     "brandsInScope": 306,
@@ -298,7 +298,8 @@
       "4": 13,
       "5": 16,
       "6": 38,
-      "7": 1477
+      "7": 1477,
+      "none": 1
     },
     "cors": {
       "browserReady": 242,
@@ -312,18 +313,18 @@
       "TRANS_AND_SAVINGS_ACCOUNTS": 892,
       "TERM_DEPOSITS": 654
     },
-    "detailsOk": 1544,
-    "detailsMissing": 2,
+    "detailsOk": 1545,
+    "detailsMissing": 1,
     "withDepositRates": {
-      "TRANS_AND_SAVINGS_ACCOUNTS": 757,
+      "TRANS_AND_SAVINGS_ACCOUNTS": 758,
       "TERM_DEPOSITS": 646
     }
   },
   "rates": {
     "rowsByType": {
       "TRANS_AND_SAVINGS_ACCOUNTS": {
-        "VARIABLE": 1792,
-        "FIXED": 94,
+        "VARIABLE": 1796,
+        "FIXED": 102,
         "BONUS": 251,
         "INTRODUCTORY": 41,
         "BUNDLE_BONUS": 3
@@ -337,7 +338,7 @@
       }
     },
     "tierMethods": {
-      "WHOLE_BALANCE": 10116,
+      "WHOLE_BALANCE": 10128,
       "PER_TIER": 1027
     }
   },
@@ -365,10 +366,9 @@
     {
       "code": "DETAIL_MISSING",
       "description": "In-scope product whose detail request failed",
-      "count": 2,
+      "count": 1,
       "examples": [
-        "Bank of Sydney — usd_fccy_account: http-406 (PCUA006 | Unsupported Version | Unable to find the version requested in x-v)",
-        "BankSA — BSAFarmManagementDeposit: http-404 (404 | Resource Not Found | Product not found)"
+        "Bank of Sydney — usd_fccy_account: http-406 (PCUA006 | Unsupported Version | Unable to find the version requested in x-v)"
       ]
     },
     {
@@ -509,109 +509,71 @@
     },
     {
       "code": "HEADLINE_IMPLAUSIBLE",
-      "description": "Base + bonus above 9% — likely a \"total rate\" bonus double-counted, or bad data",
-      "count": 10,
+      "description": "Base + stacked bonuses at $10k above 9% — likely a \"total rate\" bonus double-counted, or bad data",
+      "count": 9,
       "examples": [
-        "Bankwest — Bankwest Easy Saver: base 11.50% + bonus 0.20%",
+        "Bendigo Bank — Bendigo Reward Saver: base 0.10% + bonus 9.80%",
         "Defence Bank Limited — Salute Account: base 4.25% + bonus 6.00%",
+        "My State PM Production — Bonus Saver: base — + bonus 10.95%",
         "Traditional Credit Union — S1 Everyday Account: base 200.00% + bonus —",
         "Traditional Credit Union — S2 Budget Account: base 200.00% + bonus —",
-        "Traditional Credit Union — S24 Business Transaction Account: base 225.00% + bonus —",
-        "Traditional Credit Union — S28 Benevolent Account: base 225.00% + bonus —"
+        "Traditional Credit Union — S3 Christmas Club Account: base 225.00% + bonus —"
+      ]
+    },
+    {
+      "code": "OVERLAPPING_BASE_ROWS",
+      "description": "Several different base rates apply at the same balance — plan or eligibility alternatives that need disambiguating",
+      "count": 21,
+      "examples": [
+        "ANZ — Farm Management Deposit Fixed Term: 5 base rates at $10k",
+        "Bank of China — PassbookSaving AUD Statement : 2 base rates at $10k",
+        "Bank of China — PassbookSaving AUD: 2 base rates at $10k",
+        "Bank of China — Overseas Student Statement : 2 base rates at $10k",
+        "Bank of China — Overseas Student: 2 base rates at $10k",
+        "Bank of China — Online Saver Statement: 2 base rates at $10k"
+      ]
+    },
+    {
+      "code": "INTRO_MAYBE_TOTAL",
+      "description": "Introductory rate of 3%+ — probably published as the total rate rather than an add-on to base",
+      "count": 19,
+      "examples": [
+        "Bank of Melbourne — Maxi Saver: base 1.25%, intro 4.15%",
+        "Bank of Queensland — Business WebSavings Account: base 1.50%, intro 5.00%",
+        "Bank of Queensland — Superannuation Savings Account: base 1.00%, intro 3.35%",
+        "BankSA — Maxi Saver: base 1.25%, intro 4.15%",
+        "bcu — Bonus Saver: base 0.05%, intro 5.80%",
+        "BNK Bank (Goldfields Money/BCHL) — Cash Management Account: base 4.50%, intro 5.10%"
+      ]
+    },
+    {
+      "code": "NON_AUD_PRODUCT",
+      "description": "Foreign-currency product (to exclude)",
+      "count": 41,
+      "examples": [
+        "Arab Bank Australia Ltd Prod — Swiss Francs/CHF Term Deposit (Monthly)",
+        "Arab Bank Australia Ltd Prod — EURO Term Deposit (Monthly)",
+        "Arab Bank Australia Ltd Prod — Foreign Currency Statement Account (CHF)",
+        "Arab Bank Australia Ltd Prod — Foreign Currency Statement Account (EUR)",
+        "Arab Bank Australia Ltd Prod — Foreign Currency Statement Account (USD)",
+        "Arab Bank Australia Ltd Prod — USD Term Deposit (Monthly)"
+      ]
+    },
+    {
+      "code": "NON_PERSONAL_PRODUCT",
+      "description": "Business / SMSF / trust / organisation product (to exclude for a household)",
+      "count": 363,
+      "examples": [
+        "AMP Bank GO — AMP Bank GO 12 Month Business Term Deposit",
+        "AMP Bank GO — AMP Bank GO 6 Month Business Term Deposit",
+        "AMP Bank GO — AMP Bank GO Business Save",
+        "AMP Bank GO — AMP Bank GO Everyday Business Account",
+        "ANZ — Farm Management Deposit Fixed Term",
+        "ANZ — ANZ Business Notice Term Deposit"
       ]
     }
   ],
   "topSavings": [
-    {
-      "brand": "Traditional Credit Union",
-      "product": "S24 Business Transaction Account",
-      "productId": "TCU0024",
-      "base": 2.25,
-      "bonus": null,
-      "intro": null,
-      "headline": 2.25,
-      "note": ""
-    },
-    {
-      "brand": "Traditional Credit Union",
-      "product": "S28 Benevolent Account",
-      "productId": "TCU0028",
-      "base": 2.25,
-      "bonus": null,
-      "intro": null,
-      "headline": 2.25,
-      "note": ""
-    },
-    {
-      "brand": "Traditional Credit Union",
-      "product": "S3 Christmas Club Account",
-      "productId": "TCU003",
-      "base": 2.25,
-      "bonus": null,
-      "intro": null,
-      "headline": 2.25,
-      "note": ""
-    },
-    {
-      "brand": "Traditional Credit Union",
-      "product": "S4 Family/Clan/Group Account",
-      "productId": "TCU004",
-      "base": 2.25,
-      "bonus": null,
-      "intro": null,
-      "headline": 2.25,
-      "note": ""
-    },
-    {
-      "brand": "Traditional Credit Union",
-      "product": "S1 Everyday Account",
-      "productId": "TCU001",
-      "base": 2,
-      "bonus": null,
-      "intro": null,
-      "headline": 2,
-      "note": ""
-    },
-    {
-      "brand": "Traditional Credit Union",
-      "product": "S2 Budget Account",
-      "productId": "TCU002",
-      "base": 2,
-      "bonus": null,
-      "intro": null,
-      "headline": 2,
-      "note": ""
-    },
-    {
-      "brand": "Traditional Credit Union",
-      "product": "S6 Student Account",
-      "productId": "TCU006",
-      "base": 2,
-      "bonus": null,
-      "intro": null,
-      "headline": 2,
-      "note": ""
-    },
-    {
-      "brand": "Traditional Credit Union",
-      "product": "S9 Child account",
-      "productId": "TCU009",
-      "base": 2,
-      "bonus": null,
-      "intro": null,
-      "headline": 2,
-      "note": ""
-    },
-    {
-      "brand": "Bankwest",
-      "product": "Bankwest Easy Saver",
-      "productId": "d10438974ab8417bab388149da5053bb",
-      "base": 0.115,
-      "bonus": 0.002,
-      "intro": 0.027,
-      "headline": 0.14400000000000002,
-      "note": "4 bonus rows"
-    },
     {
       "brand": "Revolut",
       "product": "Revolut Instant Access Savings",
@@ -620,7 +582,17 @@
       "bonus": null,
       "intro": 0.065,
       "headline": 0.1205,
-      "note": ""
+      "note": "4 base alternatives; intro may be total"
+    },
+    {
+      "brand": "My State PM Production",
+      "product": "Bonus Saver",
+      "productId": "f2c94853-abb7-4c8e-ae43-66427d186380",
+      "base": null,
+      "bonus": 0.1095,
+      "intro": null,
+      "headline": 0.1095,
+      "note": "2 bonuses stacked"
     },
     {
       "brand": "Rabobank",
@@ -630,7 +602,7 @@
       "bonus": null,
       "intro": 0.064,
       "headline": 0.107,
-      "note": ""
+      "note": "intro may be total"
     },
     {
       "brand": "Defence Bank Limited",
@@ -643,54 +615,14 @@
       "note": ""
     },
     {
-      "brand": "Rabobank",
-      "product": "High Interest Savings Account (SMSF)",
-      "productId": "7d432ded-374d-4c05-98c4-66da8f64aa8c",
-      "base": 0.0375,
-      "bonus": null,
-      "intro": 0.059,
-      "headline": 0.0965,
-      "note": ""
-    },
-    {
-      "brand": "BNK Bank (Goldfields Money/BCHL)",
-      "product": "Cash Management Account",
-      "productId": "1003",
-      "base": 0.045,
-      "bonus": null,
-      "intro": 0.051,
-      "headline": 0.096,
-      "note": ""
-    },
-    {
-      "brand": "Rabobank",
-      "product": "High Interest Savings Account (Business)",
-      "productId": "4d469d2c-520e-49dd-89bb-0613458c4376",
-      "base": 0.037,
-      "bonus": null,
-      "intro": 0.058,
-      "headline": 0.095,
-      "note": ""
-    },
-    {
-      "brand": "Rabobank",
-      "product": "High Interest Savings Account (Trust)",
-      "productId": "5715ac80-c738-4b37-9ad1-3735853107aa",
-      "base": 0.037,
-      "bonus": null,
-      "intro": 0.058,
-      "headline": 0.095,
-      "note": ""
-    },
-    {
-      "brand": "Bank of Queensland",
-      "product": "Business WebSavings Account",
-      "productId": "18906e88-5c03-ee11-8f6e-00224814d330",
-      "base": 0.015,
-      "bonus": null,
-      "intro": 0.05,
-      "headline": 0.065,
-      "note": ""
+      "brand": "Bendigo Bank",
+      "product": "Bendigo Reward Saver",
+      "productId": "cb6f3716-4e76-4e5b-b79d-0720756a21ac",
+      "base": 0.001,
+      "bonus": 0.098,
+      "intro": null,
+      "headline": 0.099,
+      "note": "2 bonuses stacked"
     },
     {
       "brand": "ING BANK (Australia) Ltd",
@@ -710,17 +642,37 @@
       "bonus": 0.056,
       "intro": 0.009,
       "headline": 0.065,
-      "note": "4 bonus rows"
+      "note": ""
     },
     {
-      "brand": "Summerland Bank",
-      "product": "iSave Online",
-      "productId": "3",
-      "base": 0.0075,
-      "bonus": null,
-      "intro": 0.057,
-      "headline": 0.0645,
+      "brand": "Bankwest",
+      "product": "Bankwest Easy Saver",
+      "productId": "d10438974ab8417bab388149da5053bb",
+      "base": 0.055,
+      "bonus": 0.001,
+      "intro": 0.0075,
+      "headline": 0.0635,
       "note": ""
+    },
+    {
+      "brand": "Virgin Money Australia",
+      "product": "Virgin Money Boost Saver",
+      "productId": "36906e88-5c03-ee11-8f6e-00224814d330",
+      "base": 0.0005,
+      "bonus": 0.0625,
+      "intro": null,
+      "headline": 0.063,
+      "note": "2 bonuses stacked"
+    },
+    {
+      "brand": "Westpac",
+      "product": "Westpac eSaver",
+      "productId": "SavESaver",
+      "base": 0.0125,
+      "bonus": 0.009999999999999998,
+      "intro": 0.0405,
+      "headline": 0.063,
+      "note": "2 bonuses stacked; intro may be total"
     },
     {
       "brand": "Bank of Queensland",
@@ -730,7 +682,7 @@
       "bonus": 0.062,
       "intro": null,
       "headline": 0.0625,
-      "note": "2 bonus rows"
+      "note": ""
     },
     {
       "brand": "Newcastle Permanent",
@@ -740,7 +692,17 @@
       "bonus": 0.062,
       "intro": null,
       "headline": 0.0625,
-      "note": "4 bonus rows"
+      "note": ""
+    },
+    {
+      "brand": "Westpac",
+      "product": "Westpac Life",
+      "productId": "SavLife",
+      "base": 0.001,
+      "bonus": 0.061,
+      "intro": null,
+      "headline": 0.062,
+      "note": "2 bonuses stacked"
     },
     {
       "brand": "Bank Australia",
@@ -750,7 +712,7 @@
       "bonus": 0.055,
       "intro": 0.005,
       "headline": 0.061,
-      "note": "3 bonus rows"
+      "note": ""
     },
     {
       "brand": "Defence Bank Limited",
@@ -770,7 +732,97 @@
       "bonus": 0.06,
       "intro": null,
       "headline": 0.0601,
-      "note": "2 bonus rows"
+      "note": ""
+    },
+    {
+      "brand": "ING BANK (Australia) Ltd",
+      "product": "Savings Maximiser",
+      "productId": "b7bb9da4-3913-484c-8d2d-3fc99b9b4a72",
+      "base": 0.0001,
+      "bonus": 0.0599,
+      "intro": null,
+      "headline": 0.060000000000000005,
+      "note": ""
+    },
+    {
+      "brand": "Rabobank",
+      "product": "PremiumSaver",
+      "productId": "f5079e11-c89f-43bf-bd15-91df6602699d",
+      "base": 0.009,
+      "bonus": 0.05,
+      "intro": null,
+      "headline": 0.059000000000000004,
+      "note": ""
+    },
+    {
+      "brand": "Bank of Melbourne",
+      "product": "Maxi Saver",
+      "productId": "BOMSavMaxiSaver",
+      "base": 0.0125,
+      "bonus": 0.0045,
+      "intro": 0.0415,
+      "headline": 0.0585,
+      "note": "intro may be total"
+    },
+    {
+      "brand": "Bank of Queensland",
+      "product": "Smart Saver Account",
+      "productId": "19906e88-5c03-ee11-8f6e-00224814d330",
+      "base": 0.0005,
+      "bonus": 0.058,
+      "intro": null,
+      "headline": 0.0585,
+      "note": ""
+    },
+    {
+      "brand": "BankSA",
+      "product": "Maxi Saver",
+      "productId": "BSASavMaxiSaver",
+      "base": 0.0125,
+      "bonus": 0.0045,
+      "intro": 0.0415,
+      "headline": 0.0585,
+      "note": "intro may be total"
+    },
+    {
+      "brand": "bcu",
+      "product": "Bonus Saver",
+      "productId": "278",
+      "base": 0.0005,
+      "bonus": null,
+      "intro": 0.058,
+      "headline": 0.0585,
+      "note": "intro may be total"
+    },
+    {
+      "brand": "ME Bank",
+      "product": "HomeME",
+      "productId": "98f3781e-102c-ee11-9966-002248e1d7d5",
+      "base": 0.0005,
+      "bonus": 0.058,
+      "intro": null,
+      "headline": 0.0585,
+      "note": ""
+    },
+    {
+      "brand": "P&N Bank",
+      "product": "Hi Saver Account",
+      "productId": "37",
+      "base": 0.0005,
+      "bonus": null,
+      "intro": 0.058,
+      "headline": 0.0585,
+      "note": "intro may be total"
+    },
+    {
+      "brand": "QBANK",
+      "product": "Intro Saver",
+      "productId": "S19_Intro",
+      "base": 0.0585,
+      "bonus": null,
+      "intro": null,
+      "headline": 0.0585,
+      "note": ""
     }
   ],
   "topTd12": [
@@ -793,16 +845,6 @@
       "intro": null,
       "headline": 0.0575,
       "note": "at maturity; $5,000 to $99,999: $5,000–$99,999 (WHOLE_BALANCE)"
-    },
-    {
-      "brand": "AMP Bank GO",
-      "product": "AMP Bank GO 12 Month Business Term Deposit",
-      "productId": "28281a03-41e7-4995-a869-9d6524d63823",
-      "base": 0.057,
-      "bonus": null,
-      "intro": null,
-      "headline": 0.057,
-      "note": "at maturity"
     },
     {
       "brand": "AMP Bank GO",
@@ -855,26 +897,6 @@
       "note": "at maturity; Term Deposit 12 Month_Tier_3: $250,000–$9,999,999 (WHOLE_BALANCE); Term Deposit 12 Month_Tier_3: 12 month–12 month (WHOLE_BALANCE)"
     },
     {
-      "brand": "Heartland Bank",
-      "product": "Term Deposit - Business",
-      "productId": "TD02.1",
-      "base": 0.0557,
-      "bonus": null,
-      "intro": null,
-      "headline": 0.0557,
-      "note": "at maturity; Amount: $50,000–∞ (WHOLE_BALANCE); Term: 12 month–12 month (WHOLE_BALANCE)"
-    },
-    {
-      "brand": "Bank Australia",
-      "product": "Term Deposit 12 months",
-      "productId": "644d03e6-be3c-4d25-a6d3-31f3467b5dd9",
-      "base": 0.0555,
-      "bonus": null,
-      "intro": null,
-      "headline": 0.0555,
-      "note": "at maturity; Term Deposit 12 months - $500-$1m - Balance: $500–$1,000,000 (WHOLE_BALANCE)"
-    },
-    {
       "brand": "Bank First Production",
       "product": "Preschool Long Service Leave 1 Year Term Deposit",
       "productId": "01b75f79-4873-4db3-9773-d79095a3426d",
@@ -915,23 +937,53 @@
       "note": "at maturity; Term: 12 month–12 month (WHOLE_BALANCE); Amount: $10,000–$2,000,000 (WHOLE_BALANCE)"
     },
     {
-      "brand": "Heartland Bank",
-      "product": "Broker Term Deposit - Business",
-      "productId": "TD04.1",
+      "brand": "Qudos Bank",
+      "product": "Term Deposits",
+      "productId": "f435abef-eaed-4d9f-a535-5c2925645472",
       "base": 0.0555,
       "bonus": null,
       "intro": null,
       "headline": 0.0555,
-      "note": "at maturity; Amount: $10,000–$2,000,000 (WHOLE_BALANCE); Term: 12 month–12 month (WHOLE_BALANCE)"
+      "note": "at maturity; 12 Months Interest Paid At Maturity: $500–∞ (WHOLE_BALANCE); 12 Months Interest Paid At Maturity: 12 month–∞ (WHOLE_BALANCE)"
+    },
+    {
+      "brand": "Alex.Bank",
+      "product": "Term Deposit - Intermediary",
+      "productId": "7aa47c12-436d-4927-af7a-1b9ea7e1e7a3",
+      "base": 0.055,
+      "bonus": null,
+      "intro": null,
+      "headline": 0.055,
+      "note": "at maturity; Amount: $10,000–$500,000"
+    },
+    {
+      "brand": "Australian Mutual Bank",
+      "product": "Term Deposit for Edvest Members",
+      "productId": "74073f50-1e84-11f1-b37a-325096b39f47",
+      "base": 0.055,
+      "bonus": null,
+      "intro": null,
+      "headline": 0.055,
+      "note": "P12M; Term Deposit for Edvest Members_Tier_1: $1,000–$4,999.99 (WHOLE_BALANCE); Term Deposit for Edvest Members_Tier_1: 12 month–12 month (WHOLE_BALANCE)"
+    },
+    {
+      "brand": "Firefighters Mutual Bank",
+      "product": "Term Deposit for Edvest Members",
+      "productId": "aa76cccb-0cf7-4330-8eb6-e2756aefce0e",
+      "base": 0.055,
+      "bonus": null,
+      "intro": null,
+      "headline": 0.055,
+      "note": "P12M; Term Deposit for Edvest Members_Tier_1: $1,000–$4,999.99 (WHOLE_BALANCE); Term Deposit for Edvest Members_Tier_1: 12 month–12 month (WHOLE_BALANCE)"
     }
   ],
   "td12Coverage": {
-    "products": 646,
-    "with12m": 192
+    "products": 454,
+    "with12m": 138
   },
   "extraction": {
     "model": "claude-haiku-5-5",
-    "apiKey": "unverified",
+    "apiKey": "no_credit",
     "items": 258,
     "extracted": 0,
     "failed": 258,

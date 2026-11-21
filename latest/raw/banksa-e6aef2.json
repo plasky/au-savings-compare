@@ -34,10 +34,7 @@
     {
       "productId": "BSAFarmManagementDeposit",
       "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
-      "detail": null,
-      "detailStatus": 404,
-      "detailVersion": "7",
-      "summary": {
+      "detail": {
         "productId": "BSAFarmManagementDeposit",
         "lastUpdated": "2026-10-28T22:42:26Z",
         "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
@@ -50,10 +47,403 @@
           "termsUri": "https://www.banksa.com.au/content/dam/bsa/downloads/business/bsa-fmd-termsandconditions.pdf",
           "eligibilityUri": "https://www.banksa.com.au/business/agribusiness/farm-management-deposit",
           "feesAndPricingUri": "https://www.banksa.com.au/business/agribusiness/farm-management-deposit"
-        }
+        },
+        "features": [
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Set aside pre-tax income in profitable years to establish cash reserves and manage low income periods"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "No account-keeping fee and you earn interest on every cent"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Deposits into the account may be deducted from your assessable income in the year of deposit, if the deposit complies with Federal Government requirements. Any withdrawals will be included in assessable income in the year of withdrawal. Government restrictions apply to this account."
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Both fixed and variable interest rate options are available, Interest is calculated daily and paid monthly."
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Deposits must usually be held for a minimum of 12 months to comply with government requirements"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Access to your funds via BankSA branches."
+          },
+          {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": "View account details via Internet and Phone Banking."
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "IMPORTANT NOTE: For accounts opened or renewed on or after 1 August 2014, if you wish to withdraw from or close your Farm Management Account during a fixed interest rate period you will need to provide the bank with a minimum of 31 days' notice (except in cases of hardship). If you withdraw funds or close your account or ask us to convert the interest rate on your account to a variable interest rate during a fixed interest rate period, we may recalculate the interest on your account."
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "The variable rate option is for customers who want to invest funds at a variable rate of interest while still maintaining access to funds."
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "The fixed rate option is for customers who want to invest a specific amount for a fixed term at a fixed rate of interest and who do not have a need to access their funds during the term."
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "OTHER",
+            "additionalInfo": "Fixed interest rate terms of 12 months and 24 months are available."
+          },
+          {
+            "constraintType": "MIN_BALANCE",
+            "additionalValue": "1000.00"
+          },
+          {
+            "constraintType": "MAX_BALANCE",
+            "additionalValue": "800000.00"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "18",
+            "additionalInfo": "Should be 18+ years old"
+          },
+          {
+            "eligibilityType": "OTHER",
+            "additionalInfo": "Individual primary producers operating as sole traders, partners in a partnership, or beneficiaries of a trust."
+          },
+          {
+            "eligibilityType": "BUSINESS",
+            "additionalInfo": "Operating in Australia with an Australian address"
+          },
+          {
+            "eligibilityType": "OTHER",
+            "additionalInfo": "Applicants must be eligible under ATO Farm Management Deposits Scheme requirements. The taxable non-primary production income for the year of income must not exceed $100,000."
+          }
+        ],
+        "fees": [
+          {
+            "name": "Account Keeping Fee",
+            "feeType": "PERIODIC",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "additionalValue": "P1M"
+          },
+          {
+            "name": "RTGS Transaction fees",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "35.00"
+            }
+          },
+          {
+            "name": "Duplicate Statement fees",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.00"
+            }
+          },
+          {
+            "name": "Account Information",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "15.00"
+            }
+          },
+          {
+            "name": "Personal Correspondence Details",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "30.00"
+            },
+            "additionalInfo": "Any two categories = $30.00"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0475",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "1000 to 19999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "19999.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "applicabilityConditions": [
+              {
+                "rateApplicabilityType": "MIN_DEPOSIT_AMOUNT",
+                "additionalValue": "1000.00"
+              }
+            ],
+            "additionalValue": "P12M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0475",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "20000 to 49999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "20000.00",
+                "maximumValue": "49999.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "applicabilityConditions": [
+              {
+                "rateApplicabilityType": "MIN_DEPOSIT_AMOUNT",
+                "additionalValue": "20000.00"
+              }
+            ],
+            "additionalValue": "P12M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0475",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "50000 to 99999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "50000.00",
+                "maximumValue": "99999.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "applicabilityConditions": [
+              {
+                "rateApplicabilityType": "MIN_DEPOSIT_AMOUNT",
+                "additionalValue": "50000.00"
+              }
+            ],
+            "additionalValue": "P12M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0475",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "100000 to 800000",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "100000.00",
+                "maximumValue": "800000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "applicabilityConditions": [
+              {
+                "rateApplicabilityType": "MIN_DEPOSIT_AMOUNT",
+                "additionalValue": "100000.00"
+              }
+            ],
+            "additionalValue": "P12M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.045",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "1000 to 19999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "19999.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "applicabilityConditions": [
+              {
+                "rateApplicabilityType": "MIN_DEPOSIT_AMOUNT",
+                "additionalValue": "1000.00"
+              }
+            ],
+            "additionalValue": "P24M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.045",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "20000 to 49999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "20000.00",
+                "maximumValue": "49999.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "applicabilityConditions": [
+              {
+                "rateApplicabilityType": "MIN_DEPOSIT_AMOUNT",
+                "additionalValue": "20000.00"
+              }
+            ],
+            "additionalValue": "P24M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.045",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "50000 to 99999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "50000.00",
+                "maximumValue": "99999.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "applicabilityConditions": [
+              {
+                "rateApplicabilityType": "MIN_DEPOSIT_AMOUNT",
+                "additionalValue": "50000.00"
+              }
+            ],
+            "additionalValue": "P24M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.045",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "100000 to 800000",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "100000.00",
+                "maximumValue": "800000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "applicabilityConditions": [
+              {
+                "rateApplicabilityType": "MIN_DEPOSIT_AMOUNT",
+                "additionalValue": "100000.00"
+              }
+            ],
+            "additionalValue": "P24M"
+          },
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0125",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "1000 to 19999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "19999.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "applicabilityConditions": [
+              {
+                "rateApplicabilityType": "MIN_DEPOSIT_AMOUNT",
+                "additionalValue": "1000.00"
+              }
+            ]
+          },
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0125",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "20000 to 49999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "20000.00",
+                "maximumValue": "49999.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "applicabilityConditions": [
+              {
+                "rateApplicabilityType": "MIN_DEPOSIT_AMOUNT",
+                "additionalValue": "20000.00"
+              }
+            ]
+          },
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0125",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "50000 to 99999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "50000.00",
+                "maximumValue": "99999.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "applicabilityConditions": [
+              {
+                "rateApplicabilityType": "MIN_DEPOSIT_AMOUNT",
+                "additionalValue": "50000.00"
+              }
+            ]
+          },
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0125",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "100000 to 800000",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "100000.00",
+                "maximumValue": "800000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "applicabilityConditions": [
+              {
+                "rateApplicabilityType": "MIN_DEPOSIT_AMOUNT",
+                "additionalValue": "100000.00"
+              }
+            ]
+          }
+        ]
       },
-      "detailError": "http-404",
-      "detailErrorDetail": "404 | Resource Not Found | Product not found"
+      "detailStatus": 200,
+      "detailVersion": "7"
     },
     {
       "productId": "BSAForeignCurrencyAccount",

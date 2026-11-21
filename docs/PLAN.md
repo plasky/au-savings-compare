@@ -84,6 +84,48 @@ Last updated 22 Nov 2026.
 7. Rate scenarios and Monte Carlo, rate history, alerts.
 8. Public mode (only if ever needed).
 
+## Phase 0 findings (first full crawls, 22 Nov 2026)
+
+**Coverage**
+- The register lists 390 brands. 306 are banking or non-bank lending, and **259 answer**.
+- The 47 failures:
+  - 42 mortgage-only non-bank lenders returning `400 Field/Invalid`, even without page-size. They're out of scope.
+  - Thriday (DNS), DDH Graham (401), Aussie (404), Afterpay (406) and Mortgage Street (invalid JSON).
+- **1,546 in-scope products:** 892 savings/transaction and 654 term deposits. 1,545 details fetched.
+- Versions: Get Products v5 at 255/259 holders; Product Detail v7 for 1,477 of 1,544 products.
+- **CORS:** 242 of 259 answering holders are callable from a browser with `x-v`, so a live single-bank refresh is viable.
+- A crawl takes about 3 minutes on Actions. The raw snapshot is about 19 MB.
+
+**Checks against published rates (all ✓):**
+
+| Product | Our data | Published |
+|---|---|---|
+| Virgin Money Boost Saver | 6.30% | 6.30% |
+| Westpac Life | 6.20% | 6.20% |
+| ING Savings Booster | 6.50% intro / 5.90% ongoing | 6.50% intro / 5.90% |
+| AMP GO Save (no conditions) | 5.75% | 5.75% |
+| AMP GO 12-month TD | 5.70% | 5.70% |
+
+**Bonus conditions:** 264 bonus rows. 63% have structured conditions plus text, 20% are free text only, and 17% have neither.
+
+**How rate rows combine** (the main modelling lesson):
+- Rows apply by **DOLLAR tier**.
+- Distinct bonus rows at the same balance usually **stack**, e.g. Virgin Money 0.05% + 0.50% + 5.75%. Some are **alternatives** instead (My State, Bendigo: summing them gives ~10–11%).
+- Several base rows at the same balance are **plans or special eligibility**, e.g. Revolut's paid plans and Bankwest's 11.5% rate for competition winners only.
+- Banks often publish intro and bonus rates as the **total rate**, against the standard (Defence Bank says so explicitly; Rabobank, Revolut, BNK and bcu look the same). 19 intros are flagged.
+
+**Other quality issues:**
+- 15 rates published as percentages (Traditional CU: `"2.00"`).
+- 126 TD rows with the term only in the product name (Bank of China "Term Deposit CNY 12M").
+- 140 tier bounds sent as numbers; 58 `maximumValue: 0` meaning "no cap".
+- 41 foreign-currency products and 362 business/SMSF/trust/organisation products, which need excluding for a household.
+
+**Decisions from phase 0:**
+1. Move Claude extraction from per-row to **per-product "rate composition"**: send the whole `depositRates` array and ask for each row's role (base, plan alternative, stacking bonus, alternative bonus, intro), additive vs total, eligibility (age, new customer, plan fee, business), term (from name if needed) and conditions. Then check the result with deterministic rules, e.g. that the composed headline matches any total the text states. A manual overrides file covers what's left.
+2. The normaliser auto-corrects percent-formatted rates (and flags them), treats `max 0` as unbounded, and excludes non-AUD and non-personal products.
+3. Phase 2: keep raw responses as Actions artifacts, and commit only the compact normalised `products.json` (plus the extraction cache) to the `data` branch.
+4. **Blocker:** the Anthropic account behind `ANTHROPIC_API_KEY` needs credit. The key itself is valid and correctly placed.
+
 ## Known constraints
 
 - The CDR standards require CORS on these endpoints, but not every holder complies, and a full crawl is thousands of requests. So the app uses a nightly snapshot, with an optional live refresh for a single bank.

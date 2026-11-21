@@ -1,0 +1,97 @@
+name: Crawl CDR product data
+
+on:
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: Only crawl the first N endpoints (blank = all)
+        required: false
+        default: ''
+  schedule:
+    # Daily at 16:23 UTC = 03:23 AEDT / 02:23 AEST.
+    - cron: '23 16 * * *'
+  push:
+    branches: [main]
+    paths:
+      - 'packages/pipeline/src/**'
+      - '.github/workflows/crawl.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: crawl
+  cancel-in-progress: false
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    env:
+      OUT: ${{ github.workspace }}/out
+      CACHE: ${{ github.workspace }}/data-branch/cache/conditions.json
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: pnpm/action-setup@v6
+
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 22
+          cache: pnpm
+
+      - run: pnpm install --frozen-lockfile
+
+      - name: Check out the data branch (holds the extraction cache and history)
+        run: |
+          if git ls-remote --exit-code --heads origin data >/dev/null; then
+            git fetch --depth=1 origin data
+            git worktree add data-branch FETCH_HEAD
+          else
+            git worktree add --orphan -b data data-branch
+          fi
+
+      - name: Crawl register and product endpoints
+        id: crawl
+        env:
+          LIMIT: ${{ inputs.limit }}
+        run: |
+          LIMIT_ARG=""
+          if [[ "$LIMIT" =~ ^[0-9]+$ ]]; then LIMIT_ARG="--limit $LIMIT"; fi
+          pnpm --filter @asc/pipeline exec tsx src/cli.ts crawl --out "$OUT" $LIMIT_ARG
+
+      - name: Extract bonus conditions with Claude
+        if: steps.crawl.outcome == 'success'
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: pnpm --filter @asc/pipeline exec tsx src/cli.ts extract --out "$OUT" --cache "$CACHE"
+
+      - name: Data-quality report
+        if: steps.crawl.outcome == 'success'
+        run: pnpm --filter @asc/pipeline exec tsx src/cli.ts report --out "$OUT"
+
+      - name: Upload crawl output
+        if: always() && steps.crawl.outcome != 'skipped'
+        uses: actions/upload-artifact@v7
+        with:
+          name: crawl-${{ github.run_id }}
+          path: out/
+          retention-days: 30
+          if-no-files-found: warn
+
+      - name: Publish to the data branch
+        if: steps.crawl.outcome == 'success'
+        run: |
+          cd data-branch
+          rm -rf latest
+          mkdir -p latest
+          cp -r "$OUT"/. latest/
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No data changes."
+            exit 0
+          fi
+          git -c user.name="github-actions[bot]" \
+              -c user.email="41898282+github-actions[bot]@users.noreply.github.com" \
+              commit -q -m "data: crawl $(date -u +%Y-%m-%dT%H:%MZ) (run ${{ github.run_id }})"
+          git push origin HEAD:refs/heads/data

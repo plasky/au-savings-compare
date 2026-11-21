@@ -1,0 +1,19 @@
+{
+  "name": "au-savings-compare",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@10.28.0",
+  "engines": {
+    "node": ">=22"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": ["esbuild"]
+  },
+  "scripts": {
+    "test": "pnpm -r test",
+    "typecheck": "pnpm -r typecheck",
+    "crawl": "pnpm --filter @asc/pipeline crawl",
+    "extract": "pnpm --filter @asc/pipeline extract",
+    "report": "pnpm --filter @asc/pipeline report"
+  }
+}

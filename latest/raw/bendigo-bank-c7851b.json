@@ -337,7 +337,6 @@
             "additionalInfo": "You need to be an Australian citizen or resident"
           }
         ],
-        "lendingRates": [],
         "fees": [
           {
             "name": "Periodical Payment to Other Financial Institution",
@@ -448,6 +447,7 @@
             }
           }
         ],
+        "lendingRates": [],
         "depositRates": [
           {
             "depositRateType": "VARIABLE",
@@ -738,8 +738,8 @@
             }
           }
         ],
-        "depositRates": [],
         "lendingRates": [],
+        "depositRates": [],
         "additionalInformation": {
           "overviewUri": "https://www.bendigobank.com.au/business/manage-fx/",
           "termsUri": "https://www.bendigobank.com.au/disclosure-documents/",
@@ -1483,6 +1483,7 @@
             "additionalValue": "A card is available for the product to access funds"
           }
         ],
+        "constraints": [],
         "eligibility": [
           {
             "eligibilityType": "PENSION_RECIPIENT",
@@ -1499,7 +1500,6 @@
             "additionalValue": "You need to be an Australian citizen or resident"
           }
         ],
-        "constraints": [],
         "fees": [
           {
             "name": "International ATM Withdrawal",

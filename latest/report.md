@@ -1,6 +1,6 @@
 # CDR product data — crawl report
 
-Crawled 2026-11-21T23:31:17.602Z · report 2026-11-21T23:31:19.408Z
+Crawled 2026-11-21T23:41:04.036Z · report 2026-11-21T23:41:05.451Z
 
 ## Coverage
 
@@ -9,13 +9,13 @@ Crawled 2026-11-21T23:31:17.602Z · report 2026-11-21T23:31:19.408Z
 | Register brands (all industries) | 390 |
 | Brands in scope (banking + non-bank lending) | 306 |
 | Unique product endpoints crawled | 306 |
-| Endpoints answering | 259 / 306 |
-| In-scope products (savings/transaction + term deposits) | TRANS_AND_SAVINGS_ACCOUNTS: 892, TERM_DEPOSITS: 654 |
-| Product details fetched | 1545 ok, 1 failed |
-| Products with deposit rates | TRANS_AND_SAVINGS_ACCOUNTS: 758, TERM_DEPOSITS: 646 |
-| List endpoint versions (x-v) | 5: 255, 3: 2, 4: 2 |
-| Detail endpoint versions (x-v) | 7: 1477, 6: 38, 5: 16, 4: 13, none: 1 |
-| Browser-callable (CORS ok with x-v) | 241 / 259 |
+| Endpoints answering | 255 / 306 |
+| In-scope products (savings/transaction + term deposits) | TRANS_AND_SAVINGS_ACCOUNTS: 866, TERM_DEPOSITS: 642 |
+| Product details fetched | 1507 ok, 1 failed |
+| Products with deposit rates | TRANS_AND_SAVINGS_ACCOUNTS: 732, TERM_DEPOSITS: 634 |
+| List endpoint versions (x-v) | 5: 251, 3: 2, 4: 2 |
+| Detail endpoint versions (x-v) | 7: 1440, 6: 38, 5: 16, 4: 13 |
+| Browser-callable (CORS ok with x-v) | 239 / 255 |
 
 ### Endpoints that failed
 
@@ -27,6 +27,7 @@ Crawled 2026-11-21T23:31:17.602Z · report 2026-11-21T23:31:19.408Z
 | AMO | 400 | http-400 | urn:au-cds:error:cds-all:Field/Invalid \| Invalid Field \| Invalid Field |
 | Aussie Home Loans | 404 | http-404 | 404 \| Not found \| Resource not found |
 | Australian Financial | 400 | http-400 | urn:au-cds:error:cds-all:Field/Invalid \| Invalid Field \| Invalid Field |
+| Australian Mutual Bank LTD | 0 | timeout |  |
 | Axis Lending | 400 | http-400 | urn:au-cds:error:cds-all:Field/Invalid \| Invalid Field \| Invalid Field |
 | Axis Sharia | 400 | http-400 | urn:au-cds:error:cds-all:Field/Invalid \| Invalid Field \| Invalid Field |
 | Better Mortgage Management | 400 | http-400 | urn:au-cds:error:cds-all:Field/Invalid \| Invalid Field \| Invalid Field |
@@ -37,10 +38,12 @@ Crawled 2026-11-21T23:31:17.602Z · report 2026-11-21T23:31:19.408Z
 | Empower Money | 400 | http-400 | urn:au-cds:error:cds-all:Field/Invalid \| Invalid Field \| Invalid Field |
 | Excel Funding Group | 400 | http-400 | urn:au-cds:error:cds-all:Field/Invalid \| Invalid Field \| Invalid Field |
 | FinStreet | 400 | http-400 | urn:au-cds:error:cds-all:Field/Invalid \| Invalid Field \| Invalid Field |
+| Firefighters Mutual Bank | 0 | timeout |  |
 | Folio Mortgage & Finance (AL&M) | 400 | http-400 | urn:au-cds:error:cds-all:Field/Invalid \| Invalid Field \| Invalid Field |
 | FreedomLend | 400 | http-400 | urn:au-cds:error:cds-all:Field/Invalid \| Invalid Field \| Invalid Field |
 | Greenhouse Mortgages | 400 | http-400 | urn:au-cds:error:cds-all:Field/Invalid \| Invalid Field \| Invalid Field |
 | Greenline Home Loans | 400 | http-400 | urn:au-cds:error:cds-all:Field/Invalid \| Invalid Field \| Invalid Field |
+| Health Professionals Bank | 0 | timeout |  |
 | Ijarah Finance | 400 | http-400 | urn:au-cds:error:cds-all:Field/Invalid \| Invalid Field \| Invalid Field |
 | Ikhlas Finance Australia | 400 | http-400 | urn:au-cds:error:cds-all:Field/Invalid \| Invalid Field \| Invalid Field |
 | Infinity Group | 400 | http-400 | urn:au-cds:error:cds-all:Field/Invalid \| Invalid Field \| Invalid Field |
@@ -60,6 +63,7 @@ Crawled 2026-11-21T23:31:17.602Z · report 2026-11-21T23:31:19.408Z
 | So Money | 400 | http-400 | urn:au-cds:error:cds-all:Field/Invalid \| Invalid Field \| Invalid Field |
 | State Custodians | 400 | http-400 | urn:au-cds:error:cds-all:Field/Invalid \| Invalid Field \| Invalid Field |
 | Synergy Home Loans | 400 | http-400 | urn:au-cds:error:cds-all:Field/Invalid \| Invalid Field \| Invalid Field |
+| Teachers Mutual Bank | 0 | timeout |  |
 | The Sydney Home Loan Centre | 400 | http-400 | urn:au-cds:error:cds-all:Field/Invalid \| Invalid Field \| Invalid Field |
 | Thriday | 0 | ENOTFOUND |  |
 | Tradies Finance | 400 | http-400 | urn:au-cds:error:cds-all:Field/Invalid \| Invalid Field \| Invalid Field |
@@ -73,24 +77,24 @@ Crawled 2026-11-21T23:31:17.602Z · report 2026-11-21T23:31:19.408Z
 
 | Category | Rows by depositRateType |
 | --- | --- |
-| TRANS_AND_SAVINGS_ACCOUNTS | VARIABLE: 1796, BONUS: 251, FIXED: 102, INTRODUCTORY: 41, BUNDLE_BONUS: 3 |
-| TERM_DEPOSITS | FIXED: 6323, VARIABLE: 60, INTRODUCTORY: 33, BONUS: 10, MARKET_LINKED: 1 |
+| TRANS_AND_SAVINGS_ACCOUNTS | VARIABLE: 1694, BONUS: 235, FIXED: 102, INTRODUCTORY: 41, BUNDLE_BONUS: 3 |
+| TERM_DEPOSITS | FIXED: 5675, VARIABLE: 60, INTRODUCTORY: 33, BONUS: 10, MARKET_LINKED: 1 |
 
-Tier application methods: WHOLE_BALANCE: 10128, PER_TIER: 1027
+Tier application methods: WHOLE_BALANCE: 8782, PER_TIER: 959
 
 ## Bonus conditions
 
 | Bonus rows | Structured + text | Structured only | Free text only | Neither |
 | --- | --- | --- | --- | --- |
-| 264 | 167 (63%) | 0 (0%) | 53 (20%) | 44 (17%) |
+| 248 | 151 (61%) | 0 (0%) | 53 (21%) | 44 (18%) |
 
-Structured condition types: MIN_DEPOSIT_AMOUNT: 97, DEPOSIT_BALANCE_INCREASED: 55, MAX_WITHDRAWALS: 51, OTHER: 19, MIN_PURCHASES: 12, MIN_DEPOSITS: 11, MAX_WITHDRAWAL_AMOUNT: 9, ONLINE_ONLY: 9, EXISTING_CUST: 8, NEW_CUSTOMER: 5, NEW_ACCOUNTS: 4
+Structured condition types: MIN_DEPOSIT_AMOUNT: 81, DEPOSIT_BALANCE_INCREASED: 55, MAX_WITHDRAWALS: 35, OTHER: 19, MIN_PURCHASES: 12, MIN_DEPOSITS: 11, MAX_WITHDRAWAL_AMOUNT: 9, ONLINE_ONLY: 9, EXISTING_CUST: 8, NEW_CUSTOMER: 5, NEW_ACCOUNTS: 4
 
 ## Claude review queue (weekly, in chat)
 
 | Needing judgement | Reviewed | Changed since review | Queued (≥3.0%) | Below threshold |
 | --- | --- | --- | --- | --- |
-| 166 | 166 | 0 | 0 | 0 |
+| 162 | 162 | 0 | 0 | 0 |
 
 ## Data-quality flags
 
@@ -110,7 +114,7 @@ Structured condition types: MIN_DEPOSIT_AMOUNT: 97, DEPOSIT_BALANCE_INCREASED: 5
 | OVERLAPPING_BASE_ROWS | 21 | Several different base rates apply at the same balance — plan or eligibility alternatives that need disambiguating |
 | INTRO_MAYBE_TOTAL | 19 | Introductory rate of 3%+ — probably published as the total rate rather than an add-on to base |
 | NON_AUD_PRODUCT | 41 | Foreign-currency product (to exclude) |
-| NON_PERSONAL_PRODUCT | 368 | Business / SMSF / trust / organisation product (to exclude for a household) |
+| NON_PERSONAL_PRODUCT | 366 | Business / SMSF / trust / organisation product (to exclude for a household) |
 
 <details><summary>DETAIL_MISSING — examples</summary>
 
@@ -298,7 +302,7 @@ Headline = base + stacked bonuses (+ intro where present), assuming all conditio
 
 ## Top 12-month term deposits (personal AUD products)
 
-140 of 453 personal AUD term-deposit products have an identifiable 12-month rate.
+128 of 441 personal AUD term-deposit products have an identifiable 12-month rate.
 
 | Brand | Product | Rate | Paid / tiers |
 | --- | --- | --- | --- |
@@ -315,5 +319,5 @@ Headline = base + stacked bonuses (+ intro where present), assuming all conditio
 | Heartland Bank | Broker Term Deposit | 5.55% | at maturity; Term: 12 month–12 month (WHOLE_BALANCE); Amount: $10,000–$2,000,000 (WHOLE_B… |
 | Qudos Bank | Term Deposits | 5.55% | at maturity; 12 Months Interest Paid At Maturity: $500–∞ (WHOLE_BALANCE); 12 Months Inter… |
 | Alex.Bank | Term Deposit - Intermediary | 5.50% | at maturity; Amount: $10,000–$500,000 |
-| Australian Mutual Bank | Term Deposit for Edvest Members | 5.50% | P12M; Term Deposit for Edvest Members_Tier_1: $1,000–$4,999.99 (WHOLE_BALANCE); Term Depo… |
-| Firefighters Mutual Bank | Term Deposit for Edvest Members | 5.50% | P12M; Term Deposit for Edvest Members_Tier_1: $1,000–$4,999.99 (WHOLE_BALANCE); Term Depo… |
+| FIRST OPTION BANK | 12 Month Regular Income Term Deposit | 5.50% | P1M; 12 Month Regular Income Term Deposit_Tier: $25,000–$9,999,999 (WHOLE_BALANCE); 12 Mo… |
+| Greater Bank | Term Investment - Interest @ Maturity | 5.50% | at maturity; Amount: $5,000–$49,999.99 (WHOLE_BALANCE); Term: 12 month–12 month (WHOLE_BA… |

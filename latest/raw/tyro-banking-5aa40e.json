@@ -32,12 +32,12 @@
         "additionalInformation": {
           "additionalTermsUris": [
             {
-              "additionalInfoUri": "https://cdn.troy-prod.troy-prod.cxnpl.io/files/products/ffe0b8fd-f9ce-48eb-93c9-c6fe23195ffa/v1/Transaction%20Account%20Terms%20and%20Conditions.pdf",
-              "description": "Terms and Conditions"
-            },
-            {
               "additionalInfoUri": "https://www.tyro.com/target-market-determinations/tyro-transaction-account-target-marketing-determination/",
               "description": "Target Market Determination"
+            },
+            {
+              "additionalInfoUri": "https://cdn.troy-prod.troy-prod.cxnpl.io/files/products/ffe0b8fd-f9ce-48eb-93c9-c6fe23195ffa/v1/Transaction%20Account%20Terms%20and%20Conditions.pdf",
+              "description": "Terms and Conditions"
             }
           ],
           "termsUri": "https://cdn.troy-prod.troy-prod.cxnpl.io/files/products/ffe0b8fd-f9ce-48eb-93c9-c6fe23195ffa/v1/Transaction%20Account%20Terms%20and%20Conditions.pdf"
@@ -52,13 +52,13 @@
             "constraintType": "MAX_LIMIT"
           },
           {
-            "additionalInfo": "Single cash ATM/POS withdrawal limit of $2,009.99.",
-            "additionalValue": "2009.99",
+            "additionalInfo": "Daily domestic single card transaction limit of $20,000.",
+            "additionalValue": "20000.00",
             "constraintType": "MAX_LIMIT"
           },
           {
-            "additionalInfo": "Maximum number of transactions per day is 50.",
-            "additionalValue": "50.00",
+            "additionalInfo": "Maximum cumulative value of transactions is $100,000 per day.",
+            "additionalValue": "100000.00",
             "constraintType": "MAX_LIMIT"
           },
           {
@@ -77,17 +77,7 @@
             "constraintType": "MAX_LIMIT"
           },
           {
-            "additionalInfo": "Maximum cumulative value of transactions is $100,000 per day.",
-            "additionalValue": "100000.00",
-            "constraintType": "MAX_LIMIT"
-          },
-          {
             "additionalInfo": "International single card transaction limit of $20,000.",
-            "additionalValue": "20000.00",
-            "constraintType": "MAX_LIMIT"
-          },
-          {
-            "additionalInfo": "Daily domestic single card transaction limit of $20,000.",
             "additionalValue": "20000.00",
             "constraintType": "MAX_LIMIT"
           },
@@ -95,6 +85,16 @@
             "additionalInfo": "Minimum single transaction limit of $0.01.",
             "additionalValue": "0.01",
             "constraintType": "MIN_LIMIT"
+          },
+          {
+            "additionalInfo": "Single cash ATM/POS withdrawal limit of $2,009.99.",
+            "additionalValue": "2009.99",
+            "constraintType": "MAX_LIMIT"
+          },
+          {
+            "additionalInfo": "Maximum number of transactions per day is 50.",
+            "additionalValue": "50.00",
+            "constraintType": "MAX_LIMIT"
           }
         ],
         "description": "Everyday banking for your business",
@@ -112,28 +112,28 @@
         ],
         "features": [
           {
-            "additionalInfo": "Make transfers and send payments in real time.",
-            "featureType": "NPP_ENABLED"
-          },
-          {
-            "additionalInfo": "The product includes fraud protection functionality.",
-            "featureType": "FRAUD_PROTECTION"
-          },
-          {
-            "additionalValue": "All statements, notices and other communication in connection with these terms and conditions and your account may be given electronically by: email, text message, in app push notifications, in app prompts, or letting you know by email, text message or push notification that the information is available on the app or on a website. You should check your emails, text messages and push notifications regularly.",
-            "featureType": "NOTIFICATIONS"
+            "additionalInfo": "Use this account to make and received PayID payments.",
+            "featureType": "NPP_PAYID"
           },
           {
             "additionalInfo": "You can access your accounts on your mobile for all your online banking.",
             "featureType": "DIGITAL_BANKING"
           },
           {
-            "additionalInfo": "Use this account to make and received PayID payments.",
-            "featureType": "NPP_PAYID"
+            "additionalValue": "All statements, notices and other communication in connection with these terms and conditions and your account may be given electronically by: email, text message, in app push notifications, in app prompts, or letting you know by email, text message or push notification that the information is available on the app or on a website. You should check your emails, text messages and push notifications regularly.",
+            "featureType": "NOTIFICATIONS"
+          },
+          {
+            "additionalInfo": "Make transfers and send payments in real time.",
+            "featureType": "NPP_ENABLED"
           },
           {
             "additionalValue": "Link your transaction account to VISA® debit card.",
             "featureType": "CARD_ACCESS"
+          },
+          {
+            "additionalInfo": "The product includes fraud protection functionality.",
+            "featureType": "FRAUD_PROTECTION"
           }
         ],
         "isTailored": false,

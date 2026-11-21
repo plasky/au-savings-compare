@@ -1,6 +1,6 @@
 # CDR product data — crawl report
 
-Crawled 2026-11-21T23:08:11.146Z · report 2026-11-21T23:08:12.513Z
+Crawled 2026-11-21T23:13:26.161Z · report 2026-11-21T23:13:27.503Z
 
 ## Coverage
 
@@ -14,7 +14,7 @@ Crawled 2026-11-21T23:08:11.146Z · report 2026-11-21T23:08:12.513Z
 | Product details fetched | 1545 ok, 1 failed |
 | Products with deposit rates | TRANS_AND_SAVINGS_ACCOUNTS: 758, TERM_DEPOSITS: 646 |
 | List endpoint versions (x-v) | 5: 255, 3: 2, 4: 2 |
-| Detail endpoint versions (x-v) | 7: 1478, 6: 38, 5: 16, 4: 13 |
+| Detail endpoint versions (x-v) | 7: 1477, 6: 38, 5: 16, 4: 13, : 1 |
 | Browser-callable (CORS ok with x-v) | 242 / 259 |
 
 ### Endpoints that failed
@@ -90,14 +90,7 @@ Structured condition types: MIN_DEPOSIT_AMOUNT: 97, DEPOSIT_BALANCE_INCREASED: 5
 
 | Needing judgement | Reviewed | Changed since review | Queued (≥3.0%) | Below threshold |
 | --- | --- | --- | --- | --- |
-| 167 | 163 | 4 | 4 | 0 |
-
-| Brand | Product | Headline | Why |
-| --- | --- | --- | --- |
-| ING BANK (Australia) Ltd | Savings Maximiser | 6.00% | bonus/intro rows |
-| MoveBank | Growth Saver | 5.75% | bonus/intro rows |
-| MoveBank | Bonus Saver | 5.45% | bonus/intro rows |
-| MoveBank | Term Deposit | 5.35% | overlapping base rows |
+| 167 | 167 | 0 | 0 | 0 |
 
 ## Data-quality flags
 

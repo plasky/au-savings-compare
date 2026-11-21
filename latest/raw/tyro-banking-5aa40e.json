@@ -32,12 +32,12 @@
         "additionalInformation": {
           "additionalTermsUris": [
             {
-              "additionalInfoUri": "https://cdn.troy-prod.troy-prod.cxnpl.io/files/products/ffe0b8fd-f9ce-48eb-93c9-c6fe23195ffa/v1/Transaction%20Account%20Terms%20and%20Conditions.pdf",
-              "description": "Terms and Conditions"
-            },
-            {
               "additionalInfoUri": "https://www.tyro.com/target-market-determinations/tyro-transaction-account-target-marketing-determination/",
               "description": "Target Market Determination"
+            },
+            {
+              "additionalInfoUri": "https://cdn.troy-prod.troy-prod.cxnpl.io/files/products/ffe0b8fd-f9ce-48eb-93c9-c6fe23195ffa/v1/Transaction%20Account%20Terms%20and%20Conditions.pdf",
+              "description": "Terms and Conditions"
             }
           ],
           "termsUri": "https://cdn.troy-prod.troy-prod.cxnpl.io/files/products/ffe0b8fd-f9ce-48eb-93c9-c6fe23195ffa/v1/Transaction%20Account%20Terms%20and%20Conditions.pdf"
@@ -47,8 +47,13 @@
         "brandName": "Tyro Banking",
         "constraints": [
           {
-            "additionalInfo": "Offline transaction limit of $250.",
-            "additionalValue": "250.00",
+            "additionalInfo": "Maximum cumulative value of transactions is $100,000 per day.",
+            "additionalValue": "100000.00",
+            "constraintType": "MAX_LIMIT"
+          },
+          {
+            "additionalInfo": "Single cash ATM/POS withdrawal limit of $2,009.99.",
+            "additionalValue": "2009.99",
             "constraintType": "MAX_LIMIT"
           },
           {
@@ -62,23 +67,13 @@
             "constraintType": "MIN_LIMIT"
           },
           {
-            "additionalInfo": "International single card transaction limit of $20,000.",
-            "additionalValue": "20000.00",
-            "constraintType": "MAX_LIMIT"
-          },
-          {
             "additionalInfo": "You can only hold a maximum of 1 card per person, per account for this product.",
             "additionalValue": "1.00",
             "constraintType": "MAX_LIMIT"
           },
           {
-            "additionalInfo": "Maximum cumulative value of transactions is $100,000 per day.",
-            "additionalValue": "100000.00",
-            "constraintType": "MAX_LIMIT"
-          },
-          {
-            "additionalInfo": "You can hold a maximum of 10 accounts for this product.",
-            "additionalValue": "10.00",
+            "additionalInfo": "International single card transaction limit of $20,000.",
+            "additionalValue": "20000.00",
             "constraintType": "MAX_LIMIT"
           },
           {
@@ -92,8 +87,13 @@
             "constraintType": "MAX_LIMIT"
           },
           {
-            "additionalInfo": "Single cash ATM/POS withdrawal limit of $2,009.99.",
-            "additionalValue": "2009.99",
+            "additionalInfo": "Offline transaction limit of $250.",
+            "additionalValue": "250.00",
+            "constraintType": "MAX_LIMIT"
+          },
+          {
+            "additionalInfo": "You can hold a maximum of 10 accounts for this product.",
+            "additionalValue": "10.00",
             "constraintType": "MAX_LIMIT"
           }
         ],
@@ -102,18 +102,22 @@
         "effectiveTo": "2027-11-05T23:59:00.001Z",
         "eligibility": [
           {
-            "additionalInfo": "To open an account, you must have an active ABN or ACN, and you must be registered as a Sole Trader, Private Company, Trust, Self-Managed Super Fund (SMSF), Partnership or Association with the Australian Business Register.",
-            "eligibilityType": "BUSINESS"
-          },
-          {
             "additionalInfo": "You must have an Australian mobile number and a valid email address.",
             "eligibilityType": "OTHER"
+          },
+          {
+            "additionalInfo": "To open an account, you must have an active ABN or ACN, and you must be registered as a Sole Trader, Private Company, Trust, Self-Managed Super Fund (SMSF), Partnership or Association with the Australian Business Register.",
+            "eligibilityType": "BUSINESS"
           }
         ],
         "features": [
           {
             "additionalInfo": "The product includes fraud protection functionality.",
             "featureType": "FRAUD_PROTECTION"
+          },
+          {
+            "additionalInfo": "You can access your accounts on your mobile for all your online banking.",
+            "featureType": "DIGITAL_BANKING"
           },
           {
             "additionalInfo": "Make transfers and send payments in real time.",
@@ -124,16 +128,12 @@
             "featureType": "CARD_ACCESS"
           },
           {
-            "additionalInfo": "Use this account to make and received PayID payments.",
-            "featureType": "NPP_PAYID"
-          },
-          {
-            "additionalInfo": "You can access your accounts on your mobile for all your online banking.",
-            "featureType": "DIGITAL_BANKING"
-          },
-          {
             "additionalValue": "All statements, notices and other communication in connection with these terms and conditions and your account may be given electronically by: email, text message, in app push notifications, in app prompts, or letting you know by email, text message or push notification that the information is available on the app or on a website. You should check your emails, text messages and push notifications regularly.",
             "featureType": "NOTIFICATIONS"
+          },
+          {
+            "additionalInfo": "Use this account to make and received PayID payments.",
+            "featureType": "NPP_PAYID"
           }
         ],
         "isTailored": false,

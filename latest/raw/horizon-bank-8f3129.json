@@ -538,7 +538,7 @@
         "depositRates": [
           {
             "depositRateType": "VARIABLE",
-            "rate": "0.0375",
+            "rate": "0.035",
             "calculationFrequency": "P1D",
             "applicationType": "PERIODIC",
             "applicationFrequency": "P1M"

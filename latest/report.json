@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-21T23:08:12.513Z",
+  "generatedAt": "2026-11-21T23:13:27.503Z",
   "crawl": {
-    "crawledAt": "2026-11-21T23:08:11.146Z",
+    "crawledAt": "2026-11-21T23:13:26.161Z",
     "registerOk": true,
     "brandsTotal": 390,
     "brandsInScope": 306,
@@ -298,7 +298,8 @@
       "4": 13,
       "5": 16,
       "6": 38,
-      "7": 1478
+      "7": 1477,
+      "": 1
     },
     "cors": {
       "browserReady": 242,
@@ -980,53 +981,12 @@
   "review": {
     "stats": {
       "candidates": 167,
-      "reviewed": 163,
-      "stale": 4,
-      "queued": 4,
+      "reviewed": 167,
+      "stale": 0,
+      "queued": 0,
       "belowThreshold": 0,
       "threshold": 0.03
     },
-    "top": [
-      {
-        "key": "ing-bank-australia-ltd-2efdf8:b7bb9da4-3913-484c-8d2d-3fc99b9b4a72",
-        "brand": "ING BANK (Australia) Ltd",
-        "name": "Savings Maximiser",
-        "category": "TRANS_AND_SAVINGS_ACCOUNTS",
-        "headline": 0.060000000000000005,
-        "reasons": [
-          "bonus/intro rows"
-        ]
-      },
-      {
-        "key": "movebank-2f3c1b:ff2bc097-6390-4e1d-b97a-a3ebc42df30c",
-        "brand": "MoveBank",
-        "name": "Growth Saver",
-        "category": "TRANS_AND_SAVINGS_ACCOUNTS",
-        "headline": 0.0575,
-        "reasons": [
-          "bonus/intro rows"
-        ]
-      },
-      {
-        "key": "movebank-2f3c1b:4bb8798f-6059-4dea-89f9-db5015a30c89",
-        "brand": "MoveBank",
-        "name": "Bonus Saver",
-        "category": "TRANS_AND_SAVINGS_ACCOUNTS",
-        "headline": 0.0545,
-        "reasons": [
-          "bonus/intro rows"
-        ]
-      },
-      {
-        "key": "movebank-2f3c1b:0b61e81c-a7f6-4845-ae64-f9dd29169030",
-        "brand": "MoveBank",
-        "name": "Term Deposit",
-        "category": "TRANS_AND_SAVINGS_ACCOUNTS",
-        "headline": 0.0535,
-        "reasons": [
-          "overlapping base rows"
-        ]
-      }
-    ]
+    "top": []
   }
 }

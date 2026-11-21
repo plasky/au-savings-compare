@@ -45,6 +45,7 @@
         "applicationUri": "https://www.bendigobank.com.au/personal/transaction-accounts/easy-retirement-account/",
         "isTailored": false,
         "bundles": [],
+        "cardArt": [],
         "features": [
           {
             "featureType": "DIGITAL_BANKING"
@@ -57,7 +58,6 @@
             "additionalValue": "A card is available for the product to access funds"
           }
         ],
-        "cardArt": [],
         "constraints": [],
         "eligibility": [
           {
@@ -764,6 +764,12 @@
         "isTailored": false,
         "bundles": [],
         "cardArt": [],
+        "constraints": [
+          {
+            "constraintType": "OPENING_BALANCE",
+            "additionalValue": "1.00"
+          }
+        ],
         "features": [
           {
             "featureType": "OTHER",
@@ -805,12 +811,6 @@
           },
           {
             "featureType": "NPP_PAYID"
-          }
-        ],
-        "constraints": [
-          {
-            "constraintType": "OPENING_BALANCE",
-            "additionalValue": "1.00"
           }
         ],
         "eligibility": [
@@ -898,7 +898,6 @@
             }
           }
         ],
-        "lendingRates": [],
         "depositRates": [
           {
             "depositRateType": "VARIABLE",
@@ -909,6 +908,7 @@
             "applicationType": "PERIODIC"
           }
         ],
+        "lendingRates": [],
         "additionalInformation": {
           "overviewUri": "https://www.bendigobank.com.au/business/business-transaction-accounts/",
           "termsUri": "https://www.bendigobank.com.au/disclosure-documents/",
@@ -2220,12 +2220,6 @@
         "isTailored": false,
         "bundles": [],
         "cardArt": [],
-        "features": [
-          {
-            "featureType": "DIGITAL_BANKING",
-            "additionalInfo": "Existing customers only"
-          }
-        ],
         "constraints": [
           {
             "constraintType": "OPENING_BALANCE",
@@ -2236,6 +2230,12 @@
             "constraintType": "MIN_BALANCE",
             "additionalInfo": "*Minimum Balance to Maintain ",
             "additionalValue": "1.00"
+          }
+        ],
+        "features": [
+          {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": "Existing customers only"
           }
         ],
         "eligibility": [],
@@ -3504,8 +3504,8 @@
             "additionalValue": "2"
           }
         ],
-        "eligibility": [],
         "constraints": [],
+        "eligibility": [],
         "fees": [
           {
             "name": "Bank Cheque Fee",
@@ -3580,13 +3580,6 @@
         "isTailored": false,
         "bundles": [],
         "cardArt": [],
-        "constraints": [],
-        "eligibility": [
-          {
-            "eligibilityType": "OTHER",
-            "additionalInfo": "Grow your balance every month "
-          }
-        ],
         "features": [
           {
             "featureType": "OTHER",
@@ -3603,6 +3596,13 @@
           {
             "featureType": "DIGITAL_BANKING",
             "additionalInfo": "Ability for existing customers to open an account in e-banking"
+          }
+        ],
+        "constraints": [],
+        "eligibility": [
+          {
+            "eligibilityType": "OTHER",
+            "additionalInfo": "Grow your balance every month "
           }
         ],
         "fees": [],
@@ -3673,17 +3673,6 @@
         "isTailored": false,
         "bundles": [],
         "cardArt": [],
-        "constraints": [
-          {
-            "constraintType": "OPENING_BALANCE",
-            "additionalValue": "5000.00"
-          },
-          {
-            "constraintType": "MAX_BALANCE",
-            "additionalInfo": "The total of all FMD’s held in a client’s name must not exceed $800,000.00",
-            "additionalValue": "800000.00"
-          }
-        ],
         "features": [
           {
             "featureType": "OTHER",
@@ -3708,6 +3697,17 @@
           {
             "featureType": "OTHER",
             "additionalInfo": "31 day withdrawal notice if need to access funds before its maturity date."
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "OPENING_BALANCE",
+            "additionalValue": "5000.00"
+          },
+          {
+            "constraintType": "MAX_BALANCE",
+            "additionalInfo": "The total of all FMD’s held in a client’s name must not exceed $800,000.00",
+            "additionalValue": "800000.00"
           }
         ],
         "eligibility": [
@@ -4271,6 +4271,7 @@
         "isTailored": false,
         "bundles": [],
         "cardArt": [],
+        "constraints": [],
         "features": [
           {
             "featureType": "UNLIMITED_TXNS"
@@ -4282,7 +4283,6 @@
             "featureType": "NPP_ENABLED"
           }
         ],
-        "constraints": [],
         "eligibility": [
           {
             "eligibilityType": "MAX_AGE",

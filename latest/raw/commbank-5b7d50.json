@@ -20,12 +20,12 @@
     "pagesFetched": 1,
     "productCount": 75,
     "categoryCounts": {
-      "REGULATED_TRUST_ACCOUNTS": 1,
       "TRANS_AND_SAVINGS_ACCOUNTS": 21,
+      "TERM_DEPOSITS": 5,
+      "REGULATED_TRUST_ACCOUNTS": 1,
       "OVERDRAFTS": 4,
       "CRED_AND_CHRG_CARDS": 15,
       "BUY_NOW_PAY_LATER": 1,
-      "TERM_DEPOSITS": 5,
       "BUSINESS_LOANS": 4,
       "MARGIN_LOANS": 2,
       "TRAVEL_CARDS": 1,
@@ -404,7 +404,7 @@
           }
         ],
         "productId": "07546f4ac1d4455d8dd2f3954d33ca68",
-        "lastUpdated": "2026-11-22T09:00:10.000Z",
+        "lastUpdated": "2026-11-22T10:01:06.000Z",
         "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
         "name": "Standard Business Cheque Account - Interest Bearing Option",
         "description": "Transaction accounts that pays interest above minimum balances.",
@@ -952,7 +952,7 @@
           }
         ],
         "productId": "33557e367d324529b38813adfc655b55",
-        "lastUpdated": "2026-11-22T04:00:08.000Z",
+        "lastUpdated": "2026-11-22T10:00:13.000Z",
         "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
         "name": "Smart Access",
         "description": "An everyday bank account, giving you access to unlimited electronic transactions and features to help your spending and bills stay on track. Plus if you meet certain criteria, we'll waive your $4 monthly account fee.",
@@ -9436,7 +9436,7 @@
           }
         ],
         "productId": "523f5c6a7e5b46e78a533e3272faeb97",
-        "lastUpdated": "2026-11-22T02:15:31.000Z",
+        "lastUpdated": "2026-11-22T10:00:32.000Z",
         "productCategory": "TERM_DEPOSITS",
         "name": "Standard Term Deposit",
         "description": "Feel confident knowing exactly how much your money will earn. Lock-in a competitive interest rate from as short as 1 month to as long as 5 years.",
@@ -12994,7 +12994,7 @@
           }
         ],
         "productId": "5669534e63ea45d0b9c0b58ead071748",
-        "lastUpdated": "2026-11-22T02:15:31.000Z",
+        "lastUpdated": "2026-11-22T10:00:26.000Z",
         "productCategory": "TERM_DEPOSITS",
         "name": "Business Investment Account",
         "description": "Feel confident knowing exactly how much your money will earn. Lock-in a competitive interest rate with our range of fixed term deposits.",
@@ -14057,7 +14057,7 @@
           }
         ],
         "productId": "71865ffd1ab249df9baa4b29c7751824",
-        "lastUpdated": "2026-11-22T06:00:22.000Z",
+        "lastUpdated": "2026-11-22T10:01:07.000Z",
         "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
         "name": "CommSec Notice Investor",
         "description": "A notice account that offers higher variable interest rates on your surplus funds while waiting for the next investment opportunity. Simply submit a notice to access your funds via your CDIA after the predetermined notice period.",
@@ -14310,7 +14310,7 @@
           }
         ],
         "productId": "72f214498c7f47a98fe59b794e7c01ab",
-        "lastUpdated": "2026-11-22T02:15:31.000Z",
+        "lastUpdated": "2026-11-22T10:00:55.000Z",
         "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
         "name": "GoalSaver",
         "description": "Be rewarded with a variable bonus interest rate for saving regularly each month.",
@@ -15753,7 +15753,7 @@
           }
         ],
         "productId": "9a2b1a1885e749538f08973b6998cf10",
-        "lastUpdated": "2026-11-22T02:15:31.000Z",
+        "lastUpdated": "2026-11-22T10:00:54.000Z",
         "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
         "name": "SMSF Saver",
         "description": "A savings account for Self Managed Super Fund customers with the ability to move money via a linked CommBank transaction account.",
@@ -16277,7 +16277,7 @@
           }
         ],
         "productId": "ad22b1f0967349e8a5d586afe7f0d845",
-        "lastUpdated": "2026-11-22T02:15:31.000Z",
+        "lastUpdated": "2026-11-22T10:00:58.000Z",
         "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
         "name": "NetBank Saver",
         "description": "An online savings account with the flexibility to move money in and out of your linked CommBank transaction account using NetBank or the CommBank app.",
@@ -16462,7 +16462,7 @@
           }
         ],
         "productId": "b31f8ddfc16b4121a0522fdc4af6cf7e",
-        "lastUpdated": "2026-11-22T06:00:22.000Z",
+        "lastUpdated": "2026-11-22T10:00:57.000Z",
         "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
         "name": "Business Online Saver",
         "description": "A business savings account that can help you manage cash flow and set aside money for tax payments.",
@@ -17102,7 +17102,7 @@
           }
         ],
         "productId": "b9e5529bf94f46e5a30b1baea8db0df5",
-        "lastUpdated": "2026-11-22T02:15:31.000Z",
+        "lastUpdated": "2026-11-22T10:00:19.000Z",
         "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
         "name": "Foreign Currency Account (Business)",
         "description": "A flexible way to make, receive and convert regular payments in foreign currencies.",
@@ -17301,7 +17301,7 @@
           }
         ],
         "productId": "bfb76d44264b45b7b8edd61dca13aa94",
-        "lastUpdated": "2026-11-22T02:15:31.000Z",
+        "lastUpdated": "2026-11-22T10:00:56.000Z",
         "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
         "name": "Capital Growth Account",
         "description": "An account that lets you save and top-up your balance, with flexibility to access your funds by providing notice.",
@@ -18233,7 +18233,7 @@
           }
         ],
         "productId": "cea8baa02cca4e0990372984db2b0bf2",
-        "lastUpdated": "2026-11-22T02:15:31.000Z",
+        "lastUpdated": "2026-11-22T10:00:39.000Z",
         "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
         "name": "Farm Management Deposit account (At Call)",
         "description": "A tax-effective investment that allows primary producers to set aside pre-tax income as a cash reserve for later years.",
@@ -18639,7 +18639,7 @@
           }
         ],
         "productId": "da527ba1942246edac4d5da36dbc1da8",
-        "lastUpdated": "2026-11-22T09:00:05.000Z",
+        "lastUpdated": "2026-11-22T10:01:07.000Z",
         "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
         "name": "Commonwealth Direct Investment Account",
         "description": "A cash management account for investors allowing you to trade and transact when and where it suits you.",
@@ -19698,7 +19698,7 @@
           }
         ],
         "productId": "f70238d4ee324ad99af6ee0f01f7cdde",
-        "lastUpdated": "2026-11-22T02:15:31.000Z",
+        "lastUpdated": "2026-11-22T10:00:57.000Z",
         "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
         "name": "Business Transaction Account",
         "description": "An everyday business bank account that you can open online, which provides unlimited electronic transactions and 5 assisted transactions on a monthly basis for customers on the $10 monthly account fee pricing option. Fees and charges will apply if you exceed this amount. Customers with the $0 monthly account fee pricing option will not have included assisted transactions - each assisted transaction will be chargeable. Please note Access, CommBiz and NetBank Service Fees may apply and are excluded from the unlimited electronic transactions.",
@@ -20330,7 +20330,7 @@
           }
         ],
         "productId": "f889dd909d1d44858a2f2ad839dcda89",
-        "lastUpdated": "2026-11-22T02:15:31.000Z",
+        "lastUpdated": "2026-11-22T10:01:06.000Z",
         "productCategory": "TERM_DEPOSITS",
         "name": "Farm Management Deposit account (Fixed Term)",
         "description": "A tax-effective investment that allows primary producers to set aside pre-tax income as a cash reserve for later years.",

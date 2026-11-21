@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-21T23:13:27.503Z",
+  "generatedAt": "2026-11-21T23:31:19.408Z",
   "crawl": {
-    "crawledAt": "2026-11-21T23:13:26.161Z",
+    "crawledAt": "2026-11-21T23:31:17.602Z",
     "registerOk": true,
     "brandsTotal": 390,
     "brandsInScope": 306,
@@ -299,11 +299,11 @@
       "5": 16,
       "6": 38,
       "7": 1477,
-      "": 1
+      "none": 1
     },
     "cors": {
-      "browserReady": 242,
-      "preflightOk": 244,
+      "browserReady": 241,
+      "preflightOk": 243,
       "exposesXv": 108,
       "checked": 259
     }
@@ -559,7 +559,7 @@
     {
       "code": "NON_PERSONAL_PRODUCT",
       "description": "Business / SMSF / trust / organisation product (to exclude for a household)",
-      "count": 363,
+      "count": 368,
       "examples": [
         "AMP Bank GO — AMP Bank GO 12 Month Business Term Deposit",
         "AMP Bank GO — AMP Bank GO 6 Month Business Term Deposit",
@@ -975,13 +975,13 @@
     }
   ],
   "td12Coverage": {
-    "products": 454,
+    "products": 453,
     "with12m": 140
   },
   "review": {
     "stats": {
-      "candidates": 167,
-      "reviewed": 167,
+      "candidates": 166,
+      "reviewed": 166,
       "stale": 0,
       "queued": 0,
       "belowThreshold": 0,

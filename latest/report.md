@@ -1,6 +1,6 @@
 # CDR product data — crawl report
 
-Crawled 2026-11-21T23:13:26.161Z · report 2026-11-21T23:13:27.503Z
+Crawled 2026-11-21T23:31:17.602Z · report 2026-11-21T23:31:19.408Z
 
 ## Coverage
 
@@ -14,8 +14,8 @@ Crawled 2026-11-21T23:13:26.161Z · report 2026-11-21T23:13:27.503Z
 | Product details fetched | 1545 ok, 1 failed |
 | Products with deposit rates | TRANS_AND_SAVINGS_ACCOUNTS: 758, TERM_DEPOSITS: 646 |
 | List endpoint versions (x-v) | 5: 255, 3: 2, 4: 2 |
-| Detail endpoint versions (x-v) | 7: 1477, 6: 38, 5: 16, 4: 13, : 1 |
-| Browser-callable (CORS ok with x-v) | 242 / 259 |
+| Detail endpoint versions (x-v) | 7: 1477, 6: 38, 5: 16, 4: 13, none: 1 |
+| Browser-callable (CORS ok with x-v) | 241 / 259 |
 
 ### Endpoints that failed
 
@@ -90,7 +90,7 @@ Structured condition types: MIN_DEPOSIT_AMOUNT: 97, DEPOSIT_BALANCE_INCREASED: 5
 
 | Needing judgement | Reviewed | Changed since review | Queued (≥3.0%) | Below threshold |
 | --- | --- | --- | --- | --- |
-| 167 | 167 | 0 | 0 | 0 |
+| 166 | 166 | 0 | 0 | 0 |
 
 ## Data-quality flags
 
@@ -110,7 +110,7 @@ Structured condition types: MIN_DEPOSIT_AMOUNT: 97, DEPOSIT_BALANCE_INCREASED: 5
 | OVERLAPPING_BASE_ROWS | 21 | Several different base rates apply at the same balance — plan or eligibility alternatives that need disambiguating |
 | INTRO_MAYBE_TOTAL | 19 | Introductory rate of 3%+ — probably published as the total rate rather than an add-on to base |
 | NON_AUD_PRODUCT | 41 | Foreign-currency product (to exclude) |
-| NON_PERSONAL_PRODUCT | 363 | Business / SMSF / trust / organisation product (to exclude for a household) |
+| NON_PERSONAL_PRODUCT | 368 | Business / SMSF / trust / organisation product (to exclude for a household) |
 
 <details><summary>DETAIL_MISSING — examples</summary>
 
@@ -298,7 +298,7 @@ Headline = base + stacked bonuses (+ intro where present), assuming all conditio
 
 ## Top 12-month term deposits (personal AUD products)
 
-140 of 454 personal AUD term-deposit products have an identifiable 12-month rate.
+140 of 453 personal AUD term-deposit products have an identifiable 12-month rate.
 
 | Brand | Product | Rate | Paid / tiers |
 | --- | --- | --- | --- |

@@ -337,6 +337,7 @@
             "additionalInfo": "You need to be an Australian citizen or resident"
           }
         ],
+        "lendingRates": [],
         "fees": [
           {
             "name": "Periodical Payment to Other Financial Institution",
@@ -447,7 +448,6 @@
             }
           }
         ],
-        "lendingRates": [],
         "depositRates": [
           {
             "depositRateType": "VARIABLE",
@@ -764,12 +764,6 @@
         "isTailored": false,
         "bundles": [],
         "cardArt": [],
-        "constraints": [
-          {
-            "constraintType": "OPENING_BALANCE",
-            "additionalValue": "1.00"
-          }
-        ],
         "features": [
           {
             "featureType": "OTHER",
@@ -811,6 +805,12 @@
           },
           {
             "featureType": "NPP_PAYID"
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "OPENING_BALANCE",
+            "additionalValue": "1.00"
           }
         ],
         "eligibility": [
@@ -898,6 +898,7 @@
             }
           }
         ],
+        "lendingRates": [],
         "depositRates": [
           {
             "depositRateType": "VARIABLE",
@@ -908,7 +909,6 @@
             "applicationType": "PERIODIC"
           }
         ],
-        "lendingRates": [],
         "additionalInformation": {
           "overviewUri": "https://www.bendigobank.com.au/business/business-transaction-accounts/",
           "termsUri": "https://www.bendigobank.com.au/disclosure-documents/",
@@ -1483,7 +1483,6 @@
             "additionalValue": "A card is available for the product to access funds"
           }
         ],
-        "constraints": [],
         "eligibility": [
           {
             "eligibilityType": "PENSION_RECIPIENT",
@@ -1500,6 +1499,7 @@
             "additionalValue": "You need to be an Australian citizen or resident"
           }
         ],
+        "constraints": [],
         "fees": [
           {
             "name": "International ATM Withdrawal",
@@ -2220,6 +2220,12 @@
         "isTailored": false,
         "bundles": [],
         "cardArt": [],
+        "features": [
+          {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": "Existing customers only"
+          }
+        ],
         "constraints": [
           {
             "constraintType": "OPENING_BALANCE",
@@ -2230,12 +2236,6 @@
             "constraintType": "MIN_BALANCE",
             "additionalInfo": "*Minimum Balance to Maintain ",
             "additionalValue": "1.00"
-          }
-        ],
-        "features": [
-          {
-            "featureType": "DIGITAL_BANKING",
-            "additionalInfo": "Existing customers only"
           }
         ],
         "eligibility": [],
@@ -4271,7 +4271,6 @@
         "isTailored": false,
         "bundles": [],
         "cardArt": [],
-        "constraints": [],
         "features": [
           {
             "featureType": "UNLIMITED_TXNS"
@@ -4283,6 +4282,7 @@
             "featureType": "NPP_ENABLED"
           }
         ],
+        "constraints": [],
         "eligibility": [
           {
             "eligibilityType": "MAX_AGE",

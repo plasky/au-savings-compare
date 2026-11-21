@@ -1,0 +1,27 @@
+{
+  "endpoint": "https://public.mortgage-mart.cdr.colcap.com.au/cds-au/v1/banking/products",
+  "slug": "mortgage-mart-023d70",
+  "brands": [
+    {
+      "dataHolderBrandId": "084e6faf-ddba-f111-81be-000d3a799057",
+      "brandName": "Mortgage Mart",
+      "brandGroup": null,
+      "abn": "51119531252",
+      "industries": [
+        "non-bank-lending"
+      ]
+    }
+  ],
+  "list": {
+    "ok": true,
+    "status": 200,
+    "version": "5",
+    "totalPages": 1,
+    "pagesFetched": 1,
+    "productCount": 18,
+    "categoryCounts": {
+      "RESIDENTIAL_MORTGAGES": 18
+    }
+  },
+  "products": []
+}

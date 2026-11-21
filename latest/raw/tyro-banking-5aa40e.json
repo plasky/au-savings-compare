@@ -1,0 +1,161 @@
+{
+  "endpoint": "https://od1.cdr.banking.tyro.com/api/cds-au/v1/banking/products",
+  "slug": "tyro-banking-5aa40e",
+  "brands": [
+    {
+      "dataHolderBrandId": "3195340a-fe50-f011-95f3-00224818bd24",
+      "brandName": "Tyro Banking",
+      "brandGroup": null,
+      "abn": "49103575042",
+      "industries": [
+        "banking"
+      ]
+    }
+  ],
+  "list": {
+    "ok": true,
+    "status": 200,
+    "version": "5",
+    "totalPages": 1,
+    "pagesFetched": 1,
+    "productCount": 2,
+    "categoryCounts": {
+      "TRANS_AND_SAVINGS_ACCOUNTS": 1,
+      "BUSINESS_LOANS": 1
+    }
+  },
+  "products": [
+    {
+      "productId": "ffe0b8fd-f9ce-48eb-93c9-c6fe23195ffa",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "additionalInformation": {
+          "additionalTermsUris": [
+            {
+              "additionalInfoUri": "https://cdn.troy-prod.troy-prod.cxnpl.io/files/products/ffe0b8fd-f9ce-48eb-93c9-c6fe23195ffa/v1/Transaction%20Account%20Terms%20and%20Conditions.pdf",
+              "description": "Terms and Conditions"
+            },
+            {
+              "additionalInfoUri": "https://www.tyro.com/target-market-determinations/tyro-transaction-account-target-marketing-determination/",
+              "description": "Target Market Determination"
+            }
+          ],
+          "termsUri": "https://cdn.troy-prod.troy-prod.cxnpl.io/files/products/ffe0b8fd-f9ce-48eb-93c9-c6fe23195ffa/v1/Transaction%20Account%20Terms%20and%20Conditions.pdf"
+        },
+        "applicationUri": "https://www.tyro.com/products/bank-account/",
+        "brand": "Tyro Payments Limited",
+        "brandName": "Tyro Banking",
+        "constraints": [
+          {
+            "additionalInfo": "Maximum number of transactions per day is 50.",
+            "additionalValue": "50.00",
+            "constraintType": "MAX_LIMIT"
+          },
+          {
+            "additionalInfo": "Daily domestic single card transaction limit of $20,000.",
+            "additionalValue": "20000.00",
+            "constraintType": "MAX_LIMIT"
+          },
+          {
+            "additionalInfo": "Single cash ATM/POS withdrawal limit of $2,009.99.",
+            "additionalValue": "2009.99",
+            "constraintType": "MAX_LIMIT"
+          },
+          {
+            "additionalInfo": "Offline transaction limit of $250.",
+            "additionalValue": "250.00",
+            "constraintType": "MAX_LIMIT"
+          },
+          {
+            "additionalInfo": "Minimum single transaction limit of $0.01.",
+            "additionalValue": "0.01",
+            "constraintType": "MIN_LIMIT"
+          },
+          {
+            "additionalInfo": "Maximum single transaction limit of $20,000.",
+            "additionalValue": "20000.00",
+            "constraintType": "MAX_LIMIT"
+          },
+          {
+            "additionalInfo": "You can hold a maximum of 10 accounts for this product.",
+            "additionalValue": "10.00",
+            "constraintType": "MAX_LIMIT"
+          },
+          {
+            "additionalInfo": "You can only hold a maximum of 1 card per person, per account for this product.",
+            "additionalValue": "1.00",
+            "constraintType": "MAX_LIMIT"
+          },
+          {
+            "additionalInfo": "International single card transaction limit of $20,000.",
+            "additionalValue": "20000.00",
+            "constraintType": "MAX_LIMIT"
+          },
+          {
+            "additionalInfo": "Maximum cumulative value of transactions is $100,000 per day.",
+            "additionalValue": "100000.00",
+            "constraintType": "MAX_LIMIT"
+          }
+        ],
+        "description": "Everyday banking for your business",
+        "effectiveFrom": "2025-08-15T07:36:00.001Z",
+        "effectiveTo": "2027-11-05T23:59:00.001Z",
+        "eligibility": [
+          {
+            "additionalInfo": "You must have an Australian mobile number and a valid email address.",
+            "eligibilityType": "OTHER"
+          },
+          {
+            "additionalInfo": "To open an account, you must have an active ABN or ACN, and you must be registered as a Sole Trader, Private Company, Trust, Self-Managed Super Fund (SMSF), Partnership or Association with the Australian Business Register.",
+            "eligibilityType": "BUSINESS"
+          }
+        ],
+        "features": [
+          {
+            "additionalInfo": "Make transfers and send payments in real time.",
+            "featureType": "NPP_ENABLED"
+          },
+          {
+            "additionalInfo": "The product includes fraud protection functionality.",
+            "featureType": "FRAUD_PROTECTION"
+          },
+          {
+            "additionalInfo": "You can access your accounts on your mobile for all your online banking.",
+            "featureType": "DIGITAL_BANKING"
+          },
+          {
+            "additionalInfo": "Use this account to make and received PayID payments.",
+            "featureType": "NPP_PAYID"
+          },
+          {
+            "additionalValue": "All statements, notices and other communication in connection with these terms and conditions and your account may be given electronically by: email, text message, in app push notifications, in app prompts, or letting you know by email, text message or push notification that the information is available on the app or on a website. You should check your emails, text messages and push notifications regularly.",
+            "featureType": "NOTIFICATIONS"
+          },
+          {
+            "additionalValue": "Link your transaction account to VISA® debit card.",
+            "featureType": "CARD_ACCESS"
+          }
+        ],
+        "isTailored": false,
+        "lastUpdated": "2026-11-06T12:36:56.373378Z",
+        "lendingRates": [
+          {
+            "additionalInfo": "Only applied when an account is overdrawn.",
+            "applicationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "calculationFrequency": "P1D",
+            "lendingRateType": "VARIABLE",
+            "loanPurpose": "OTHER",
+            "rate": "0.15",
+            "repaymentType": "OTHER"
+          }
+        ],
+        "name": "Tyro Transaction Account",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "productId": "ffe0b8fd-f9ce-48eb-93c9-c6fe23195ffa"
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    }
+  ]
+}

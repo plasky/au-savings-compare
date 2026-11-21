@@ -1,0 +1,2108 @@
+{
+  "endpoint": "https://openbanking.api.creditunionsa.com.au/cds-au/v1/banking/products",
+  "slug": "credit-union-sa-cbc123",
+  "brands": [
+    {
+      "dataHolderBrandId": "9bf24742-68ac-eb11-a822-000d3a884a20",
+      "brandName": "Credit Union SA",
+      "brandGroup": null,
+      "abn": "36087651232",
+      "industries": [
+        "banking"
+      ]
+    }
+  ],
+  "list": {
+    "ok": true,
+    "status": 200,
+    "version": "5",
+    "totalPages": 1,
+    "pagesFetched": 1,
+    "productCount": 48,
+    "categoryCounts": {
+      "TRANS_AND_SAVINGS_ACCOUNTS": 9,
+      "RESIDENTIAL_MORTGAGES": 25,
+      "TERM_DEPOSITS": 1,
+      "PERS_LOANS": 10,
+      "CRED_AND_CHRG_CARDS": 3
+    }
+  },
+  "products": [
+    {
+      "productId": "CREDITUNIONSA_INV",
+      "productCategory": "TERM_DEPOSITS",
+      "detail": {
+        "productId": "CREDITUNIONSA_INV",
+        "effectiveFrom": "2019-04-04T00:00:00.000+11:00",
+        "effectiveTo": "2099-06-01T00:00:00.000+10:00",
+        "lastUpdated": "2026-11-04T00:00:00.000+11:00",
+        "productCategory": "TERM_DEPOSITS",
+        "name": "Term Deposit",
+        "description": "Term Deposits allow you to lock away funds and earn a fixed interest rate for a set period, so you know exactly how much money you will earn. You can start with investing as little as $1,000. Term Deposits with terms of three, six or nine months automatically have interest paid at maturity. The interest may be paid to a savings account or reinvested. For terms of 12 months or longer, you can have interest paid to your savings account as regularly as fortnightly, monthly, quarterly or annually - it’s your choice!",
+        "brand": "Credit Union SA",
+        "applicationUri": "https://apply.creditunionsa.com.au/cusa/servlet/SmartForm.html?formCode=membership-personal",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.creditunionsa.com.au/accounts/savings-accounts-and-term-deposits/term-deposit/",
+          "termsUri": "https://www.creditunionsa.com.au/globalassets/pdfs/brc_1095.pdf",
+          "eligibilityUri": "https://www.creditunionsa.com.au/accounts/savings-accounts-and-term-deposits/term-deposit/",
+          "feesAndPricingUri": "https://www.creditunionsa.com.au/rates/term-deposit/",
+          "additionalOverviewUris": [],
+          "additionalTermsUris": [],
+          "additionalEligibilityUris": [],
+          "additionalFeesAndPricingUris": [],
+          "additionalBundleUris": []
+        },
+        "cardArt": [],
+        "bundles": [],
+        "features": [
+          {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/digital-banking/"
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "MIN_BALANCE",
+            "additionalValue": "1000.00"
+          },
+          {
+            "constraintType": "OPENING_BALANCE",
+            "additionalValue": "1000.00"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalValue": "Australian citizen or permanent resident",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/accounts/savings-accounts-and-term-deposits/term-deposit/"
+          }
+        ],
+        "fees": [
+          {
+            "name": "Term Deposit Withdrawal",
+            "feeType": "EVENT",
+            "currency": "AUD",
+            "additionalValue": "When you request to withdraw part or all of your term deposit funds prior to the maturity date, the contracted interest will be paid to you on the amount withdrawn early, reflecting the proportion of the contracted term elapsed when the earned interest is paid to you. An administration fee of $20 will also apply. This administration fee will be deducted from the amount of interest that will be paid to you.",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/fees/other-fees/",
+            "feeMethodUType": "variable",
+            "variable": {
+              "feeMinimum": "0.00",
+              "feeMaximum": "99999999.99"
+            },
+            "discounts": []
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.053",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P6M",
+            "tiers": [],
+            "additionalValue": "P6M",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/rates/term-deposit/"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.03",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P5M",
+            "tiers": [],
+            "additionalValue": "P5M",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/rates/term-deposit/"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.03",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P9M",
+            "tiers": [],
+            "additionalValue": "P9M",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/rates/term-deposit/"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.03",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P7M",
+            "tiers": [],
+            "additionalValue": "P7M",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/rates/term-deposit/"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.053",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P12M",
+            "tiers": [],
+            "additionalValue": "P12M",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/rates/term-deposit/"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.03",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P3M",
+            "tiers": [],
+            "additionalValue": "P3M",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/rates/term-deposit/"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.029",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P24M",
+            "tiers": [],
+            "additionalValue": "P24M",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/rates/term-deposit/"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.03",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P8M",
+            "tiers": [],
+            "additionalValue": "P8M",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/rates/term-deposit/"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.053",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P10M",
+            "tiers": [],
+            "additionalValue": "P10M",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/rates/term-deposit/"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.03",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P11M",
+            "tiers": [],
+            "additionalValue": "P11M",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/rates/term-deposit/"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.029",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P36M",
+            "tiers": [],
+            "additionalValue": "P36M",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/rates/term-deposit/"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.054",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P4M",
+            "tiers": [],
+            "additionalValue": "P4M",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/rates/term-deposit/"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.029",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P48M",
+            "tiers": [],
+            "additionalValue": "P48M",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/rates/term-deposit/"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.029",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P60M",
+            "tiers": [],
+            "additionalValue": "P60M",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/rates/term-deposit/"
+          }
+        ],
+        "lendingRates": []
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "CREDITUNIONSA_SAV_109",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "productId": "CREDITUNIONSA_SAV_109",
+        "effectiveFrom": "2015-06-01T00:00:00.000+10:00",
+        "effectiveTo": "2099-06-01T00:00:00.000+10:00",
+        "lastUpdated": "2026-11-12T00:00:00.000+11:00",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "name": "Bonus Savings Account",
+        "description": "Earn a great bonus rate each month if you make a deposit of any amount and no withdrawals with our Bonus Savings Account. It doesn’t matter if you deposit $1 or $1,000 each month, either way you can earn bonus interest. Best of all, there’s no maximum or minimum balance requirements, so you can have as much or as little as you like sitting in your account.",
+        "brand": "Credit Union SA",
+        "applicationUri": "https://apply.creditunionsa.com.au/cusa/servlet/SmartForm.html?formCode=membership-personal",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.creditunionsa.com.au/accounts/savings-accounts-and-term-deposits/bonus-savings/",
+          "termsUri": "https://www.creditunionsa.com.au/globalassets/pdfs/brc_1095.pdf",
+          "eligibilityUri": "https://www.creditunionsa.com.au/accounts/savings-accounts-and-term-deposits/bonus-savings/",
+          "feesAndPricingUri": "https://www.creditunionsa.com.au/fees/accounts/",
+          "additionalOverviewUris": [],
+          "additionalTermsUris": [],
+          "additionalEligibilityUris": [],
+          "additionalFeesAndPricingUris": [],
+          "additionalBundleUris": []
+        },
+        "cardArt": [],
+        "bundles": [],
+        "features": [
+          {
+            "featureType": "CARD_ACCESS",
+            "additionalValue": "Visa Debit Card",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/accounts/savings-accounts-and-term-deposits/bonus-savings/"
+          },
+          {
+            "featureType": "ADDITIONAL_CARDS",
+            "additionalValue": "Null",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/accounts/savings-accounts-and-term-deposits/bonus-savings/"
+          },
+          {
+            "featureType": "UNLIMITED_TXNS",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/accounts/savings-accounts-and-term-deposits/bonus-savings/"
+          },
+          {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/digital-banking/"
+          },
+          {
+            "featureType": "NPP_PAYID",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/digital-banking/real-time-payments/payid"
+          },
+          {
+            "featureType": "NPP_ENABLED",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/digital-banking/real-time-payments/payid"
+          },
+          {
+            "featureType": "BILL_PAYMENT",
+            "additionalValue": "Bpay",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/globalassets/pdfs/brc_1095.pdf"
+          },
+          {
+            "featureType": "NOTIFICATIONS",
+            "additionalValue": "SMS alerts available for specified events/transactions, at regular intervals of one-off.",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/globalassets/pdfs/brc_1095.pdf"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Round-ups (destination account)",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/globalassets/pdfs/brc_1095.pdf"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Business Banking can be attached to the product",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/accounts/transaction-accounts/business-banking"
+          }
+        ],
+        "constraints": [],
+        "eligibility": [],
+        "fees": [
+          {
+            "name": "Deposit Periodic",
+            "feeType": "PERIODIC",
+            "currency": "AUD",
+            "additionalValue": "No monthly or annual fees",
+            "additionalInfo": "Where permitted by the account terms and conditions, you can perform unlimited transactions of the following types and we will not charge you a transaction fee: ATM enquiry, ATM transfer, ATM withdrawal, Bank@Post deposit, Bank@Post withdrawal, BPAY payment, branch deposit, branch transfer, branch withdrawal, corporate cheque, direct credit, direct debit, EFTPOS cash withdrawal, EFTPOS purchase, internet banking transfer, overseas ATM enquiry, overseas ATM withdrawal, Member Contact Centre transfer or payment, mobile banking transfer, periodical payment, phone banking transfer, Visa debit cash advance, Visa debit purchase. Not all transaction types are permitted on all accounts.",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/fees/accounts/",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "discounts": []
+          },
+          {
+            "name": "Transaction",
+            "feeType": "TRANSACTION",
+            "currency": "AUD",
+            "additionalValue": "No transaction or withdrawal fees",
+            "additionalInfo": "Payable whenever we send you a letter because you do not make a repayment in full on or before the due date and the default continues for 3 days or more.",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/fees/accounts/",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "discounts": []
+          },
+          {
+            "name": "Arrears",
+            "feeType": "EVENT",
+            "currency": "AUD",
+            "additionalValue": "Arrears administration fee",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/fees/accounts/",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "15.00"
+            },
+            "discounts": []
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0001",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [],
+            "additionalInfoUri": "https://www.creditunionsa.com.au/rates/savings-and-transaction-accounts/"
+          },
+          {
+            "depositRateType": "BONUS",
+            "rate": "0.0399",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [],
+            "additionalValue": "Bonus interest applies each month you make a deposit (of any amount) and no withdrawals.",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/rates/savings-and-transaction-accounts/"
+          }
+        ],
+        "lendingRates": []
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "CREDITUNIONSA_SAV_112",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "productId": "CREDITUNIONSA_SAV_112",
+        "effectiveFrom": "2015-06-01T00:00:00.000+10:00",
+        "effectiveTo": "2099-06-01T00:00:00.000+10:00",
+        "lastUpdated": "2026-11-12T00:00:00.000+11:00",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "name": "55+ Account",
+        "description": "Our 55+ Account is a transaction account available to all members aged 55 and over. It offers you the ability to earn higher returns without having to lock funds away and has no monthly account keeping fees. Whether you’re working, receiving a pension or retired, that combination is hard to beat. You can request a free Visa Debit Card with payWave which you can load into Google Pay, Apple Pay, Samsung Pay and Garmin Pay. Now you can pay for purchases using your smart device, wherever mobile payment systems are offered. Get unbeatable security through measures such as the Visa Zero Liability policy (which protects against unauthorised transactions) and our own 24/7 fraud monitoring service. You’ll also be able to temporarily lock your card (if you misplace it), plus block payWave, international and online transactions whenever you need to – using the Mobile Banking App or Internet Banking. Online banking with this account is available 24/7 with Internet Banking and our Mobile Banking App. Internet banking will provide you with eStatements as well as the means to securely message each other, reducing paper and postage costs.",
+        "brand": "Credit Union SA",
+        "applicationUri": "https://apply.creditunionsa.com.au/cusa/servlet/SmartForm.html?formCode=membership-personal",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.creditunionsa.com.au/accounts/transaction-accounts/55-account/",
+          "termsUri": "https://www.creditunionsa.com.au/globalassets/pdfs/brc_1095.pdf",
+          "eligibilityUri": "https://www.creditunionsa.com.au/accounts/transaction-accounts/55-account/",
+          "feesAndPricingUri": "https://www.creditunionsa.com.au/fees/accounts/",
+          "additionalOverviewUris": [],
+          "additionalTermsUris": [],
+          "additionalEligibilityUris": [],
+          "additionalFeesAndPricingUris": [],
+          "additionalBundleUris": []
+        },
+        "cardArt": [
+          {
+            "cardScheme": "VISA",
+            "cardType": "DEBIT",
+            "title": "Visa Debit Card",
+            "imageUri": "https://cms.creditunionsa.com.au/assets/images/New-Visa.png"
+          }
+        ],
+        "bundles": [],
+        "features": [
+          {
+            "featureType": "UNLIMITED_TXNS",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/accounts/transaction-accounts/55-account/"
+          },
+          {
+            "featureType": "CARD_ACCESS",
+            "additionalValue": "Visa debit card",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/accounts/transaction-accounts/55-account/"
+          },
+          {
+            "featureType": "ADDITIONAL_CARDS",
+            "additionalValue": "Null",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/accounts/transaction-accounts/55-account/"
+          },
+          {
+            "featureType": "DIGITAL_WALLET",
+            "additionalValue": "Apple Pay",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/tools/digital-wallet/"
+          },
+          {
+            "featureType": "DIGITAL_WALLET",
+            "additionalValue": "Google Pay",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/tools/digital-wallet/"
+          },
+          {
+            "featureType": "DIGITAL_WALLET",
+            "additionalValue": "Garmin Pay",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/tools/digital-wallet/"
+          },
+          {
+            "featureType": "DIGITAL_WALLET",
+            "additionalValue": "Samsung Pay",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/tools/digital-wallet/"
+          },
+          {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/digital-banking/"
+          },
+          {
+            "featureType": "NPP_PAYID",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/digital-banking/real-time-payments/payid"
+          },
+          {
+            "featureType": "NPP_ENABLED",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/digital-banking/real-time-payments/payid"
+          },
+          {
+            "featureType": "BILL_PAYMENT",
+            "additionalValue": "Bpay",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/globalassets/pdfs/brc_1095.pdf"
+          },
+          {
+            "featureType": "NOTIFICATIONS",
+            "additionalValue": "SMS alerts available for specified events/transactions, at regular intervals of one-off.",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/globalassets/pdfs/brc_1095.pdf"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Round-ups (origin account)",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/globalassets/pdfs/brc_1095.pdf"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Round-ups (destination account)",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/globalassets/pdfs/brc_1095.pdf"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Lock, block and control your card",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/community/news/2019/lock-block-and-control-your-card/"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Business Banking can be attached to the product",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/accounts/transaction-accounts/business-banking"
+          }
+        ],
+        "constraints": [],
+        "eligibility": [
+          {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "55",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/accounts/transaction-accounts/55-account/"
+          }
+        ],
+        "fees": [
+          {
+            "name": "Deposit Periodic",
+            "feeType": "PERIODIC",
+            "currency": "AUD",
+            "additionalValue": "No monthly or annual fees",
+            "additionalInfo": "Where permitted by the account terms and conditions, you can perform unlimited transactions of the following types and we will not charge you a transaction fee: ATM enquiry, ATM transfer, ATM withdrawal, Bank@Post deposit, Bank@Post withdrawal, BPAY payment, branch deposit, branch transfer, branch withdrawal, corporate cheque, direct credit, direct debit, EFTPOS cash withdrawal, EFTPOS purchase, internet banking transfer, overseas ATM enquiry, overseas ATM withdrawal, Member Contact Centre transfer or payment, mobile banking transfer, periodical payment, phone banking transfer, Visa debit cash advance, Visa debit purchase. Not all transaction types are permitted on all accounts.",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/fees/accounts/",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "discounts": []
+          },
+          {
+            "name": "Transaction",
+            "feeType": "TRANSACTION",
+            "currency": "AUD",
+            "additionalValue": "No transaction or withdrawal fees",
+            "additionalInfo": "Payable whenever we send you a letter because you do not make a repayment in full on or before the due date and the default continues for 3 days or more.",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/fees/accounts/",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "discounts": []
+          },
+          {
+            "name": "Arrears",
+            "feeType": "EVENT",
+            "currency": "AUD",
+            "additionalValue": "Arrears administration fee",
+            "additionalInfo": "Payable each day that your account is overdrawn (where you have no approved credit limit) or the account is overdrawn beyond your approved credit limit and you have performed at least one debit transaction to the account or card that day",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/fees/accounts/",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "15.00"
+            },
+            "discounts": []
+          },
+          {
+            "name": "Overdraft or overlimit fee",
+            "feeType": "EVENT",
+            "currency": "AUD",
+            "additionalValue": "Payable each day that your account is overdrawn (where you have no approved credit limit) or the account is overdrawn beyond your approved credit limit and you have performed at least one debit transaction to the account or card that day",
+            "additionalInfo": "Payable when you perform a transaction in a currency other than Australian dollars using a Visa card. This fee is included in the AUD amount debited to your account and comprises 2.00% charged by third parties and 1.00% charged by Credit Union SA",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/fees/other-fees/",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "15.00"
+            },
+            "discounts": []
+          },
+          {
+            "name": "Currency Conversion",
+            "feeType": "EVENT",
+            "currency": "AUD",
+            "additionalValue": "Visa Currency Conversion",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/fees/accounts/",
+            "feeMethodUType": "rateBased",
+            "rateBased": {
+              "rateType": "TRANSACTION",
+              "rate": "0.03",
+              "amountRange": {
+                "feeMinimum": "0.01",
+                "feeMaximum": "9999999.99"
+              }
+            },
+            "discounts": []
+          },
+          {
+            "name": "Direct Debit Dishonour",
+            "feeType": "EVENT",
+            "currency": "AUD",
+            "additionalValue": "Direct Debit",
+            "additionalInfo": "Payable when you have insufficient funds at the time a direct debit is set to occur and the direct debit is dishonoured",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/fees/other-fees/",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "10.00"
+            },
+            "discounts": []
+          },
+          {
+            "name": "Paper Statement",
+            "feeType": "PERIODIC",
+            "currency": "AUD",
+            "additionalValue": "Paper Statement Fee",
+            "additionalInfo": "If you have not opted in for eStatements and we send a paper statements to your nominated postal address we have on record. Note: An electronic statement can be requested at any time with no fee payable.",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/fees/other-fees/",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "2.00"
+            },
+            "discounts": []
+          },
+          {
+            "name": "Lost VISA Card",
+            "feeType": "EVENT",
+            "currency": "AUD",
+            "additionalValue": "Lost VISA Card",
+            "additionalInfo": "Payable when you lose or misplace your VISA Card and we need to order you a new card",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/fees/other-fees/",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "10.00"
+            },
+            "discounts": []
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0125",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "55+ Account < $50,000",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": 0,
+                "applicabilityConditions": [
+                  {
+                    "rateApplicabilityType": "ProductRateCondition",
+                    "additionalInfoUri": "https://www.creditunionsa.com.au/rates/savings-and-transaction-accounts/"
+                  }
+                ],
+                "additionalInfoUri": "https://www.creditunionsa.com.au/rates/savings-and-transaction-accounts/"
+              }
+            ],
+            "additionalInfoUri": "https://www.creditunionsa.com.au/rates/savings-and-transaction-accounts/"
+          },
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.022",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "55+ Account $50,000 - $250,000",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": 50000,
+                "applicabilityConditions": [
+                  {
+                    "rateApplicabilityType": "ProductRateCondition",
+                    "additionalInfoUri": "https://www.creditunionsa.com.au/rates/savings-and-transaction-accounts/"
+                  }
+                ],
+                "additionalInfoUri": "https://www.creditunionsa.com.au/rates/savings-and-transaction-accounts/"
+              }
+            ],
+            "additionalInfoUri": "https://www.creditunionsa.com.au/rates/savings-and-transaction-accounts/"
+          },
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0255",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "55+ Account > $250,000",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": 250000,
+                "applicabilityConditions": [
+                  {
+                    "rateApplicabilityType": "ProductRateCondition",
+                    "additionalInfoUri": "https://www.creditunionsa.com.au/rates/savings-and-transaction-accounts/"
+                  }
+                ],
+                "additionalInfoUri": "https://www.creditunionsa.com.au/rates/savings-and-transaction-accounts/"
+              }
+            ],
+            "additionalInfoUri": "https://www.creditunionsa.com.au/rates/savings-and-transaction-accounts/"
+          }
+        ],
+        "lendingRates": []
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "CREDITUNIONSA_SAV_113",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "productId": "CREDITUNIONSA_SAV_113",
+        "effectiveFrom": "2024-04-29T00:00:00.000+10:00",
+        "effectiveTo": "2099-06-01T00:00:00.000+10:00",
+        "lastUpdated": "2026-11-12T00:00:00.000+11:00",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "name": "Educator+ Account",
+        "description": "A transaction account that pays interest on your entire balance, no matter how many transactions you make. Earn interest while you spend, No minimum balance required for interest to start being paid and Flexible access to funds any time without penalty. This is an exclusive offer for current and retired employees of the South Australian education community, students studying education, and their eligible immediate family members as part of our Knowledge Counts banking benefits.",
+        "brand": "Credit Union SA",
+        "applicationUri": "https://apply.creditunionsa.com.au/cusa/servlet/SmartForm.html?formCode=membership-personal",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.creditunionsa.com.au/community/education-community-banking-benefits/education-savings/educator-plus-account",
+          "termsUri": "https://www.creditunionsa.com.au/globalassets/pdfs/brc_1095.pdf",
+          "eligibilityUri": "https://www.creditunionsa.com.au/community/education-community-banking-benefits/education-savings/educator-plus-account",
+          "feesAndPricingUri": "https://www.creditunionsa.com.au/fees/accounts/",
+          "additionalOverviewUris": [],
+          "additionalTermsUris": [],
+          "additionalEligibilityUris": [],
+          "additionalFeesAndPricingUris": [],
+          "additionalBundleUris": []
+        },
+        "cardArt": [],
+        "bundles": [],
+        "features": [
+          {
+            "featureType": "CARD_ACCESS",
+            "additionalValue": "Visa debit card",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/community/education-community-banking-benefits/education-savings/educator-plus-account"
+          },
+          {
+            "featureType": "ADDITIONAL_CARDS",
+            "additionalValue": "Null",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/community/education-community-banking-benefits/education-savings/educator-plus-account"
+          },
+          {
+            "featureType": "UNLIMITED_TXNS",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/community/education-community-banking-benefits/education-savings/educator-plus-account"
+          },
+          {
+            "featureType": "DIGITAL_WALLET",
+            "additionalValue": "Apple Pay",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/tools/digital-wallet/"
+          },
+          {
+            "featureType": "DIGITAL_WALLET",
+            "additionalValue": "Google Pay",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/tools/digital-wallet/"
+          },
+          {
+            "featureType": "DIGITAL_WALLET",
+            "additionalValue": "Garmin Pay",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/tools/digital-wallet/"
+          },
+          {
+            "featureType": "DIGITAL_WALLET",
+            "additionalValue": "Samsung Pay",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/tools/digital-wallet/"
+          },
+          {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/digital-banking/"
+          },
+          {
+            "featureType": "NPP_PAYID",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/digital-banking/real-time-payments/payid"
+          },
+          {
+            "featureType": "NPP_ENABLED",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/digital-banking/real-time-payments/payid"
+          },
+          {
+            "featureType": "BILL_PAYMENT",
+            "additionalValue": "Bpay",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/globalassets/pdfs/brc_1095.pdf"
+          },
+          {
+            "featureType": "NOTIFICATIONS",
+            "additionalValue": "SMS alerts available for specified events/transactions, at regular intervals of one-off.",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/globalassets/pdfs/brc_1095.pdf"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Round-ups (origin account)",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/globalassets/pdfs/brc_1095.pdf"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Round-ups (destination account)",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/globalassets/pdfs/brc_1095.pdf"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Lock, block and control your card",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/community/news/2019/lock-block-and-control-your-card/"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Business Banking can be attached to the product",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/accounts/transaction-accounts/business-banking"
+          }
+        ],
+        "constraints": [],
+        "eligibility": [
+          {
+            "eligibilityType": "OTHER",
+            "additionalInfo": "Knowledge Counts Banking Benefits members and students carrying out studies in education and eligible family members (these are parents, children, grandparents, grandchildren, siblings and partners only), as part of the Knowledge Counts Banking Benefits offered by Credit Union SA.",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/community/education-community-banking-benefits/education-savings/educator-plus-account"
+          }
+        ],
+        "fees": [
+          {
+            "name": "Deposit Periodic",
+            "feeType": "PERIODIC",
+            "currency": "AUD",
+            "additionalValue": "No monthly or annual fees",
+            "additionalInfo": "Where permitted by the account terms and conditions, you can perform unlimited transactions of the following types and we will not charge you a transaction fee: ATM enquiry, ATM transfer, ATM withdrawal, Bank@Post deposit, Bank@Post withdrawal, BPAY payment, branch deposit, branch transfer, branch withdrawal, corporate cheque, direct credit, direct debit, EFTPOS cash withdrawal, EFTPOS purchase, internet banking transfer, overseas ATM enquiry, overseas ATM withdrawal, Member Contact Centre transfer or payment, mobile banking transfer, periodical payment, phone banking transfer, Visa debit cash advance, Visa debit purchase. Not all transaction types are permitted on all accounts.",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/fees/accounts/",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "discounts": []
+          },
+          {
+            "name": "Transaction",
+            "feeType": "TRANSACTION",
+            "currency": "AUD",
+            "additionalValue": "No transaction or withdrawal fees",
+            "additionalInfo": "Payable whenever we send you a letter because you do not make a repayment in full on or before the due date and the default continues for 3 days or more.",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/fees/accounts/",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "discounts": []
+          },
+          {
+            "name": "Arrears",
+            "feeType": "EVENT",
+            "currency": "AUD",
+            "additionalValue": "Arrears administration fee",
+            "additionalInfo": "Payable each day that your account is overdrawn (where you have no approved credit limit) or the account is overdrawn beyond your approved credit limit and you have performed at least one debit transaction to the account or card that day",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/fees/accounts/",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "15.00"
+            },
+            "discounts": []
+          },
+          {
+            "name": "Overdraft or overlimit fee",
+            "feeType": "EVENT",
+            "currency": "AUD",
+            "additionalValue": "Payable each day that your account is overdrawn (where you have no approved credit limit) or the account is overdrawn beyond your approved credit limit and you have performed at least one debit transaction to the account or card that day",
+            "additionalInfo": "Payable when you perform a transaction in a currency other than Australian dollars using a Visa card. This fee is included in the AUD amount debited to your account and comprises 2.00% charged by third parties and 1.00% charged by Credit Union SA",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/fees/other-fees/",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "15.00"
+            },
+            "discounts": []
+          },
+          {
+            "name": "Currency Conversion",
+            "feeType": "EVENT",
+            "currency": "AUD",
+            "additionalValue": "Visa Currency Conversion",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/fees/accounts/",
+            "feeMethodUType": "rateBased",
+            "rateBased": {
+              "rateType": "TRANSACTION",
+              "rate": "0.03",
+              "amountRange": {
+                "feeMinimum": "0.01",
+                "feeMaximum": "9999999.99"
+              }
+            },
+            "discounts": []
+          },
+          {
+            "name": "Direct Debit Dishonour",
+            "feeType": "EVENT",
+            "currency": "AUD",
+            "additionalValue": "Direct Debit",
+            "additionalInfo": "Payable when you have insufficient funds at the time a direct debit is set to occur and the direct debit is dishonoured",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/fees/other-fees/",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "10.00"
+            },
+            "discounts": []
+          },
+          {
+            "name": "Paper Statement",
+            "feeType": "PERIODIC",
+            "currency": "AUD",
+            "additionalValue": "Paper Statement Fee",
+            "additionalInfo": "If you have not opted in for eStatements and we send a paper statements to your nominated postal address we have on record. Note: An electronic statement can be requested at any time with no fee payable.",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/fees/other-fees/",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "2.00"
+            },
+            "discounts": []
+          },
+          {
+            "name": "Lost VISA Card",
+            "feeType": "EVENT",
+            "currency": "AUD",
+            "additionalValue": "Lost VISA Card",
+            "additionalInfo": "Payable when you lose or misplace your VISA Card and we need to order you a new card",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/fees/other-fees/",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "10.00"
+            },
+            "discounts": []
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.02",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [],
+            "additionalInfoUri": "https://www.creditunionsa.com.au/community/education-community-banking-benefits/education-savings/educator-plus-account"
+          }
+        ],
+        "lendingRates": []
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "CREDITUNIONSA_SAV_122",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "productId": "CREDITUNIONSA_SAV_122",
+        "effectiveFrom": "2024-12-05T00:00:00.000+11:00",
+        "effectiveTo": "2099-06-01T00:00:00.000+10:00",
+        "lastUpdated": "2026-06-29T00:00:00.000+10:00",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "name": "Business+ Account",
+        "description": "Our Business+ Account is a day-to-day business transactions account designed for businesses, non-for profit organisations and charities.",
+        "brand": "Credit Union SA",
+        "applicationUri": "https://www.creditunionsa.com.au/help-and-support/contact-us",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.creditunionsa.com.au/accounts/business-plus-account",
+          "termsUri": "https://www.creditunionsa.com.au/globalassets/pdfs/brc_1095.pdf",
+          "eligibilityUri": "https://www.creditunionsa.com.au/accounts/business-plus-account",
+          "feesAndPricingUri": "https://www.creditunionsa.com.au/fees/accounts/",
+          "additionalOverviewUris": [],
+          "additionalTermsUris": [],
+          "additionalEligibilityUris": [],
+          "additionalFeesAndPricingUris": [],
+          "additionalBundleUris": []
+        },
+        "cardArt": [],
+        "bundles": [],
+        "features": [
+          {
+            "featureType": "CARD_ACCESS",
+            "additionalValue": "Visa Debit Card",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/accounts/business-plus-account"
+          },
+          {
+            "featureType": "ADDITIONAL_CARDS",
+            "additionalValue": "Null",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/accounts/business-plus-account"
+          },
+          {
+            "featureType": "UNLIMITED_TXNS",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/accounts/business-plus-account"
+          },
+          {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/digital-banking/"
+          },
+          {
+            "featureType": "NPP_PAYID",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/digital-banking/real-time-payments/payid"
+          },
+          {
+            "featureType": "NPP_ENABLED",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/digital-banking/real-time-payments/payid"
+          },
+          {
+            "featureType": "BILL_PAYMENT",
+            "additionalValue": "Bpay",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/globalassets/pdfs/brc_1095.pdf"
+          },
+          {
+            "featureType": "NOTIFICATIONS",
+            "additionalValue": "SMS alerts available for specified events/transactions, at regular intervals of one-off.",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/globalassets/pdfs/brc_1095.pdf"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Round-ups (destination account)",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/globalassets/pdfs/brc_1095.pdf"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Business Banking can be attached to the product",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/accounts/transaction-accounts/business-banking"
+          }
+        ],
+        "constraints": [],
+        "eligibility": [
+          {
+            "eligibilityType": "BUSINESS",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/accounts/business-plus-account"
+          }
+        ],
+        "fees": [
+          {
+            "name": "Monthly Service Fee",
+            "feeType": "PERIODIC",
+            "currency": "AUD",
+            "additionalValue": "Payable when you hold a Business+ Account",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/fees/accounts/",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "10.00"
+            },
+            "discounts": []
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [],
+            "additionalInfoUri": "https://www.creditunionsa.com.au/rates/savings-and-transaction-accounts/"
+          }
+        ],
+        "lendingRates": []
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "CREDITUNIONSA_SAV_124",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "productId": "CREDITUNIONSA_SAV_124",
+        "effectiveFrom": "2026-06-17T00:00:00.000+10:00",
+        "effectiveTo": "2099-06-01T00:00:00.000+10:00",
+        "lastUpdated": "2026-11-12T00:00:00.000+11:00",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "name": "Port+ Account",
+        "description": "A transaction account that pays interest on your entire balance, no matter how many transactions you make. Earn interest while you spend, No minimum balance required for interest to start being paid and flexible access to funds any time without penalty. This account is avaialble exclusively to members and employees of the Port Adelaide Football Club. \"Subject to eligibility criteria and verification\".",
+        "brand": "Credit Union SA",
+        "applicationUri": "https://apply.creditunionsa.com.au/cusa/servlet/SmartForm.html?formCode=membership-personal",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.creditunionsa.com.au/accounts/transaction-accounts/port-plus-account",
+          "termsUri": "https://www.creditunionsa.com.au/globalassets/pdfs/brc_1095.pdf",
+          "eligibilityUri": "https://www.creditunionsa.com.au/accounts/transaction-accounts/port-plus-account",
+          "feesAndPricingUri": "https://www.creditunionsa.com.au/fees/accounts/",
+          "additionalOverviewUris": [],
+          "additionalTermsUris": [],
+          "additionalEligibilityUris": [],
+          "additionalFeesAndPricingUris": [],
+          "additionalBundleUris": []
+        },
+        "cardArt": [],
+        "bundles": [],
+        "features": [
+          {
+            "featureType": "CARD_ACCESS",
+            "additionalValue": "Visa debit card",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/accounts/transaction-accounts/port-plus-account"
+          },
+          {
+            "featureType": "ADDITIONAL_CARDS",
+            "additionalValue": "Null",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/accounts/transaction-accounts/port-plus-account"
+          },
+          {
+            "featureType": "UNLIMITED_TXNS",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/accounts/transaction-accounts/port-plus-account"
+          },
+          {
+            "featureType": "DIGITAL_WALLET",
+            "additionalValue": "Apple Pay",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/tools/digital-wallet/"
+          },
+          {
+            "featureType": "DIGITAL_WALLET",
+            "additionalValue": "Google Pay",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/tools/digital-wallet/"
+          },
+          {
+            "featureType": "DIGITAL_WALLET",
+            "additionalValue": "Garmin Pay",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/tools/digital-wallet/"
+          },
+          {
+            "featureType": "DIGITAL_WALLET",
+            "additionalValue": "Samsung Pay",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/tools/digital-wallet/"
+          },
+          {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/digital-banking/"
+          },
+          {
+            "featureType": "NPP_PAYID",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/digital-banking/real-time-payments/payid"
+          },
+          {
+            "featureType": "NPP_ENABLED",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/digital-banking/real-time-payments/payid"
+          },
+          {
+            "featureType": "BILL_PAYMENT",
+            "additionalValue": "Bpay",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/globalassets/pdfs/brc_1095.pdf"
+          },
+          {
+            "featureType": "NOTIFICATIONS",
+            "additionalValue": "SMS alerts available for specified events/transactions, at regular intervals of one-off.",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/globalassets/pdfs/brc_1095.pdf"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Round-ups (origin account)",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/globalassets/pdfs/brc_1095.pdf"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Round-ups (destination account)",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/globalassets/pdfs/brc_1095.pdf"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Lock, block and control your card",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/community/news/2019/lock-block-and-control-your-card/"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Business Banking can be attached to the product",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/"
+          }
+        ],
+        "constraints": [],
+        "eligibility": [
+          {
+            "eligibilityType": "OTHER",
+            "additionalInfo": "This account is available exclusively to current members and employees of the Port Adelaide Football Club.",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/"
+          }
+        ],
+        "fees": [
+          {
+            "name": "Deposit Periodic",
+            "feeType": "PERIODIC",
+            "currency": "AUD",
+            "additionalValue": "No monthly or annual fees",
+            "additionalInfo": "Where permitted by the account terms and conditions, you can perform unlimited transactions of the following types and we will not charge you a transaction fee: ATM enquiry, ATM transfer, ATM withdrawal, Bank@Post deposit, Bank@Post withdrawal, BPAY payment, branch deposit, branch transfer, branch withdrawal, corporate cheque, direct credit, direct debit, EFTPOS cash withdrawal, EFTPOS purchase, internet banking transfer, overseas ATM enquiry, overseas ATM withdrawal, Member Contact Centre transfer or payment, mobile banking transfer, periodical payment, phone banking transfer, Visa debit cash advance, Visa debit purchase. Not all transaction types are permitted on all accounts.",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/fees/accounts/",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "discounts": []
+          },
+          {
+            "name": "Transaction",
+            "feeType": "TRANSACTION",
+            "currency": "AUD",
+            "additionalValue": "No transaction or withdrawal fees",
+            "additionalInfo": "Payable whenever we send you a letter because you do not make a repayment in full on or before the due date and the default continues for 3 days or more.",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/fees/accounts/",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "discounts": []
+          },
+          {
+            "name": "Arrears",
+            "feeType": "EVENT",
+            "currency": "AUD",
+            "additionalValue": "Arrears administration fee",
+            "additionalInfo": "Payable each day that your account is overdrawn (where you have no approved credit limit) or the account is overdrawn beyond your approved credit limit and you have performed at least one debit transaction to the account or card that day",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/fees/accounts/",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "15.00"
+            },
+            "discounts": []
+          },
+          {
+            "name": "Overdraft or overlimit fee",
+            "feeType": "EVENT",
+            "currency": "AUD",
+            "additionalValue": "Payable each day that your account is overdrawn (where you have no approved credit limit) or the account is overdrawn beyond your approved credit limit and you have performed at least one debit transaction to the account or card that day",
+            "additionalInfo": "Payable when you perform a transaction in a currency other than Australian dollars using a Visa card. This fee is included in the AUD amount debited to your account and comprises 2.00% charged by third parties and 1.00% charged by Credit Union SA",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/fees/other-fees/",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "15.00"
+            },
+            "discounts": []
+          },
+          {
+            "name": "Currency Conversion",
+            "feeType": "EVENT",
+            "currency": "AUD",
+            "additionalValue": "Visa Currency Conversion",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/fees/accounts/",
+            "feeMethodUType": "rateBased",
+            "rateBased": {
+              "rateType": "TRANSACTION",
+              "rate": "0.03",
+              "amountRange": {
+                "feeMinimum": "0.01",
+                "feeMaximum": "9999999.99"
+              }
+            },
+            "discounts": []
+          },
+          {
+            "name": "Direct Debit Dishonour",
+            "feeType": "EVENT",
+            "currency": "AUD",
+            "additionalValue": "Direct Debit",
+            "additionalInfo": "Payable when you have insufficient funds at the time a direct debit is set to occur and the direct debit is dishonoured",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/fees/other-fees/",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "10.00"
+            },
+            "discounts": []
+          },
+          {
+            "name": "Paper Statement",
+            "feeType": "PERIODIC",
+            "currency": "AUD",
+            "additionalValue": "Paper Statement Fee",
+            "additionalInfo": "If you have not opted in for eStatements and we send a paper statements to your nominated postal address we have on record. Note: An electronic statement can be requested at any time with no fee payable.",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/fees/other-fees/",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "2.00"
+            },
+            "discounts": []
+          },
+          {
+            "name": "Lost VISA Card",
+            "feeType": "EVENT",
+            "currency": "AUD",
+            "additionalValue": "Lost VISA Card",
+            "additionalInfo": "Payable when you lose or misplace your VISA Card and we need to order you a new card",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/fees/other-fees/",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "10.00"
+            },
+            "discounts": []
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.02",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [],
+            "additionalInfoUri": "https://www.creditunionsa.com.au/accounts/transaction-accounts/port-plus-account"
+          }
+        ],
+        "lendingRates": []
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "CREDITUNIONSA_SAV_134",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "productId": "CREDITUNIONSA_SAV_134",
+        "effectiveFrom": "2015-06-01T00:00:00.000+10:00",
+        "effectiveTo": "2099-06-01T00:00:00.000+10:00",
+        "lastUpdated": "2026-11-12T00:00:00.000+11:00",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "name": "Children's Savings Account",
+        "description": "Our Children’s savings account is for anyone under the age of 18 wanting an account to save or spend. The account rewards good savings behaviours and pays bonus interest if no withdrawals are made and if a deposit is made each month.The account pays interest on up to $50,000 and any amount above this will not earn interest.",
+        "brand": "Credit Union SA",
+        "applicationUri": "https://apply.creditunionsa.com.au/cusa/servlet/SmartForm.html?formCode=membership-personal",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.creditunionsa.com.au/accounts/savings-accounts-and-term-deposits/childrens-savings-account/",
+          "termsUri": "https://www.creditunionsa.com.au/globalassets/pdfs/brc_1095.pdf",
+          "eligibilityUri": "https://www.creditunionsa.com.au/accounts/savings-accounts-and-term-deposits/childrens-savings-account/",
+          "feesAndPricingUri": "https://www.creditunionsa.com.au/fees/accounts/",
+          "additionalOverviewUris": [],
+          "additionalTermsUris": [],
+          "additionalEligibilityUris": [],
+          "additionalFeesAndPricingUris": [],
+          "additionalBundleUris": []
+        },
+        "cardArt": [
+          {
+            "cardScheme": "VISA",
+            "cardType": "DEBIT",
+            "title": "Visa Debit Card",
+            "imageUri": "https://cms.creditunionsa.com.au/assets/images/New-Visa.png"
+          }
+        ],
+        "bundles": [],
+        "features": [
+          {
+            "featureType": "CARD_ACCESS",
+            "additionalValue": "Visa Debit Card",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/accounts/savings-accounts-and-term-deposits/childrens-savings-account/"
+          },
+          {
+            "featureType": "ADDITIONAL_CARDS",
+            "additionalValue": "Null",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/accounts/savings-accounts-and-term-deposits/childrens-savings-account/"
+          },
+          {
+            "featureType": "UNLIMITED_TXNS",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/accounts/savings-accounts-and-term-deposits/childrens-savings-account/"
+          },
+          {
+            "featureType": "DIGITAL_WALLET",
+            "additionalValue": "Apple Pay",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/tools/digital-wallet/"
+          },
+          {
+            "featureType": "DIGITAL_WALLET",
+            "additionalValue": "Google Pay",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/tools/digital-wallet/"
+          },
+          {
+            "featureType": "DIGITAL_WALLET",
+            "additionalValue": "Garmin Pay",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/tools/digital-wallet/"
+          },
+          {
+            "featureType": "DIGITAL_WALLET",
+            "additionalValue": "Samsung Pay",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/tools/digital-wallet/"
+          },
+          {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/digital-banking/"
+          },
+          {
+            "featureType": "NPP_PAYID",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/digital-banking/real-time-payments/payid"
+          },
+          {
+            "featureType": "NPP_ENABLED",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/digital-banking/real-time-payments/payid"
+          },
+          {
+            "featureType": "BILL_PAYMENT",
+            "additionalValue": "Bpay",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/globalassets/pdfs/brc_1095.pdf"
+          },
+          {
+            "featureType": "NOTIFICATIONS",
+            "additionalValue": "SMS alerts available for specified events/transactions, at regular intervals of one-off.",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/globalassets/pdfs/brc_1095.pdf"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Round-ups (destination account)",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/globalassets/pdfs/brc_1095.pdf"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Lock, block and control your card",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/community/news/2019/lock-block-and-control-your-card/"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Business Banking can be attached to the product",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/accounts/transaction-accounts/business-banking"
+          }
+        ],
+        "constraints": [],
+        "eligibility": [
+          {
+            "eligibilityType": "MAX_AGE",
+            "additionalValue": "17",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/accounts/savings-accounts-and-term-deposits/childrens-savings-account/"
+          }
+        ],
+        "fees": [
+          {
+            "name": "Deposit Periodic",
+            "feeType": "PERIODIC",
+            "currency": "AUD",
+            "additionalValue": "No monthly or annual fees",
+            "additionalInfo": "Where permitted by the account terms and conditions, you can perform unlimited transactions of the following types and we will not charge you a transaction fee: ATM enquiry, ATM transfer, ATM withdrawal, Bank@Post deposit, Bank@Post withdrawal, BPAY payment, branch deposit, branch transfer, branch withdrawal, corporate cheque, direct credit, direct debit, EFTPOS cash withdrawal, EFTPOS purchase, internet banking transfer, overseas ATM enquiry, overseas ATM withdrawal, Member Contact Centre transfer or payment, mobile banking transfer, periodical payment, phone banking transfer, Visa debit cash advance, Visa debit purchase. Not all transaction types are permitted on all accounts.",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/fees/accounts/",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "discounts": []
+          },
+          {
+            "name": "Transaction",
+            "feeType": "TRANSACTION",
+            "currency": "AUD",
+            "additionalValue": "No transaction or withdrawal fees",
+            "additionalInfo": "Payable when you perform a transaction in a currency other than Australian dollars using a Visa card. This fee is included in the AUD amount debited to your account and comprises 2.00% charged by third parties and 1.00% charged by Credit Union SA",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/fees/accounts/",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "discounts": []
+          },
+          {
+            "name": "Arrears",
+            "feeType": "EVENT",
+            "currency": "AUD",
+            "additionalValue": "Arrears administration fee",
+            "additionalInfo": "Payable whenever we send you a letter because you do not make a repayment in full on or before the due date and the default continues for 3 days or more.",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/fees/accounts/",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "15.00"
+            },
+            "discounts": []
+          },
+          {
+            "name": "Currency Conversion",
+            "feeType": "EVENT",
+            "currency": "AUD",
+            "additionalValue": "Visa Currency Conversion",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/fees/accounts/",
+            "feeMethodUType": "rateBased",
+            "rateBased": {
+              "rateType": "TRANSACTION",
+              "rate": "0.03",
+              "amountRange": {
+                "feeMinimum": "0.01",
+                "feeMaximum": "9999999.99"
+              }
+            },
+            "discounts": []
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0005",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [],
+            "additionalInfoUri": "https://www.creditunionsa.com.au/rates/savings-and-transaction-accounts/"
+          },
+          {
+            "depositRateType": "BONUS",
+            "rate": "0.048",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [],
+            "additionalValue": "Bonus interest applies each month you make a deposit (of any amount) and no withdrawals. The portion of any balance above $50,000 will not receive bonus interest.",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/rates/savings-and-transaction-accounts/"
+          }
+        ],
+        "lendingRates": []
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "CREDITUNIONSA_SAV_140",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "productId": "CREDITUNIONSA_SAV_140",
+        "effectiveFrom": "2015-06-01T00:00:00.000+10:00",
+        "effectiveTo": "2099-06-01T00:00:00.000+10:00",
+        "lastUpdated": "2026-11-20T00:00:00.000+11:00",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "name": "Everyday Account",
+        "description": "Our Everyday Account is a transaction account, Enjoy an easy-to-use account with no monthly fees. Free Visa debit card is provided, with payWave. You can request a free Visa Debit Card with payWave which you can load into Google Pay, Apple Pay, Samsung Pay and Garmin Pay. Now you can pay for purchases using your smart device, wherever mobile payment systems are offered. Get unbeatable security through measures such as the Visa Zero Liability policy (which protects against unauthorised transactions) and our own 24/7 fraud monitoring service. You’ll also be able to temporarily lock your card (if you misplace it), plus block payWave, international and online transactions whenever you need to – using the Mobile Banking App or Internet Banking. Online banking with this account is available 24/7 with Internet Banking and our Mobile Banking App. Internet banking will provide you with eStatements as well as the means to securely message each other, reducing paper and postage costs.",
+        "brand": "Credit Union SA",
+        "applicationUri": "https://apply.creditunionsa.com.au/cusa/servlet/SmartForm.html?formCode=membership-personal",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.creditunionsa.com.au/accounts/transaction-accounts/everyday-account/",
+          "termsUri": "https://www.creditunionsa.com.au/globalassets/pdfs/brc_1095.pdf",
+          "eligibilityUri": "https://www.creditunionsa.com.au/accounts/transaction-accounts/everyday-account/",
+          "feesAndPricingUri": "https://www.creditunionsa.com.au/fees/accounts/",
+          "additionalOverviewUris": [],
+          "additionalTermsUris": [],
+          "additionalEligibilityUris": [],
+          "additionalFeesAndPricingUris": [],
+          "additionalBundleUris": []
+        },
+        "cardArt": [
+          {
+            "cardScheme": "VISA",
+            "cardType": "DEBIT",
+            "title": "Visa Debit Card",
+            "imageUri": "https://cms.creditunionsa.com.au/assets/images/New-Visa.png"
+          }
+        ],
+        "bundles": [],
+        "features": [
+          {
+            "featureType": "CARD_ACCESS",
+            "additionalValue": "Visa debit card",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/accounts/transaction-accounts/everyday-account/"
+          },
+          {
+            "featureType": "ADDITIONAL_CARDS",
+            "additionalValue": "Null",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/accounts/transaction-accounts/everyday-account/"
+          },
+          {
+            "featureType": "UNLIMITED_TXNS",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/accounts/transaction-accounts/everyday-account/"
+          },
+          {
+            "featureType": "DIGITAL_WALLET",
+            "additionalValue": "Apple Pay",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/tools/digital-wallet/"
+          },
+          {
+            "featureType": "DIGITAL_WALLET",
+            "additionalValue": "Google Pay",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/tools/digital-wallet/"
+          },
+          {
+            "featureType": "DIGITAL_WALLET",
+            "additionalValue": "Garmin Pay",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/tools/digital-wallet/"
+          },
+          {
+            "featureType": "DIGITAL_WALLET",
+            "additionalValue": "Samsung Pay",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/tools/digital-wallet/"
+          },
+          {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/digital-banking/"
+          },
+          {
+            "featureType": "NPP_PAYID",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/digital-banking/real-time-payments/payid"
+          },
+          {
+            "featureType": "NPP_ENABLED",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/digital-banking/real-time-payments/payid"
+          },
+          {
+            "featureType": "BILL_PAYMENT",
+            "additionalValue": "Bpay",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/globalassets/pdfs/brc_1095.pdf"
+          },
+          {
+            "featureType": "NOTIFICATIONS",
+            "additionalValue": "SMS alerts available for specified events/transactions, at regular intervals of one-off.",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/globalassets/pdfs/brc_1095.pdf"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Round-ups (origin account)",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/globalassets/pdfs/brc_1095.pdf"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Round-ups (destination account)",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/globalassets/pdfs/brc_1095.pdf"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Lock, block and control your card",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/community/news/2019/lock-block-and-control-your-card/"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Business Banking can be attached to the product",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/accounts/transaction-accounts/business-banking"
+          }
+        ],
+        "constraints": [],
+        "eligibility": [],
+        "fees": [
+          {
+            "name": "Deposit Periodic",
+            "feeType": "PERIODIC",
+            "currency": "AUD",
+            "additionalValue": "No monthly or annual fees",
+            "additionalInfo": "Where permitted by the account terms and conditions, you can perform unlimited transactions of the following types and we will not charge you a transaction fee: ATM enquiry, ATM transfer, ATM withdrawal, Bank@Post deposit, Bank@Post withdrawal, BPAY payment, branch deposit, branch transfer, branch withdrawal, corporate cheque, direct credit, direct debit, EFTPOS cash withdrawal, EFTPOS purchase, internet banking transfer, overseas ATM enquiry, overseas ATM withdrawal, Member Contact Centre transfer or payment, mobile banking transfer, periodical payment, phone banking transfer, Visa debit cash advance, Visa debit purchase. Not all transaction types are permitted on all accounts.",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/fees/accounts/",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "discounts": []
+          },
+          {
+            "name": "Transaction",
+            "feeType": "TRANSACTION",
+            "currency": "AUD",
+            "additionalValue": "No transaction or withdrawal fees",
+            "additionalInfo": "Payable whenever we send you a letter because you do not make a repayment in full on or before the due date and the default continues for 3 days or more.",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/fees/accounts/",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "discounts": []
+          },
+          {
+            "name": "Arrears",
+            "feeType": "EVENT",
+            "currency": "AUD",
+            "additionalValue": "Arrears administration fee",
+            "additionalInfo": "Payable each day that your account is overdrawn (where you have no approved credit limit) or the account is overdrawn beyond your approved credit limit and you have performed at least one debit transaction to the account or card that day",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/fees/accounts/",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "15.00"
+            },
+            "discounts": []
+          },
+          {
+            "name": "Overdraft or overlimit fee",
+            "feeType": "EVENT",
+            "currency": "AUD",
+            "additionalValue": "Payable each day that your account is overdrawn (where you have no approved credit limit) or the account is overdrawn beyond your approved credit limit and you have performed at least one debit transaction to the account or card that day",
+            "additionalInfo": "Payable when you perform a transaction in a currency other than Australian dollars using a Visa card. This fee is included in the AUD amount debited to your account and comprises 2.00% charged by third parties and 1.00% charged by Credit Union SA",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/fees/other-fees/",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "15.00"
+            },
+            "discounts": []
+          },
+          {
+            "name": "Currency Conversion",
+            "feeType": "EVENT",
+            "currency": "AUD",
+            "additionalValue": "Visa Currency Conversion",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/fees/accounts/",
+            "feeMethodUType": "rateBased",
+            "rateBased": {
+              "rateType": "TRANSACTION",
+              "rate": "0.03",
+              "amountRange": {
+                "feeMinimum": "0.01",
+                "feeMaximum": "9999999.99"
+              }
+            },
+            "discounts": []
+          },
+          {
+            "name": "Paper Statement",
+            "feeType": "PERIODIC",
+            "currency": "AUD",
+            "additionalValue": "Paper Statement Fee",
+            "additionalInfo": "If you have not opted in for eStatements and we send a paper statements to your nominated postal address we have on record. Note: An electronic statement can be requested at any time with no fee payable.",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/fees/other-fees/",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "2.00"
+            },
+            "discounts": []
+          },
+          {
+            "name": "Direct Debit Dishonour",
+            "feeType": "EVENT",
+            "currency": "AUD",
+            "additionalValue": "Direct Debit",
+            "additionalInfo": "Payable when you have insufficient funds at the time a direct debit is set to occur and the direct debit is dishonoured",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/fees/other-fees/",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "10.00"
+            },
+            "discounts": []
+          },
+          {
+            "name": "Lost VISA Card",
+            "feeType": "EVENT",
+            "currency": "AUD",
+            "additionalValue": "Lost VISA Card",
+            "additionalInfo": "Payable when you lose or misplace your VISA Card and we need to order you a new card",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/fees/other-fees/",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "10.00"
+            },
+            "discounts": []
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [],
+            "additionalInfoUri": "https://www.creditunionsa.com.au/rates/savings-and-transaction-accounts/"
+          }
+        ],
+        "lendingRates": []
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "CREDITUNIONSA_SAV_141",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "productId": "CREDITUNIONSA_SAV_141",
+        "effectiveFrom": "2015-06-01T00:00:00.000+10:00",
+        "effectiveTo": "2099-06-01T00:00:00.000+10:00",
+        "lastUpdated": "2026-06-29T00:00:00.000+10:00",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "name": "Home Loan Offset Account",
+        "description": "Our Home Loan Offset Account offers all the convenient day-to-day banking features you need, but with the huge added advantage of also lowering the amount of interest you pay on your eligible variable rate home loan and no monthly fees.",
+        "brand": "Credit Union SA",
+        "applicationUri": "https://apply.creditunionsa.com.au/cusa/servlet/SmartForm.html?formCode=membership-personal",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.creditunionsa.com.au/accounts/transaction-accounts/home-loan-offset-account/",
+          "termsUri": "https://www.creditunionsa.com.au/globalassets/pdfs/brc_1095.pdf",
+          "eligibilityUri": "https://www.creditunionsa.com.au/accounts/transaction-accounts/home-loan-offset-account/",
+          "feesAndPricingUri": "https://www.creditunionsa.com.au/fees/accounts/",
+          "additionalOverviewUris": [],
+          "additionalTermsUris": [],
+          "additionalEligibilityUris": [],
+          "additionalFeesAndPricingUris": [],
+          "additionalBundleUris": []
+        },
+        "cardArt": [
+          {
+            "cardScheme": "VISA",
+            "cardType": "DEBIT",
+            "title": "Visa Debit Card",
+            "imageUri": "https://cms.creditunionsa.com.au/assets/images/New-Visa.png"
+          }
+        ],
+        "bundles": [],
+        "features": [
+          {
+            "featureType": "CARD_ACCESS",
+            "additionalValue": "Visa debit card",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/accounts/transaction-accounts/home-loan-offset-account/"
+          },
+          {
+            "featureType": "ADDITIONAL_CARDS",
+            "additionalValue": "Null",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/accounts/transaction-accounts/home-loan-offset-account/"
+          },
+          {
+            "featureType": "UNLIMITED_TXNS",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/accounts/transaction-accounts/home-loan-offset-account/"
+          },
+          {
+            "featureType": "DIGITAL_WALLET",
+            "additionalValue": "Apple Pay",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/tools/digital-wallet/"
+          },
+          {
+            "featureType": "DIGITAL_WALLET",
+            "additionalValue": "Google Pay",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/tools/digital-wallet/"
+          },
+          {
+            "featureType": "DIGITAL_WALLET",
+            "additionalValue": "Garmin Pay",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/tools/digital-wallet/"
+          },
+          {
+            "featureType": "DIGITAL_WALLET",
+            "additionalValue": "Samsung Pay",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/tools/digital-wallet/"
+          },
+          {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/digital-banking/"
+          },
+          {
+            "featureType": "NPP_PAYID",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/digital-banking/real-time-payments/payid"
+          },
+          {
+            "featureType": "NPP_ENABLED",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/digital-banking/real-time-payments/payid"
+          },
+          {
+            "featureType": "BILL_PAYMENT",
+            "additionalValue": "Bpay",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/globalassets/pdfs/brc_1095.pdf"
+          },
+          {
+            "featureType": "NOTIFICATIONS",
+            "additionalValue": "SMS alerts available for specified events/transactions, at regular intervals of one-off.",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/globalassets/pdfs/brc_1095.pdf"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Round-ups (origin account)",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/globalassets/pdfs/brc_1095.pdf"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Round-ups (destination account)",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/globalassets/pdfs/brc_1095.pdf"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Lock, block and control your card",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/community/news/2019/lock-block-and-control-your-card/"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Business Banking can be attached to the product",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/accounts/transaction-accounts/business-banking"
+          }
+        ],
+        "constraints": [],
+        "eligibility": [
+          {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "18",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/accounts/transaction-accounts/home-loan-offset-account/"
+          }
+        ],
+        "fees": [
+          {
+            "name": "Transaction",
+            "feeType": "TRANSACTION",
+            "currency": "AUD",
+            "additionalValue": "No transaction or withdrawal fees",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/fees/accounts/",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "discounts": []
+          },
+          {
+            "name": "Arrears",
+            "feeType": "EVENT",
+            "currency": "AUD",
+            "additionalValue": "Arrears administration fee",
+            "additionalInfo": "Payable whenever we send you a letter because you do not make a repayment in full on or before the due date and the default continues for 3 days or more.",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/fees/accounts/",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "15.00"
+            },
+            "discounts": []
+          },
+          {
+            "name": "Deposit Periodic",
+            "feeType": "PERIODIC",
+            "currency": "AUD",
+            "additionalValue": "No monthly or annual fees",
+            "additionalInfo": "Where permitted by the account terms and conditions, you can perform unlimited transactions of the following types and we will not charge you a transaction fee: ATM enquiry, ATM transfer, ATM withdrawal, Bank@Post deposit, Bank@Post withdrawal, BPAY payment, branch deposit, branch transfer, branch withdrawal, corporate cheque, direct credit, direct debit, EFTPOS cash withdrawal, EFTPOS purchase, internet banking transfer, overseas ATM enquiry, overseas ATM withdrawal, Member Contact Centre transfer or payment, mobile banking transfer, periodical payment, phone banking transfer, Visa debit cash advance, Visa debit purchase. Not all transaction types are permitted on all accounts.",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/fees/accounts/",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "discounts": []
+          },
+          {
+            "name": "Overdraft or overlimit fee",
+            "feeType": "EVENT",
+            "currency": "AUD",
+            "additionalValue": "Payable each day that your account is overdrawn (where you have no approved credit limit) or the account is overdrawn beyond your approved credit limit and you have performed at least one debit transaction to the account or card that day",
+            "additionalInfo": "Payable when you perform a transaction in a currency other than Australian dollars using a Visa card. This fee is included in the AUD amount debited to your account and comprises 2.00% charged by third parties and 1.00% charged by Credit Union SA",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/fees/other-fees/",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "15.00"
+            },
+            "discounts": []
+          },
+          {
+            "name": "Currency Conversion",
+            "feeType": "EVENT",
+            "currency": "AUD",
+            "additionalValue": "Visa Currency Conversion",
+            "additionalInfo": "Payable when you perform a transaction in a currency other than Australian dollars using a Visa card. This fee is included in the AUD amount debited to your account and comprises 2.00% charged by third parties and 1.00% charged by Credit Union SA",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/fees/accounts/",
+            "feeMethodUType": "rateBased",
+            "rateBased": {
+              "rateType": "TRANSACTION",
+              "rate": "0.03",
+              "amountRange": {
+                "feeMinimum": "0.01",
+                "feeMaximum": "9999999.99"
+              }
+            },
+            "discounts": []
+          },
+          {
+            "name": "Paper Statement",
+            "feeType": "PERIODIC",
+            "currency": "AUD",
+            "additionalValue": "Paper Statement Fee",
+            "additionalInfo": "If you have not opted in for eStatements and we send a paper statements to your nominated postal address we have on record. Note: An electronic statement can be requested at any time with no fee payable.",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/fees/other-fees/",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "2.00"
+            },
+            "discounts": []
+          },
+          {
+            "name": "Direct Debit Dishonour",
+            "feeType": "EVENT",
+            "currency": "AUD",
+            "additionalValue": "Direct Debit",
+            "additionalInfo": "Payable when you have insufficient funds at the time a direct debit is set to occur and the direct debit is dishonoured",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/fees/other-fees/",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "10.00"
+            },
+            "discounts": []
+          },
+          {
+            "name": "Lost VISA Card",
+            "feeType": "EVENT",
+            "currency": "AUD",
+            "additionalValue": "Lost VISA Card",
+            "additionalInfo": "Payable when you lose or misplace your VISA Card and we need to order you a new card",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/fees/other-fees/",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "10.00"
+            },
+            "discounts": []
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [],
+            "additionalInfoUri": "https://www.creditunionsa.com.au/rates/savings-and-transaction-accounts/"
+          }
+        ],
+        "lendingRates": []
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "CREDITUNIONSA_SAV_142",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "productId": "CREDITUNIONSA_SAV_142",
+        "effectiveFrom": "2015-06-01T00:00:00.000+10:00",
+        "effectiveTo": "2099-06-01T00:00:00.000+10:00",
+        "lastUpdated": "2026-11-04T00:00:00.000+11:00",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "name": "Netsave Account",
+        "description": "An introductory interest rate is applied when a member opens a new Netsave account. The introductory interest is applied for the first 4 months as well as the variable base interest rate. After the first 4 months the only interest received is the base rate.",
+        "brand": "Credit Union SA",
+        "applicationUri": "https://apply.creditunionsa.com.au/cusa/servlet/SmartForm.html?formCode=membership-personal",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.creditunionsa.com.au/accounts/savings-accounts-and-term-deposits/netsave/",
+          "termsUri": "https://www.creditunionsa.com.au/globalassets/pdfs/brc_1095.pdf",
+          "eligibilityUri": "https://www.creditunionsa.com.au/accounts/savings-accounts-and-term-deposits/netsave/",
+          "feesAndPricingUri": "https://www.creditunionsa.com.au/fees/accounts/",
+          "additionalOverviewUris": [],
+          "additionalTermsUris": [],
+          "additionalEligibilityUris": [],
+          "additionalFeesAndPricingUris": [],
+          "additionalBundleUris": []
+        },
+        "cardArt": [],
+        "bundles": [],
+        "features": [
+          {
+            "featureType": "CARD_ACCESS",
+            "additionalValue": "Visa Debit Card",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/accounts/savings-accounts-and-term-deposits/netsave/"
+          },
+          {
+            "featureType": "ADDITIONAL_CARDS",
+            "additionalValue": "Null",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/accounts/savings-accounts-and-term-deposits/netsave/"
+          },
+          {
+            "featureType": "UNLIMITED_TXNS",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/accounts/savings-accounts-and-term-deposits/netsave/"
+          },
+          {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/digital-banking/"
+          },
+          {
+            "featureType": "NPP_PAYID",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/digital-banking/real-time-payments/payid"
+          },
+          {
+            "featureType": "NPP_ENABLED",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/digital-banking/real-time-payments/payid"
+          },
+          {
+            "featureType": "BILL_PAYMENT",
+            "additionalValue": "Bpay",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/globalassets/pdfs/brc_1095.pdf"
+          },
+          {
+            "featureType": "NOTIFICATIONS",
+            "additionalValue": "SMS alerts available for specified events/transactions, at regular intervals of one-off.",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/globalassets/pdfs/brc_1095.pdf"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Round-ups (destination account)",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/globalassets/pdfs/brc_1095.pdf"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Business Banking can be attached to the product",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/accounts/transaction-accounts/business-banking"
+          }
+        ],
+        "constraints": [],
+        "eligibility": [],
+        "fees": [
+          {
+            "name": "Deposit Periodic",
+            "feeType": "PERIODIC",
+            "currency": "AUD",
+            "additionalValue": "No monthly or annual fees",
+            "additionalInfo": "Where permitted by the account terms and conditions, you can perform unlimited transactions of the following types and we will not charge you a transaction fee: ATM enquiry, ATM transfer, ATM withdrawal, Bank@Post deposit, Bank@Post withdrawal, BPAY payment, branch deposit, branch transfer, branch withdrawal, corporate cheque, direct credit, direct debit, EFTPOS cash withdrawal, EFTPOS purchase, internet banking transfer, overseas ATM enquiry, overseas ATM withdrawal, Member Contact Centre transfer or payment, mobile banking transfer, periodical payment, phone banking transfer, Visa debit cash advance, Visa debit purchase. Not all transaction types are permitted on all accounts.",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/fees/accounts/",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "discounts": []
+          },
+          {
+            "name": "Transaction",
+            "feeType": "TRANSACTION",
+            "currency": "AUD",
+            "additionalValue": "No transaction or withdrawal fees",
+            "additionalInfo": "Payable whenever we send you a letter because you do not make a repayment in full on or before the due date and the default continues for 3 days or more.",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/fees/accounts/",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "discounts": []
+          },
+          {
+            "name": "Arrears",
+            "feeType": "EVENT",
+            "currency": "AUD",
+            "additionalValue": "Arrears administration fee",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/fees/accounts/",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "discounts": []
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0125",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [],
+            "additionalInfoUri": "https://www.creditunionsa.com.au/rates/savings-and-transaction-accounts/"
+          },
+          {
+            "depositRateType": "INTRODUCTORY",
+            "rate": "0.044",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [],
+            "additionalValue": "P4M",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/rates/savings-and-transaction-accounts/"
+          }
+        ],
+        "lendingRates": []
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "endpoint": "https://public.ob.hsbc.com.au/cds-au/v1/banking/products",
+  "slug": "hsbc-2e2b63",
+  "brands": [
+    {
+      "dataHolderBrandId": "ca0ad1c8-c0b3-eb11-a822-000d3a884a20",
+      "brandName": "HSBC",
+      "brandGroup": null,
+      "abn": "48006434162",
+      "industries": [
+        "banking"
+      ]
+    }
+  ],
+  "list": {
+    "ok": true,
+    "status": 200,
+    "version": "5",
+    "totalPages": null,
+    "pagesFetched": 1,
+    "productCount": 0,
+    "categoryCounts": {}
+  },
+  "products": []
+}

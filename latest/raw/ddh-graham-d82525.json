@@ -1,0 +1,27 @@
+{
+  "endpoint": "https://api.cds.ddhgraham.com.au/cds-au/v1/banking/products",
+  "slug": "ddh-graham-d82525",
+  "brands": [
+    {
+      "dataHolderBrandId": "bc0774f7-be0e-ec11-a826-000d3a884a20",
+      "brandName": "DDH Graham",
+      "brandGroup": null,
+      "abn": "32009656740",
+      "industries": [
+        "banking"
+      ]
+    }
+  ],
+  "list": {
+    "ok": false,
+    "status": 401,
+    "version": "5",
+    "error": "http-401",
+    "errorDetail": "EBAU001 | Error while fetching token | Error while fetching the authorisation token for the given tenantId",
+    "totalPages": null,
+    "pagesFetched": 0,
+    "productCount": 0,
+    "categoryCounts": {}
+  },
+  "products": []
+}

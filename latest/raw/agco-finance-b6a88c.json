@@ -1,0 +1,27 @@
+{
+  "endpoint": "https://public.dll-agco.prod.provider.fiskil.com/cds-au/v1/banking/products",
+  "slug": "agco-finance-b6a88c",
+  "brands": [
+    {
+      "dataHolderBrandId": "3fc0dc4c-be76-f111-9b47-6045bd3f59f5",
+      "brandName": "AGCO Finance",
+      "brandGroup": null,
+      "abn": "20101692040",
+      "industries": [
+        "non-bank-lending"
+      ]
+    }
+  ],
+  "list": {
+    "ok": true,
+    "status": 200,
+    "version": "5",
+    "totalPages": 1,
+    "pagesFetched": 1,
+    "productCount": 1,
+    "categoryCounts": {
+      "BUSINESS_LOANS": 1
+    }
+  },
+  "products": []
+}

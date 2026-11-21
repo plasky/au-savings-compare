@@ -1,0 +1,3498 @@
+{
+  "endpoint": "https://online.geelongbank.com.au/OpenBanking/cds-au/v1/banking/products",
+  "slug": "geelong-bank-1a2306",
+  "brands": [
+    {
+      "dataHolderBrandId": "7bae67c0-a280-eb11-a820-000d3a884a20",
+      "brandName": "Geelong Bank",
+      "brandGroup": null,
+      "abn": "85051868556",
+      "industries": [
+        "banking"
+      ]
+    }
+  ],
+  "list": {
+    "ok": true,
+    "status": 200,
+    "version": "5",
+    "totalPages": 1,
+    "pagesFetched": 1,
+    "productCount": 17,
+    "categoryCounts": {
+      "TRANS_AND_SAVINGS_ACCOUNTS": 11,
+      "TERM_DEPOSITS": 6
+    }
+  },
+  "products": [
+    {
+      "productId": "I10",
+      "productCategory": "TERM_DEPOSITS",
+      "detail": {
+        "features": [
+          {
+            "featureType": "DIGITAL_BANKING"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "No account keeping fee"
+          },
+          {
+            "featureType": "NOTIFICATIONS",
+            "additionalValue": "Maturity reminders",
+            "additionalInfo": "We'll send you a written renewal notice before your deposit matures.",
+            "additionalInfoUri": "https://geelongbank.com.au/savings-loans/savings-investment-accounts/term-deposits-and-regular-income-accounts/"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "If you want to withdraw your Term Deposit before it matures a reduced rate of interest will apply in these circumstances.",
+            "additionalInfoUri": "https://geelongbank.com.au/savings-loans/rates-fees/deposit-account-fees-charges/"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "eStatements available"
+          },
+          {
+            "featureType": "NOTIFICATIONS",
+            "additionalValue": "Alerts",
+            "additionalInfo": "Receive notifications of maturity via SMS and email"
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "OPENING_BALANCE",
+            "additionalValue": "5000.00"
+          },
+          {
+            "constraintType": "MIN_BALANCE",
+            "additionalValue": "5000.00"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalValue": "Individuals must be citizens or permanent residents of Australia."
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.031",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "Regular Income Plus for 3 months_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "500.00",
+                "maximumValue": "4999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Regular Income Plus for 3 months_Tier_1",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "3",
+                "maximumValue": "3",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P3M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.031",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "Regular Income Plus for 3 months_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "24999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Regular Income Plus for 3 months_Tier_2",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "3",
+                "maximumValue": "3",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P3M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.032",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "Regular Income Plus for 3 months_Tier_3",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "25000.00",
+                "maximumValue": "49999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Regular Income Plus for 3 months_Tier_3",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "3",
+                "maximumValue": "3",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P3M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.033",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "Regular Income Plus for 3 months_Tier_4",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "50000.00",
+                "maximumValue": "1000000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Regular Income Plus for 3 months_Tier_4",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "3",
+                "maximumValue": "3",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P3M"
+          }
+        ],
+        "productCategory": "TERM_DEPOSITS",
+        "productId": "I10",
+        "lastUpdated": "2026-05-25T10:14:13.000+10:00",
+        "name": "Regular Income Plus for 3 months",
+        "description": "Take advantage of great returns on our term deposits.",
+        "brand": "FORD COOPERATIVE CREDIT SOCIETY",
+        "brandName": "GEELONG BANK",
+        "applicationUri": "https://geelongbank.com.au/tools/forms/",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://geelongbank.com.au/savings-loans/savings-investment-accounts/term-deposits-and-regular-income-accounts/",
+          "termsUri": "https://geelongbank.com.au/savings-loans/savings-investment-accounts/term-deposits-and-regular-income-accounts#Text-6b084-Specific_Terms_and_Conditions",
+          "eligibilityUri": "https://geelongbank.com.au/about-us/why-join-geelong-bank/",
+          "feesAndPricingUri": "https://geelongbank.com.au/savings-loans/savings-investment-accounts/term-deposits-and-regular-income-accounts#Text-f8b22-Fixed_Term_Deposit_rates"
+        }
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "I11",
+      "productCategory": "TERM_DEPOSITS",
+      "detail": {
+        "features": [
+          {
+            "featureType": "DIGITAL_BANKING"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "No account keeping fee"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Interest is paid  monthly.",
+            "additionalInfoUri": "https://geelongbank.com.au/savings-loans/savings-investment-accounts/term-deposits-and-regular-income-accounts/"
+          },
+          {
+            "featureType": "NOTIFICATIONS",
+            "additionalValue": "Maturity reminders",
+            "additionalInfo": "We'll send you a written renewal notice before your deposit matures.",
+            "additionalInfoUri": "https://geelongbank.com.au/savings-loans/savings-investment-accounts/term-deposits-and-regular-income-accounts/"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "If you want to withdraw your Term Deposit before it matures a reduced rate of interest will apply in these circumstances.",
+            "additionalInfoUri": "https://geelongbank.com.au/savings-loans/rates-fees/deposit-account-fees-charges/"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "eStatements available"
+          },
+          {
+            "featureType": "NOTIFICATIONS",
+            "additionalValue": "Alerts",
+            "additionalInfo": "Receive notifications of maturity via SMS and email"
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "OPENING_BALANCE",
+            "additionalValue": "5000.00",
+            "additionalInfoUri": "https://geelongbank.com.au/savings-loans/savings-investment-accounts/term-deposits-and-regular-income-accounts/"
+          },
+          {
+            "constraintType": "MIN_BALANCE",
+            "additionalValue": "5000.00",
+            "additionalInfoUri": "https://geelongbank.com.au/savings-loans/savings-investment-accounts/term-deposits-and-regular-income-accounts/"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalInfo": "Individuals must be citizens or permanent residents of Australia."
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.051",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "Regular Income Plus for 6 months_Tier",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "500.00",
+                "maximumValue": "1000000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Regular Income Plus for 6 months_Tier",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "6",
+                "maximumValue": "6",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P6M"
+          }
+        ],
+        "productCategory": "TERM_DEPOSITS",
+        "productId": "I11",
+        "lastUpdated": "2026-07-20T17:40:30.000+10:00",
+        "name": "Regular Income Plus for 6 months",
+        "description": "Take advantage of great returns on our term deposits.",
+        "brand": "FORD COOPERATIVE CREDIT SOCIETY",
+        "brandName": "GEELONG BANK",
+        "applicationUri": "https://geelongbank.com.au/tools/forms/",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://geelongbank.com.au/savings-loans/savings-investment-accounts/term-deposits-and-regular-income-accounts/",
+          "termsUri": "https://geelongbank.com.au/savings-loans/savings-investment-accounts/term-deposits-and-regular-income-accounts#Text-6b084-Specific_Terms_and_Conditions",
+          "eligibilityUri": "https://geelongbank.com.au/about-us/why-join-geelong-bank/",
+          "feesAndPricingUri": "https://geelongbank.com.au/savings-loans/savings-investment-accounts/term-deposits-and-regular-income-accounts#Text-f8b22-Fixed_Term_Deposit_rates"
+        }
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "I12.1",
+      "productCategory": "TERM_DEPOSITS",
+      "detail": {
+        "features": [
+          {
+            "featureType": "DIGITAL_BANKING"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "No account keeping fee"
+          },
+          {
+            "featureType": "NOTIFICATIONS",
+            "additionalValue": "Maturity reminders",
+            "additionalInfo": "We'll send you a written renewal notice before your deposit matures."
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "If you want to withdraw your Term Deposit before it matures a reduced rate of interest will apply in these circumstances."
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "eStatements available"
+          },
+          {
+            "featureType": "NOTIFICATIONS",
+            "additionalValue": "Alerts",
+            "additionalInfo": "Receive notifications of maturity via SMS and email"
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "OPENING_BALANCE",
+            "additionalValue": "1000.00"
+          },
+          {
+            "constraintType": "MIN_BALANCE",
+            "additionalValue": "1000.00"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalInfo": "Individuals must be citizens or permanent residents of Australia."
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.054",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "tiers": [
+              {
+                "name": "Twelve Month Term Deposit_Tier",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "500.00",
+                "maximumValue": "1000000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Twelve Month Term Deposit_Tier",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "12",
+                "maximumValue": "12",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P12M"
+          }
+        ],
+        "productCategory": "TERM_DEPOSITS",
+        "productId": "I12.1",
+        "lastUpdated": "2026-11-01T15:28:59.000+11:00",
+        "name": "Twelve Month Term Deposit",
+        "description": "Take advantage of great returns on our term deposits.",
+        "brand": "FORD COOPERATIVE CREDIT SOCIETY",
+        "brandName": "GEELONG BANK",
+        "applicationUri": "https://geelongbank.com.au/tools/forms/",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://geelongbank.com.au/savings-loans/savings-investment-accounts/term-deposits-and-regular-income-accounts/",
+          "termsUri": "https://geelongbank.com.au/savings-loans/savings-investment-accounts/term-deposits-and-regular-income-accounts#Text-6b084-Specific_Terms_and_Conditions",
+          "eligibilityUri": "https://geelongbank.com.au/about-us/why-join-geelong-bank/",
+          "feesAndPricingUri": "https://geelongbank.com.au/savings-loans/savings-investment-accounts/term-deposits-and-regular-income-accounts#Text-f8b22-Fixed_Term_Deposit_rates"
+        }
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "I15",
+      "productCategory": "TERM_DEPOSITS",
+      "detail": {
+        "features": [
+          {
+            "featureType": "DIGITAL_BANKING"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "No account keeping fee"
+          },
+          {
+            "featureType": "NOTIFICATIONS",
+            "additionalValue": "Maturity reminders",
+            "additionalInfo": "We'll send you a written renewal notice before your deposit matures.",
+            "additionalInfoUri": "https://geelongbank.com.au/savings-loans/savings-investment-accounts/term-deposits-and-regular-income-accounts/"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "If you want to withdraw your Term Deposit before it matures a reduced rate of interest will apply in these circumstances.",
+            "additionalInfoUri": "https://geelongbank.com.au/media/2025/fees-and-charges.pdf"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "eStatements available"
+          },
+          {
+            "featureType": "NOTIFICATIONS",
+            "additionalValue": "Alerts",
+            "additionalInfo": "Receive notifications of maturity via SMS and email"
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "OPENING_BALANCE",
+            "additionalValue": "5000.00"
+          },
+          {
+            "constraintType": "MIN_BALANCE",
+            "additionalValue": "5000.00"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalValue": "Individuals must be citizens or permanent residents of Australia."
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.053",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "Regular Income Plus for 12 months_Tier",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "500.00",
+                "maximumValue": "1000000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Regular Income Plus for 12 months_Tier",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "12",
+                "maximumValue": "12",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P12M"
+          }
+        ],
+        "productCategory": "TERM_DEPOSITS",
+        "productId": "I15",
+        "lastUpdated": "2026-11-01T15:28:59.000+11:00",
+        "name": "Regular Income Plus for 12 months",
+        "description": "Take advantage of great returns on our term deposits.",
+        "brand": "FORD COOPERATIVE CREDIT SOCIETY",
+        "brandName": "GEELONG BANK",
+        "applicationUri": "https://geelongbank.com.au/tools/forms/",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://geelongbank.com.au/savings-loans/savings-investment-accounts/term-deposits-and-regular-income-accounts/",
+          "termsUri": "https://geelongbank.com.au/savings-loans/savings-investment-accounts/term-deposits-and-regular-income-accounts#Text-6b084-Specific_Terms_and_Conditions",
+          "eligibilityUri": "https://geelongbank.com.au/about-us/why-join-geelong-bank/",
+          "feesAndPricingUri": "https://geelongbank.com.au/savings-loans/savings-investment-accounts/term-deposits-and-regular-income-accounts#Text-f8b22-Fixed_Term_Deposit_rates"
+        }
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "I3",
+      "productCategory": "TERM_DEPOSITS",
+      "detail": {
+        "features": [
+          {
+            "featureType": "DIGITAL_BANKING"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "No account keeping fee"
+          },
+          {
+            "featureType": "NOTIFICATIONS",
+            "additionalInfo": "We'll send you a written renewal notice before your deposit matures."
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "eStatements available"
+          },
+          {
+            "featureType": "NOTIFICATIONS",
+            "additionalInfo": "Receive notifications of maturity via SMS and email"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "If you want to withdraw your Term Deposit before it matures a reduced rate of interest will apply in these circumstances."
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "OPENING_BALANCE",
+            "additionalValue": "1000.00"
+          },
+          {
+            "constraintType": "MIN_BALANCE",
+            "additionalValue": "1000.00"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalInfo": "Individuals must be citizens or permanent residents of Australia."
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.036",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "tiers": [
+              {
+                "name": "Three Month Term Deposit_Tier",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "500.00",
+                "maximumValue": "1000000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Three Month Term Deposit_Tier",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "3",
+                "maximumValue": "3",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P3M"
+          }
+        ],
+        "productCategory": "TERM_DEPOSITS",
+        "productId": "I3",
+        "lastUpdated": "2026-05-25T10:11:14.000+10:00",
+        "name": "Three Month Term Deposit",
+        "description": "Take advantage of great returns on our term deposits.",
+        "brand": "FORD COOPERATIVE CREDIT SOCIETY",
+        "brandName": "GEELONG BANK",
+        "applicationUri": "https://geelongbank.com.au/tools/forms/",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://geelongbank.com.au/savings-loans/savings-investment-accounts/term-deposits-and-regular-income-accounts/",
+          "termsUri": "https://geelongbank.com.au/savings-loans/savings-investment-accounts/term-deposits-and-regular-income-accounts#Text-6b084-Specific_Terms_and_Conditions",
+          "eligibilityUri": "https://geelongbank.com.au/about-us/why-join-geelong-bank/",
+          "feesAndPricingUri": "https://geelongbank.com.au/savings-loans/savings-investment-accounts/term-deposits-and-regular-income-accounts#Text-f8b22-Fixed_Term_Deposit_rates"
+        }
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "I6",
+      "productCategory": "TERM_DEPOSITS",
+      "detail": {
+        "features": [
+          {
+            "featureType": "DIGITAL_BANKING"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "No account keeping fee"
+          },
+          {
+            "featureType": "NOTIFICATIONS",
+            "additionalValue": "Maturity reminders",
+            "additionalInfo": "We'll send you a written renewal notice before your deposit matures.",
+            "additionalInfoUri": "https://geelongbank.com.au/savings-loans/savings-investment-accounts/term-deposits-and-regular-income-accounts/"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "If you want to withdraw your Term Deposit before it matures a reduced rate of interest will apply in these circumstances.",
+            "additionalInfoUri": "https://geelongbank.com.au/about-us/disclosures-publications/"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "eStatements available"
+          },
+          {
+            "featureType": "NOTIFICATIONS",
+            "additionalValue": "Alerts",
+            "additionalInfo": "Receive notifications of maturity via SMS and email"
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "OPENING_BALANCE",
+            "additionalValue": "1000.00"
+          },
+          {
+            "constraintType": "MIN_BALANCE",
+            "additionalValue": "1000.00"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalValue": "Individuals must be citizens or permanent residents of Australia."
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.052",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "tiers": [
+              {
+                "name": "Six Month term deposit_Tier",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "500.00",
+                "maximumValue": "1000000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Six Month term deposit_Tier",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "6",
+                "maximumValue": "6",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P6M"
+          }
+        ],
+        "productCategory": "TERM_DEPOSITS",
+        "productId": "I6",
+        "lastUpdated": "2026-07-20T17:40:30.000+10:00",
+        "name": "Six Month term deposit",
+        "description": "Take advantage of great returns on our term deposits.",
+        "brand": "FORD COOPERATIVE CREDIT SOCIETY",
+        "brandName": "GEELONG BANK",
+        "applicationUri": "https://geelongbank.com.au/tools/forms/",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://geelongbank.com.au/savings-loans/savings-investment-accounts/term-deposits-and-regular-income-accounts/",
+          "termsUri": "https://geelongbank.com.au/savings-loans/savings-investment-accounts/term-deposits-and-regular-income-accounts#Text-6b084-Specific_Terms_and_Conditions",
+          "eligibilityUri": "https://geelongbank.com.au/about-us/why-join-geelong-bank/",
+          "feesAndPricingUri": "https://geelongbank.com.au/savings-loans/savings-investment-accounts/term-deposits-and-regular-income-accounts#Text-f8b22-Fixed_Term_Deposit_rates"
+        }
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "S1",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "features": [
+          {
+            "featureType": "CARD_ACCESS",
+            "additionalValue": "Visa Debit Card"
+          },
+          {
+            "featureType": "ADDITIONAL_CARDS"
+          },
+          {
+            "featureType": "DIGITAL_WALLET",
+            "additionalValue": "Apple Pay"
+          },
+          {
+            "featureType": "DIGITAL_WALLET",
+            "additionalValue": "Google Pay"
+          },
+          {
+            "featureType": "DIGITAL_BANKING"
+          },
+          {
+            "featureType": "NPP_PAYID"
+          },
+          {
+            "featureType": "NPP_ENABLED"
+          },
+          {
+            "featureType": "NOTIFICATIONS",
+            "additionalValue": "Track credits with SMS and email alerts"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Our sweep service automatically transfers funds from certain savings accounts to cover most transactions which would otherwise exceed your transasction account's available balance."
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "eStatements available"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "No monthly access fee."
+          },
+          {
+            "featureType": "FRAUD_PROTECTION"
+          },
+          {
+            "featureType": "OVERDRAFT"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "OTHER",
+            "additionalInfo": "You must be a member and resident of Australia",
+            "additionalInfoUri": "https://geelongbank.com.au/about-us/why-join-geelong-bank/"
+          },
+          {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalValue": "Individuals must be citizens or permanent residents of Australia."
+          }
+        ],
+        "fees": [
+          {
+            "name": "DORMANT_ADMIN_FEE",
+            "feeType": "PERIODIC",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "20.00"
+            },
+            "currency": "AUD",
+            "additionalValue": "P1Y",
+            "additionalInfoUri": "https://geelongbank.com.au/savings-loans/rates-fees/deposit-account-interest-rates/"
+          },
+          {
+            "name": "OVERDRAWN_ACC_FEE",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "15.00"
+            },
+            "currency": "AUD",
+            "additionalInfoUri": "https://geelongbank.com.au/savings-loans/rates-fees/deposit-account-interest-rates/"
+          },
+          {
+            "name": "STATEMENT_REPL_FEE",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "3.00"
+            },
+            "currency": "AUD",
+            "additionalInfoUri": "https://geelongbank.com.au/savings-loans/rates-fees/deposit-account-interest-rates/"
+          },
+          {
+            "name": "FOREIGN_CHEQUE_DEPOSIT_FEE_<_$25,000",
+            "feeType": "DEPOSIT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "5.00"
+            },
+            "currency": "AUD",
+            "additionalInfoUri": "https://geelongbank.com.au/savings-loans/rates-fees/deposit-account-interest-rates/"
+          },
+          {
+            "name": "FOREIGN_CHEQUE_DEPOSIT_FEE_>_$25,000",
+            "feeType": "DEPOSIT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "50.00"
+            },
+            "currency": "AUD",
+            "additionalInfoUri": "https://geelongbank.com.au/savings-loans/rates-fees/deposit-account-interest-rates/"
+          },
+          {
+            "name": "PERIODICAL_PYT_VARIATION_FEE",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "3.50"
+            },
+            "currency": "AUD",
+            "additionalInfoUri": "https://geelongbank.com.au/savings-loans/rates-fees/deposit-account-interest-rates/"
+          },
+          {
+            "name": "TELEGRAPHIC_TSF_FEE_STAFF_ASSISTED_FEE",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "30.00"
+            },
+            "currency": "AUD",
+            "additionalInfoUri": "https://geelongbank.com.au/savings-loans/rates-fees/deposit-account-interest-rates/"
+          },
+          {
+            "name": "TELEGRAPHIC_TSF_ONLINE_FEE",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "15.00"
+            },
+            "currency": "AUD",
+            "additionalInfoUri": "https://geelongbank.com.au/savings-loans/rates-fees/deposit-account-interest-rates/"
+          },
+          {
+            "name": "RTGS_(SWIFT)_INCOMING_FEE",
+            "feeType": "DEPOSIT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "8.05"
+            },
+            "currency": "AUD",
+            "additionalInfoUri": "https://geelongbank.com.au/savings-loans/rates-fees/deposit-account-interest-rates/"
+          },
+          {
+            "name": "RTGS_(SWIFT)_OUTGOING_PYT_FEE",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "13.27"
+            },
+            "currency": "AUD",
+            "additionalInfoUri": "https://geelongbank.com.au/savings-loans/rates-fees/deposit-account-interest-rates/"
+          },
+          {
+            "name": "VISA_CARD_REPLACEMENT_FEE",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "10.00"
+            },
+            "currency": "AUD",
+            "additionalInfoUri": "https://geelongbank.com.au/savings-loans/rates-fees/deposit-account-interest-rates/"
+          },
+          {
+            "name": "DIRECT_DR_DISH_FEE",
+            "feeType": "DISHONOUR",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "10.00"
+            },
+            "currency": "AUD",
+            "additionalInfoUri": "https://geelongbank.com.au/savings-loans/rates-fees/deposit-account-interest-rates/"
+          },
+          {
+            "name": "STATEMENT_REPL_PREV_MTH",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "3.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "PERIODICAL_PYT_OTC",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "2.50"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Unlimited free if banking relationship is over $50,000",
+            "additionalInfoUri": "https://geelongbank.com.au/savings-loans/rates-fees/deposit-account-interest-rates/"
+          },
+          {
+            "name": "VOUCHER_RECORD_SEARCH",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "40.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "VOUCHER_RETRIEVAL_FEE",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "40.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "COIN_HANDLING_OVER_$100_FEE",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "2.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "over $100 cost $2 per $200"
+          }
+        ],
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "productId": "S1",
+        "lastUpdated": "2026-05-25T09:53:17.000+10:00",
+        "name": "Total access account",
+        "description": "Your everyday transaction account with Visa Debit Card access.",
+        "brand": "FORD COOPERATIVE CREDIT SOCIETY",
+        "brandName": "GEELONG BANK",
+        "applicationUri": "https://geelongbank.com.au/tools/forms/savings-account-application/",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://geelongbank.com.au/savings-loans/savings-investment-accounts/total-access-account/",
+          "termsUri": "https://geelongbank.com.au/about-us/disclosures-publications/",
+          "eligibilityUri": "https://geelongbank.com.au/about-us/why-join-geelong-bank/",
+          "feesAndPricingUri": "https://geelongbank.com.au/savings-loans/rates-fees/deposit-account-interest-rates/"
+        }
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "S10",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "features": [
+          {
+            "featureType": "DIGITAL_BANKING"
+          },
+          {
+            "featureType": "NPP_PAYID"
+          },
+          {
+            "featureType": "NPP_ENABLED"
+          },
+          {
+            "featureType": "NOTIFICATIONS",
+            "additionalValue": "Track credits with SMS and email alerts"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "No monthly access fee",
+            "additionalInfoUri": "https://geelongbank.com.au/about-us/disclosures-publications/"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "eStatements available"
+          },
+          {
+            "featureType": "OFFSET",
+            "additionalInfoUri": "https://geelongbank.com.au/savings-loans/home-loans/mortgage-offset-account/"
+          },
+          {
+            "featureType": "FRAUD_PROTECTION"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalValue": "Individuals must be citizens or permanent residents of Australia."
+          },
+          {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "18"
+          }
+        ],
+        "fees": [
+          {
+            "name": "DIRECT_DR_DISH_FEE",
+            "feeType": "DISHONOUR",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "10.00"
+            },
+            "currency": "AUD",
+            "additionalInfoUri": "https://geelongbank.com.au/savings-loans/rates-fees/deposit-account-interest-rates/"
+          },
+          {
+            "name": "DORMANT_ADMIN_FEE",
+            "feeType": "PERIODIC",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "20.00"
+            },
+            "currency": "AUD",
+            "additionalValue": "P1Y",
+            "additionalInfoUri": "https://geelongbank.com.au/savings-loans/rates-fees/deposit-account-interest-rates/"
+          },
+          {
+            "name": "OVERDRAWN_ACC_FEE",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "15.00"
+            },
+            "currency": "AUD",
+            "additionalInfoUri": "https://geelongbank.com.au/savings-loans/rates-fees/deposit-account-interest-rates/"
+          },
+          {
+            "name": "TELEGRAPHIC_TSF_FEE_STAFF_ASSISTED_FEE",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "30.00"
+            },
+            "currency": "AUD",
+            "additionalInfoUri": "https://geelongbank.com.au/savings-loans/rates-fees/deposit-account-interest-rates/"
+          },
+          {
+            "name": "TELEGRAPHIC_TSF_ONLINE_FEE",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "15.00"
+            },
+            "currency": "AUD",
+            "additionalInfoUri": "https://geelongbank.com.au/savings-loans/rates-fees/deposit-account-interest-rates/"
+          },
+          {
+            "name": "STATEMENT_REPL_FEE",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "3.00"
+            },
+            "currency": "AUD",
+            "additionalInfoUri": "https://geelongbank.com.au/savings-loans/rates-fees/deposit-account-interest-rates/"
+          },
+          {
+            "name": "FOREIGN_CHEQUE_DEPOSIT_FEE_<_$25,000",
+            "feeType": "DEPOSIT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "5.00"
+            },
+            "currency": "AUD",
+            "additionalInfoUri": "https://geelongbank.com.au/savings-loans/rates-fees/deposit-account-interest-rates/"
+          },
+          {
+            "name": "FOREIGN_CHEQUE_DEPOSIT_FEE_>_$25,000",
+            "feeType": "DEPOSIT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "50.00"
+            },
+            "currency": "AUD",
+            "additionalInfoUri": "https://geelongbank.com.au/savings-loans/rates-fees/deposit-account-interest-rates/"
+          },
+          {
+            "name": "PERIODICAL_PYT_OTC",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "2.50"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Unlimited free if banking relationship is over $50,000",
+            "additionalInfoUri": "https://geelongbank.com.au/savings-loans/rates-fees/deposit-account-interest-rates/"
+          },
+          {
+            "name": "PERIODICAL_PYT_VARIATION_FEE",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "3.50"
+            },
+            "currency": "AUD",
+            "additionalInfoUri": "https://geelongbank.com.au/savings-loans/rates-fees/deposit-account-interest-rates/"
+          },
+          {
+            "name": "RTGS_(SWIFT)_INCOMING_FEE",
+            "feeType": "DEPOSIT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "8.05"
+            },
+            "currency": "AUD",
+            "additionalInfoUri": "https://geelongbank.com.au/savings-loans/rates-fees/deposit-account-interest-rates/"
+          },
+          {
+            "name": "RTGS_(SWIFT)_OUTGOING_PYT_FEE",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "13.27"
+            },
+            "currency": "AUD",
+            "additionalInfoUri": "https://geelongbank.com.au/savings-loans/rates-fees/deposit-account-interest-rates/"
+          },
+          {
+            "name": "VOUCHER_RECORD_SEARCH",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "40.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "VOUCHER_RETRIEVAL_FEE",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "40.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "COIN_HANDLING_OVER_$100_FEE",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "2.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "over $100 cost $2 per $200"
+          }
+        ],
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "productId": "S10",
+        "lastUpdated": "2026-05-25T09:53:17.000+10:00",
+        "name": "Mortgage Offset Account",
+        "description": "A 100 per cent Offset account is a great way to reduce the interest you pay on your home loan",
+        "brand": "FORD COOPERATIVE CREDIT SOCIETY",
+        "brandName": "GEELONG BANK",
+        "applicationUri": "https://geelongbank.com.au/tools/forms/savings-account-application/",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://geelongbank.com.au/savings-loans/home-loans/mortgage-offset-account/",
+          "termsUri": "https://geelongbank.com.au/about-us/disclosures-publications/",
+          "eligibilityUri": "https://geelongbank.com.au/about-us/why-join-geelong-bank/",
+          "feesAndPricingUri": "https://geelongbank.com.au/savings-loans/rates-fees/deposit-account-interest-rates/"
+        }
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "S13",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "features": [
+          {
+            "featureType": "CARD_ACCESS",
+            "additionalValue": "Visa Debit Card"
+          },
+          {
+            "featureType": "ADDITIONAL_CARDS"
+          },
+          {
+            "featureType": "DIGITAL_WALLET",
+            "additionalValue": "Apple Pay"
+          },
+          {
+            "featureType": "DIGITAL_WALLET",
+            "additionalValue": "Google Pay"
+          },
+          {
+            "featureType": "DIGITAL_BANKING"
+          },
+          {
+            "featureType": "NPP_PAYID"
+          },
+          {
+            "featureType": "NPP_ENABLED"
+          },
+          {
+            "featureType": "NOTIFICATIONS",
+            "additionalValue": "Track credits with SMS and email alerts"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Our sweep service automatically transfers funds from certain savings accounts to cover most transactions which would otherwise exceed your transasction account's available balance."
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "eStatements available"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "No monthly access fee."
+          },
+          {
+            "featureType": "FRAUD_PROTECTION"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "OTHER",
+            "additionalInfo": "You must be a member and resident of Australia",
+            "additionalInfoUri": "https://geelongbank.com.au/about-us/why-join-geelong-bank/"
+          },
+          {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalValue": "Individuals must be citizens or permanent residents of Australia."
+          }
+        ],
+        "fees": [
+          {
+            "name": "DIRECT_DR_DISH_FEE",
+            "feeType": "DISHONOUR",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "10.00"
+            },
+            "currency": "AUD",
+            "additionalInfoUri": "https://geelongbank.com.au/savings-loans/rates-fees/deposit-account-interest-rates/"
+          },
+          {
+            "name": "DORMANT_ADMIN_FEE",
+            "feeType": "PERIODIC",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "20.00"
+            },
+            "currency": "AUD",
+            "additionalValue": "P1Y",
+            "additionalInfoUri": "https://geelongbank.com.au/savings-loans/rates-fees/deposit-account-interest-rates/"
+          },
+          {
+            "name": "OVERDRAWN_ACC_FEE",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "15.00"
+            },
+            "currency": "AUD",
+            "additionalInfoUri": "https://geelongbank.com.au/savings-loans/rates-fees/deposit-account-interest-rates/"
+          },
+          {
+            "name": "STATEMENT_REPL_FEE",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "3.00"
+            },
+            "currency": "AUD",
+            "additionalInfoUri": "https://geelongbank.com.au/savings-loans/rates-fees/deposit-account-interest-rates/"
+          },
+          {
+            "name": "FOREIGN_CHEQUE_DEPOSIT_FEE_<_$25,000",
+            "feeType": "DEPOSIT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "5.00"
+            },
+            "currency": "AUD",
+            "additionalInfoUri": "https://geelongbank.com.au/savings-loans/rates-fees/deposit-account-interest-rates/"
+          },
+          {
+            "name": "FOREIGN_CHEQUE_DEPOSIT_FEE_>_$25,000",
+            "feeType": "DEPOSIT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "50.00"
+            },
+            "currency": "AUD",
+            "additionalInfoUri": "https://geelongbank.com.au/savings-loans/rates-fees/deposit-account-interest-rates/"
+          },
+          {
+            "name": "PERIODICAL_PYT_VARIATION_FEE",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "3.50"
+            },
+            "currency": "AUD",
+            "additionalInfoUri": "https://geelongbank.com.au/savings-loans/rates-fees/deposit-account-interest-rates/"
+          },
+          {
+            "name": "TELEGRAPHIC_TSF_FEE_STAFF_ASSISTED_FEE",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "30.00"
+            },
+            "currency": "AUD",
+            "additionalInfoUri": "https://geelongbank.com.au/savings-loans/rates-fees/deposit-account-interest-rates/"
+          },
+          {
+            "name": "TELEGRAPHIC_TSF_ONLINE_FEE",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "15.00"
+            },
+            "currency": "AUD",
+            "additionalInfoUri": "https://geelongbank.com.au/savings-loans/rates-fees/deposit-account-interest-rates/"
+          },
+          {
+            "name": "RTGS_(SWIFT)_INCOMING_FEE",
+            "feeType": "DEPOSIT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "8.05"
+            },
+            "currency": "AUD",
+            "additionalInfoUri": "https://geelongbank.com.au/savings-loans/rates-fees/deposit-account-interest-rates/"
+          },
+          {
+            "name": "RTGS_(SWIFT)_OUTGOING_PYT_FEE",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "13.27"
+            },
+            "currency": "AUD",
+            "additionalInfoUri": "https://geelongbank.com.au/savings-loans/rates-fees/deposit-account-interest-rates/"
+          },
+          {
+            "name": "VISA_CARD_REPLACEMENT_FEE",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "10.00"
+            },
+            "currency": "AUD",
+            "additionalInfoUri": "https://geelongbank.com.au/savings-loans/rates-fees/deposit-account-interest-rates/"
+          },
+          {
+            "name": "STATEMENT_REPL_PREV_MTH",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "3.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "VOUCHER_RETRIEVAL_FEE",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "40.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "VOUCHER_RECORD_SEARCH",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "40.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "COIN_HANDLING_OVER_$100_FEE",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "2.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "over $100 cost $2 per $200"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0",
+            "calculationFrequency": "P1M",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M"
+          }
+        ],
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "productId": "S13",
+        "lastUpdated": "2026-05-25T09:53:17.000+10:00",
+        "name": "Redi-Access account",
+        "description": "Your everyday transaction account with Visa Debit Card access.",
+        "brand": "FORD COOPERATIVE CREDIT SOCIETY",
+        "brandName": "GEELONG BANK",
+        "applicationUri": "https://geelongbank.com.au/tools/forms/savings-account-application/",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://geelongbank.com.au/savings-loans/savings-investment-accounts/redi-access-account/",
+          "termsUri": "https://geelongbank.com.au/about-us/disclosures-publications/",
+          "eligibilityUri": "https://geelongbank.com.au/about-us/why-join-geelong-bank/",
+          "feesAndPricingUri": "https://geelongbank.com.au/savings-loans/rates-fees/deposit-account-interest-rates/"
+        }
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "S2",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "features": [
+          {
+            "featureType": "NPP_ENABLED"
+          },
+          {
+            "featureType": "NOTIFICATIONS",
+            "additionalValue": "Track credits with SMS and email alerts"
+          },
+          {
+            "featureType": "DIGITAL_BANKING"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Your funds are only available from the 1 November to 31 January to remove the temptation of spending prior to Christmas"
+          },
+          {
+            "featureType": "NPP_PAYID"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "No monthly access fee."
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "One free transaction is permitted outside the available period"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "eStatements available"
+          },
+          {
+            "featureType": "FRAUD_PROTECTION"
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "MIN_BALANCE",
+            "additionalValue": "1.00"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "OTHER",
+            "additionalInfo": "You must be a member and resident of Australia",
+            "additionalInfoUri": "https://geelongbank.com.au/about-us/why-join-geelong-bank/"
+          },
+          {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalValue": "Individuals must be citizens or permanent residents of Australia."
+          }
+        ],
+        "fees": [
+          {
+            "name": "DORMANT_ADMIN_FEE",
+            "feeType": "PERIODIC",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "20.00"
+            },
+            "currency": "AUD",
+            "additionalValue": "P1Y",
+            "additionalInfoUri": "https://geelongbank.com.au/savings-loans/rates-fees/deposit-account-interest-rates/"
+          },
+          {
+            "name": "STATEMENT_REPL_FEE",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "3.00"
+            },
+            "currency": "AUD",
+            "additionalInfoUri": "https://geelongbank.com.au/savings-loans/rates-fees/deposit-account-interest-rates/"
+          },
+          {
+            "name": "TELEGRAPHIC_TSF_FEE_STAFF_ASSISTED_FEE",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "30.00"
+            },
+            "currency": "AUD",
+            "additionalInfoUri": "https://geelongbank.com.au/savings-loans/rates-fees/deposit-account-interest-rates/"
+          },
+          {
+            "name": "TELEGRAPHIC_TSF_ONLINE_FEE",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "15.00"
+            },
+            "currency": "AUD",
+            "additionalInfoUri": "https://geelongbank.com.au/savings-loans/rates-fees/deposit-account-interest-rates/"
+          },
+          {
+            "name": "PERIODICAL_PYT_VARIATION_FEE",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "3.50"
+            },
+            "currency": "AUD",
+            "additionalInfoUri": "https://geelongbank.com.au/savings-loans/rates-fees/deposit-account-interest-rates/"
+          },
+          {
+            "name": "TELEGRAPHIC_TSF_AUD",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "15.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "STATEMENT_REPL_PREV_MTH",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "3.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "VOUCHER_RECORD_SEARCH",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "40.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "VOUCHER_RETRIEVAL_FEE",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "40.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "COIN_HANDLING_OVER_$100_FEE",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "2.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "over $100 cost $2 per $200"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0375",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M"
+          }
+        ],
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "productId": "S2",
+        "lastUpdated": "2026-11-18T10:42:32.000+11:00",
+        "name": "Christmas Club Account",
+        "description": "A Christmas Club account is a great way to save for Christmas",
+        "brand": "FORD COOPERATIVE CREDIT SOCIETY",
+        "brandName": "GEELONG BANK",
+        "applicationUri": "https://geelongbank.com.au/tools/forms/savings-account-application/",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://geelongbank.com.au/savings-loans/savings-investment-accounts/early-bird-christmas-club-account/",
+          "termsUri": "https://geelongbank.com.au/about-us/disclosures-publications/",
+          "eligibilityUri": "https://geelongbank.com.au/about-us/why-join-geelong-bank/",
+          "feesAndPricingUri": "https://geelongbank.com.au/savings-loans/rates-fees/deposit-account-interest-rates/"
+        }
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "S50",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "features": [
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Bonus interest earned for each month if you make no withdrawals during the month and the account has a deposit during that month."
+          },
+          {
+            "featureType": "DIGITAL_BANKING"
+          },
+          {
+            "featureType": "NPP_PAYID"
+          },
+          {
+            "featureType": "NPP_ENABLED"
+          },
+          {
+            "featureType": "NOTIFICATIONS",
+            "additionalValue": "Track credits with SMS and email alerts"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "eStatements available"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "No monthly access fee"
+          },
+          {
+            "featureType": "FRAUD_PROTECTION"
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "MIN_BALANCE",
+            "additionalValue": "1.00"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalValue": "Individuals must be citizens or permanent residents of Australia."
+          },
+          {
+            "eligibilityType": "MAX_AGE",
+            "additionalValue": "18"
+          }
+        ],
+        "fees": [
+          {
+            "name": "DORMANT_ADMIN_FEE",
+            "feeType": "PERIODIC",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "20.00"
+            },
+            "currency": "AUD",
+            "additionalValue": "P1Y",
+            "additionalInfoUri": "https://geelongbank.com.au/savings-loans/rates-fees/deposit-account-interest-rates/"
+          },
+          {
+            "name": "COIN_HANDLING_OVER_$100_FEE",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "2.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "over $100 cost $2 per $200"
+          },
+          {
+            "name": "FOREIGN_CHEQUE_DEPOSIT_FEE_<_$25,000",
+            "feeType": "DEPOSIT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "5.00"
+            },
+            "currency": "AUD",
+            "additionalInfoUri": "https://geelongbank.com.au/savings-loans/rates-fees/deposit-account-interest-rates/"
+          },
+          {
+            "name": "FOREIGN_CHEQUE_DEPOSIT_FEE_>_$25,000",
+            "feeType": "DEPOSIT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "50.00"
+            },
+            "currency": "AUD",
+            "additionalInfoUri": "https://geelongbank.com.au/savings-loans/rates-fees/deposit-account-interest-rates/"
+          },
+          {
+            "name": "OVERDRAWN_ACC_FEE",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "15.00"
+            },
+            "currency": "AUD",
+            "additionalInfoUri": "https://geelongbank.com.au/savings-loans/rates-fees/deposit-account-interest-rates/"
+          },
+          {
+            "name": "PERIODICAL_PYT_OTC",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "2.50"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Unlimited free if banking relationship is over $50,000",
+            "additionalInfoUri": "https://geelongbank.com.au/savings-loans/rates-fees/deposit-account-interest-rates/"
+          },
+          {
+            "name": "PERIODICAL_PYT_VARIATION_FEE",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "3.50"
+            },
+            "currency": "AUD",
+            "additionalInfoUri": "https://geelongbank.com.au/savings-loans/rates-fees/deposit-account-interest-rates/"
+          },
+          {
+            "name": "RTGS_(SWIFT)_INCOMING_FEE",
+            "feeType": "DEPOSIT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "8.05"
+            },
+            "currency": "AUD",
+            "additionalInfoUri": "https://geelongbank.com.au/savings-loans/rates-fees/deposit-account-interest-rates/"
+          },
+          {
+            "name": "RTGS_(SWIFT)_OUTGOING_PYT_FEE",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "13.27"
+            },
+            "currency": "AUD",
+            "additionalInfoUri": "https://geelongbank.com.au/savings-loans/rates-fees/deposit-account-interest-rates/"
+          },
+          {
+            "name": "STATEMENT_REPL_FEE",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "3.00"
+            },
+            "currency": "AUD",
+            "additionalInfoUri": "https://geelongbank.com.au/savings-loans/rates-fees/deposit-account-interest-rates/"
+          },
+          {
+            "name": "STATEMENT_REPL_PREV_MTH",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "3.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "TELEGRAPHIC_TSF_AUD",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "15.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "TELEGRAPHIC_TSF_FEE_STAFF_ASSISTED_FEE",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "30.00"
+            },
+            "currency": "AUD",
+            "additionalInfoUri": "https://geelongbank.com.au/savings-loans/rates-fees/deposit-account-interest-rates/"
+          },
+          {
+            "name": "TELEGRAPHIC_TSF_ONLINE_FEE",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "15.00"
+            },
+            "currency": "AUD",
+            "additionalInfoUri": "https://geelongbank.com.au/savings-loans/rates-fees/deposit-account-interest-rates/"
+          },
+          {
+            "name": "VOUCHER_RECORD_SEARCH",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "40.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "VOUCHER_RETRIEVAL_FEE",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "40.00"
+            },
+            "currency": "AUD"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.014",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M"
+          },
+          {
+            "depositRateType": "BONUS",
+            "rate": "0.0195",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M"
+          }
+        ],
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "productId": "S50",
+        "lastUpdated": "2026-10-01T10:49:50.000+10:00",
+        "name": "Young Achiever Savings",
+        "description": "Savings and banking solutions for young children and teenagers made simple and easy.",
+        "brand": "FORD COOPERATIVE CREDIT SOCIETY",
+        "brandName": "GEELONG BANK",
+        "applicationUri": "https://geelongbank.com.au/tools/forms/savings-account-application/",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://geelongbank.com.au/savings-loans/savings-investment-accounts/young-achievers-savings-account/",
+          "termsUri": "https://geelongbank.com.au/about-us/disclosures-publications/",
+          "eligibilityUri": "https://geelongbank.com.au/about-us/why-join-geelong-bank/",
+          "feesAndPricingUri": "https://geelongbank.com.au/savings-loans/rates-fees/deposit-account-interest-rates/"
+        }
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "S55",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "features": [
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Bonus interest earned for each month if you make no withdrawals and the account has a deposit during that month."
+          },
+          {
+            "featureType": "DIGITAL_BANKING"
+          },
+          {
+            "featureType": "NPP_PAYID"
+          },
+          {
+            "featureType": "NPP_ENABLED"
+          },
+          {
+            "featureType": "NOTIFICATIONS",
+            "additionalValue": "Track credits with SMS and email alerts"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "One free cash withdrawl per month then $2 every subsequent withdrawl",
+            "additionalInfoUri": "https://geelongbank.com.au/savings-loans/rates-fees/deposit-account-fees-charges/"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "eStatements available"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "One free internal debit transfer per month then $2 every subsequent debit transfer",
+            "additionalInfoUri": "https://geelongbank.com.au/about-us/disclosures-publications/"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "No monthly access fee."
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "eStatements available"
+          },
+          {
+            "featureType": "FRAUD_PROTECTION"
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "MIN_BALANCE",
+            "additionalValue": "1.00"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalValue": "Individuals must be citizens or permanent residents of Australia."
+          },
+          {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "18"
+          }
+        ],
+        "fees": [
+          {
+            "name": "DORMANT_ADMIN_FEE",
+            "feeType": "PERIODIC",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "20.00"
+            },
+            "currency": "AUD",
+            "additionalValue": "P1Y",
+            "additionalInfoUri": "https://geelongbank.com.au/savings-loans/rates-fees/deposit-account-interest-rates/"
+          },
+          {
+            "name": "FOREIGN_CHEQUE_DEPOSIT_FEE_<_$25,000",
+            "feeType": "DEPOSIT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "5.00"
+            },
+            "currency": "AUD",
+            "additionalInfoUri": "https://geelongbank.com.au/savings-loans/rates-fees/deposit-account-interest-rates/"
+          },
+          {
+            "name": "FOREIGN_CHEQUE_DEPOSIT_FEE_>_$25,000",
+            "feeType": "DEPOSIT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "50.00"
+            },
+            "currency": "AUD",
+            "additionalInfoUri": "https://geelongbank.com.au/savings-loans/rates-fees/deposit-account-interest-rates/"
+          },
+          {
+            "name": "RTGS_(SWIFT)_INCOMING_FEE",
+            "feeType": "DEPOSIT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "8.05"
+            },
+            "currency": "AUD",
+            "additionalInfoUri": "https://geelongbank.com.au/savings-loans/rates-fees/deposit-account-interest-rates/"
+          },
+          {
+            "name": "RTGS_(SWIFT)_OUTGOING_PYT_FEE",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "13.27"
+            },
+            "currency": "AUD",
+            "additionalInfoUri": "https://geelongbank.com.au/savings-loans/rates-fees/deposit-account-interest-rates/"
+          },
+          {
+            "name": "STATEMENT_REPL_FEE",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "3.00"
+            },
+            "currency": "AUD",
+            "additionalInfoUri": "https://geelongbank.com.au/savings-loans/rates-fees/deposit-account-interest-rates/"
+          },
+          {
+            "name": "TELEGRAPHIC_TSF_FEE_STAFF_ASSISTED_FEE",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "30.00"
+            },
+            "currency": "AUD",
+            "additionalInfoUri": "https://geelongbank.com.au/savings-loans/rates-fees/deposit-account-interest-rates/"
+          },
+          {
+            "name": "TELEGRAPHIC_TSF_ONLINE_FEE",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "15.00"
+            },
+            "currency": "AUD",
+            "additionalInfoUri": "https://geelongbank.com.au/savings-loans/rates-fees/deposit-account-interest-rates/"
+          },
+          {
+            "name": "STATEMENT_REPL_PREV_MTH",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "3.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "TELEGRAPHIC_TSF_AUD",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "15.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "VOUCHER_RECORD_SEARCH",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "40.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "VOUCHER_RETRIEVAL_FEE",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "40.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "COIN_HANDLING_OVER_$100_FEE",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "2.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "over $100 cost $2 per $200"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0001",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "Achieve Saver_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "0.00",
+                "maximumValue": "4999.99",
+                "rateApplicationMethod": "PER_TIER"
+              }
+            ]
+          },
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0135",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "Achieve Saver_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "249999.99",
+                "rateApplicationMethod": "PER_TIER"
+              }
+            ]
+          },
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0135",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "Achieve Saver_Tier_3",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "250000.00",
+                "rateApplicationMethod": "PER_TIER"
+              }
+            ]
+          },
+          {
+            "depositRateType": "BONUS",
+            "rate": "0.016",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "Achieve Saver_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "0.00",
+                "maximumValue": "4999.99",
+                "rateApplicationMethod": "PER_TIER"
+              }
+            ],
+            "additionalValue": "Bonus interest earned for each month if you make no withdrawals during the month and the account has a credit balance at all times during that month."
+          },
+          {
+            "depositRateType": "BONUS",
+            "rate": "0.016",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "Achieve Saver_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "249999.99",
+                "rateApplicationMethod": "PER_TIER"
+              }
+            ],
+            "additionalValue": "Bonus interest earned for each month if you make no withdrawals during the month and the account has a credit balance at all times during that month."
+          },
+          {
+            "depositRateType": "BONUS",
+            "rate": "0.0",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "Achieve Saver_Tier_3",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "250000.00",
+                "rateApplicationMethod": "PER_TIER"
+              }
+            ],
+            "additionalValue": "Bonus interest earned for each month if you make no withdrawals during the month and the account has a credit balance at all times during that month."
+          }
+        ],
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "productId": "S55",
+        "lastUpdated": "2026-10-01T10:51:11.000+10:00",
+        "name": "Achieve Saver",
+        "description": "This account is ideal for the short term investor and includes bonus interest",
+        "brand": "FORD COOPERATIVE CREDIT SOCIETY",
+        "brandName": "GEELONG BANK",
+        "applicationUri": "https://geelongbank.com.au/tools/forms/savings-account-application/",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://geelongbank.com.au/savings-loans/savings-investment-accounts/achieve-savers-account/",
+          "termsUri": "https://geelongbank.com.au/about-us/disclosures-publications/",
+          "eligibilityUri": "https://geelongbank.com.au/about-us/why-join-geelong-bank/",
+          "feesAndPricingUri": "https://geelongbank.com.au/savings-loans/rates-fees/deposit-account-interest-rates/"
+        }
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "S65",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "features": [
+          {
+            "featureType": "DIGITAL_WALLET",
+            "additionalValue": "Apple Pay"
+          },
+          {
+            "featureType": "DIGITAL_WALLET",
+            "additionalValue": "Google Pay"
+          },
+          {
+            "featureType": "DIGITAL_BANKING"
+          },
+          {
+            "featureType": "NPP_PAYID"
+          },
+          {
+            "featureType": "NPP_ENABLED"
+          },
+          {
+            "featureType": "NOTIFICATIONS",
+            "additionalValue": "Track credits with SMS and email alerts"
+          },
+          {
+            "featureType": "CARD_ACCESS",
+            "additionalValue": "Visa Debit Card"
+          },
+          {
+            "featureType": "ADDITIONAL_CARDS"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "No monthly access fee."
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "eStatements available"
+          },
+          {
+            "featureType": "FRAUD_PROTECTION"
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "MIN_BALANCE",
+            "additionalValue": "1.00"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalValue": "Individuals must be citizens or permanent residents of Australia."
+          },
+          {
+            "eligibilityType": "PENSION_RECIPIENT"
+          }
+        ],
+        "fees": [
+          {
+            "name": "DIRECT_DR_DISH_FEE",
+            "feeType": "DISHONOUR",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "10.00"
+            },
+            "currency": "AUD",
+            "additionalInfoUri": "https://geelongbank.com.au/savings-loans/rates-fees/deposit-account-interest-rates/"
+          },
+          {
+            "name": "DORMANT_ADMIN_FEE",
+            "feeType": "PERIODIC",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "20.00"
+            },
+            "currency": "AUD",
+            "additionalValue": "P1Y",
+            "additionalInfoUri": "https://geelongbank.com.au/savings-loans/rates-fees/deposit-account-interest-rates/"
+          },
+          {
+            "name": "OVERDRAWN_ACC_FEE",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "15.00"
+            },
+            "currency": "AUD",
+            "additionalInfoUri": "https://geelongbank.com.au/savings-loans/rates-fees/deposit-account-interest-rates/"
+          },
+          {
+            "name": "STATEMENT_REPL_FEE",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "3.00"
+            },
+            "currency": "AUD",
+            "additionalInfoUri": "https://geelongbank.com.au/savings-loans/rates-fees/deposit-account-interest-rates/"
+          },
+          {
+            "name": "FOREIGN_CHEQUE_DEPOSIT_FEE_<_$25,000",
+            "feeType": "DEPOSIT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "5.00"
+            },
+            "currency": "AUD",
+            "additionalInfoUri": "https://geelongbank.com.au/savings-loans/rates-fees/deposit-account-interest-rates/"
+          },
+          {
+            "name": "FOREIGN_CHEQUE_DEPOSIT_FEE_>_$25,000",
+            "feeType": "DEPOSIT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "50.00"
+            },
+            "currency": "AUD",
+            "additionalInfoUri": "https://geelongbank.com.au/savings-loans/rates-fees/deposit-account-interest-rates/"
+          },
+          {
+            "name": "PERIODICAL_PYT_VARIATION_FEE",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "3.50"
+            },
+            "currency": "AUD",
+            "additionalInfoUri": "https://geelongbank.com.au/savings-loans/rates-fees/deposit-account-interest-rates/"
+          },
+          {
+            "name": "TELEGRAPHIC_TSF_FEE_STAFF_ASSISTED_FEE",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "30.00"
+            },
+            "currency": "AUD",
+            "additionalInfoUri": "https://geelongbank.com.au/savings-loans/rates-fees/deposit-account-interest-rates/"
+          },
+          {
+            "name": "TELEGRAPHIC_TSF_ONLINE_FEE",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "15.00"
+            },
+            "currency": "AUD",
+            "additionalInfoUri": "https://geelongbank.com.au/savings-loans/rates-fees/deposit-account-interest-rates/"
+          },
+          {
+            "name": "RTGS_(SWIFT)_INCOMING_FEE",
+            "feeType": "DEPOSIT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "8.05"
+            },
+            "currency": "AUD",
+            "additionalInfoUri": "https://geelongbank.com.au/savings-loans/rates-fees/deposit-account-interest-rates/"
+          },
+          {
+            "name": "RTGS_(SWIFT)_OUTGOING_PYT_FEE",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "13.27"
+            },
+            "currency": "AUD",
+            "additionalInfoUri": "https://geelongbank.com.au/savings-loans/rates-fees/deposit-account-interest-rates/"
+          },
+          {
+            "name": "VISA_CARD_REPLACEMENT_FEE",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "10.00"
+            },
+            "currency": "AUD",
+            "additionalInfoUri": "https://geelongbank.com.au/savings-loans/rates-fees/deposit-account-interest-rates/"
+          },
+          {
+            "name": "PERIODICAL_PYT_OTC",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "2.50"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Unlimited free if banking relationship is over $50,000",
+            "additionalInfoUri": "https://geelongbank.com.au/savings-loans/rates-fees/deposit-account-interest-rates/"
+          },
+          {
+            "name": "TELEGRAPHIC_TSF_AUD",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "15.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "COIN_HANDLING_OVER_$100_FEE",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "2.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "over $100 cost $2 per $200"
+          },
+          {
+            "name": "STATEMENT_REPL_PREV_MTH",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "3.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "VOUCHER_RETRIEVAL_FEE",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "40.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "VOUCHER_RECORD_SEARCH",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "40.00"
+            },
+            "currency": "AUD"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.018",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "Senior Savers_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "0.00",
+                "maximumValue": "9999.99",
+                "rateApplicationMethod": "PER_TIER"
+              }
+            ]
+          },
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.019",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "Senior Savers_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "10000.00",
+                "maximumValue": "49200.99",
+                "rateApplicationMethod": "PER_TIER"
+              }
+            ]
+          },
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0195",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "Senior Savers_Tier_3",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "49201.00",
+                "maximumValue": "249999.99",
+                "rateApplicationMethod": "PER_TIER"
+              }
+            ]
+          },
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0215",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "Senior Savers_Tier_4",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "250000.00",
+                "rateApplicationMethod": "PER_TIER"
+              }
+            ]
+          }
+        ],
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "productId": "S65",
+        "lastUpdated": "2026-11-18T10:45:00.000+11:00",
+        "name": "Senior Savers",
+        "description": "Account for members who are over 55 or recipients of an eligible pension.",
+        "brand": "FORD COOPERATIVE CREDIT SOCIETY",
+        "brandName": "GEELONG BANK",
+        "applicationUri": "https://geelongbank.com.au/tools/forms/savings-account-application/",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://geelongbank.com.au/savings-loans/savings-investment-accounts/senior-savers-account/",
+          "termsUri": "https://geelongbank.com.au/about-us/disclosures-publications/",
+          "eligibilityUri": "https://geelongbank.com.au/about-us/why-join-geelong-bank/",
+          "feesAndPricingUri": "https://geelongbank.com.au/savings-loans/rates-fees/deposit-account-interest-rates/"
+        }
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "S70",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "features": [
+          {
+            "featureType": "DIGITAL_BANKING"
+          },
+          {
+            "featureType": "NPP_PAYID"
+          },
+          {
+            "featureType": "NPP_ENABLED"
+          },
+          {
+            "featureType": "NOTIFICATIONS",
+            "additionalValue": "Track credits with SMS and email alerts"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "No monthly access fee."
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "eStatements available"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Link this to a transaction account and our service automatically transfers funds from certain savings accounts to cover most transactions which would otherwise exceed your transasction account's available balance."
+          },
+          {
+            "featureType": "FRAUD_PROTECTION"
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "MIN_BALANCE",
+            "additionalValue": "1.00"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "OTHER",
+            "additionalInfo": "You must be a member and resident of Australia",
+            "additionalInfoUri": "https://geelongbank.com.au/about-us/why-join-geelong-bank/"
+          },
+          {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalValue": "Individuals must be citizens or permanent residents of Australia."
+          }
+        ],
+        "fees": [
+          {
+            "name": "DIRECT_DR_DISH_FEE",
+            "feeType": "DISHONOUR",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "10.00"
+            },
+            "currency": "AUD",
+            "additionalInfoUri": "https://geelongbank.com.au/savings-loans/rates-fees/deposit-account-interest-rates/"
+          },
+          {
+            "name": "DORMANT_ADMIN_FEE",
+            "feeType": "PERIODIC",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "20.00"
+            },
+            "currency": "AUD",
+            "additionalValue": "P1Y",
+            "additionalInfoUri": "https://geelongbank.com.au/savings-loans/rates-fees/deposit-account-interest-rates/"
+          },
+          {
+            "name": "STATEMENT_REPL_FEE",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "3.00"
+            },
+            "currency": "AUD",
+            "additionalInfoUri": "https://geelongbank.com.au/savings-loans/rates-fees/deposit-account-interest-rates/"
+          },
+          {
+            "name": "TELEGRAPHIC_TSF_ONLINE_FEE",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "15.00"
+            },
+            "currency": "AUD",
+            "additionalInfoUri": "https://geelongbank.com.au/savings-loans/rates-fees/deposit-account-interest-rates/"
+          },
+          {
+            "name": "OVERDRAWN_ACC_FEE",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "15.00"
+            },
+            "currency": "AUD",
+            "additionalInfoUri": "https://geelongbank.com.au/savings-loans/rates-fees/deposit-account-interest-rates/"
+          },
+          {
+            "name": "PERIODICAL_PYT_VARIATION_FEE",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "3.50"
+            },
+            "currency": "AUD",
+            "additionalInfoUri": "https://geelongbank.com.au/savings-loans/rates-fees/deposit-account-interest-rates/"
+          },
+          {
+            "name": "RTGS_(SWIFT)_INCOMING_FEE",
+            "feeType": "DEPOSIT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "8.05"
+            },
+            "currency": "AUD",
+            "additionalInfoUri": "https://geelongbank.com.au/savings-loans/rates-fees/deposit-account-interest-rates/"
+          },
+          {
+            "name": "RTGS_(SWIFT)_OUTGOING_PYT_FEE",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "13.27"
+            },
+            "currency": "AUD",
+            "additionalInfoUri": "https://geelongbank.com.au/savings-loans/rates-fees/deposit-account-interest-rates/"
+          },
+          {
+            "name": "STATEMENT_REPL_PREV_MTH",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "3.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "TELEGRAPHIC_TSF_AUD",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "15.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "VOUCHER_RECORD_SEARCH",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "40.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "VOUCHER_RETRIEVAL_FEE",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "40.00"
+            },
+            "currency": "AUD"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "Online Saver Account_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "0.00",
+                "maximumValue": "0.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ]
+          },
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.02",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "Online Saver Account_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ]
+          }
+        ],
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "productId": "S70",
+        "lastUpdated": "2026-11-18T10:45:34.000+11:00",
+        "name": "Online Saver Account",
+        "description": "Interest bearing Online savings account",
+        "brand": "FORD COOPERATIVE CREDIT SOCIETY",
+        "brandName": "GEELONG BANK",
+        "applicationUri": "https://geelongbank.com.au/tools/forms/savings-account-application/",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://geelongbank.com.au/savings-loans/savings-investment-accounts/online-saver-account/",
+          "termsUri": "https://geelongbank.com.au/about-us/disclosures-publications/",
+          "eligibilityUri": "https://geelongbank.com.au/about-us/why-join-geelong-bank/",
+          "feesAndPricingUri": "https://geelongbank.com.au/savings-loans/rates-fees/deposit-account-interest-rates/"
+        }
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "S75",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "features": [
+          {
+            "featureType": "DIGITAL_BANKING"
+          },
+          {
+            "featureType": "NPP_PAYID"
+          },
+          {
+            "featureType": "NPP_ENABLED"
+          },
+          {
+            "featureType": "NOTIFICATIONS",
+            "additionalValue": "Track credits with SMS and email alerts"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "No monthly access fee."
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Link this to a transaction account and our service automatically transfers funds from certain savings accounts to cover most transactions which would otherwise exceed your transasction account's available balance."
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "eStatements available"
+          },
+          {
+            "featureType": "FRAUD_PROTECTION"
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "MIN_BALANCE",
+            "additionalValue": "1.00"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "OTHER",
+            "additionalInfo": "You must be a member and resident of Australia",
+            "additionalInfoUri": "https://geelongbank.com.au/about-us/why-join-geelong-bank/"
+          },
+          {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalValue": "Individuals must be citizens or permanent residents of Australia."
+          }
+        ],
+        "fees": [
+          {
+            "name": "DORMANT_ADMIN_FEE",
+            "feeType": "PERIODIC",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "20.00"
+            },
+            "currency": "AUD",
+            "additionalValue": "P1Y",
+            "additionalInfoUri": "https://geelongbank.com.au/savings-loans/rates-fees/deposit-account-interest-rates/"
+          },
+          {
+            "name": "EFT_STAFF_ASSISTED_FEE",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "2.50"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Payable when staff perform an electonic transfer from your account",
+            "additionalInfoUri": "https://geelongbank.com.au/savings-loans/rates-fees/deposit-account-interest-rates/"
+          },
+          {
+            "name": "RTGS_(SWIFT)_INCOMING_FEE",
+            "feeType": "DEPOSIT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "8.05"
+            },
+            "currency": "AUD",
+            "additionalInfoUri": "https://geelongbank.com.au/savings-loans/rates-fees/deposit-account-interest-rates/"
+          },
+          {
+            "name": "STATEMENT_REPL_FEE",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "3.00"
+            },
+            "currency": "AUD",
+            "additionalInfoUri": "https://geelongbank.com.au/savings-loans/rates-fees/deposit-account-interest-rates/"
+          },
+          {
+            "name": "TELEGRAPHIC_TSF_ONLINE_FEE",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "15.00"
+            },
+            "currency": "AUD",
+            "additionalInfoUri": "https://geelongbank.com.au/savings-loans/rates-fees/deposit-account-interest-rates/"
+          },
+          {
+            "name": "DIRECT_DR_DISH_FEE",
+            "feeType": "DISHONOUR",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "10.00"
+            },
+            "currency": "AUD",
+            "additionalInfoUri": "https://geelongbank.com.au/savings-loans/rates-fees/deposit-account-interest-rates/"
+          },
+          {
+            "name": "FOREIGN_CHEQUE_DEPOSIT_FEE_<_$25,000",
+            "feeType": "DEPOSIT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "5.00"
+            },
+            "currency": "AUD",
+            "additionalInfoUri": "https://geelongbank.com.au/savings-loans/rates-fees/deposit-account-interest-rates/"
+          },
+          {
+            "name": "FOREIGN_CHEQUE_DEPOSIT_FEE_>_$25,000",
+            "feeType": "DEPOSIT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "50.00"
+            },
+            "currency": "AUD",
+            "additionalInfoUri": "https://geelongbank.com.au/savings-loans/rates-fees/deposit-account-interest-rates/"
+          },
+          {
+            "name": "OVERDRAWN_ACC_FEE",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "15.00"
+            },
+            "currency": "AUD",
+            "additionalInfoUri": "https://geelongbank.com.au/savings-loans/rates-fees/deposit-account-interest-rates/"
+          },
+          {
+            "name": "PERIODICAL_PYT_VARIATION_FEE",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "3.50"
+            },
+            "currency": "AUD",
+            "additionalInfoUri": "https://geelongbank.com.au/savings-loans/rates-fees/deposit-account-interest-rates/"
+          },
+          {
+            "name": "RTGS_(SWIFT)_OUTGOING_PYT_FEE",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "13.27"
+            },
+            "currency": "AUD",
+            "additionalInfoUri": "https://geelongbank.com.au/savings-loans/rates-fees/deposit-account-interest-rates/"
+          },
+          {
+            "name": "STATEMENT_REPL_PREV_MTH",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "3.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "TELEGRAPHIC_TSF_AUD",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "15.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "VOUCHER_RECORD_SEARCH",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "40.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "VOUCHER_RETRIEVAL_FEE",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "40.00"
+            },
+            "currency": "AUD"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "Superfund Maximiser_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "0.00",
+                "maximumValue": "0.99",
+                "rateApplicationMethod": "PER_TIER"
+              }
+            ]
+          },
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.047",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "Superfund Maximiser_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1.00",
+                "rateApplicationMethod": "PER_TIER"
+              }
+            ]
+          }
+        ],
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "productId": "S75",
+        "lastUpdated": "2026-11-18T10:46:17.000+11:00",
+        "name": "Superfund Maximiser",
+        "description": "DIY and Self Managed Super Fund",
+        "brand": "FORD COOPERATIVE CREDIT SOCIETY",
+        "brandName": "GEELONG BANK",
+        "applicationUri": "https://geelongbank.com.au/tools/forms/savings-account-application/",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://geelongbank.com.au/savings-loans/savings-investment-accounts/superfund-maximiser-account/",
+          "termsUri": "https://geelongbank.com.au/about-us/disclosures-publications/",
+          "eligibilityUri": "https://geelongbank.com.au/about-us/why-join-geelong-bank/",
+          "feesAndPricingUri": "https://geelongbank.com.au/savings-loans/rates-fees/deposit-account-interest-rates/"
+        }
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "S8",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "features": [
+          {
+            "featureType": "CARD_ACCESS",
+            "additionalValue": "Visa Debit Card"
+          },
+          {
+            "featureType": "DIGITAL_WALLET",
+            "additionalValue": "Apple Pay"
+          },
+          {
+            "featureType": "DIGITAL_WALLET",
+            "additionalValue": "Google Pay"
+          },
+          {
+            "featureType": "NPP_PAYID"
+          },
+          {
+            "featureType": "NPP_ENABLED"
+          },
+          {
+            "featureType": "NOTIFICATIONS",
+            "additionalValue": "Track credits with SMS and email alerts"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Our sweep service automatically transfers funds from certain savings accounts to cover most transactions which would otherwise exceed your transasction account's available balance."
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "No monthly access fee.",
+            "additionalInfoUri": "https://geelongbank.com.au/about-us/disclosures-publications/"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Earn interest for balances $2,000 and over."
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "No minimum balance."
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Salary must be deposited into Affinity Saver"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "eStatements available"
+          },
+          {
+            "featureType": "DIGITAL_BANKING"
+          },
+          {
+            "featureType": "ADDITIONAL_CARDS"
+          },
+          {
+            "featureType": "FRAUD_PROTECTION"
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "MIN_BALANCE",
+            "additionalValue": "2000.00"
+          },
+          {
+            "constraintType": "MAX_BALANCE",
+            "additionalValue": "100000.00",
+            "additionalInfo": "Interest is not paid on amounts over $100,000"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "OTHER",
+            "additionalInfo": "You must be a member and resident of Australia",
+            "additionalInfoUri": "https://geelongbank.com.au/about-us/why-join-geelong-bank/"
+          },
+          {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalValue": "Individuals must be citizens or permanent residents of Australia."
+          },
+          {
+            "eligibilityType": "OTHER",
+            "additionalInfo": "This account must receive your whole of pay"
+          }
+        ],
+        "fees": [
+          {
+            "name": "DIRECT_DR_DISH_FEE",
+            "feeType": "DISHONOUR",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "10.00"
+            },
+            "currency": "AUD",
+            "additionalInfoUri": "https://geelongbank.com.au/savings-loans/rates-fees/deposit-account-interest-rates/"
+          },
+          {
+            "name": "DORMANT_ADMIN_FEE",
+            "feeType": "PERIODIC",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "20.00"
+            },
+            "currency": "AUD",
+            "additionalValue": "P1Y",
+            "additionalInfoUri": "https://geelongbank.com.au/savings-loans/rates-fees/deposit-account-interest-rates/"
+          },
+          {
+            "name": "FOREIGN_CHEQUE_DEPOSIT_FEE_<_$25,000",
+            "feeType": "DEPOSIT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "5.00"
+            },
+            "currency": "AUD",
+            "additionalInfoUri": "https://geelongbank.com.au/savings-loans/rates-fees/deposit-account-interest-rates/"
+          },
+          {
+            "name": "FOREIGN_CHEQUE_DEPOSIT_FEE_>_$25,000",
+            "feeType": "DEPOSIT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "50.00"
+            },
+            "currency": "AUD",
+            "additionalInfoUri": "https://geelongbank.com.au/savings-loans/rates-fees/deposit-account-interest-rates/"
+          },
+          {
+            "name": "OVERDRAWN_ACC_FEE",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "15.00"
+            },
+            "currency": "AUD",
+            "additionalInfoUri": "https://geelongbank.com.au/savings-loans/rates-fees/deposit-account-interest-rates/"
+          },
+          {
+            "name": "RTGS_(SWIFT)_INCOMING_FEE",
+            "feeType": "DEPOSIT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "8.05"
+            },
+            "currency": "AUD",
+            "additionalInfoUri": "https://geelongbank.com.au/savings-loans/rates-fees/deposit-account-interest-rates/"
+          },
+          {
+            "name": "RTGS_(SWIFT)_OUTGOING_PYT_FEE",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "13.27"
+            },
+            "currency": "AUD",
+            "additionalInfoUri": "https://geelongbank.com.au/savings-loans/rates-fees/deposit-account-interest-rates/"
+          },
+          {
+            "name": "TELEGRAPHIC_TSF_FEE_STAFF_ASSISTED_FEE",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "30.00"
+            },
+            "currency": "AUD",
+            "additionalInfoUri": "https://geelongbank.com.au/savings-loans/rates-fees/deposit-account-interest-rates/"
+          },
+          {
+            "name": "TELEGRAPHIC_TSF_ONLINE_FEE",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "15.00"
+            },
+            "currency": "AUD",
+            "additionalInfoUri": "https://geelongbank.com.au/savings-loans/rates-fees/deposit-account-interest-rates/"
+          },
+          {
+            "name": "VOUCHER_RETRIEVAL_FEE",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "40.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "VOUCHER_RECORD_SEARCH",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "40.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "PERIODICAL_PYT_OTC",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "2.50"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Unlimited free if banking relationship is over $50,000",
+            "additionalInfoUri": "https://geelongbank.com.au/savings-loans/rates-fees/deposit-account-interest-rates/"
+          },
+          {
+            "name": "PERIODICAL_PYT_VARIATION_FEE",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "3.50"
+            },
+            "currency": "AUD",
+            "additionalInfoUri": "https://geelongbank.com.au/savings-loans/rates-fees/deposit-account-interest-rates/"
+          },
+          {
+            "name": "VISA_CARD_REPLACEMENT_FEE",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "10.00"
+            },
+            "currency": "AUD",
+            "additionalInfoUri": "https://geelongbank.com.au/savings-loans/rates-fees/deposit-account-interest-rates/"
+          },
+          {
+            "name": "COIN_HANDLING_OVER_$100_FEE",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "2.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "over $100 cost $2 per $200"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "Affinity Savers_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "0.00",
+                "maximumValue": "1999.99",
+                "rateApplicationMethod": "PER_TIER"
+              }
+            ]
+          },
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0435",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "Affinity Savers_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "2000.00",
+                "maximumValue": "100000.00",
+                "rateApplicationMethod": "PER_TIER"
+              }
+            ]
+          },
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "Affinity Savers_Tier_3",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "100000.01",
+                "rateApplicationMethod": "PER_TIER"
+              }
+            ]
+          }
+        ],
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "productId": "S8",
+        "lastUpdated": "2026-11-05T08:51:23.000+11:00",
+        "name": "Affinity Savers",
+        "description": "Earn interest with this everyday transaction account",
+        "brand": "FORD COOPERATIVE CREDIT SOCIETY",
+        "brandName": "GEELONG BANK",
+        "applicationUri": "https://geelongbank.com.au/tools/forms/savings-account-application/",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://geelongbank.com.au/savings-loans/home-loans/affinity-home-loan/affinity-saver-account/",
+          "termsUri": "https://geelongbank.com.au/about-us/disclosures-publications/",
+          "eligibilityUri": "https://geelongbank.com.au/about-us/why-join-geelong-bank/",
+          "feesAndPricingUri": "https://geelongbank.com.au/savings-loans/rates-fees/deposit-account-interest-rates/"
+        }
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "S80",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "features": [
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Bonus interest earned for each month if you make no withdrawals during the month and the account has a deposit during that month."
+          },
+          {
+            "featureType": "DIGITAL_BANKING"
+          },
+          {
+            "featureType": "NPP_PAYID"
+          },
+          {
+            "featureType": "NPP_ENABLED"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Link this to a transaction account and our service automatically transfers funds from certain savings accounts to cover most transactions which would otherwise exceed your transasction account's available balance."
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "No monthly access fee."
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "eStatements available"
+          },
+          {
+            "featureType": "FRAUD_PROTECTION"
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "MIN_BALANCE",
+            "additionalValue": "1.00"
+          },
+          {
+            "constraintType": "MAX_BALANCE",
+            "additionalValue": "250000.00",
+            "additionalInfo": "Bonus interest is not paid on amounts over $250,000"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "OTHER",
+            "additionalInfo": "You must be a member and resident of Australia"
+          },
+          {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalValue": "Individuals must be citizens or permanent residents of Australia."
+          }
+        ],
+        "fees": [
+          {
+            "name": "DORMANT_ADMIN_FEE",
+            "feeType": "PERIODIC",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "20.00"
+            },
+            "currency": "AUD",
+            "additionalValue": "P1Y",
+            "additionalInfoUri": "https://geelongbank.com.au/savings-loans/rates-fees/deposit-account-interest-rates/"
+          },
+          {
+            "name": "RTGS_(SWIFT)_INCOMING_FEE",
+            "feeType": "DEPOSIT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "8.05"
+            },
+            "currency": "AUD",
+            "additionalInfoUri": "https://geelongbank.com.au/savings-loans/rates-fees/deposit-account-interest-rates/"
+          },
+          {
+            "name": "STATEMENT_REPL_FEE",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "3.00"
+            },
+            "currency": "AUD",
+            "additionalInfoUri": "https://geelongbank.com.au/savings-loans/rates-fees/deposit-account-interest-rates/"
+          },
+          {
+            "name": "TELEGRAPHIC_TSF_ONLINE_FEE",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "15.00"
+            },
+            "currency": "AUD",
+            "additionalInfoUri": "https://geelongbank.com.au/savings-loans/rates-fees/deposit-account-interest-rates/"
+          },
+          {
+            "name": "RTGS_(SWIFT)_OUTGOING_PYT_FEE",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "13.27"
+            },
+            "currency": "AUD",
+            "additionalInfoUri": "https://geelongbank.com.au/savings-loans/rates-fees/deposit-account-interest-rates/"
+          },
+          {
+            "name": "DIRECT_DR_DISH_FEE",
+            "feeType": "DISHONOUR",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "10.00"
+            },
+            "currency": "AUD",
+            "additionalInfoUri": "https://geelongbank.com.au/savings-loans/rates-fees/deposit-account-interest-rates/"
+          },
+          {
+            "name": "OVERDRAWN_ACC_FEE",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "15.00"
+            },
+            "currency": "AUD",
+            "additionalInfoUri": "https://geelongbank.com.au/savings-loans/rates-fees/deposit-account-interest-rates/"
+          },
+          {
+            "name": "STATEMENT_REPL_PREV_MTH",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "3.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "TELEGRAPHIC_TSF_AUD",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "15.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "VOUCHER_RECORD_SEARCH",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "40.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "VOUCHER_RETRIEVAL_FEE",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "40.00"
+            },
+            "currency": "AUD"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.013",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "iSaver_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "0.00",
+                "maximumValue": "249999.99",
+                "rateApplicationMethod": "PER_TIER"
+              }
+            ],
+            "applicabilityConditions": [
+              {
+                "rateApplicabilityType": "MIN_DEPOSIT_AMOUNT",
+                "additionalValue": "200"
+              }
+            ]
+          },
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.013",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "iSaver_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "250000.00",
+                "rateApplicationMethod": "PER_TIER"
+              }
+            ],
+            "applicabilityConditions": [
+              {
+                "rateApplicabilityType": "MIN_DEPOSIT_AMOUNT",
+                "additionalValue": "200"
+              }
+            ]
+          },
+          {
+            "depositRateType": "BONUS",
+            "rate": "0.0166",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "iSaver_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "0.00",
+                "maximumValue": "249999.99",
+                "rateApplicationMethod": "PER_TIER"
+              }
+            ],
+            "applicabilityConditions": [
+              {
+                "rateApplicabilityType": "MIN_DEPOSIT_AMOUNT",
+                "additionalValue": "200"
+              }
+            ],
+            "additionalValue": "Simply deposit a minimum of $200 per month to earn bonus interest."
+          },
+          {
+            "depositRateType": "BONUS",
+            "rate": "0.0",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "iSaver_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "250000.00",
+                "rateApplicationMethod": "PER_TIER"
+              }
+            ],
+            "applicabilityConditions": [
+              {
+                "rateApplicabilityType": "MIN_DEPOSIT_AMOUNT",
+                "additionalValue": "200"
+              }
+            ],
+            "additionalValue": "Simply deposit a minimum of $200 per month to earn bonus interest."
+          }
+        ],
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "productId": "S80",
+        "lastUpdated": "2026-10-01T10:52:46.000+10:00",
+        "name": "iSaver",
+        "description": "Online account only that can earn bonus interest.",
+        "brand": "FORD COOPERATIVE CREDIT SOCIETY",
+        "brandName": "GEELONG BANK",
+        "applicationUri": "https://geelongbank.com.au/tools/forms/savings-account-application/",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://geelongbank.com.au/savings-loans/savings-investment-accounts/isaver-account/",
+          "termsUri": "https://geelongbank.com.au/about-us/disclosures-publications/",
+          "eligibilityUri": "https://geelongbank.com.au/about-us/why-join-geelong-bank/",
+          "feesAndPricingUri": "https://geelongbank.com.au/savings-loans/rates-fees/deposit-account-interest-rates/"
+        }
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    }
+  ]
+}

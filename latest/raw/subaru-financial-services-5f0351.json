@@ -1,0 +1,28 @@
+{
+  "endpoint": "https://public.prd.subarufinancialservices.com.au/cds-au/v1/banking/products",
+  "slug": "subaru-financial-services-5f0351",
+  "brands": [
+    {
+      "dataHolderBrandId": "cceb4a45-5073-f111-9b47-6045bd3f59f5",
+      "brandName": "Subaru Financial Services",
+      "brandGroup": null,
+      "abn": "31609859985",
+      "industries": [
+        "non-bank-lending"
+      ]
+    }
+  ],
+  "list": {
+    "ok": true,
+    "status": 200,
+    "version": "5",
+    "totalPages": 1,
+    "pagesFetched": 1,
+    "productCount": 2,
+    "categoryCounts": {
+      "PERS_LOANS": 1,
+      "BUSINESS_LOANS": 1
+    }
+  },
+  "products": []
+}

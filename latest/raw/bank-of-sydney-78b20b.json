@@ -1,0 +1,2046 @@
+{
+  "endpoint": "https://openbank.api.banksyd.com.au/cds-au/v1/banking/products",
+  "slug": "bank-of-sydney-78b20b",
+  "brands": [
+    {
+      "dataHolderBrandId": "9bd98cf1-5c97-eb11-a821-000d3a884a20",
+      "brandName": "Bank of Sydney",
+      "brandGroup": null,
+      "abn": "44093488629",
+      "industries": [
+        "banking"
+      ]
+    }
+  ],
+  "list": {
+    "ok": true,
+    "status": 200,
+    "version": "5",
+    "totalPages": 1,
+    "pagesFetched": 1,
+    "productCount": 29,
+    "categoryCounts": {
+      "RESIDENTIAL_MORTGAGES": 8,
+      "BUSINESS_LOANS": 5,
+      "OVERDRAFTS": 1,
+      "TRANS_AND_SAVINGS_ACCOUNTS": 8,
+      "REGULATED_TRUST_ACCOUNTS": 2,
+      "TERM_DEPOSITS": 5
+    }
+  },
+  "products": [
+    {
+      "productId": "bos_saver_account",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "productId": "bos_saver_account",
+        "lastUpdated": "2026-11-16T22:43:42Z",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "name": "BOS Saver",
+        "description": "Make savings simple with a BOS Saver Account. Earn interest on your balance without the complicated conditions or ongoing deposit requirements.",
+        "brand": "Bank of Sydney",
+        "brandName": "Bank of Sydney",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.banksyd.com.au/bos-saver",
+          "termsUri": "https://www.banksyd.com.au/important-product-information",
+          "eligibilityUri": "https://www.banksyd.com.au/bos-saver",
+          "feesAndPricingUri": "https://www.banksyd.com.au/important-product-information"
+        },
+        "features": [
+          {
+            "featureType": "DIGITAL_BANKING"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalValue": "Linked to a full Transaction Account",
+            "additionalInfo": "Linked to Everyday Saver Transaction so you can access your money at any time through Internet Banking"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "18"
+          },
+          {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalValue": "Australian Resident or Citizen"
+          },
+          {
+            "eligibilityType": "NATURAL_PERSON"
+          }
+        ],
+        "depositRates": [
+          {
+            "rate": "0.0540",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "0 to 1000000",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "0.00",
+                "maximumValue": "1000000.00",
+                "rateApplicationMethod": "PER_TIER"
+              }
+            ],
+            "depositRateType": "VARIABLE"
+          },
+          {
+            "rate": "0.0540",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "1000001 to 99999999999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000001.00",
+                "maximumValue": "5000000.00",
+                "rateApplicationMethod": "PER_TIER"
+              }
+            ],
+            "depositRateType": "VARIABLE"
+          }
+        ]
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "business_advance",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "productId": "business_advance",
+        "lastUpdated": "2026-10-01T23:20:57Z",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "name": "Business Advance Account",
+        "description": "Our Business Advance Account is for businesses with a high volume of transactions, allowing you to easily manage your daily business transactions.",
+        "brand": "Bank of Sydney",
+        "brandName": "Bank of Sydney",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.banksyd.com.au/business-advance-account",
+          "termsUri": "https://www.banksyd.com.au/important-product-information",
+          "eligibilityUri": "https://www.banksyd.com.au/business-advance-account",
+          "feesAndPricingUri": "https://www.banksyd.com.au/important-product-information"
+        },
+        "features": [
+          {
+            "featureType": "DIGITAL_BANKING"
+          },
+          {
+            "featureType": "DIGITAL_WALLET",
+            "additionalValue": "Apple Pay"
+          },
+          {
+            "featureType": "CARD_ACCESS",
+            "additionalValue": "Visa Debit Card"
+          },
+          {
+            "featureType": "DIGITAL_WALLET",
+            "additionalValue": "Samsung Pay"
+          },
+          {
+            "featureType": "OVERDRAFT",
+            "additionalInfo": "Overdraft facility is available for this product."
+          },
+          {
+            "featureType": "DIGITAL_WALLET",
+            "additionalValue": "Google Pay"
+          },
+          {
+            "featureType": "UNLIMITED_TXNS"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "BUSINESS"
+          },
+          {
+            "eligibilityType": "OTHER",
+            "additionalValue": "Business Signatories",
+            "additionalInfo": "All the signatories must be identified as per KYC requirements"
+          }
+        ]
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "business_saver",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "productId": "business_saver",
+        "effectiveFrom": "2023-12-01T01:04:30Z",
+        "lastUpdated": "2026-11-16T22:44:03Z",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "name": "Business Saver",
+        "description": "Give your business savings a boost with a high-interest Savings Account for businesses looking to grow their savings whilst having flexible access to their funds.",
+        "brand": "Bank of Sydney",
+        "brandName": "Bank of Sydney",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.banksyd.com.au/business-saver-account",
+          "termsUri": "https://www.banksyd.com.au/business-saver-account",
+          "eligibilityUri": "https://www.banksyd.com.au/business-saver-account",
+          "feesAndPricingUri": "https://www.banksyd.com.au/business-saver-account"
+        },
+        "features": [
+          {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": "Access your funds using our Online Banking"
+          },
+          {
+            "featureType": "CARD_ACCESS",
+            "additionalValue": "Visa Debit card"
+          },
+          {
+            "featureType": "BILL_PAYMENT",
+            "additionalValue": "BPAY"
+          },
+          {
+            "featureType": "DIGITAL_WALLET",
+            "additionalValue": "Google Pay"
+          },
+          {
+            "featureType": "DIGITAL_WALLET",
+            "additionalValue": "Samsung Pay"
+          },
+          {
+            "featureType": "ADDITIONAL_CARDS",
+            "additionalValue": "Null",
+            "additionalInfo": "Additional card holders must be verified as per KYC standards"
+          },
+          {
+            "featureType": "DIGITAL_WALLET",
+            "additionalValue": "Apple Pay"
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "MIN_BALANCE",
+            "additionalValue": "1.00"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "BUSINESS",
+            "additionalInfo": "Business entities to supply business identification documents. Search fees may apply."
+          }
+        ],
+        "depositRates": [
+          {
+            "rate": "0.0190",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "$0 - $9999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "0.00",
+                "maximumValue": "9999.99",
+                "rateApplicationMethod": "PER_TIER"
+              }
+            ],
+            "depositRateType": "VARIABLE"
+          },
+          {
+            "rate": "0.0460",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "$10,000-$24,999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "10000.00",
+                "maximumValue": "24999.99",
+                "rateApplicationMethod": "PER_TIER"
+              },
+              {
+                "name": "$25,000-$249,999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "25000.00",
+                "maximumValue": "249999.99",
+                "rateApplicationMethod": "PER_TIER"
+              },
+              {
+                "name": "$250,000-$499,999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "250000.00",
+                "maximumValue": "499999.99",
+                "rateApplicationMethod": "PER_TIER"
+              },
+              {
+                "name": "$500,000-$999,999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "500000.00",
+                "maximumValue": "999999.99",
+                "rateApplicationMethod": "PER_TIER"
+              },
+              {
+                "name": "$1,000,000 +",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000000.01",
+                "maximumValue": "9999999999999.99",
+                "rateApplicationMethod": "PER_TIER"
+              }
+            ],
+            "depositRateType": "VARIABLE"
+          }
+        ]
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "eur_fccy_account",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "productId": "eur_fccy_account",
+        "lastUpdated": "2026-10-16T04:08:05Z",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "name": "EUR Foreign Currency Account",
+        "description": "Simplify your overseas payments with a Foreign Currency Account in USD, Euro or GBP. Send and receive funds in the same currency, and avoid conversion fees and exchange rate fluctuations.",
+        "brand": "Bank of Sydney",
+        "brandName": "Bank of Sydney",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.banksyd.com.au/foreign-currency-account",
+          "termsUri": "https://www.banksyd.com.au/important-product-information",
+          "eligibilityUri": "https://www.banksyd.com.au/foreign-currency-account",
+          "feesAndPricingUri": "https://www.banksyd.com.au/important-product-information"
+        },
+        "features": [
+          {
+            "featureType": "OTHER",
+            "additionalValue": "Direct Credits",
+            "additionalInfo": "Direct credit in the currency the account is in"
+          },
+          {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": "Enquiry access and international funds transfer"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "18"
+          }
+        ],
+        "fees": [
+          {
+            "name": "Cash Deposit and Withdrawal",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "rateBased",
+            "rateBased": {
+              "rateType": "TRANSACTION",
+              "rate": "0.01",
+              "amountRange": {}
+            },
+            "currency": "AUD",
+            "additionalInfo": "1% of the transaction amount or minimum $20.00 AUD"
+          },
+          {
+            "name": "Inward Overseas Transfer",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "10.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Direct to BOS customers account"
+          },
+          {
+            "name": "Online Overseas Transfers",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "10.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Overseas Telegraphic Transfers",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "20.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "With currency exchange"
+          },
+          {
+            "name": "Overseas Telegraphic Transfers",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "25.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "No currency exchange"
+          }
+        ],
+        "depositRates": [
+          {
+            "rate": "0.00",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "250000 to 999999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "250000",
+                "maximumValue": "999999",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "10000 to 49999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "10000",
+                "maximumValue": "49999",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "50000 to 99999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "50000",
+                "maximumValue": "99999",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "1000000 to 99999999999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000000",
+                "maximumValue": "99999999999",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "0 to 9999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "0",
+                "maximumValue": "9999",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "100000 to 249999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "100000",
+                "maximumValue": "249999",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "depositRateType": "VARIABLE"
+          }
+        ]
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "eur_term_deposit",
+      "productCategory": "TERM_DEPOSITS",
+      "detail": {
+        "productId": "eur_term_deposit",
+        "lastUpdated": "2026-10-16T04:08:15Z",
+        "productCategory": "TERM_DEPOSITS",
+        "name": "EUR Term Deposit",
+        "description": "Got money that’s not Aussie dollars? Get a guaranteed return on it with our specially designed foreign currency term deposit.",
+        "brand": "Bank of Sydney",
+        "brandName": "Bank of Sydney",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.banksyd.com.au/foreign-currency-term-deposit",
+          "termsUri": "https://www.banksyd.com.au/important-product-information",
+          "eligibilityUri": "https://www.banksyd.com.au/foreign-currency-term-deposit",
+          "feesAndPricingUri": "https://www.banksyd.com.au/important-product-information"
+        },
+        "features": [
+          {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": "Enquiry Only Access"
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "MIN_BALANCE",
+            "additionalValue": "5000.00"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "18"
+          }
+        ],
+        "depositRates": [
+          {
+            "rate": "0.0001",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P12M",
+            "additionalValue": "P12M",
+            "additionalInfoUri": "https://www.banksyd.com.au/foreign-currency-term-deposit",
+            "tiers": [
+              {
+                "name": "100000 to 249999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "100000",
+                "maximumValue": "249999",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "250000 and above",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "250000",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "depositRateType": "FIXED"
+          },
+          {
+            "rate": "0.0001",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P6M",
+            "additionalValue": "P6M",
+            "additionalInfoUri": "https://www.banksyd.com.au/foreign-currency-term-deposit",
+            "tiers": [
+              {
+                "name": "250000 and above",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "250000",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "100000 to 249999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "100000",
+                "maximumValue": "249999",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "depositRateType": "FIXED"
+          }
+        ]
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "everyday_account",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "productId": "everyday_account",
+        "effectiveFrom": "2023-12-01T01:19:19Z",
+        "lastUpdated": "2026-03-13T01:31:00Z",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "name": "Everyday Account",
+        "description": "Make managing your money easy with our Everyday Account. Get access to a Visa Debit Card, unlimited transactions and no monthly account fees.",
+        "brand": "Bank of Sydney",
+        "brandName": "Bank of Sydney",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.banksyd.com.au/everyday-account",
+          "termsUri": "https://www.banksyd.com.au/everyday-account",
+          "eligibilityUri": "https://www.banksyd.com.au/everyday-account",
+          "feesAndPricingUri": "https://www.banksyd.com.au/everyday-account"
+        },
+        "features": [
+          {
+            "featureType": "DIGITAL_WALLET",
+            "additionalValue": "Samsung Pay"
+          },
+          {
+            "featureType": "CARD_ACCESS",
+            "additionalValue": "Visa Debit card"
+          },
+          {
+            "featureType": "BILL_PAYMENT",
+            "additionalValue": "BPAY"
+          },
+          {
+            "featureType": "DIGITAL_BANKING"
+          },
+          {
+            "featureType": "DIGITAL_WALLET",
+            "additionalValue": "Apple Pay"
+          },
+          {
+            "featureType": "UNLIMITED_TXNS"
+          },
+          {
+            "featureType": "DIGITAL_WALLET",
+            "additionalValue": "Google Pay"
+          },
+          {
+            "featureType": "ADDITIONAL_CARDS",
+            "additionalValue": "Null",
+            "additionalInfo": "Additional card holders must be verified as per KYC standards"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "NATURAL_PERSON"
+          }
+        ]
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "gbp_fccy_account",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "productId": "gbp_fccy_account",
+        "lastUpdated": "2026-10-16T04:07:31Z",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "name": "GBP Foreign Currency Account",
+        "description": "Simplify your overseas payments with a Foreign Currency Account in USD, Euro or GBP. Send and receive funds in the same currency, and avoid conversion fees and exchange rate fluctuations.",
+        "brand": "Bank of Sydney",
+        "brandName": "Bank of Sydney",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.banksyd.com.au/foreign-currency-account",
+          "termsUri": "https://www.banksyd.com.au/important-product-information",
+          "eligibilityUri": "https://www.banksyd.com.au/foreign-currency-account",
+          "feesAndPricingUri": "https://www.banksyd.com.au/foreign-currency-account"
+        },
+        "features": [
+          {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": "Enquiry access and international funds transfer"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalValue": "Direct Credits",
+            "additionalInfo": "Direct credit in the currency the account is in"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "18"
+          }
+        ],
+        "fees": [
+          {
+            "name": "Inward Overseas Transfer",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "10.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Online Overseas Transfers",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "10.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Cash Deposit and Withdrawal",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "rateBased",
+            "rateBased": {
+              "rateType": "TRANSACTION",
+              "rate": "0.01",
+              "amountRange": {}
+            },
+            "currency": "AUD",
+            "additionalInfo": "1% of the transaction amount or minimum $20.00 AUD"
+          },
+          {
+            "name": "Overseas Telegraphic Transfers",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "25.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "No currency exchange"
+          },
+          {
+            "name": "Overseas Telegraphic Transfers",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "20.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "With currency exchange"
+          }
+        ],
+        "depositRates": [
+          {
+            "rate": "0.00",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "100000 to 249999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "100000",
+                "maximumValue": "249999",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "0 to 9999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "0",
+                "maximumValue": "9999",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "50000 to 99999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "50000",
+                "maximumValue": "99999",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "250000 to 999999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "250000",
+                "maximumValue": "999999",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "10000 to 49999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "10000",
+                "maximumValue": "49999",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "1000000 to 99999999999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000000",
+                "maximumValue": "99999999999",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "depositRateType": "VARIABLE"
+          }
+        ]
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "gbp_term_deposit",
+      "productCategory": "TERM_DEPOSITS",
+      "detail": {
+        "productId": "gbp_term_deposit",
+        "lastUpdated": "2026-10-16T04:08:29Z",
+        "productCategory": "TERM_DEPOSITS",
+        "name": "GBP Term Deposit",
+        "description": "Got money that's not Aussie dollars? Get a guaranteed return on it with our specially designed foreign currency term deposit.",
+        "brand": "Bank of Sydney",
+        "brandName": "Bank of Sydney",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.banksyd.com.au/foreign-currency-term-deposit",
+          "termsUri": "https://www.banksyd.com.au/important-product-information",
+          "eligibilityUri": "https://www.banksyd.com.au/foreign-currency-term-deposit",
+          "feesAndPricingUri": "https://www.banksyd.com.au/important-product-information"
+        },
+        "features": [
+          {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": "Enquiry Only Access"
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "MIN_BALANCE",
+            "additionalValue": "5000.00"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "18"
+          }
+        ],
+        "depositRates": [
+          {
+            "rate": "0.0001",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P2M",
+            "additionalValue": "P2M",
+            "additionalInfoUri": "https://www.banksyd.com.au/foreign-currency-term-deposit",
+            "tiers": [
+              {
+                "name": "50000 to 99999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "50000",
+                "maximumValue": "99999",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "5000 to 49999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000",
+                "maximumValue": "49999",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "depositRateType": "FIXED"
+          },
+          {
+            "rate": "0.0003",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P3M",
+            "additionalValue": "P3M",
+            "additionalInfoUri": "https://www.banksyd.com.au/foreign-currency-term-deposit",
+            "tiers": [
+              {
+                "name": "100000 to 249999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "100000",
+                "maximumValue": "249999",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "depositRateType": "FIXED"
+          },
+          {
+            "rate": "0.0003",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P1M",
+            "additionalValue": "P1M",
+            "additionalInfoUri": "https://www.banksyd.com.au/foreign-currency-term-deposit",
+            "tiers": [
+              {
+                "name": "250000 and above",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "250000",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "depositRateType": "FIXED"
+          },
+          {
+            "rate": "0.001",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P12M",
+            "additionalValue": "P12M",
+            "additionalInfoUri": "https://www.banksyd.com.au/foreign-currency-term-deposit",
+            "tiers": [
+              {
+                "name": "50000 to 99999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "50000",
+                "maximumValue": "99999",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "5000 to 49999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000",
+                "maximumValue": "49999",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "depositRateType": "FIXED"
+          },
+          {
+            "rate": "0.001",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P6M",
+            "additionalValue": "P6M",
+            "additionalInfoUri": "https://www.banksyd.com.au/foreign-currency-term-deposit",
+            "tiers": [
+              {
+                "name": "250000 and above",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "250000",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "depositRateType": "FIXED"
+          },
+          {
+            "rate": "0.0002",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P3M",
+            "additionalValue": "P3M",
+            "additionalInfoUri": "https://www.banksyd.com.au/foreign-currency-term-deposit",
+            "tiers": [
+              {
+                "name": "5000 to 49999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000",
+                "maximumValue": "49999",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "50000 to 99999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "50000",
+                "maximumValue": "99999",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "depositRateType": "FIXED"
+          },
+          {
+            "rate": "0.0002",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P1M",
+            "additionalValue": "P1M",
+            "additionalInfoUri": "https://www.banksyd.com.au/foreign-currency-term-deposit",
+            "tiers": [
+              {
+                "name": "100000 to 249999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "100000",
+                "maximumValue": "249999",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "depositRateType": "FIXED"
+          },
+          {
+            "rate": "0.0005",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P3M",
+            "additionalValue": "P3M",
+            "additionalInfoUri": "https://www.banksyd.com.au/foreign-currency-term-deposit",
+            "tiers": [
+              {
+                "name": "250000 and above",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "250000",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "depositRateType": "FIXED"
+          },
+          {
+            "rate": "0.0005",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P6M",
+            "additionalValue": "P6M",
+            "additionalInfoUri": "https://www.banksyd.com.au/foreign-currency-term-deposit",
+            "tiers": [
+              {
+                "name": "5000 to 49999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000",
+                "maximumValue": "49999",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "50000 to 99999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "50000",
+                "maximumValue": "99999",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "depositRateType": "FIXED"
+          },
+          {
+            "rate": "0.0007",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P6M",
+            "additionalValue": "P6M",
+            "additionalInfoUri": "https://www.banksyd.com.au/foreign-currency-term-deposit",
+            "tiers": [
+              {
+                "name": "100000 to 249999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "100000",
+                "maximumValue": "249999",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "depositRateType": "FIXED"
+          },
+          {
+            "rate": "0.0001",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P1M",
+            "additionalValue": "P1M",
+            "additionalInfoUri": "https://www.banksyd.com.au/foreign-currency-term-deposit",
+            "tiers": [
+              {
+                "name": "5000 to 49999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000",
+                "maximumValue": "49999",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "50000 to 99999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "50000",
+                "maximumValue": "99999",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "depositRateType": "FIXED"
+          },
+          {
+            "rate": "0.0003",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P2M",
+            "additionalValue": "P2M",
+            "additionalInfoUri": "https://www.banksyd.com.au/foreign-currency-term-deposit",
+            "tiers": [
+              {
+                "name": "250000 and above",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "250000",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "depositRateType": "FIXED"
+          },
+          {
+            "rate": "0.0002",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P2M",
+            "additionalValue": "P2M",
+            "additionalInfoUri": "https://www.banksyd.com.au/foreign-currency-term-deposit",
+            "tiers": [
+              {
+                "name": "100000 to 249999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "100000",
+                "maximumValue": "249999",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "depositRateType": "FIXED"
+          },
+          {
+            "rate": "0.0015",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P12M",
+            "additionalValue": "P12M",
+            "additionalInfoUri": "https://www.banksyd.com.au/foreign-currency-term-deposit",
+            "tiers": [
+              {
+                "name": "250000 and above",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "250000",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "depositRateType": "FIXED"
+          },
+          {
+            "rate": "0.0012",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P12M",
+            "additionalValue": "P12M",
+            "additionalInfoUri": "https://www.banksyd.com.au/foreign-currency-term-deposit",
+            "tiers": [
+              {
+                "name": "100000 to 249999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "100000",
+                "maximumValue": "249999",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "depositRateType": "FIXED"
+          }
+        ]
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "nzd_term_deposit",
+      "productCategory": "TERM_DEPOSITS",
+      "detail": {
+        "productId": "nzd_term_deposit",
+        "lastUpdated": "2026-10-16T04:08:48Z",
+        "productCategory": "TERM_DEPOSITS",
+        "name": "NZD Term Deposit",
+        "description": "Got money that’s not Aussie dollars? Get a guaranteed return on it with our specially designed foreign currency term deposit.",
+        "brand": "Bank of Sydney",
+        "brandName": "Bank of Sydney",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.banksyd.com.au/foreign-currency-term-deposit",
+          "termsUri": "https://www.banksyd.com.au/important-product-information",
+          "eligibilityUri": "https://www.banksyd.com.au/foreign-currency-term-deposit",
+          "feesAndPricingUri": "https://www.banksyd.com.au/important-product-information"
+        },
+        "features": [
+          {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": "Enquiry Only Access"
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "MIN_BALANCE",
+            "additionalValue": "5000.00"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "18"
+          }
+        ],
+        "depositRates": [
+          {
+            "rate": "0.0005",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P1M",
+            "additionalValue": "P1M",
+            "tiers": [
+              {
+                "name": "250000 and above",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "250000",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "depositRateType": "FIXED"
+          },
+          {
+            "rate": "0.0002",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P6M",
+            "additionalValue": "P6M",
+            "tiers": [
+              {
+                "name": "5000 to 49999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000",
+                "maximumValue": "49999",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "50000 to 99999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "50000",
+                "maximumValue": "99999",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "depositRateType": "FIXED"
+          },
+          {
+            "rate": "0.0001",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P1M",
+            "additionalValue": "P1M",
+            "tiers": [
+              {
+                "name": "5000 to 49999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000",
+                "maximumValue": "49999",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "50000 to 99999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "50000",
+                "maximumValue": "99999",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "depositRateType": "FIXED"
+          },
+          {
+            "rate": "0.0005",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P3M",
+            "additionalValue": "P3M",
+            "tiers": [
+              {
+                "name": "250000 and above",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "250000",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "depositRateType": "FIXED"
+          },
+          {
+            "rate": "0.0001",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P3M",
+            "additionalValue": "P3M",
+            "tiers": [
+              {
+                "name": "5000 to 49999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000",
+                "maximumValue": "49999",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "50000 to 99999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "50000",
+                "maximumValue": "99999",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "depositRateType": "FIXED"
+          },
+          {
+            "rate": "0.0002",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P3M",
+            "additionalValue": "P3M",
+            "tiers": [
+              {
+                "name": "100000 to 249999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "100000",
+                "maximumValue": "249999",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "depositRateType": "FIXED"
+          },
+          {
+            "rate": "0.001",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P6M",
+            "additionalValue": "P6M",
+            "tiers": [
+              {
+                "name": "250000 and above",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "250000",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "depositRateType": "FIXED"
+          },
+          {
+            "rate": "0.0001",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P2M",
+            "additionalValue": "P2M",
+            "tiers": [
+              {
+                "name": "5000 to 49999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000",
+                "maximumValue": "49999",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "50000 to 99999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "50000",
+                "maximumValue": "99999",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "depositRateType": "FIXED"
+          },
+          {
+            "rate": "0.0005",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P12M",
+            "additionalValue": "P12M",
+            "tiers": [
+              {
+                "name": "100000 to 249999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "100000",
+                "maximumValue": "249999",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "depositRateType": "FIXED"
+          },
+          {
+            "rate": "0.0002",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P2M",
+            "additionalValue": "P2M",
+            "tiers": [
+              {
+                "name": "100000 to 249999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "100000",
+                "maximumValue": "249999",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "depositRateType": "FIXED"
+          },
+          {
+            "rate": "0.001",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P12M",
+            "additionalValue": "P12M",
+            "tiers": [
+              {
+                "name": "250000 and above",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "250000",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "depositRateType": "FIXED"
+          },
+          {
+            "rate": "0.0002",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P1M",
+            "additionalValue": "P1M",
+            "tiers": [
+              {
+                "name": "100000 to 249999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "100000",
+                "maximumValue": "249999",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "depositRateType": "FIXED"
+          },
+          {
+            "rate": "0.0005",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P2M",
+            "additionalValue": "P2M",
+            "tiers": [
+              {
+                "name": "250000 and above",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "250000",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "depositRateType": "FIXED"
+          },
+          {
+            "rate": "0.0005",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P6M",
+            "additionalValue": "P6M",
+            "tiers": [
+              {
+                "name": "100000 to 249999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "100000",
+                "maximumValue": "249999",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "depositRateType": "FIXED"
+          },
+          {
+            "rate": "0.0002",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P12M",
+            "additionalValue": "P12M",
+            "tiers": [
+              {
+                "name": "50000 to 99999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "50000",
+                "maximumValue": "99999",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "5000 to 49999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000",
+                "maximumValue": "49999",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "depositRateType": "FIXED"
+          }
+        ]
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "offset_account",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "productId": "offset_account",
+        "lastUpdated": "2026-03-13T04:04:49Z",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "name": "Offset Account",
+        "description": "The Offset Account is designed to be linked with an eligible variable interest rate home loan. This allows \ncustomers to offset their home loan interest payments whilst having full access to transact.",
+        "brand": "Bank of Sydney",
+        "brandName": "Bank of Sydney",
+        "isTailored": false,
+        "additionalInformation": {
+          "termsUri": "https://www.banksyd.com.au/important-product-information",
+          "eligibilityUri": "https://www.banksyd.com.au/important-product-information",
+          "feesAndPricingUri": "https://www.banksyd.com.au/important-product-information"
+        },
+        "features": [
+          {
+            "featureType": "DIGITAL_WALLET",
+            "additionalValue": "Apple Pay"
+          },
+          {
+            "featureType": "DIGITAL_BANKING"
+          },
+          {
+            "featureType": "CARD_ACCESS",
+            "additionalValue": "Visa Debit Card"
+          },
+          {
+            "featureType": "OFFSET",
+            "additionalInfo": "100% home loan offset account"
+          },
+          {
+            "featureType": "DIGITAL_WALLET",
+            "additionalValue": "Google Pay"
+          },
+          {
+            "featureType": "DIGITAL_WALLET",
+            "additionalValue": "Samsung Pay"
+          },
+          {
+            "featureType": "BILL_PAYMENT",
+            "additionalValue": "BPAY"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "18"
+          },
+          {
+            "eligibilityType": "OTHER",
+            "additionalInfo": "Only available for home loan offset."
+          }
+        ]
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "term_deposit",
+      "productCategory": "TERM_DEPOSITS",
+      "detail": {
+        "productId": "term_deposit",
+        "lastUpdated": "2026-11-08T22:17:24Z",
+        "productCategory": "TERM_DEPOSITS",
+        "name": "Term Deposit",
+        "description": "Get a guaranteed return on money that you aren’t using right now with a term deposit.",
+        "brand": "Bank of Sydney",
+        "brandName": "Bank of Sydney",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.banksyd.com.au/term-deposit",
+          "termsUri": "https://www.banksyd.com.au/important-product-information",
+          "eligibilityUri": "https://www.banksyd.com.au/term-deposit",
+          "feesAndPricingUri": "https://www.banksyd.com.au/important-product-information"
+        },
+        "features": [
+          {
+            "featureType": "DIGITAL_BANKING"
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "MIN_BALANCE",
+            "additionalValue": "1000.00"
+          }
+        ],
+        "fees": [
+          {
+            "name": "Early Repayment Fee",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "30.00"
+            },
+            "currency": "AUD"
+          }
+        ],
+        "depositRates": [
+          {
+            "rate": "0.038",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P11M",
+            "additionalValue": "P11M",
+            "additionalInfoUri": "https://www.banksyd.com.au/term-deposit",
+            "depositRateType": "FIXED"
+          },
+          {
+            "rate": "0.037",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P8M",
+            "additionalValue": "P8M",
+            "additionalInfoUri": "https://www.banksyd.com.au/term-deposit",
+            "depositRateType": "FIXED"
+          },
+          {
+            "rate": "0.035",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P5M",
+            "additionalValue": "P5M",
+            "additionalInfoUri": "https://www.banksyd.com.au/term-deposit",
+            "depositRateType": "FIXED"
+          },
+          {
+            "rate": "0.052",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P12M",
+            "additionalValue": "P12M",
+            "additionalInfoUri": "https://www.banksyd.com.au/term-deposit",
+            "depositRateType": "FIXED"
+          },
+          {
+            "rate": "0.0125",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P1M",
+            "additionalValue": "P1M",
+            "additionalInfoUri": "https://www.banksyd.com.au/term-deposit",
+            "depositRateType": "FIXED"
+          },
+          {
+            "rate": "0.04",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P9M",
+            "additionalValue": "P9M",
+            "additionalInfoUri": "https://www.banksyd.com.au/term-deposit",
+            "depositRateType": "FIXED"
+          },
+          {
+            "rate": "0.0525",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P6M",
+            "additionalValue": "P6M",
+            "additionalInfoUri": "https://www.banksyd.com.au/term-deposit",
+            "depositRateType": "FIXED"
+          },
+          {
+            "rate": "0.037",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P7M",
+            "additionalValue": "P7M",
+            "additionalInfoUri": "https://www.banksyd.com.au/term-deposit",
+            "depositRateType": "FIXED"
+          },
+          {
+            "rate": "0.038",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P10M",
+            "additionalValue": "P10M",
+            "additionalInfoUri": "https://www.banksyd.com.au/term-deposit",
+            "depositRateType": "FIXED"
+          },
+          {
+            "rate": "0.0405",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P13M",
+            "additionalValue": "P13M",
+            "additionalInfoUri": "https://www.banksyd.com.au/term-deposit",
+            "depositRateType": "FIXED"
+          },
+          {
+            "rate": "0.0510",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "additionalValue": "P12M",
+            "additionalInfoUri": "https://www.banksyd.com.au/term-deposit",
+            "tiers": [
+              {
+                "name": "50000 and above",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "50000",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "depositRateType": "FIXED"
+          },
+          {
+            "rate": "0.015",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P2M",
+            "additionalValue": "P2M",
+            "additionalInfoUri": "https://www.banksyd.com.au/term-deposit",
+            "depositRateType": "FIXED"
+          },
+          {
+            "rate": "0.035",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P4M",
+            "additionalValue": "P4M",
+            "additionalInfoUri": "https://www.banksyd.com.au/term-deposit",
+            "depositRateType": "FIXED"
+          },
+          {
+            "rate": "0.0385",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P3M",
+            "additionalValue": "P3M",
+            "additionalInfoUri": "https://www.banksyd.com.au/term-deposit",
+            "depositRateType": "FIXED"
+          },
+          {
+            "rate": "0.0530",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P12M",
+            "additionalValue": "P12M",
+            "additionalInfo": "Online Only Rate",
+            "additionalInfoUri": "https://www.banksyd.com.au/term-deposit",
+            "depositRateType": "FIXED"
+          },
+          {
+            "rate": "0.0535",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P6M",
+            "additionalValue": "P6M",
+            "additionalInfo": "Online Only Rate",
+            "additionalInfoUri": "https://www.banksyd.com.au/term-deposit",
+            "depositRateType": "FIXED"
+          },
+          {
+            "rate": "0.044",
+            "calculationFrequency": "P1M",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P3M",
+            "additionalValue": "P3M",
+            "additionalInfo": "Online Only Rate",
+            "additionalInfoUri": "https://www.banksyd.com.au/term-deposit",
+            "depositRateType": "FIXED"
+          }
+        ]
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "usd_fccy_account",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": null,
+      "detailStatus": 406,
+      "detailVersion": "1",
+      "summary": {
+        "productId": "usd_fccy_account",
+        "lastUpdated": "2026-10-16T04:07:41Z",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "name": "USD Foreign Currency Account",
+        "description": "Simplify your overseas payments with a Foreign Currency Account in USD, Euro or GBP. Send and receive funds in the same currency, and avoid conversion fees and exchange rate fluctuations.",
+        "brand": "Bank of Sydney",
+        "brandName": "Bank of Sydney",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.banksyd.com.au/foreign-currency-account",
+          "termsUri": "https://www.banksyd.com.au/important-product-information",
+          "eligibilityUri": "https://www.banksyd.com.au/foreign-currency-account",
+          "feesAndPricingUri": "https://www.banksyd.com.au/important-product-information"
+        }
+      },
+      "detailError": "http-406",
+      "detailErrorDetail": "PCUA006 | Unsupported Version | Unable to find the version requested in x-v"
+    },
+    {
+      "productId": "usd_term_deposit",
+      "productCategory": "TERM_DEPOSITS",
+      "detail": {
+        "productId": "usd_term_deposit",
+        "lastUpdated": "2026-10-16T04:08:37Z",
+        "productCategory": "TERM_DEPOSITS",
+        "name": "USD Term Deposit",
+        "description": "Got money that's not Aussie dollars? Get a guaranteed return on it with our specially designed foreign currency term deposit.",
+        "brand": "Bank of Sydney",
+        "brandName": "Bank of Sydney",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.banksyd.com.au/foreign-currency-term-deposit",
+          "termsUri": "https://www.banksyd.com.au/important-product-information",
+          "eligibilityUri": "https://www.banksyd.com.au/foreign-currency-term-deposit",
+          "feesAndPricingUri": "https://www.banksyd.com.au/important-product-information"
+        },
+        "features": [
+          {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": "Enquiry Only Access"
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "MIN_BALANCE",
+            "additionalValue": "5000.00"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "18"
+          }
+        ],
+        "depositRates": [
+          {
+            "rate": "0.001",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P3M",
+            "additionalValue": "P3M",
+            "additionalInfoUri": "https://www.banksyd.com.au/foreign-currency-term-deposit",
+            "tiers": [
+              {
+                "name": "100000 to 249999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "100000",
+                "maximumValue": "249999",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "depositRateType": "FIXED"
+          },
+          {
+            "rate": "0.001",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P2M",
+            "additionalValue": "P2M",
+            "additionalInfoUri": "https://www.banksyd.com.au/foreign-currency-term-deposit",
+            "tiers": [
+              {
+                "name": "250000 and above",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "250000",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "depositRateType": "FIXED"
+          },
+          {
+            "rate": "0.0002",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P2M",
+            "additionalValue": "P2M",
+            "additionalInfoUri": "https://www.banksyd.com.au/foreign-currency-term-deposit",
+            "tiers": [
+              {
+                "name": "50000 to 99999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "50000",
+                "maximumValue": "99999",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "5000 to 49999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000",
+                "maximumValue": "49999",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "depositRateType": "FIXED"
+          },
+          {
+            "rate": "0.0005",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P3M",
+            "additionalValue": "P3M",
+            "additionalInfoUri": "https://www.banksyd.com.au/foreign-currency-term-deposit",
+            "tiers": [
+              {
+                "name": "5000 to 49999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000",
+                "maximumValue": "49999",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "50000 to 99999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "50000",
+                "maximumValue": "99999",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "depositRateType": "FIXED"
+          },
+          {
+            "rate": "0.0015",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P6M",
+            "additionalValue": "P6M",
+            "additionalInfoUri": "https://www.banksyd.com.au/foreign-currency-term-deposit",
+            "tiers": [
+              {
+                "name": "250000 and above",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "250000",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "depositRateType": "FIXED"
+          },
+          {
+            "rate": "0.0005",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P2M",
+            "additionalValue": "P2M",
+            "additionalInfoUri": "https://www.banksyd.com.au/foreign-currency-term-deposit",
+            "tiers": [
+              {
+                "name": "100000 to 249999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "100000",
+                "maximumValue": "249999",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "depositRateType": "FIXED"
+          },
+          {
+            "rate": "0.0015",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P12M",
+            "additionalValue": "P12M",
+            "additionalInfoUri": "https://www.banksyd.com.au/foreign-currency-term-deposit",
+            "tiers": [
+              {
+                "name": "100000 to 249999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "100000",
+                "maximumValue": "249999",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "depositRateType": "FIXED"
+          },
+          {
+            "rate": "0.001",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P12M",
+            "additionalValue": "P12M",
+            "additionalInfoUri": "https://www.banksyd.com.au/foreign-currency-term-deposit",
+            "tiers": [
+              {
+                "name": "50000 to 99999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "50000",
+                "maximumValue": "99999",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "5000 to 49999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000",
+                "maximumValue": "49999",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "depositRateType": "FIXED"
+          },
+          {
+            "rate": "0.0002",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P1M",
+            "additionalValue": "P1M",
+            "additionalInfoUri": "https://www.banksyd.com.au/foreign-currency-term-deposit",
+            "tiers": [
+              {
+                "name": "100000 to 249999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "100000",
+                "maximumValue": "249999",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "depositRateType": "FIXED"
+          },
+          {
+            "rate": "0.0005",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P1M",
+            "additionalValue": "P1M",
+            "additionalInfoUri": "https://www.banksyd.com.au/foreign-currency-term-deposit",
+            "tiers": [
+              {
+                "name": "250000 and above",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "250000",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "depositRateType": "FIXED"
+          },
+          {
+            "rate": "0.0015",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P3M",
+            "additionalValue": "P3M",
+            "additionalInfoUri": "https://www.banksyd.com.au/foreign-currency-term-deposit",
+            "tiers": [
+              {
+                "name": "250000 and above",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "250000",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "depositRateType": "FIXED"
+          },
+          {
+            "rate": "0.0001",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P1M",
+            "additionalValue": "P1M",
+            "additionalInfoUri": "https://www.banksyd.com.au/foreign-currency-term-deposit",
+            "tiers": [
+              {
+                "name": "50000 to 99999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "50000",
+                "maximumValue": "99999",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "5000 to 49999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000",
+                "maximumValue": "49999",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "depositRateType": "FIXED"
+          },
+          {
+            "rate": "0.0005",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P6M",
+            "additionalValue": "P6M",
+            "additionalInfoUri": "https://www.banksyd.com.au/foreign-currency-term-deposit",
+            "tiers": [
+              {
+                "name": "50000 to 99999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "50000",
+                "maximumValue": "99999",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "5000 to 49999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000",
+                "maximumValue": "49999",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "depositRateType": "FIXED"
+          },
+          {
+            "rate": "0.001",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P6M",
+            "additionalValue": "P6M",
+            "additionalInfoUri": "https://www.banksyd.com.au/foreign-currency-term-deposit",
+            "tiers": [
+              {
+                "name": "100000 to 249999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "100000",
+                "maximumValue": "249999",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "depositRateType": "FIXED"
+          },
+          {
+            "rate": "0.002",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P12M",
+            "additionalValue": "P12M",
+            "additionalInfoUri": "https://www.banksyd.com.au/foreign-currency-term-deposit",
+            "tiers": [
+              {
+                "name": "250000 and above",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "250000",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "depositRateType": "FIXED"
+          }
+        ]
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    }
+  ]
+}

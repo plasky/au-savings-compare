@@ -1,0 +1,4405 @@
+{
+  "endpoint": "https://banking.qbank.com.au/openbanking/cds-au/v1/banking/products",
+  "slug": "qbank-a01288",
+  "brands": [
+    {
+      "dataHolderBrandId": "2830e32a-4edd-eb11-a824-000d3a884a20",
+      "brandName": "QBANK",
+      "brandGroup": null,
+      "abn": "79087651036",
+      "industries": [
+        "banking"
+      ]
+    }
+  ],
+  "list": {
+    "ok": true,
+    "status": 200,
+    "version": "5",
+    "totalPages": 1,
+    "pagesFetched": 1,
+    "productCount": 30,
+    "categoryCounts": {
+      "CRED_AND_CHRG_CARDS": 1,
+      "TRANS_AND_SAVINGS_ACCOUNTS": 9,
+      "RESIDENTIAL_MORTGAGES": 7,
+      "TERM_DEPOSITS": 8,
+      "OVERDRAFTS": 3,
+      "PERS_LOANS": 2
+    }
+  },
+  "products": [
+    {
+      "productId": "I12_Term_12",
+      "productCategory": "TERM_DEPOSITS",
+      "detail": {
+        "features": [
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "No account keeping fee"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "A guaranteed rate for terms from 3 to 60 months"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Earn a competitive interest rate on your investment with a minimum opening balance of $2,000 can get you started."
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Interest can be paid monthly, 12 monthly or at maturity."
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "For deposits of $1,000,000 and over, rates are by negotiation and subject to acceptance."
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "We'll send you a written renewal notice before your deposit matures."
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "If you want to withdraw your Term Deposit before it matures you'll need to give us 31 days' notice. A reduced rate of interest will apply in these circumstances. For full details refer to our Conditions of Use.",
+            "additionalInfoUri": "https://www.qbank.com.au/terms-conditions"
+          },
+          {
+            "featureType": "DIGITAL_BANKING"
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "OPENING_BALANCE",
+            "additionalValue": "2000.00"
+          },
+          {
+            "constraintType": "MIN_BALANCE",
+            "additionalValue": "2000.00"
+          },
+          {
+            "constraintType": "MAX_BALANCE",
+            "additionalValue": "1000000.00",
+            "additionalInfo": "For deposits of $1,000,000 and over, rates are by negotiation and subject to acceptance."
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "OTHER",
+            "additionalInfo": "You do not have to be a member of Qbank to hold a term deposit.",
+            "additionalInfoUri": "https://www.qbank.com.au/products/accounts/term-deposits"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.052",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "tiers": [
+              {
+                "name": "Term Deposit 12 Month_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "2000.00",
+                "maximumValue": "99999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit 12 Month_Tier_1",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "12",
+                "maximumValue": "12",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P12M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.054",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "tiers": [
+              {
+                "name": "Term Deposit 12 Month_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "100000.00",
+                "maximumValue": "249999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit 12 Month_Tier_2",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "12",
+                "maximumValue": "12",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P12M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.056",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "tiers": [
+              {
+                "name": "Term Deposit 12 Month_Tier_3",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "250000.00",
+                "maximumValue": "9999999.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit 12 Month_Tier_3",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "12",
+                "maximumValue": "12",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P12M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0505",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "Term Deposit 12 Month_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "2000.00",
+                "maximumValue": "99999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit 12 Month_Tier_1",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "12",
+                "maximumValue": "12",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P12M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0525",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "Term Deposit 12 Month_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "100000.00",
+                "maximumValue": "249999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit 12 Month_Tier_2",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "12",
+                "maximumValue": "12",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P12M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0545",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "Term Deposit 12 Month_Tier_3",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "250000.00",
+                "maximumValue": "9999999.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit 12 Month_Tier_3",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "12",
+                "maximumValue": "12",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P12M"
+          }
+        ],
+        "productCategory": "TERM_DEPOSITS",
+        "productId": "I12_Term_12",
+        "lastUpdated": "2026-11-10T19:52:18.000+10:00",
+        "name": "Term Deposit 12 Month",
+        "description": "A great way to grow your money safely and securely.",
+        "brand": "QBANK",
+        "brandName": "QBANK",
+        "applicationUri": "https://www.qbank.com.au/products/accounts/term-deposits",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.qbank.com.au/products/accounts/term-deposits",
+          "termsUri": "https://qbank.com.au/other-content/general-information-terms-conditions/",
+          "eligibilityUri": "https://www.qbank.com.au/products/accounts/term-deposits",
+          "feesAndPricingUri": "https://www.qbank.com.au/rates-fees"
+        }
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "I13_Term_3",
+      "productCategory": "TERM_DEPOSITS",
+      "detail": {
+        "features": [
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "No account keeping fee"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "A guaranteed rate for terms from 3 to 60 months"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Earn a competitive interest rate on your investment with a minimum opening balance of $2,000 can get you started."
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Interest can be paid monthly, 12 monthly or at maturity."
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "For deposits of $1,000,000 and over, rates are by negotiation and subject to acceptance."
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "We'll send you a written renewal notice before your deposit matures."
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "If you want to withdraw your Term Deposit before it matures you'll need to give us 31 days' notice. A reduced rate of interest will apply in these circumstances. For full details refer to our Conditions of Use.",
+            "additionalInfoUri": "https://www.qbank.com.au/terms-conditions"
+          },
+          {
+            "featureType": "DIGITAL_BANKING"
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "OPENING_BALANCE",
+            "additionalValue": "2000.00"
+          },
+          {
+            "constraintType": "MIN_BALANCE",
+            "additionalValue": "2000.00"
+          },
+          {
+            "constraintType": "MAX_BALANCE",
+            "additionalValue": "1000000.00",
+            "additionalInfo": "For deposits of $1,000,000 and over, rates are by negotiation and subject to acceptance."
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "OTHER",
+            "additionalInfo": "You do not have to be a member of Qbank to hold a term deposit.",
+            "additionalInfoUri": "https://www.qbank.com.au/products/accounts/term-deposits"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0475",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "tiers": [
+              {
+                "name": "Term Deposit 3 Month_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "2000.00",
+                "maximumValue": "99999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit 3 Month_Tier_1",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "3",
+                "maximumValue": "3",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P3M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0495",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "tiers": [
+              {
+                "name": "Term Deposit 3 Month_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "100000.00",
+                "maximumValue": "249999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit 3 Month_Tier_2",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "3",
+                "maximumValue": "3",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P3M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0515",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "tiers": [
+              {
+                "name": "Term Deposit 3 Month_Tier_3",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "250000.00",
+                "maximumValue": "9999999.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit 3 Month_Tier_3",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "3",
+                "maximumValue": "3",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P3M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.046",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "Term Deposit 3 Month_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "2000.00",
+                "maximumValue": "99999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit 3 Month_Tier_1",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "3",
+                "maximumValue": "3",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P3M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.048",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "Term Deposit 3 Month_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "100000.00",
+                "maximumValue": "249999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit 3 Month_Tier_2",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "3",
+                "maximumValue": "3",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P3M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.05",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "Term Deposit 3 Month_Tier_3",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "250000.00",
+                "maximumValue": "9999999.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit 3 Month_Tier_3",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "3",
+                "maximumValue": "3",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P3M"
+          }
+        ],
+        "productCategory": "TERM_DEPOSITS",
+        "productId": "I13_Term_3",
+        "lastUpdated": "2026-11-10T19:43:40.000+10:00",
+        "name": "Term Deposit 3 Month",
+        "description": "A great way to grow your money safely and securely.",
+        "brand": "QBANK",
+        "brandName": "QBANK",
+        "applicationUri": "https://www.qbank.com.au/products/accounts/term-deposits",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.qbank.com.au/products/accounts/term-deposits",
+          "termsUri": "https://qbank.com.au/other-content/general-information-terms-conditions/",
+          "eligibilityUri": "https://www.qbank.com.au/products/accounts/term-deposits",
+          "feesAndPricingUri": "https://www.qbank.com.au/rates-fees"
+        }
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "I14_Term_6",
+      "productCategory": "TERM_DEPOSITS",
+      "detail": {
+        "features": [
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "No account keeping fee"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "A guaranteed rate for terms from 3 to 60 months"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Earn a competitive interest rate on your investment with a minimum opening balance of $2,000 can get you started."
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Interest can be paid monthly, 12 monthly or at maturity."
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "For deposits of $1,000,000 and over, rates are by negotiation and subject to acceptance."
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "We'll send you a written renewal notice before your deposit matures."
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "If you want to withdraw your Term Deposit before it matures you'll need to give us 31 days' notice. A reduced rate of interest will apply in these circumstances. For full details refer to our Conditions of Use.",
+            "additionalInfoUri": "https://www.qbank.com.au/terms-conditions"
+          },
+          {
+            "featureType": "DIGITAL_BANKING"
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "OPENING_BALANCE",
+            "additionalValue": "2000.00"
+          },
+          {
+            "constraintType": "MIN_BALANCE",
+            "additionalValue": "2000.00"
+          },
+          {
+            "constraintType": "MAX_BALANCE",
+            "additionalValue": "1000000.00",
+            "additionalInfo": "For deposits of $1,000,000 and over, rates are by negotiation and subject to acceptance."
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "OTHER",
+            "additionalInfo": "You do not have to be a member of Qbank to hold a term deposit.",
+            "additionalInfoUri": "https://www.qbank.com.au/products/accounts/term-deposits"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0505",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "tiers": [
+              {
+                "name": "Term Deposit 6 Month_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "2000.00",
+                "maximumValue": "99999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit 6 Month_Tier_1",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "6",
+                "maximumValue": "6",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P6M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0525",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "tiers": [
+              {
+                "name": "Term Deposit 6 Month_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "100000.00",
+                "maximumValue": "249999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit 6 Month_Tier_2",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "6",
+                "maximumValue": "6",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P6M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0545",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "tiers": [
+              {
+                "name": "Term Deposit 6 Month_Tier_3",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "250000.00",
+                "maximumValue": "9999999.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit 6 Month_Tier_3",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "6",
+                "maximumValue": "6",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P6M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.049",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "Term Deposit 6 Month_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "2000.00",
+                "maximumValue": "99999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit 6 Month_Tier_1",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "6",
+                "maximumValue": "6",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P6M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.051",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "Term Deposit 6 Month_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "100000.00",
+                "maximumValue": "249999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit 6 Month_Tier_2",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "6",
+                "maximumValue": "6",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P6M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.053",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "Term Deposit 6 Month_Tier_3",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "250000.00",
+                "maximumValue": "9999999.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit 6 Month_Tier_3",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "6",
+                "maximumValue": "6",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P6M"
+          }
+        ],
+        "productCategory": "TERM_DEPOSITS",
+        "productId": "I14_Term_6",
+        "lastUpdated": "2026-11-10T19:50:32.000+10:00",
+        "name": "Term Deposit 6 Month",
+        "description": "A great way to grow your money safely and securely.",
+        "brand": "QBANK",
+        "brandName": "QBANK",
+        "applicationUri": "https://www.qbank.com.au/products/accounts/term-deposits",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.qbank.com.au/products/accounts/term-deposits",
+          "termsUri": "https://qbank.com.au/other-content/general-information-terms-conditions/",
+          "eligibilityUri": "https://www.qbank.com.au/products/accounts/term-deposits",
+          "feesAndPricingUri": "https://www.qbank.com.au/rates-fees"
+        }
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "I19_Term_9",
+      "productCategory": "TERM_DEPOSITS",
+      "detail": {
+        "features": [
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "No account keeping fee"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "A guaranteed rate for terms from 3 to 60 months"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Earn a competitive interest rate on your investment with a minimum opening balance of $2,000 can get you started."
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Interest can be paid monthly, 12 monthly or at maturity."
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "For deposits of $1,000,000 and over, rates are by negotiation and subject to acceptance."
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "We'll send you a written renewal notice before your deposit matures."
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "If you want to withdraw your Term Deposit before it matures you'll need to give us 31 days' notice. A reduced rate of interest will apply in these circumstances. For full details refer to our Conditions of Use.",
+            "additionalInfoUri": "https://www.qbank.com.au/terms-conditions"
+          },
+          {
+            "featureType": "DIGITAL_BANKING"
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "OPENING_BALANCE",
+            "additionalValue": "2000.00"
+          },
+          {
+            "constraintType": "MIN_BALANCE",
+            "additionalValue": "2000.00"
+          },
+          {
+            "constraintType": "MAX_BALANCE",
+            "additionalValue": "1000000.00",
+            "additionalInfo": "For deposits of $1,000,000 and over, rates are by negotiation and subject to acceptance."
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "OTHER",
+            "additionalInfo": "You do not have to be a member of Qbank to hold a term deposit.",
+            "additionalInfoUri": "https://www.qbank.com.au/products/accounts/term-deposits"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0515",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "tiers": [
+              {
+                "name": "Term Deposit 9 Month_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "2000.00",
+                "maximumValue": "99999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit 9 Month_Tier_1",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "9",
+                "maximumValue": "9",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P9M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0535",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "tiers": [
+              {
+                "name": "Term Deposit 9 Month_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "100000.00",
+                "maximumValue": "249999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit 9 Month_Tier_2",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "9",
+                "maximumValue": "9",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P9M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0555",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "tiers": [
+              {
+                "name": "Term Deposit 9 Month_Tier_3",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "250000.00",
+                "maximumValue": "9999999.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit 9 Month_Tier_3",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "9",
+                "maximumValue": "9",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P9M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.05",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "Term Deposit 9 Month_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "2000.00",
+                "maximumValue": "99999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit 9 Month_Tier_1",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "9",
+                "maximumValue": "9",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P9M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.052",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "Term Deposit 9 Month_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "100000.00",
+                "maximumValue": "249999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit 9 Month_Tier_2",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "9",
+                "maximumValue": "9",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P9M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.054",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "Term Deposit 9 Month_Tier_3",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "250000.00",
+                "maximumValue": "9999999.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit 9 Month_Tier_3",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "9",
+                "maximumValue": "9",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P9M"
+          }
+        ],
+        "productCategory": "TERM_DEPOSITS",
+        "productId": "I19_Term_9",
+        "lastUpdated": "2026-11-10T19:53:54.000+10:00",
+        "name": "Term Deposit 9 Month",
+        "description": "A great way to grow your money safely and securely.",
+        "brand": "QBANK",
+        "brandName": "QBANK",
+        "applicationUri": "https://www.qbank.com.au/products/accounts/term-deposits",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.qbank.com.au/products/accounts/term-deposits",
+          "termsUri": "https://qbank.com.au/other-content/general-information-terms-conditions/",
+          "eligibilityUri": "https://www.qbank.com.au/products/accounts/term-deposits",
+          "feesAndPricingUri": "https://www.qbank.com.au/rates-fees"
+        }
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "I24_Term_24",
+      "productCategory": "TERM_DEPOSITS",
+      "detail": {
+        "features": [
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "No account keeping fee"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "A guaranteed rate for terms from 3 to 60 months"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Earn a competitive interest rate on your investment with a minimum opening balance of $2,000 can get you started."
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Interest can be paid monthly, 12 monthly or at maturity."
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "For deposits of $1,000,000 and over, rates are by negotiation and subject to acceptance."
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "We'll send you a written renewal notice before your deposit matures."
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "If you want to withdraw your Term Deposit before it matures you'll need to give us 31 days' notice. A reduced rate of interest will apply in these circumstances. For full details refer to our Conditions of Use.",
+            "additionalInfoUri": "https://www.qbank.com.au/terms-conditions"
+          },
+          {
+            "featureType": "DIGITAL_BANKING"
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "OPENING_BALANCE",
+            "additionalValue": "2000.00"
+          },
+          {
+            "constraintType": "MIN_BALANCE",
+            "additionalValue": "2000.00"
+          },
+          {
+            "constraintType": "MAX_BALANCE",
+            "additionalValue": "1000000.00",
+            "additionalInfo": "For deposits of $1,000,000 and over, rates are by negotiation and subject to acceptance."
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "OTHER",
+            "additionalInfo": "You do not have to be a member of Qbank to hold a term deposit.",
+            "additionalInfoUri": "https://www.qbank.com.au/products/accounts/term-deposits"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0465",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "tiers": [
+              {
+                "name": "Term Deposit 24 Month_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "2000.00",
+                "maximumValue": "99999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit 24 Month_Tier_1",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "24",
+                "maximumValue": "24",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P24M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0485",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "tiers": [
+              {
+                "name": "Term Deposit 24 Month_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "100000.00",
+                "maximumValue": "249999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit 24 Month_Tier_2",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "24",
+                "maximumValue": "24",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P24M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0505",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "tiers": [
+              {
+                "name": "Term Deposit 24 Month_Tier_3",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "250000.00",
+                "maximumValue": "9999999.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit 24 Month_Tier_3",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "24",
+                "maximumValue": "24",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P24M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.045",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "Term Deposit 24 Month_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "2000.00",
+                "maximumValue": "99999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit 24 Month_Tier_1",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "24",
+                "maximumValue": "24",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P24M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.047",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "Term Deposit 24 Month_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "100000.00",
+                "maximumValue": "249999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit 24 Month_Tier_2",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "24",
+                "maximumValue": "24",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P24M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.049",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "Term Deposit 24 Month_Tier_3",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "250000.00",
+                "maximumValue": "9999999.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit 24 Month_Tier_3",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "24",
+                "maximumValue": "24",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P24M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0465",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P12M",
+            "tiers": [
+              {
+                "name": "Term Deposit 24 Month_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "2000.00",
+                "maximumValue": "99999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit 24 Month_Tier_1",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "24",
+                "maximumValue": "24",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P24M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0485",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P12M",
+            "tiers": [
+              {
+                "name": "Term Deposit 24 Month_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "100000.00",
+                "maximumValue": "249999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit 24 Month_Tier_2",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "24",
+                "maximumValue": "24",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P24M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0505",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P12M",
+            "tiers": [
+              {
+                "name": "Term Deposit 24 Month_Tier_3",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "250000.00",
+                "maximumValue": "9999999.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit 24 Month_Tier_3",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "24",
+                "maximumValue": "24",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P24M"
+          }
+        ],
+        "productCategory": "TERM_DEPOSITS",
+        "productId": "I24_Term_24",
+        "lastUpdated": "2026-11-10T19:46:32.000+10:00",
+        "name": "Term Deposit 24 Month",
+        "description": "A great way to grow your money safely and securely.",
+        "brand": "QBANK",
+        "brandName": "QBANK",
+        "applicationUri": "https://www.qbank.com.au/products/accounts/term-deposits",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.qbank.com.au/products/accounts/term-deposits",
+          "termsUri": "https://qbank.com.au/other-content/general-information-terms-conditions/",
+          "eligibilityUri": "https://www.qbank.com.au/products/accounts/term-deposits",
+          "feesAndPricingUri": "https://www.qbank.com.au/rates-fees"
+        }
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "I35_Term_36",
+      "productCategory": "TERM_DEPOSITS",
+      "detail": {
+        "features": [
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "No account keeping fee"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "A guaranteed rate for terms from 3 to 60 months"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Earn a competitive interest rate on your investment with a minimum opening balance of $2,000 can get you started."
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Interest can be paid monthly, 12 monthly or at maturity."
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "For deposits of $1,000,000 and over, rates are by negotiation and subject to acceptance."
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "We'll send you a written renewal notice before your deposit matures."
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "If you want to withdraw your Term Deposit before it matures you'll need to give us 31 days' notice. A reduced rate of interest will apply in these circumstances. For full details refer to our Conditions of Use.",
+            "additionalInfoUri": "https://www.qbank.com.au/terms-conditions"
+          },
+          {
+            "featureType": "DIGITAL_BANKING"
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "OPENING_BALANCE",
+            "additionalValue": "2000.00"
+          },
+          {
+            "constraintType": "MIN_BALANCE",
+            "additionalValue": "2000.00"
+          },
+          {
+            "constraintType": "MAX_BALANCE",
+            "additionalValue": "1000000.00",
+            "additionalInfo": "For deposits of $1,000,000 and over, rates are by negotiation and subject to acceptance."
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "OTHER",
+            "additionalInfo": "You do not have to be a member of Qbank to hold a term deposit.",
+            "additionalInfoUri": "https://www.qbank.com.au/products/accounts/term-deposits"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.04",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "tiers": [
+              {
+                "name": "Term Deposit 36 Month_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "2000.00",
+                "maximumValue": "99999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit 36 Month_Tier_1",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "36",
+                "maximumValue": "36",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P36M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.042",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "tiers": [
+              {
+                "name": "Term Deposit 36 Month_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "100000.00",
+                "maximumValue": "249999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit 36 Month_Tier_2",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "36",
+                "maximumValue": "36",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P36M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.044",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "tiers": [
+              {
+                "name": "Term Deposit 36 Month_Tier_3",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "250000.00",
+                "maximumValue": "9999999.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit 36 Month_Tier_3",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "36",
+                "maximumValue": "36",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P36M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0385",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "Term Deposit 36 Month_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "2000.00",
+                "maximumValue": "99999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit 36 Month_Tier_1",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "36",
+                "maximumValue": "36",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P36M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0405",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "Term Deposit 36 Month_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "100000.00",
+                "maximumValue": "249999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit 36 Month_Tier_2",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "36",
+                "maximumValue": "36",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P36M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0425",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "Term Deposit 36 Month_Tier_3",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "250000.00",
+                "maximumValue": "9999999.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit 36 Month_Tier_3",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "36",
+                "maximumValue": "36",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P36M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.04",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P12M",
+            "tiers": [
+              {
+                "name": "Term Deposit 36 Month_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "2000.00",
+                "maximumValue": "99999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit 36 Month_Tier_1",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "36",
+                "maximumValue": "36",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P36M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.042",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P12M",
+            "tiers": [
+              {
+                "name": "Term Deposit 36 Month_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "100000.00",
+                "maximumValue": "249999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit 36 Month_Tier_2",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "36",
+                "maximumValue": "36",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P36M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.044",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P12M",
+            "tiers": [
+              {
+                "name": "Term Deposit 36 Month_Tier_3",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "250000.00",
+                "maximumValue": "9999999.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit 36 Month_Tier_3",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "36",
+                "maximumValue": "36",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P36M"
+          }
+        ],
+        "productCategory": "TERM_DEPOSITS",
+        "productId": "I35_Term_36",
+        "lastUpdated": "2026-11-10T19:43:48.000+10:00",
+        "name": "Term Deposit 36 Month",
+        "description": "A great way to grow your money safely and securely.",
+        "brand": "QBANK",
+        "brandName": "QBANK",
+        "applicationUri": "https://www.qbank.com.au/products/accounts/term-deposits",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.qbank.com.au/products/accounts/term-deposits",
+          "termsUri": "https://qbank.com.au/other-content/general-information-terms-conditions/",
+          "eligibilityUri": "https://www.qbank.com.au/products/accounts/term-deposits/",
+          "feesAndPricingUri": "https://www.qbank.com.au/rates-fees/"
+        }
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "I48_Term_48",
+      "productCategory": "TERM_DEPOSITS",
+      "detail": {
+        "features": [
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "No account keeping fee"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "A guaranteed rate for terms from 3 to 60 months"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Earn a competitive interest rate on your investment with a minimum opening balance of $2,000 can get you started."
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Interest can be paid monthly, 12 monthly or at maturity."
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "For deposits of $1,000,000 and over, rates are by negotiation and subject to acceptance."
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "We'll send you a written renewal notice before your deposit matures."
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "If you want to withdraw your Term Deposit before it matures you'll need to give us 31 days' notice. A reduced rate of interest will apply in these circumstances. For full details refer to our Conditions of Use.",
+            "additionalInfoUri": "https://www.qbank.com.au/terms-conditions"
+          },
+          {
+            "featureType": "DIGITAL_BANKING"
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "OPENING_BALANCE",
+            "additionalValue": "2000.00"
+          },
+          {
+            "constraintType": "MIN_BALANCE",
+            "additionalValue": "2000.00"
+          },
+          {
+            "constraintType": "MAX_BALANCE",
+            "additionalValue": "1000000.00",
+            "additionalInfo": "For deposits of $1,000,000 and over, rates are by negotiation and subject to acceptance."
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "OTHER",
+            "additionalInfo": "You do not have to be a member of Qbank to hold a term deposit.",
+            "additionalInfoUri": "https://www.qbank.com.au/products/accounts/term-deposits"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.04",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "tiers": [
+              {
+                "name": "Term Deposit 48 Month_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "2000.00",
+                "maximumValue": "99999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit 48 Month_Tier_1",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "48",
+                "maximumValue": "48",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P48M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.042",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "tiers": [
+              {
+                "name": "Term Deposit 48 Month_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "100000.00",
+                "maximumValue": "249999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit 48 Month_Tier_2",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "48",
+                "maximumValue": "48",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P48M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.044",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "tiers": [
+              {
+                "name": "Term Deposit 48 Month_Tier_3",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "250000.00",
+                "maximumValue": "9999999.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit 48 Month_Tier_3",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "48",
+                "maximumValue": "48",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P48M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0385",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "Term Deposit 48 Month_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "2000.00",
+                "maximumValue": "99999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit 48 Month_Tier_1",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "48",
+                "maximumValue": "48",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P48M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0405",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "Term Deposit 48 Month_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "100000.00",
+                "maximumValue": "249999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit 48 Month_Tier_2",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "48",
+                "maximumValue": "48",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P48M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0425",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "Term Deposit 48 Month_Tier_3",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "250000.00",
+                "maximumValue": "9999999.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit 48 Month_Tier_3",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "48",
+                "maximumValue": "48",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P48M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.04",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P12M",
+            "tiers": [
+              {
+                "name": "Term Deposit 48 Month_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "2000.00",
+                "maximumValue": "99999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit 48 Month_Tier_1",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "48",
+                "maximumValue": "48",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P48M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.042",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P12M",
+            "tiers": [
+              {
+                "name": "Term Deposit 48 Month_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "100000.00",
+                "maximumValue": "249999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit 48 Month_Tier_2",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "48",
+                "maximumValue": "48",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P48M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.044",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P12M",
+            "tiers": [
+              {
+                "name": "Term Deposit 48 Month_Tier_3",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "250000.00",
+                "maximumValue": "9999999.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit 48 Month_Tier_3",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "48",
+                "maximumValue": "48",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P48M"
+          }
+        ],
+        "productCategory": "TERM_DEPOSITS",
+        "productId": "I48_Term_48",
+        "lastUpdated": "2026-11-10T19:40:39.000+10:00",
+        "name": "Term Deposit 48 Month",
+        "description": "A great way to grow your money safely and securely.",
+        "brand": "QBANK",
+        "brandName": "QBANK",
+        "applicationUri": "https://www.qbank.com.au/products/accounts/term-deposits",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.qbank.com.au/products/accounts/term-deposits",
+          "termsUri": "https://qbank.com.au/other-content/general-information-terms-conditions/",
+          "eligibilityUri": "https://www.qbank.com.au/products/accounts/term-deposits/",
+          "feesAndPricingUri": "https://www.qbank.com.au/rates-fees/"
+        }
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "I64_Term_60",
+      "productCategory": "TERM_DEPOSITS",
+      "detail": {
+        "features": [
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "No account keeping fee"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "A guaranteed rate for terms from 3 to 60 months"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Earn a competitive interest rate on your investment with a minimum opening balance of $2,000 can get you started."
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Interest can be paid monthly, 12 monthly or at maturity."
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "For deposits of $1,000,000 and over, rates are by negotiation and subject to acceptance."
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "We'll send you a written renewal notice before your deposit matures."
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "If you want to withdraw your Term Deposit before it matures you'll need to give us 31 days' notice. A reduced rate of interest will apply in these circumstances. For full details refer to our Conditions of Use.",
+            "additionalInfoUri": "https://www.qbank.com.au/terms-conditions"
+          },
+          {
+            "featureType": "DIGITAL_BANKING"
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "OPENING_BALANCE",
+            "additionalValue": "2000.00"
+          },
+          {
+            "constraintType": "MIN_BALANCE",
+            "additionalValue": "2000.00"
+          },
+          {
+            "constraintType": "MAX_BALANCE",
+            "additionalValue": "1000000.00",
+            "additionalInfo": "For deposits of $1,000,000 and over, rates are by negotiation and subject to acceptance."
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "OTHER",
+            "additionalInfo": "You do not have to be a member of Qbank to hold a term deposit.",
+            "additionalInfoUri": "https://www.qbank.com.au/products/accounts/term-deposits"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.04",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "tiers": [
+              {
+                "name": "Term Deposit 60 Month_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "2000.00",
+                "maximumValue": "99999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit 60 Month_Tier_1",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "60",
+                "maximumValue": "60",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P60M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.042",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "tiers": [
+              {
+                "name": "Term Deposit 60 Month_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "100000.00",
+                "maximumValue": "249999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit 60 Month_Tier_2",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "60",
+                "maximumValue": "60",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P60M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.044",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "tiers": [
+              {
+                "name": "Term Deposit 60 Month_Tier_3",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "250000.00",
+                "maximumValue": "9999999.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit 60 Month_Tier_3",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "60",
+                "maximumValue": "60",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P60M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0385",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "Term Deposit 60 Month_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "2000.00",
+                "maximumValue": "99999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit 60 Month_Tier_1",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "60",
+                "maximumValue": "60",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P60M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0405",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "Term Deposit 60 Month_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "100000.00",
+                "maximumValue": "249999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit 60 Month_Tier_2",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "60",
+                "maximumValue": "60",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P60M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0425",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "Term Deposit 60 Month_Tier_3",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "250000.00",
+                "maximumValue": "9999999.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit 60 Month_Tier_3",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "60",
+                "maximumValue": "60",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P60M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.04",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P12M",
+            "tiers": [
+              {
+                "name": "Term Deposit 60 Month_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "2000.00",
+                "maximumValue": "99999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit 60 Month_Tier_1",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "60",
+                "maximumValue": "60",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P60M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.042",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P12M",
+            "tiers": [
+              {
+                "name": "Term Deposit 60 Month_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "100000.00",
+                "maximumValue": "249999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit 60 Month_Tier_2",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "60",
+                "maximumValue": "60",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P60M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.044",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P12M",
+            "tiers": [
+              {
+                "name": "Term Deposit 60 Month_Tier_3",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "250000.00",
+                "maximumValue": "9999999.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit 60 Month_Tier_3",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "60",
+                "maximumValue": "60",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P60M"
+          }
+        ],
+        "productCategory": "TERM_DEPOSITS",
+        "productId": "I64_Term_60",
+        "lastUpdated": "2026-11-10T19:37:52.000+10:00",
+        "name": "Term Deposit 60 Month",
+        "description": "A great way to grow your money safely and securely.",
+        "brand": "QBANK",
+        "brandName": "QBANK",
+        "applicationUri": "https://www.qbank.com.au/products/accounts/term-deposits/",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.qbank.com.au/products/accounts/term-deposits/",
+          "termsUri": "https://qbank.com.au/other-content/general-information-terms-conditions/",
+          "eligibilityUri": "https://www.qbank.com.au/products/accounts/term-deposits",
+          "feesAndPricingUri": "https://www.qbank.com.au/rates-fees"
+        }
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "S1_Oncall",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "features": [
+          {
+            "featureType": "CARD_ACCESS",
+            "additionalValue": "Visa Debit with payWave"
+          },
+          {
+            "featureType": "DIGITAL_WALLET",
+            "additionalValue": "Apple Pay",
+            "additionalInfoUri": "https://www.qbank.com.au/ways-to-bank/applepay"
+          },
+          {
+            "featureType": "DIGITAL_WALLET",
+            "additionalValue": "Google Pay",
+            "additionalInfoUri": "https://www.qbank.com.au/ways-to-bank/googlepay"
+          },
+          {
+            "featureType": "NPP_ENABLED"
+          },
+          {
+            "featureType": "NPP_PAYID"
+          },
+          {
+            "featureType": "BILL_PAYMENT",
+            "additionalValue": "BPAY"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Our sweep service automatically transfers funds from certain savings accounts to cover most transactions which would otherwise exceed your transasction account's available balance."
+          },
+          {
+            "featureType": "FREE_TXNS_ALLOWANCE",
+            "additionalInfo": "12 free Eftpos transactions and 5 free Direct Debits"
+          },
+          {
+            "featureType": "NOTIFICATIONS",
+            "additionalValue": "Track payments with SMS and email alerts"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Make deposits and withdrawals through a Bank@Post facility at Australia Post outlets. For full details refer to our Conditions of Use. Fees and charges apply.",
+            "additionalInfoUri": "https://www.qbank.com.au/terms-conditions"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "OTHER",
+            "additionalInfo": "You must be a member. Membership is open to current or former employees of police, ambulance, firies, health workers, emergency services, correctional services and government employees as well as their family members.",
+            "additionalInfoUri": "https://www.qbank.com.au/who-can-join"
+          }
+        ],
+        "fees": [
+          {
+            "name": "ACCOUNT_AUDIT_CONFIRMATION",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "10.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "ATM_DISPUTE_FEE",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "27.50"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "BANK@POST_WITHDRAWALS",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "2.50"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "BANK_CHEQUE_WITHDRAWALS",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "13.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "CASH_ADVANCE_____AUSTRALIA_&_INTERNATIONAL",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "5.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "CHEQUE_DEPOSIT",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "15.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Special Clearance"
+          },
+          {
+            "name": "CHEQUE_DISHONOURS",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "11.50"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Cheque Deposit subsequently dishonoured through Bank@Post Australia Post may charge a fee"
+          },
+          {
+            "name": "COPY_OF_PAID_CORPORATE_CHEQUE",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "6.50"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "COPY_OF_PERSONAL_CHEQUE/VOUCHER_30_TO_90_DAYS",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "16.50"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "COPY_OF_PERSONAL_CHEQUE/VOUCHER_OVER_90_DAYS",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "33.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "COPY_OF_PERSONAL_CHEQUE/VOUCHER_UNDER_30_DAYS",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "11.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "COPY_OF_VISA_TRANSACTION_VOUCHER",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "35.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "CORPORATE_CHEQUE_WITHDRAWALS",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "3.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "DEBIT_EXTERNAL_ACCOUNT_REJECTION_FEE",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "5.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "DIRECT_DEBITS",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.50"
+            },
+            "currency": "AUD",
+            "additionalInfo": "5 free then $0.50 per transaction per month"
+          },
+          {
+            "name": "DIRECT_DEBIT_DISHONOURS/NON_PAYMENT",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "11.50"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "DIRECT_DEBIT_INVESTIGATION",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "40.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "DORMANCY",
+            "feeType": "PERIODIC",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "20.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Charge $10 every 6 months"
+          },
+          {
+            "name": "EFTPOS",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "1.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "12 Free then $1 per transaction a month"
+          },
+          {
+            "name": "EMERGENCY_VISA_CASH_OR_CARD_(OVERSEAS)",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "175.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "$175.00 USD"
+          },
+          {
+            "name": "EXTERNAL_TRANSFERS",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "2.50"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Includes NPP and OSKO transactions to other financial institutions"
+          },
+          {
+            "name": "FOREIGN_CASH_DEPOSIT_(PER_CURRENCY)",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "8.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "FOREIGN_CHEQUE_DEPOSIT",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "15.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "INTERNATIONAL_ATM_TRANSACTION",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "5.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "OVERDRAWN_SAVINGS_ACCOUNTS",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "30.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Debit interest is charged if the balance of your Savings Accounts are overdrawn where an Overdraft limit exists.Unauthorised Overdrawn Savings and Overlimit Overdraft Fee"
+          },
+          {
+            "name": "PERSONAL_CHEQUES",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "1.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "PURCHASE_FOREIGN_CASH_(MINIMUM_ORDER_$250_AU)",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Purchase Foreign Cash (minimum order $250 AU)"
+          },
+          {
+            "name": "RE-PURCHASE_FOREIGN_CASH_(CANCELLATION_OF_PURCHASE_ORDER)",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "8.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "RECALL_OF_BPAY",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "12.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "RECALL_OF_EXTERNAL_TRANSFER",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "40.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Includes NPP and OSKO transactions  to other financial institutions"
+          },
+          {
+            "name": "RECALL_OF_TELEGRAPHIC_TRANSFER_(WITHIN_AUSTRALIA_&_OVERSEAS)",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "35.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "REPLACEMENT_OF_CUE_&_VISA_CARD",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "5.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Under 18 y/o and renewal cards exempt"
+          },
+          {
+            "name": "REPLACEMENT_VISA_WRISTBAND_(INCLUDING_CHIP)",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "15.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "STATEMENTS_/_VOUCHER_SEARCHES",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "5.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "No charge for current transaction list.Reissue more than 6 months.$5 per page"
+          },
+          {
+            "name": "STOP_PAYMENT_OF_CORPORATE_CHEQUES",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "12.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "TELEGRAPHIC_TRANSFERS_OVERSEAS",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "25.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "TELEGRAPHIC_TRANSFERS_WITHIN_AUSTRALIA",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "15.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "TRACE_OF_BPAY",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "12.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "TRACE_OF_EXTERNAL_TRANSFER",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "40.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Includes NPP and OSKO transactions  to other financial institutions"
+          },
+          {
+            "name": "TRACE_OF_PAID_PERSONAL_CHEQUE",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "22.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "TRACE_OF_PAID_CORPORATE_CHEQUE",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "17.50"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "TRAVELLERS_CHEQUE_DEPOSIT_(PER_CURRENCY)",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "8.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "VISA_CARD_ADMIN_FEE",
+            "feeType": "PERIODIC",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "2.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Visa Debit Card per account and waived for loan balances over $50,000 or savings balances over $20,000"
+          },
+          {
+            "name": "VISA_CHARGEBACK_TRANSACTION",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "35.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "VISA_INTERNATIONAL_TRANSACTION_FEE",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "rateBased",
+            "rateBased": {
+              "rateType": "TRANSACTION",
+              "rate": "0.0365"
+            },
+            "currency": "AUD",
+            "additionalInfo": "International Transaction Fee transaction when converted to $AUD"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "On Call_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "0.00",
+                "maximumValue": "19999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ]
+          },
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "On Call_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "20000.00",
+                "maximumValue": "49999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ]
+          },
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "On Call_Tier_3",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "50000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ]
+          }
+        ],
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "productId": "S1_Oncall",
+        "lastUpdated": "2025-10-16T15:38:34.000+10:00",
+        "name": "On Call",
+        "description": "Transactional account with flexible access options",
+        "brand": "QBANK",
+        "brandName": "QBANK",
+        "applicationUri": "https://applications.qbank.com.au/before-you-start/",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.qbank.com.au/products/accounts/transaction-accounts/on-call-transaction-account",
+          "termsUri": "https://www.qbank.com.au/terms-conditions/",
+          "eligibilityUri": "https://www.qbank.com.au/who-can-join",
+          "feesAndPricingUri": "https://www.qbank.com.au/rates-fees"
+        }
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "S12_Pension",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "features": [
+          {
+            "featureType": "CARD_ACCESS",
+            "additionalValue": "Visa Debit with payWave"
+          },
+          {
+            "featureType": "DIGITAL_WALLET",
+            "additionalValue": "Apple Pay",
+            "additionalInfoUri": "https://www.qbank.com.au/ways-to-bank/applepay"
+          },
+          {
+            "featureType": "DIGITAL_WALLET",
+            "additionalValue": "Google Pay",
+            "additionalInfoUri": "https://www.qbank.com.au/ways-to-bank/googlepay"
+          },
+          {
+            "featureType": "NPP_ENABLED"
+          },
+          {
+            "featureType": "NPP_PAYID"
+          },
+          {
+            "featureType": "BILL_PAYMENT",
+            "additionalValue": "BPAY"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "High Rate of Interest with easy access to your money"
+          },
+          {
+            "featureType": "NOTIFICATIONS",
+            "additionalValue": "Track payments with SMS and email alerts"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Make deposits and withdrawals through a Bank@Post facility at Australia Post outlets. For full details refer to our Conditions of Use. Fees and charges apply.",
+            "additionalInfoUri": "https://www.qbank.com.au/terms-conditions"
+          },
+          {
+            "featureType": "UNLIMITED_TXNS",
+            "additionalInfoUri": "https://www.qbank.com.au/products/accounts/retirement-accounts"
+          },
+          {
+            "featureType": "DIGITAL_BANKING"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Our sweep service automatically transfers funds from certain savings accounts to cover most transactions which would otherwiese exceed your transasction account's available balance."
+          },
+          {
+            "featureType": "ADDITIONAL_CARDS"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "OTHER",
+            "additionalInfo": "You must be a member. Membership is open to current or former employees of police, ambulance, firies, health workers, emergency services, correctional services and government employees as well as their family members.",
+            "additionalInfoUri": "https://www.qbank.com.au/who-can-join"
+          }
+        ],
+        "fees": [
+          {
+            "name": "ACCOUNT_AUDIT_CONFIRMATION",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "10.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "ATM_DISPUTE_FEE",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "27.50"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "BANK@POST_WITHDRAWALS",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "2.50"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "BANK_CHEQUE_WITHDRAWALS",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "13.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "CASH_ADVANCE_____AUSTRALIA_&_INTERNATIONAL",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "5.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "CHEQUE_DEPOSIT",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "15.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Special Clearance"
+          },
+          {
+            "name": "CHEQUE_DISHONOURS",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "11.50"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Cheque Deposit subsequently dishonoured through Bank@Post Australia Post may charge a fee"
+          },
+          {
+            "name": "COPY_OF_PAID_CORPORATE_CHEQUE",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "6.50"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "COPY_OF_PERSONAL_CHEQUE/VOUCHER_30_TO_90_DAYS",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "16.50"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "COPY_OF_PERSONAL_CHEQUE/VOUCHER_OVER_90_DAYS",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "33.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "COPY_OF_PERSONAL_CHEQUE/VOUCHER_UNDER_30_DAYS",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "11.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "COPY_OF_VISA_TRANSACTION_VOUCHER",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "35.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "CORPORATE_CHEQUE_WITHDRAWALS",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "3.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "DEBIT_EXTERNAL_ACCOUNT_REJECTION_FEE",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "5.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "DIRECT_DEBIT_DISHONOURS/NON_PAYMENT",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "11.50"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "DIRECT_DEBIT_INVESTIGATION",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "40.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "DORMANCY",
+            "feeType": "PERIODIC",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "20.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Charge $10 every 6 months"
+          },
+          {
+            "name": "EMERGENCY_VISA_CASH_OR_CARD_(OVERSEAS)",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "175.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "$175.00 USD"
+          },
+          {
+            "name": "FOREIGN_CASH_DEPOSIT_(PER_CURRENCY)",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "8.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "FOREIGN_CHEQUE_DEPOSIT",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "15.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "INTERNATIONAL_ATM_TRANSACTION",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "5.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "OVERDRAWN_SAVINGS_ACCOUNTS",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "30.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Debit interest is charged if the balance of your Savings Accounts are overdrawn where an Overdraft limit exists.Unauthorised Overdrawn Savings and Overlimit Overdraft Fee"
+          },
+          {
+            "name": "PURCHASE_FOREIGN_CASH_(MINIMUM_ORDER_$250_AU)",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Purchase Foreign Cash (minimum order $250 AU)"
+          },
+          {
+            "name": "RE-PURCHASE_FOREIGN_CASH_(CANCELLATION_OF_PURCHASE_ORDER)",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "8.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "RECALL_OF_BPAY",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "12.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "RECALL_OF_EXTERNAL_TRANSFER",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "40.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Includes NPP and OSKO transactions  to other financial institutions"
+          },
+          {
+            "name": "RECALL_OF_TELEGRAPHIC_TRANSFER_(WITHIN_AUSTRALIA_&_OVERSEAS)",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "35.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "REPLACEMENT_OF_CUE_&_VISA_CARD",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "5.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Under 18 y/o and renewal cards exempt"
+          },
+          {
+            "name": "REPLACEMENT_VISA_WRISTBAND_(INCLUDING_CHIP)",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "15.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "STATEMENTS_/_VOUCHER_SEARCHES",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "5.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "No charge for current transaction list.Reissue more than 6 months.$5 per page"
+          },
+          {
+            "name": "STOP_PAYMENT_OF_CORPORATE_CHEQUES",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "12.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "TELEGRAPHIC_TRANSFERS_OVERSEAS",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "25.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "TELEGRAPHIC_TRANSFERS_WITHIN_AUSTRALIA",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "15.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "TRACE_OF_BPAY",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "12.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "TRACE_OF_EXTERNAL_TRANSFER",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "40.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Includes NPP and OSKO transactions  to other financial institutions"
+          },
+          {
+            "name": "TRACE_OF_PAID_PERSONAL_CHEQUE",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "22.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "TRACE_OF_PAID_CORPORATE_CHEQUE",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "17.50"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "TRAVELLERS_CHEQUE_DEPOSIT_(PER_CURRENCY)",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "8.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "VISA_CARD_ADMIN_FEE",
+            "feeType": "PERIODIC",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "2.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Visa Debit Card per account and waived for loan balances over $50,000 or savings balances over $20,000"
+          },
+          {
+            "name": "VISA_CHARGEBACK_TRANSACTION",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "35.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "VISA_INTERNATIONAL_TRANSACTION_FEE",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "rateBased",
+            "rateBased": {
+              "rateType": "TRANSACTION",
+              "rate": "0.0365"
+            },
+            "currency": "AUD",
+            "additionalInfo": "International Transaction Fee transaction when converted to $AUD"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "Pension Plus Account_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "0.00",
+                "maximumValue": "4999.99",
+                "rateApplicationMethod": "PER_TIER"
+              }
+            ]
+          },
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0195",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "Pension Plus Account_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "49999.99",
+                "rateApplicationMethod": "PER_TIER"
+              }
+            ]
+          },
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0335",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "Pension Plus Account_Tier_3",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "50000.00",
+                "rateApplicationMethod": "PER_TIER"
+              }
+            ]
+          }
+        ],
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "productId": "S12_Pension",
+        "lastUpdated": "2026-11-19T05:39:47.000+10:00",
+        "name": "Pension Plus Account",
+        "description": "A high interest account for retired members or members with an eligible pension card.",
+        "brand": "QBANK",
+        "brandName": "QBANK",
+        "applicationUri": "https://applications.qbank.com.au/before-you-start/",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.qbank.com.au/products/accounts/retirement-accounts",
+          "termsUri": "https://www.qbank.com.au/terms-conditions",
+          "eligibilityUri": "https://www.qbank.com.au/who-can-join",
+          "feesAndPricingUri": "https://www.qbank.com.au/rates-fees"
+        }
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "S18_Teen_Netlink",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "features": [
+          {
+            "featureType": "UNLIMITED_TXNS"
+          },
+          {
+            "featureType": "NPP_ENABLED"
+          },
+          {
+            "featureType": "NPP_PAYID"
+          },
+          {
+            "featureType": "BILL_PAYMENT",
+            "additionalValue": "BPAY"
+          },
+          {
+            "featureType": "DIGITAL_BANKING"
+          },
+          {
+            "featureType": "NOTIFICATIONS",
+            "additionalValue": "Track payments with SMS and email alerts"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Our sweep service automatically transfers funds from certain savings accounts to cover most transactions which would otherwiese exceed your transasction account's available balance."
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "OTHER",
+            "additionalInfo": "You must be a member. Membership is open to current or former employees of police, ambulance, firies, health workers, emergency services, correctional services and government employees as well as their family members.",
+            "additionalInfoUri": "https://www.qbank.com.au/who-can-join"
+          }
+        ],
+        "fees": [
+          {
+            "name": "DORMANCY",
+            "feeType": "PERIODIC",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "20.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Charge $10 every 6 months"
+          },
+          {
+            "name": "RECALL_OF_EXTERNAL_TRANSFER",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "40.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Includes NPP and OSKO transactions  to other financial institutions"
+          },
+          {
+            "name": "RECALL_OF_TELEGRAPHIC_TRANSFER_(WITHIN_AUSTRALIA_&_OVERSEAS)",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "35.00"
+            },
+            "currency": "AUD"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0335",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M"
+          }
+        ],
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "productId": "S18_Teen_Netlink",
+        "lastUpdated": "2026-11-19T05:48:14.000+10:00",
+        "name": "Teen Netlink Direct Savings",
+        "description": "An online savings account for teens",
+        "brand": "QBANK",
+        "brandName": "QBANK",
+        "applicationUri": "https://applications.qbank.com.au/before-you-start/",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.qbank.com.au/products/accounts/junior-and-teen-accounts/teen-netlink-direct-savings",
+          "termsUri": "https://www.qbank.com.au/terms-conditions",
+          "eligibilityUri": "https://www.qbank.com.au/who-can-join",
+          "feesAndPricingUri": "https://www.qbank.com.au/rates-fees"
+        }
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "S19_Intro",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "features": [
+          {
+            "featureType": "UNLIMITED_TXNS",
+            "additionalInfo": "Unlimited free internet transfers"
+          },
+          {
+            "featureType": "NPP_ENABLED"
+          },
+          {
+            "featureType": "NPP_PAYID"
+          },
+          {
+            "featureType": "BILL_PAYMENT",
+            "additionalValue": "BPAY"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Our sweep service automatically transfers funds from certain savings accounts to cover most transactions which would otherwise exceed your transasction account's available balance.",
+            "additionalInfoUri": "https://www.qbank.com.au/terms-conditions"
+          },
+          {
+            "featureType": "NOTIFICATIONS",
+            "additionalValue": "Track payments with SMS and email alerts"
+          },
+          {
+            "featureType": "DIGITAL_BANKING"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "OTHER",
+            "additionalInfo": "You must be a member. Membership is open to citizens or permanent residents of Australia who are current or former emplayees or volunteers in the Australian emergency services sector or are family members of members (i.e. shareholders) of the Bank.",
+            "additionalInfoUri": "https://www.qbank.com.au/who-can-join"
+          }
+        ],
+        "fees": [
+          {
+            "name": "DORMANCY",
+            "feeType": "PERIODIC",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "20.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Charge $10 every 6 months"
+          },
+          {
+            "name": "RECALL_OF_BPAY",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "12.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "RECALL_OF_EXTERNAL_TRANSFER",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "40.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Includes NPP and OSKO transactions  to other financial institutions"
+          },
+          {
+            "name": "RECALL_OF_TELEGRAPHIC_TRANSFER_(WITHIN_AUSTRALIA_&_OVERSEAS)",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "35.00"
+            },
+            "currency": "AUD"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0585",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "Intro Saver_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "0.00",
+                "maximumValue": "250000.00",
+                "rateApplicationMethod": "PER_TIER"
+              }
+            ],
+            "applicabilityConditions": [
+              {
+                "rateApplicabilityType": "NEW_ACCOUNTS",
+                "additionalInfo": "New to bank funds are defined as funds from an external account. Internal QBANK to QBANK transfers will not be eligible.",
+                "additionalInfoUri": "https://www.qbank.com.au/banking-accounts/savings-accounts/intro-saver/"
+              }
+            ]
+          },
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0295",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "Intro Saver_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "250000.01",
+                "rateApplicationMethod": "PER_TIER"
+              }
+            ],
+            "applicabilityConditions": [
+              {
+                "rateApplicabilityType": "NEW_ACCOUNTS",
+                "additionalInfo": "New to bank funds are defined as funds from an external account. Internal QBANK to QBANK transfers will not be eligible.",
+                "additionalInfoUri": "https://www.qbank.com.au/banking-accounts/savings-accounts/intro-saver/"
+              }
+            ]
+          }
+        ],
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "productId": "S19_Intro",
+        "lastUpdated": "2026-11-19T05:45:50.000+10:00",
+        "name": "Intro Saver",
+        "description": "Earn Interest with unlimited transactions",
+        "brand": "QBANK",
+        "brandName": "QBANK",
+        "applicationUri": "https://applications.qbank.com.au/before-you-start/",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.qbank.com.au/banking-accounts/savings-accounts/intro-saver/",
+          "termsUri": "https://www.qbank.com.au/terms-conditions/",
+          "eligibilityUri": "https://www.qbank.com.au/who-can-join/",
+          "feesAndPricingUri": "https://www.qbank.com.au/rates-fees/"
+        }
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "S20_Netlink",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "features": [
+          {
+            "featureType": "UNLIMITED_TXNS",
+            "additionalInfo": "Unlimited free internet transfers"
+          },
+          {
+            "featureType": "NPP_ENABLED"
+          },
+          {
+            "featureType": "NPP_PAYID"
+          },
+          {
+            "featureType": "BILL_PAYMENT",
+            "additionalValue": "BPAY"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Our sweep service automatically transfers funds from certain savings accounts to cover most transactions which would otherwise exceed your transasction account's available balance.",
+            "additionalInfoUri": "https://www.qbank.com.au/terms-conditions"
+          },
+          {
+            "featureType": "NOTIFICATIONS",
+            "additionalValue": "Track payments with SMS and email alerts"
+          },
+          {
+            "featureType": "DIGITAL_BANKING"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "OTHER",
+            "additionalInfo": "You must be a member. Membership is open to citizens or permanent residents of Australia who are current or former emplayees or volunteers in the Australian emergency services sector or are family members of members (i.e. shareholders) of the Bank.",
+            "additionalInfoUri": "https://www.qbank.com.au/who-can-join"
+          }
+        ],
+        "fees": [
+          {
+            "name": "DORMANCY",
+            "feeType": "PERIODIC",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "20.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Charge $10 every 6 months"
+          },
+          {
+            "name": "RECALL_OF_BPAY",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "12.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "RECALL_OF_EXTERNAL_TRANSFER",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "40.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Includes NPP and OSKO transactions  to other financial institutions"
+          },
+          {
+            "name": "RECALL_OF_TELEGRAPHIC_TRANSFER_(WITHIN_AUSTRALIA_&_OVERSEAS)",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "35.00"
+            },
+            "currency": "AUD"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.027",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M"
+          }
+        ],
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "productId": "S20_Netlink",
+        "lastUpdated": "2026-11-19T05:46:42.000+10:00",
+        "name": "Netlink",
+        "description": "Earn Interest with unlimited transactions",
+        "brand": "QBANK",
+        "brandName": "QBANK",
+        "applicationUri": "https://applications.qbank.com.au/before-you-start/",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.qbank.com.au/products/accounts/savings-accounts/netlink-direct/",
+          "termsUri": "https://www.qbank.com.au/terms-conditions/",
+          "eligibilityUri": "https://www.qbank.com.au/who-can-join/",
+          "feesAndPricingUri": "https://www.qbank.com.au/rates-fees/"
+        }
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "S6_Everyday",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "features": [
+          {
+            "featureType": "CARD_ACCESS",
+            "additionalValue": "Visa Debit with payWave"
+          },
+          {
+            "featureType": "DIGITAL_WALLET",
+            "additionalValue": "Apple Pay",
+            "additionalInfoUri": "https://www.qbank.com.au/ways-to-bank/applepay"
+          },
+          {
+            "featureType": "DIGITAL_WALLET",
+            "additionalValue": "Google Pay",
+            "additionalInfoUri": "https://www.qbank.com.au/ways-to-bank/googlepay"
+          },
+          {
+            "featureType": "NPP_ENABLED"
+          },
+          {
+            "featureType": "NPP_PAYID"
+          },
+          {
+            "featureType": "BILL_PAYMENT",
+            "additionalValue": "BPAY"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Our sweep service automatically transfers funds from certain savings accounts to cover most transactions which would otherwise exceed your transasction account's available balance."
+          },
+          {
+            "featureType": "NOTIFICATIONS",
+            "additionalValue": "Track payments with SMS and email alerts"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Make deposits and withdrawals through a Bank@Post facility at Australia Post outlets. For full details refer to our Conditions of Use. Fees and charges apply.",
+            "additionalInfoUri": "https://www.qbank.com.au/terms-conditions"
+          },
+          {
+            "featureType": "UNLIMITED_TXNS",
+            "additionalInfo": "Monthly credit $1500",
+            "additionalInfoUri": "https://www.qbank.com.au/products/accounts/transaction-accounts/everyday-plus-transaction-account"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Wearables",
+            "additionalInfoUri": "https://www.qbank.com.au/ways-to-bank/wearables"
+          },
+          {
+            "featureType": "DIGITAL_BANKING"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "OTHER",
+            "additionalInfo": "You must be a member. Membership is open to current or former employees of police, ambulance, firies, health workers, emergency services, correctional services and government employees as well as their family members.",
+            "additionalInfoUri": "https://www.qbank.com.au/who-can-join"
+          }
+        ],
+        "fees": [
+          {
+            "name": "ACCOUNT_AUDIT_CONFIRMATION",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "10.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "ACCOUNT_FEE",
+            "feeType": "PERIODIC",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "3.50"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Waive if monthly deposit $1500. Full time student.",
+            "additionalInfoUri": "https://www.qbank.com.au/rates-fees"
+          },
+          {
+            "name": "ATM_DISPUTE_FEE",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "27.50"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "BANK@POST_WITHDRAWALS",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "2.50"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "BANK_CHEQUE_WITHDRAWALS",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "13.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "CASH_ADVANCE_____AUSTRALIA_&_INTERNATIONAL",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "5.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "CHEQUE_DEPOSIT",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "15.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Special Clearance"
+          },
+          {
+            "name": "CHEQUE_DISHONOURS",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "11.50"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Cheque Deposit subsequently dishonoured through Bank@Post Australia Post may charge a fee"
+          },
+          {
+            "name": "COPY_OF_PAID_CORPORATE_CHEQUE",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "6.50"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "COPY_OF_PERSONAL_CHEQUE/VOUCHER_30_TO_90_DAYS",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "16.50"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "COPY_OF_PERSONAL_CHEQUE/VOUCHER_OVER_90_DAYS",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "33.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "COPY_OF_PERSONAL_CHEQUE/VOUCHER_UNDER_30_DAYS",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "11.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "COPY_OF_VISA_TRANSACTION_VOUCHER",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "35.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "CORPORATE_CHEQUE_WITHDRAWALS",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "3.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "DEBIT_EXTERNAL_ACCOUNT_REJECTION_FEE",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "5.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "DIRECT_DEBIT_DISHONOURS/NON_PAYMENT",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "11.50"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "DIRECT_DEBIT_INVESTIGATION",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "40.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "DORMANCY",
+            "feeType": "PERIODIC",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "20.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Charge $10 every 6 months"
+          },
+          {
+            "name": "EMERGENCY_VISA_CASH_OR_CARD_(OVERSEAS)",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "175.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "$175.00 USD"
+          },
+          {
+            "name": "FOREIGN_CASH_DEPOSIT_(PER_CURRENCY)",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "8.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "FOREIGN_CHEQUE_DEPOSIT",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "15.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "INTERNATIONAL_ATM_TRANSACTION",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "5.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "OVERDRAWN_SAVINGS_ACCOUNTS",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "30.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Debit interest is charged if the balance of your Savings Accounts are overdrawn where an Overdraft limit exists.Unauthorised Overdrawn Savings and Overlimit Overdraft Fee"
+          },
+          {
+            "name": "PURCHASE_FOREIGN_CASH_(MINIMUM_ORDER_$250_AU)",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Purchase Foreign Cash (minimum order $250 AU)"
+          },
+          {
+            "name": "RE-PURCHASE_FOREIGN_CASH_(CANCELLATION_OF_PURCHASE_ORDER)",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "8.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "RECALL_OF_BPAY",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "12.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "RECALL_OF_EXTERNAL_TRANSFER",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "40.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Includes NPP and OSKO transactions  to other financial institutions"
+          },
+          {
+            "name": "RECALL_OF_TELEGRAPHIC_TRANSFER_(WITHIN_AUSTRALIA_&_OVERSEAS)",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "35.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "REPLACEMENT_OF_CUE_&_VISA_CARD",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "5.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Under 18 y/o and renewal cards exempt"
+          },
+          {
+            "name": "REPLACEMENT_VISA_WRISTBAND_(INCLUDING_CHIP)",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "15.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "STATEMENTS_/_VOUCHER_SEARCHES",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "5.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "No charge for current transaction list.Reissue more than 6 months.$5 per page"
+          },
+          {
+            "name": "STOP_PAYMENT_OF_CORPORATE_CHEQUES",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "12.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "TELEGRAPHIC_TRANSFERS_OVERSEAS",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "25.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "TELEGRAPHIC_TRANSFERS_WITHIN_AUSTRALIA",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "15.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "TRACE_OF_BPAY",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "12.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "TRACE_OF_EXTERNAL_TRANSFER",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "40.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Includes NPP and OSKO transactions  to other financial institutions"
+          },
+          {
+            "name": "TRACE_OF_PAID_PERSONAL_CHEQUE",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "22.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "TRACE_OF_PAID_CORPORATE_CHEQUE",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "17.50"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "TRAVELLERS_CHEQUE_DEPOSIT_(PER_CURRENCY)",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "8.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "VISA_CARD_ADMIN_FEE",
+            "feeType": "PERIODIC",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "2.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Visa Debit Card per account and waived for loan balances over $50,000 or savings balances over $20,000"
+          },
+          {
+            "name": "VISA_CHARGEBACK_TRANSACTION",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "35.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "VISA_INTERNATIONAL_TRANSACTION_FEE",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "rateBased",
+            "rateBased": {
+              "rateType": "TRANSACTION",
+              "rate": "0.0365"
+            },
+            "currency": "AUD",
+            "additionalInfo": "International Transaction Fee transaction when converted to $AUD"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "Everyday Plus_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "0.00",
+                "maximumValue": "19999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ]
+          },
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "Everyday Plus_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "20000.00",
+                "maximumValue": "49999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ]
+          },
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "Everyday Plus_Tier_3",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "50000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ]
+          }
+        ],
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "productId": "S6_Everyday",
+        "lastUpdated": "2026-05-07T10:13:00.000+10:00",
+        "name": "Everyday Plus",
+        "description": "Your everyday transaction account with Visa Debit access",
+        "brand": "QBANK",
+        "brandName": "QBANK",
+        "applicationUri": "https://applications.qbank.com.au/before-you-start/",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.qbank.com.au/products/accounts/transaction-accounts/everyday-plus-transaction-account/",
+          "termsUri": "https://www.qbank.com.au/terms-conditions/",
+          "eligibilityUri": "https://www.qbank.com.au/who-can-join/",
+          "feesAndPricingUri": "https://www.qbank.com.au/rates-fees/"
+        }
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "S7_Junior",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "features": [
+          {
+            "featureType": "UNLIMITED_TXNS"
+          },
+          {
+            "featureType": "NPP_ENABLED"
+          },
+          {
+            "featureType": "NPP_PAYID"
+          },
+          {
+            "featureType": "BILL_PAYMENT",
+            "additionalValue": "BPAY"
+          },
+          {
+            "featureType": "DIGITAL_BANKING"
+          },
+          {
+            "featureType": "NOTIFICATIONS",
+            "additionalValue": "Track payments with SMS and email alerts"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Our sweep service automatically transfers funds from certain savings accounts to cover most transactions which would otherwiese exceed your transasction account's available balance."
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "OTHER",
+            "additionalInfo": "You must be a member. Membership is open to current or former employees of police, ambulance, firies, health workers, emergency services, correctional services and government employees as well as their family members.",
+            "additionalInfoUri": "https://www.qbank.com.au/who-can-join"
+          },
+          {
+            "eligibilityType": "MAX_AGE",
+            "additionalValue": "12",
+            "additionalInfo": "must be 12 and under"
+          }
+        ],
+        "fees": [
+          {
+            "name": "DORMANCY",
+            "feeType": "PERIODIC",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "20.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Charge $10 every 6 months"
+          },
+          {
+            "name": "RECALL_OF_EXTERNAL_TRANSFER",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "40.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Includes NPP and OSKO transactions  to other financial institutions"
+          },
+          {
+            "name": "RECALL_OF_TELEGRAPHIC_TRANSFER_(WITHIN_AUSTRALIA_&_OVERSEAS)",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "35.00"
+            },
+            "currency": "AUD"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0295",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M"
+          }
+        ],
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "productId": "S7_Junior",
+        "lastUpdated": "2026-11-19T05:47:32.000+10:00",
+        "name": "Junior Saver",
+        "description": "Exclusive account for children 12 and under",
+        "brand": "QBANK",
+        "brandName": "QBANK",
+        "applicationUri": "https://applications.qbank.com.au/before-you-start/",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://qbank.com.au/banking-accounts/savings-accounts/junior-saver/",
+          "termsUri": "https://www.qbank.com.au/terms-conditions/",
+          "eligibilityUri": "https://www.qbank.com.au/who-can-join/",
+          "feesAndPricingUri": "https://www.qbank.com.au/rates-fees/"
+        }
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "S70_Bonus",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "features": [
+          {
+            "featureType": "NPP_ENABLED"
+          },
+          {
+            "featureType": "NPP_PAYID"
+          },
+          {
+            "featureType": "BILL_PAYMENT",
+            "additionalValue": "BPAY"
+          },
+          {
+            "featureType": "DIGITAL_BANKING"
+          },
+          {
+            "featureType": "NOTIFICATIONS",
+            "additionalValue": "Track payments with SMS and email alerts"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Bonus Interest paid if you deposit $200 or more in a month and no withdrawals."
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "OTHER",
+            "additionalInfo": "You must be a member. Membership is open to current or former employees of police, ambulance, firies, health workers, emergency services, correctional services and government employees as well as their family members.",
+            "additionalInfoUri": "https://www.qbank.com.au/who-can-join"
+          }
+        ],
+        "fees": [
+          {
+            "name": "DORMANCY",
+            "feeType": "PERIODIC",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "20.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Charge $10 every 6 months"
+          },
+          {
+            "name": "RECALL_OF_EXTERNAL_TRANSFER",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "40.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Includes NPP and OSKO transactions  to other financial institutions"
+          },
+          {
+            "name": "RECALL_OF_BPAY",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "12.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "RECALL_OF_TELEGRAPHIC_TRANSFER_(WITHIN_AUSTRALIA_&_OVERSEAS)",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "35.00"
+            },
+            "currency": "AUD"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0001",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "Bonus Saver_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "0.00",
+                "maximumValue": "1000000.00",
+                "rateApplicationMethod": "PER_TIER"
+              }
+            ]
+          },
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0001",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "Bonus Saver_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000000.01",
+                "rateApplicationMethod": "PER_TIER"
+              }
+            ]
+          },
+          {
+            "depositRateType": "BONUS",
+            "rate": "0.0519",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "Bonus Saver_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "0.00",
+                "maximumValue": "1000000.00",
+                "rateApplicationMethod": "PER_TIER"
+              }
+            ]
+          },
+          {
+            "depositRateType": "BONUS",
+            "rate": "0.0",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "Bonus Saver_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000000.01",
+                "rateApplicationMethod": "PER_TIER"
+              }
+            ]
+          }
+        ],
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "productId": "S70_Bonus",
+        "lastUpdated": "2026-10-01T05:59:01.000+10:00",
+        "name": "Bonus Saver",
+        "description": "Be rewarded with bonus interest for regular saving",
+        "brand": "QBANK",
+        "brandName": "QBANK",
+        "applicationUri": "https://applications.qbank.com.au/before-you-start/",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.qbank.com.au/products/accounts/savings-accounts/bonus-saver/",
+          "termsUri": "https://www.qbank.com.au/terms-conditions/",
+          "eligibilityUri": "https://www.qbank.com.au/who-can-join/",
+          "feesAndPricingUri": "https://www.qbank.com.au/rates-fees/"
+        }
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "S8_Xmas",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "features": [
+          {
+            "featureType": "NPP_ENABLED"
+          },
+          {
+            "featureType": "NPP_PAYID"
+          },
+          {
+            "featureType": "BILL_PAYMENT",
+            "additionalValue": "BPAY"
+          },
+          {
+            "featureType": "NOTIFICATIONS",
+            "additionalValue": "Track payments with SMS and email alerts"
+          },
+          {
+            "featureType": "UNLIMITED_TXNS",
+            "additionalInfo": "$5 fee on each withdrawal and transfer from this account bewteen 1 January and 31 October each year",
+            "additionalInfoUri": "https://www.qbank.com.au/products/accounts/savings-accounts/christmas-club-account"
+          },
+          {
+            "featureType": "BONUS_REWARDS",
+            "additionalInfo": "Fee free withdrawals and transfers between 1 November and 31 December",
+            "additionalInfoUri": "https://www.qbank.com.au/terms-conditions"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "OTHER",
+            "additionalInfo": "You must be a member. Membership is open to current or former employees of police, ambulance, firies, health workers, emergency services, correctional services and government employees as well as their family members.",
+            "additionalInfoUri": "https://www.qbank.com.au/who-can-join"
+          }
+        ],
+        "fees": [
+          {
+            "name": "CHRISTMAS_CLUB_WITHDRAWAL_FEE",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "5.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Charged on all withdrawals and transfers from the account between 1 January and 31 October."
+          },
+          {
+            "name": "DORMANCY",
+            "feeType": "PERIODIC",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "20.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Charge $10 every 6 months"
+          },
+          {
+            "name": "RECALL_OF_BPAY",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "12.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "RECALL_OF_EXTERNAL_TRANSFER",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "40.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Includes NPP and OSKO transactions  to other financial institutions"
+          },
+          {
+            "name": "RECALL_OF_TELEGRAPHIC_TRANSFER_(WITHIN_AUSTRALIA_&_OVERSEAS)",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "35.00"
+            },
+            "currency": "AUD"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.029",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M"
+          }
+        ],
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "productId": "S8_Xmas",
+        "lastUpdated": "2026-11-19T05:48:59.000+10:00",
+        "name": "Christmas Club",
+        "description": "Lock away your savings to relax and enjoy the festive season",
+        "brand": "QBANK",
+        "brandName": "QBANK",
+        "applicationUri": "https://applications.qbank.com.au/before-you-start/",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.qbank.com.au/products/accounts/savings-accounts/christmas-club-account/",
+          "termsUri": "https://www.qbank.com.au/terms-conditions/",
+          "eligibilityUri": "https://www.qbank.com.au/who-can-join/",
+          "feesAndPricingUri": "https://www.qbank.com.au/rates-fees/"
+        }
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    }
+  ]
+}

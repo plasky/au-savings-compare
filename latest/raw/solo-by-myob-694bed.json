@@ -1,0 +1,187 @@
+{
+  "endpoint": "https://od1.open-banking.myob.greatsouthernbank.com.au/api/cds-au/v1/banking/products",
+  "slug": "solo-by-myob-694bed",
+  "brands": [
+    {
+      "dataHolderBrandId": "bfd87b4e-cdf8-ef11-a4de-6045bd3f1cfc",
+      "brandName": "Solo by MYOB",
+      "brandGroup": null,
+      "abn": "44087650959",
+      "industries": [
+        "banking"
+      ]
+    }
+  ],
+  "list": {
+    "ok": true,
+    "status": 200,
+    "version": "5",
+    "totalPages": 1,
+    "pagesFetched": 1,
+    "productCount": 1,
+    "categoryCounts": {
+      "TRANS_AND_SAVINGS_ACCOUNTS": 1
+    }
+  },
+  "products": [
+    {
+      "productId": "2a04147b-ef86-49be-9ba8-11ab6e3b2aa6",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "additionalInformation": {
+          "termsUri": "https://cdn.moby-prod.prod.cxnpl.io/files/products/2a04147b-ef86-49be-9ba8-11ab6e3b2aa6/v1/Solo_Money_Transaction_Account_Terms_Conditions.pdf"
+        },
+        "applicationUri": "https://www.myob.com/au/products/solo",
+        "brand": "Credit Union Australia Ltd",
+        "brandName": "Solo by MYOB",
+        "constraints": [
+          {
+            "additionalInfo": "Minimum single transaction limit of $0.01.",
+            "additionalValue": "0.01",
+            "constraintType": "MIN_LIMIT"
+          },
+          {
+            "additionalInfo": "Daily domestic single card transaction limit of $20,000.",
+            "additionalValue": "20000.00",
+            "constraintType": "MAX_LIMIT"
+          },
+          {
+            "additionalInfo": "Single cash ATM/POS withdrawal limit of $2,009.99.",
+            "additionalValue": "2009.99",
+            "constraintType": "MAX_LIMIT"
+          },
+          {
+            "additionalInfo": "Maximum number of transactions per day is 50.",
+            "additionalValue": "50.00",
+            "constraintType": "MAX_LIMIT"
+          },
+          {
+            "additionalInfo": "You can hold a maximum of 1 account for this product.",
+            "additionalValue": "1.00",
+            "constraintType": "MAX_LIMIT"
+          },
+          {
+            "additionalInfo": "You can only hold a maximum of 1 card for this product.",
+            "additionalValue": "1.00",
+            "constraintType": "MAX_LIMIT"
+          },
+          {
+            "additionalInfo": "Offline transaction limit of $250.",
+            "additionalValue": "250.00",
+            "constraintType": "MAX_LIMIT"
+          },
+          {
+            "additionalInfo": "Maximum single transaction limit of $30,000.",
+            "additionalValue": "30000.00",
+            "constraintType": "MAX_LIMIT"
+          },
+          {
+            "additionalInfo": "Maximum cumulative value of transactions is $100,000 per day.",
+            "additionalValue": "100000.00",
+            "constraintType": "MAX_LIMIT"
+          },
+          {
+            "additionalInfo": "International single card transaction limit of $20,000.",
+            "additionalValue": "20000.00",
+            "constraintType": "MAX_LIMIT"
+          }
+        ],
+        "description": "Everyday banking for your business.",
+        "effectiveFrom": "2025-06-04T23:00:00Z",
+        "eligibility": [
+          {
+            "additionalValue": "You must be an Australian tax resident.",
+            "eligibilityType": "RESIDENCY_STATUS"
+          },
+          {
+            "additionalValue": "18",
+            "eligibilityType": "MIN_AGE"
+          },
+          {
+            "additionalInfo": "To open an account, you must meet our ID verification requirements.",
+            "eligibilityType": "OTHER"
+          },
+          {
+            "additionalInfo": "You must have an Australian mobile number and a valid email address.",
+            "eligibilityType": "OTHER"
+          },
+          {
+            "additionalInfo": "To open an account, you must have an Australian Address.",
+            "eligibilityType": "OTHER"
+          },
+          {
+            "additionalInfo": "To open an account, you must have an active ABN or ACN, and you must be registered as either a Sole Trader, Private Company or a Partnership with the Australian Business Register.",
+            "eligibilityType": "BUSINESS"
+          }
+        ],
+        "features": [
+          {
+            "additionalInfo": "Use this account to make and receive PayID payments.",
+            "featureType": "NPP_PAYID"
+          },
+          {
+            "additionalValue": "All statements, notices and other communication in connection with these terms and conditions and your account may be given electronically by: email, text message, in app push notifications, in app prompts, or letting you know by email, text message or push notification that the information is available on the app or on a website. You should check your emails, text messages and push notifications regularly.",
+            "featureType": "NOTIFICATIONS"
+          },
+          {
+            "additionalInfo": "The product includes fraud protection functionality.",
+            "featureType": "FRAUD_PROTECTION"
+          },
+          {
+            "additionalValue": "Link your transaction account to Mastercard® debit card.",
+            "featureType": "CARD_ACCESS"
+          },
+          {
+            "additionalInfo": "Make transfers and send payments in real time.",
+            "featureType": "NPP_ENABLED"
+          },
+          {
+            "additionalInfo": "You can access your accounts on your mobile for all your online banking.",
+            "featureType": "DIGITAL_BANKING"
+          }
+        ],
+        "fees": [
+          {
+            "additionalInfo": "Account Inactivity Fee is charged where any Solo Money Account balance is below $500 but more than $0 for 6 calendar months, with no customer initiated transactions in that period. The fee amount is $10, or the Solo Money Account balance, whichever is lower, and will not overdraw the Solo Money Account.",
+            "currency": "AUD",
+            "feeMethodUType": "fixedAmount",
+            "feeType": "EVENT",
+            "fixedAmount": {
+              "amount": "10.00"
+            },
+            "name": "Account Inactivity Fee"
+          },
+          {
+            "currency": "AUD",
+            "feeMethodUType": "rateBased",
+            "feeType": "TRANSACTION",
+            "name": "Card International Transaction Fee",
+            "rateBased": {
+              "rate": "2.95",
+              "rateType": "TRANSACTION"
+            }
+          }
+        ],
+        "isTailored": false,
+        "lastUpdated": "2025-07-23T03:29:33.018162Z",
+        "lendingRates": [
+          {
+            "additionalInfo": "Only applicable to Unarranged Credit Limit.",
+            "applicationFrequency": "P1M",
+            "applicationType": "PERIODIC",
+            "calculationFrequency": "P1D",
+            "lendingRateType": "VARIABLE",
+            "loanPurpose": "OTHER",
+            "rate": "0.2545",
+            "repaymentType": "OTHER"
+          }
+        ],
+        "name": "Solo Money Account",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "productId": "2a04147b-ef86-49be-9ba8-11ab6e3b2aa6"
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    }
+  ]
+}

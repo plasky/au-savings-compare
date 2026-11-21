@@ -1,0 +1,26 @@
+{
+  "endpoint": "https://mortgagestreet.com.au/cds-au/v1/banking/products",
+  "slug": "mortgage-street-9b8653",
+  "brands": [
+    {
+      "dataHolderBrandId": "792d806e-c37c-f111-b27f-6045bd3ce80e",
+      "brandName": "Mortgage Street",
+      "brandGroup": null,
+      "abn": "52106171537",
+      "industries": [
+        "non-bank-lending"
+      ]
+    }
+  ],
+  "list": {
+    "ok": false,
+    "status": 200,
+    "version": null,
+    "error": "invalid-json",
+    "totalPages": null,
+    "pagesFetched": 0,
+    "productCount": 0,
+    "categoryCounts": {}
+  },
+  "products": []
+}

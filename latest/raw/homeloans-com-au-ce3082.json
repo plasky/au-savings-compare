@@ -1,0 +1,27 @@
+{
+  "endpoint": "https://public.cdr.homeloans.com.au/cds-au/v1/banking/products",
+  "slug": "homeloans-com-au-ce3082",
+  "brands": [
+    {
+      "dataHolderBrandId": "cf80b92f-207c-f111-9b47-6045bd3f59f5",
+      "brandName": "homeloans.com.au",
+      "brandGroup": null,
+      "abn": "55095034003",
+      "industries": [
+        "non-bank-lending"
+      ]
+    }
+  ],
+  "list": {
+    "ok": true,
+    "status": 200,
+    "version": "5",
+    "totalPages": 1,
+    "pagesFetched": 1,
+    "productCount": 1,
+    "categoryCounts": {
+      "RESIDENTIAL_MORTGAGES": 1
+    }
+  },
+  "products": []
+}

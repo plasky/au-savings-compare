@@ -1,0 +1,950 @@
+{
+  "generatedAt": "2026-11-21T21:16:59.747Z",
+  "crawl": {
+    "crawledAt": "2026-11-21T21:16:49.021Z",
+    "registerOk": true,
+    "brandsTotal": 390,
+    "brandsInScope": 306,
+    "endpoints": 306,
+    "endpointsOk": 259,
+    "endpointsFailed": [
+      {
+        "brands": "AAA Mortgage Finance",
+        "status": 400,
+        "error": "http-400",
+        "detail": "urn:au-cds:error:cds-all:Field/Invalid | Invalid Field | Invalid Field"
+      },
+      {
+        "brands": "Afterpay",
+        "status": 406,
+        "error": "http-406",
+        "detail": "NOT_ACCEPTABLE | No supported version found between x-min-v and x-v. This endpoint supports v7 and above."
+      },
+      {
+        "brands": "Allstate Home Loans",
+        "status": 400,
+        "error": "http-400",
+        "detail": "urn:au-cds:error:cds-all:Field/Invalid | Invalid Field | Invalid Field"
+      },
+      {
+        "brands": "AMO",
+        "status": 400,
+        "error": "http-400",
+        "detail": "urn:au-cds:error:cds-all:Field/Invalid | Invalid Field | Invalid Field"
+      },
+      {
+        "brands": "Aussie Home Loans",
+        "status": 404,
+        "error": "http-404",
+        "detail": "404 | Not found | Resource not found"
+      },
+      {
+        "brands": "Australian Financial",
+        "status": 400,
+        "error": "http-400",
+        "detail": "urn:au-cds:error:cds-all:Field/Invalid | Invalid Field | Invalid Field"
+      },
+      {
+        "brands": "Axis Lending",
+        "status": 400,
+        "error": "http-400",
+        "detail": "urn:au-cds:error:cds-all:Field/Invalid | Invalid Field | Invalid Field"
+      },
+      {
+        "brands": "Axis Sharia",
+        "status": 400,
+        "error": "http-400",
+        "detail": "urn:au-cds:error:cds-all:Field/Invalid | Invalid Field | Invalid Field"
+      },
+      {
+        "brands": "Better Mortgage Management",
+        "status": 400,
+        "error": "http-400",
+        "detail": "urn:au-cds:error:cds-all:Field/Invalid | Invalid Field | Invalid Field"
+      },
+      {
+        "brands": "Collective Lending",
+        "status": 400,
+        "error": "http-400",
+        "detail": "urn:au-cds:error:cds-all:Field/Invalid | Invalid Field | Invalid Field"
+      },
+      {
+        "brands": "CSC Home Loans",
+        "status": 400,
+        "error": "http-400",
+        "detail": "urn:au-cds:error:cds-all:Field/Invalid | Invalid Field | Invalid Field"
+      },
+      {
+        "brands": "DDH Graham",
+        "status": 401,
+        "error": "http-401",
+        "detail": "EBAU001 | Error while fetching token | Error while fetching the authorisation token for the given tenantId"
+      },
+      {
+        "brands": "Direct Credit Home Loans",
+        "status": 400,
+        "error": "http-400",
+        "detail": "urn:au-cds:error:cds-all:Field/Invalid | Invalid Field | Invalid Field"
+      },
+      {
+        "brands": "Empower Money",
+        "status": 400,
+        "error": "http-400",
+        "detail": "urn:au-cds:error:cds-all:Field/Invalid | Invalid Field | Invalid Field"
+      },
+      {
+        "brands": "Excel Funding Group",
+        "status": 400,
+        "error": "http-400",
+        "detail": "urn:au-cds:error:cds-all:Field/Invalid | Invalid Field | Invalid Field"
+      },
+      {
+        "brands": "FinStreet",
+        "status": 400,
+        "error": "http-400",
+        "detail": "urn:au-cds:error:cds-all:Field/Invalid | Invalid Field | Invalid Field"
+      },
+      {
+        "brands": "Folio Mortgage & Finance (AL&M)",
+        "status": 400,
+        "error": "http-400",
+        "detail": "urn:au-cds:error:cds-all:Field/Invalid | Invalid Field | Invalid Field"
+      },
+      {
+        "brands": "FreedomLend",
+        "status": 400,
+        "error": "http-400",
+        "detail": "urn:au-cds:error:cds-all:Field/Invalid | Invalid Field | Invalid Field"
+      },
+      {
+        "brands": "Greenhouse Mortgages",
+        "status": 400,
+        "error": "http-400",
+        "detail": "urn:au-cds:error:cds-all:Field/Invalid | Invalid Field | Invalid Field"
+      },
+      {
+        "brands": "Greenline Home Loans",
+        "status": 400,
+        "error": "http-400",
+        "detail": "urn:au-cds:error:cds-all:Field/Invalid | Invalid Field | Invalid Field"
+      },
+      {
+        "brands": "Ijarah Finance",
+        "status": 400,
+        "error": "http-400",
+        "detail": "urn:au-cds:error:cds-all:Field/Invalid | Invalid Field | Invalid Field"
+      },
+      {
+        "brands": "Ikhlas Finance Australia",
+        "status": 400,
+        "error": "http-400",
+        "detail": "urn:au-cds:error:cds-all:Field/Invalid | Invalid Field | Invalid Field"
+      },
+      {
+        "brands": "Infinity Group",
+        "status": 400,
+        "error": "http-400",
+        "detail": "urn:au-cds:error:cds-all:Field/Invalid | Invalid Field | Invalid Field"
+      },
+      {
+        "brands": "LoanGuides",
+        "status": 400,
+        "error": "http-400",
+        "detail": "urn:au-cds:error:cds-all:Field/Invalid | Invalid Field | Invalid Field"
+      },
+      {
+        "brands": "Meezan Islamic Finance",
+        "status": 400,
+        "error": "http-400",
+        "detail": "urn:au-cds:error:cds-all:Field/Invalid | Invalid Field | Invalid Field"
+      },
+      {
+        "brands": "Mortgage Direct",
+        "status": 400,
+        "error": "http-400",
+        "detail": "urn:au-cds:error:cds-all:Field/Invalid | Invalid Field | Invalid Field"
+      },
+      {
+        "brands": "Mortgage Street",
+        "status": 200,
+        "error": "invalid-json"
+      },
+      {
+        "brands": "Mortgageway",
+        "status": 400,
+        "error": "http-400",
+        "detail": "urn:au-cds:error:cds-all:Field/Invalid | Invalid Field | Invalid Field"
+      },
+      {
+        "brands": "Origin Mortgage Management Services",
+        "status": 400,
+        "error": "http-400",
+        "detail": "urn:au-cds:error:cds-all:Field/Invalid | Invalid Field | Invalid Field"
+      },
+      {
+        "brands": "Oxygen",
+        "status": 400,
+        "error": "http-400",
+        "detail": "urn:au-cds:error:cds-all:Field/Invalid | Invalid Field | Invalid Field"
+      },
+      {
+        "brands": "Premium Capital Finance",
+        "status": 400,
+        "error": "http-400",
+        "detail": "urn:au-cds:error:cds-all:Field/Invalid | Invalid Field | Invalid Field"
+      },
+      {
+        "brands": "Prime Mortgage Group",
+        "status": 400,
+        "error": "http-400",
+        "detail": "urn:au-cds:error:cds-all:Field/Invalid | Invalid Field | Invalid Field"
+      },
+      {
+        "brands": "Rate Money",
+        "status": 400,
+        "error": "http-400",
+        "detail": "urn:au-cds:error:cds-all:Field/Invalid | Invalid Field | Invalid Field"
+      },
+      {
+        "brands": "Reduce Home Loans",
+        "status": 400,
+        "error": "http-400",
+        "detail": "urn:au-cds:error:cds-all:Field/Invalid | Invalid Field | Invalid Field"
+      },
+      {
+        "brands": "RHG Mortgages",
+        "status": 400,
+        "error": "http-400",
+        "detail": "urn:au-cds:error:cds-all:Field/Invalid | Invalid Field | Invalid Field"
+      },
+      {
+        "brands": "Scene Finance",
+        "status": 400,
+        "error": "http-400",
+        "detail": "urn:au-cds:error:cds-all:Field/Invalid | Invalid Field | Invalid Field"
+      },
+      {
+        "brands": "So Money",
+        "status": 400,
+        "error": "http-400",
+        "detail": "urn:au-cds:error:cds-all:Field/Invalid | Invalid Field | Invalid Field"
+      },
+      {
+        "brands": "State Custodians",
+        "status": 400,
+        "error": "http-400",
+        "detail": "urn:au-cds:error:cds-all:Field/Invalid | Invalid Field | Invalid Field"
+      },
+      {
+        "brands": "Synergy Home Loans",
+        "status": 400,
+        "error": "http-400",
+        "detail": "urn:au-cds:error:cds-all:Field/Invalid | Invalid Field | Invalid Field"
+      },
+      {
+        "brands": "The Sydney Home Loan Centre",
+        "status": 400,
+        "error": "http-400",
+        "detail": "urn:au-cds:error:cds-all:Field/Invalid | Invalid Field | Invalid Field"
+      },
+      {
+        "brands": "Thriday",
+        "status": 0,
+        "error": "ENOTFOUND"
+      },
+      {
+        "brands": "Tradies Finance",
+        "status": 400,
+        "error": "http-400",
+        "detail": "urn:au-cds:error:cds-all:Field/Invalid | Invalid Field | Invalid Field"
+      },
+      {
+        "brands": "WFG",
+        "status": 400,
+        "error": "http-400",
+        "detail": "urn:au-cds:error:cds-all:Field/Invalid | Invalid Field | Invalid Field"
+      },
+      {
+        "brands": "Xin Financial Pty Ltd",
+        "status": 400,
+        "error": "http-400",
+        "detail": "urn:au-cds:error:cds-all:Field/Invalid | Invalid Field | Invalid Field"
+      },
+      {
+        "brands": "Yard Financial",
+        "status": 400,
+        "error": "http-400",
+        "detail": "urn:au-cds:error:cds-all:Field/Invalid | Invalid Field | Invalid Field"
+      },
+      {
+        "brands": "YM Life Pty Ltd",
+        "status": 400,
+        "error": "http-400",
+        "detail": "urn:au-cds:error:cds-all:Field/Invalid | Invalid Field | Invalid Field"
+      },
+      {
+        "brands": "Your Manager",
+        "status": 400,
+        "error": "http-400",
+        "detail": "urn:au-cds:error:cds-all:Field/Invalid | Invalid Field | Invalid Field"
+      }
+    ],
+    "listVersions": {
+      "3": 2,
+      "4": 2,
+      "5": 255
+    },
+    "detailVersions": {
+      "4": 13,
+      "5": 16,
+      "6": 38,
+      "7": 1477
+    },
+    "cors": {
+      "browserReady": 242,
+      "preflightOk": 244,
+      "exposesXv": 108,
+      "checked": 259
+    }
+  },
+  "products": {
+    "byCategory": {
+      "TRANS_AND_SAVINGS_ACCOUNTS": 892,
+      "TERM_DEPOSITS": 654
+    },
+    "detailsOk": 1544,
+    "detailsMissing": 2,
+    "withDepositRates": {
+      "TRANS_AND_SAVINGS_ACCOUNTS": 757,
+      "TERM_DEPOSITS": 646
+    }
+  },
+  "rates": {
+    "rowsByType": {
+      "TRANS_AND_SAVINGS_ACCOUNTS": {
+        "VARIABLE": 1792,
+        "FIXED": 94,
+        "BONUS": 251,
+        "INTRODUCTORY": 41,
+        "BUNDLE_BONUS": 3
+      },
+      "TERM_DEPOSITS": {
+        "FIXED": 6323,
+        "BONUS": 10,
+        "INTRODUCTORY": 33,
+        "MARKET_LINKED": 1,
+        "VARIABLE": 60
+      }
+    },
+    "tierMethods": {
+      "WHOLE_BALANCE": 10116,
+      "PER_TIER": 1027
+    }
+  },
+  "bonus": {
+    "rows": 264,
+    "withStructured": 167,
+    "freeTextOnly": 53,
+    "structuredOnly": 0,
+    "neither": 44,
+    "conditionTypes": {
+      "MAX_WITHDRAWALS": 51,
+      "MIN_DEPOSIT_AMOUNT": 97,
+      "DEPOSIT_BALANCE_INCREASED": 55,
+      "MAX_WITHDRAWAL_AMOUNT": 9,
+      "ONLINE_ONLY": 9,
+      "MIN_PURCHASES": 12,
+      "EXISTING_CUST": 8,
+      "NEW_ACCOUNTS": 4,
+      "NEW_CUSTOMER": 5,
+      "OTHER": 19,
+      "MIN_DEPOSITS": 11
+    }
+  },
+  "flags": [
+    {
+      "code": "DETAIL_MISSING",
+      "description": "In-scope product whose detail request failed",
+      "count": 2,
+      "examples": [
+        "Bank of Sydney — usd_fccy_account: http-406 (PCUA006 | Unsupported Version | Unable to find the version requested in x-v)",
+        "BankSA — BSAFarmManagementDeposit: http-404 (404 | Resource Not Found | Product not found)"
+      ]
+    },
+    {
+      "code": "NO_DEPOSIT_RATES",
+      "description": "Product detail has no depositRates (common for transaction accounts; a problem for savings/TDs)",
+      "count": 141,
+      "examples": [
+        "ANZ — ANZ Business Extra [TRANS_AND_SAVINGS_ACCOUNTS]",
+        "ANZ — ANZ Access Advantage [TRANS_AND_SAVINGS_ACCOUNTS]",
+        "ANZ — ANZ One Offset Account [TRANS_AND_SAVINGS_ACCOUNTS]",
+        "ANZ — ANZ Access Basic [TRANS_AND_SAVINGS_ACCOUNTS]",
+        "ANZ Plus — ANZ Plus Everyday [TRANS_AND_SAVINGS_ACCOUNTS]",
+        "Arab Bank Australia Ltd Prod — Essentials Offset Account [TRANS_AND_SAVINGS_ACCOUNTS]"
+      ]
+    },
+    {
+      "code": "RATE_UNPARSEABLE",
+      "description": "Rate value is not a valid RateString",
+      "count": 0,
+      "examples": []
+    },
+    {
+      "code": "RATE_LOOKS_LIKE_PERCENT",
+      "description": "Rate above 25% — probably published as a percentage (\"5.33\") instead of a fraction (\"0.0533\")",
+      "count": 15,
+      "examples": [
+        "Traditional Credit Union — S1 Everyday Account: VARIABLE rate=\"2.00\"",
+        "Traditional Credit Union — S2 Budget Account: VARIABLE rate=\"2.00\"",
+        "Traditional Credit Union — S24 Business Transaction Account: VARIABLE rate=\"2.00\"",
+        "Traditional Credit Union — S24 Business Transaction Account: VARIABLE rate=\"2.25\"",
+        "Traditional Credit Union — S24 Business Transaction Account: VARIABLE rate=\"0.50\"",
+        "Traditional Credit Union — S24 Business Transaction Account: VARIABLE rate=\"1.00\""
+      ]
+    },
+    {
+      "code": "RATE_NEGATIVE",
+      "description": "Negative rate",
+      "count": 0,
+      "examples": []
+    },
+    {
+      "code": "UNKNOWN_RATE_TYPE",
+      "description": "depositRateType not in the standard",
+      "count": 0,
+      "examples": []
+    },
+    {
+      "code": "DUPLICATE_RATE_ROWS",
+      "description": "Identical rate rows repeated within one product",
+      "count": 0,
+      "examples": []
+    },
+    {
+      "code": "SAVINGS_WITHOUT_BASE",
+      "description": "Savings/transaction product with rates but no base (FIXED/VARIABLE/FLOATING/MARKET_LINKED) rate",
+      "count": 6,
+      "examples": [
+        "Dnister — My Community Saver",
+        "Dnister — iSaver",
+        "IMB Bank — Christmas Club Account",
+        "My State PM Production — Bonus Saver",
+        "Summerland Bank — Bonus Saver",
+        "UBank — Save account"
+      ]
+    },
+    {
+      "code": "INTRO_WITHOUT_DURATION",
+      "description": "INTRODUCTORY rate without an ISO 8601 duration in additionalValue",
+      "count": 4,
+      "examples": [
+        "Bankwest — Bankwest Easy Saver: additionalValue=null",
+        "Bankwest — Bankwest Easy Saver: additionalValue=null",
+        "Bankwest — Bankwest Easy Saver: additionalValue=null",
+        "Bankwest — Bankwest Easy Saver: additionalValue=null"
+      ]
+    },
+    {
+      "code": "TD_RATE_WITHOUT_TERM",
+      "description": "Term-deposit base rate with no determinable term (no duration, no MONTH/DAY tiers)",
+      "count": 126,
+      "examples": [
+        "Bank of China — Term Deposit CNY 3M: FIXED 1.60% Term Deposit CNY 3M",
+        "Bank of China — Term Deposit CNY 6M: FIXED 1.60% Term Deposit CNY 6M",
+        "Bank of China — Term Deposit CNY 12M: FIXED 1.70% Term Deposit CNY 12M",
+        "Bank of China — Special Term Deposit CNY 3M: FIXED 1.60% ",
+        "Bank of China — Special Term Deposit CNY 6M: FIXED 1.60% ",
+        "Bank of China — Special Term Deposit CNY 12M: FIXED 1.70% Special Term Deposit CNY 12M"
+      ]
+    },
+    {
+      "code": "TIER_MAX_ZERO",
+      "description": "Tier maximumValue of 0 (often meant as \"no maximum\")",
+      "count": 58,
+      "examples": [
+        "bcu — Power Saver: tier Floating DOLLAR",
+        "Dnister — Pensioner Savings: tier Pensioner Savings Rate Tier 3 DOLLAR",
+        "My State PM Production — Bonus Saver: tier Base_Rate PERCENT",
+        "RSL Money Prod — RSL Sub-Branch Investment Plus: tier Tier 1 DOLLAR",
+        "RSL Money Prod — RSL Sub-Branch Investment Plus: tier Tier 1 DOLLAR",
+        "RSL Money Prod — RSL Sub-Branch Investment Plus: tier Tier 1 DOLLAR"
+      ]
+    },
+    {
+      "code": "TIER_NUMERIC_VALUES",
+      "description": "Tier min/max sent as numbers instead of strings",
+      "count": 140,
+      "examples": [
+        "Credit Union SA — 55+ Account: tier 55+ Account < $50,000 min=0 max=undefined",
+        "Credit Union SA — 55+ Account: tier 55+ Account $50,000 - $250,000 min=50000 max=undefined",
+        "Credit Union SA — 55+ Account: tier 55+ Account > $250,000 min=250000 max=undefined",
+        "My State PM Production — Ord Minnett - Regular Term Deposit: tier P10M min=10 max=10",
+        "My State PM Production — Ord Minnett - Regular Term Deposit: tier P7M min=7 max=7",
+        "My State PM Production — Ord Minnett - Regular Term Deposit: tier P8M min=8 max=8"
+      ]
+    },
+    {
+      "code": "TIER_LEGACY_CONDITIONS",
+      "description": "Tier applicabilityConditions as a single object (pre-v6 shape)",
+      "count": 3,
+      "examples": [
+        "My State PM Production — Hello Saver account: tier >$500k",
+        "My State PM Production — Hello Saver account: tier <$500k",
+        "My State PM Production — Hello Saver account: tier Welcome Rate"
+      ]
+    },
+    {
+      "code": "BONUS_FREE_TEXT_ONLY",
+      "description": "Bonus rate whose conditions exist only as free text",
+      "count": 53,
+      "examples": [
+        "AMB Bank Product  — Online Saver: The bonus interest rate is applicable to the full account balance when you maintain a balance between $0 and $500,000 a…",
+        "A-Auswide Bank — BONUS PLUS SAVER: BONUS / Make at least 1 deposit, credit transfer or electronic credit to the account in the calendar month. Make no wit…",
+        "A-Auswide Bank — BONUS PLUS SAVER: BONUS / Make at least 1 deposit, credit transfer or electronic credit to the account in the calendar month. Make no wit…",
+        "A-Auswide Bank — ZIGGY KIDS SAVER: BONUS / Make at least 1 deposit, credit transfer or electronic credit to the account in the calendar month. Make no wit…",
+        "A-Auswide Bank — ZIGGY KIDS SAVER: BONUS / Make at least 1 deposit, credit transfer or electronic credit to the account in the calendar month. Make no wit…",
+        "Bank of China — Term Deposit AUD 1M: Term Deposit AUD 1M,Rollover Bonus Rate, when your 1 month term deposit auto rollover to the new term."
+      ]
+    },
+    {
+      "code": "HEADLINE_IMPLAUSIBLE",
+      "description": "Base + bonus above 9% — likely a \"total rate\" bonus double-counted, or bad data",
+      "count": 10,
+      "examples": [
+        "Bankwest — Bankwest Easy Saver: base 11.50% + bonus 0.20%",
+        "Defence Bank Limited — Salute Account: base 4.25% + bonus 6.00%",
+        "Traditional Credit Union — S1 Everyday Account: base 200.00% + bonus —",
+        "Traditional Credit Union — S2 Budget Account: base 200.00% + bonus —",
+        "Traditional Credit Union — S24 Business Transaction Account: base 225.00% + bonus —",
+        "Traditional Credit Union — S28 Benevolent Account: base 225.00% + bonus —"
+      ]
+    }
+  ],
+  "topSavings": [
+    {
+      "brand": "Traditional Credit Union",
+      "product": "S24 Business Transaction Account",
+      "productId": "TCU0024",
+      "base": 2.25,
+      "bonus": null,
+      "intro": null,
+      "headline": 2.25,
+      "note": ""
+    },
+    {
+      "brand": "Traditional Credit Union",
+      "product": "S28 Benevolent Account",
+      "productId": "TCU0028",
+      "base": 2.25,
+      "bonus": null,
+      "intro": null,
+      "headline": 2.25,
+      "note": ""
+    },
+    {
+      "brand": "Traditional Credit Union",
+      "product": "S3 Christmas Club Account",
+      "productId": "TCU003",
+      "base": 2.25,
+      "bonus": null,
+      "intro": null,
+      "headline": 2.25,
+      "note": ""
+    },
+    {
+      "brand": "Traditional Credit Union",
+      "product": "S4 Family/Clan/Group Account",
+      "productId": "TCU004",
+      "base": 2.25,
+      "bonus": null,
+      "intro": null,
+      "headline": 2.25,
+      "note": ""
+    },
+    {
+      "brand": "Traditional Credit Union",
+      "product": "S1 Everyday Account",
+      "productId": "TCU001",
+      "base": 2,
+      "bonus": null,
+      "intro": null,
+      "headline": 2,
+      "note": ""
+    },
+    {
+      "brand": "Traditional Credit Union",
+      "product": "S2 Budget Account",
+      "productId": "TCU002",
+      "base": 2,
+      "bonus": null,
+      "intro": null,
+      "headline": 2,
+      "note": ""
+    },
+    {
+      "brand": "Traditional Credit Union",
+      "product": "S6 Student Account",
+      "productId": "TCU006",
+      "base": 2,
+      "bonus": null,
+      "intro": null,
+      "headline": 2,
+      "note": ""
+    },
+    {
+      "brand": "Traditional Credit Union",
+      "product": "S9 Child account",
+      "productId": "TCU009",
+      "base": 2,
+      "bonus": null,
+      "intro": null,
+      "headline": 2,
+      "note": ""
+    },
+    {
+      "brand": "Bankwest",
+      "product": "Bankwest Easy Saver",
+      "productId": "d10438974ab8417bab388149da5053bb",
+      "base": 0.115,
+      "bonus": 0.002,
+      "intro": 0.027,
+      "headline": 0.14400000000000002,
+      "note": "4 bonus rows"
+    },
+    {
+      "brand": "Revolut",
+      "product": "Revolut Instant Access Savings",
+      "productId": "550e8400-e29b-41d4-a716-446655440003",
+      "base": 0.0555,
+      "bonus": null,
+      "intro": 0.065,
+      "headline": 0.1205,
+      "note": ""
+    },
+    {
+      "brand": "Rabobank",
+      "product": "High Interest Savings Account",
+      "productId": "c84e2ce6-f927-4783-aa0d-84073bc090f7",
+      "base": 0.043,
+      "bonus": null,
+      "intro": 0.064,
+      "headline": 0.107,
+      "note": ""
+    },
+    {
+      "brand": "Defence Bank Limited",
+      "product": "Salute Account",
+      "productId": "119",
+      "base": 0.0425,
+      "bonus": 0.06,
+      "intro": null,
+      "headline": 0.10250000000000001,
+      "note": ""
+    },
+    {
+      "brand": "Rabobank",
+      "product": "High Interest Savings Account (SMSF)",
+      "productId": "7d432ded-374d-4c05-98c4-66da8f64aa8c",
+      "base": 0.0375,
+      "bonus": null,
+      "intro": 0.059,
+      "headline": 0.0965,
+      "note": ""
+    },
+    {
+      "brand": "BNK Bank (Goldfields Money/BCHL)",
+      "product": "Cash Management Account",
+      "productId": "1003",
+      "base": 0.045,
+      "bonus": null,
+      "intro": 0.051,
+      "headline": 0.096,
+      "note": ""
+    },
+    {
+      "brand": "Rabobank",
+      "product": "High Interest Savings Account (Business)",
+      "productId": "4d469d2c-520e-49dd-89bb-0613458c4376",
+      "base": 0.037,
+      "bonus": null,
+      "intro": 0.058,
+      "headline": 0.095,
+      "note": ""
+    },
+    {
+      "brand": "Rabobank",
+      "product": "High Interest Savings Account (Trust)",
+      "productId": "5715ac80-c738-4b37-9ad1-3735853107aa",
+      "base": 0.037,
+      "bonus": null,
+      "intro": 0.058,
+      "headline": 0.095,
+      "note": ""
+    },
+    {
+      "brand": "Bank of Queensland",
+      "product": "Business WebSavings Account",
+      "productId": "18906e88-5c03-ee11-8f6e-00224814d330",
+      "base": 0.015,
+      "bonus": null,
+      "intro": 0.05,
+      "headline": 0.065,
+      "note": ""
+    },
+    {
+      "brand": "ING BANK (Australia) Ltd",
+      "product": "Savings Booster",
+      "productId": "68a5c23f-36d8-42fe-b55b-a4849b815448",
+      "base": 0.0275,
+      "bonus": 0.0315,
+      "intro": 0.006,
+      "headline": 0.065,
+      "note": ""
+    },
+    {
+      "brand": "UBank",
+      "product": "Save account",
+      "productId": "1",
+      "base": null,
+      "bonus": 0.056,
+      "intro": 0.009,
+      "headline": 0.065,
+      "note": "4 bonus rows"
+    },
+    {
+      "brand": "Summerland Bank",
+      "product": "iSave Online",
+      "productId": "3",
+      "base": 0.0075,
+      "bonus": null,
+      "intro": 0.057,
+      "headline": 0.0645,
+      "note": ""
+    },
+    {
+      "brand": "Bank of Queensland",
+      "product": "Future Saver Account",
+      "productId": "1c906e88-5c03-ee11-8f6e-00224814d330",
+      "base": 0.0005,
+      "bonus": 0.062,
+      "intro": null,
+      "headline": 0.0625,
+      "note": "2 bonus rows"
+    },
+    {
+      "brand": "Newcastle Permanent",
+      "product": "Smart Saver Account (under 25)",
+      "productId": "AC_smartsaveryouth",
+      "base": 0.0005,
+      "bonus": 0.062,
+      "intro": null,
+      "headline": 0.0625,
+      "note": "4 bonus rows"
+    },
+    {
+      "brand": "Bank Australia",
+      "product": "Bonus Saver",
+      "productId": "49f8431a-85a3-4867-845f-dd620d13fd7b",
+      "base": 0.001,
+      "bonus": 0.055,
+      "intro": 0.005,
+      "headline": 0.061,
+      "note": "3 bonus rows"
+    },
+    {
+      "brand": "Defence Bank Limited",
+      "product": "iSaver",
+      "productId": "117",
+      "base": 0.005,
+      "bonus": 0.056,
+      "intro": null,
+      "headline": 0.061,
+      "note": ""
+    },
+    {
+      "brand": "RACQ Bank",
+      "product": "Bonus Saver Account",
+      "productId": "404",
+      "base": 0.0001,
+      "bonus": 0.06,
+      "intro": null,
+      "headline": 0.0601,
+      "note": "2 bonus rows"
+    }
+  ],
+  "topTd12": [
+    {
+      "brand": "UNITY BANK",
+      "product": "Term Deposit",
+      "productId": "I30_ALL_TERMS",
+      "base": 0.058,
+      "bonus": null,
+      "intro": null,
+      "headline": 0.058,
+      "note": "at maturity; Term Deposit_Tier: $1,000–$9,999,999 (WHOLE_BALANCE); Term Deposit_Tier: 12 month–12 month (WHOLE_BALANCE)"
+    },
+    {
+      "brand": "Suncorp Bank",
+      "product": "Term Deposit",
+      "productId": "TD",
+      "base": 0.0575,
+      "bonus": null,
+      "intro": null,
+      "headline": 0.0575,
+      "note": "at maturity; $5,000 to $99,999: $5,000–$99,999 (WHOLE_BALANCE)"
+    },
+    {
+      "brand": "AMP Bank GO",
+      "product": "AMP Bank GO 12 Month Business Term Deposit",
+      "productId": "28281a03-41e7-4995-a869-9d6524d63823",
+      "base": 0.057,
+      "bonus": null,
+      "intro": null,
+      "headline": 0.057,
+      "note": "at maturity"
+    },
+    {
+      "brand": "AMP Bank GO",
+      "product": "AMP Bank GO 12 Month Term Deposit",
+      "productId": "282bc819-b61b-4233-b53b-290808bcb9f3",
+      "base": 0.057,
+      "bonus": null,
+      "intro": null,
+      "headline": 0.057,
+      "note": "at maturity"
+    },
+    {
+      "brand": "Heartland Bank",
+      "product": "Term Deposit",
+      "productId": "TD01.1",
+      "base": 0.0562,
+      "bonus": null,
+      "intro": null,
+      "headline": 0.0562,
+      "note": "at maturity; Term: 12 month–12 month (WHOLE_BALANCE); Amount: $5,000–∞ (WHOLE_BALANCE)"
+    },
+    {
+      "brand": "Community First Credit Union",
+      "product": "12 Month Term Deposit Special",
+      "productId": "12_TERM_DEPOSIT_MTH_SPECIAL",
+      "base": 0.056,
+      "bonus": null,
+      "intro": null,
+      "headline": 0.056,
+      "note": "P12M; 12 Month Term Deposit Special_Tier: $10,000–$2,000,000 (WHOLE_BALANCE); 12 Month Term Deposit Special_Tier: 12 month–12 month (WHOLE_BALANCE)"
+    },
+    {
+      "brand": "WARWICK CREDIT UNION",
+      "product": "FIXED TERM DEPOSITS",
+      "productId": "I2_12M_$200,000_plus",
+      "base": 0.056,
+      "bonus": null,
+      "intro": null,
+      "headline": 0.056,
+      "note": "at maturity; FIXED TERM DEPOSITS_Tier: $200,000–$500,000 (WHOLE_BALANCE); FIXED TERM DEPOSITS_Tier: 12 month–12 month (WHOLE_BALANCE)"
+    },
+    {
+      "brand": "QBANK",
+      "product": "Term Deposit 12 Month",
+      "productId": "I12_Term_12",
+      "base": 0.056,
+      "bonus": null,
+      "intro": null,
+      "headline": 0.056,
+      "note": "at maturity; Term Deposit 12 Month_Tier_3: $250,000–$9,999,999 (WHOLE_BALANCE); Term Deposit 12 Month_Tier_3: 12 month–12 month (WHOLE_BALANCE)"
+    },
+    {
+      "brand": "Heartland Bank",
+      "product": "Term Deposit - Business",
+      "productId": "TD02.1",
+      "base": 0.0557,
+      "bonus": null,
+      "intro": null,
+      "headline": 0.0557,
+      "note": "at maturity; Amount: $50,000–∞ (WHOLE_BALANCE); Term: 12 month–12 month (WHOLE_BALANCE)"
+    },
+    {
+      "brand": "Bank Australia",
+      "product": "Term Deposit 12 months",
+      "productId": "644d03e6-be3c-4d25-a6d3-31f3467b5dd9",
+      "base": 0.0555,
+      "bonus": null,
+      "intro": null,
+      "headline": 0.0555,
+      "note": "at maturity; Term Deposit 12 months - $500-$1m - Balance: $500–$1,000,000 (WHOLE_BALANCE)"
+    },
+    {
+      "brand": "Bank First Production",
+      "product": "Preschool Long Service Leave 1 Year Term Deposit",
+      "productId": "01b75f79-4873-4db3-9773-d79095a3426d",
+      "base": 0.0555,
+      "bonus": null,
+      "intro": null,
+      "headline": 0.0555,
+      "note": "at maturity"
+    },
+    {
+      "brand": "Bank First Production",
+      "product": "1 Year Term Deposit",
+      "productId": "993169e5-0490-4e85-a2c9-011f3c689e97",
+      "base": 0.0555,
+      "bonus": null,
+      "intro": null,
+      "headline": 0.0555,
+      "note": "at maturity; 1 Year Term Deposit: 365 day–365 day (WHOLE_BALANCE); 1 Year Term Deposit: $500.01–$9,999,999.99 (WHOLE_BALANCE)"
+    },
+    {
+      "brand": "Dnister",
+      "product": "Term Deposit - 12 Months",
+      "productId": "12",
+      "base": 0.0555,
+      "bonus": null,
+      "intro": null,
+      "headline": 0.0555,
+      "note": "at maturity; Interest Rate: $1,000–$1,000,000 (PER_TIER)"
+    },
+    {
+      "brand": "Heartland Bank",
+      "product": "Broker Term Deposit",
+      "productId": "TD03.1",
+      "base": 0.0555,
+      "bonus": null,
+      "intro": null,
+      "headline": 0.0555,
+      "note": "at maturity; Term: 12 month–12 month (WHOLE_BALANCE); Amount: $10,000–$2,000,000 (WHOLE_BALANCE)"
+    },
+    {
+      "brand": "Heartland Bank",
+      "product": "Broker Term Deposit - Business",
+      "productId": "TD04.1",
+      "base": 0.0555,
+      "bonus": null,
+      "intro": null,
+      "headline": 0.0555,
+      "note": "at maturity; Amount: $10,000–$2,000,000 (WHOLE_BALANCE); Term: 12 month–12 month (WHOLE_BALANCE)"
+    }
+  ],
+  "td12Coverage": {
+    "products": 646,
+    "with12m": 192
+  },
+  "extraction": {
+    "model": "claude-haiku-5-5",
+    "apiKey": "unverified",
+    "items": 258,
+    "extracted": 0,
+    "failed": 258,
+    "cached": 0,
+    "called": 258,
+    "conditionTypes": {},
+    "rateSemantics": {},
+    "confidence": {},
+    "agreement": {
+      "itemsWithStructured": 0,
+      "fullRecall": 0,
+      "meanRecall": null
+    },
+    "lowConfidenceExamples": []
+  }
+}

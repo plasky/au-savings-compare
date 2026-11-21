@@ -1,0 +1,911 @@
+{
+  "endpoint": "https://openbanking.cairnsbank.com.au/OpenBanking/cds-au/v1/banking/products",
+  "slug": "cairns-bank-097ca6",
+  "brands": [
+    {
+      "dataHolderBrandId": "79c63de1-b77b-eb11-a820-000d3a884a20",
+      "brandName": "Cairns bank",
+      "brandGroup": null,
+      "abn": "68087933757",
+      "industries": [
+        "banking"
+      ]
+    }
+  ],
+  "list": {
+    "ok": true,
+    "status": 200,
+    "version": "4",
+    "totalPages": 1,
+    "pagesFetched": 1,
+    "productCount": 90,
+    "categoryCounts": {
+      "TRANS_AND_SAVINGS_ACCOUNTS": 7,
+      "OVERDRAFTS": 2,
+      "PERS_LOANS": 3,
+      "BUSINESS_LOANS": 1,
+      "RESIDENTIAL_MORTGAGES": 72,
+      "TERM_DEPOSITS": 5
+    }
+  },
+  "products": [
+    {
+      "productId": "I1_12M_UNDER_500K",
+      "productCategory": "TERM_DEPOSITS",
+      "detail": {
+        "constraints": [
+          {
+            "constraintType": "MIN_BALANCE",
+            "additionalValue": "1,000"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0125",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "tiers": [
+              {
+                "name": "Term deposits 12mths under $500,000_Tier",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "1000000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term deposits 12mths under $500,000_Tier",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "1",
+                "maximumValue": "2",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P2M",
+            "additionalInfoUri": "https://cairnsbank.com.au/banking/personal-banking/rates"
+          }
+        ],
+        "productId": "I1_12M_UNDER_500K",
+        "lastUpdated": "2026-10-23T10:38:18.000+10:00",
+        "productCategory": "TERM_DEPOSITS",
+        "name": "Term deposits 12mths under $500,000",
+        "description": "Cairns Bank term deposits pay a fixed rate of interest for a fixed term with interest paid at maturity.",
+        "brand": "CAIRNS PENNY SAVINGS LOANS LTD",
+        "brandName": "Cairns Bank",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://cairnsbank.com.au/banking/personal-banking/term-deposit-account",
+          "termsUri": "https://cairnsbank.com.au/information-and-support/disclosure/terms-conditions",
+          "feesAndPricingUri": "https://cairnsbank.com.au/information-and-support/disclosure/fees-and-charges"
+        }
+      },
+      "detailStatus": 200,
+      "detailVersion": "6"
+    },
+    {
+      "productId": "I1_1M_UNDER_500K",
+      "productCategory": "TERM_DEPOSITS",
+      "detail": {
+        "constraints": [
+          {
+            "constraintType": "MIN_BALANCE",
+            "additionalValue": "1,000"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0525",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "tiers": [
+              {
+                "name": "Term deposits 1mth under $500,000_Tier",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "1000000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term deposits 1mth under $500,000_Tier",
+                "unitOfMeasure": "DAY",
+                "minimumValue": "365",
+                "maximumValue": "729",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P729D",
+            "additionalInfoUri": "https://cairnsbank.com.au/banking/personal-banking/rates"
+          }
+        ],
+        "productId": "I1_1M_UNDER_500K",
+        "lastUpdated": "2026-10-23T10:45:14.000+10:00",
+        "productCategory": "TERM_DEPOSITS",
+        "name": "Term deposits 1mth under $500,000",
+        "description": "Cairns Bank term deposits pay a fixed rate of interest for a fixed term with interest paid at maturity.",
+        "brand": "CAIRNS PENNY SAVINGS LOANS LTD",
+        "brandName": "Cairns Bank",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://cairnsbank.com.au/banking/personal-banking/term-deposit-account",
+          "termsUri": "https://cairnsbank.com.au/information-and-support/disclosure/terms-conditions",
+          "feesAndPricingUri": "https://cairnsbank.com.au/information-and-support/disclosure/fees-and-charges"
+        }
+      },
+      "detailStatus": 200,
+      "detailVersion": "6"
+    },
+    {
+      "productId": "I1_24M_UNDER_500K",
+      "productCategory": "TERM_DEPOSITS",
+      "detail": {
+        "constraints": [
+          {
+            "constraintType": "MIN_BALANCE",
+            "additionalValue": "1,000"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0375",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "tiers": [
+              {
+                "name": "Term deposits 24mths under $500,000_Tier",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "1000000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term deposits 24mths under $500,000_Tier",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "3",
+                "maximumValue": "5",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P5M",
+            "additionalInfoUri": "https://cairnsbank.com.au/banking/personal-banking/rates"
+          }
+        ],
+        "productId": "I1_24M_UNDER_500K",
+        "lastUpdated": "2026-10-23T10:38:18.000+10:00",
+        "productCategory": "TERM_DEPOSITS",
+        "name": "Term deposits 24mths under $500,000",
+        "description": "Cairns Bank term deposits pay a fixed rate of interest for a fixed term with interest paid at maturity.",
+        "brand": "CAIRNS PENNY SAVINGS LOANS LTD",
+        "brandName": "Cairns Bank",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://cairnsbank.com.au/banking/personal-banking/term-deposit-account",
+          "termsUri": "https://cairnsbank.com.au/information-and-support/disclosure/terms-conditions",
+          "feesAndPricingUri": "https://cairnsbank.com.au/information-and-support/disclosure/fees-and-charges"
+        }
+      },
+      "detailStatus": 200,
+      "detailVersion": "6"
+    },
+    {
+      "productId": "I1_3M_UNDER_500K",
+      "productCategory": "TERM_DEPOSITS",
+      "detail": {
+        "constraints": [
+          {
+            "constraintType": "MIN_BALANCE",
+            "additionalValue": "1,000"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.05",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "tiers": [
+              {
+                "name": "Term deposits 3mths under $500,000_Tier",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "1000000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term deposits 3mths under $500,000_Tier",
+                "unitOfMeasure": "DAY",
+                "minimumValue": "730",
+                "maximumValue": "1094",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P1094D",
+            "additionalInfoUri": "https://cairnsbank.com.au/banking/personal-banking/rates"
+          }
+        ],
+        "productId": "I1_3M_UNDER_500K",
+        "lastUpdated": "2026-10-23T10:45:14.000+10:00",
+        "productCategory": "TERM_DEPOSITS",
+        "name": "Term deposits 3mths under $500,000",
+        "description": "Cairns Bank term deposits pay a fixed rate of interest for a fixed term with interest paid at maturity.",
+        "brand": "CAIRNS PENNY SAVINGS LOANS LTD",
+        "brandName": "Cairns Bank",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://cairnsbank.com.au/banking/personal-banking/term-deposit-account",
+          "termsUri": "https://cairnsbank.com.au/information-and-support/disclosure/terms-conditions",
+          "feesAndPricingUri": "https://cairnsbank.com.au/information-and-support/disclosure/fees-and-charges"
+        }
+      },
+      "detailStatus": 200,
+      "detailVersion": "6"
+    },
+    {
+      "productId": "I99_12M_OVER_500K",
+      "productCategory": "TERM_DEPOSITS",
+      "detail": {
+        "constraints": [
+          {
+            "constraintType": "MIN_BALANCE",
+            "additionalValue": "1,000"
+          },
+          {
+            "constraintType": "MAX_BALANCE",
+            "additionalValue": "1,000,000"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.05",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "Term deposits 12mths over $500,000 mthly interest_Tier",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "1000000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term deposits 12mths over $500,000 mthly interest_Tier",
+                "unitOfMeasure": "DAY",
+                "minimumValue": "365",
+                "maximumValue": "729",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P729D",
+            "additionalInfoUri": "https://cairnsbank.com.au/banking/personal-banking/rates"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0475",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "Term deposits 12mths over $500,000 mthly interest_Tier",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "1000000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term deposits 12mths over $500,000 mthly interest_Tier",
+                "unitOfMeasure": "DAY",
+                "minimumValue": "730",
+                "maximumValue": "1094",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P1094D",
+            "additionalInfoUri": "https://cairnsbank.com.au/banking/personal-banking/rates"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0375",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "Term deposits 12mths over $500,000 mthly interest_Tier",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "1000000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term deposits 12mths over $500,000 mthly interest_Tier",
+                "unitOfMeasure": "DAY",
+                "minimumValue": "1095",
+                "maximumValue": "1096",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P1096D",
+            "additionalInfoUri": "https://cairnsbank.com.au/banking/personal-banking/rates"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.05",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "Term deposits 12mths over $500,000 mthly interest_Tier",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "1000000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term deposits 12mths over $500,000 mthly interest_Tier",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "12",
+                "maximumValue": "23",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P23M",
+            "additionalInfoUri": "https://cairnsbank.com.au/banking/personal-banking/rates"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0475",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "Term deposits 12mths over $500,000 mthly interest_Tier",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "1000000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term deposits 12mths over $500,000 mthly interest_Tier",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "24",
+                "maximumValue": "35",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P35M",
+            "additionalInfoUri": "https://cairnsbank.com.au/banking/personal-banking/rates"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0375",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "Term deposits 12mths over $500,000 mthly interest_Tier",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "1000000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term deposits 12mths over $500,000 mthly interest_Tier",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "36",
+                "maximumValue": "36",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P36M",
+            "additionalInfoUri": "https://cairnsbank.com.au/banking/personal-banking/rates"
+          }
+        ],
+        "productId": "I99_12M_OVER_500K",
+        "lastUpdated": "2026-10-23T10:45:14.000+10:00",
+        "productCategory": "TERM_DEPOSITS",
+        "name": "Term deposits 12mths over $500,000 mthly interest",
+        "description": "Cairns Bank term deposits pay a fixed rate of interest for a fixed term with interest paid monthly.",
+        "brand": "CAIRNS PENNY SAVINGS LOANS LTD",
+        "brandName": "Cairns Bank",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://cairnsbank.com.au/banking/personal-banking/term-deposit-account",
+          "termsUri": "https://cairnsbank.com.au/information-and-support/disclosure/terms-conditions"
+        }
+      },
+      "detailStatus": 200,
+      "detailVersion": "6"
+    },
+    {
+      "productId": "S16",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "features": [
+          {
+            "featureType": "FREE_TXNS",
+            "additionalInfoUri": "https://cairnsbank.com.au/information-and-support/disclosure/"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "NATURAL_PERSON"
+          },
+          {
+            "eligibilityType": "MAX_AGE",
+            "additionalValue": "18",
+            "additionalInfoUri": "https://cairnsbank.com.au/information-and-support/disclosure/"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.032",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "Childrens saver account_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "0.00",
+                "maximumValue": "2000.00",
+                "rateApplicationMethod": "PER_TIER"
+              }
+            ]
+          },
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.006",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "Childrens saver account_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "2000.01",
+                "rateApplicationMethod": "PER_TIER"
+              }
+            ]
+          }
+        ],
+        "productId": "S16",
+        "lastUpdated": "2026-10-23T10:48:35.000+10:00",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "name": "Childrens saver account",
+        "description": "Cairns Bank's Kids Saver is a children's savings account to encourage children to develop good savings habits",
+        "brand": "CAIRNS PENNY SAVINGS LOANS LTD",
+        "brandName": "Cairns Bank",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://cairnsbank.com.au/banking/savings-accounts/kids-saver/",
+          "termsUri": "https://cairnsbank.com.au/information-and-support/disclosure/",
+          "eligibilityUri": "https://cairnsbank.com.au/information-and-support/disclosure/",
+          "feesAndPricingUri": "https://cairnsbank.com.au/information-and-support/disclosure/fees-and-charges/"
+        }
+      },
+      "detailStatus": 200,
+      "detailVersion": "6"
+    },
+    {
+      "productId": "S21",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "features": [
+          {
+            "featureType": "CARD_ACCESS"
+          },
+          {
+            "featureType": "DIGITAL_BANKING"
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "OPENING_BALANCE",
+            "additionalInfoUri": "https://cairnsbank.com.au/information-and-support/disclosure/"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "NATURAL_PERSON"
+          }
+        ],
+        "fees": [
+          {
+            "name": "DIRECT_DEBITS_AND_EXTERNAL_TRANSFERS",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "1.00"
+            },
+            "currency": "AUD",
+            "additionalInfoUri": "https://cairnsbank.com.au/information-and-support/disclosure/fees-and-charges"
+          },
+          {
+            "name": "ATM_TRANSACTIONS",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "1.00"
+            },
+            "currency": "AUD",
+            "additionalInfoUri": "https://cairnsbank.com.au/information-and-support/disclosure/fees-and-charges"
+          },
+          {
+            "name": "VISA_DEBIT_CARD",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "30.00"
+            },
+            "currency": "AUD",
+            "additionalInfoUri": "https://cairnsbank.com.au/information-and-support/disclosure/fees-and-charges"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P3M"
+          }
+        ],
+        "productId": "S21",
+        "lastUpdated": "2025-07-03T09:16:59.000+10:00",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "name": "Everyday transaction account",
+        "description": "A day to day transaction account for personal use",
+        "brand": "CAIRNS PENNY SAVINGS LOANS LTD",
+        "brandName": "Cairns Bank",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://cairnsbank.com.au/banking/transaction-accounts/everyday-account/",
+          "termsUri": "https://cairnsbank.com.au/information-and-support/disclosure//",
+          "feesAndPricingUri": "https://cairnsbank.com.au/information-and-support/disclosure/fees-and-charges/"
+        }
+      },
+      "detailStatus": 200,
+      "detailVersion": "6"
+    },
+    {
+      "productId": "S3",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "features": [
+          {
+            "featureType": "CARD_ACCESS"
+          },
+          {
+            "featureType": "DIGITAL_BANKING"
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "MAX_BALANCE",
+            "additionalValue": "100000.00",
+            "additionalInfo": "Where the Plus product is selected, the maximum reduction of the balance owing which will be allowed is $100,000 in aggregate.",
+            "additionalInfoUri": "https://cairnsbank.com.au/classic-vs-plus/"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "OTHER",
+            "additionalInfo": "Offset account only available with the L25 Plus Home Loan product"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M"
+          }
+        ],
+        "productId": "S3",
+        "lastUpdated": "2025-07-03T09:18:22.000+10:00",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "name": "Loan offset account",
+        "description": "A 100% offset account for home loan customers",
+        "brand": "CAIRNS PENNY SAVINGS LOANS LTD",
+        "brandName": "Cairns Bank",
+        "isTailored": false,
+        "additionalInformation": {
+          "termsUri": "https://cairnsbank.com.au/information-and-support/disclosure/",
+          "feesAndPricingUri": "https://cairnsbank.com.au/information-and-support/disclosure/fees-and-charges/"
+        }
+      },
+      "detailStatus": 200,
+      "detailVersion": "6"
+    },
+    {
+      "productId": "S5",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "features": [
+          {
+            "featureType": "CARD_ACCESS"
+          },
+          {
+            "featureType": "DIGITAL_BANKING"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Cheque book access"
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "OPENING_BALANCE",
+            "additionalInfo": "Min deposit $500 with cheque book access",
+            "additionalInfoUri": "https://cairnsbank.com.au/information-and-support/disclosure/"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "PENSION_RECIPIENT",
+            "additionalInfo": "Recipents of Age and Disability Pensions",
+            "additionalInfoUri": "https://cairnsbank.com.au/information-and-support/disclosure/"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0005",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P12M",
+            "tiers": [
+              {
+                "name": "Pensioner Account_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "0.00",
+                "maximumValue": "10000.00",
+                "rateApplicationMethod": "PER_TIER"
+              }
+            ],
+            "additionalInfoUri": "https://cairnsbank.com.au/banking/rates/"
+          },
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.017",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P12M",
+            "tiers": [
+              {
+                "name": "Pensioner Account_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "10000.01",
+                "maximumValue": "50000.00",
+                "rateApplicationMethod": "PER_TIER"
+              }
+            ],
+            "additionalInfoUri": "https://cairnsbank.com.au/banking/rates/"
+          },
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.03",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P12M",
+            "tiers": [
+              {
+                "name": "Pensioner Account_Tier_3",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "50000.01",
+                "rateApplicationMethod": "PER_TIER"
+              }
+            ],
+            "additionalInfoUri": "https://cairnsbank.com.au/banking/rates/"
+          }
+        ],
+        "productId": "S5",
+        "lastUpdated": "2026-10-23T10:49:28.000+10:00",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "name": "Pensioner Account",
+        "description": "A full transaction account designed for recipients of aged or disability pensions",
+        "brand": "CAIRNS PENNY SAVINGS LOANS LTD",
+        "brandName": "Cairns Bank",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://cairnsbank.com.au/banking/transaction-accounts/pensioner-account/",
+          "termsUri": "https://cairnsbank.com.au/information-and-support/disclosure/",
+          "eligibilityUri": "https://cairnsbank.com.au/information-and-support/disclosure/",
+          "feesAndPricingUri": "https://cairnsbank.com.au/information-and-support/disclosure/fees-and-charges/"
+        }
+      },
+      "detailStatus": 200,
+      "detailVersion": "6"
+    },
+    {
+      "productId": "S6",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "features": [
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Funds available to withdraw 1st Nov to 31st Dec each year"
+          },
+          {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": "Available from 1st Nov to 31 Dec each year"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "OTHER",
+            "additionalInfo": "1 Free withdrawal per year outside 1 November - 31st December",
+            "additionalInfoUri": "https://cairnsbank.com.au/information-and-support/disclosure/fees-and-charges/"
+          }
+        ],
+        "fees": [
+          {
+            "name": "EXCESS_WITHDRAWAL_FEE",
+            "feeType": "WITHDRAWAL",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "10.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "1 free withdrawal per year - applies outside 1st November - 31st December",
+            "additionalInfoUri": "https://cairnsbank.com.au/information-and-support/disclosure/fees-and-charges/"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0225",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P12M",
+            "additionalInfoUri": "https://cairnsbank.com.au/banking/rates/"
+          }
+        ],
+        "productId": "S6",
+        "lastUpdated": "2026-10-23T10:50:14.000+10:00",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "name": "Christmas Saver Account",
+        "description": "An account to help you save for Christmas",
+        "brand": "CAIRNS PENNY SAVINGS LOANS LTD",
+        "brandName": "Cairns Bank",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://cairnsbank.com.au/banking/savings-accounts/christmas-saver/",
+          "termsUri": "https://cairnsbank.com.au/information-and-support/disclosure/",
+          "feesAndPricingUri": "https://cairnsbank.com.au/information-and-support/disclosure/fees-and-charges/"
+        }
+      },
+      "detailStatus": 200,
+      "detailVersion": "6"
+    },
+    {
+      "productId": "S7",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "features": [
+          {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": "Restricted to transfer (by Internet Banking) to a nominated Cairns Bank transaction acount",
+            "additionalInfoUri": "https://cairnsbank.com.au/information-and-support/disclosure/"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "Online Saver account_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "0.00",
+                "maximumValue": "1999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalInfoUri": "https://cairnsbank.com.au/banking/rates/"
+          },
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.03",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "Online Saver account_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "2000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalInfoUri": "https://cairnsbank.com.au/banking/rates/"
+          }
+        ],
+        "productId": "S7",
+        "lastUpdated": "2026-10-23T10:47:39.000+10:00",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "name": "Online Saver account",
+        "description": "An online only savings account attached to your transaction account",
+        "brand": "CAIRNS PENNY SAVINGS LOANS LTD",
+        "brandName": "Cairns Bank",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://cairnsbank.com.au/banking/savings-accounts/online-saver/",
+          "termsUri": "https://cairnsbank.com.au/information-and-support/disclosure/",
+          "feesAndPricingUri": "https://cairnsbank.com.au/information-and-support/disclosure/fees-and-charges/"
+        }
+      },
+      "detailStatus": 200,
+      "detailVersion": "6"
+    },
+    {
+      "productId": "S8",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "features": [
+          {
+            "featureType": "CARD_ACCESS"
+          },
+          {
+            "featureType": "DIGITAL_BANKING"
+          },
+          {
+            "featureType": "OVERDRAFT",
+            "additionalInfo": "Subject to credit assessment, terms and conditions apply",
+            "additionalInfoUri": "https://cairnsbank.com.au/banking/business-banking/secured-overdrafts/"
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "OPENING_BALANCE",
+            "additionalInfo": "Min deposit $500 with cheque book access",
+            "additionalInfoUri": "https://cairnsbank.com.au/information-and-support/disclosure/"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "BUSINESS",
+            "additionalInfoUri": "https://cairnsbank.com.au/information-and-support/disclosure/"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0001",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "additionalInfoUri": "https://cairnsbank.com.au/banking/business-banking/business-account/"
+          }
+        ],
+        "productId": "S8",
+        "lastUpdated": "2026-11-06T07:43:32.000+10:00",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "name": "Business account",
+        "description": "A transaction account for business purposes",
+        "brand": "CAIRNS PENNY SAVINGS LOANS LTD",
+        "brandName": "Cairns Bank",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://cairnsbank.com.au/banking/business-banking/business-account/",
+          "termsUri": "https://cairnsbank.com.au/information-and-support/disclosure/",
+          "feesAndPricingUri": "https://cairnsbank.com.au/information-and-support/disclosure/fees-and-charges/"
+        }
+      },
+      "detailStatus": 200,
+      "detailVersion": "6"
+    }
+  ]
+}

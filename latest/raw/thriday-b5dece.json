@@ -1,0 +1,26 @@
+{
+  "endpoint": "https://public.cdr.thriday.com.au/cds-au/v1/banking/products",
+  "slug": "thriday-b5dece",
+  "brands": [
+    {
+      "dataHolderBrandId": "216813c9-21c6-ec11-a82e-000d3a8830d6",
+      "brandName": "Thriday",
+      "brandGroup": null,
+      "abn": "21087650360",
+      "industries": [
+        "banking"
+      ]
+    }
+  ],
+  "list": {
+    "ok": false,
+    "status": 0,
+    "version": null,
+    "error": "ENOTFOUND",
+    "totalPages": null,
+    "pagesFetched": 0,
+    "productCount": 0,
+    "categoryCounts": {}
+  },
+  "products": []
+}

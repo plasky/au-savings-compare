@@ -1,0 +1,28 @@
+{
+  "endpoint": "https://api.cdr.lfsonline.lexusfinance.com.au/cds-au/v1/banking/products",
+  "slug": "lexus-financial-services-df6774",
+  "brands": [
+    {
+      "dataHolderBrandId": "59dd798f-d936-f111-9a91-000d3ae0db82",
+      "brandName": "Lexus Financial Services",
+      "brandGroup": null,
+      "abn": "48002435181",
+      "industries": [
+        "non-bank-lending"
+      ]
+    }
+  ],
+  "list": {
+    "ok": true,
+    "status": 200,
+    "version": "5",
+    "totalPages": 1,
+    "pagesFetched": 1,
+    "productCount": 4,
+    "categoryCounts": {
+      "PERS_LOANS": 2,
+      "BUSINESS_LOANS": 2
+    }
+  },
+  "products": []
+}

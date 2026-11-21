@@ -1,0 +1,27 @@
+{
+  "endpoint": "https://public.wlth.cdr.colcap.com.au/cds-au/v1/banking/products",
+  "slug": "wlth-f59907",
+  "brands": [
+    {
+      "dataHolderBrandId": "850a4b26-e0ba-f111-81be-000d3a799057",
+      "brandName": "WLTH",
+      "brandGroup": null,
+      "abn": "51119531252",
+      "industries": [
+        "non-bank-lending"
+      ]
+    }
+  ],
+  "list": {
+    "ok": true,
+    "status": 200,
+    "version": "5",
+    "totalPages": 1,
+    "pagesFetched": 1,
+    "productCount": 12,
+    "categoryCounts": {
+      "RESIDENTIAL_MORTGAGES": 12
+    }
+  },
+  "products": []
+}

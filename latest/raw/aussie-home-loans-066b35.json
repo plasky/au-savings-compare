@@ -1,0 +1,27 @@
+{
+  "endpoint": "https://aussie.openportal.com.au/cds-au/v1/banking/products",
+  "slug": "aussie-home-loans-066b35",
+  "brands": [
+    {
+      "dataHolderBrandId": "23cf60aa-2fbd-eb11-a823-000d3a884a20",
+      "brandName": "Aussie Home Loans",
+      "brandGroup": null,
+      "abn": "46008583542",
+      "industries": [
+        "banking"
+      ]
+    }
+  ],
+  "list": {
+    "ok": false,
+    "status": 404,
+    "version": null,
+    "error": "http-404",
+    "errorDetail": "404 | Not found | Resource not found",
+    "totalPages": null,
+    "pagesFetched": 0,
+    "productCount": 0,
+    "categoryCounts": {}
+  },
+  "products": []
+}

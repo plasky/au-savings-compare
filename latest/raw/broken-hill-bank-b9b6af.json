@@ -1,0 +1,3666 @@
+{
+  "endpoint": "https://public.cdr-api.bhccu.com.au/cds-au/v1/banking/products",
+  "slug": "broken-hill-bank-b9b6af",
+  "brands": [
+    {
+      "dataHolderBrandId": "5ae6bbec-939d-eb11-a821-000d3a884a20",
+      "brandName": "Broken Hill Bank",
+      "brandGroup": null,
+      "abn": "12087650762",
+      "industries": [
+        "banking"
+      ]
+    }
+  ],
+  "list": {
+    "ok": true,
+    "status": 200,
+    "version": "5",
+    "totalPages": 1,
+    "pagesFetched": 1,
+    "productCount": 35,
+    "categoryCounts": {
+      "TRANS_AND_SAVINGS_ACCOUNTS": 8,
+      "OVERDRAFTS": 2,
+      "PERS_LOANS": 8,
+      "RESIDENTIAL_MORTGAGES": 11,
+      "TERM_DEPOSITS": 5,
+      "BUSINESS_LOANS": 1
+    }
+  },
+  "products": [
+    {
+      "productId": "17",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "productId": "17",
+        "effectiveFrom": "2001-07-02T14:30:00.0000000Z",
+        "lastUpdated": "2026-11-21T20:00:18.9873641Z",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "name": "Transaction Account",
+        "description": "A Broken Hill Bank Transaction Account Is All About Giving You Access To Your Money When You Need It. Manage Your Account Online And Transact At Point Of Sale With Your VISA Debit Card.",
+        "brand": "Broken Hill Bank",
+        "applicationUri": "https://brokenhill.bank/open-an-account",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://brokenhill.bank/access",
+          "termsUri": "https://brokenhill.bank/access",
+          "feesAndPricingUri": "http://brokenhill.bank/rates-and-fees"
+        },
+        "features": [
+          {
+            "featureType": "ADDITIONAL_CARDS",
+            "additionalInfoUri": "https://brokenhill.bank/access"
+          },
+          {
+            "featureType": "BILL_PAYMENT",
+            "additionalValue": "NPP, PayID, Osko And BPAY",
+            "additionalInfo": "Pay Bills In Branch Or Via Your Digital Services Using NPP, PayID, Osko And BPAY"
+          },
+          {
+            "featureType": "CARD_ACCESS",
+            "additionalValue": "VISA Debit Card",
+            "additionalInfo": "Linked To A VISA Debit Card, With PayWave",
+            "additionalInfoUri": "https://brokenhill.bank/access"
+          },
+          {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": "24/7 Banking And Instant Access To Your Accounts Via Laptop, Tablet Or Smartphone",
+            "additionalInfoUri": "https://brokenhill.bank/access"
+          },
+          {
+            "featureType": "DIGITAL_WALLET",
+            "additionalValue": "ApplePay, GooglePay And SamsungPay",
+            "additionalInfo": "Secure Contactless Payments, With ApplePay, GooglePay And SamsungPay, With Your Phone",
+            "additionalInfoUri": "https://brokenhill.bank/digital-wallet"
+          },
+          {
+            "featureType": "LOYALTY_PROGRAM",
+            "additionalValue": "\"Relationship Rewards\"",
+            "additionalInfo": "\"Relationship Rewards\" - Providing You The Opportunity For Fee-Free Banking",
+            "additionalInfoUri": "https://brokenhill.bank/rates-and-fees"
+          },
+          {
+            "featureType": "NPP_ENABLED",
+            "additionalInfo": "\"New Payments Platform (NPP)\" - Making Payments Faster And Simpler"
+          },
+          {
+            "featureType": "NPP_PAYID",
+            "additionalInfo": "\"PayID\" - An Alternative Way To Make Payments Instead Of Remembering Account Numbers",
+            "additionalInfoUri": "https://brokenhill.bank/payid"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "No Monthly Account Keeping Fees"
+          },
+          {
+            "featureType": "OVERDRAFT",
+            "additionalInfo": "Subject To Eligibility For Credit Via Loan Application Assessment",
+            "additionalInfoUri": "https://brokenhill.apply-online.com.au/#/5765aa94-7394-4de0-ba47-4516a30049c7"
+          },
+          {
+            "featureType": "UNLIMITED_TXNS",
+            "additionalInfo": "\"Relationship Rewards\" - Providing You The Opportunity For Fee-Free Banking",
+            "additionalInfoUri": "https://brokenhill.bank/rates-and-fees"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalValue": "Australian Citizens Or Permanent Residents",
+            "additionalInfo": "Residents Of Australia Are Eligible"
+          }
+        ],
+        "fees": [
+          {
+            "name": "Dormant Account Fee",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "10.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Member Cheque Book Fee",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Referral Fee",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "25.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Copy Or Trace Of Cheque",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "20.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Inward Dishonour Cheque Fee",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "25.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Periodical Payment Rejection",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "15.00"
+            },
+            "currency": "AUD",
+            "discounts": [
+              {
+                "description": "Another eligibility criteria exists as described in the additionalInfo field",
+                "discountType": "ELIGIBILITY_ONLY",
+                "eligibility": [
+                  {
+                    "discountEligibilityType": "OTHER"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Periodical Payment Alteration",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "5.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Periodical Payment Fee",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Member Cheque Stop Payment Dishonour",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "30.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Statement Copy Fee (> 12 Months)",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "5.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "IPEX / Swift Payment Fee",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "35.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Swift Payment Deposit",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "35.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Night Safe Wallet Rental",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "50.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Safe Custody Fee",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "40.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Over The Counter Cheque Withdrawal Fee",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Non Redi-ATM Excess Charge",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "currency": "AUD",
+            "discounts": [
+              {
+                "description": "Only customers older than a minimum age receive the discount",
+                "discountType": "ELIGIBILITY_ONLY",
+                "discountMethodUType": "rateBased",
+                "rateBased": {
+                  "rateType": "FEE",
+                  "rate": "1.0",
+                  "amountRange": {}
+                },
+                "eligibility": [
+                  {
+                    "discountEligibilityType": "MIN_AGE",
+                    "additionalValue": "70"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Electronic Funds Transfer Fee",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Miscellaneous Service Fee",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "35.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "ATM/POS Withdrawal",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "currency": "AUD",
+            "discounts": [
+              {
+                "description": "Only customers older than a minimum age receive the discount",
+                "discountType": "ELIGIBILITY_ONLY",
+                "discountMethodUType": "rateBased",
+                "rateBased": {
+                  "rateType": "FEE",
+                  "rate": "1.0",
+                  "amountRange": {}
+                },
+                "eligibility": [
+                  {
+                    "discountEligibilityType": "MIN_AGE",
+                    "additionalValue": "70"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Member Cheque Withdrawal",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "currency": "AUD",
+            "discounts": [
+              {
+                "description": "Only customers older than a minimum age receive the discount",
+                "discountType": "ELIGIBILITY_ONLY",
+                "discountMethodUType": "rateBased",
+                "rateBased": {
+                  "rateType": "FEE",
+                  "rate": "1.0",
+                  "amountRange": {}
+                },
+                "eligibility": [
+                  {
+                    "discountEligibilityType": "MIN_AGE",
+                    "additionalValue": "70"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Cash Withdrawal",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "currency": "AUD",
+            "discounts": [
+              {
+                "description": "Only customers older than a minimum age receive the discount",
+                "discountType": "ELIGIBILITY_ONLY",
+                "discountMethodUType": "rateBased",
+                "rateBased": {
+                  "rateType": "FEE",
+                  "rate": "1.0",
+                  "amountRange": {}
+                },
+                "eligibility": [
+                  {
+                    "discountEligibilityType": "MIN_AGE",
+                    "additionalValue": "70"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Member Cheque Encashment",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "currency": "AUD",
+            "discounts": [
+              {
+                "description": "Only customers older than a minimum age receive the discount",
+                "discountType": "ELIGIBILITY_ONLY",
+                "discountMethodUType": "rateBased",
+                "rateBased": {
+                  "rateType": "FEE",
+                  "rate": "1.0",
+                  "amountRange": {}
+                },
+                "eligibility": [
+                  {
+                    "discountEligibilityType": "MIN_AGE",
+                    "additionalValue": "70"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Direct Debit",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "currency": "AUD",
+            "discounts": [
+              {
+                "description": "Only customers older than a minimum age receive the discount",
+                "discountType": "ELIGIBILITY_ONLY",
+                "discountMethodUType": "rateBased",
+                "rateBased": {
+                  "rateType": "FEE",
+                  "rate": "1.0",
+                  "amountRange": {}
+                },
+                "eligibility": [
+                  {
+                    "discountEligibilityType": "MIN_AGE",
+                    "additionalValue": "70"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Non Credit Union POS Transaction Fee",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "currency": "AUD",
+            "discounts": [
+              {
+                "description": "Only customers older than a minimum age receive the discount",
+                "discountType": "ELIGIBILITY_ONLY",
+                "discountMethodUType": "rateBased",
+                "rateBased": {
+                  "rateType": "FEE",
+                  "rate": "1.0",
+                  "amountRange": {}
+                },
+                "eligibility": [
+                  {
+                    "discountEligibilityType": "MIN_AGE",
+                    "additionalValue": "70"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Over The Counter External Transfer Fee",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "9.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "BPay Transaction Fee",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "currency": "AUD",
+            "discounts": [
+              {
+                "description": "Only customers older than a minimum age receive the discount",
+                "discountType": "ELIGIBILITY_ONLY",
+                "discountMethodUType": "rateBased",
+                "rateBased": {
+                  "rateType": "FEE",
+                  "rate": "1.0",
+                  "amountRange": {}
+                },
+                "eligibility": [
+                  {
+                    "discountEligibilityType": "MIN_AGE",
+                    "additionalValue": "70"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "SMS Fee",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.35"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Faxed Statement/Transfer Fee",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "10.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "BPay Corrections",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "30.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Dishonoured Direct Debit Fee",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "45.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Replacement Of VISA Card",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "25.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Emergency VISA Fee",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "50.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "VISA Chargeback / Voucher Fee",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "35.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Cash Order > $10,000",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "25.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Safe Custody Fee - Locked Box",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "95.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Account Combination Fee",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "15.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Declined Card Transaction Fee",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "currency": "AUD",
+            "discounts": [
+              {
+                "description": "Only customers younger than a maximum age receive the discount",
+                "discountType": "ELIGIBILITY_ONLY",
+                "discountMethodUType": "rateBased",
+                "rateBased": {
+                  "rateType": "FEE",
+                  "rate": "1.0",
+                  "amountRange": {}
+                },
+                "eligibility": [
+                  {
+                    "discountEligibilityType": "MAX_AGE",
+                    "additionalValue": "21"
+                  }
+                ]
+              },
+              {
+                "description": "Only customers older than a minimum age receive the discount",
+                "discountType": "ELIGIBILITY_ONLY",
+                "discountMethodUType": "rateBased",
+                "rateBased": {
+                  "rateType": "FEE",
+                  "rate": "1.0",
+                  "amountRange": {}
+                },
+                "eligibility": [
+                  {
+                    "discountEligibilityType": "MIN_AGE",
+                    "additionalValue": "70"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "VISA Manual Processing Fee",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "20.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Audit Certificate Fee",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "50.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Garnishee Order",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "25.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Signature Verification Fee",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "5.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Staff Assisted Internet Banking Transaction",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "5.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Corporate Cheque Cancellation Fee",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "25.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Stale Corporate Cheque Fee",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "20.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Paper Statement Fee",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Returned Mail Admin Fee",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "5.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Bank Guarantee Fee",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "250.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Manual Arrears Transfer Fee",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "10.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Security Handling Fee",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "200.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Settlement Fee",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "150.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Dishonour Fee",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Junior ATM/POS Withdrawal",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Junior Cheque Withdrawal",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Junior Cheque Encashment",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Junior Non CU POS Transaction Fee",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Junior BPay Transaction Fee",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Business ATM/POS Withdrawal",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Business Cheque Withdrawal",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Business Cheque Encashment",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Business Non CU POS Transaction Fee",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Business BPay Transaction Fee",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "currency": "AUD"
+          }
+        ],
+        "depositRates": []
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "20",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "productId": "20",
+        "effectiveFrom": "2007-05-31T14:30:00.0000000Z",
+        "lastUpdated": "2026-06-11T02:00:18.8259621Z",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "name": "eCall Savings Account",
+        "description": "Now You Can Have Your Money Earning Interest Without Being Tied Up. It's Your Money And You Can Access It Whenever You Like.",
+        "brand": "Broken Hill Bank",
+        "applicationUri": "https://brokenhill.bank/open-an-account",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://brokenhill.bank/savings",
+          "termsUri": "https://brokenhill.bank/savings",
+          "feesAndPricingUri": "http://brokenhill.bank/rates-and-fees"
+        },
+        "features": [
+          {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": "24/7 Banking And Instant Access To Your Accounts Via Laptop, Tablet Or Smartphone",
+            "additionalInfoUri": "https://brokenhill.bank/access"
+          },
+          {
+            "featureType": "LOYALTY_PROGRAM",
+            "additionalValue": "\"Relationship Rewards\"",
+            "additionalInfo": "\"Relationship Rewards\" - Providing You The Opportunity For Fee-Free Banking",
+            "additionalInfoUri": "https://brokenhill.bank/rates-and-fees"
+          },
+          {
+            "featureType": "NPP_ENABLED",
+            "additionalInfo": "\"New Payments Platform (NPP)\" - Making Payments Faster And Simpler"
+          },
+          {
+            "featureType": "NPP_PAYID",
+            "additionalInfo": "\"PayID\" - An Alternative Way To Make Payments Instead Of Remembering Account Numbers",
+            "additionalInfoUri": "https://brokenhill.bank/payid"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Our eCall Account Is Solely A Digital Account Only And No Over The Counter Transactions Or Services Are Permitted",
+            "additionalInfoUri": "https://brokenhill.bank/savings"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "No Monthly Account Keeping Fees"
+          },
+          {
+            "featureType": "UNLIMITED_TXNS",
+            "additionalInfo": "\"Relationship Rewards\" - Providing You The Opportunity For Fee-Free Banking",
+            "additionalInfoUri": "https://brokenhill.bank/rates-and-fees"
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "OPENING_BALANCE",
+            "additionalValue": "0.00",
+            "additionalInfoUri": "https://brokenhill.bank/savings"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalValue": "Australian Citizens Or Permanent Residents",
+            "additionalInfo": "Residents Of Australia Are Eligible"
+          }
+        ],
+        "fees": [
+          {
+            "name": "Dormant Account Fee",
+            "feeType": "PERIODIC",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "5.00"
+            },
+            "currency": "AUD",
+            "additionalValue": "P1M"
+          },
+          {
+            "name": "IPEX / SWIFT Payment Fee",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "35.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Account Combination Fee",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "15.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Staff Assisted Internet Banking Transaction Fee",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "5.00"
+            },
+            "currency": "AUD"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.015",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "USER-INPUT-RATE/1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "0.00",
+                "maximumValue": "999.99",
+                "rateApplicationMethod": "PER_TIER"
+              }
+            ],
+            "additionalInfoUri": "https://brokenhill.bank/fees-and-rates"
+          },
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.017",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "USER-INPUT-RATE/2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "19999.99",
+                "rateApplicationMethod": "PER_TIER"
+              }
+            ],
+            "additionalInfoUri": "https://brokenhill.bank/fees-and-rates"
+          },
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.02",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "USER-INPUT-RATE/3",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "20000.00",
+                "maximumValue": "49999.99",
+                "rateApplicationMethod": "PER_TIER"
+              }
+            ],
+            "additionalInfoUri": "https://brokenhill.bank/fees-and-rates"
+          },
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0235",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "USER-INPUT-RATE/4",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "50000.00",
+                "maximumValue": "249999.99",
+                "rateApplicationMethod": "PER_TIER"
+              }
+            ],
+            "additionalInfoUri": "https://brokenhill.bank/fees-and-rates"
+          },
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0255",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "USER-INPUT-RATE/5",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "250000.00",
+                "maximumValue": "499999.99",
+                "rateApplicationMethod": "PER_TIER"
+              }
+            ],
+            "additionalInfoUri": "https://brokenhill.bank/fees-and-rates"
+          },
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "USER-INPUT-RATE/6",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "500000.00",
+                "rateApplicationMethod": "PER_TIER"
+              }
+            ],
+            "additionalInfoUri": "https://brokenhill.bank/fees-and-rates"
+          }
+        ]
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "21",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "productId": "21",
+        "effectiveFrom": "2001-07-02T14:30:00.0000000Z",
+        "lastUpdated": "2026-06-11T02:00:18.8259621Z",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "name": "Santa Saver Account",
+        "description": "Christmas Is Always Just Around The Corner. Fun, Festivity And Gifts All Come At A Price. Time To Start Saving. Broken Hill Bank Can Help Prepare With A Santa Saver Account.",
+        "brand": "Broken Hill Bank",
+        "applicationUri": "https://brokenhill.bank/open-an-account",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://brokenhill.bank/savings",
+          "termsUri": "https://brokenhill.bank/savings",
+          "feesAndPricingUri": "http://brokenhill.bank/rates-and-fees"
+        },
+        "features": [
+          {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": "24/7 Banking And Instant Access To Your Accounts Via Laptop, Tablet Or Smartphone",
+            "additionalInfoUri": "https://brokenhill.bank/access"
+          },
+          {
+            "featureType": "LOYALTY_PROGRAM",
+            "additionalValue": "\"Relationship Rewards\"",
+            "additionalInfo": "\"Relationship Rewards\" - Providing You The Opportunity For Fee-Free Banking",
+            "additionalInfoUri": "https://brokenhill.bank/rates-and-fees"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "No Monthly Account Keeping Fees"
+          },
+          {
+            "featureType": "UNLIMITED_TXNS",
+            "additionalInfo": "\"Relationship Rewards\" - Providing You The Opportunity For Fee-Free Banking",
+            "additionalInfoUri": "https://brokenhill.bank/rates-and-fees"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalValue": "Australian Citizens Or Permanent Residents",
+            "additionalInfo": "Residents Of Australia Are Eligible"
+          }
+        ],
+        "fees": [
+          {
+            "name": "Dormant Account Admin Fee",
+            "feeType": "PERIODIC",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "5.00"
+            },
+            "currency": "AUD",
+            "additionalValue": "P1M"
+          },
+          {
+            "name": "Early Redemption Fee",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "25.00"
+            },
+            "currency": "AUD"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0175",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "additionalInfoUri": "https://brokenhill.bank/fees-and-rates"
+          }
+        ]
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "22",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "productId": "22",
+        "effectiveFrom": "2009-04-30T14:30:00.0000000Z",
+        "lastUpdated": "2026-11-21T20:00:18.9873641Z",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "name": "S70 Mortgage Offset Account",
+        "description": "A Mortgage Offset Facility Allows You To Accumulate Savings In A Specific Savings Account And Use That Account Balance To Reduce Interest On Your Home Loan.",
+        "brand": "Broken Hill Bank",
+        "applicationUri": "https://brokenhill.apply-online.com.au/#/70024325-a0b9-4e2a-b1e8-6ada454dab55",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://brokenhill.bank/home-loan",
+          "feesAndPricingUri": "https://brokenhill.bank/home-loan"
+        },
+        "features": [
+          {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": "24/7 Banking And Instant Access To Your Accounts Via Laptop, Tablet Or Smartphone",
+            "additionalInfoUri": "https://brokenhill.bank/access"
+          },
+          {
+            "featureType": "DIGITAL_WALLET",
+            "additionalValue": "ApplePay, GooglePay And SamsungPay",
+            "additionalInfo": "Secure Contactless Payments, With ApplePay, GooglePay And SamsungPay, With Your Phone",
+            "additionalInfoUri": "https://brokenhill.bank/digital-wallet"
+          },
+          {
+            "featureType": "LOYALTY_PROGRAM",
+            "additionalValue": "\"Relationship Rewards\"",
+            "additionalInfo": "\"Relationship Rewards\" - Providing You The Opportunity For Fee-Free Banking",
+            "additionalInfoUri": "https://brokenhill.bank/rates-and-fees"
+          },
+          {
+            "featureType": "NPP_ENABLED",
+            "additionalInfo": "\"New Payments Platform (NPP)\" - Making Payments Faster And Simpler"
+          },
+          {
+            "featureType": "NPP_PAYID",
+            "additionalInfo": "\"PayID\" - An Alternative Way To Make Payments Instead Of Remembering Account Numbers",
+            "additionalInfoUri": "https://brokenhill.bank/payid"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Reduce The Interest On Your Home Loan"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "No Monthly Account Keeping Fees"
+          },
+          {
+            "featureType": "UNLIMITED_TXNS",
+            "additionalInfo": "\"Relationship Rewards\" - Providing You The Opportunity For Fee-Free Banking",
+            "additionalInfoUri": "https://brokenhill.bank/rates-and-fees"
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "MIN_BALANCE",
+            "additionalValue": "5000.00",
+            "additionalInfo": "The Mortgage Offset Savings Account Does Not Earn Interest, Instead An 'Offset Figure' Is Calculated On Balances And This Is Used To Reduce Interest Payable On The Loan.",
+            "additionalInfoUri": "https://brokenhill.bank/mortgage-offset"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "18"
+          },
+          {
+            "eligibilityType": "OTHER",
+            "additionalInfo": "Subject To Eligibility For Credit Via Loan Application Assessment\t",
+            "additionalInfoUri": "https://brokenhill.apply-online.com.au/#/70024325-a0b9-4e2a-b1e8-6ada454dab55"
+          },
+          {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalValue": "Australian Citizens Or Permanent Residents",
+            "additionalInfo": "Residents Of Australia Are Eligible"
+          }
+        ],
+        "fees": [
+          {
+            "name": "Dormant Acount Fee",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "10.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Periodical Payment Rejection",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "15.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Periodical Payment Alteration",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "5.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Periodical Payment Fee",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Statement Copy Fee (> 12 Months)",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "5.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "IPEX / Swift Payment Fee",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "35.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Swift Payment Deposit",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "35.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Electronic Funds Transfer Fee",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Miscellaneous Service Fee",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "35.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Member Cheque Withdrawal",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "currency": "AUD",
+            "discounts": [
+              {
+                "description": "Only customers older than a minimum age receive the discount",
+                "discountType": "ELIGIBILITY_ONLY",
+                "discountMethodUType": "rateBased",
+                "rateBased": {
+                  "rateType": "FEE",
+                  "rate": "1.0",
+                  "amountRange": {}
+                },
+                "eligibility": [
+                  {
+                    "discountEligibilityType": "MIN_AGE",
+                    "additionalValue": "70"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Direct Debit",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "currency": "AUD",
+            "discounts": [
+              {
+                "description": "Only customers older than a minimum age receive the discount",
+                "discountType": "ELIGIBILITY_ONLY",
+                "discountMethodUType": "rateBased",
+                "rateBased": {
+                  "rateType": "FEE",
+                  "rate": "1.0",
+                  "amountRange": {}
+                },
+                "eligibility": [
+                  {
+                    "discountEligibilityType": "MIN_AGE",
+                    "additionalValue": "70"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Over The Counter External Transfer Fee",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "9.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "BPay Transaction Fee",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "currency": "AUD",
+            "discounts": [
+              {
+                "description": "Only customers older than a minimum age receive the discount",
+                "discountType": "ELIGIBILITY_ONLY",
+                "discountMethodUType": "rateBased",
+                "rateBased": {
+                  "rateType": "FEE",
+                  "rate": "1.0",
+                  "amountRange": {}
+                },
+                "eligibility": [
+                  {
+                    "discountEligibilityType": "MIN_AGE",
+                    "additionalValue": "70"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Faxed Statement/Transfer Fees",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "10.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Account Combination Fee",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "15.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Staff Assisted Internet Banking Transaction",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "5.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Dishonour Fee",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "currency": "AUD"
+          }
+        ]
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "3",
+      "productCategory": "TERM_DEPOSITS",
+      "detail": {
+        "productId": "3",
+        "effectiveFrom": "2001-07-02T14:30:00.0000000Z",
+        "lastUpdated": "2026-06-11T02:00:18.8259621Z",
+        "productCategory": "TERM_DEPOSITS",
+        "name": "FTD - 6 Months",
+        "description": "Broken Hill Bank Term Deposits Can Help You With Your Savings Goal, Put Any Extra Cash To Work While You Decide What To Do With It, Or Be A Helpful Place To Park Returns From Investments. We Have A Range Of Term Deposit Options To Suit Your Needs.",
+        "brand": "Broken Hill Bank",
+        "applicationUri": "https://brokenhill.bank/open-an-account",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://brokenhill.bank/savings-accounts-fixed-term-deposits",
+          "termsUri": "https://brokenhill.bank/savings-accounts-fixed-term-deposits",
+          "feesAndPricingUri": "http://brokenhill.bank/rates-and-fees"
+        },
+        "features": [
+          {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": "24/7 Banking And Instant Access To Your Accounts Via Laptop, Tablet Or Smartphone",
+            "additionalInfoUri": "https://brokenhill.bank/access"
+          },
+          {
+            "featureType": "LOYALTY_PROGRAM",
+            "additionalValue": "\"Relationship Rewards\"",
+            "additionalInfo": "\"Relationship Rewards\" - Providing You The Opportunity For Fee-Free Banking",
+            "additionalInfoUri": "https://brokenhill.bank/rates-and-fees"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "No Monthly Account Keeping Fees",
+            "additionalInfoUri": "https://brokenhill.bank/savings-accounts-fixed-term-deposits"
+          },
+          {
+            "featureType": "UNLIMITED_TXNS",
+            "additionalInfo": "\"Relationship Rewards\" - Providing You The Opportunity For Fee-Free Banking",
+            "additionalInfoUri": "https://brokenhill.bank/rates-and-fees"
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "MIN_BALANCE",
+            "additionalValue": "5000.00",
+            "additionalInfoUri": "https://brokenhill.bank/savings-accounts-fixed-term-deposits"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalValue": "Australian Citizens Or Permanent Residents",
+            "additionalInfo": "Residents Of Australia Are Eligible"
+          }
+        ],
+        "fees": [
+          {
+            "name": "Fixed Term Deposit Administration Fee",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "35.00"
+            },
+            "currency": "AUD"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.033",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P6M",
+            "tiers": [
+              {
+                "name": "Fixed",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "499999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P6M",
+            "additionalInfoUri": "https://brokenhill.bank/fees-and-rates"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P6M",
+            "tiers": [
+              {
+                "name": "USER-INPUT-RATE/1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "500000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P6M",
+            "additionalInfo": "For Deposits Of $500,000.00 And Over, Rates Are By Negotiation And Subject To Acceptance.",
+            "additionalInfoUri": "https://brokenhill.bank/fees-and-rates"
+          }
+        ]
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "45",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "productId": "45",
+        "effectiveFrom": "2001-07-02T14:30:00.0000000Z",
+        "lastUpdated": "2026-06-11T02:00:18.8259621Z",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "name": "Busy Bee Account",
+        "description": "Our new Busy Bee account is a great first bank account for children aged 0-11. This deposit only account teaches little ones the value of money and the importance of saving in a fun and interactive way.",
+        "brand": "Broken Hill Bank",
+        "applicationUri": "https://brokenhill.bank/open-an-account",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://brokenhill.bank/youth-and-kids",
+          "termsUri": "https://brokenhill.bank/youth-and-kids",
+          "feesAndPricingUri": "https://brokenhill.bank/rates-and-fees"
+        },
+        "features": [
+          {
+            "featureType": "LOYALTY_PROGRAM",
+            "additionalValue": "Saving has never been so much fun!",
+            "additionalInfo": "A loyalty program where a gift is provided for depositing savings in the account for six consecutive months.",
+            "additionalInfoUri": "https://brokenhill.bank/youth-and-kids"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "No Monthly Account Keeping Fees"
+          },
+          {
+            "featureType": "UNLIMITED_TXNS",
+            "additionalInfoUri": "https://brokenhill.bank/rates-and-fees"
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "OPENING_BALANCE",
+            "additionalValue": "0.00"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "MAX_AGE",
+            "additionalValue": "12",
+            "additionalInfoUri": "https://brokenhill.bank/youth-and-kids"
+          },
+          {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalValue": "Australian Citizens Or Permanent Residents",
+            "additionalInfo": "Residents Of Australia Are Eligible"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.03",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "USER-INPUT-RATE/1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "0.00",
+                "maximumValue": "9999.99",
+                "rateApplicationMethod": "PER_TIER"
+              }
+            ],
+            "additionalInfoUri": "https://brokenhill.bank/fees-and-rates"
+          },
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0125",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "USER-INPUT-RATE/2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "10000.00",
+                "maximumValue": "19999.99",
+                "rateApplicationMethod": "PER_TIER"
+              }
+            ],
+            "additionalInfoUri": "https://brokenhill.bank/fees-and-rates"
+          },
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0075",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "USER-INPUT-RATE/3",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "20000.00",
+                "rateApplicationMethod": "PER_TIER"
+              }
+            ],
+            "additionalInfoUri": "https://brokenhill.bank/fees-and-rates"
+          }
+        ]
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "46",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "productId": "46",
+        "effectiveFrom": "2001-07-02T14:30:00.0000000Z",
+        "lastUpdated": "2026-06-11T02:00:18.8259621Z",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "name": "Super Youth Saver",
+        "description": "The Super Youth Saver is the perfect savings account for young people aged 12-17! With no account fees and an attractive interest rate, this account can help you reach your savings goals sooner.",
+        "brand": "Broken Hill Bank",
+        "applicationUri": "https://brokenhill.bank/open-an-account",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://brokenhill.bank/youth-and-kids",
+          "termsUri": "https://brokenhill.bank/youth-and-kids",
+          "feesAndPricingUri": "https://brokenhill.bank/rates-and-fees"
+        },
+        "features": [
+          {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": "24/7 Banking And Instant Access To Your Accounts Via Laptop, Tablet Or Smartphone",
+            "additionalInfoUri": "https://brokenhill.bank/access"
+          },
+          {
+            "featureType": "NPP_ENABLED",
+            "additionalInfo": "\"New Payments Platform (NPP)\" - Making Payments Faster And Simpler"
+          },
+          {
+            "featureType": "NPP_PAYID",
+            "additionalInfo": "\"PayID\" - An Alternative Way To Make Payments Instead Of Remembering Account Numbers",
+            "additionalInfoUri": "https://brokenhill.bank/payid"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "No Monthly Account Keeping Fees"
+          },
+          {
+            "featureType": "UNLIMITED_TXNS",
+            "additionalInfoUri": "https://brokenhill.bank/rates-and-fees"
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "OPENING_BALANCE",
+            "additionalValue": "0.00"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "MAX_AGE",
+            "additionalValue": "18",
+            "additionalInfoUri": "https://brokenhill.bank/youth-and-kids"
+          },
+          {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "12",
+            "additionalInfoUri": "https://brokenhill.bank/youth-and-kids"
+          },
+          {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalValue": "Australian Citizens Or Permanent Residents",
+            "additionalInfo": "Residents Of Australia Are Eligible"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.03",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "USER-INPUT-RATE/1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "0.00",
+                "maximumValue": "9999.99",
+                "rateApplicationMethod": "PER_TIER"
+              }
+            ],
+            "additionalInfoUri": "https://brokenhill.bank/fees-and-rates"
+          },
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0125",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "USER-INPUT-RATE/2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "10000.00",
+                "maximumValue": "19999.99",
+                "rateApplicationMethod": "PER_TIER"
+              }
+            ],
+            "additionalInfoUri": "https://brokenhill.bank/fees-and-rates"
+          },
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0075",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "USER-INPUT-RATE/3",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "20000.00",
+                "rateApplicationMethod": "PER_TIER"
+              }
+            ],
+            "additionalInfoUri": "https://brokenhill.bank/fees-and-rates"
+          }
+        ]
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "50",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "productId": "50",
+        "effectiveFrom": "2001-07-02T14:30:00.0000000Z",
+        "lastUpdated": "2026-06-11T02:00:18.8259621Z",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "name": "OTC Savings Account",
+        "description": "Broken Hill Bank's Over The Counter Savings Account. An Account Option For Those Customers That Don't Have Digital Services.",
+        "brand": "Broken Hill Bank",
+        "applicationUri": "https://brokenhill.bank/join-us-form",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://brokenhill.bank/access",
+          "termsUri": "https://brokenhill.bank/access",
+          "feesAndPricingUri": "http://brokenhill.bank/rates-and-fees"
+        },
+        "features": [
+          {
+            "featureType": "NPP_ENABLED",
+            "additionalInfo": "\"New Payments Platform (NPP)\" - Making Payments Faster And Simpler"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "No Monthly Account Keeping Fees"
+          },
+          {
+            "featureType": "UNLIMITED_TXNS",
+            "additionalInfo": "\"Relationship Rewards\" - Providing You The Opportunity For Fee-Free Banking",
+            "additionalInfoUri": "https://brokenhill.bank/rates-and-fees"
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "MIN_BALANCE",
+            "additionalValue": "1000.00"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalValue": "Australian Citizens Or Permanent Residents",
+            "additionalInfo": "Residents Of Australia Are Eligible"
+          }
+        ],
+        "fees": [
+          {
+            "name": "Dormant Account Admin Fee",
+            "feeType": "PERIODIC",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "5.00"
+            },
+            "currency": "AUD",
+            "additionalValue": "P1M"
+          },
+          {
+            "name": "Periodical Payment Rejection",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "10.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Periodical Payment Alteration",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "5.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Periodical Payment Fee",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "10.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Periodical Payment Fee",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "3.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Statement Copy Fee (> 12 mths)",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "5.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "International Transfer Fee",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "15.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "IPEX / SWIFT Payment Fee",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "35.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Swift Payment Deposit",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "35.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Electronic Funds Transfer Fee",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "3.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Miscellaneous Service Fee",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "35.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Dishonour Fee",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "currency": "AUD"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0115",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "USER-INPUT-RATE/1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "49999.99",
+                "rateApplicationMethod": "PER_TIER"
+              }
+            ],
+            "additionalInfoUri": "https://brokenhill.bank/fees-and-rates"
+          },
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.014",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "USER-INPUT-RATE/2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "50000.00",
+                "maximumValue": "249999.99",
+                "rateApplicationMethod": "PER_TIER"
+              }
+            ],
+            "additionalInfoUri": "https://brokenhill.bank/fees-and-rates"
+          },
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.016",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "USER-INPUT-RATE/3",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "250000.00",
+                "maximumValue": "499999.99",
+                "rateApplicationMethod": "PER_TIER"
+              }
+            ],
+            "additionalInfoUri": "https://brokenhill.bank/fees-and-rates"
+          },
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "USER-INPUT-RATE/4",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "500000.00",
+                "rateApplicationMethod": "PER_TIER"
+              }
+            ],
+            "additionalInfoUri": "https://brokenhill.bank/fees-and-rates"
+          }
+        ]
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "52",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "productId": "52",
+        "effectiveFrom": "2001-07-02T14:30:00.0000000Z",
+        "lastUpdated": "2026-11-21T20:00:18.9873641Z",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "name": "Choice Offset Savings Account",
+        "description": "The Choice Mortgage Offset Facility Allows You To Accumulate Savings In A Specific Savings Account And Use That Account Balance To Reduce Interest On Your Home Loan.",
+        "brand": "Broken Hill Bank",
+        "applicationUri": "https://brokenhill.apply-online.com.au/#/70024325-a0b9-4e2a-b1e8-6ada454dab55",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://brokenhill.bank/home-loan"
+        },
+        "features": [
+          {
+            "featureType": "CARD_ACCESS",
+            "additionalValue": "VISA Debit Card",
+            "additionalInfo": "Linked To A VISA Debit Card, With PayWave",
+            "additionalInfoUri": "https://brokenhill.bank/access"
+          },
+          {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": "24/7 Banking And Instant Access To Your Accounts Via Laptop, Tablet Or Smartphone",
+            "additionalInfoUri": "https://brokenhill.bank/access"
+          },
+          {
+            "featureType": "DIGITAL_WALLET",
+            "additionalValue": "ApplePay, GooglePay And SamsungPay",
+            "additionalInfo": "Secure Contactless Payments, With ApplePay, GooglePay And SamsungPay, With Your Phone",
+            "additionalInfoUri": "https://brokenhill.bank/digital-wallet"
+          },
+          {
+            "featureType": "LOYALTY_PROGRAM",
+            "additionalValue": "\"Relationship Rewards\"",
+            "additionalInfo": "\"Relationship Rewards\" - Providing You The Opportunity For Fee-Free Banking",
+            "additionalInfoUri": "https://brokenhill.bank/rates-and-fees"
+          },
+          {
+            "featureType": "NPP_ENABLED",
+            "additionalInfo": "\"New Payments Platform (NPP)\" - Making Payments Faster And Simpler"
+          },
+          {
+            "featureType": "NPP_PAYID",
+            "additionalInfo": "\"PayID\" - An Alternative Way To Make Payments Instead Of Remembering Account Numbers",
+            "additionalInfoUri": "https://brokenhill.bank/payid"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Reduce The Interest On Your Home Loan"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "No Monthly Account Keeping Fees"
+          },
+          {
+            "featureType": "UNLIMITED_TXNS",
+            "additionalInfo": "\"Relationship Rewards\" - Providing You The Opportunity For Fee-Free Banking",
+            "additionalInfoUri": "https://brokenhill.bank/rates-and-fees"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "18"
+          },
+          {
+            "eligibilityType": "OTHER",
+            "additionalInfo": "Subject To Eligibility For Credit Via Loan Application Assessment",
+            "additionalInfoUri": "https://brokenhill.apply-online.com.au/#/70024325-a0b9-4e2a-b1e8-6ada454dab55"
+          },
+          {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalValue": "Australian Citizens Or Permanent Residents",
+            "additionalInfo": "Residents Of Australia Are Eligible"
+          }
+        ],
+        "fees": [
+          {
+            "name": "Dormant Account Admin Fee",
+            "feeType": "PERIODIC",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "5.00"
+            },
+            "currency": "AUD",
+            "additionalValue": "P1M"
+          },
+          {
+            "name": "Replacement of Redicard Fee",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "15.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Periodical Payment Rejection",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "15.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Periodical Payment Alteration",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "5.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Periodical Payment Fee",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "10.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Periodical Payment Fee",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "3.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Statement Copy Fee (> 12 mths)",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "5.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "International Transfer Fee",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "15.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "IPEX / SWIFT Payment Fee",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "35.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Swift Payment Deposit",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "35.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Night Safe Wallet Rental",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "50.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Safe Custody Fee",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "40.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Non Redi-ATM Excess Charge",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "currency": "AUD",
+            "discounts": [
+              {
+                "description": "Only customers older than a minimum age receive the discount",
+                "discountType": "ELIGIBILITY_ONLY",
+                "discountMethodUType": "rateBased",
+                "rateBased": {
+                  "rateType": "FEE",
+                  "rate": "1.0",
+                  "amountRange": {}
+                },
+                "eligibility": [
+                  {
+                    "discountEligibilityType": "MIN_AGE",
+                    "additionalValue": "70"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Non Redi-ATM Excess Charge",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "1.75"
+            },
+            "currency": "AUD",
+            "discounts": [
+              {
+                "description": "Only customers older than a minimum age receive the discount",
+                "discountType": "ELIGIBILITY_ONLY",
+                "discountMethodUType": "rateBased",
+                "rateBased": {
+                  "rateType": "FEE",
+                  "rate": "1.0",
+                  "amountRange": {}
+                },
+                "eligibility": [
+                  {
+                    "discountEligibilityType": "MIN_AGE",
+                    "additionalValue": "70"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Electronic Funds Transfer Fee",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "3.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Miscellaneous Service Fee",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "35.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "ATM/POS Withdrawal",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "currency": "AUD",
+            "discounts": [
+              {
+                "description": "Only customers older than a minimum age receive the discount",
+                "discountType": "ELIGIBILITY_ONLY",
+                "discountMethodUType": "rateBased",
+                "rateBased": {
+                  "rateType": "FEE",
+                  "rate": "1.0",
+                  "amountRange": {}
+                },
+                "eligibility": [
+                  {
+                    "discountEligibilityType": "MIN_AGE",
+                    "additionalValue": "70"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "ATM/POS Withdrawal",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "1.75"
+            },
+            "currency": "AUD",
+            "discounts": [
+              {
+                "description": "Only customers older than a minimum age receive the discount",
+                "discountType": "ELIGIBILITY_ONLY",
+                "discountMethodUType": "rateBased",
+                "rateBased": {
+                  "rateType": "FEE",
+                  "rate": "1.0",
+                  "amountRange": {}
+                },
+                "eligibility": [
+                  {
+                    "discountEligibilityType": "MIN_AGE",
+                    "additionalValue": "70"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Cash Withdrawal",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "currency": "AUD",
+            "discounts": [
+              {
+                "description": "Only customers older than a minimum age receive the discount",
+                "discountType": "ELIGIBILITY_ONLY",
+                "discountMethodUType": "rateBased",
+                "rateBased": {
+                  "rateType": "FEE",
+                  "rate": "1.0",
+                  "amountRange": {}
+                },
+                "eligibility": [
+                  {
+                    "discountEligibilityType": "MIN_AGE",
+                    "additionalValue": "70"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Cash Withdrawal",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "1.75"
+            },
+            "currency": "AUD",
+            "discounts": [
+              {
+                "description": "Only customers older than a minimum age receive the discount",
+                "discountType": "ELIGIBILITY_ONLY",
+                "discountMethodUType": "rateBased",
+                "rateBased": {
+                  "rateType": "FEE",
+                  "rate": "1.0",
+                  "amountRange": {}
+                },
+                "eligibility": [
+                  {
+                    "discountEligibilityType": "MIN_AGE",
+                    "additionalValue": "70"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Direct Debit",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "currency": "AUD",
+            "discounts": [
+              {
+                "description": "Only customers older than a minimum age receive the discount",
+                "discountType": "ELIGIBILITY_ONLY",
+                "discountMethodUType": "rateBased",
+                "rateBased": {
+                  "rateType": "FEE",
+                  "rate": "1.0",
+                  "amountRange": {}
+                },
+                "eligibility": [
+                  {
+                    "discountEligibilityType": "MIN_AGE",
+                    "additionalValue": "70"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Direct Debit",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "1.75"
+            },
+            "currency": "AUD",
+            "discounts": [
+              {
+                "description": "Only customers older than a minimum age receive the discount",
+                "discountType": "ELIGIBILITY_ONLY",
+                "discountMethodUType": "rateBased",
+                "rateBased": {
+                  "rateType": "FEE",
+                  "rate": "1.0",
+                  "amountRange": {}
+                },
+                "eligibility": [
+                  {
+                    "discountEligibilityType": "MIN_AGE",
+                    "additionalValue": "70"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Non CU POS Tran Fee",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "currency": "AUD",
+            "discounts": [
+              {
+                "description": "Only customers older than a minimum age receive the discount",
+                "discountType": "ELIGIBILITY_ONLY",
+                "discountMethodUType": "rateBased",
+                "rateBased": {
+                  "rateType": "FEE",
+                  "rate": "1.0",
+                  "amountRange": {}
+                },
+                "eligibility": [
+                  {
+                    "discountEligibilityType": "MIN_AGE",
+                    "additionalValue": "70"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Non CU POS Tran Fee",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "1.75"
+            },
+            "currency": "AUD",
+            "discounts": [
+              {
+                "description": "Only customers older than a minimum age receive the discount",
+                "discountType": "ELIGIBILITY_ONLY",
+                "discountMethodUType": "rateBased",
+                "rateBased": {
+                  "rateType": "FEE",
+                  "rate": "1.0",
+                  "amountRange": {}
+                },
+                "eligibility": [
+                  {
+                    "discountEligibilityType": "MIN_AGE",
+                    "additionalValue": "70"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "OTC External Transfer Fee",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "9.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "BPay Transaction Fee",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "currency": "AUD",
+            "discounts": [
+              {
+                "description": "Only customers older than a minimum age receive the discount",
+                "discountType": "ELIGIBILITY_ONLY",
+                "discountMethodUType": "rateBased",
+                "rateBased": {
+                  "rateType": "FEE",
+                  "rate": "1.0",
+                  "amountRange": {}
+                },
+                "eligibility": [
+                  {
+                    "discountEligibilityType": "MIN_AGE",
+                    "additionalValue": "70"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "BPay Transaction Fee",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "1.75"
+            },
+            "currency": "AUD",
+            "discounts": [
+              {
+                "description": "Only customers older than a minimum age receive the discount",
+                "discountType": "ELIGIBILITY_ONLY",
+                "discountMethodUType": "rateBased",
+                "rateBased": {
+                  "rateType": "FEE",
+                  "rate": "1.0",
+                  "amountRange": {}
+                },
+                "eligibility": [
+                  {
+                    "discountEligibilityType": "MIN_AGE",
+                    "additionalValue": "70"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "SMS Fee",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.35"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "IHB Bill Payment Fee",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "2.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Faxed Statement/Transfer Fees",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "10.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Coin Handling Fee",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "10.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Dormant Membership Admin Fee",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "10.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "BPAY Corrections",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "30.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Dishonour Direct Debit Fee",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "45.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Replacement VISA Card Fee",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "25.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Emergency VISA Fee's",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "50.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "VISA Overseas Transactions Fee",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "5.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Visa Chargeback / Voucher Fee",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "35.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Cash Order > $10,000",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "25.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "FTD Administration Fee",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "35.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Safe Custody Fee - Locked Box",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "95.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Account Combination Fee",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "15.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Declined Card Transaction Fee",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "currency": "AUD",
+            "discounts": [
+              {
+                "description": "Only customers younger than a maximum age receive the discount",
+                "discountType": "ELIGIBILITY_ONLY",
+                "discountMethodUType": "rateBased",
+                "rateBased": {
+                  "rateType": "FEE",
+                  "rate": "1.0",
+                  "amountRange": {}
+                },
+                "eligibility": [
+                  {
+                    "discountEligibilityType": "MAX_AGE",
+                    "additionalValue": "21"
+                  }
+                ]
+              },
+              {
+                "description": "Only customers older than a minimum age receive the discount",
+                "discountType": "ELIGIBILITY_ONLY",
+                "discountMethodUType": "rateBased",
+                "rateBased": {
+                  "rateType": "FEE",
+                  "rate": "1.0",
+                  "amountRange": {}
+                },
+                "eligibility": [
+                  {
+                    "discountEligibilityType": "MIN_AGE",
+                    "additionalValue": "70"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Declined Card Transaction Fee",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.50"
+            },
+            "currency": "AUD",
+            "discounts": [
+              {
+                "description": "Only customers younger than a maximum age receive the discount",
+                "discountType": "ELIGIBILITY_ONLY",
+                "discountMethodUType": "rateBased",
+                "rateBased": {
+                  "rateType": "FEE",
+                  "rate": "1.0",
+                  "amountRange": {}
+                },
+                "eligibility": [
+                  {
+                    "discountEligibilityType": "MAX_AGE",
+                    "additionalValue": "21"
+                  }
+                ]
+              },
+              {
+                "description": "Only customers older than a minimum age receive the discount",
+                "discountType": "ELIGIBILITY_ONLY",
+                "discountMethodUType": "rateBased",
+                "rateBased": {
+                  "rateType": "FEE",
+                  "rate": "1.0",
+                  "amountRange": {}
+                },
+                "eligibility": [
+                  {
+                    "discountEligibilityType": "MIN_AGE",
+                    "additionalValue": "70"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Visa Manual Processing Fee",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "20.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Audit Certificate Fee",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "50.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Garnishee Order",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "25.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Staff Assisted IB Transaction",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "5.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Paper Statement Fee",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "2.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Returned Mail Admin Fee",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "5.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Loan Establishment Fee",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "75.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Loan Estab Fee (Addnl Broker)",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "75.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Dishonour Fee",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Business ATM/POS Withdrawal",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "1.75"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Business  Cash Withdrawal",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "1.75"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Business Direct Debit",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "1.75"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Business  Non CU POS Tran Fee",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "1.75"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Business  BPay Transaction Fe",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "1.75"
+            },
+            "currency": "AUD"
+          }
+        ]
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "6",
+      "productCategory": "TERM_DEPOSITS",
+      "detail": {
+        "productId": "6",
+        "effectiveFrom": "2001-07-02T14:30:00.0000000Z",
+        "lastUpdated": "2026-06-11T02:00:18.8259621Z",
+        "productCategory": "TERM_DEPOSITS",
+        "name": "FTD - 12 Months",
+        "description": "Broken Hill Bank Term Deposits Can Help You With Your Savings Goal, Put Any Extra Cash To Work While You Decide What To Do With It, Or Be A Helpful Place To Park Returns From Investments. We Have A Range Of Term Deposit Options To Suit Your Needs.",
+        "brand": "Broken Hill Bank",
+        "applicationUri": "https://brokenhill.bank/open-an-account",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://brokenhill.bank/savings-accounts-fixed-term-deposits",
+          "termsUri": "https://brokenhill.bank/savings-accounts-fixed-term-deposits",
+          "feesAndPricingUri": "http://brokenhill.bank/rates-and-fees"
+        },
+        "features": [
+          {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": "24/7 Banking And Instant Access To Your Accounts Via Laptop, Tablet Or Smartphone",
+            "additionalInfoUri": "https://brokenhill.bank/access"
+          },
+          {
+            "featureType": "LOYALTY_PROGRAM",
+            "additionalValue": "\"Relationship Rewards\"",
+            "additionalInfo": "\"Relationship Rewards\" - Providing You The Opportunity For Fee-Free Banking",
+            "additionalInfoUri": "https://brokenhill.bank/rates-and-fees"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "No Monthly Account Keeping Fees",
+            "additionalInfoUri": "https://brokenhill.bank/savings-accounts-fixed-term-deposits"
+          },
+          {
+            "featureType": "UNLIMITED_TXNS",
+            "additionalInfo": "\"Relationship Rewards\" - Providing You The Opportunity For Fee-Free Banking",
+            "additionalInfoUri": "https://brokenhill.bank/rates-and-fees"
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "MIN_BALANCE",
+            "additionalValue": "5000.00",
+            "additionalInfoUri": "https://brokenhill.bank/savings-accounts-fixed-term-deposits"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalValue": "Australian Citizens Or Permanent Residents",
+            "additionalInfo": "Residents Of Australia Are Eligible"
+          }
+        ],
+        "fees": [
+          {
+            "name": "Fixed Term Deposit Administration Fee",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "35.00"
+            },
+            "currency": "AUD"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.05",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P12M",
+            "tiers": [
+              {
+                "name": "Fixed",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "499999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P12M",
+            "additionalInfoUri": "https://brokenhill.bank/fees-and-rates"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P12M",
+            "tiers": [
+              {
+                "name": "USER-INPUT-RATE/1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "500000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P12M",
+            "additionalInfo": "For Deposits Of $500,000.00 And Over, Rates Are By Negotiation And Subject To Acceptance.",
+            "additionalInfoUri": "https://brokenhill.bank/fees-and-rates"
+          }
+        ]
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "7",
+      "productCategory": "TERM_DEPOSITS",
+      "detail": {
+        "productId": "7",
+        "effectiveFrom": "2001-07-02T14:30:00.0000000Z",
+        "lastUpdated": "2026-10-21T00:00:18.0427691Z",
+        "productCategory": "TERM_DEPOSITS",
+        "name": "FTD - 24 Months",
+        "description": "Broken Hill Bank Term Deposits Can Help You With Your Savings Goal, Put Any Extra Cash To Work While You Decide What To Do With It, Or Be A Helpful Place To Park Returns From Investments. We Have A Range Of Term Deposit Options To Suit Your Needs.",
+        "brand": "Broken Hill Bank",
+        "applicationUri": "https://brokenhill.bank/open-an-account",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://brokenhill.bank/savings-accounts-fixed-term-deposits",
+          "termsUri": "https://brokenhill.bank/savings-accounts-fixed-term-deposits",
+          "feesAndPricingUri": "http://brokenhill.bank/rates-and-fees"
+        },
+        "features": [
+          {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": "24/7 Banking And Instant Access To Your Accounts Via Laptop, Tablet Or Smartphone",
+            "additionalInfoUri": "https://brokenhill.bank/access"
+          },
+          {
+            "featureType": "LOYALTY_PROGRAM",
+            "additionalValue": "\"Relationship Rewards\"",
+            "additionalInfo": "\"Relationship Rewards\" - Providing You The Opportunity For Fee-Free Banking",
+            "additionalInfoUri": "https://brokenhill.bank/rates-and-fees"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "No Monthly Account Keeping Fees",
+            "additionalInfoUri": "https://brokenhill.bank/savings-accounts-fixed-term-deposits"
+          },
+          {
+            "featureType": "UNLIMITED_TXNS",
+            "additionalInfo": "\"Relationship Rewards\" - Providing You The Opportunity For Fee-Free Banking",
+            "additionalInfoUri": "https://brokenhill.bank/rates-and-fees"
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "MIN_BALANCE",
+            "additionalValue": "5000.00",
+            "additionalInfoUri": "https://brokenhill.bank/savings-accounts-fixed-term-deposits"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalValue": "Australian Citizens Or Permanent Residents",
+            "additionalInfo": "Residents Of Australia Are Eligible"
+          }
+        ],
+        "fees": [
+          {
+            "name": "Fixed Term Deposit Administration Fee",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "35.00"
+            },
+            "currency": "AUD"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0475",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P24M",
+            "tiers": [
+              {
+                "name": "Fixed",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "499999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P24M",
+            "additionalInfoUri": "https://brokenhill.bank/fees-and-rates"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P24M",
+            "tiers": [
+              {
+                "name": "USER-INPUT-RATE/1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "500000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P24M",
+            "additionalInfo": "For Deposits Of $500,000.00 And Over, Rates Are By Negotiation And Subject To Acceptance.",
+            "additionalInfoUri": "https://brokenhill.bank/fees-and-rates"
+          }
+        ]
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "8",
+      "productCategory": "TERM_DEPOSITS",
+      "detail": {
+        "productId": "8",
+        "effectiveFrom": "2001-07-02T14:30:00.0000000Z",
+        "lastUpdated": "2026-06-11T02:00:18.8259621Z",
+        "productCategory": "TERM_DEPOSITS",
+        "name": "FTD - 2 to 5 Months",
+        "description": "Broken Hill Bank Term Deposits Can Help You With Your Savings Goal, Put Any Extra Cash To Work While You Decide What To Do With It, Or Be A Helpful Place To Park Returns From Investments. We Have A Range Of Term Deposit Options To Suit Your Needs.",
+        "brand": "Broken Hill Bank",
+        "applicationUri": "https://brokenhill.bank/open-an-account",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://brokenhill.bank/savings-accounts-fixed-term-deposits",
+          "termsUri": "https://brokenhill.bank/savings-accounts-fixed-term-deposits",
+          "feesAndPricingUri": "https://brokenhill.bank/rates-and-fees"
+        },
+        "features": [
+          {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": "24/7 Banking And Instant Access To Your Accounts Via Laptop, Tablet Or Smartphone",
+            "additionalInfoUri": "https://brokenhill.bank/access"
+          },
+          {
+            "featureType": "LOYALTY_PROGRAM",
+            "additionalValue": "\"Relationship Rewards\"",
+            "additionalInfo": "\"Relationship Rewards\" - Providing You The Opportunity For Fee-Free Banking",
+            "additionalInfoUri": "https://brokenhill.bank/rates-and-fees"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "No Monthly Account Keeping Fees",
+            "additionalInfoUri": "https://brokenhill.bank/savings-accounts-fixed-term-deposits"
+          },
+          {
+            "featureType": "UNLIMITED_TXNS",
+            "additionalInfo": "\"Relationship Rewards\" - Providing You The Opportunity For Fee-Free Banking",
+            "additionalInfoUri": "https://brokenhill.bank/rates-and-fees"
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "MIN_BALANCE",
+            "additionalValue": "5000.00",
+            "additionalInfoUri": "https://brokenhill.bank/savings-accounts-fixed-term-deposits"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalValue": "Australian Citizens Or Permanent Residents",
+            "additionalInfo": "Residents Of Australia Are Eligible"
+          }
+        ],
+        "fees": [
+          {
+            "name": "Fixed Term Deposit Administration Fee",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "35.00"
+            },
+            "currency": "AUD"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0325",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P2M",
+            "tiers": [
+              {
+                "name": "Fixed",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "499999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P2M",
+            "additionalInfoUri": "https://brokenhill.bank/fees-and-rates"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0325",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P3M",
+            "tiers": [
+              {
+                "name": "USER-INPUT-RATE/1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "499999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P3M",
+            "additionalInfoUri": "https://brokenhill.bank/fees-and-rates"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0325",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P4M",
+            "tiers": [
+              {
+                "name": "USER-INPUT-RATE/2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "499999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P4M",
+            "additionalInfoUri": "https://brokenhill.bank/fees-and-rates"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0325",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P5M",
+            "tiers": [
+              {
+                "name": "USER-INPUT-RATE/3",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "499999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P5M",
+            "additionalInfoUri": "https://brokenhill.bank/fees-and-rates"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P2M",
+            "tiers": [
+              {
+                "name": "USER-INPUT-RATE/4",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "500000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P2M",
+            "additionalInfo": "For Deposits Of $500,000.00 And Over, Rates Are By Negotiation And Subject To Acceptance.",
+            "additionalInfoUri": "https://brokenhill.bank/fees-and-rates"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P3M",
+            "tiers": [
+              {
+                "name": "USER-INPUT-RATE/5",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "500000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P3M",
+            "additionalInfo": "For Deposits Of $500,000.00 And Over, Rates Are By Negotiation And Subject To Acceptance.",
+            "additionalInfoUri": "https://brokenhill.bank/fees-and-rates"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P4M",
+            "tiers": [
+              {
+                "name": "USER-INPUT-RATE/6",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "500000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P4M",
+            "additionalInfo": "For Deposits Of $500,000.00 And Over, Rates Are By Negotiation And Subject To Acceptance.",
+            "additionalInfoUri": "https://brokenhill.bank/fees-and-rates"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P5M",
+            "tiers": [
+              {
+                "name": "USER-INPUT-RATE/7",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "500000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P5M",
+            "additionalInfo": "For Deposits Of $500,000.00 And Over, Rates Are By Negotiation And Subject To Acceptance.",
+            "additionalInfoUri": "https://brokenhill.bank/fees-and-rates"
+          }
+        ]
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "9",
+      "productCategory": "TERM_DEPOSITS",
+      "detail": {
+        "productId": "9",
+        "effectiveFrom": "2007-05-30T14:30:00.0000000Z",
+        "lastUpdated": "2026-10-21T00:00:18.0427691Z",
+        "productCategory": "TERM_DEPOSITS",
+        "name": "FTD - 30 to 36 months",
+        "description": "Broken Hill Bank Term Deposits Can Help You With Your Savings Goal, Put Any Extra Cash To Work While You Decide What To Do With It, Or Be A Helpful Place To Park Returns From Investments. We Have A Range Of Term Deposit Options To Suit Your Needs.",
+        "brand": "Broken Hill Bank",
+        "applicationUri": "https://brokenhill.bank/open-an-account",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://brokenhill.bank/savings-accounts-fixed-term-deposits",
+          "termsUri": "https://brokenhill.bank/savings-accounts-fixed-term-deposits",
+          "feesAndPricingUri": "http://brokenhill.bank/rates-and-fees"
+        },
+        "features": [
+          {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": "24/7 Banking And Instant Access To Your Accounts Via Laptop, Tablet Or Smartphone",
+            "additionalInfoUri": "https://brokenhill.bank/access"
+          },
+          {
+            "featureType": "LOYALTY_PROGRAM",
+            "additionalValue": "\"Relationship Rewards\"",
+            "additionalInfo": "\"Relationship Rewards\" - Providing You The Opportunity For Fee-Free Banking",
+            "additionalInfoUri": "https://brokenhill.bank/rates-and-fees"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "No Monthly Account Keeping Fees",
+            "additionalInfoUri": "https://brokenhill.bank/savings-accounts-fixed-term-deposits"
+          },
+          {
+            "featureType": "UNLIMITED_TXNS",
+            "additionalInfo": "\"Relationship Rewards\" - Providing You The Opportunity For Fee-Free Banking",
+            "additionalInfoUri": "https://brokenhill.bank/rates-and-fees"
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "MIN_BALANCE",
+            "additionalValue": "5000.00",
+            "additionalInfoUri": "https://brokenhill.bank/savings-accounts-fixed-term-deposits"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalValue": "Australian Citizens Or Permanent Residents",
+            "additionalInfo": "Residents Of Australia Are Eligible"
+          }
+        ],
+        "fees": [
+          {
+            "name": "Fixed Term Deposit Administration Fee",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "35.00"
+            },
+            "currency": "AUD"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0445",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P30M",
+            "tiers": [
+              {
+                "name": "Fixed",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "499999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P30M",
+            "additionalInfoUri": "https://brokenhill.bank/fees-and-rates"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0495",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P31M",
+            "tiers": [
+              {
+                "name": "USER-INPUT-RATE/1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "499999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P31M",
+            "additionalInfoUri": "https://brokenhill.bank/fees-and-rates"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P33M",
+            "tiers": [
+              {
+                "name": "USER-INPUT-RATE/10",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "500000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P33M",
+            "additionalInfo": "For Deposits Of $500,000.00 And Over, Rates Are By Negotiation And Subject To Acceptance.",
+            "additionalInfoUri": "https://brokenhill.bank/fees-and-rates"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P34M",
+            "tiers": [
+              {
+                "name": "USER-INPUT-RATE/11",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "500000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P34M",
+            "additionalInfo": "For Deposits Of $500,000.00 And Over, Rates Are By Negotiation And Subject To Acceptance.",
+            "additionalInfoUri": "https://brokenhill.bank/fees-and-rates"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P35M",
+            "tiers": [
+              {
+                "name": "USER-INPUT-RATE/12",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "500000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P35M",
+            "additionalInfo": "For Deposits Of $500,000.00 And Over, Rates Are By Negotiation And Subject To Acceptance.",
+            "additionalInfoUri": "https://brokenhill.bank/fees-and-rates"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P36M",
+            "tiers": [
+              {
+                "name": "USER-INPUT-RATE/13",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "500000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P36M",
+            "additionalInfo": "For Deposits Of $500,000.00 And Over, Rates Are By Negotiation And Subject To Acceptance.",
+            "additionalInfoUri": "https://brokenhill.bank/fees-and-rates"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0495",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P32M",
+            "tiers": [
+              {
+                "name": "USER-INPUT-RATE/2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "499999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P32M",
+            "additionalInfoUri": "https://brokenhill.bank/fees-and-rates"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0495",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P33M",
+            "tiers": [
+              {
+                "name": "USER-INPUT-RATE/3",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "499999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P33M",
+            "additionalInfoUri": "https://brokenhill.bank/fees-and-rates"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0495",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P34M",
+            "tiers": [
+              {
+                "name": "USER-INPUT-RATE/4",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "499999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P34M",
+            "additionalInfoUri": "https://brokenhill.bank/fees-and-rates"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0495",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P35M",
+            "tiers": [
+              {
+                "name": "USER-INPUT-RATE/5",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "499999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P35M",
+            "additionalInfoUri": "https://brokenhill.bank/fees-and-rates"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0495",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P36M",
+            "tiers": [
+              {
+                "name": "USER-INPUT-RATE/6",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "499999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P36M",
+            "additionalInfoUri": "https://brokenhill.bank/fees-and-rates"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P30M",
+            "tiers": [
+              {
+                "name": "USER-INPUT-RATE/7",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "500000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P30M",
+            "additionalInfo": "For Deposits Of $500,000.00 And Over, Rates Are By Negotiation And Subject To Acceptance.",
+            "additionalInfoUri": "https://brokenhill.bank/fees-and-rates"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P31M",
+            "tiers": [
+              {
+                "name": "USER-INPUT-RATE/8",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "500000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P31M",
+            "additionalInfo": "For Deposits Of $500,000.00 And Over, Rates Are By Negotiation And Subject To Acceptance.",
+            "additionalInfoUri": "https://brokenhill.bank/fees-and-rates"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P32M",
+            "tiers": [
+              {
+                "name": "USER-INPUT-RATE/9",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "500000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P32M",
+            "additionalInfo": "For Deposits Of $500,000.00 And Over, Rates Are By Negotiation And Subject To Acceptance.",
+            "additionalInfoUri": "https://brokenhill.bank/fees-and-rates"
+          }
+        ]
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    }
+  ]
+}

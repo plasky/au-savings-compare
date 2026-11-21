@@ -1,0 +1,27 @@
+{
+  "endpoint": "https://api.productcloud.com.au/public/LATITUDECARDS/cds-au/v1/banking/products",
+  "slug": "latitude-credit-cards-864514",
+  "brands": [
+    {
+      "dataHolderBrandId": "ace09c43-2271-f111-9b47-6045bd3f59f5",
+      "brandName": "Latitude Credit Cards",
+      "brandGroup": null,
+      "abn": "42008583588",
+      "industries": [
+        "non-bank-lending"
+      ]
+    }
+  ],
+  "list": {
+    "ok": true,
+    "status": 200,
+    "version": "5",
+    "totalPages": 1,
+    "pagesFetched": 1,
+    "productCount": 4,
+    "categoryCounts": {
+      "CRED_AND_CHRG_CARDS": 4
+    }
+  },
+  "products": []
+}

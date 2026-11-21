@@ -1,0 +1,29 @@
+{
+  "endpoint": "https://public.cdr.plenti.com.au/cds-au/v1/banking/products",
+  "slug": "plenti-7fa1a8",
+  "brands": [
+    {
+      "dataHolderBrandId": "889f0975-1e7c-f111-9b47-6045bd3f59f5",
+      "brandName": "Plenti",
+      "brandGroup": null,
+      "abn": "57166646635",
+      "industries": [
+        "non-bank-lending"
+      ]
+    }
+  ],
+  "list": {
+    "ok": true,
+    "status": 200,
+    "version": "5",
+    "totalPages": 1,
+    "pagesFetched": 1,
+    "productCount": 9,
+    "categoryCounts": {
+      "BUSINESS_LOANS": 2,
+      "BUY_NOW_PAY_LATER": 3,
+      "PERS_LOANS": 4
+    }
+  },
+  "products": []
+}

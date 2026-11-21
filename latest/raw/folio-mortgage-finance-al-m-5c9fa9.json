@@ -1,0 +1,27 @@
+{
+  "endpoint": "https://public.folio.cdr.colcap.com.au/cds-au/v1/banking/products",
+  "slug": "folio-mortgage-finance-al-m-5c9fa9",
+  "brands": [
+    {
+      "dataHolderBrandId": "d566ec33-d7ba-f111-81be-000d3a799057",
+      "brandName": "Folio Mortgage & Finance (AL&M)",
+      "brandGroup": null,
+      "abn": "51119531252",
+      "industries": [
+        "non-bank-lending"
+      ]
+    }
+  ],
+  "list": {
+    "ok": false,
+    "status": 400,
+    "version": null,
+    "error": "http-400",
+    "errorDetail": "urn:au-cds:error:cds-all:Field/Invalid | Invalid Field | Invalid Field",
+    "totalPages": null,
+    "pagesFetched": 0,
+    "productCount": 0,
+    "categoryCounts": {}
+  },
+  "products": []
+}

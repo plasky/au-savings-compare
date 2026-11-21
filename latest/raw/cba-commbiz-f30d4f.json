@@ -1,0 +1,25 @@
+{
+  "endpoint": "https://cdr.commbiz.api.commbank.com.au/cbzpublic/cds-au/v1/banking/products",
+  "slug": "cba-commbiz-f30d4f",
+  "brands": [
+    {
+      "dataHolderBrandId": "de48e3c6-aaff-eb11-a826-000d3a884a20",
+      "brandName": "CBA - CommBiz",
+      "brandGroup": null,
+      "abn": "48123123124",
+      "industries": [
+        "banking"
+      ]
+    }
+  ],
+  "list": {
+    "ok": true,
+    "status": 200,
+    "version": "5",
+    "totalPages": null,
+    "pagesFetched": 1,
+    "productCount": 0,
+    "categoryCounts": {}
+  },
+  "products": []
+}

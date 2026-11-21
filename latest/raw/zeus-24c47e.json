@@ -1,0 +1,27 @@
+{
+  "endpoint": "https://public.cdr.zeus.lmglending.com.au/cds-au/v1/banking/products",
+  "slug": "zeus-24c47e",
+  "brands": [
+    {
+      "dataHolderBrandId": "fa2173ca-237c-f111-9b47-6045bd3f59f5",
+      "brandName": "Zeus",
+      "brandGroup": null,
+      "abn": "51119531252",
+      "industries": [
+        "non-bank-lending"
+      ]
+    }
+  ],
+  "list": {
+    "ok": true,
+    "status": 200,
+    "version": "5",
+    "totalPages": 1,
+    "pagesFetched": 1,
+    "productCount": 3,
+    "categoryCounts": {
+      "RESIDENTIAL_MORTGAGES": 3
+    }
+  },
+  "products": []
+}

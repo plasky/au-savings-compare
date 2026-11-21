@@ -1,0 +1,29 @@
+{
+  "endpoint": "https://cdr-api.mercedes-benz-financialservices.com.au/cds-au/v1/banking/products",
+  "slug": "mercedes-benz-financial-fefe8c",
+  "brands": [
+    {
+      "dataHolderBrandId": "31a20e18-6859-f111-89e7-000d3ae1dc4e",
+      "brandName": "Mercedes-Benz Financial",
+      "brandGroup": null,
+      "abn": "73074134517",
+      "industries": [
+        "non-bank-lending"
+      ]
+    }
+  ],
+  "list": {
+    "ok": true,
+    "status": 200,
+    "version": "5",
+    "totalPages": 1,
+    "pagesFetched": 1,
+    "productCount": 3,
+    "categoryCounts": {
+      "BUSINESS_LOANS": 1,
+      "PERS_LOANS": 1,
+      "LEASES": 1
+    }
+  },
+  "products": []
+}

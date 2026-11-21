@@ -1,0 +1,27 @@
+{
+  "endpoint": "https://public.meezan.cdr.colcap.com.au/cds-au/v1/banking/products",
+  "slug": "meezan-islamic-finance-f612a2",
+  "brands": [
+    {
+      "dataHolderBrandId": "453a137c-dbba-f111-81be-000d3a799057",
+      "brandName": "Meezan Islamic Finance",
+      "brandGroup": null,
+      "abn": "51119531252",
+      "industries": [
+        "non-bank-lending"
+      ]
+    }
+  ],
+  "list": {
+    "ok": false,
+    "status": 400,
+    "version": null,
+    "error": "http-400",
+    "errorDetail": "urn:au-cds:error:cds-all:Field/Invalid | Invalid Field | Invalid Field",
+    "totalPages": null,
+    "pagesFetched": 0,
+    "productCount": 0,
+    "categoryCounts": {}
+  },
+  "products": []
+}

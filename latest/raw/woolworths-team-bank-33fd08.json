@@ -1,0 +1,865 @@
+{
+  "endpoint": "https://online.woolworthsteambank.com.au/OpenBanking/cds-au/v1/banking/products",
+  "slug": "woolworths-team-bank-33fd08",
+  "brands": [
+    {
+      "dataHolderBrandId": "27562b79-f6c8-eb11-a823-000d3a884a20",
+      "brandName": "Woolworths Team Bank",
+      "brandGroup": null,
+      "abn": "67087651803",
+      "industries": [
+        "banking"
+      ]
+    }
+  ],
+  "list": {
+    "ok": true,
+    "status": 200,
+    "version": "3",
+    "totalPages": 1,
+    "pagesFetched": 1,
+    "productCount": 31,
+    "categoryCounts": {
+      "RESIDENTIAL_MORTGAGES": 8,
+      "TERM_DEPOSITS": 8,
+      "TRANS_AND_SAVINGS_ACCOUNTS": 5,
+      "OVERDRAFTS": 2,
+      "PERS_LOANS": 7,
+      "CRED_AND_CHRG_CARDS": 1
+    }
+  },
+  "products": [
+    {
+      "productId": "18MONTHS",
+      "productCategory": "TERM_DEPOSITS",
+      "detail": {
+        "constraints": [
+          {
+            "constraintType": "MIN_BALANCE",
+            "additionalValue": "2000.00",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "OTHER",
+            "additionalInfo": "Membership is open to team members of Woolworths and Endeavour Groups, their immediate family members, and those with an affinity to Woolworths Group.",
+            "additionalInfoUri": "https://woolworthsteambank.com.au/becoming-member/"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0275",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P12M",
+            "tiers": [
+              {
+                "name": "18 MONTHS_Tier",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": 2000,
+                "maximumValue": 1000000,
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "18 MONTHS_Tier",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": 18,
+                "maximumValue": 18,
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P18M",
+            "additionalInfo": "",
+            "additionalInfoUri": "https://woolworthsteambank.com.au/our-interest-rates/"
+          }
+        ],
+        "productId": "18MONTHS",
+        "effectiveFrom": "2024-05-02T00:00:00.000+10:00",
+        "lastUpdated": "2026-07-08T13:14:23.000+10:00",
+        "productCategory": "TERM_DEPOSITS",
+        "name": "18 MONTHS",
+        "description": "18 MONTHS",
+        "brand": "WOOLWORTHS TEAM BANK",
+        "brandName": "WOOLWORTHS TEAM BANK",
+        "applicationUri": "https://woolworthsteambank.snapforms.com.au/form/term-deposit-form",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://woolworthsteambank.com.au/term-deposits/",
+          "termsUri": "https://woolworthsteambank.com.au/term-deposits/",
+          "eligibilityUri": "https://woolworthsteambank.com.au/term-deposits/",
+          "feesAndPricingUri": "https://woolworthsteambank.com.au/wp-content/uploads/2025/06/PDS-Fees-Charges-Transaction-Limits_07.2025_FINAL.pdf",
+          "bundleUri": ""
+        }
+      },
+      "detailStatus": 200,
+      "detailVersion": "4"
+    },
+    {
+      "productId": "7Months",
+      "productCategory": "TERM_DEPOSITS",
+      "detail": {
+        "constraints": [
+          {
+            "constraintType": "MIN_BALANCE",
+            "additionalValue": "2000.00",
+            "additionalInfo": "New Monies Only",
+            "additionalInfoUri": ""
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "OTHER",
+            "additionalInfo": "Woolworths Group Limited and Endeavour Group Limited team members, Immediate family members of Woolworths Group Limited and Endeavour Group Limited team members, Previous Woolworths Group Limited and Endeavour Group Limited team members, Those with an affinity to Woolworths Group Limited (e.g. Everyday Rewards member, contractor etc.).",
+            "additionalInfoUri": "https://woolworthsteambank.com.au/becoming-member/"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.055",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P7M",
+            "tiers": [
+              {
+                "name": "7 MONTHS_Tier",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": 0,
+                "maximumValue": 1000000,
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "7 MONTHS_Tier",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": 7,
+                "maximumValue": 7,
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P7M",
+            "additionalInfo": "New Monies Only",
+            "additionalInfoUri": "https://woolworthsteambank.com.au/our-interest-rates/"
+          }
+        ],
+        "productId": "7Months",
+        "effectiveFrom": "2026-09-23T00:00:00.000+10:00",
+        "lastUpdated": "2026-11-16T22:42:07.000+11:00",
+        "productCategory": "TERM_DEPOSITS",
+        "name": "7 MONTHS",
+        "description": "7 MONTHS",
+        "brand": "WOOLWORTHS TEAM BANK",
+        "brandName": "WOOLWORTHS TEAM BANK",
+        "applicationUri": "https://woolworthsteambank.snapforms.com.au/form/term-deposit-form",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://woolworthsteambank.com.au/term-deposits/",
+          "termsUri": "https://woolworthsteambank.com.au/term-deposits/",
+          "eligibilityUri": "",
+          "feesAndPricingUri": "https://woolworthsteambank.com.au/wp-content/uploads/2025/06/PDS-Fees-Charges-Transaction-Limits_07.2025_FINAL.pdf",
+          "bundleUri": ""
+        }
+      },
+      "detailStatus": 200,
+      "detailVersion": "4"
+    },
+    {
+      "productId": "I12",
+      "productCategory": "TERM_DEPOSITS",
+      "detail": {
+        "constraints": [
+          {
+            "constraintType": "MIN_BALANCE",
+            "additionalValue": "2000.00",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "OTHER",
+            "additionalInfo": "Woolworths Group Limited and Endeavour Group Limited team members, Immediate family members of Woolworths Group Limited and Endeavour Group Limited team members, Previous Woolworths Group Limited and Endeavour Group Limited team members, Those with an affinity to Woolworths Group Limited (e.g. Everyday Rewards member, contractor etc.).",
+            "additionalInfoUri": "https://woolworthsteambank.com.au/becoming-member/"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.04",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P12M",
+            "tiers": [
+              {
+                "name": "12 MONTHS_Tier",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": 2000,
+                "maximumValue": 1000000,
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "12 MONTHS_Tier",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": 12,
+                "maximumValue": 12,
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P12M",
+            "additionalInfo": "",
+            "additionalInfoUri": "https://woolworthsteambank.com.au/our-interest-rates/"
+          }
+        ],
+        "productId": "I12",
+        "effectiveFrom": "2020-09-18T00:00:00.000+10:00",
+        "lastUpdated": "2026-07-08T13:14:23.000+10:00",
+        "productCategory": "TERM_DEPOSITS",
+        "name": "12 MONTHS",
+        "description": "12 MONTHS",
+        "brand": "WOOLWORTHS TEAM BANK",
+        "brandName": "WOOLWORTHS TEAM BANK",
+        "applicationUri": "https://woolworthsteambank.snapforms.com.au/form/term-deposit-form",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://woolworthsteambank.com.au/term-deposits/",
+          "termsUri": "https://woolworthsteambank.com.au/term-deposits/",
+          "eligibilityUri": "https://woolworthsteambank.com.au/term-deposits/",
+          "feesAndPricingUri": "https://woolworthsteambank.com.au/wp-content/uploads/2025/06/PDS-Fees-Charges-Transaction-Limits_07.2025_FINAL.pdf",
+          "bundleUri": ""
+        }
+      },
+      "detailStatus": 200,
+      "detailVersion": "4"
+    },
+    {
+      "productId": "I24",
+      "productCategory": "TERM_DEPOSITS",
+      "detail": {
+        "constraints": [
+          {
+            "constraintType": "MIN_BALANCE",
+            "additionalValue": "2000.00",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "OTHER",
+            "additionalInfo": "Membership is open to team members of Woolworths and Endeavour Groups, their immediate family members, and those with an affinity to Woolworths Group",
+            "additionalInfoUri": "https://woolworthsteambank.com.au/becoming-member/"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0195",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P12M",
+            "tiers": [
+              {
+                "name": "24 MONTHS_Tier",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": 2000,
+                "maximumValue": 1000000,
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "24 MONTHS_Tier",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": 24,
+                "maximumValue": 24,
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P24M",
+            "additionalInfo": "",
+            "additionalInfoUri": "https://woolworthsteambank.com.au/our-interest-rates/"
+          }
+        ],
+        "productId": "I24",
+        "effectiveFrom": "2020-09-18T00:00:00.000+10:00",
+        "lastUpdated": "2026-08-17T12:43:39.000+10:00",
+        "productCategory": "TERM_DEPOSITS",
+        "name": "24 MONTHS",
+        "description": "24 MONTHS",
+        "brand": "WOOLWORTHS TEAM BANK",
+        "brandName": "WOOLWORTHS TEAM BANK",
+        "applicationUri": "https://woolworthsteambank.snapforms.com.au/form/term-deposit-form",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://woolworthsteambank.com.au/term-deposits/",
+          "termsUri": "https://woolworthsteambank.com.au/term-deposits/",
+          "eligibilityUri": "https://woolworthsteambank.com.au/term-deposits/",
+          "feesAndPricingUri": "https://woolworthsteambank.com.au/wp-content/uploads/2025/06/PDS-Fees-Charges-Transaction-Limits_07.2025_FINAL.pdf",
+          "bundleUri": ""
+        }
+      },
+      "detailStatus": 200,
+      "detailVersion": "4"
+    },
+    {
+      "productId": "I3",
+      "productCategory": "TERM_DEPOSITS",
+      "detail": {
+        "constraints": [
+          {
+            "constraintType": "MIN_BALANCE",
+            "additionalValue": "2000.00",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "OTHER",
+            "additionalInfo": "Membership is open to team members of Woolworths and Endeavour Groups, their immediate family members, and those with an affinity to Woolworths Group.",
+            "additionalInfoUri": "https://woolworthsteambank.com.au/becoming-member/"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.041",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P3M",
+            "tiers": [
+              {
+                "name": "3 MONTHS_Tier",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": 2000,
+                "maximumValue": 1000000,
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "3 MONTHS_Tier",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": 3,
+                "maximumValue": 3,
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P3M",
+            "additionalInfo": "",
+            "additionalInfoUri": "https://woolworthsteambank.com.au/our-interest-rates/"
+          }
+        ],
+        "productId": "I3",
+        "effectiveFrom": "2020-09-17T00:00:00.000+10:00",
+        "lastUpdated": "2026-07-08T13:14:23.000+10:00",
+        "productCategory": "TERM_DEPOSITS",
+        "name": "3 MONTHS",
+        "description": "3 MONTHS",
+        "brand": "WOOLWORTHS TEAM BANK",
+        "brandName": "WOOLWORTHS TEAM BANK",
+        "applicationUri": "https://woolworthsteambank.snapforms.com.au/form/term-deposit-form",
+        "isTailored": true,
+        "additionalInformation": {
+          "overviewUri": "https://woolworthsteambank.com.au/term-deposits/",
+          "termsUri": "https://woolworthsteambank.com.au/term-deposits/",
+          "eligibilityUri": "https://woolworthsteambank.com.au/term-deposits/",
+          "feesAndPricingUri": "https://woolworthsteambank.com.au/wp-content/uploads/2025/06/PDS-Fees-Charges-Transaction-Limits_07.2025_FINAL.pdf",
+          "bundleUri": ""
+        }
+      },
+      "detailStatus": 200,
+      "detailVersion": "4"
+    },
+    {
+      "productId": "I4_4_MONTH_SPECIAL",
+      "productCategory": "TERM_DEPOSITS",
+      "detail": {
+        "constraints": [
+          {
+            "constraintType": "MIN_BALANCE",
+            "additionalValue": "2000.00",
+            "additionalInfo": "max balance $1000,000.00, New Monies Only",
+            "additionalInfoUri": ""
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "OTHER",
+            "additionalInfo": "Membership is open to team members of Woolworths and Endeavour Groups, their immediate family members, and those with an affinity to Woolworths Group.",
+            "additionalInfoUri": "https://woolworthsteambank.com.au/becoming-member/"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.054",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P4M",
+            "tiers": [
+              {
+                "name": "4 MONTH SPECIAL_Tier",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": 2000,
+                "maximumValue": 1000000,
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "4 MONTH SPECIAL_Tier",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": 4,
+                "maximumValue": 4,
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P4M",
+            "additionalInfo": "",
+            "additionalInfoUri": "https://woolworthsteambank.com.au/our-interest-rates/"
+          }
+        ],
+        "productId": "I4_4_MONTH_SPECIAL",
+        "effectiveFrom": "2020-09-17T00:00:00.000+10:00",
+        "lastUpdated": "2026-11-16T22:21:45.000+11:00",
+        "productCategory": "TERM_DEPOSITS",
+        "name": "4 MONTH SPECIAL",
+        "description": "4 MONTH SPECIAL",
+        "brand": "WOOLWORTHS TEAM BANK",
+        "brandName": "WOOLWORTHS TEAM BANK",
+        "applicationUri": "https://woolworthsteambank.snapforms.com.au/form/term-deposit-form",
+        "isTailored": true,
+        "additionalInformation": {
+          "overviewUri": "https://woolworthsteambank.com.au/term-deposits/",
+          "termsUri": "https://woolworthsteambank.com.au/term-deposits/",
+          "eligibilityUri": "https://woolworthsteambank.com.au/term-deposits/",
+          "feesAndPricingUri": "https://woolworthsteambank.com.au/wp-content/uploads/2025/06/PDS-Fees-Charges-Transaction-Limits_07.2025_FINAL.pdf",
+          "bundleUri": ""
+        }
+      },
+      "detailStatus": 200,
+      "detailVersion": "4"
+    },
+    {
+      "productId": "I6",
+      "productCategory": "TERM_DEPOSITS",
+      "detail": {
+        "constraints": [
+          {
+            "constraintType": "MIN_BALANCE",
+            "additionalValue": "2000.00",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "OTHER",
+            "additionalInfo": "Membership is open to team members of Woolworths and Endeavour Groups, their immediate family members, and those with an affinity to Woolworths Group.",
+            "additionalInfoUri": "https://woolworthsteambank.com.au/becoming-member/"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.04",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P6M",
+            "tiers": [
+              {
+                "name": "6 MONTHS_Tier",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": 2000,
+                "maximumValue": 1000000,
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "6 MONTHS_Tier",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": 6,
+                "maximumValue": 6,
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P6M",
+            "additionalInfo": "",
+            "additionalInfoUri": "https://woolworthsteambank.com.au/our-interest-rates/"
+          }
+        ],
+        "productId": "I6",
+        "effectiveFrom": "2020-09-18T00:00:00.000+10:00",
+        "lastUpdated": "2026-07-08T13:14:23.000+10:00",
+        "productCategory": "TERM_DEPOSITS",
+        "name": "6 MONTHS",
+        "description": "6 MONTHS",
+        "brand": "WOOLWORTHS TEAM BANK",
+        "brandName": "WOOLWORTHS TEAM BANK",
+        "applicationUri": "https://woolworthsteambank.snapforms.com.au/form/term-deposit-form",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://woolworthsteambank.com.au/term-deposits/",
+          "termsUri": "https://woolworthsteambank.com.au/term-deposits/",
+          "eligibilityUri": "https://woolworthsteambank.com.au/term-deposits/",
+          "feesAndPricingUri": "https://woolworthsteambank.com.au/wp-content/uploads/2025/06/PDS-Fees-Charges-Transaction-Limits_07.2025_FINAL.pdf",
+          "bundleUri": ""
+        }
+      },
+      "detailStatus": 200,
+      "detailVersion": "4"
+    },
+    {
+      "productId": "I9",
+      "productCategory": "TERM_DEPOSITS",
+      "detail": {
+        "constraints": [
+          {
+            "constraintType": "MIN_BALANCE",
+            "additionalValue": "2000.00",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "OTHER",
+            "additionalInfo": "Membership is open to team members of Woolworths and Endeavour Groups, their immediate family members, and those with an affinity to Woolworths Group.",
+            "additionalInfoUri": "https://woolworthsteambank.com.au/becoming-member/"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0395",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P9M",
+            "tiers": [
+              {
+                "name": "9 MONTHS_Tier",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": 2000,
+                "maximumValue": 1000000,
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "9 MONTHS_Tier",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": 9,
+                "maximumValue": 9,
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P9M",
+            "additionalInfo": "",
+            "additionalInfoUri": "https://woolworthsteambank.com.au/our-interest-rates/"
+          }
+        ],
+        "productId": "I9",
+        "effectiveFrom": "2020-09-18T00:00:00.000+10:00",
+        "lastUpdated": "2026-07-08T13:14:23.000+10:00",
+        "productCategory": "TERM_DEPOSITS",
+        "name": "9 MONTHS",
+        "description": "9 MONTHS",
+        "brand": "WOOLWORTHS TEAM BANK",
+        "brandName": "WOOLWORTHS TEAM BANK",
+        "applicationUri": "https://woolworthsteambank.snapforms.com.au/form/term-deposit-form",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://woolworthsteambank.com.au/term-deposits/",
+          "termsUri": "https://woolworthsteambank.com.au/term-deposits/",
+          "eligibilityUri": "https://woolworthsteambank.com.au/term-deposits/",
+          "feesAndPricingUri": "https://woolworthsteambank.com.au/wp-content/uploads/2025/06/PDS-Fees-Charges-Transaction-Limits_07.2025_FINAL.pdf",
+          "bundleUri": ""
+        }
+      },
+      "detailStatus": 200,
+      "detailVersion": "4"
+    },
+    {
+      "productId": "S1",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "eligibility": [
+          {
+            "eligibilityType": "OTHER",
+            "additionalInfo": "Membership is open to team members of Woolworths and Endeavour Groups, their immediate family members, and those with an affinity to Woolworths Group",
+            "additionalInfoUri": "https://woolworthsteambank.com.au/becoming-member/"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "additionalInfo": "",
+            "additionalInfoUri": "https://woolworthsteambank.com.au/our-interest-rates/"
+          }
+        ],
+        "productId": "S1",
+        "effectiveFrom": "2020-09-17T00:00:00.000+10:00",
+        "lastUpdated": "2026-05-04T13:28:33.000+10:00",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "name": "ACCESS ACCOUNT",
+        "description": "ACCESS ACCOUNT",
+        "brand": "WOOLWORTHS TEAM BANK",
+        "brandName": "WOOLWORTHS TEAM BANK",
+        "applicationUri": "https://woolworthsteambank.com.au/membership/",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://woolworthsteambank.com.au/savings/",
+          "termsUri": "https://woolworthsteambank.com.au/savings/",
+          "eligibilityUri": "https://woolworthsteambank.com.au/savings/",
+          "feesAndPricingUri": "https://woolworthsteambank.com.au/wp-content/uploads/2025/06/PDS-Fees-Charges-Transaction-Limits_07.2025_FINAL.pdf",
+          "bundleUri": ""
+        }
+      },
+      "detailStatus": 200,
+      "detailVersion": "4"
+    },
+    {
+      "productId": "S10",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "eligibility": [
+          {
+            "eligibilityType": "OTHER",
+            "additionalInfo": "Membership is open to team members of Woolworths and Endeavour Groups, their immediate family members, and those with an affinity to Woolworths Group.",
+            "additionalInfoUri": "https://woolworthsteambank.com.au/becoming-member/"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.02",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "additionalInfo": "",
+            "additionalInfoUri": "https://woolworthsteambank.com.au/our-interest-rates/"
+          }
+        ],
+        "lendingRates": [
+          {
+            "lendingRateType": "VARIABLE",
+            "rate": "0.0",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+          }
+        ],
+        "productId": "S10",
+        "effectiveFrom": "2020-09-17T00:00:00.000+10:00",
+        "lastUpdated": "2026-07-07T17:46:42.000+10:00",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "name": "NETPLUS",
+        "description": "NETPLUS",
+        "brand": "WOOLWORTHS TEAM BANK",
+        "brandName": "WOOLWORTHS TEAM BANK",
+        "applicationUri": "https://woolworthsteambank.com.au/membership/",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://woolworthsteambank.com.au/savings/",
+          "termsUri": "https://woolworthsteambank.com.au/savings/",
+          "eligibilityUri": "https://woolworthsteambank.com.au/savings/",
+          "feesAndPricingUri": "https://woolworthsteambank.com.au/wp-content/uploads/2025/06/PDS-Fees-Charges-Transaction-Limits_07.2025_FINAL.pdf",
+          "bundleUri": ""
+        }
+      },
+      "detailStatus": 200,
+      "detailVersion": "4"
+    },
+    {
+      "productId": "S2",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "eligibility": [
+          {
+            "eligibilityType": "OTHER",
+            "additionalInfo": "Membership is open to team members of Woolworths and Endeavour Groups, their immediate family members, and those with an affinity to Woolworths Group",
+            "additionalInfoUri": "https://woolworthsteambank.com.au/becoming-member/"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.021",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "additionalInfo": "",
+            "additionalInfoUri": "https://woolworthsteambank.com.au/our-interest-rates/"
+          }
+        ],
+        "productId": "S2",
+        "effectiveFrom": "2020-09-17T00:00:00.000+10:00",
+        "lastUpdated": "2026-04-01T17:36:59.000+11:00",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "name": "CHRISTMAS",
+        "description": "CHRISTMAS",
+        "brand": "WOOLWORTHS TEAM BANK",
+        "brandName": "WOOLWORTHS TEAM BANK",
+        "applicationUri": "https://woolworthsteambank.com.au/membership/",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://woolworthsteambank.com.au/savings/",
+          "termsUri": "https://woolworthsteambank.com.au/savings/",
+          "eligibilityUri": "https://woolworthsteambank.com.au/savings/",
+          "feesAndPricingUri": "https://woolworthsteambank.com.au/wp-content/uploads/2025/06/PDS-Fees-Charges-Transaction-Limits_07.2025_FINAL.pdf",
+          "bundleUri": ""
+        }
+      },
+      "detailStatus": 200,
+      "detailVersion": "4"
+    },
+    {
+      "productId": "S26",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "constraints": [
+          {
+            "constraintType": "MAX_BALANCE",
+            "additionalValue": "100000.00",
+            "additionalInfo": "Bonus Interest is capped on a max balance of $100,000",
+            "additionalInfoUri": ""
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "OTHER",
+            "additionalInfo": "Membership is open to team members of Woolworths and Endeavour Groups, their immediate family members, and those with an affinity to Woolworths Group.",
+            "additionalInfoUri": "https://woolworthsteambank.com.au/becoming-member/"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.001",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "Bonus Saver Account_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": 0,
+                "maximumValue": 100000,
+                "rateApplicationMethod": "PER_TIER"
+              }
+            ],
+            "additionalInfo": "",
+            "additionalInfoUri": "https://woolworthsteambank.com.au/our-interest-rates/"
+          },
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.001",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "Bonus Saver Account_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": 100000.01,
+                "rateApplicationMethod": "PER_TIER"
+              }
+            ],
+            "additionalInfo": "",
+            "additionalInfoUri": "https://woolworthsteambank.com.au/our-interest-rates/"
+          },
+          {
+            "depositRateType": "BONUS",
+            "rate": "0.048",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "Bonus Saver Account_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": 0,
+                "maximumValue": 100000,
+                "rateApplicationMethod": "PER_TIER"
+              }
+            ],
+            "additionalInfo": "",
+            "additionalInfoUri": "https://woolworthsteambank.com.au/our-interest-rates/"
+          },
+          {
+            "depositRateType": "BONUS",
+            "rate": "0.0",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "Bonus Saver Account_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": 100000.01,
+                "rateApplicationMethod": "PER_TIER"
+              }
+            ],
+            "additionalInfo": "",
+            "additionalInfoUri": "https://woolworthsteambank.com.au/our-interest-rates/"
+          }
+        ],
+        "productId": "S26",
+        "effectiveFrom": "2026-04-01T00:00:00.000+11:00",
+        "lastUpdated": "2026-07-07T17:48:53.000+10:00",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "name": "Bonus Saver Account",
+        "description": "Bonus Saver Account",
+        "brand": "WOOLWORTHS TEAM BANK",
+        "brandName": "WOOLWORTHS TEAM BANK",
+        "applicationUri": "https://woolworthsteambank.com.au/membership/",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://woolworthsteambank.com.au/savings/",
+          "termsUri": "https://woolworthsteambank.com.au/savings/",
+          "eligibilityUri": "https://woolworthsteambank.com.au/savings/",
+          "feesAndPricingUri": "https://woolworthsteambank.com.au/wp-content/uploads/2025/06/PDS-Fees-Charges-Transaction-Limits_07.2025_FINAL.pdf",
+          "bundleUri": ""
+        }
+      },
+      "detailStatus": 200,
+      "detailVersion": "4"
+    },
+    {
+      "productId": "S3",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "eligibility": [
+          {
+            "eligibilityType": "OTHER",
+            "additionalInfo": "Membership is open to team members of Woolworths and Endeavour Groups, their immediate family members, and those with an affinity to Woolworths Group",
+            "additionalInfoUri": "https://woolworthsteambank.com.au/becoming-member/"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0",
+            "calculationFrequency": "P1M",
+            "applicationFrequency": "P1M",
+            "additionalInfo": "",
+            "additionalInfoUri": "https://woolworthsteambank.com.au/our-interest-rates/"
+          }
+        ],
+        "lendingRates": [
+          {
+            "lendingRateType": "VARIABLE",
+            "rate": "0.0",
+            "calculationFrequency": "P1M",
+            "applicationFrequency": "P1M",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+          }
+        ],
+        "productId": "S3",
+        "effectiveFrom": "2020-09-17T00:00:00.000+10:00",
+        "lastUpdated": "2026-06-01T14:43:31.000+10:00",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "name": "BUDGET",
+        "description": "BUDGET",
+        "brand": "WOOLWORTHS TEAM BANK",
+        "brandName": "WOOLWORTHS TEAM BANK",
+        "applicationUri": "https://woolworthsteambank.com.au/membership/",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://woolworthsteambank.com.au/savings/",
+          "termsUri": "https://woolworthsteambank.com.au/savings/",
+          "eligibilityUri": "https://woolworthsteambank.com.au/savings/",
+          "feesAndPricingUri": "https://woolworthsteambank.com.au/wp-content/uploads/2025/06/PDS-Fees-Charges-Transaction-Limits_07.2025_FINAL.pdf",
+          "bundleUri": ""
+        }
+      },
+      "detailStatus": 200,
+      "detailVersion": "4"
+    }
+  ]
+}

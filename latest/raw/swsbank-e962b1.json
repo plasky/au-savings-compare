@@ -1,0 +1,2689 @@
+{
+  "endpoint": "https://online.swsbank.com.au/openbanking/cds-au/v1/banking/products",
+  "slug": "swsbank-e962b1",
+  "brands": [
+    {
+      "dataHolderBrandId": "ffc015ae-7ebf-eb11-a823-000d3a884a20",
+      "brandName": "SWSbank",
+      "brandGroup": null,
+      "abn": "80087650673",
+      "industries": [
+        "banking"
+      ]
+    }
+  ],
+  "list": {
+    "ok": true,
+    "status": 200,
+    "version": "5",
+    "totalPages": 1,
+    "pagesFetched": 1,
+    "productCount": 34,
+    "categoryCounts": {
+      "RESIDENTIAL_MORTGAGES": 10,
+      "TERM_DEPOSITS": 5,
+      "PERS_LOANS": 6,
+      "BUSINESS_LOANS": 2,
+      "CRED_AND_CHRG_CARDS": 1,
+      "TRANS_AND_SAVINGS_ACCOUNTS": 10
+    }
+  },
+  "products": [
+    {
+      "productId": "I2_TD_6Months",
+      "productCategory": "TERM_DEPOSITS",
+      "detail": {
+        "features": [
+          {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": "SWSCU Internet Banking and App"
+          },
+          {
+            "featureType": "NOTIFICATIONS",
+            "additionalInfo": "Alerts"
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "MIN_BALANCE",
+            "additionalInfo": "$500"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "BUSINESS"
+          },
+          {
+            "eligibilityType": "NATURAL_PERSON"
+          },
+          {
+            "eligibilityType": "STUDENT"
+          },
+          {
+            "eligibilityType": "STAFF"
+          },
+          {
+            "eligibilityType": "PENSION_RECIPIENT"
+          },
+          {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalValue": "Australian citizen or permanent resident"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.035",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "tiers": [
+              {
+                "name": "6 Month Term Deposit_Tier",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "500.00",
+                "maximumValue": "9999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "6 Month Term Deposit_Tier",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "6",
+                "maximumValue": "6",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P6M",
+            "additionalInfoUri": "https://www.swsbank.com.au/accounts/term-deposits/term-deposit-account/"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.035",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "6 Month Term Deposit_Tier",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "500.00",
+                "maximumValue": "9999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "6 Month Term Deposit_Tier",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "6",
+                "maximumValue": "6",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P6M",
+            "additionalInfoUri": "https://www.swsbank.com.au/accounts/term-deposits/term-deposit-account/"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.035",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "tiers": [
+              {
+                "name": "6 Month Term Deposit_Tier",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "10000.00",
+                "maximumValue": "49999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "6 Month Term Deposit_Tier",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "6",
+                "maximumValue": "6",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P6M",
+            "additionalInfoUri": "https://www.swsbank.com.au/accounts/term-deposits/term-deposit-account/"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.035",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "6 Month Term Deposit_Tier",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "10000.00",
+                "maximumValue": "49999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "6 Month Term Deposit_Tier",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "6",
+                "maximumValue": "6",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P6M",
+            "additionalInfoUri": "https://www.swsbank.com.au/accounts/term-deposits/term-deposit-account/"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.035",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "tiers": [
+              {
+                "name": "6 Month Term Deposit_Tier",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "50000.00",
+                "maximumValue": "9999999.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "6 Month Term Deposit_Tier",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "6",
+                "maximumValue": "6",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P6M",
+            "additionalInfoUri": "https://www.swsbank.com.au/accounts/term-deposits/term-deposit-account/"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.035",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "6 Month Term Deposit_Tier",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "50000.00",
+                "maximumValue": "9999999.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "6 Month Term Deposit_Tier",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "6",
+                "maximumValue": "6",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P6M",
+            "additionalInfoUri": "https://www.swsbank.com.au/accounts/term-deposits/term-deposit-account/"
+          }
+        ],
+        "productCategory": "TERM_DEPOSITS",
+        "productId": "I2_TD_6Months",
+        "lastUpdated": "2026-05-11T16:51:44.000+10:00",
+        "name": "6 Month Term Deposit",
+        "description": "6 Month Term Deposit",
+        "brand": "South West Slopes Credit Union",
+        "brandName": "South West Slopes Credit Union Ltd trading as SWSbank",
+        "applicationUri": "https://swscu.apply-online.com.au/#/3e8f1c2b-4724-4a65-b5d0-2d7eaf64b99b",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.swsbank.com.au/accounts/term-deposits/term-deposit-account/",
+          "additionalOverviewUris": [
+            {
+              "description": "Term Deposit",
+              "additionalInfoUri": "https://www.swscu.com.au/savings/term-deposits/term-deposit-account/"
+            }
+          ]
+        }
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "I3_TD_3Months",
+      "productCategory": "TERM_DEPOSITS",
+      "detail": {
+        "features": [
+          {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": "SWSCU Internet Banking and APP"
+          },
+          {
+            "featureType": "NOTIFICATIONS",
+            "additionalInfo": "Alerts"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "BUSINESS"
+          },
+          {
+            "eligibilityType": "STUDENT"
+          },
+          {
+            "eligibilityType": "NATURAL_PERSON"
+          },
+          {
+            "eligibilityType": "STAFF"
+          },
+          {
+            "eligibilityType": "PENSION_RECIPIENT"
+          },
+          {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalValue": "Australian citizen or permanent resident"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0335",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "tiers": [
+              {
+                "name": "3 Month Term Deposit_Tier",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "500.00",
+                "maximumValue": "9999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "3 Month Term Deposit_Tier",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "3",
+                "maximumValue": "3",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P3M",
+            "additionalInfoUri": "https://www.swsbank.com.au/accounts/term-deposits/term-deposit-account/"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0335",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "3 Month Term Deposit_Tier",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "500.00",
+                "maximumValue": "9999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "3 Month Term Deposit_Tier",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "3",
+                "maximumValue": "3",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P3M",
+            "additionalInfoUri": "https://www.swsbank.com.au/accounts/term-deposits/term-deposit-account/"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0335",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "tiers": [
+              {
+                "name": "3 Month Term Deposit_Tier",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "10000.00",
+                "maximumValue": "49999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "3 Month Term Deposit_Tier",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "3",
+                "maximumValue": "3",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P3M",
+            "additionalInfoUri": "https://www.swsbank.com.au/accounts/term-deposits/term-deposit-account/"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0335",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "3 Month Term Deposit_Tier",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "10000.00",
+                "maximumValue": "49999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "3 Month Term Deposit_Tier",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "3",
+                "maximumValue": "3",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P3M",
+            "additionalInfoUri": "https://www.swsbank.com.au/accounts/term-deposits/term-deposit-account/"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0335",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "tiers": [
+              {
+                "name": "3 Month Term Deposit_Tier",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "50000.00",
+                "maximumValue": "9999999.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "3 Month Term Deposit_Tier",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "3",
+                "maximumValue": "3",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P3M",
+            "additionalInfoUri": "https://www.swsbank.com.au/accounts/term-deposits/term-deposit-account/"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0335",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "3 Month Term Deposit_Tier",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "50000.00",
+                "maximumValue": "9999999.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "3 Month Term Deposit_Tier",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "3",
+                "maximumValue": "3",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P3M",
+            "additionalInfoUri": "https://www.swsbank.com.au/accounts/term-deposits/term-deposit-account/"
+          }
+        ],
+        "productCategory": "TERM_DEPOSITS",
+        "productId": "I3_TD_3Months",
+        "lastUpdated": "2026-05-11T16:49:14.000+10:00",
+        "name": "3 Month Term Deposit",
+        "description": "3 Month Term Deposit",
+        "brand": "South West Slopes Credit Union",
+        "brandName": "South West Slopes Credit Union Ltd trading as SWSbank",
+        "applicationUri": "https://swscu.apply-online.com.au/#/3e8f1c2b-4724-4a65-b5d0-2d7eaf64b99b",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.swsbank.com.au/accounts/term-deposits/term-deposit-account/",
+          "additionalOverviewUris": [
+            {
+              "description": "Term Deposit",
+              "additionalInfoUri": "https://www.swscu.com.au/savings/term-deposits/term-deposit-account/"
+            }
+          ]
+        }
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "I3_TD_9Months",
+      "productCategory": "TERM_DEPOSITS",
+      "detail": {
+        "features": [
+          {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": "SWSCU Internet banking and App"
+          },
+          {
+            "featureType": "NOTIFICATIONS",
+            "additionalInfo": "Alerts"
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "MIN_BALANCE",
+            "additionalInfo": "$500"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "BUSINESS"
+          },
+          {
+            "eligibilityType": "NATURAL_PERSON"
+          },
+          {
+            "eligibilityType": "PENSION_RECIPIENT"
+          },
+          {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalValue": "Australian citizen or permanent resident"
+          },
+          {
+            "eligibilityType": "STAFF"
+          },
+          {
+            "eligibilityType": "STUDENT"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0365",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "tiers": [
+              {
+                "name": "9 Month Term Deposit_Tier",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "500.00",
+                "maximumValue": "9999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "9 Month Term Deposit_Tier",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "9",
+                "maximumValue": "9",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P9M",
+            "additionalInfoUri": "https://www.swsbank.com.au/accounts/term-deposits/term-deposit-account/"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0365",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "9 Month Term Deposit_Tier",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "500.00",
+                "maximumValue": "9999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "9 Month Term Deposit_Tier",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "9",
+                "maximumValue": "9",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P9M",
+            "additionalInfoUri": "https://www.swsbank.com.au/accounts/term-deposits/term-deposit-account/"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0365",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "tiers": [
+              {
+                "name": "9 Month Term Deposit_Tier",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "10000.00",
+                "maximumValue": "49999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "9 Month Term Deposit_Tier",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "9",
+                "maximumValue": "9",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P9M",
+            "additionalInfoUri": "https://www.swsbank.com.au/accounts/term-deposits/term-deposit-account/"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0365",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "9 Month Term Deposit_Tier",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "10000.00",
+                "maximumValue": "49999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "9 Month Term Deposit_Tier",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "9",
+                "maximumValue": "9",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P9M",
+            "additionalInfoUri": "https://www.swsbank.com.au/accounts/term-deposits/term-deposit-account/"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0365",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "tiers": [
+              {
+                "name": "9 Month Term Deposit_Tier",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "50000.00",
+                "maximumValue": "9999999.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "9 Month Term Deposit_Tier",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "9",
+                "maximumValue": "9",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P9M",
+            "additionalInfoUri": "https://www.swsbank.com.au/accounts/term-deposits/term-deposit-account/"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0365",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "9 Month Term Deposit_Tier",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "50000.00",
+                "maximumValue": "9999999.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "9 Month Term Deposit_Tier",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "9",
+                "maximumValue": "9",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P9M",
+            "additionalInfoUri": "https://www.swsbank.com.au/accounts/term-deposits/term-deposit-account/"
+          }
+        ],
+        "productCategory": "TERM_DEPOSITS",
+        "productId": "I3_TD_9Months",
+        "lastUpdated": "2026-05-11T16:53:22.000+10:00",
+        "name": "9 Month Term Deposit",
+        "description": "9 Month Term Deposit",
+        "brand": "South West Slopes Credit Union",
+        "brandName": "South West Slopes Credit Union Ltd trading as SWSbank",
+        "applicationUri": "https://swscu.apply-online.com.au/#/3e8f1c2b-4724-4a65-b5d0-2d7eaf64b99b",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.swsbank.com.au/accounts/term-deposits/term-deposit-account/",
+          "additionalOverviewUris": [
+            {
+              "description": "Term Deposit",
+              "additionalInfoUri": "https://www.swscu.com.au/savings/term-deposits/term-deposit-account/"
+            }
+          ]
+        }
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "I4_TD_12Months",
+      "productCategory": "TERM_DEPOSITS",
+      "detail": {
+        "features": [
+          {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": "SWSCU Internet Banking and APP"
+          },
+          {
+            "featureType": "NOTIFICATIONS",
+            "additionalInfo": "Alerts"
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "MIN_BALANCE",
+            "additionalInfo": "$500"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "BUSINESS"
+          },
+          {
+            "eligibilityType": "NATURAL_PERSON"
+          },
+          {
+            "eligibilityType": "PENSION_RECIPIENT"
+          },
+          {
+            "eligibilityType": "RESIDENCY_STATUS"
+          },
+          {
+            "eligibilityType": "STAFF"
+          },
+          {
+            "eligibilityType": "STUDENT"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.05",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "tiers": [
+              {
+                "name": "12 Month Term Deposit_Tier",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "500.00",
+                "maximumValue": "9999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "12 Month Term Deposit_Tier",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "12",
+                "maximumValue": "12",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P12M",
+            "additionalInfoUri": "https://www.swsbank.com.au/accounts/term-deposits/term-deposit-account/"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.05",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "12 Month Term Deposit_Tier",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "500.00",
+                "maximumValue": "9999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "12 Month Term Deposit_Tier",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "12",
+                "maximumValue": "12",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P12M",
+            "additionalInfoUri": "https://www.swsbank.com.au/accounts/term-deposits/term-deposit-account/"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.05",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P3M",
+            "tiers": [
+              {
+                "name": "12 Month Term Deposit_Tier",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "500.00",
+                "maximumValue": "9999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "12 Month Term Deposit_Tier",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "12",
+                "maximumValue": "12",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P12M",
+            "additionalInfoUri": "https://www.swsbank.com.au/accounts/term-deposits/term-deposit-account/"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.05",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "tiers": [
+              {
+                "name": "12 Month Term Deposit_Tier",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "10000.00",
+                "maximumValue": "49999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "12 Month Term Deposit_Tier",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "12",
+                "maximumValue": "12",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P12M",
+            "additionalInfoUri": "https://www.swsbank.com.au/accounts/term-deposits/term-deposit-account/"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.05",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "12 Month Term Deposit_Tier",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "10000.00",
+                "maximumValue": "49999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "12 Month Term Deposit_Tier",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "12",
+                "maximumValue": "12",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P12M",
+            "additionalInfoUri": "https://www.swsbank.com.au/accounts/term-deposits/term-deposit-account/"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.05",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P3M",
+            "tiers": [
+              {
+                "name": "12 Month Term Deposit_Tier",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "10000.00",
+                "maximumValue": "49999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "12 Month Term Deposit_Tier",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "12",
+                "maximumValue": "12",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P12M",
+            "additionalInfoUri": "https://www.swsbank.com.au/accounts/term-deposits/term-deposit-account/"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.05",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "tiers": [
+              {
+                "name": "12 Month Term Deposit_Tier",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "50000.00",
+                "maximumValue": "9999999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "12 Month Term Deposit_Tier",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "12",
+                "maximumValue": "12",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P12M",
+            "additionalInfoUri": "https://www.swsbank.com.au/accounts/term-deposits/term-deposit-account/"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.05",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "12 Month Term Deposit_Tier",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "50000.00",
+                "maximumValue": "9999999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "12 Month Term Deposit_Tier",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "12",
+                "maximumValue": "12",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P12M",
+            "additionalInfoUri": "https://www.swsbank.com.au/accounts/term-deposits/term-deposit-account/"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.05",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P3M",
+            "tiers": [
+              {
+                "name": "12 Month Term Deposit_Tier",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "50000.00",
+                "maximumValue": "9999999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "12 Month Term Deposit_Tier",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "12",
+                "maximumValue": "12",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P12M",
+            "additionalInfoUri": "https://www.swsbank.com.au/accounts/term-deposits/term-deposit-account/"
+          }
+        ],
+        "productCategory": "TERM_DEPOSITS",
+        "productId": "I4_TD_12Months",
+        "lastUpdated": "2026-05-11T16:55:24.000+10:00",
+        "name": "12 Month Term Deposit",
+        "description": "12 Month Term Deposit",
+        "brand": "South West Slopes Credit Union",
+        "brandName": "South West Slopes Credit Union Ltd trading as SWSbank",
+        "applicationUri": "https://swscu.apply-online.com.au/#/3e8f1c2b-4724-4a65-b5d0-2d7eaf64b99b",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.swsbank.com.au/accounts/term-deposits/term-deposit-account/",
+          "additionalOverviewUris": [
+            {
+              "description": "Term Deposit",
+              "additionalInfoUri": "https://www.swscu.com.au/savings/term-deposits/term-deposit-account/"
+            }
+          ]
+        }
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "I6_TD_24Months",
+      "productCategory": "TERM_DEPOSITS",
+      "detail": {
+        "features": [
+          {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": "SWSCU Internet Banking and App"
+          },
+          {
+            "featureType": "NOTIFICATIONS",
+            "additionalInfo": "Alerts"
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "MIN_BALANCE",
+            "additionalInfo": "$500"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "BUSINESS"
+          },
+          {
+            "eligibilityType": "NATURAL_PERSON"
+          },
+          {
+            "eligibilityType": "PENSION_RECIPIENT"
+          },
+          {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalValue": "Australian citizen or permanent resident"
+          },
+          {
+            "eligibilityType": "STAFF"
+          },
+          {
+            "eligibilityType": "STUDENT"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.048",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "24 Month Term Deposit_Tier",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "500.00",
+                "maximumValue": "9999.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "24 Month Term Deposit_Tier",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "24",
+                "maximumValue": "24",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P24M",
+            "additionalInfoUri": "https://www.swsbank.com.au/accounts/term-deposits/term-deposit-account/"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.048",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P12M",
+            "tiers": [
+              {
+                "name": "24 Month Term Deposit_Tier",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "500.00",
+                "maximumValue": "9999.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "24 Month Term Deposit_Tier",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "24",
+                "maximumValue": "24",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P24M",
+            "additionalInfoUri": "https://www.swsbank.com.au/accounts/term-deposits/term-deposit-account/"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.048",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "24 Month Term Deposit_Tier",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "10000.00",
+                "maximumValue": "49999.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "24 Month Term Deposit_Tier",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "24",
+                "maximumValue": "24",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P24M",
+            "additionalInfoUri": "https://www.swsbank.com.au/accounts/term-deposits/term-deposit-account/"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.048",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P12M",
+            "tiers": [
+              {
+                "name": "24 Month Term Deposit_Tier",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "10000.00",
+                "maximumValue": "49999.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "24 Month Term Deposit_Tier",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "24",
+                "maximumValue": "24",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P24M",
+            "additionalInfoUri": "https://www.swsbank.com.au/accounts/term-deposits/term-deposit-account/"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.048",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "24 Month Term Deposit_Tier",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "50000.00",
+                "maximumValue": "9999999.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "24 Month Term Deposit_Tier",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "24",
+                "maximumValue": "24",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P24M",
+            "additionalInfoUri": "https://www.swsbank.com.au/accounts/term-deposits/term-deposit-account/"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.048",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P12M",
+            "tiers": [
+              {
+                "name": "24 Month Term Deposit_Tier",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "50000.00",
+                "maximumValue": "9999999.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "24 Month Term Deposit_Tier",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "24",
+                "maximumValue": "24",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P24M",
+            "additionalInfoUri": "https://www.swsbank.com.au/accounts/term-deposits/term-deposit-account/"
+          }
+        ],
+        "productCategory": "TERM_DEPOSITS",
+        "productId": "I6_TD_24Months",
+        "lastUpdated": "2026-06-10T16:59:42.000+10:00",
+        "name": "24 Month Term Deposit",
+        "description": "24 Month Term Deposit",
+        "brand": "South West Slopes Credit Union",
+        "brandName": "South West Slopes Credit Union Ltd trading as SWSbank",
+        "applicationUri": "https://swscu.apply-online.com.au/#/3e8f1c2b-4724-4a65-b5d0-2d7eaf64b99b",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.swsbank.com.au/accounts/term-deposits/term-deposit-account/"
+        }
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "S1_GS",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "features": [
+          {
+            "featureType": "CARD_ACCESS",
+            "additionalValue": "Visa Debit Card Available"
+          },
+          {
+            "featureType": "BILL_PAYMENT",
+            "additionalValue": "Periodical Payments System"
+          },
+          {
+            "featureType": "DIGITAL_BANKING"
+          },
+          {
+            "featureType": "DIGITAL_WALLET",
+            "additionalValue": "Apple Pay, Google Pay and Samsung Pay"
+          },
+          {
+            "featureType": "NOTIFICATIONS",
+            "additionalValue": "Monthly or 6 Monthly statements available"
+          },
+          {
+            "featureType": "NPP_ENABLED"
+          },
+          {
+            "featureType": "NPP_PAYID"
+          },
+          {
+            "featureType": "OVERDRAFT"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "BUSINESS"
+          },
+          {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "18"
+          },
+          {
+            "eligibilityType": "NATURAL_PERSON"
+          },
+          {
+            "eligibilityType": "PENSION_RECIPIENT"
+          },
+          {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalValue": "Australian citizen or permanent resident"
+          }
+        ],
+        "fees": [
+          {
+            "name": "EXCESS_TRANSACTION_FEES",
+            "feeType": "EVENT",
+            "feeMethodUType": "rateBased",
+            "rateBased": {
+              "rateType": "TRANSACTION",
+              "rate": "0.0",
+              "accrualFrequency": "P1M"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Excess Transaction Fees are incurred when the number of Free Transactions for the month are exceeded.",
+            "additionalInfoUri": "https://www.swsbank.com.au/help-support/rates-fees/fees-and-charges/"
+          },
+          {
+            "name": "CHARGEBACK_EFT_DISPUTE",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "20.00"
+            },
+            "currency": "AUD",
+            "additionalInfoUri": "https://www.swsbank.com.au/help-support/rates-fees/fees-and-charges/"
+          },
+          {
+            "name": "CHARGEBACK_VOUCHER_RETRIEVAL_FEE",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "30.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "fee per transaction lodged per Visa Dispute",
+            "additionalInfoUri": "https://www.swsbank.com.au/help-support/rates-fees/fees-and-charges/"
+          },
+          {
+            "name": "CURRENCY_CONVERSION_FEE_VD",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "rateBased",
+            "rateBased": {
+              "rateType": "TRANSACTION",
+              "rate": "0.02"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Visa Debit 2% of transaction amount will apply to any foreign currency",
+            "additionalInfoUri": "https://www.swsbank.com.au/help-support/rates-fees/fees-and-charges/"
+          },
+          {
+            "name": "DIRECT_DEBITS_DISHONOUR_FEE",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "15.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "authoiryt to directly debit account is dishonoured due to insufficient funds",
+            "additionalInfoUri": "https://www.swsbank.com.au/help-support/rates-fees/fees-and-charges/"
+          },
+          {
+            "name": "DORMANT_ACCOUNT_FEE",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "10.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "No member generated activity for at least 2 years with no member response",
+            "additionalInfoUri": "https://www.swsbank.com.au/help-support/rates-fees/fees-and-charges/"
+          },
+          {
+            "name": "DUPLICATED_MEMBER_STATEMENT_FEE",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "3.00"
+            },
+            "currency": "AUD",
+            "additionalInfoUri": "https://www.swsbank.com.au/help-support/rates-fees/fees-and-charges/"
+          },
+          {
+            "name": "ELECTRONIC_PAYMENT_FEE",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "25.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "to Establish Direct Entry final destination, manual dishonour, Bpay enquiry and/or correction, Mistaken Payment",
+            "additionalInfoUri": "https://www.swsbank.com.au/help-support/rates-fees/fees-and-charges/"
+          },
+          {
+            "name": "REFERRAL_FEE",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "10.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "applied each time account is overdrawn without arrangements as result of cheque or direct debits being honoured",
+            "additionalInfoUri": "https://www.swsbank.com.au/help-support/rates-fees/fees-and-charges/"
+          },
+          {
+            "name": "SWIFT_PAYMENTS_(RTGS)",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "10.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Incoming RTGS charge",
+            "additionalInfoUri": "https://www.swsbank.com.au/help-support/rates-fees/fees-and-charges/"
+          },
+          {
+            "name": "SWIFT_PAYMENT_(RTGS)",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "15.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Outbound RTGS Domestic payment",
+            "additionalInfoUri": "https://www.swsbank.com.au/help-support/rates-fees/fees-and-charges/"
+          },
+          {
+            "name": "VISA_CARD_FEE",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "15.00"
+            },
+            "currency": "AUD",
+            "additionalInfoUri": "https://www.swsbank.com.au/help-support/rates-fees/fees-and-charges/"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0001",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "additionalInfoUri": "https://www.swsbank.com.au/accounts/everyday-accounts/everyday-account/"
+          }
+        ],
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "productId": "S1_GS",
+        "lastUpdated": "2025-09-15T10:57:42.000+10:00",
+        "name": "Everyday Account",
+        "description": "Everyday Account",
+        "brand": "South West Slopes Credit Union",
+        "brandName": "South West Slopes Credit Union Ltd trading as SWSbank",
+        "applicationUri": "https://swscu.apply-online.com.au/#/5e7b4a3f-73sghs-4d7a-93c1-8cbaf6fcb318",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.swsbank.com.au/accounts/everyday-accounts/everyday-account/",
+          "feesAndPricingUri": "https://www.swsbank.com.au/help-support/rates-fees/fees-and-charges/"
+        }
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "S10_Offset",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "features": [
+          {
+            "featureType": "OFFSET"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "BUSINESS"
+          },
+          {
+            "eligibilityType": "NATURAL_PERSON"
+          },
+          {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalValue": "Australian citizen or permanent resident"
+          },
+          {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "18"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M"
+          }
+        ],
+        "lendingRates": [
+          {
+            "lendingRateType": "VARIABLE",
+            "rate": "0.125",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "repaymentType": "OTHER",
+            "loanPurpose": "OTHER"
+          }
+        ],
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "productId": "S10_Offset",
+        "lastUpdated": "2021-11-11T16:15:43.000+11:00",
+        "name": "Offset Account",
+        "description": "Offset Account",
+        "brand": "South West Slopes Credit Union",
+        "brandName": "South West Slopes Credit Union Ltd trading as SWSbank",
+        "isTailored": false,
+        "additionalInformation": {}
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "S11_OS",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "features": [
+          {
+            "featureType": "DIGITAL_BANKING"
+          },
+          {
+            "featureType": "NPP_ENABLED"
+          },
+          {
+            "featureType": "NPP_PAYID"
+          },
+          {
+            "featureType": "BILL_PAYMENT",
+            "additionalValue": "Periodical Payments System"
+          },
+          {
+            "featureType": "NOTIFICATIONS",
+            "additionalValue": "Monthly or 6 monthly statements available"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalValue": "Australian citizen or permanent resident"
+          },
+          {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "10"
+          }
+        ],
+        "fees": [
+          {
+            "name": "ASSISTED_TRANSACTION_FEE",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "5.00"
+            },
+            "currency": "AUD",
+            "additionalInfoUri": "https://www.swsbank.com.au/help-support/rates-fees/fees-and-charges/"
+          },
+          {
+            "name": "ELECTRONIC_PAYMENT_FEE",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "25.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "to Establish Direct Entry final destination, manual dishonour, Bpay enquiry and/or correction, Mistaken Payment",
+            "additionalInfoUri": "https://www.swsbank.com.au/help-support/rates-fees/fees-and-charges/"
+          },
+          {
+            "name": "REFERRAL_FEE",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "10.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "applied each time account is overdrawn without arrangements as result of cheque or direct debits being honoured",
+            "additionalInfoUri": "https://www.swsbank.com.au/help-support/rates-fees/fees-and-charges/"
+          },
+          {
+            "name": "SWIFT_PAYMENTS_(RTGS)",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "10.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Incoming RTGS charge",
+            "additionalInfoUri": "https://www.swsbank.com.au/help-support/rates-fees/fees-and-charges/"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.02",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "additionalInfoUri": "https://www.swsbank.com.au/accounts/savings-accounts/online-saver-account/"
+          }
+        ],
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "productId": "S11_OS",
+        "lastUpdated": "2025-04-07T13:08:06.000+10:00",
+        "name": "Online Saver",
+        "description": "Online Saver",
+        "brand": "South West Slopes Credit Union",
+        "brandName": "South West Slopes Credit Union Ltd trading as SWSbank",
+        "applicationUri": "https://www.swsbank.com.au/forms/additional-account-application/",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.swsbank.com.au/accounts/savings-accounts/online-saver-account/",
+          "feesAndPricingUri": "https://www.swsbank.com.au/help-support/rates-fees/fees-and-charges/"
+        }
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "S2_Sav",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "features": [
+          {
+            "featureType": "BILL_PAYMENT",
+            "additionalValue": "Periodical Payment system"
+          },
+          {
+            "featureType": "DIGITAL_BANKING"
+          },
+          {
+            "featureType": "NOTIFICATIONS",
+            "additionalValue": "Monthly or 6 monthly statements available"
+          },
+          {
+            "featureType": "NPP_ENABLED"
+          },
+          {
+            "featureType": "NPP_PAYID"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "BUSINESS"
+          },
+          {
+            "eligibilityType": "NATURAL_PERSON"
+          },
+          {
+            "eligibilityType": "PENSION_RECIPIENT"
+          },
+          {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalValue": "Australian citizen or permanent resident"
+          },
+          {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "13"
+          }
+        ],
+        "fees": [
+          {
+            "name": "DIRECT_DEBITS_DISHONOUR_FEE",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "15.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "authoiryt to directly debit account is dishonoured due to insufficient funds",
+            "additionalInfoUri": "https://www.swsbank.com.au/help-support/rates-fees/fees-and-charges/"
+          },
+          {
+            "name": "ELECTRONIC_PAYMENT_FEE",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "25.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "to Establish Direct Entry final destination, manual dishonour, Bpay enquiry and/or correction, Mistaken Payment",
+            "additionalInfoUri": "https://www.swsbank.com.au/help-support/rates-fees/fees-and-charges/"
+          },
+          {
+            "name": "REFERRAL_FEE",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "10.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "applied each time account is overdrawn without arrangements as result of cheque or direct debits being honoured",
+            "additionalInfoUri": "https://www.swsbank.com.au/help-support/rates-fees/fees-and-charges/"
+          },
+          {
+            "name": "SWIFT_PAYMENTS_(RTGS)",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "10.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Incoming RTGS charge",
+            "additionalInfoUri": "https://www.swsbank.com.au/help-support/rates-fees/fees-and-charges/"
+          },
+          {
+            "name": "SWIFT_PAYMENT_(RTGS)",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "15.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Outbound RTGS Domestic payment",
+            "additionalInfoUri": "https://www.swsbank.com.au/help-support/rates-fees/fees-and-charges/"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0001",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "additionalInfoUri": "https://www.swsbank.com.au/accounts/everyday-accounts/card-free-account/"
+          }
+        ],
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "productId": "S2_Sav",
+        "lastUpdated": "2025-09-15T10:57:55.000+10:00",
+        "name": "Card Free Account",
+        "description": "Card Free Account",
+        "brand": "South West Slopes Credit Union",
+        "brandName": "South West Slopes Credit Union Ltd trading as SWSbank",
+        "applicationUri": "https://swscu.apply-online.com.au/#/5e7b4a3f-73sghs-4d7a-93c1-8cbaf6fcb318",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.swsbank.com.au/accounts/everyday-accounts/card-free-account/",
+          "feesAndPricingUri": "https://www.swsbank.com.au/help-support/rates-fees/fees-and-charges/"
+        }
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "S4_BSav",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "features": [
+          {
+            "featureType": "BILL_PAYMENT",
+            "additionalValue": "Periodical Payments System"
+          },
+          {
+            "featureType": "DIGITAL_BANKING"
+          },
+          {
+            "featureType": "NOTIFICATIONS",
+            "additionalValue": "Monthly or 6 monthly statements available"
+          },
+          {
+            "featureType": "NPP_ENABLED"
+          },
+          {
+            "featureType": "NPP_PAYID"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "BUSINESS"
+          },
+          {
+            "eligibilityType": "NATURAL_PERSON"
+          },
+          {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalValue": "Australian citizen or permanent resident"
+          },
+          {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "13"
+          }
+        ],
+        "fees": [
+          {
+            "name": "DIRECT_DEBITS_DISHONOUR_FEE",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "15.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "authoiryt to directly debit account is dishonoured due to insufficient funds",
+            "additionalInfoUri": "https://www.swsbank.com.au/help-support/rates-fees/fees-and-charges/"
+          },
+          {
+            "name": "ELECTRONIC_PAYMENT_FEE",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "25.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "to Establish Direct Entry final destination, manual dishonour, Bpay enquiry and/or correction, Mistaken Payment",
+            "additionalInfoUri": "https://www.swsbank.com.au/help-support/rates-fees/fees-and-charges/"
+          },
+          {
+            "name": "REFERRAL_FEE",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "10.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "applied each time account is overdrawn without arrangements as result of cheque or direct debits being honoured",
+            "additionalInfoUri": "https://www.swsbank.com.au/help-support/rates-fees/fees-and-charges/"
+          },
+          {
+            "name": "SWIFT_PAYMENTS_(RTGS)",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "10.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Incoming RTGS charge",
+            "additionalInfoUri": "https://www.swsbank.com.au/help-support/rates-fees/fees-and-charges/"
+          },
+          {
+            "name": "SWIFT_PAYMENT_(RTGS)",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "15.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Outbound RTGS Domestic payment",
+            "additionalInfoUri": "https://www.swsbank.com.au/help-support/rates-fees/fees-and-charges/"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0001",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "additionalInfoUri": "https://www.swsbank.com.au/accounts/everyday-accounts/budget-account/"
+          }
+        ],
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "productId": "S4_BSav",
+        "lastUpdated": "2025-09-15T10:58:11.000+10:00",
+        "name": "Budget Account",
+        "description": "Budget Account",
+        "brand": "South West Slopes Credit Union",
+        "brandName": "South West Slopes Credit Union Ltd trading as SWSbank",
+        "applicationUri": "https://swscu.apply-online.com.au/#/5e7b4a3f-73sghs-4d7a-93c1-8cbaf6fcb318",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.swsbank.com.au/accounts/everyday-accounts/budget-account/",
+          "feesAndPricingUri": "https://www.swsbank.com.au/help-support/rates-fees/fees-and-charges/"
+        }
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "S5_Xmas",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "features": [
+          {
+            "featureType": "DIGITAL_BANKING"
+          },
+          {
+            "featureType": "NOTIFICATIONS",
+            "additionalValue": "Monthly or 6 monthly statements available"
+          },
+          {
+            "featureType": "NPP_ENABLED"
+          },
+          {
+            "featureType": "NPP_PAYID"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "BUSINESS"
+          },
+          {
+            "eligibilityType": "NATURAL_PERSON"
+          },
+          {
+            "eligibilityType": "OTHER",
+            "additionalInfo": "Associations and club accounts eligible"
+          },
+          {
+            "eligibilityType": "PENSION_RECIPIENT"
+          },
+          {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalValue": "Australian citizen or permanent resident"
+          },
+          {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "13"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0075",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "additionalInfo": "Interest calculated daily, paid on 30 November. Funds available on 30 November",
+            "additionalInfoUri": "https://www.swsbank.com.au/accounts/savings-accounts/christmas-club/"
+          }
+        ],
+        "lendingRates": [
+          {
+            "lendingRateType": "VARIABLE",
+            "rate": "0.125",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "repaymentType": "OTHER",
+            "loanPurpose": "OTHER"
+          }
+        ],
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "productId": "S5_Xmas",
+        "lastUpdated": "2025-09-15T10:58:26.000+10:00",
+        "name": "Christmas Club",
+        "description": "Christmas Club",
+        "brand": "South West Slopes Credit Union",
+        "brandName": "South West Slopes Credit Union Ltd trading as SWSbank",
+        "applicationUri": "https://swscu.apply-online.com.au/#/5e7b4a3f-73sghs-4d7a-93c1-8cbaf6fcb318",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.swsbank.com.au/accounts/savings-accounts/christmas-club/",
+          "feesAndPricingUri": "https://www.swsbank.com.au/help-support/rates-fees/fees-and-charges/"
+        }
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "S6_Teen",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "features": [
+          {
+            "featureType": "CARD_ACCESS",
+            "additionalValue": "Visa Debit Card Available"
+          },
+          {
+            "featureType": "BILL_PAYMENT",
+            "additionalInfo": "Periodical Payments System"
+          },
+          {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": "Internet Banking & App available"
+          },
+          {
+            "featureType": "DIGITAL_WALLET",
+            "additionalValue": "Apple Pay, Google Pay and Samsung Pay available"
+          },
+          {
+            "featureType": "NOTIFICATIONS",
+            "additionalValue": "Monthly or 6 monthly statements available"
+          },
+          {
+            "featureType": "NPP_ENABLED"
+          },
+          {
+            "featureType": "NPP_PAYID"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "13"
+          },
+          {
+            "eligibilityType": "NATURAL_PERSON"
+          },
+          {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalValue": "Australian citizen or permanent resident"
+          }
+        ],
+        "fees": [
+          {
+            "name": "EXCESS_TRANSACTION_FEES",
+            "feeType": "EVENT",
+            "feeMethodUType": "rateBased",
+            "rateBased": {
+              "rateType": "TRANSACTION",
+              "rate": "0.0",
+              "accrualFrequency": "P1M"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Excess Transaction Fees are incurred when the number of Free Transactions for the month are exceeded.",
+            "additionalInfoUri": "https://www.swsbank.com.au/help-support/rates-fees/fees-and-charges/"
+          },
+          {
+            "name": "CHARGEBACK_EFT_DISPUTE",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "20.00"
+            },
+            "currency": "AUD",
+            "additionalInfoUri": "https://www.swsbank.com.au/help-support/rates-fees/fees-and-charges/"
+          },
+          {
+            "name": "CHARGEBACK_VOUCHER_RETRIEVAL_FEE",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "30.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "fee per transaction lodged per Visa Dispute",
+            "additionalInfoUri": "https://www.swsbank.com.au/help-support/rates-fees/fees-and-charges/"
+          },
+          {
+            "name": "CHEQUE_DEPOSIT_DISHONOUR_FEE",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "5.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Cheque Deposited to members account is dishonoured"
+          },
+          {
+            "name": "CURRENCY_CONVERSION_FEE_VD",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "rateBased",
+            "rateBased": {
+              "rateType": "TRANSACTION",
+              "rate": "0.02"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Visa Debit 2% of transaction amount will apply to any foreign currency",
+            "additionalInfoUri": "https://www.swsbank.com.au/help-support/rates-fees/fees-and-charges/"
+          },
+          {
+            "name": "DORMANT_ACCOUNT_FEE",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "10.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "No member generated activity for at least 2 years with no member response",
+            "additionalInfoUri": "https://www.swsbank.com.au/help-support/rates-fees/fees-and-charges/"
+          },
+          {
+            "name": "DUPLICATED_MEMBER_STATEMENT_FEE",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "3.00"
+            },
+            "currency": "AUD",
+            "additionalInfoUri": "https://www.swsbank.com.au/help-support/rates-fees/fees-and-charges/"
+          },
+          {
+            "name": "ELECTRONIC_PAYMENT_FEE",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "25.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "to Establish Direct Entry final destination, manual dishonour, Bpay enquiry and/or correction, Mistaken Payment",
+            "additionalInfoUri": "https://www.swsbank.com.au/help-support/rates-fees/fees-and-charges/"
+          },
+          {
+            "name": "SWIFT_PAYMENTS_(RTGS)",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "10.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Incoming RTGS charge",
+            "additionalInfoUri": "https://www.swsbank.com.au/help-support/rates-fees/fees-and-charges/"
+          },
+          {
+            "name": "SWIFT_PAYMENT_(RTGS)",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "15.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Outbound RTGS Domestic payment",
+            "additionalInfoUri": "https://www.swsbank.com.au/help-support/rates-fees/fees-and-charges/"
+          },
+          {
+            "name": "VISA_CARD_FEE",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "15.00"
+            },
+            "currency": "AUD",
+            "additionalInfoUri": "https://www.swsbank.com.au/help-support/rates-fees/fees-and-charges/"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.02",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "additionalInfoUri": "https://www.swsbank.com.au/accounts/junior-accounts/teenager-account/"
+          }
+        ],
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "productId": "S6_Teen",
+        "lastUpdated": "2025-09-15T10:58:38.000+10:00",
+        "name": "Teenager Account",
+        "description": "Teenager Account",
+        "brand": "South West Slopes Credit Union",
+        "brandName": "South West Slopes Credit Union Ltd trading as SWSbank",
+        "applicationUri": "https://swscu.apply-online.com.au/#/5e7b4a3f-73sghs-4d7a-93c1-8cbaf6fcb318",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.swsbank.com.au/accounts/junior-accounts/teenager-account/",
+          "feesAndPricingUri": "https://www.swsbank.com.au/help-support/rates-fees/fees-and-charges/"
+        }
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "S7_7DN",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "features": [
+          {
+            "featureType": "BILL_PAYMENT",
+            "additionalValue": "Periodical Payments System"
+          },
+          {
+            "featureType": "DIGITAL_BANKING"
+          },
+          {
+            "featureType": "NOTIFICATIONS",
+            "additionalValue": "Monthly or 6 monthly statements available",
+            "additionalInfo": "Alerts"
+          },
+          {
+            "featureType": "NPP_ENABLED"
+          },
+          {
+            "featureType": "NPP_PAYID"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "NATURAL_PERSON"
+          },
+          {
+            "eligibilityType": "PENSION_RECIPIENT"
+          },
+          {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalValue": "Australian citizen or permanent resident"
+          },
+          {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "13"
+          }
+        ],
+        "fees": [
+          {
+            "name": "DIRECT_DEBITS_DISHONOUR_FEE",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "15.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "authoiryt to directly debit account is dishonoured due to insufficient funds",
+            "additionalInfoUri": "https://www.swsbank.com.au/help-support/rates-fees/fees-and-charges/"
+          },
+          {
+            "name": "ELECTRONIC_PAYMENT_FEE",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "25.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "to Establish Direct Entry final destination, manual dishonour, Bpay enquiry and/or correction, Mistaken Payment",
+            "additionalInfoUri": "https://www.swsbank.com.au/help-support/rates-fees/fees-and-charges/"
+          },
+          {
+            "name": "REFERRAL_FEE",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "10.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "applied each time account is overdrawn without arrangements as result of cheque or direct debits being honoured",
+            "additionalInfoUri": "https://www.swsbank.com.au/help-support/rates-fees/fees-and-charges/"
+          },
+          {
+            "name": "SWIFT_PAYMENTS_(RTGS)",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "10.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Incoming RTGS charge",
+            "additionalInfoUri": "https://www.swsbank.com.au/help-support/rates-fees/fees-and-charges/"
+          },
+          {
+            "name": "SWIFT_PAYMENT_(RTGS)",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "15.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Outbound RTGS Domestic payment",
+            "additionalInfoUri": "https://www.swsbank.com.au/help-support/rates-fees/fees-and-charges/"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0025",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "additionalInfoUri": "https://www.swsbank.com.au/accounts/everyday-accounts/goal-account/"
+          }
+        ],
+        "lendingRates": [
+          {
+            "lendingRateType": "VARIABLE",
+            "rate": "0.125",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "repaymentType": "OTHER",
+            "loanPurpose": "OTHER"
+          }
+        ],
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "productId": "S7_7DN",
+        "lastUpdated": "2025-09-15T10:58:51.000+10:00",
+        "name": "Goal Account",
+        "description": "Goal Account",
+        "brand": "South West Slopes Credit Union",
+        "brandName": "South West Slopes Credit Union Ltd trading as SWSbank",
+        "applicationUri": "https://swscu.apply-online.com.au/#/5e7b4a3f-73sghs-4d7a-93c1-8cbaf6fcb318",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.swsbank.com.au/accounts/everyday-accounts/goal-account/",
+          "feesAndPricingUri": "https://www.swsbank.com.au/help-support/rates-fees/fees-and-charges/"
+        }
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "S8_SSav",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "features": [
+          {
+            "featureType": "CARD_ACCESS",
+            "additionalValue": "Visa Debit Card Available, no paywave facility"
+          },
+          {
+            "featureType": "BILL_PAYMENT",
+            "additionalValue": "Periodical Payments System"
+          },
+          {
+            "featureType": "DIGITAL_BANKING"
+          },
+          {
+            "featureType": "DIGITAL_WALLET",
+            "additionalValue": "Apple Pay, Google Pay and Samsung Pay available"
+          },
+          {
+            "featureType": "NOTIFICATIONS",
+            "additionalValue": "Monthly or 6 monthly statements available"
+          },
+          {
+            "featureType": "NPP_ENABLED"
+          },
+          {
+            "featureType": "NPP_PAYID"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "10"
+          },
+          {
+            "eligibilityType": "NATURAL_PERSON"
+          },
+          {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalValue": "Australian citizen or permanent resident"
+          },
+          {
+            "eligibilityType": "MAX_AGE",
+            "additionalValue": "13"
+          }
+        ],
+        "fees": [
+          {
+            "name": "EXCESS_TRANSACTION_FEES",
+            "feeType": "EVENT",
+            "feeMethodUType": "rateBased",
+            "rateBased": {
+              "rateType": "TRANSACTION",
+              "rate": "0.0",
+              "accrualFrequency": "P1M"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Excess Transaction Fees are incurred when the number of Free Transactions for the month are exceeded.",
+            "additionalInfoUri": "https://www.swsbank.com.au/help-support/rates-fees/fees-and-charges/"
+          },
+          {
+            "name": "CHARGEBACK_EFT_DISPUTE",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "20.00"
+            },
+            "currency": "AUD",
+            "additionalInfoUri": "https://www.swsbank.com.au/help-support/rates-fees/fees-and-charges/"
+          },
+          {
+            "name": "CHARGEBACK_VOUCHER_RETRIEVAL_FEE",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "30.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "fee per transaction lodged per Visa Dispute",
+            "additionalInfoUri": "https://www.swsbank.com.au/help-support/rates-fees/fees-and-charges/"
+          },
+          {
+            "name": "CHEQUE_DEPOSIT_DISHONOUR_FEE",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "5.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Cheque Deposited to members account is dishonoured"
+          },
+          {
+            "name": "CHEQUE_TRACE_FEE",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "45.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "establish final destination (who received cheque value)"
+          },
+          {
+            "name": "CURRENCY_CONVERSION_FEE_VD",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "rateBased",
+            "rateBased": {
+              "rateType": "TRANSACTION",
+              "rate": "0.02"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Visa Debit 2% of transaction amount will apply to any foreign currency",
+            "additionalInfoUri": "https://www.swsbank.com.au/help-support/rates-fees/fees-and-charges/"
+          },
+          {
+            "name": "DORMANT_ACCOUNT_FEE",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "10.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "No member generated activity for at least 2 years with no member response",
+            "additionalInfoUri": "https://www.swsbank.com.au/help-support/rates-fees/fees-and-charges/"
+          },
+          {
+            "name": "DUPLICATED_MEMBER_STATEMENT_FEE",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "3.00"
+            },
+            "currency": "AUD",
+            "additionalInfoUri": "https://www.swsbank.com.au/help-support/rates-fees/fees-and-charges/"
+          },
+          {
+            "name": "ELECTRONIC_PAYMENT_FEE",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "25.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "to Establish Direct Entry final destination, manual dishonour, Bpay enquiry and/or correction, Mistaken Payment",
+            "additionalInfoUri": "https://www.swsbank.com.au/help-support/rates-fees/fees-and-charges/"
+          },
+          {
+            "name": "SWIFT_PAYMENTS_(RTGS)",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "10.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Incoming RTGS charge",
+            "additionalInfoUri": "https://www.swsbank.com.au/help-support/rates-fees/fees-and-charges/"
+          },
+          {
+            "name": "SWIFT_PAYMENT_(RTGS)",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "15.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Outbound RTGS Domestic payment",
+            "additionalInfoUri": "https://www.swsbank.com.au/help-support/rates-fees/fees-and-charges/"
+          },
+          {
+            "name": "VISA_CARD_FEE",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "15.00"
+            },
+            "currency": "AUD",
+            "additionalInfoUri": "https://www.swsbank.com.au/help-support/rates-fees/fees-and-charges/"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.015",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "additionalInfoUri": "https://www.swsbank.com.au/accounts/junior-accounts/junior-account/"
+          }
+        ],
+        "lendingRates": [
+          {
+            "lendingRateType": "VARIABLE",
+            "rate": "0.125",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "repaymentType": "OTHER",
+            "loanPurpose": "OTHER"
+          }
+        ],
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "productId": "S8_SSav",
+        "lastUpdated": "2025-09-15T11:04:52.000+10:00",
+        "name": "Junior Account",
+        "description": "Junior Account",
+        "brand": "South West Slopes Credit Union",
+        "brandName": "South West Slopes Credit Union Ltd trading as SWSbank",
+        "applicationUri": "https://swscu.apply-online.com.au/#/5e7b4a3f-73sghs-4d7a-93c1-8cbaf6fcb318",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.swsbank.com.au/accounts/junior-accounts/junior-account/",
+          "feesAndPricingUri": "https://www.swsbank.com.au/help-support/rates-fees/fees-and-charges/"
+        }
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "S9_SMF",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "features": [
+          {
+            "featureType": "CARD_ACCESS",
+            "additionalValue": "Visa Debit Card Available"
+          },
+          {
+            "featureType": "BILL_PAYMENT",
+            "additionalInfo": "Periodical Payments System"
+          },
+          {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": "Internet Banking & App available"
+          },
+          {
+            "featureType": "DIGITAL_WALLET",
+            "additionalInfo": "Apple Pay, Samsung Pay & Andriod Pay available"
+          },
+          {
+            "featureType": "NOTIFICATIONS",
+            "additionalInfo": "Alerts available"
+          },
+          {
+            "featureType": "NPP_ENABLED"
+          },
+          {
+            "featureType": "NPP_PAYID",
+            "additionalInfo": "NPP PayID available for this account"
+          },
+          {
+            "featureType": "OVERDRAFT",
+            "additionalInfo": "Overdraft facility available on successful credit application"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "BUSINESS"
+          },
+          {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "18"
+          },
+          {
+            "eligibilityType": "NATURAL_PERSON"
+          },
+          {
+            "eligibilityType": "PENSION_RECIPIENT"
+          },
+          {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalValue": "Australian citizen or permanent resident"
+          }
+        ],
+        "fees": [
+          {
+            "name": "EXCESS_TRANSACTION_FEES",
+            "feeType": "EVENT",
+            "feeMethodUType": "rateBased",
+            "rateBased": {
+              "rateType": "TRANSACTION",
+              "rate": "0.0",
+              "accrualFrequency": "P1M"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Excess Transaction Fees are incurred when the number of Free Transactions for the month are exceeded.",
+            "additionalInfoUri": "https://www.swsbank.com.au/help-support/rates-fees/fees-and-charges/"
+          },
+          {
+            "name": "CHARGEBACK_EFT_DISPUTE",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "20.00"
+            },
+            "currency": "AUD",
+            "additionalInfoUri": "https://www.swsbank.com.au/help-support/rates-fees/fees-and-charges/"
+          },
+          {
+            "name": "CHARGEBACK_VOUCHER_RETRIEVAL_FEE",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "30.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "fee per transaction lodged per Visa Dispute",
+            "additionalInfoUri": "https://www.swsbank.com.au/help-support/rates-fees/fees-and-charges/"
+          },
+          {
+            "name": "CHEQUE_DEPOSIT_DISHONOUR_FEE",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "5.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Cheque Deposited to members account is dishonoured"
+          },
+          {
+            "name": "CHEQUE_TRACE_FEE",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "45.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "establish final destination (who received cheque value)"
+          },
+          {
+            "name": "CURRENCY_CONVERSION_FEE_VD",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "rateBased",
+            "rateBased": {
+              "rateType": "TRANSACTION",
+              "rate": "0.02"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Visa Debit 2% of transaction amount will apply to any foreign currency",
+            "additionalInfoUri": "https://www.swsbank.com.au/help-support/rates-fees/fees-and-charges/"
+          },
+          {
+            "name": "DIRECT_DEBITS_DISHONOUR_FEE",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "15.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "authoiryt to directly debit account is dishonoured due to insufficient funds",
+            "additionalInfoUri": "https://www.swsbank.com.au/help-support/rates-fees/fees-and-charges/"
+          },
+          {
+            "name": "DORMANT_ACCOUNT_FEE",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "10.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "No member generated activity for at least 2 years with no member response",
+            "additionalInfoUri": "https://www.swsbank.com.au/help-support/rates-fees/fees-and-charges/"
+          },
+          {
+            "name": "DUPLICATED_MEMBER_STATEMENT_FEE",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "3.00"
+            },
+            "currency": "AUD",
+            "additionalInfoUri": "https://www.swsbank.com.au/help-support/rates-fees/fees-and-charges/"
+          },
+          {
+            "name": "ELECTRONIC_PAYMENT_FEE",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "25.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "to Establish Direct Entry final destination, manual dishonour, Bpay enquiry and/or correction, Mistaken Payment",
+            "additionalInfoUri": "https://www.swsbank.com.au/help-support/rates-fees/fees-and-charges/"
+          },
+          {
+            "name": "MEMBER_CHEQUE_BOOKS_25_LEAF",
+            "feeType": "UPFRONT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "8.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Cheque Boo Fee 25 leaf book"
+          },
+          {
+            "name": "MEMBER_CHEQUE_BOOK_100_LEAF",
+            "feeType": "UPFRONT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "20.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "100 Leaf cheque book fee"
+          },
+          {
+            "name": "MEMBER_CHEQUE_COPY",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "25.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "charged to produce a copy or enquiry of cheque details"
+          },
+          {
+            "name": "MEMBER_CHEQUE_DISHONOUR_FEE",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "15.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Member Cheque Dishonour Fee"
+          },
+          {
+            "name": "REFERRAL_FEE",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "10.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "applied each time account is overdrawn without arrangements as result of cheque or direct debits being honoured",
+            "additionalInfoUri": "https://www.swsbank.com.au/help-support/rates-fees/fees-and-charges/"
+          },
+          {
+            "name": "SWIFT_PAYMENTS_(RTGS)",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "10.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Incoming RTGS charge",
+            "additionalInfoUri": "https://www.swsbank.com.au/help-support/rates-fees/fees-and-charges/"
+          },
+          {
+            "name": "SWIFT_PAYMENT_(RTGS)",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "15.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Outbound RTGS Domestic payment",
+            "additionalInfoUri": "https://www.swsbank.com.au/help-support/rates-fees/fees-and-charges/"
+          },
+          {
+            "name": "VISA_CARD_FEE",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "15.00"
+            },
+            "currency": "AUD",
+            "additionalInfoUri": "https://www.swsbank.com.au/help-support/rates-fees/fees-and-charges/"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.02",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "additionalInfoUri": "https://www.swsbank.com.au/accounts/savings-accounts/superannuation-account/"
+          }
+        ],
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "productId": "S9_SMF",
+        "lastUpdated": "2025-09-15T11:05:05.000+10:00",
+        "name": "SMF Superannuation",
+        "description": "SMF Superannuation",
+        "brand": "South West Slopes Credit Union",
+        "brandName": "South West Slopes Credit Union Ltd trading as SWSbank",
+        "applicationUri": "https://swscu.apply-online.com.au/#/5e7b4a3f-73sghs-4d7a-93c1-8cbaf6fcb318",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.swsbank.com.au/accounts/savings-accounts/superannuation-account/",
+          "feesAndPricingUri": "https://www.swsbank.com.au/help-support/rates-fees/fees-and-charges/"
+        }
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    }
+  ]
+}

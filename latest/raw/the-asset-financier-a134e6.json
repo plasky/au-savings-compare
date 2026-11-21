@@ -1,0 +1,28 @@
+{
+  "endpoint": "https://public.prd.theassetfinancier.com.au/cds-au/v1/banking/products",
+  "slug": "the-asset-financier-a134e6",
+  "brands": [
+    {
+      "dataHolderBrandId": "33f234ea-d16e-f111-9b47-6045bd3f59f5",
+      "brandName": "The Asset Financier",
+      "brandGroup": null,
+      "abn": "31609859985",
+      "industries": [
+        "non-bank-lending"
+      ]
+    }
+  ],
+  "list": {
+    "ok": true,
+    "status": 200,
+    "version": "5",
+    "totalPages": 1,
+    "pagesFetched": 1,
+    "productCount": 3,
+    "categoryCounts": {
+      "BUSINESS_LOANS": 2,
+      "PERS_LOANS": 1
+    }
+  },
+  "products": []
+}

@@ -1,0 +1,27 @@
+{
+  "endpoint": "https://public.greenhouse.cdr.colcap.com.au/cds-au/v1/banking/products",
+  "slug": "greenhouse-mortgages-a607bf",
+  "brands": [
+    {
+      "dataHolderBrandId": "c6ea41db-d8ba-f111-81be-000d3a799057",
+      "brandName": "Greenhouse Mortgages",
+      "brandGroup": null,
+      "abn": "51119531252",
+      "industries": [
+        "non-bank-lending"
+      ]
+    }
+  ],
+  "list": {
+    "ok": false,
+    "status": 400,
+    "version": null,
+    "error": "http-400",
+    "errorDetail": "urn:au-cds:error:cds-all:Field/Invalid | Invalid Field | Invalid Field",
+    "totalPages": null,
+    "pagesFetched": 0,
+    "productCount": 0,
+    "categoryCounts": {}
+  },
+  "products": []
+}

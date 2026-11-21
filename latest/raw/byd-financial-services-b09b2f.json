@@ -1,0 +1,28 @@
+{
+  "endpoint": "https://public.prd.bydfinancialservices.com.au/cds-au/v1/banking/products",
+  "slug": "byd-financial-services-b09b2f",
+  "brands": [
+    {
+      "dataHolderBrandId": "91a24d98-ee8a-f111-b27e-6045bd3dd75c",
+      "brandName": "BYD Financial Services",
+      "brandGroup": null,
+      "abn": "31609859985",
+      "industries": [
+        "non-bank-lending"
+      ]
+    }
+  ],
+  "list": {
+    "ok": true,
+    "status": 200,
+    "version": "5",
+    "totalPages": 1,
+    "pagesFetched": 1,
+    "productCount": 4,
+    "categoryCounts": {
+      "PERS_LOANS": 3,
+      "BUSINESS_LOANS": 1
+    }
+  },
+  "products": []
+}

@@ -1,0 +1,3457 @@
+{
+  "endpoint": "https://api-gateway.bankofchina.com.au/cds-au/v1/banking/products",
+  "slug": "bank-of-china-475b2b",
+  "brands": [
+    {
+      "dataHolderBrandId": "457ab798-5811-ec11-a826-000d3a884a20",
+      "brandName": "Bank of China",
+      "brandGroup": null,
+      "abn": "28110077622",
+      "industries": [
+        "banking"
+      ]
+    }
+  ],
+  "list": {
+    "ok": true,
+    "status": 200,
+    "version": "5",
+    "totalPages": 1,
+    "pagesFetched": 1,
+    "productCount": 76,
+    "categoryCounts": {
+      "RESIDENTIAL_MORTGAGES": 14,
+      "TERM_DEPOSITS": 41,
+      "TRANS_AND_SAVINGS_ACCOUNTS": 16,
+      "CRED_AND_CHRG_CARDS": 5
+    }
+  },
+  "products": [
+    {
+      "productId": "55020001",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "productId": "55020001",
+        "effectiveFrom": "2021-03-02T00:00:00.000+11:00",
+        "effectiveTo": "9999-12-31T00:00:00.000+11:00",
+        "lastUpdated": "2021-02-28T00:00:00.000+11:00",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "name": "PassbookSaving CNY Statement",
+        "description": "PassbookSaving CNY Statement",
+        "brand": "BCA",
+        "brandName": "Bank of China",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.bankofchina.com/au/en/pbservice/pb1/201712/t20171214_10912637.html",
+          "termsUri": "https://www.bankofchina.com/au/en/bocinfo/bi3/201906/t20190627_15531087.html",
+          "eligibilityUri": "https://www.bankofchina.com/au/en/pbservice/pb1/201906/t20190627_15530997.html",
+          "feesAndPricingUri": "https://www.bankofchina.com/au/en/bocinfo/bi2/201706/t20170629_10963936.html"
+        },
+        "bundles": [],
+        "features": [
+          {
+            "featureType": "DIGITAL_BANKING"
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "OPENING_BALANCE",
+            "additionalValue": "200",
+            "additionalInfo": "opening balance CNY 200 to active account"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "16",
+            "additionalInfo": "accepted visa required"
+          }
+        ],
+        "fees": [
+          {
+            "name": "Monthly Account Keeping Fee",
+            "feeType": "PERIODIC",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "30.00"
+            },
+            "currency": "CNY",
+            "additionalValue": "monthly"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0001",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "additionalValue": "base rate 0.01% apply for more than 5000 CNY deposit otherwise no interest."
+          }
+        ],
+        "lendingRates": []
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "55020125",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "productId": "55020125",
+        "effectiveFrom": "2021-03-04T00:00:00.000+11:00",
+        "effectiveTo": "9999-12-31T00:00:00.000+11:00",
+        "lastUpdated": "2021-02-28T00:00:00.000+11:00",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "name": "PassbookSaving HKD Statement ",
+        "description": "PassbookSaving HKD Statement ",
+        "brand": "BCA",
+        "brandName": "Bank of China",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.bankofchina.com/au/en/pbservice/pb1/201712/t20171214_10912637.html",
+          "termsUri": "https://www.bankofchina.com/au/en/bocinfo/bi3/201906/t20190627_15531087.html",
+          "eligibilityUri": "https://www.bankofchina.com/au/en/pbservice/pb1/201906/t20190627_15530997.html",
+          "feesAndPricingUri": "https://www.bankofchina.com/au/en/bocinfo/bi2/201706/t20170629_10963936.html"
+        },
+        "bundles": [],
+        "features": [
+          {
+            "featureType": "DIGITAL_BANKING"
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "OPENING_BALANCE",
+            "additionalValue": "200",
+            "additionalInfo": "opening balance HKD 200 to active account"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "16",
+            "additionalInfo": "accepted visa required"
+          }
+        ],
+        "fees": [
+          {
+            "name": "Monthly Account Keeping Fee",
+            "feeType": "PERIODIC",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "30.00"
+            },
+            "currency": "HKD",
+            "additionalValue": "monthly"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0001",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "additionalValue": "base rate 0.01% apply for more than 5000 HKD deposit otherwise no interest."
+          }
+        ],
+        "lendingRates": []
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "55020185",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "productId": "55020185",
+        "effectiveFrom": "2021-02-28T00:00:00.000+11:00",
+        "effectiveTo": "9999-12-31T00:00:00.000+11:00",
+        "lastUpdated": "2021-02-28T00:00:00.000+11:00",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "name": "PassbookSaving USD Statement ",
+        "description": "PassbookSaving USD Statement ",
+        "brand": "BCA",
+        "brandName": "Bank of China",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.bankofchina.com/au/en/pbservice/pb1/201712/t20171214_10912637.html",
+          "termsUri": "https://www.bankofchina.com/au/en/bocinfo/bi3/201906/t20190627_15531087.html",
+          "eligibilityUri": "https://www.bankofchina.com/au/en/pbservice/pb1/201906/t20190627_15530997.html",
+          "feesAndPricingUri": "https://www.bankofchina.com/au/en/bocinfo/bi2/201706/t20170629_10963936.html"
+        },
+        "bundles": [],
+        "features": [
+          {
+            "featureType": "DIGITAL_BANKING"
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "OPENING_BALANCE",
+            "additionalValue": "50",
+            "additionalInfo": "opening balance USD 50 to active account"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "16",
+            "additionalInfo": "accepted visa required"
+          }
+        ],
+        "fees": [
+          {
+            "name": "Monthly Account Keeping Fee",
+            "feeType": "PERIODIC",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "5.00"
+            },
+            "currency": "USD",
+            "additionalValue": "monthly"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0001",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "additionalValue": "base rate 0.01% apply for more than 500 USD deposit otherwise no interest."
+          }
+        ],
+        "lendingRates": []
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "55020621",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "productId": "55020621",
+        "effectiveFrom": "2021-03-03T00:00:00.000+11:00",
+        "effectiveTo": "9999-12-31T00:00:00.000+11:00",
+        "lastUpdated": "2021-02-28T00:00:00.000+11:00",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "name": "PassbookSaving CNY",
+        "description": "PassbookSaving CNY",
+        "brand": "BCA",
+        "brandName": "Bank of China",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.bankofchina.com/au/en/pbservice/pb1/201712/t20171214_10912637.html",
+          "termsUri": "https://www.bankofchina.com/au/en/bocinfo/bi3/201906/t20190627_15531087.html",
+          "eligibilityUri": "https://www.bankofchina.com/au/en/pbservice/pb1/201906/t20190627_15530997.html",
+          "feesAndPricingUri": "https://www.bankofchina.com/au/en/bocinfo/bi2/201706/t20170629_10963936.html"
+        },
+        "bundles": [],
+        "features": [
+          {
+            "featureType": "DIGITAL_BANKING"
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "OPENING_BALANCE",
+            "additionalValue": "200",
+            "additionalInfo": "opening balance CNY 200 to active account"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "16",
+            "additionalInfo": "accepted visa required"
+          }
+        ],
+        "fees": [
+          {
+            "name": "Monthly Account Keeping Fee",
+            "feeType": "PERIODIC",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "30.00"
+            },
+            "currency": "CNY",
+            "additionalValue": "monthly"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0001",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "additionalValue": "base rate 0.01% apply for more than 5000 CNY deposit otherwise no interest."
+          }
+        ],
+        "lendingRates": []
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "55020633",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "productId": "55020633",
+        "effectiveFrom": "2021-03-05T00:00:00.000+11:00",
+        "effectiveTo": "9999-12-31T00:00:00.000+11:00",
+        "lastUpdated": "2021-02-28T00:00:00.000+11:00",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "name": "PassbookSaving HKD",
+        "description": "PassbookSaving HKD",
+        "brand": "BCA",
+        "brandName": "Bank of China",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.bankofchina.com/au/en/pbservice/pb1/201712/t20171214_10912637.html",
+          "termsUri": "https://www.bankofchina.com/au/en/bocinfo/bi3/201906/t20190627_15531087.html",
+          "eligibilityUri": "https://www.bankofchina.com/au/en/pbservice/pb1/201906/t20190627_15530997.html",
+          "feesAndPricingUri": "https://www.bankofchina.com/au/en/bocinfo/bi2/201706/t20170629_10963936.html"
+        },
+        "bundles": [],
+        "features": [
+          {
+            "featureType": "DIGITAL_BANKING"
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "OPENING_BALANCE",
+            "additionalValue": "200",
+            "additionalInfo": "opening balance HKD 200 to active account"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "16",
+            "additionalInfo": "accepted visa required"
+          }
+        ],
+        "fees": [
+          {
+            "name": "Monthly Account Keeping Fee",
+            "feeType": "PERIODIC",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "30.00"
+            },
+            "currency": "HKD",
+            "additionalValue": "monthly"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0001",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "additionalValue": "base rate 0.01% apply for more than 5000 HKD deposit otherwise no interest."
+          }
+        ],
+        "lendingRates": []
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "55020637",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "productId": "55020637",
+        "effectiveFrom": "2021-03-01T00:00:00.000+11:00",
+        "effectiveTo": "9999-12-31T00:00:00.000+11:00",
+        "lastUpdated": "2021-02-28T00:00:00.000+11:00",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "name": "PassbookSaving USD",
+        "description": "PassbookSaving USD",
+        "brand": "BCA",
+        "brandName": "Bank of China",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.bankofchina.com/au/en/pbservice/pb1/201712/t20171214_10912637.html",
+          "termsUri": "https://www.bankofchina.com/au/en/bocinfo/bi3/201906/t20190627_15531087.html",
+          "eligibilityUri": "https://www.bankofchina.com/au/en/pbservice/pb1/201906/t20190627_15530997.html",
+          "feesAndPricingUri": "https://www.bankofchina.com/au/en/bocinfo/bi2/201706/t20170629_10963936.html"
+        },
+        "bundles": [],
+        "features": [
+          {
+            "featureType": "DIGITAL_BANKING"
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "OPENING_BALANCE",
+            "additionalValue": "50",
+            "additionalInfo": "opening balance USD 50 to active account"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "16",
+            "additionalInfo": "accepted visa required"
+          }
+        ],
+        "fees": [
+          {
+            "name": "Monthly Account Keeping Fee",
+            "feeType": "PERIODIC",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "5.00"
+            },
+            "currency": "USD",
+            "additionalValue": "monthly"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0001",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "additionalValue": "base rate 0.01% apply for more than 500 USD deposit otherwise no interest."
+          }
+        ],
+        "lendingRates": []
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "55020656",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "productId": "55020656",
+        "effectiveFrom": "2009-02-05T00:00:00.000+11:00",
+        "effectiveTo": "9999-12-31T00:00:00.000+11:00",
+        "lastUpdated": "2023-02-27T00:00:00.000+11:00",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "name": "PassbookSaving AUD Statement ",
+        "description": "PassbookSaving AUD Statement ",
+        "brand": "BCA",
+        "brandName": "Bank of China",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.bankofchina.com/au/en/pbservice/pb1/201712/t20171214_10912637.html",
+          "termsUri": "https://www.bankofchina.com/au/en/bocinfo/bi3/201906/t20190627_15531087.html",
+          "eligibilityUri": "https://www.bankofchina.com/au/en/pbservice/pb1/201906/t20190627_15530997.html",
+          "feesAndPricingUri": "https://www.bankofchina.com/au/en/bocinfo/bi2/201706/t20170629_10963936.html"
+        },
+        "bundles": [],
+        "features": [
+          {
+            "featureType": "DIGITAL_BANKING"
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "OPENING_BALANCE",
+            "additionalValue": "1000",
+            "additionalInfo": "minimal balance AUD 1000 to active account"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "16",
+            "additionalInfo": "accepted visa required"
+          }
+        ],
+        "fees": [
+          {
+            "name": "Monthly Account Keeping Fee",
+            "feeType": "PERIODIC",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "5.00"
+            },
+            "currency": "AUD",
+            "additionalValue": "monthly"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0005",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "additionalValue": "base rate 0.05% apply for more than 1000 AUD deposit otherwise no interest."
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.001",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "additionalValue": "base rate 0.10% apply for more than 100000 AUD deposit."
+          }
+        ],
+        "lendingRates": []
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "55020657",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "productId": "55020657",
+        "effectiveFrom": "2009-02-05T00:00:00.000+11:00",
+        "effectiveTo": "9999-12-31T00:00:00.000+11:00",
+        "lastUpdated": "2023-02-27T00:00:00.000+11:00",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "name": "PassbookSaving AUD",
+        "description": "PassbookSaving AUD",
+        "brand": "BCA",
+        "brandName": "Bank of China",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.bankofchina.com/au/en/pbservice/pb1/201712/t20171214_10912637.html",
+          "termsUri": "https://www.bankofchina.com/au/en/bocinfo/bi3/201906/t20190627_15531087.html",
+          "eligibilityUri": "https://www.bankofchina.com/au/en/pbservice/pb1/201906/t20190627_15530997.html",
+          "feesAndPricingUri": "https://www.bankofchina.com/au/en/bocinfo/bi2/201706/t20170629_10963936.html"
+        },
+        "bundles": [],
+        "features": [
+          {
+            "featureType": "DIGITAL_BANKING"
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "OPENING_BALANCE",
+            "additionalValue": "1000",
+            "additionalInfo": "minimal balance AUD 1000 to active account"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "16",
+            "additionalInfo": "accepted visa required"
+          }
+        ],
+        "fees": [
+          {
+            "name": "Monthly Account Keeping Fee",
+            "feeType": "PERIODIC",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "5.00"
+            },
+            "currency": "AUD",
+            "additionalValue": "monthly"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0005",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "additionalValue": "base rate 0.05% apply for more than 1000 AUD deposit otherwise no interest."
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.001",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "additionalValue": "base rate 0.10% apply for more than 100000 AUD deposit."
+          }
+        ],
+        "lendingRates": []
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "55070024",
+      "productCategory": "TERM_DEPOSITS",
+      "detail": {
+        "productId": "55070024",
+        "effectiveFrom": "2012-02-10T00:00:00.000+11:00",
+        "effectiveTo": "9999-12-31T00:00:00.000+11:00",
+        "lastUpdated": "2026-01-30T06:00:46.000+11:00",
+        "productCategory": "TERM_DEPOSITS",
+        "name": "Term Deposit CNY 3M",
+        "description": "Term Deposit CNY 3M",
+        "brand": "BCA",
+        "brandName": "Bank of China",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.bankofchina.com/au/en/pbservice/pb1/201712/t20171214_10912803.html",
+          "termsUri": "https://www.bankofchina.com/au/en/bocinfo/bi3/201610/t20161020_10963641.html",
+          "eligibilityUri": "https://www.bankofchina.com/au/en/bocinfo/bi3/201610/t20161020_10963641.html",
+          "feesAndPricingUri": "https://www.bankofchina.com/au/en/bocinfo/bi2/201706/t20170629_10963936.html"
+        },
+        "bundles": [],
+        "features": [
+          {
+            "featureType": "DIGITAL_BANKING"
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "OPENING_BALANCE",
+            "additionalValue": "50000",
+            "additionalInfo": "minimal opening balance CNY 50000"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "16",
+            "additionalInfo": "accepted visa required"
+          }
+        ],
+        "fees": [],
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.016",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "additionalValue": "Term Deposit CNY 3M"
+          }
+        ],
+        "lendingRates": []
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "55070025",
+      "productCategory": "TERM_DEPOSITS",
+      "detail": {
+        "productId": "55070025",
+        "effectiveFrom": "2012-02-10T00:00:00.000+11:00",
+        "effectiveTo": "9999-12-31T00:00:00.000+11:00",
+        "lastUpdated": "2026-01-30T06:00:24.000+11:00",
+        "productCategory": "TERM_DEPOSITS",
+        "name": "Term Deposit CNY 6M",
+        "description": "Term Deposit CNY 6M",
+        "brand": "BCA",
+        "brandName": "Bank of China",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.bankofchina.com/au/en/pbservice/pb1/201712/t20171214_10912803.html",
+          "termsUri": "https://www.bankofchina.com/au/en/bocinfo/bi3/201610/t20161020_10963641.html",
+          "eligibilityUri": "https://www.bankofchina.com/au/en/bocinfo/bi3/201610/t20161020_10963641.html",
+          "feesAndPricingUri": "https://www.bankofchina.com/au/en/bocinfo/bi2/201706/t20170629_10963936.html"
+        },
+        "bundles": [],
+        "features": [
+          {
+            "featureType": "DIGITAL_BANKING"
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "OPENING_BALANCE",
+            "additionalValue": "50000",
+            "additionalInfo": "minimal opening balance CNY 50000"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "16",
+            "additionalInfo": "accepted visa required"
+          }
+        ],
+        "fees": [],
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.016",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "additionalValue": "Term Deposit CNY 6M"
+          }
+        ],
+        "lendingRates": []
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "55070026",
+      "productCategory": "TERM_DEPOSITS",
+      "detail": {
+        "productId": "55070026",
+        "effectiveFrom": "2012-02-10T00:00:00.000+11:00",
+        "effectiveTo": "9999-12-31T00:00:00.000+11:00",
+        "lastUpdated": "2026-03-10T06:00:00.000+11:00",
+        "productCategory": "TERM_DEPOSITS",
+        "name": "Term Deposit CNY 12M",
+        "description": "Term Deposit CNY 12M",
+        "brand": "BCA",
+        "brandName": "Bank of China",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.bankofchina.com/au/en/pbservice/pb1/201712/t20171214_10912803.html",
+          "termsUri": "https://www.bankofchina.com/au/en/bocinfo/bi3/201610/t20161020_10963641.html",
+          "eligibilityUri": "https://www.bankofchina.com/au/en/bocinfo/bi3/201610/t20161020_10963641.html",
+          "feesAndPricingUri": "https://www.bankofchina.com/au/en/bocinfo/bi2/201706/t20170629_10963936.html"
+        },
+        "bundles": [],
+        "features": [
+          {
+            "featureType": "DIGITAL_BANKING"
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "OPENING_BALANCE",
+            "additionalValue": "50000",
+            "additionalInfo": "minimal opening balance CNY 50000"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "16",
+            "additionalInfo": "accepted visa required"
+          }
+        ],
+        "fees": [],
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.017",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "additionalValue": "Term Deposit CNY 12M"
+          }
+        ],
+        "lendingRates": []
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "55078003",
+      "productCategory": "TERM_DEPOSITS",
+      "detail": {
+        "productId": "55078003",
+        "effectiveFrom": "2012-02-10T00:00:00.000+11:00",
+        "effectiveTo": "9999-12-31T00:00:00.000+11:00",
+        "lastUpdated": "2026-01-15T06:00:00.000+11:00",
+        "productCategory": "TERM_DEPOSITS",
+        "name": "Special Term Deposit CNY 3M",
+        "description": "Special Term Deposit CNY 3M",
+        "brand": "BCA",
+        "brandName": "Bank of China",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.bankofchina.com/au/en/pbservice/pb1/201712/t20171214_10912803.html",
+          "termsUri": "https://www.bankofchina.com/au/en/bocinfo/bi3/201610/t20161020_10963641.html",
+          "eligibilityUri": "https://www.bankofchina.com/au/en/bocinfo/bi3/201610/t20161020_10963641.html",
+          "feesAndPricingUri": "https://www.bankofchina.com/au/en/bocinfo/bi2/201706/t20170629_10963936.html"
+        },
+        "bundles": [],
+        "features": [
+          {
+            "featureType": "DIGITAL_BANKING"
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "OPENING_BALANCE",
+            "additionalValue": "100000",
+            "additionalInfo": "minimal opening balance CNY 10000"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "16",
+            "additionalInfo": "accepted visa required"
+          }
+        ],
+        "fees": [],
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.016",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY"
+          }
+        ],
+        "lendingRates": []
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "55078004",
+      "productCategory": "TERM_DEPOSITS",
+      "detail": {
+        "productId": "55078004",
+        "effectiveFrom": "2012-02-10T00:00:00.000+11:00",
+        "effectiveTo": "9999-12-31T00:00:00.000+11:00",
+        "lastUpdated": "2026-01-15T06:00:00.000+11:00",
+        "productCategory": "TERM_DEPOSITS",
+        "name": "Special Term Deposit CNY 6M",
+        "description": "Special Term Deposit CNY 6M",
+        "brand": "BCA",
+        "brandName": "Bank of China",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.bankofchina.com/au/en/pbservice/pb1/201712/t20171214_10912803.html",
+          "termsUri": "https://www.bankofchina.com/au/en/bocinfo/bi3/201610/t20161020_10963641.html",
+          "eligibilityUri": "https://www.bankofchina.com/au/en/bocinfo/bi3/201610/t20161020_10963641.html",
+          "feesAndPricingUri": "https://www.bankofchina.com/au/en/bocinfo/bi2/201706/t20170629_10963936.html"
+        },
+        "bundles": [],
+        "features": [
+          {
+            "featureType": "DIGITAL_BANKING"
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "OPENING_BALANCE",
+            "additionalValue": "100000",
+            "additionalInfo": "minimal opening balance CNY 10000"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "16",
+            "additionalInfo": "accepted visa required"
+          }
+        ],
+        "fees": [],
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.016",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY"
+          }
+        ],
+        "lendingRates": []
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "55078005",
+      "productCategory": "TERM_DEPOSITS",
+      "detail": {
+        "productId": "55078005",
+        "effectiveFrom": "2012-02-10T00:00:00.000+11:00",
+        "effectiveTo": "9999-12-31T00:00:00.000+11:00",
+        "lastUpdated": "2026-03-10T06:00:00.000+11:00",
+        "productCategory": "TERM_DEPOSITS",
+        "name": "Special Term Deposit CNY 12M",
+        "description": "Special Term Deposit CNY 12M",
+        "brand": "BCA",
+        "brandName": "Bank of China",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.bankofchina.com/au/en/pbservice/pb1/201712/t20171214_10912803.html",
+          "termsUri": "https://www.bankofchina.com/au/en/bocinfo/bi3/201610/t20161020_10963641.html",
+          "eligibilityUri": "https://www.bankofchina.com/au/en/bocinfo/bi3/201610/t20161020_10963641.html",
+          "feesAndPricingUri": "https://www.bankofchina.com/au/en/bocinfo/bi2/201706/t20170629_10963936.html"
+        },
+        "bundles": [],
+        "features": [
+          {
+            "featureType": "DIGITAL_BANKING"
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "OPENING_BALANCE",
+            "additionalValue": "100000",
+            "additionalInfo": "minimal opening balance CNY 10000"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "16",
+            "additionalInfo": "accepted visa required"
+          }
+        ],
+        "fees": [],
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.017",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "additionalValue": "Special Term Deposit CNY 12M"
+          }
+        ],
+        "lendingRates": []
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "55080507",
+      "productCategory": "TERM_DEPOSITS",
+      "detail": {
+        "productId": "55080507",
+        "effectiveFrom": "2021-07-01T00:00:00.000+10:00",
+        "effectiveTo": "9999-12-31T00:00:00.000+11:00",
+        "lastUpdated": "2026-03-27T03:00:00.000+11:00",
+        "productCategory": "TERM_DEPOSITS",
+        "name": "Special Term Deposit AUD 3M",
+        "description": "Special Term Deposit AUD 3M",
+        "brand": "BCA",
+        "brandName": "Bank of China",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.bankofchina.com/au/en/pbservice/pb1/201712/t20171214_10912803.html",
+          "termsUri": "https://www.bankofchina.com/au/en/bocinfo/bi3/201610/t20161020_10963641.html",
+          "eligibilityUri": "https://www.bankofchina.com/au/en/bocinfo/bi3/201610/t20161020_10963641.html",
+          "feesAndPricingUri": "https://www.bankofchina.com/au/en/bocinfo/bi2/201706/t20170629_10963936.html"
+        },
+        "bundles": [],
+        "features": [
+          {
+            "featureType": "DIGITAL_BANKING"
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "OPENING_BALANCE",
+            "additionalValue": "5000",
+            "additionalInfo": "minimal opening balance AUD 5000"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "16",
+            "additionalInfo": "accepted visa required"
+          }
+        ],
+        "fees": [],
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.043",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P1M",
+            "additionalValue": "Special Term Deposit AUD 3M"
+          }
+        ],
+        "lendingRates": []
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "55080508",
+      "productCategory": "TERM_DEPOSITS",
+      "detail": {
+        "productId": "55080508",
+        "effectiveFrom": "2021-07-01T00:00:00.000+10:00",
+        "effectiveTo": "9999-12-31T00:00:00.000+11:00",
+        "lastUpdated": "2026-09-15T04:00:00.000+10:00",
+        "productCategory": "TERM_DEPOSITS",
+        "name": "Special Term Deposit AUD 6M",
+        "description": "Special Term Deposit AUD 6M",
+        "brand": "BCA",
+        "brandName": "Bank of China",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.bankofchina.com/au/en/pbservice/pb1/201712/t20171214_10912803.html",
+          "termsUri": "https://www.bankofchina.com/au/en/bocinfo/bi3/201610/t20161020_10963641.html",
+          "eligibilityUri": "https://www.bankofchina.com/au/en/bocinfo/bi3/201610/t20161020_10963641.html",
+          "feesAndPricingUri": "https://www.bankofchina.com/au/en/bocinfo/bi2/201706/t20170629_10963936.html"
+        },
+        "bundles": [],
+        "features": [
+          {
+            "featureType": "DIGITAL_BANKING"
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "OPENING_BALANCE",
+            "additionalValue": "5000",
+            "additionalInfo": "minimal opening balance AUD 5000"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "16",
+            "additionalInfo": "accepted visa required"
+          }
+        ],
+        "fees": [],
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.05",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "additionalValue": "Special Term Deposit AUD 6M"
+          }
+        ],
+        "lendingRates": []
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "55080509",
+      "productCategory": "TERM_DEPOSITS",
+      "detail": {
+        "productId": "55080509",
+        "effectiveFrom": "2021-07-01T00:00:00.000+10:00",
+        "effectiveTo": "9999-12-31T00:00:00.000+11:00",
+        "lastUpdated": "2026-11-04T06:00:00.000+11:00",
+        "productCategory": "TERM_DEPOSITS",
+        "name": "Special Term Deposit AUD 12M",
+        "description": "Special Term Deposit AUD 12M",
+        "brand": "BCA",
+        "brandName": "Bank of China",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.bankofchina.com/au/en/pbservice/pb1/201712/t20171214_10912803.html",
+          "termsUri": "https://www.bankofchina.com/au/en/bocinfo/bi3/201610/t20161020_10963641.html",
+          "eligibilityUri": "https://www.bankofchina.com/au/en/bocinfo/bi3/201610/t20161020_10963641.html",
+          "feesAndPricingUri": "https://www.bankofchina.com/au/en/bocinfo/bi2/201706/t20170629_10963936.html"
+        },
+        "bundles": [],
+        "features": [
+          {
+            "featureType": "DIGITAL_BANKING"
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "OPENING_BALANCE",
+            "additionalValue": "5000",
+            "additionalInfo": "minimal opening balance AUD 5000"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "16",
+            "additionalInfo": "accepted visa required"
+          }
+        ],
+        "fees": [],
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0510",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "additionalValue": "Special Term Deposit AUD 12M"
+          }
+        ],
+        "lendingRates": []
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "55090146",
+      "productCategory": "TERM_DEPOSITS",
+      "detail": {
+        "productId": "55090146",
+        "effectiveFrom": "2012-02-10T00:00:00.000+11:00",
+        "effectiveTo": "9999-12-31T00:00:00.000+11:00",
+        "lastUpdated": "2021-07-01T00:00:00.000+10:00",
+        "productCategory": "TERM_DEPOSITS",
+        "name": "Term Deposit HKD 1M",
+        "description": "Term Deposit HKD 1M",
+        "brand": "BCA",
+        "brandName": "Bank of China",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.bankofchina.com/au/en/pbservice/pb1/201712/t20171214_10912803.html",
+          "termsUri": "https://www.bankofchina.com/au/en/bocinfo/bi3/201610/t20161020_10963641.html",
+          "eligibilityUri": "https://www.bankofchina.com/au/en/bocinfo/bi3/201610/t20161020_10963641.html",
+          "feesAndPricingUri": "https://www.bankofchina.com/au/en/bocinfo/bi2/201706/t20170629_10963936.html"
+        },
+        "bundles": [],
+        "features": [
+          {
+            "featureType": "DIGITAL_BANKING"
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "OPENING_BALANCE",
+            "additionalValue": "5000",
+            "additionalInfo": "minimal opening balance HKD 5000"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "16",
+            "additionalInfo": "accepted visa required"
+          }
+        ],
+        "fees": [],
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0005",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY"
+          }
+        ],
+        "lendingRates": []
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "55090147",
+      "productCategory": "TERM_DEPOSITS",
+      "detail": {
+        "productId": "55090147",
+        "effectiveFrom": "2012-02-10T00:00:00.000+11:00",
+        "effectiveTo": "9999-12-31T00:00:00.000+11:00",
+        "lastUpdated": "2021-07-01T00:00:00.000+10:00",
+        "productCategory": "TERM_DEPOSITS",
+        "name": "Term Deposit HKD 3M",
+        "description": "Term Deposit HKD 3M",
+        "brand": "BCA",
+        "brandName": "Bank of China",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.bankofchina.com/au/en/pbservice/pb1/201712/t20171214_10912803.html",
+          "termsUri": "https://www.bankofchina.com/au/en/bocinfo/bi3/201610/t20161020_10963641.html",
+          "eligibilityUri": "https://www.bankofchina.com/au/en/bocinfo/bi3/201610/t20161020_10963641.html",
+          "feesAndPricingUri": "https://www.bankofchina.com/au/en/bocinfo/bi2/201706/t20170629_10963936.html"
+        },
+        "bundles": [],
+        "features": [
+          {
+            "featureType": "DIGITAL_BANKING"
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "OPENING_BALANCE",
+            "additionalValue": "5000",
+            "additionalInfo": "minimal opening balance HKD 5000"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "16",
+            "additionalInfo": "accepted visa required"
+          }
+        ],
+        "fees": [],
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.002",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY"
+          }
+        ],
+        "lendingRates": []
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "55090148",
+      "productCategory": "TERM_DEPOSITS",
+      "detail": {
+        "productId": "55090148",
+        "effectiveFrom": "2012-02-10T00:00:00.000+11:00",
+        "effectiveTo": "9999-12-31T00:00:00.000+11:00",
+        "lastUpdated": "2021-07-01T00:00:00.000+10:00",
+        "productCategory": "TERM_DEPOSITS",
+        "name": "Term Deposit HKD 6M",
+        "description": "Term Deposit HKD 6M",
+        "brand": "BCA",
+        "brandName": "Bank of China",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.bankofchina.com/au/en/pbservice/pb1/201712/t20171214_10912803.html",
+          "termsUri": "https://www.bankofchina.com/au/en/bocinfo/bi3/201610/t20161020_10963641.html",
+          "eligibilityUri": "https://www.bankofchina.com/au/en/bocinfo/bi3/201610/t20161020_10963641.html",
+          "feesAndPricingUri": "https://www.bankofchina.com/au/en/bocinfo/bi2/201706/t20170629_10963936.html"
+        },
+        "bundles": [],
+        "features": [
+          {
+            "featureType": "DIGITAL_BANKING"
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "OPENING_BALANCE",
+            "additionalValue": "5000",
+            "additionalInfo": "minimal opening balance HKD 5000"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "16",
+            "additionalInfo": "accepted visa required"
+          }
+        ],
+        "fees": [],
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.005",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY"
+          }
+        ],
+        "lendingRates": []
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "55090149",
+      "productCategory": "TERM_DEPOSITS",
+      "detail": {
+        "productId": "55090149",
+        "effectiveFrom": "2012-02-10T00:00:00.000+11:00",
+        "effectiveTo": "9999-12-31T00:00:00.000+11:00",
+        "lastUpdated": "2021-07-01T00:00:00.000+10:00",
+        "productCategory": "TERM_DEPOSITS",
+        "name": "Term Deposit HKD 12M",
+        "description": "Term Deposit HKD 12M",
+        "brand": "BCA",
+        "brandName": "Bank of China",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.bankofchina.com/au/en/pbservice/pb1/201712/t20171214_10912803.html",
+          "termsUri": "https://www.bankofchina.com/au/en/bocinfo/bi3/201610/t20161020_10963641.html",
+          "eligibilityUri": "https://www.bankofchina.com/au/en/bocinfo/bi3/201610/t20161020_10963641.html",
+          "feesAndPricingUri": "https://www.bankofchina.com/au/en/bocinfo/bi2/201706/t20170629_10963936.html"
+        },
+        "bundles": [],
+        "features": [
+          {
+            "featureType": "DIGITAL_BANKING"
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "OPENING_BALANCE",
+            "additionalValue": "5000",
+            "additionalInfo": "minimal opening balance HKD 5000"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "16",
+            "additionalInfo": "accepted visa required"
+          }
+        ],
+        "fees": [],
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.009",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY"
+          }
+        ],
+        "lendingRates": []
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "55090154",
+      "productCategory": "TERM_DEPOSITS",
+      "detail": {
+        "productId": "55090154",
+        "effectiveFrom": "2012-02-10T00:00:00.000+11:00",
+        "effectiveTo": "9999-12-31T00:00:00.000+11:00",
+        "lastUpdated": "2021-07-01T00:00:00.000+10:00",
+        "productCategory": "TERM_DEPOSITS",
+        "name": "Term Deposit HKD 7D",
+        "description": "Term Deposit HKD 7D",
+        "brand": "BCA",
+        "brandName": "Bank of China",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.bankofchina.com/au/en/pbservice/pb1/201712/t20171214_10912803.html",
+          "termsUri": "https://www.bankofchina.com/au/en/bocinfo/bi3/201610/t20161020_10963641.html",
+          "eligibilityUri": "https://www.bankofchina.com/au/en/bocinfo/bi3/201610/t20161020_10963641.html",
+          "feesAndPricingUri": "https://www.bankofchina.com/au/en/bocinfo/bi2/201706/t20170629_10963936.html"
+        },
+        "bundles": [],
+        "features": [
+          {
+            "featureType": "DIGITAL_BANKING"
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "OPENING_BALANCE",
+            "additionalValue": "100000",
+            "additionalInfo": "minimal opening balance HKD 100000"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "16",
+            "additionalInfo": "accepted visa required"
+          }
+        ],
+        "fees": [],
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0005",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY"
+          }
+        ],
+        "lendingRates": []
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "55090206",
+      "productCategory": "TERM_DEPOSITS",
+      "detail": {
+        "productId": "55090206",
+        "effectiveFrom": "2012-02-10T00:00:00.000+11:00",
+        "effectiveTo": "9999-12-31T00:00:00.000+11:00",
+        "lastUpdated": "2021-07-01T00:00:00.000+10:00",
+        "productCategory": "TERM_DEPOSITS",
+        "name": "Term Deposit USD 1M",
+        "description": "Term Deposit USD 1M",
+        "brand": "BCA",
+        "brandName": "Bank of China",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.bankofchina.com/au/en/pbservice/pb1/201712/t20171214_10912803.html",
+          "termsUri": "https://www.bankofchina.com/au/en/bocinfo/bi3/201610/t20161020_10963641.html",
+          "eligibilityUri": "https://www.bankofchina.com/au/en/bocinfo/bi3/201610/t20161020_10963641.html",
+          "feesAndPricingUri": "https://www.bankofchina.com/au/en/bocinfo/bi2/201706/t20170629_10963936.html"
+        },
+        "bundles": [],
+        "features": [
+          {
+            "featureType": "DIGITAL_BANKING"
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "OPENING_BALANCE",
+            "additionalValue": "1000",
+            "additionalInfo": "minimal opening balance USD 1000"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "16",
+            "additionalInfo": "accepted visa required"
+          }
+        ],
+        "fees": [],
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.002",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY"
+          }
+        ],
+        "lendingRates": []
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "55090207",
+      "productCategory": "TERM_DEPOSITS",
+      "detail": {
+        "productId": "55090207",
+        "effectiveFrom": "2012-02-10T00:00:00.000+11:00",
+        "effectiveTo": "9999-12-31T00:00:00.000+11:00",
+        "lastUpdated": "2026-09-23T04:00:00.000+10:00",
+        "productCategory": "TERM_DEPOSITS",
+        "name": "Term Deposit USD 3M",
+        "description": "Term Deposit USD 3M",
+        "brand": "BCA",
+        "brandName": "Bank of China",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.bankofchina.com/au/en/pbservice/pb1/201712/t20171214_10912803.html",
+          "termsUri": "https://www.bankofchina.com/au/en/bocinfo/bi3/201610/t20161020_10963641.html",
+          "eligibilityUri": "https://www.bankofchina.com/au/en/bocinfo/bi3/201610/t20161020_10963641.html",
+          "feesAndPricingUri": "https://www.bankofchina.com/au/en/bocinfo/bi2/201706/t20170629_10963936.html"
+        },
+        "bundles": [],
+        "features": [
+          {
+            "featureType": "DIGITAL_BANKING"
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "OPENING_BALANCE",
+            "additionalValue": "1000",
+            "additionalInfo": "minimal opening balance USD 1000"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "16",
+            "additionalInfo": "accepted visa required"
+          }
+        ],
+        "fees": [],
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.03",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "additionalValue": "Term Deposit USD 3M"
+          }
+        ],
+        "lendingRates": []
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "55090208",
+      "productCategory": "TERM_DEPOSITS",
+      "detail": {
+        "productId": "55090208",
+        "effectiveFrom": "2012-02-10T00:00:00.000+11:00",
+        "effectiveTo": "9999-12-31T00:00:00.000+11:00",
+        "lastUpdated": "2026-09-23T04:00:00.000+10:00",
+        "productCategory": "TERM_DEPOSITS",
+        "name": "Term Deposit USD 6M",
+        "description": "Term Deposit USD 6M",
+        "brand": "BCA",
+        "brandName": "Bank of China",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.bankofchina.com/au/en/pbservice/pb1/201712/t20171214_10912803.html",
+          "termsUri": "https://www.bankofchina.com/au/en/bocinfo/bi3/201610/t20161020_10963641.html",
+          "eligibilityUri": "https://www.bankofchina.com/au/en/bocinfo/bi3/201610/t20161020_10963641.html",
+          "feesAndPricingUri": "https://www.bankofchina.com/au/en/bocinfo/bi2/201706/t20170629_10963936.html"
+        },
+        "bundles": [],
+        "features": [
+          {
+            "featureType": "DIGITAL_BANKING"
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "OPENING_BALANCE",
+            "additionalValue": "1000",
+            "additionalInfo": "minimal opening balance USD 1000"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "16",
+            "additionalInfo": "accepted visa required"
+          }
+        ],
+        "fees": [],
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.032",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "additionalValue": "Term Deposit USD 6M"
+          }
+        ],
+        "lendingRates": []
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "55090209",
+      "productCategory": "TERM_DEPOSITS",
+      "detail": {
+        "productId": "55090209",
+        "effectiveFrom": "2012-02-10T00:00:00.000+11:00",
+        "effectiveTo": "9999-12-31T00:00:00.000+11:00",
+        "lastUpdated": "2026-09-23T04:00:00.000+10:00",
+        "productCategory": "TERM_DEPOSITS",
+        "name": "Term Deposit USD 12M",
+        "description": "Term Deposit USD 12M",
+        "brand": "BCA",
+        "brandName": "Bank of China",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.bankofchina.com/au/en/pbservice/pb1/201712/t20171214_10912803.html",
+          "termsUri": "https://www.bankofchina.com/au/en/bocinfo/bi3/201610/t20161020_10963641.html",
+          "eligibilityUri": "https://www.bankofchina.com/au/en/bocinfo/bi3/201610/t20161020_10963641.html",
+          "feesAndPricingUri": "https://www.bankofchina.com/au/en/bocinfo/bi2/201706/t20170629_10963936.html"
+        },
+        "bundles": [],
+        "features": [
+          {
+            "featureType": "DIGITAL_BANKING"
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "OPENING_BALANCE",
+            "additionalValue": "1000",
+            "additionalInfo": "minimal opening balance USD 1000"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "16",
+            "additionalInfo": "accepted visa required"
+          }
+        ],
+        "fees": [],
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0285",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "additionalValue": "Term Deposit USD 12M"
+          }
+        ],
+        "lendingRates": []
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "55090214",
+      "productCategory": "TERM_DEPOSITS",
+      "detail": {
+        "productId": "55090214",
+        "effectiveFrom": "2012-02-10T00:00:00.000+11:00",
+        "effectiveTo": "9999-12-31T00:00:00.000+11:00",
+        "lastUpdated": "2026-03-10T06:00:00.000+11:00",
+        "productCategory": "TERM_DEPOSITS",
+        "name": "Term Deposit USD 7D",
+        "description": "Term Deposit USD 7D, rate apply for balance 30000 and above",
+        "brand": "BCA",
+        "brandName": "Bank of China",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.bankofchina.com/au/en/pbservice/pb1/201712/t20171214_10912803.html",
+          "termsUri": "https://www.bankofchina.com/au/en/bocinfo/bi3/201610/t20161020_10963641.html",
+          "eligibilityUri": "https://www.bankofchina.com/au/en/bocinfo/bi3/201610/t20161020_10963641.html",
+          "feesAndPricingUri": "https://www.bankofchina.com/au/en/bocinfo/bi2/201706/t20170629_10963936.html"
+        },
+        "bundles": [],
+        "features": [
+          {
+            "featureType": "DIGITAL_BANKING"
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "OPENING_BALANCE",
+            "additionalValue": "30000",
+            "additionalInfo": "minimal opening balance USD 30000"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "16",
+            "additionalInfo": "accepted visa required"
+          }
+        ],
+        "fees": [],
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0005",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "additionalValue": "Term Deposit USD 7D, rate apply for balance 30000 and above"
+          }
+        ],
+        "lendingRates": []
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "55090506",
+      "productCategory": "TERM_DEPOSITS",
+      "detail": {
+        "productId": "55090506",
+        "effectiveFrom": "2012-02-10T00:00:00.000+11:00",
+        "effectiveTo": "9999-12-31T00:00:00.000+11:00",
+        "lastUpdated": "2026-11-04T06:00:00.000+11:00",
+        "productCategory": "TERM_DEPOSITS",
+        "name": "Term Deposit AUD 1M",
+        "description": "Term Deposit AUD 1M",
+        "brand": "BCA",
+        "brandName": "Bank of China",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.bankofchina.com/au/en/pbservice/pb1/201712/t20171214_10912803.html",
+          "termsUri": "https://www.bankofchina.com/au/en/bocinfo/bi3/201610/t20161020_10963641.html",
+          "eligibilityUri": "https://www.bankofchina.com/au/en/bocinfo/bi3/201610/t20161020_10963641.html",
+          "feesAndPricingUri": "https://www.bankofchina.com/au/en/bocinfo/bi2/201706/t20170629_10963936.html"
+        },
+        "bundles": [],
+        "features": [
+          {
+            "featureType": "DIGITAL_BANKING"
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "OPENING_BALANCE",
+            "additionalValue": "1000",
+            "additionalInfo": "minimal opening balance AUD 1000"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "16",
+            "additionalInfo": "accepted visa required"
+          }
+        ],
+        "fees": [],
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0425",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "additionalValue": "Term Deposit AUD 1M"
+          },
+          {
+            "depositRateType": "BONUS",
+            "rate": "0.0115",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "additionalValue": "Term Deposit AUD 1M,Rollover Bonus Rate, when your 1 month term deposit auto rollover to the new term."
+          }
+        ],
+        "lendingRates": []
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "55090507",
+      "productCategory": "TERM_DEPOSITS",
+      "detail": {
+        "productId": "55090507",
+        "effectiveFrom": "2012-02-10T00:00:00.000+11:00",
+        "effectiveTo": "9999-12-31T00:00:00.000+11:00",
+        "lastUpdated": "2026-03-27T03:00:32.000+11:00",
+        "productCategory": "TERM_DEPOSITS",
+        "name": "Term Deposit AUD 3M",
+        "description": "Term Deposit AUD 3M",
+        "brand": "BCA",
+        "brandName": "Bank of China",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.bankofchina.com/au/en/pbservice/pb1/201712/t20171214_10912803.html",
+          "termsUri": "https://www.bankofchina.com/au/en/bocinfo/bi3/201610/t20161020_10963641.html",
+          "eligibilityUri": "https://www.bankofchina.com/au/en/bocinfo/bi3/201610/t20161020_10963641.html",
+          "feesAndPricingUri": "https://www.bankofchina.com/au/en/bocinfo/bi2/201706/t20170629_10963936.html"
+        },
+        "bundles": [],
+        "features": [
+          {
+            "featureType": "DIGITAL_BANKING"
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "OPENING_BALANCE",
+            "additionalValue": "1000",
+            "additionalInfo": "minimal opening balance AUD 1000"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "16",
+            "additionalInfo": "accepted visa required"
+          }
+        ],
+        "fees": [],
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.043",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "additionalValue": "Term Deposit AUD 3M, rate apply for balance 5000 AUD and 4,999,999.99"
+          }
+        ],
+        "lendingRates": []
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "55090508",
+      "productCategory": "TERM_DEPOSITS",
+      "detail": {
+        "productId": "55090508",
+        "effectiveFrom": "2012-02-10T00:00:00.000+11:00",
+        "effectiveTo": "9999-12-31T00:00:00.000+11:00",
+        "lastUpdated": "2026-09-15T04:00:21.000+10:00",
+        "productCategory": "TERM_DEPOSITS",
+        "name": "Term Deposit AUD 6M",
+        "description": "Term Deposit AUD 6M",
+        "brand": "BCA",
+        "brandName": "Bank of China",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.bankofchina.com/au/en/pbservice/pb1/201712/t20171214_10912803.html",
+          "termsUri": "https://www.bankofchina.com/au/en/bocinfo/bi3/201610/t20161020_10963641.html",
+          "eligibilityUri": "https://www.bankofchina.com/au/en/bocinfo/bi3/201610/t20161020_10963641.html",
+          "feesAndPricingUri": "https://www.bankofchina.com/au/en/bocinfo/bi2/201706/t20170629_10963936.html"
+        },
+        "bundles": [],
+        "features": [
+          {
+            "featureType": "DIGITAL_BANKING"
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "OPENING_BALANCE",
+            "additionalValue": "1000",
+            "additionalInfo": "minimal opening balance AUD 1000"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "16",
+            "additionalInfo": "accepted visa required"
+          }
+        ],
+        "fees": [],
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.05",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "additionalValue": "Term Deposit AUD 6M, rate apply for balance 5000 AUD and 4,999,999.99"
+          }
+        ],
+        "lendingRates": []
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "55090509",
+      "productCategory": "TERM_DEPOSITS",
+      "detail": {
+        "productId": "55090509",
+        "effectiveFrom": "2012-02-10T00:00:00.000+11:00",
+        "effectiveTo": "9999-12-31T00:00:00.000+11:00",
+        "lastUpdated": "2026-11-04T06:00:00.000+11:00",
+        "productCategory": "TERM_DEPOSITS",
+        "name": "Term Deposit AUD 12M",
+        "description": "Term Deposit AUD 12M",
+        "brand": "BCA",
+        "brandName": "Bank of China",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.bankofchina.com/au/en/pbservice/pb1/201712/t20171214_10912803.html",
+          "termsUri": "https://www.bankofchina.com/au/en/bocinfo/bi3/201610/t20161020_10963641.html",
+          "eligibilityUri": "https://www.bankofchina.com/au/en/bocinfo/bi3/201610/t20161020_10963641.html",
+          "feesAndPricingUri": "https://www.bankofchina.com/au/en/bocinfo/bi2/201706/t20170629_10963936.html"
+        },
+        "bundles": [],
+        "features": [
+          {
+            "featureType": "DIGITAL_BANKING"
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "OPENING_BALANCE",
+            "additionalValue": "1000",
+            "additionalInfo": "minimal opening balance AUD 1000"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "16",
+            "additionalInfo": "accepted visa required"
+          }
+        ],
+        "fees": [],
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0510",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "additionalValue": "Term Deposit AUD 12M, rate apply for balance 5000 AUD and 4,999,999.99"
+          }
+        ],
+        "lendingRates": []
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "55090511",
+      "productCategory": "TERM_DEPOSITS",
+      "detail": {
+        "productId": "55090511",
+        "effectiveFrom": "2012-02-10T00:00:00.000+11:00",
+        "effectiveTo": "9999-12-31T00:00:00.000+11:00",
+        "lastUpdated": "2021-07-01T00:00:00.000+10:00",
+        "productCategory": "TERM_DEPOSITS",
+        "name": "Term Deposit AUD 15M",
+        "description": "Term Deposit AUD 15M",
+        "brand": "BCA",
+        "brandName": "Bank of China",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.bankofchina.com/au/en/pbservice/pb1/201712/t20171214_10912803.html",
+          "termsUri": "https://www.bankofchina.com/au/en/bocinfo/bi3/201610/t20161020_10963641.html",
+          "eligibilityUri": "https://www.bankofchina.com/au/en/bocinfo/bi3/201610/t20161020_10963641.html",
+          "feesAndPricingUri": "https://www.bankofchina.com/au/en/bocinfo/bi2/201706/t20170629_10963936.html"
+        },
+        "bundles": [],
+        "features": [
+          {
+            "featureType": "DIGITAL_BANKING"
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "OPENING_BALANCE",
+            "additionalValue": "1000",
+            "additionalInfo": "minimal opening balance AUD 1000"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "16",
+            "additionalInfo": "accepted visa required"
+          }
+        ],
+        "fees": [],
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.015",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY"
+          }
+        ],
+        "lendingRates": []
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "55090512",
+      "productCategory": "TERM_DEPOSITS",
+      "detail": {
+        "productId": "55090512",
+        "effectiveFrom": "2012-02-10T00:00:00.000+11:00",
+        "effectiveTo": "9999-12-31T00:00:00.000+11:00",
+        "lastUpdated": "2026-08-27T14:00:00.000+10:00",
+        "productCategory": "TERM_DEPOSITS",
+        "name": "Term Deposit AUD 18M",
+        "description": "Term Deposit AUD 18M",
+        "brand": "BCA",
+        "brandName": "Bank of China",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.bankofchina.com/au/en/pbservice/pb1/201712/t20171214_10912803.html",
+          "termsUri": "https://www.bankofchina.com/au/en/bocinfo/bi3/201610/t20161020_10963641.html",
+          "eligibilityUri": "https://www.bankofchina.com/au/en/bocinfo/bi3/201610/t20161020_10963641.html",
+          "feesAndPricingUri": "https://www.bankofchina.com/au/en/bocinfo/bi2/201706/t20170629_10963936.html"
+        },
+        "bundles": [],
+        "features": [
+          {
+            "featureType": "DIGITAL_BANKING"
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "OPENING_BALANCE",
+            "additionalValue": "1000",
+            "additionalInfo": "minimal opening balance AUD 1000"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "16",
+            "additionalInfo": "accepted visa required"
+          }
+        ],
+        "fees": [],
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0485",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "additionalValue": "Term Deposit AUD 18M"
+          }
+        ],
+        "lendingRates": []
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "55090513",
+      "productCategory": "TERM_DEPOSITS",
+      "detail": {
+        "productId": "55090513",
+        "effectiveFrom": "2012-02-10T00:00:00.000+11:00",
+        "effectiveTo": "9999-12-31T00:00:00.000+11:00",
+        "lastUpdated": "2021-07-01T00:00:00.000+10:00",
+        "productCategory": "TERM_DEPOSITS",
+        "name": "Term Deposit AUD 2Y",
+        "description": "Term Deposit AUD 2Y",
+        "brand": "BCA",
+        "brandName": "Bank of China",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.bankofchina.com/au/en/pbservice/pb1/201712/t20171214_10912803.html",
+          "termsUri": "https://www.bankofchina.com/au/en/bocinfo/bi3/201610/t20161020_10963641.html",
+          "eligibilityUri": "https://www.bankofchina.com/au/en/bocinfo/bi3/201610/t20161020_10963641.html",
+          "feesAndPricingUri": "https://www.bankofchina.com/au/en/bocinfo/bi2/201706/t20170629_10963936.html"
+        },
+        "bundles": [],
+        "features": [
+          {
+            "featureType": "DIGITAL_BANKING"
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "OPENING_BALANCE",
+            "additionalValue": "1000",
+            "additionalInfo": "minimal opening balance AUD 1000"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "16",
+            "additionalInfo": "accepted visa required"
+          }
+        ],
+        "fees": [],
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.015",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY"
+          }
+        ],
+        "lendingRates": []
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "55090514",
+      "productCategory": "TERM_DEPOSITS",
+      "detail": {
+        "productId": "55090514",
+        "effectiveFrom": "2012-02-10T00:00:00.000+11:00",
+        "effectiveTo": "9999-12-31T00:00:00.000+11:00",
+        "lastUpdated": "2021-07-01T00:00:00.000+10:00",
+        "productCategory": "TERM_DEPOSITS",
+        "name": "Term Deposit AUD 7D",
+        "description": "Term Deposit AUD 7D",
+        "brand": "BCA",
+        "brandName": "Bank of China",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.bankofchina.com/au/en/pbservice/pb1/201712/t20171214_10912803.html",
+          "termsUri": "https://www.bankofchina.com/au/en/bocinfo/bi3/201610/t20161020_10963641.html",
+          "eligibilityUri": "https://www.bankofchina.com/au/en/bocinfo/bi3/201610/t20161020_10963641.html",
+          "feesAndPricingUri": "https://www.bankofchina.com/au/en/bocinfo/bi2/201706/t20170629_10963936.html"
+        },
+        "bundles": [],
+        "features": [
+          {
+            "featureType": "DIGITAL_BANKING"
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "OPENING_BALANCE",
+            "additionalValue": "30000",
+            "additionalInfo": "minimal opening balance AUD 30000"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "16",
+            "additionalInfo": "accepted visa required"
+          }
+        ],
+        "fees": [],
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.001",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY"
+          }
+        ],
+        "lendingRates": []
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "55090687",
+      "productCategory": "TERM_DEPOSITS",
+      "detail": {
+        "productId": "55090687",
+        "effectiveFrom": "2012-02-10T00:00:00.000+11:00",
+        "effectiveTo": "9999-12-31T00:00:00.000+11:00",
+        "lastUpdated": "2021-07-01T00:00:00.000+10:00",
+        "productCategory": "TERM_DEPOSITS",
+        "name": "Term Deposit HKD 2M",
+        "description": "Term Deposit HKD 2M",
+        "brand": "BCA",
+        "brandName": "Bank of China",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.bankofchina.com/au/en/pbservice/pb1/201712/t20171214_10912803.html",
+          "termsUri": "https://www.bankofchina.com/au/en/bocinfo/bi3/201610/t20161020_10963641.html",
+          "eligibilityUri": "https://www.bankofchina.com/au/en/bocinfo/bi3/201610/t20161020_10963641.html",
+          "feesAndPricingUri": "https://www.bankofchina.com/au/en/bocinfo/bi2/201706/t20170629_10963936.html"
+        },
+        "bundles": [],
+        "features": [
+          {
+            "featureType": "DIGITAL_BANKING"
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "OPENING_BALANCE",
+            "additionalValue": "5000",
+            "additionalInfo": "minimal opening balance HKD 5000"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "16",
+            "additionalInfo": "accepted visa required"
+          }
+        ],
+        "fees": [],
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.001",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY"
+          }
+        ],
+        "lendingRates": []
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "55090688",
+      "productCategory": "TERM_DEPOSITS",
+      "detail": {
+        "productId": "55090688",
+        "effectiveFrom": "2012-02-10T00:00:00.000+11:00",
+        "effectiveTo": "9999-12-31T00:00:00.000+11:00",
+        "lastUpdated": "2021-07-01T00:00:00.000+10:00",
+        "productCategory": "TERM_DEPOSITS",
+        "name": "Term Deposit USD 2M",
+        "description": "Term Deposit USD 2M",
+        "brand": "BCA",
+        "brandName": "Bank of China",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.bankofchina.com/au/en/pbservice/pb1/201712/t20171214_10912803.html",
+          "termsUri": "https://www.bankofchina.com/au/en/bocinfo/bi3/201610/t20161020_10963641.html",
+          "eligibilityUri": "https://www.bankofchina.com/au/en/bocinfo/bi3/201610/t20161020_10963641.html",
+          "feesAndPricingUri": "https://www.bankofchina.com/au/en/bocinfo/bi2/201706/t20170629_10963936.html"
+        },
+        "bundles": [],
+        "features": [
+          {
+            "featureType": "DIGITAL_BANKING"
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "OPENING_BALANCE",
+            "additionalValue": "1000",
+            "additionalInfo": "minimal opening balance USD 1000"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "16",
+            "additionalInfo": "accepted visa required"
+          }
+        ],
+        "fees": [],
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.003",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY"
+          }
+        ],
+        "lendingRates": []
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "55090693",
+      "productCategory": "TERM_DEPOSITS",
+      "detail": {
+        "productId": "55090693",
+        "effectiveFrom": "2012-02-10T00:00:00.000+11:00",
+        "effectiveTo": "9999-12-31T00:00:00.000+11:00",
+        "lastUpdated": "2021-07-01T00:00:00.000+10:00",
+        "productCategory": "TERM_DEPOSITS",
+        "name": "Term Deposit AUD 2M",
+        "description": "Term Deposit AUD 2M",
+        "brand": "BCA",
+        "brandName": "Bank of China",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.bankofchina.com/au/en/pbservice/pb1/201712/t20171214_10912803.html",
+          "termsUri": "https://www.bankofchina.com/au/en/bocinfo/bi3/201610/t20161020_10963641.html",
+          "eligibilityUri": "https://www.bankofchina.com/au/en/bocinfo/bi3/201610/t20161020_10963641.html",
+          "feesAndPricingUri": "https://www.bankofchina.com/au/en/bocinfo/bi2/201706/t20170629_10963936.html"
+        },
+        "bundles": [],
+        "features": [
+          {
+            "featureType": "DIGITAL_BANKING"
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "OPENING_BALANCE",
+            "additionalValue": "1000",
+            "additionalInfo": "minimal opening balance AUD 1000"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "16",
+            "additionalInfo": "accepted visa required"
+          }
+        ],
+        "fees": [],
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0065",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY"
+          }
+        ],
+        "lendingRates": []
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "55090851",
+      "productCategory": "TERM_DEPOSITS",
+      "detail": {
+        "productId": "55090851",
+        "effectiveFrom": "2012-02-10T00:00:00.000+11:00",
+        "effectiveTo": "9999-12-31T00:00:00.000+11:00",
+        "lastUpdated": "2026-03-10T06:00:00.000+11:00",
+        "productCategory": "TERM_DEPOSITS",
+        "name": "Term Deposit AUD 4M",
+        "description": "Term Deposit AUD 4M",
+        "brand": "BCA",
+        "brandName": "Bank of China",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.bankofchina.com/au/en/pbservice/pb1/201712/t20171214_10912803.html",
+          "termsUri": "https://www.bankofchina.com/au/en/bocinfo/bi3/201610/t20161020_10963641.html",
+          "eligibilityUri": "https://www.bankofchina.com/au/en/bocinfo/bi3/201610/t20161020_10963641.html",
+          "feesAndPricingUri": "https://www.bankofchina.com/au/en/bocinfo/bi2/201706/t20170629_10963936.html"
+        },
+        "bundles": [],
+        "features": [
+          {
+            "featureType": "DIGITAL_BANKING"
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "OPENING_BALANCE",
+            "additionalValue": "1000",
+            "additionalInfo": "minimal opening balance AUD 1000"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "16",
+            "additionalInfo": "accepted visa required"
+          }
+        ],
+        "fees": [],
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.005",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "additionalValue": "Term Deposit AUD 4M"
+          },
+          {
+            "depositRateType": "BONUS",
+            "rate": "0.042",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "additionalValue": "Term deposit rate bonus rate only apply to overseas student customer with balance between 1000 to 500,000 AUD"
+          }
+        ],
+        "lendingRates": []
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "55090852",
+      "productCategory": "TERM_DEPOSITS",
+      "detail": {
+        "productId": "55090852",
+        "effectiveFrom": "2012-02-10T00:00:00.000+11:00",
+        "effectiveTo": "9999-12-31T00:00:00.000+11:00",
+        "lastUpdated": "2021-07-01T00:00:00.000+10:00",
+        "productCategory": "TERM_DEPOSITS",
+        "name": "Term Deposit AUD 5M",
+        "description": "Term Deposit AUD 5M",
+        "brand": "BCA",
+        "brandName": "Bank of China",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.bankofchina.com/au/en/pbservice/pb1/201712/t20171214_10912803.html",
+          "termsUri": "https://www.bankofchina.com/au/en/bocinfo/bi3/201610/t20161020_10963641.html",
+          "eligibilityUri": "https://www.bankofchina.com/au/en/bocinfo/bi3/201610/t20161020_10963641.html",
+          "feesAndPricingUri": "https://www.bankofchina.com/au/en/bocinfo/bi2/201706/t20170629_10963936.html"
+        },
+        "bundles": [],
+        "features": [
+          {
+            "featureType": "DIGITAL_BANKING"
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "OPENING_BALANCE",
+            "additionalValue": "1000",
+            "additionalInfo": "minimal opening balance AUD 1000"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "16",
+            "additionalInfo": "accepted visa required"
+          }
+        ],
+        "fees": [],
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.009",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY"
+          }
+        ],
+        "lendingRates": []
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "55090853",
+      "productCategory": "TERM_DEPOSITS",
+      "detail": {
+        "productId": "55090853",
+        "effectiveFrom": "2012-02-10T00:00:00.000+11:00",
+        "effectiveTo": "9999-12-31T00:00:00.000+11:00",
+        "lastUpdated": "2026-03-10T06:00:00.000+11:00",
+        "productCategory": "TERM_DEPOSITS",
+        "name": "Term Deposit AUD 7M",
+        "description": "Term Deposit AUD 7M",
+        "brand": "BCA",
+        "brandName": "Bank of China",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.bankofchina.com/au/en/pbservice/pb1/201712/t20171214_10912803.html",
+          "termsUri": "https://www.bankofchina.com/au/en/bocinfo/bi3/201610/t20161020_10963641.html",
+          "eligibilityUri": "https://www.bankofchina.com/au/en/bocinfo/bi3/201610/t20161020_10963641.html",
+          "feesAndPricingUri": "https://www.bankofchina.com/au/en/bocinfo/bi2/201706/t20170629_10963936.html"
+        },
+        "bundles": [],
+        "features": [
+          {
+            "featureType": "DIGITAL_BANKING"
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "OPENING_BALANCE",
+            "additionalValue": "1000",
+            "additionalInfo": "minimal opening balance AUD 1000"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "16",
+            "additionalInfo": "accepted visa required"
+          }
+        ],
+        "fees": [],
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.01",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "additionalValue": "Term Deposit AUD 7M"
+          }
+        ],
+        "lendingRates": []
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "55090854",
+      "productCategory": "TERM_DEPOSITS",
+      "detail": {
+        "productId": "55090854",
+        "effectiveFrom": "2012-02-10T00:00:00.000+11:00",
+        "effectiveTo": "9999-12-31T00:00:00.000+11:00",
+        "lastUpdated": "2026-07-01T04:05:45.000+10:00",
+        "productCategory": "TERM_DEPOSITS",
+        "name": "Term Deposit AUD 8M",
+        "description": "Term Deposit AUD 8M",
+        "brand": "BCA",
+        "brandName": "Bank of China",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.bankofchina.com/au/en/pbservice/pb1/201712/t20171214_10912803.html",
+          "termsUri": "https://www.bankofchina.com/au/en/bocinfo/bi3/201610/t20161020_10963641.html",
+          "eligibilityUri": "https://www.bankofchina.com/au/en/bocinfo/bi3/201610/t20161020_10963641.html",
+          "feesAndPricingUri": "https://www.bankofchina.com/au/en/bocinfo/bi2/201706/t20170629_10963936.html"
+        },
+        "bundles": [],
+        "features": [
+          {
+            "featureType": "DIGITAL_BANKING"
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "OPENING_BALANCE",
+            "additionalValue": "1000",
+            "additionalInfo": "minimal opening balance AUD 1000"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "16",
+            "additionalInfo": "accepted visa required"
+          }
+        ],
+        "fees": [],
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.052",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY"
+          }
+        ],
+        "lendingRates": []
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "55090855",
+      "productCategory": "TERM_DEPOSITS",
+      "detail": {
+        "productId": "55090855",
+        "effectiveFrom": "2012-02-10T00:00:00.000+11:00",
+        "effectiveTo": "9999-12-31T00:00:00.000+11:00",
+        "lastUpdated": "2026-03-27T03:00:00.000+11:00",
+        "productCategory": "TERM_DEPOSITS",
+        "name": "Term Deposit AUD 9M",
+        "description": "Term Deposit AUD 9M",
+        "brand": "BCA",
+        "brandName": "Bank of China",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.bankofchina.com/au/en/pbservice/pb1/201712/t20171214_10912803.html",
+          "termsUri": "https://www.bankofchina.com/au/en/bocinfo/bi3/201610/t20161020_10963641.html",
+          "eligibilityUri": "https://www.bankofchina.com/au/en/bocinfo/bi3/201610/t20161020_10963641.html",
+          "feesAndPricingUri": "https://www.bankofchina.com/au/en/bocinfo/bi2/201706/t20170629_10963936.html"
+        },
+        "bundles": [],
+        "features": [
+          {
+            "featureType": "DIGITAL_BANKING"
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "OPENING_BALANCE",
+            "additionalValue": "1000",
+            "additionalInfo": "minimal opening balance AUD 1000"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "16",
+            "additionalInfo": "accepted visa required"
+          }
+        ],
+        "fees": [],
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.045",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "additionalValue": "Term Deposit AUD 9M"
+          }
+        ],
+        "lendingRates": []
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "55090856",
+      "productCategory": "TERM_DEPOSITS",
+      "detail": {
+        "productId": "55090856",
+        "effectiveFrom": "2012-02-10T00:00:00.000+11:00",
+        "effectiveTo": "9999-12-31T00:00:00.000+11:00",
+        "lastUpdated": "2021-07-01T00:00:00.000+10:00",
+        "productCategory": "TERM_DEPOSITS",
+        "name": "Term Deposit AUD 10M",
+        "description": "Term Deposit AUD 10M",
+        "brand": "BCA",
+        "brandName": "Bank of China",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.bankofchina.com/au/en/pbservice/pb1/201712/t20171214_10912803.html",
+          "termsUri": "https://www.bankofchina.com/au/en/bocinfo/bi3/201610/t20161020_10963641.html",
+          "eligibilityUri": "https://www.bankofchina.com/au/en/bocinfo/bi3/201610/t20161020_10963641.html",
+          "feesAndPricingUri": "https://www.bankofchina.com/au/en/bocinfo/bi2/201706/t20170629_10963936.html"
+        },
+        "bundles": [],
+        "features": [
+          {
+            "featureType": "DIGITAL_BANKING"
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "OPENING_BALANCE",
+            "additionalValue": "1000",
+            "additionalInfo": "minimal opening balance AUD 1000"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "16",
+            "additionalInfo": "accepted visa required"
+          }
+        ],
+        "fees": [],
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.011",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY"
+          }
+        ],
+        "lendingRates": []
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "55090857",
+      "productCategory": "TERM_DEPOSITS",
+      "detail": {
+        "productId": "55090857",
+        "effectiveFrom": "2012-02-10T00:00:00.000+11:00",
+        "effectiveTo": "9999-12-31T00:00:00.000+11:00",
+        "lastUpdated": "2026-11-04T06:00:00.000+11:00",
+        "productCategory": "TERM_DEPOSITS",
+        "name": "Term Deposit AUD 11M",
+        "description": "Term Deposit AUD 11M",
+        "brand": "BCA",
+        "brandName": "Bank of China",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.bankofchina.com/au/en/pbservice/pb1/201712/t20171214_10912803.html",
+          "termsUri": "https://www.bankofchina.com/au/en/bocinfo/bi3/201610/t20161020_10963641.html",
+          "eligibilityUri": "https://www.bankofchina.com/au/en/bocinfo/bi3/201610/t20161020_10963641.html",
+          "feesAndPricingUri": "https://www.bankofchina.com/au/en/bocinfo/bi2/201706/t20170629_10963936.html"
+        },
+        "bundles": [],
+        "features": [
+          {
+            "featureType": "DIGITAL_BANKING"
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "OPENING_BALANCE",
+            "additionalValue": "1000",
+            "additionalInfo": "minimal opening balance AUD 1000"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "16",
+            "additionalInfo": "accepted visa required"
+          }
+        ],
+        "fees": [],
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.054",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "additionalValue": "Term Deposit AUD 11M"
+          }
+        ],
+        "lendingRates": []
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "55090858",
+      "productCategory": "TERM_DEPOSITS",
+      "detail": {
+        "productId": "55090858",
+        "effectiveFrom": "2012-02-10T00:00:00.000+11:00",
+        "effectiveTo": "9999-12-31T00:00:00.000+11:00",
+        "lastUpdated": "2021-07-01T00:00:00.000+10:00",
+        "productCategory": "TERM_DEPOSITS",
+        "name": "Term Deposit AUD 3Y",
+        "description": "Term Deposit AUD 3Y",
+        "brand": "BCA",
+        "brandName": "Bank of China",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.bankofchina.com/au/en/pbservice/pb1/201712/t20171214_10912803.html",
+          "termsUri": "https://www.bankofchina.com/au/en/bocinfo/bi3/201610/t20161020_10963641.html",
+          "eligibilityUri": "https://www.bankofchina.com/au/en/bocinfo/bi3/201610/t20161020_10963641.html",
+          "feesAndPricingUri": "https://www.bankofchina.com/au/en/bocinfo/bi2/201706/t20170629_10963936.html"
+        },
+        "bundles": [],
+        "features": [
+          {
+            "featureType": "DIGITAL_BANKING"
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "OPENING_BALANCE",
+            "additionalValue": "1000",
+            "additionalInfo": "minimal opening balance AUD 1000"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "16",
+            "additionalInfo": "accepted visa required"
+          }
+        ],
+        "fees": [],
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.015",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY"
+          }
+        ],
+        "lendingRates": []
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "55090859",
+      "productCategory": "TERM_DEPOSITS",
+      "detail": {
+        "productId": "55090859",
+        "effectiveFrom": "2012-02-10T00:00:00.000+11:00",
+        "effectiveTo": "9999-12-31T00:00:00.000+11:00",
+        "lastUpdated": "2021-07-01T00:00:00.000+10:00",
+        "productCategory": "TERM_DEPOSITS",
+        "name": "Term Deposit AUD 4Y",
+        "description": "Term Deposit AUD 4Y",
+        "brand": "BCA",
+        "brandName": "Bank of China",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.bankofchina.com/au/en/pbservice/pb1/201712/t20171214_10912803.html",
+          "termsUri": "https://www.bankofchina.com/au/en/bocinfo/bi3/201610/t20161020_10963641.html",
+          "eligibilityUri": "https://www.bankofchina.com/au/en/bocinfo/bi3/201610/t20161020_10963641.html",
+          "feesAndPricingUri": "https://www.bankofchina.com/au/en/bocinfo/bi2/201706/t20170629_10963936.html"
+        },
+        "bundles": [],
+        "features": [
+          {
+            "featureType": "DIGITAL_BANKING"
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "OPENING_BALANCE",
+            "additionalValue": "1000",
+            "additionalInfo": "minimal opening balance AUD 1000"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "16",
+            "additionalInfo": "accepted visa required"
+          }
+        ],
+        "fees": [],
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.015",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY"
+          }
+        ],
+        "lendingRates": []
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "55090860",
+      "productCategory": "TERM_DEPOSITS",
+      "detail": {
+        "productId": "55090860",
+        "effectiveFrom": "2012-02-10T00:00:00.000+11:00",
+        "effectiveTo": "9999-12-31T00:00:00.000+11:00",
+        "lastUpdated": "2021-07-01T00:00:00.000+10:00",
+        "productCategory": "TERM_DEPOSITS",
+        "name": "Term Deposit AUD 5Y",
+        "description": "Term Deposit AUD 5Y",
+        "brand": "BCA",
+        "brandName": "Bank of China",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.bankofchina.com/au/en/pbservice/pb1/201712/t20171214_10912803.html",
+          "termsUri": "https://www.bankofchina.com/au/en/bocinfo/bi3/201610/t20161020_10963641.html",
+          "eligibilityUri": "https://www.bankofchina.com/au/en/bocinfo/bi3/201610/t20161020_10963641.html",
+          "feesAndPricingUri": "https://www.bankofchina.com/au/en/bocinfo/bi2/201706/t20170629_10963936.html"
+        },
+        "bundles": [],
+        "features": [
+          {
+            "featureType": "DIGITAL_BANKING"
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "OPENING_BALANCE",
+            "additionalValue": "1000",
+            "additionalInfo": "minimal opening balance AUD 1000"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "16",
+            "additionalInfo": "accepted visa required"
+          }
+        ],
+        "fees": [],
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.015",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY"
+          }
+        ],
+        "lendingRates": []
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "55160605",
+      "productCategory": "TERM_DEPOSITS",
+      "detail": {
+        "productId": "55160605",
+        "effectiveFrom": "2012-01-01T00:00:00.000+11:00",
+        "effectiveTo": "9999-12-31T00:00:00.000+11:00",
+        "lastUpdated": "2012-01-01T00:00:00.000+11:00",
+        "productCategory": "TERM_DEPOSITS",
+        "name": "Term Deposit XXX",
+        "description": "Term Deposit XXX",
+        "brand": "BCA",
+        "brandName": "Bank of China",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.bankofchina.com/au/en/pbservice/pb1/201712/t20171214_10912803.html",
+          "termsUri": "https://www.bankofchina.com/au/en/bocinfo/bi3/201610/t20161020_10963641.html",
+          "eligibilityUri": "https://www.bankofchina.com/au/en/bocinfo/bi3/201610/t20161020_10963641.html",
+          "feesAndPricingUri": "https://www.bankofchina.com/au/en/bocinfo/bi2/201706/t20170629_10963936.html"
+        },
+        "bundles": [],
+        "features": [
+          {
+            "featureType": "DIGITAL_BANKING"
+          }
+        ],
+        "constraints": [],
+        "eligibility": [
+          {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "16",
+            "additionalInfo": "accepted visa required"
+          }
+        ],
+        "fees": [],
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "additionalValue": "term deposit master account"
+          }
+        ],
+        "lendingRates": []
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "55880485",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "productId": "55880485",
+        "effectiveFrom": "2016-09-15T00:00:00.000+10:00",
+        "effectiveTo": "9999-12-31T00:00:00.000+11:00",
+        "lastUpdated": "2016-09-15T00:00:00.000+10:00",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "name": "Home Loan Offset Account",
+        "description": "Home Loan Offset Account",
+        "brand": "BCA",
+        "brandName": "Bank of China",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.bankofchina.com/au/en/pbservice/pb1/201712/t20171214_10912760.html",
+          "termsUri": "https://www.bankofchina.com/au/en/bocinfo/bi3/201906/t20190627_15531087.html",
+          "eligibilityUri": "https://www.bankofchina.com/au/en/bocinfo/bi3/201610/t20161020_10963641.html",
+          "feesAndPricingUri": "https://www.bankofchina.com/au/en/bocinfo/bi2/201706/t20170629_10963936.html"
+        },
+        "bundles": [],
+        "features": [
+          {
+            "featureType": "DIGITAL_BANKING"
+          }
+        ],
+        "constraints": [],
+        "eligibility": [
+          {
+            "eligibilityType": "OTHER",
+            "additionalInfo": "must have specific home loan products with BOCAL"
+          }
+        ],
+        "fees": [],
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M"
+          }
+        ],
+        "lendingRates": []
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "55920656",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "productId": "55920656",
+        "effectiveFrom": "2009-02-05T00:00:00.000+11:00",
+        "effectiveTo": "9999-12-31T00:00:00.000+11:00",
+        "lastUpdated": "2023-02-27T00:00:00.000+11:00",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "name": "Overseas Student Statement ",
+        "description": "Overseas Student Statement ",
+        "brand": "BCA",
+        "brandName": "Bank of China",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.bankofchina.com/au/en/pbservice/pb1/201712/t20171214_10912619.html",
+          "termsUri": "https://www.bankofchina.com/au/en/bocinfo/bi3/201906/t20190627_15531087.html",
+          "eligibilityUri": "https://www.bankofchina.com/au/en/pbservice/pb1/201906/t20190627_15530997.html",
+          "feesAndPricingUri": "https://www.bankofchina.com/au/en/bocinfo/bi2/201706/t20170629_10963936.html"
+        },
+        "bundles": [],
+        "features": [
+          {
+            "featureType": "DIGITAL_BANKING"
+          }
+        ],
+        "constraints": [],
+        "eligibility": [
+          {
+            "eligibilityType": "STUDENT",
+            "additionalInfo": "Oversea Student"
+          },
+          {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "16",
+            "additionalInfo": "accepted visa required"
+          }
+        ],
+        "fees": [],
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0005",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "additionalValue": "base rate 0.05% applies to deposit over 1000."
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.001",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "additionalValue": "base rate 0.1% applies to deposit over 100000."
+          }
+        ],
+        "lendingRates": []
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "55920657",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "productId": "55920657",
+        "effectiveFrom": "2009-02-05T00:00:00.000+11:00",
+        "effectiveTo": "9999-12-31T00:00:00.000+11:00",
+        "lastUpdated": "2023-02-27T00:00:00.000+11:00",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "name": "Overseas Student",
+        "description": "Overseas Student",
+        "brand": "BCA",
+        "brandName": "Bank of China",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.bankofchina.com/au/en/pbservice/pb1/201712/t20171214_10912619.html",
+          "termsUri": "https://www.bankofchina.com/au/en/bocinfo/bi3/201906/t20190627_15531087.html",
+          "eligibilityUri": "https://www.bankofchina.com/au/en/pbservice/pb1/201906/t20190627_15530997.html",
+          "feesAndPricingUri": "https://www.bankofchina.com/au/en/bocinfo/bi2/201706/t20170629_10963936.html"
+        },
+        "bundles": [],
+        "features": [
+          {
+            "featureType": "DIGITAL_BANKING"
+          }
+        ],
+        "constraints": [],
+        "eligibility": [
+          {
+            "eligibilityType": "STUDENT",
+            "additionalInfo": "Oversea Student"
+          },
+          {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "16",
+            "additionalInfo": "accepted visa required"
+          }
+        ],
+        "fees": [],
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0005",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "additionalValue": "base rate 0.05% applies to deposit over 1000."
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.001",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "additionalValue": "base rate 0.1% applies to deposit over 100000."
+          }
+        ],
+        "lendingRates": []
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "55940656",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "productId": "55940656",
+        "effectiveFrom": "2021-07-02T02:00:00.000+10:00",
+        "effectiveTo": "9999-12-31T06:00:00.000+11:00",
+        "lastUpdated": "2026-10-01T04:00:00.000+10:00",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "name": "Online Saver Statement",
+        "description": "Online Saver Statement",
+        "brand": "BCA",
+        "brandName": "Bank of China",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.bankofchina.com/au/en/pbservice/pb1/201712/t20171214_10912637.html",
+          "termsUri": "https://www.bankofchina.com/au/en/bocinfo/bi3/201906/t20190627_15531087.html",
+          "eligibilityUri": "https://www.bankofchina.com/au/en/pbservice/pb1/201906/t20190627_15530997.html",
+          "feesAndPricingUri": "https://www.bankofchina.com/au/en/bocinfo/bi2/201706/t20170629_10963936.html"
+        },
+        "bundles": [],
+        "features": [
+          {
+            "featureType": "DIGITAL_BANKING"
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "OPENING_BALANCE",
+            "additionalValue": "1"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "16",
+            "additionalInfo": "accepted visa required"
+          }
+        ],
+        "fees": [
+          {
+            "name": "Over the counter withdrawals at branches",
+            "feeType": "WITHDRAWAL",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "5.00"
+            },
+            "currency": "AUD",
+            "additionalValue": "once-off"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0005",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "additionalValue": "Online Saver Statement, base rate for balance < $3,000 or =$5,000,000."
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0235",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "additionalValue": "Online Saver Statement, base rate for balance between $3,000 and $4,999,999.99."
+          },
+          {
+            "depositRateType": "BONUS",
+            "rate": "0.0325",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "additionalValue": "Online Saver Statement, new account bonus rate 3.25% for first 4 months for balance $3,000 to $499,999.99, only new customer can enjoy this bonus rate."
+          }
+        ],
+        "lendingRates": []
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "55940657",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "productId": "55940657",
+        "effectiveFrom": "2021-07-01T00:00:00.000+10:00",
+        "effectiveTo": "9999-12-31T00:00:00.000+11:00",
+        "lastUpdated": "2026-10-01T04:00:00.000+10:00",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "name": "Online Saver",
+        "description": "Online Saver",
+        "brand": "BCA",
+        "brandName": "Bank of China",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.bankofchina.com/au/en/pbservice/pb1/201712/t20171214_10912637.html",
+          "termsUri": "https://www.bankofchina.com/au/en/bocinfo/bi3/201906/t20190627_15531087.html",
+          "eligibilityUri": "https://www.bankofchina.com/au/en/pbservice/pb1/201906/t20190627_15530997.html",
+          "feesAndPricingUri": "https://www.bankofchina.com/au/en/bocinfo/bi2/201706/t20170629_10963936.html"
+        },
+        "bundles": [],
+        "features": [
+          {
+            "featureType": "DIGITAL_BANKING"
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "OPENING_BALANCE",
+            "additionalValue": "1"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "16",
+            "additionalInfo": "accepted visa required"
+          }
+        ],
+        "fees": [
+          {
+            "name": "Over the counter withdrawals at branches",
+            "feeType": "WITHDRAWAL",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "5.00"
+            },
+            "currency": "AUD",
+            "additionalValue": "once-off"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0005",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "additionalValue": "Online Saver, base rate for balance < $3,000 or =$5,000,000."
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0235",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "additionalValue": "Online Saver, base rate for balance between $3,000 and $4,999,999.99."
+          }
+        ],
+        "lendingRates": []
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "56060485",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "productId": "56060485",
+        "effectiveFrom": "2017-03-15T00:00:00.000+11:00",
+        "effectiveTo": "9999-12-31T00:00:00.000+11:00",
+        "lastUpdated": "2017-03-15T00:00:00.000+11:00",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "name": "Basic Transaction Account",
+        "description": "Basic Transaction Account",
+        "brand": "BCA",
+        "brandName": "Bank of China",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.bankofchina.com/au/en/pbservice/pb1/201906/t20190627_15530997.html",
+          "termsUri": "https://www.bankofchina.com/au/en/bocinfo/bi3/201906/t20190627_15531087.html",
+          "eligibilityUri": "https://www.bankofchina.com/au/en/pbservice/pb1/201906/t20190627_15530997.html",
+          "feesAndPricingUri": "https://www.bankofchina.com/au/en/bocinfo/bi2/201706/t20170629_10963936.html"
+        },
+        "bundles": [],
+        "features": [
+          {
+            "featureType": "DIGITAL_BANKING"
+          }
+        ],
+        "constraints": [],
+        "eligibility": [
+          {
+            "eligibilityType": "PENSION_RECIPIENT",
+            "additionalInfo": "Customer holds seniors health card or health care card or pensioner concession card; customer claims that he/she is vulnerable, including Aboriginal, severe diseases, violence, low income."
+          }
+        ],
+        "fees": [],
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M"
+          }
+        ],
+        "lendingRates": []
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "56150485",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "productId": "56150485",
+        "effectiveFrom": "2009-02-05T00:00:00.000+11:00",
+        "effectiveTo": "9999-12-31T00:00:00.000+11:00",
+        "lastUpdated": "2009-02-05T00:00:00.000+11:00",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "name": "Current Account Statement ",
+        "description": "Current Account Statement ",
+        "brand": "BCA",
+        "brandName": "Bank of China",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.bankofchina.com/au/en/pbservice/pb1/201712/t20171214_10912760.html",
+          "termsUri": "https://www.bankofchina.com/au/en/bocinfo/bi3/201906/t20190627_15531087.html",
+          "eligibilityUri": "https://www.bankofchina.com/au/en/pbservice/pb1/201906/t20190627_15530997.html",
+          "feesAndPricingUri": "https://www.bankofchina.com/au/en/bocinfo/bi2/201706/t20170629_10963936.html"
+        },
+        "bundles": [],
+        "features": [
+          {
+            "featureType": "DIGITAL_BANKING"
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "OPENING_BALANCE",
+            "additionalValue": "2000",
+            "additionalInfo": "opening balance AUD 2000 to active account"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "16",
+            "additionalInfo": "accepted visa required"
+          }
+        ],
+        "fees": [
+          {
+            "name": "Monthly Account Keeping Fee",
+            "feeType": "PERIODIC",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "5.00"
+            },
+            "currency": "AUD",
+            "additionalValue": "monthly"
+          },
+          {
+            "name": "Over the counter withdrawals at branches",
+            "feeType": "WITHDRAWAL",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "5.00"
+            },
+            "currency": "AUD",
+            "additionalValue": "once-off"
+          },
+          {
+            "name": "Cheque book orders",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "50.00"
+            },
+            "currency": "AUD",
+            "additionalValue": "once-off"
+          },
+          {
+            "name": "Outward cheque dishonour for insufficient funds-per cheque",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "30.00"
+            },
+            "currency": "AUD",
+            "additionalValue": "once-off"
+          },
+          {
+            "name": "Outward cheque dishonour for incorrect detail-per cheque",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "20.00"
+            },
+            "currency": "AUD",
+            "additionalValue": "once-off"
+          },
+          {
+            "name": "Stop cheque",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "10.00"
+            },
+            "currency": "AUD",
+            "additionalValue": "once-off"
+          },
+          {
+            "name": "Cancellation of cheque book",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "100.00"
+            },
+            "currency": "AUD",
+            "additionalValue": "once-off"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0001",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "additionalValue": "base rate 0.01% applies to deposit over 2000."
+          }
+        ],
+        "lendingRates": []
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "56150657",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "productId": "56150657",
+        "effectiveFrom": "2009-02-05T00:00:00.000+11:00",
+        "effectiveTo": "9999-12-31T00:00:00.000+11:00",
+        "lastUpdated": "2009-02-05T00:00:00.000+11:00",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "name": "Current Account",
+        "description": "Current Account",
+        "brand": "BCA",
+        "brandName": "Bank of China",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.bankofchina.com/au/en/pbservice/pb1/201712/t20171214_10912760.html",
+          "termsUri": "https://www.bankofchina.com/au/en/bocinfo/bi3/201906/t20190627_15531087.html",
+          "eligibilityUri": "https://www.bankofchina.com/au/en/pbservice/pb1/201906/t20190627_15530997.html",
+          "feesAndPricingUri": "https://www.bankofchina.com/au/en/bocinfo/bi2/201706/t20170629_10963936.html"
+        },
+        "bundles": [],
+        "features": [
+          {
+            "featureType": "DIGITAL_BANKING"
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "OPENING_BALANCE",
+            "additionalValue": "2000",
+            "additionalInfo": "opening balance AUD 2000 to active account"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "16",
+            "additionalInfo": "accepted visa required"
+          }
+        ],
+        "fees": [
+          {
+            "name": "Monthly Account Keeping Fee",
+            "feeType": "PERIODIC",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "5.00"
+            },
+            "currency": "AUD",
+            "additionalValue": "once-off"
+          },
+          {
+            "name": "Over the counter withdrawals at branches",
+            "feeType": "WITHDRAWAL",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "5.00"
+            },
+            "currency": "AUD",
+            "additionalValue": "monthly"
+          },
+          {
+            "name": "Cheque book orders",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "50.00"
+            },
+            "currency": "AUD",
+            "additionalValue": "once-off"
+          },
+          {
+            "name": "Outward cheque dishonour for insufficient funds-per cheque",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "30.00"
+            },
+            "currency": "AUD",
+            "additionalValue": "once-off"
+          },
+          {
+            "name": "Outward cheque dishonour for incorrect detail-per cheque",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "20.00"
+            },
+            "currency": "AUD",
+            "additionalValue": "once-off"
+          },
+          {
+            "name": "Stop cheque",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "10.00"
+            },
+            "currency": "AUD",
+            "additionalValue": "once-off"
+          },
+          {
+            "name": "Cancellation of cheque book",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "100.00"
+            },
+            "currency": "AUD",
+            "additionalValue": "once-off"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0001",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "additionalValue": "base rate 0.01% applies to deposit over 2000."
+          }
+        ],
+        "lendingRates": []
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    }
+  ]
+}

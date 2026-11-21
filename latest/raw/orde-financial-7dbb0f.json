@@ -1,0 +1,28 @@
+{
+  "endpoint": "https://prd.pm.productdata.au/c824d92f-d5bd-4699-b861-b07b145ef382/adapter/cds-au/v1/banking/products",
+  "slug": "orde-financial-7dbb0f",
+  "brands": [
+    {
+      "dataHolderBrandId": "a1d52141-5bb2-f111-aad1-000d3a79916b",
+      "brandName": "ORDE Financial",
+      "brandGroup": "HOME LOANS",
+      "abn": "27634779990",
+      "industries": [
+        "non-bank-lending"
+      ]
+    }
+  ],
+  "list": {
+    "ok": true,
+    "status": 200,
+    "version": "5",
+    "totalPages": 1,
+    "pagesFetched": 1,
+    "productCount": 27,
+    "categoryCounts": {
+      "BUSINESS_LOANS": 9,
+      "RESIDENTIAL_MORTGAGES": 18
+    }
+  },
+  "products": []
+}

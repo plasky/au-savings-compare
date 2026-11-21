@@ -1,0 +1,27 @@
+{
+  "endpoint": "https://api.openbanking.qantasmoney.com/cds-au/v1/banking/products",
+  "slug": "qantas-money-credit-cards-a12e9b",
+  "brands": [
+    {
+      "dataHolderBrandId": "640ec6df-38bc-eb11-a823-000d3a884a20",
+      "brandName": "Qantas Money Credit Cards",
+      "brandGroup": null,
+      "abn": "12004044937",
+      "industries": [
+        "banking"
+      ]
+    }
+  ],
+  "list": {
+    "ok": true,
+    "status": 200,
+    "version": "5",
+    "totalPages": 1,
+    "pagesFetched": 1,
+    "productCount": 3,
+    "categoryCounts": {
+      "CRED_AND_CHRG_CARDS": 3
+    }
+  },
+  "products": []
+}

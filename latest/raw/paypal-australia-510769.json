@@ -1,0 +1,573 @@
+{
+  "endpoint": "https://api.paypal.com/v1/identity/cds-au/v1/banking/products",
+  "slug": "paypal-australia-510769",
+  "brands": [
+    {
+      "dataHolderBrandId": "ebcbaeb6-539f-ec11-a82c-000d3a8830d6",
+      "brandName": "PayPal Australia",
+      "brandGroup": null,
+      "abn": "93111195389",
+      "industries": [
+        "banking"
+      ]
+    }
+  ],
+  "list": {
+    "ok": true,
+    "status": 200,
+    "version": "5",
+    "totalPages": 1,
+    "pagesFetched": 1,
+    "productCount": 5,
+    "categoryCounts": {
+      "BUSINESS_LOANS": 1,
+      "TRANS_AND_SAVINGS_ACCOUNTS": 2,
+      "BUY_NOW_PAY_LATER": 2
+    }
+  },
+  "products": [
+    {
+      "productId": "PayPalBusinessAcct",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "additionalInformation": {
+          "eligibilityUri": "https://www.paypal.com/au/webapps/mpp/ua/legalhub-full",
+          "feesAndPricingUri": "https://www.paypal.com/au/webapps/mpp/ua/cfsgpds-full?locale.x=en_AU#int_18_Fees_and_charges",
+          "termsUri": "https://www.paypal.com/au/webapps/mpp/ua/legalhub-full",
+          "overviewUri": "https://www.paypal.com/au/webapps/mpp/why-paypal"
+        },
+        "fees": [
+          {
+            "additionalInfoUri": "https://www.paypal.com/au/webapps/mpp/ua/cfsgpds-full#int_18_Fees_and_charges",
+            "name": "Sending Domestic Personal Transaction",
+            "variable": {
+              "feeMaximum": "0.00",
+              "feeMinimum": "0.00"
+            },
+            "additionalInfo": "Funded by PayPal Balance or Australian Bank Acct - FREE; Any portion funded by a card - 2.6% of the portion funded + fixed fee based on the currency",
+            "feeType": "PAYMENT",
+            "feeMethodUType": "variable"
+          },
+          {
+            "rateBased": {
+              "rateType": "BALANCE",
+              "rate": "0.05",
+              "amountRange": {
+                "feeMaximum": "5.99",
+                "feeMinimum": "0.99"
+              }
+            },
+            "additionalInfoUri": "https://www.paypal.com/au/webapps/mpp/ua/cfsgpds-full#int_18_Fees_and_charges",
+            "name": "Sending International Personal Transaction",
+            "additionalInfo": "Funded by PayPal Balance or Australian Bank Acct - 5% of the send amount, but no lower than $0.99AUD, and no higher than $5.99 AUD. Funded by credit card - 5% of the send amount, but no lower than $0.99AUD, and no higher than $5.99 AUD.",
+            "additionalValue": "Funded by PayPal Balance or Australian Bank Acct - Funding Fee = Free.  Funded by credit card - 2.6% of the portion funded by the card plus a fixed fee based on currency",
+            "feeType": "PAYMENT",
+            "feeMethodUType": "rateBased"
+          },
+          {
+            "additionalInfoUri": "https://www.paypal.com/au/webapps/mpp/ua/cfsgpds-full#int_18_Fees_and_charges",
+            "name": "Sending Commercial Transaction",
+            "variable": {
+              "feeMaximum": "0.00",
+              "feeMinimum": "0.00"
+            },
+            "additionalInfo": "When no currency conversion is involved, there is no fee for sending Commercial Transactions (i.e., buying something)",
+            "feeType": "PAYMENT",
+            "feeMethodUType": "variable"
+          },
+          {
+            "additionalInfoUri": "https://www.paypal.com/au/webapps/mpp/ua/cfsgpds-full#int_18_Fees_and_charges",
+            "name": "Receiving Domestic Commercial Transaction",
+            "variable": {
+              "feeMaximum": "0.00",
+              "feeMinimum": "0.00"
+            },
+            "additionalInfo": "Fees for receiving Commercial Transactions are taken from the total transaction amount. The fixed fees for each currency are in clause 17.8 of the T&C link provided in the additionalInfoUri field",
+            "additionalValue": "2.9% + fixed fee (Wallet Online Transactions), 1.5% + fixed fee (Direct Card Transactions & Other Payment Methods), 3.6% + fixed fee (Virtual Terminal), 1.20% (QR Code in person)",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "variable"
+          },
+          {
+            "additionalInfoUri": "https://www.paypal.com/au/webapps/mpp/ua/cfsgpds-full#int_18_Fees_and_charges",
+            "name": "Receiving International Commercial Transaction",
+            "variable": {
+              "feeMaximum": "0.00",
+              "feeMinimum": "0.00"
+            },
+            "additionalInfo": "Fees for receiving Commercial Transactions are taken from the total transaction amount. ",
+            "additionalValue": "3.9% + fixed fee (Wallet Online Transactions), 3.6% + fixed fee (Direct Card Transactions & Other Payment Methods), 4.6% + fixed fee (Virtual Terminal), 2.20% (QR Code in person)",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "variable"
+          },
+          {
+            "additionalInfoUri": "https://www.paypal.com/au/webapps/mpp/ua/cfsgpds-full#int_18_Fees_and_charges",
+            "name": "Receiving Fees for Registered Charities and Not-For-Profit Organisations",
+            "variable": {
+              "feeMaximum": "0.00",
+              "feeMinimum": "0.00"
+            },
+            "additionalInfo": "Registered Charities and Not-For-Profit organisations may apply for the following special rates for receiving PayPal Wallet Online Transactions",
+            "additionalValue": "Domestic Transactions: 1.1% + fixed fee; Cross-border Transactions: 2.1% + fixed fee.  The fixed fee rates are contained in Clause 17.8 in the document link contained in additionalInfoUri field",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "variable"
+          },
+          {
+            "additionalInfoUri": "https://www.paypal.com/au/webapps/mpp/ua/cfsgpds-full#int_18_Fees_and_charges",
+            "name": "Micropayment Pricing",
+            "variable": {
+              "feeMaximum": "0.00",
+              "feeMinimum": "0.00"
+            },
+            "additionalInfo": "If you qualify as a seller for the micropayment pricing fees as set out in our User Agreement, you will pay the lesser of the:  Micropayment pricing fees 5% + fixed fee (Domestic) - 5.5% + fixed fee (International) OR Fees described in the 'Receiving Commercial Transactions' Fee ",
+            "additionalValue": "You can apply for the following micropayment fees. These fees apply to all Commercial Transactions you receive. If you have both a micropayment fees-enabled account and a standard pricing account, it is your responsibility to ensure payments are received to the appropriate account. Once a payment is received, you may not request it be processed through a different account.  5% + fixed fee (Domestic) and 6% + fixed fee (International)",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "variable"
+          },
+          {
+            "additionalInfoUri": "https://www.paypal.com/au/webapps/mpp/ua/cfsgpds-full#int_18_Fees_and_charges",
+            "name": "Australia Fixed Fee",
+            "variable": {
+              "feeMaximum": "0.30",
+              "feeMinimum": "0.05"
+            },
+            "additionalInfo": "Fixed fees are based on the currency received and transaction type. These fees are based on AUD as the currency received - for other country currency fees, see section 17.8 in the T&C link provided in the additionalInfoUri field.",
+            "additionalValue": "$0.30 AUD (Personal Transaction fixed fee), $0.30 AUD (Commercial Transaction fixed fee), $0.05 AUD (Micropayments fixed fee)",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "variable"
+          },
+          {
+            "additionalInfoUri": "https://www.paypal.com/au/webapps/mpp/ua/cfsgpds-full#int_18_Fees_and_charges",
+            "name": "Currency Conversion Fees",
+            "variable": {
+              "feeMaximum": "0.00",
+              "feeMinimum": "0.00"
+            },
+            "additionalInfo": "If PayPal converts currency, it will be completed at the transaction exchange rate we set for the relevant currency exchange. The transaction exchange rate is adjusted regularly and includes a currency conversion fee applied and retained by us on a base exchange rate to form the rate applicable to your conversion. The base exchange rate is based on rates within the wholesale currency markets on the conversion day or the prior business day; or, if required by law or regulation, set at the relevant government reference rate(s).",
+            "additionalValue": "For some uses of your PayPal account, PayPal may determine currency conversion is necessary. For any of the following transactions that involve a currency conversion in connection with your PayPal account, the currency conversion fee is 4.0%:  * Paying for goods or services in a currency other than the currency the goods or services are listed in. * Receiving a refund beyond 1 day of the original payment. * Sending money to a friend or family member such that they receive a different currency from the currency you pay in. * Sending money using PayPal’s Payouts (formerly Mass Pay) such that your recipients receive a different currency from the currency you pay in. * For all other PayPal transactions involving a currency conversion, the currency conversion fee is 3.0%.",
+            "feeType": "OTHER",
+            "feeMethodUType": "variable"
+          },
+          {
+            "additionalInfoUri": "https://www.paypal.com/au/webapps/mpp/ua/cfsgpds-full#int_18_Fees_and_charges",
+            "name": "Chargeback Fee",
+            "additionalInfo": "Chargeback fees are based on the currency received. Chargeback fees do not apply if the transaction is eligible for the PayPal Seller Protection Policy.",
+            "fixedAmount": {
+              "amount": "15.00"
+            },
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount"
+          },
+          {
+            "additionalInfoUri": "https://www.paypal.com/au/webapps/mpp/ua/cfsgpds-full#int_18_Fees_and_charges",
+            "name": "Receiving eCheques",
+            "variable": {
+              "feeMaximum": "50.00",
+              "feeMinimum": "0.00"
+            },
+            "additionalInfo": "Fees for receiving eCheque payments are based on payment currency and will not exceed the cap specified",
+            "additionalValue": "Fee will not exceed $50 AUD (cap).",
+            "feeType": "EVENT",
+            "feeMethodUType": "variable"
+          },
+          {
+            "rateBased": {
+              "rateType": "BALANCE",
+              "rate": "0.02",
+              "amountRange": {
+                "feeMaximum": "0.00",
+                "feeMinimum": "0.00"
+              }
+            },
+            "additionalInfoUri": "https://www.paypal.com/au/webapps/mpp/ua/cfsgpds-full#int_18_Fees_and_charges",
+            "name": "PayPal Payouts (formerly Mass Pay)",
+            "additionalInfo": "The fee for PayPal Payouts is 2% of the total payment amount. A maximum payment cap per recipient applies, based on payment currency. ",
+            "additionalValue": "$1.25 AUD (Domestic Cap), $60.00 AUD (Cross-border Cap)",
+            "feeType": "PAYMENT",
+            "feeMethodUType": "rateBased"
+          },
+          {
+            "additionalInfoUri": "https://www.paypal.com/au/webapps/mpp/ua/cfsgpds-full#int_18_Fees_and_charges",
+            "name": "Commercial Transaction Refund Fee",
+            "additionalInfo": "If you issue a refund (partially or fully) of the Commercial Transaction payment, there are no fees to make the refund, but we will retain the full amount that you originally paid us. Your buyer’s account will be credited with the full or partial refund amount of the Commercial Transaction payment and your account will be debited with the full or partial refund amount",
+            "additionalValue": "The amount of the refunded payment will be deducted from your PayPal account",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount"
+          },
+          {
+            "additionalInfoUri": "https://www.paypal.com/au/webapps/mpp/ua/cfsgpds-full#int_18_Fees_and_charges",
+            "name": "Other - Expanded Use Fee",
+            "variable": {
+              "feeMaximum": "2.00",
+              "feeMinimum": "0.00"
+            },
+            "additionalInfo": "In general, there is no fee to open a PayPal account. However, we may charge an expanded use fee to increase your sending limit. This fee is refunded to your PayPal balance when you successfully complete the card verification process.",
+            "additionalValue": "The expanded use fee (verifying card details) can be up to $2 AUD.",
+            "feeType": "OTHER",
+            "feeMethodUType": "variable"
+          },
+          {
+            "additionalInfoUri": "https://www.paypal.com/au/webapps/mpp/ua/cfsgpds-full#int_18_Fees_and_charges",
+            "name": "Other - Records Request Fee",
+            "additionalInfo": "We will not charge for records requested in connection with your good faith assertion of an error in your account.",
+            "fixedAmount": {
+              "amount": "10.00"
+            },
+            "feeType": "ENQUIRY",
+            "feeMethodUType": "fixedAmount"
+          },
+          {
+            "rateBased": {
+              "rateType": "BALANCE",
+              "rate": "0.01",
+              "amountRange": {
+                "feeMaximum": "10.00",
+                "feeMinimum": "0.25"
+              }
+            },
+            "additionalInfoUri": "https://www.paypal.com/au/webapps/mpp/ua/cfsgpds-full#int_18_Fees_and_charges",
+            "name": "Other - Withdrawal Balance Fee",
+            "additionalInfo": "The fee for withdrawing your balance to an eligible linked debit card or bank account is 1% of the amount transferred, with a minimum and maximum fee depending on the currency withdrawn. For AUD withdrawals: min AUD 0.25, max AUD 10.00. Minimum and maximum fees by currency are listed below where available. ",
+            "additionalValue": "Any conversion of your PayPal balance from one currency to another currency will attract the corresponding currency conversion fee in clause 17.10 of the T&C link provided in the additionalInfoUri",
+            "feeType": "WITHDRAWAL",
+            "feeMethodUType": "rateBased"
+          }
+        ],
+        "brandName": "PayPal",
+        "productId": "PayPalBusinessAcct",
+        "eligibility": [
+          {
+            "eligibilityType": "MIN_AGE",
+            "additionalInfoUri": "https://www.paypal.com/au/webapps/mpp/ua/legalhub-full",
+            "additionalInfo": "Legal Agreements for PayPal Services",
+            "additionalValue": "18"
+          },
+          {
+            "eligibilityType": "BUSINESS",
+            "additionalInfoUri": "https://www.paypal.com/au/webapps/mpp/ua/legalhub-full",
+            "additionalInfo": "The business must be organised in, operating in, or a resident of Australia. Legal Agreements for PayPal Services."
+          },
+          {
+            "eligibilityType": "OTHER",
+            "additionalInfoUri": "https://www.paypal.com/au/webapps/mpp/ua/legalhub-full",
+            "additionalInfo": "Refer to the shared URL for complete terms and conditions. Terms and Conditions"
+          }
+        ],
+        "description": "A comprehensive solution designed to serve your business needs and your customers, whether you’re just getting started or already a thriving enterprise or marketplace. With more payment choices for your customers, faster and more secure payments for you and protection on eligible sales, a PayPal business account is a great way to get paid.",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "features": [
+          {
+            "additionalInfoUri": "https://www.paypal.com/au/webapps/mpp/ua/useragreement-full?locale.x=en_AU#buying",
+            "featureType": "DIGITAL_WALLET",
+            "additionalInfo": "Shop with confidence with PayPal. Whether buying online or in person, a PayPal account makes paying for goods or services even easier and more secure.",
+            "additionalValue": "Buy Something from a Seller Who Accepts PayPal (Commercial Transactions)"
+          },
+          {
+            "additionalInfoUri": "https://www.paypal.com/au/webapps/mpp/ua/useragreement-full?locale.x=en_AU#sending-money",
+            "featureType": "DIGITAL_WALLET",
+            "additionalInfo": "Send money to friends and family within Australia from your linked bank account or PayPal balance, it's free for you and your recipient. You can also send money from your credit or debit card, or to someone overseas, but that'll incur a small fee. All you need is an email address or mobile phone number.",
+            "additionalValue": "Send Money to Friends and Family (Personal Transactions)"
+          },
+          {
+            "additionalInfoUri": "https://www.paypal.com/au/webapps/mpp/ua/useragreement-full?locale.x=en_AU#receiving-money",
+            "featureType": "DIGITAL_WALLET",
+            "additionalInfo": "Request and receive payments instantly from anyone with just their email address or mobile phone number. When you request a payment, we’ll send a notification and let you know when you’ve been paid.",
+            "additionalValue": "Request & Receive Payments from Friends and Family (Personal Transactions)"
+          },
+          {
+            "additionalInfoUri": "https://www.paypal.com/au/webapps/mpp/ua/useragreement-full?locale.x=en_AU#add-withdraw-money",
+            "featureType": "DIGITAL_WALLET",
+            "additionalInfo": "If you have funds in your PayPal account, you may withdraw them to the linked bank account you hold with a financial institution in Australia or the United States of America.",
+            "additionalValue": "Withdraw Money"
+          },
+          {
+            "additionalInfoUri": "https://www.paypal.com/au/webapps/mpp/ua/cfsgpds-full?locale.x=en_AU#int_17_Key_benefits",
+            "featureType": "OTHER",
+            "additionalInfo": "Key Benefits. Refer to PayPal's Combined Financial Services Guide and Product Disclosure Statement."
+          }
+        ],
+        "lastUpdated": "2025-11-30T14:00:00.00Z",
+        "isTailored": false,
+        "name": "PayPal business account",
+        "applicationUri": "https://www.paypal.com/au/bizsignup/#/checkAccount",
+        "brand": "PayPal"
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "PayPalPersonalAcct",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "additionalInformation": {
+          "eligibilityUri": "https://www.paypal.com/au/webapps/mpp/ua/legalhub-full",
+          "feesAndPricingUri": "https://www.paypal.com/au/webapps/mpp/ua/cfsgpds-full?locale.x=en_AU#int_18_Fees_and_charges",
+          "termsUri": "https://www.paypal.com/au/webapps/mpp/ua/legalhub-full",
+          "overviewUri": "https://www.paypal.com/au/webapps/mpp/merchant"
+        },
+        "fees": [
+          {
+            "additionalInfoUri": "https://www.paypal.com/au/webapps/mpp/ua/cfsgpds-full#int_18_Fees_and_charges",
+            "name": "Sending Domestic Personal Transaction",
+            "variable": {
+              "feeMaximum": "0.00",
+              "feeMinimum": "0.00"
+            },
+            "additionalInfo": "Funded by PayPal Balance or Australian Bank Acct - FREE; Any portion funded by a card - 2.6% of the portion funded + fixed fee based on the currency",
+            "feeType": "PAYMENT",
+            "feeMethodUType": "variable"
+          },
+          {
+            "rateBased": {
+              "rateType": "BALANCE",
+              "rate": "0.05",
+              "amountRange": {
+                "feeMaximum": "5.99",
+                "feeMinimum": "0.99"
+              }
+            },
+            "additionalInfoUri": "https://www.paypal.com/au/webapps/mpp/ua/cfsgpds-full#int_18_Fees_and_charges",
+            "name": "Sending International Personal Transaction",
+            "additionalInfo": "Funded by PayPal Balance or Australian Bank Acct - 5% of the send amount, but no lower than $0.99AUD, and no higher than $5.99 AUD. Funded by credit card - 5% of the send amount, but no lower than $0.99AUD, and no higher than $5.99 AUD.",
+            "additionalValue": "Funded by PayPal Balance or Australian Bank Acct - Funding Fee = Free.  Funded by credit card - 2.6% of the portion funded by the card plus a fixed fee based on currency",
+            "feeType": "PAYMENT",
+            "feeMethodUType": "rateBased"
+          },
+          {
+            "additionalInfoUri": "https://www.paypal.com/au/webapps/mpp/ua/cfsgpds-full#int_18_Fees_and_charges",
+            "name": "Sending Commercial Transaction",
+            "variable": {
+              "feeMaximum": "0.00",
+              "feeMinimum": "0.00"
+            },
+            "additionalInfo": "When no currency conversion is involved, there is no fee for sending Commercial Transactions (i.e., buying something)",
+            "feeType": "PAYMENT",
+            "feeMethodUType": "variable"
+          },
+          {
+            "additionalInfoUri": "https://www.paypal.com/au/webapps/mpp/ua/cfsgpds-full#int_18_Fees_and_charges",
+            "name": "Receiving Domestic Commercial Transaction",
+            "variable": {
+              "feeMaximum": "0.00",
+              "feeMinimum": "0.00"
+            },
+            "additionalInfo": "Fees for receiving Commercial Transactions are taken from the total transaction amount. The fixed fees for each currency are in clause 17.8 of the T&C link provided in the additionalInfoUri field",
+            "additionalValue": "2.9% + fixed fee (Wallet Online Transactions), 1.5% + fixed fee (Direct Card Transactions & Other Payment Methods), 3.6% + fixed fee (Virtual Terminal), 1.20% (QR Code in person)",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "variable"
+          },
+          {
+            "additionalInfoUri": "https://www.paypal.com/au/webapps/mpp/ua/cfsgpds-full#int_18_Fees_and_charges",
+            "name": "Receiving International Commercial Transaction",
+            "variable": {
+              "feeMaximum": "0.00",
+              "feeMinimum": "0.00"
+            },
+            "additionalInfo": "Fees for receiving Commercial Transactions are taken from the total transaction amount. ",
+            "additionalValue": "3.9% + fixed fee (Wallet Online Transactions), 3.6% + fixed fee (Direct Card Transactions & Other Payment Methods), 4.6% + fixed fee (Virtual Terminal), 2.20% (QR Code in person)",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "variable"
+          },
+          {
+            "additionalInfoUri": "https://www.paypal.com/au/webapps/mpp/ua/cfsgpds-full#int_18_Fees_and_charges",
+            "name": "Receiving Fees for Registered Charities and Not-For-Profit Organisations",
+            "variable": {
+              "feeMaximum": "0.00",
+              "feeMinimum": "0.00"
+            },
+            "additionalInfo": "Registered Charities and Not-For-Profit organisations may apply for the following special rates for receiving PayPal Wallet Online Transactions",
+            "additionalValue": "Domestic Transactions: 1.1% + fixed fee; Cross-border Transactions: 2.1% + fixed fee.  The fixed fee rates are contained in Clause 17.8 in the document link contained in additionalInfoUri field",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "variable"
+          },
+          {
+            "additionalInfoUri": "https://www.paypal.com/au/webapps/mpp/ua/cfsgpds-full#int_18_Fees_and_charges",
+            "name": "Micropayment Pricing",
+            "variable": {
+              "feeMaximum": "0.00",
+              "feeMinimum": "0.00"
+            },
+            "additionalInfo": "If you qualify as a seller for the micropayment pricing fees as set out in our User Agreement, you will pay the lesser of the:  Micropayment pricing fees 5% + fixed fee (Domestic) - 5.5% + fixed fee (International) OR Fees described in the 'Receiving Commercial Transactions' Fee ",
+            "additionalValue": "You can apply for the following micropayment fees. These fees apply to all Commercial Transactions you receive. If you have both a micropayment fees-enabled account and a standard pricing account, it is your responsibility to ensure payments are received to the appropriate account. Once a payment is received, you may not request it be processed through a different account.  5% + fixed fee (Domestic) and 6% + fixed fee (International)",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "variable"
+          },
+          {
+            "additionalInfoUri": "https://www.paypal.com/au/webapps/mpp/ua/cfsgpds-full#int_18_Fees_and_charges",
+            "name": "Australia Fixed Fee",
+            "variable": {
+              "feeMaximum": "0.30",
+              "feeMinimum": "0.05"
+            },
+            "additionalInfo": "Fixed fees are based on the currency received and transaction type. These fees are based on AUD as the currency received - for other country currency fees, see section 17.8 in the T&C link provided in the additionalInfoUri field.",
+            "additionalValue": "$0.30 AUD (Personal Transaction fixed fee), $0.30 AUD (Commercial Transaction fixed fee), $0.05 AUD (Micropayments fixed fee)",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount"
+          },
+          {
+            "additionalInfoUri": "https://www.paypal.com/au/webapps/mpp/ua/cfsgpds-full#int_18_Fees_and_charges",
+            "name": "Currency Conversion Fees",
+            "variable": {
+              "feeMaximum": "0.00",
+              "feeMinimum": "0.00"
+            },
+            "additionalInfo": "If PayPal converts currency, it will be completed at the transaction exchange rate we set for the relevant currency exchange. The transaction exchange rate is adjusted regularly and includes a currency conversion fee applied and retained by us on a base exchange rate to form the rate applicable to your conversion. The base exchange rate is based on rates within the wholesale currency markets on the conversion day or the prior business day; or, if required by law or regulation, set at the relevant government reference rate(s).",
+            "additionalValue": "For some uses of your PayPal account, PayPal may determine currency conversion is necessary. For any of the following transactions that involve a currency conversion in connection with your PayPal account, the currency conversion fee is 4.0%:  * Paying for goods or services in a currency other than the currency the goods or services are listed in. * Receiving a refund beyond 1 day of the original payment. * Sending money to a friend or family member such that they receive a different currency from the currency you pay in. * Sending money using PayPal’s Payouts (formerly Mass Pay) such that your recipients receive a different currency from the currency you pay in. * For all other PayPal transactions involving a currency conversion, the currency conversion fee is 3.0%.",
+            "feeType": "OTHER",
+            "feeMethodUType": "variable"
+          },
+          {
+            "additionalInfoUri": "https://www.paypal.com/au/webapps/mpp/ua/cfsgpds-full#int_18_Fees_and_charges",
+            "name": "Chargeback Fee",
+            "additionalInfo": "Chargeback fees are based on the currency received. Chargeback fees do not apply if the transaction is eligible for the PayPal Seller Protection Policy.",
+            "fixedAmount": {
+              "amount": "15.00"
+            },
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount"
+          },
+          {
+            "additionalInfoUri": "https://www.paypal.com/au/webapps/mpp/ua/cfsgpds-full#int_18_Fees_and_charges",
+            "name": "Receiving eCheques",
+            "variable": {
+              "feeMaximum": "50.00",
+              "feeMinimum": "0.00"
+            },
+            "additionalInfo": "Fees for receiving eCheque payments are based on payment currency and will not exceed the cap specified",
+            "additionalValue": "Fee will not exceed $50 AUD (cap).",
+            "feeType": "EVENT",
+            "feeMethodUType": "variable"
+          },
+          {
+            "rateBased": {
+              "rateType": "BALANCE",
+              "rate": "0.02",
+              "amountRange": {
+                "feeMaximum": "0.00",
+                "feeMinimum": "0.00"
+              }
+            },
+            "additionalInfoUri": "https://www.paypal.com/au/webapps/mpp/ua/cfsgpds-full#int_18_Fees_and_charges",
+            "name": "PayPal Payouts (formerly Mass Pay)",
+            "additionalInfo": "The fee for PayPal Payouts is 2% of the total payment amount. A maximum payment cap per recipient applies, based on payment currency. ",
+            "additionalValue": "$1.25 AUD (Domestic Cap), $60.00 AUD (Cross-border Cap)",
+            "feeType": "PAYMENT",
+            "feeMethodUType": "rateBased"
+          },
+          {
+            "additionalInfoUri": "https://www.paypal.com/au/webapps/mpp/ua/cfsgpds-full#int_18_Fees_and_charges",
+            "name": "Commercial Transaction Refund Fee",
+            "additionalInfo": "If you issue a refund (partially or fully) of the Commercial Transaction payment, there are no fees to make the refund, but we will retain the full amount that you originally paid us. Your buyer’s account will be credited with the full or partial refund amount of the Commercial Transaction payment and your account will be debited with the full or partial refund amount",
+            "additionalValue": "The amount of the refunded payment will be deducted from your PayPal account",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount"
+          },
+          {
+            "additionalInfoUri": "https://www.paypal.com/au/webapps/mpp/ua/cfsgpds-full#int_18_Fees_and_charges",
+            "name": "Other - Expanded Use Fee",
+            "variable": {
+              "feeMaximum": "2.00",
+              "feeMinimum": "0.00"
+            },
+            "additionalInfo": "In general, there is no fee to open a PayPal account. However, we may charge an expanded use fee to increase your sending limit. This fee is refunded to your PayPal balance when you successfully complete the card verification process.",
+            "additionalValue": "The expanded use fee (verifying card details) can be up to $2 AUD.",
+            "feeType": "OTHER",
+            "feeMethodUType": "variable"
+          },
+          {
+            "additionalInfoUri": "https://www.paypal.com/au/webapps/mpp/ua/cfsgpds-full#int_18_Fees_and_charges",
+            "name": "Other - Records Request Fee",
+            "additionalInfo": "We will not charge for records requested in connection with your good faith assertion of an error in your account.",
+            "fixedAmount": {
+              "amount": "10.00"
+            },
+            "feeType": "ENQUIRY",
+            "feeMethodUType": "fixedAmount"
+          },
+          {
+            "rateBased": {
+              "rateType": "BALANCE",
+              "rate": "0.01",
+              "amountRange": {
+                "feeMaximum": "10.00",
+                "feeMinimum": "0.25"
+              }
+            },
+            "additionalInfoUri": "https://www.paypal.com/au/webapps/mpp/ua/cfsgpds-full#int_18_Fees_and_charges",
+            "name": "Other - Withdrawal Balance Fee",
+            "additionalInfo": "The fee for withdrawing your balance to an eligible linked debit card or bank account is 1% of the amount transferred, with a minimum and maximum fee depending on the currency withdrawn. For AUD withdrawals: min AUD 0.25, max AUD 10.00. Minimum and maximum fees by currency are listed below where available. ",
+            "additionalValue": "Any conversion of your PayPal balance from one currency to another currency will attract the corresponding currency conversion fee in clause 17.10 of the T&C link provided in the additionalInfoUri",
+            "feeType": "WITHDRAWAL",
+            "feeMethodUType": "rateBased"
+          }
+        ],
+        "brandName": "PayPal",
+        "productId": "PayPalPersonalAcct",
+        "eligibility": [
+          {
+            "eligibilityType": "MIN_AGE",
+            "additionalInfoUri": "https://www.paypal.com/au/webapps/mpp/ua/legalhub-full",
+            "additionalInfo": "Legal Agreements for PayPal Services",
+            "additionalValue": "18"
+          },
+          {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalInfoUri": "https://www.paypal.com/au/webapps/mpp/ua/legalhub-full",
+            "additionalInfo": "Legal Agreements for PayPal Services",
+            "additionalValue": "You must be a resident of Australia "
+          },
+          {
+            "eligibilityType": "OTHER",
+            "additionalInfoUri": "https://www.paypal.com/au/webapps/mpp/ua/legalhub-full",
+            "additionalInfo": "Terms and Conditions. Refer to the shared URL for complete terms and conditions."
+          }
+        ],
+        "description": "With a PayPal personal account, you can send and receive money, and buy things online and in person. A PayPal account enables you to make payments using your debit card, credit card, bank account, PayPal balance or other payment methods.",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "features": [
+          {
+            "additionalInfoUri": "https://www.paypal.com/au/webapps/mpp/ua/useragreement-full?locale.x=en_AU#accepting-payments",
+            "featureType": "DIGITAL_WALLET",
+            "additionalInfo": "Enable customers to pay any way they want from almost anywhere. Let them pay now, pay later, or offer subscriptions or global and local payment options.",
+            "additionalValue": "Accepting Payments from Buyers for Goods and Services (Commercial Transactions)"
+          },
+          {
+            "additionalInfoUri": "https://www.paypal.com/au/webapps/mpp/ua/useragreement-full?locale.x=en_AU#buying",
+            "featureType": "DIGITAL_WALLET",
+            "additionalInfo": "Move money from your PayPal account to your bank, pay for goods or services online or in person with your PayPal account balance. Or transfer funds to pay vendors electronically.",
+            "additionalValue": "Make Payments for Goods and Services (Commercial Transactions) or Send Money to Friends and Family (Personal Transactions)"
+          },
+          {
+            "additionalInfoUri": "https://www.paypal.com/au/webapps/mpp/email-invoice",
+            "featureType": "DIGITAL_WALLET",
+            "additionalInfo": "Send a professional invoice or estimate in minutes. Customers can pay with PayPal or debit and credit card, and you can manage your invoice payments in a single place. When you request a payment, we’ll send the recipient a notification and let you know when you’ve been paid.",
+            "additionalValue": "Estimates & Invoices"
+          },
+          {
+            "additionalInfoUri": "https://www.paypal.com/au/webapps/mpp/ua/useragreement-full?locale.x=en_AU#add-withdraw-money",
+            "featureType": "DIGITAL_WALLET",
+            "additionalInfo": "If you have funds in your PayPal account, you may withdraw them to the linked bank account you hold with a financial institution in Australia or the United States of America. If you have funds in your account that are held in a foreign currency, they’ll usually be converted to Australian Dollars prior to withdrawal.",
+            "additionalValue": "Withdraw Money"
+          },
+          {
+            "additionalInfoUri": "https://www.paypal.com/au/webapps/mpp/ua/cfsgpds-full?locale.x=en_AU#int_17_Key_benefits",
+            "featureType": "OTHER",
+            "additionalInfo": "Key Benefits. Refer to PayPal's Combined Financial Services Guide and Product Disclosure Statement."
+          }
+        ],
+        "lastUpdated": "2025-11-30T14:00:00.00Z",
+        "isTailored": false,
+        "name": "PayPal personal account",
+        "applicationUri": "https://www.paypal.com/au/welcome/signup/#/email_password",
+        "brand": "PayPal"
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "endpoint": "https://public.cdr.resimacassetfinance.com.au/cds-au/v1/banking/products",
+  "slug": "resimac-asset-finance-9056ba",
+  "brands": [
+    {
+      "dataHolderBrandId": "d1f723db-207c-f111-9b47-6045bd3f59f5",
+      "brandName": "Resimac Asset Finance",
+      "brandGroup": null,
+      "abn": "55095034003",
+      "industries": [
+        "non-bank-lending"
+      ]
+    }
+  ],
+  "list": {
+    "ok": true,
+    "status": 200,
+    "version": "5",
+    "totalPages": 1,
+    "pagesFetched": 1,
+    "productCount": 4,
+    "categoryCounts": {
+      "PERS_LOANS": 1,
+      "BUSINESS_LOANS": 3
+    }
+  },
+  "products": []
+}

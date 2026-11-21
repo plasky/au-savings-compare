@@ -1,0 +1,1612 @@
+{
+  "endpoint": "https://cdr.sccu.com.au/openbanking/cds-au/v1/banking/products",
+  "slug": "southern-cross-credit-union-d61f76",
+  "brands": [
+    {
+      "dataHolderBrandId": "bdb3f8fa-d791-eb11-a821-000d3a884a20",
+      "brandName": "Southern Cross Credit Union",
+      "brandGroup": null,
+      "abn": "82087650682",
+      "industries": [
+        "banking"
+      ]
+    }
+  ],
+  "list": {
+    "ok": true,
+    "status": 200,
+    "version": "5",
+    "totalPages": 1,
+    "pagesFetched": 1,
+    "productCount": 32,
+    "categoryCounts": {
+      "RESIDENTIAL_MORTGAGES": 7,
+      "BUSINESS_LOANS": 3,
+      "TRANS_AND_SAVINGS_ACCOUNTS": 7,
+      "TERM_DEPOSITS": 2,
+      "PERS_LOANS": 11,
+      "OVERDRAFTS": 1,
+      "TRADE_FINANCE": 1
+    }
+  },
+  "products": [
+    {
+      "productId": "BUSINESS_PLUS",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M"
+          }
+        ],
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "productId": "BUSINESS_PLUS",
+        "lastUpdated": "2026-06-09T11:08:40.000+10:00",
+        "name": "BUSINESS PLUS",
+        "description": "Business Plus",
+        "brand": "S",
+        "brandName": "SCCU",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.sccu.com.au/business/business-banking/business-plus/",
+          "termsUri": "https://www.sccu.com.au/product-disclosures/",
+          "eligibilityUri": "https://www.sccu.com.au/Business-Plus-TMD",
+          "feesAndPricingUri": "https://www.sccu.com.au/Schedule-of-Fees-and-Charges"
+        }
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "BUSINESS_STAR_SAVER",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "features": [
+          {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": "SCCU Netbanking and APP"
+          },
+          {
+            "featureType": "NPP_ENABLED"
+          },
+          {
+            "featureType": "NPP_PAYID"
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "MAX_BALANCE",
+            "additionalValue": "2000000.00",
+            "additionalInfo": "Combined SCCU account balance capped at $2Million"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "BUSINESS",
+            "additionalInfo": "Sole Trader, partnership or company"
+          },
+          {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalInfo": "Australian registered business with Australian address"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.01",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "BUSINESS STAR SAVER_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "0.00",
+                "maximumValue": "2000000.00",
+                "rateApplicationMethod": "PER_TIER"
+              }
+            ],
+            "additionalInfo": "Bonus interest paid on balance up to $2Mil subject to no withdrawals in the calendar month. Standard rate of interest paid on balance over $2 Mil or on the full balance of account when a withdrawal is made.",
+            "additionalInfoUri": "https://www.sccu.com.au/Business-Savings-and-Deposit-Accounts-Interest-Rate-Schedule"
+          },
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.01",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "BUSINESS STAR SAVER_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "2000000.01",
+                "rateApplicationMethod": "PER_TIER"
+              }
+            ],
+            "additionalInfo": "Bonus interest paid on balance up to $2Mil subject to no withdrawals in the calendar month. Standard rate of interest paid on balance over $2 Mil or on the full balance of account when a withdrawal is made.",
+            "additionalInfoUri": "https://www.sccu.com.au/Business-Savings-and-Deposit-Accounts-Interest-Rate-Schedule"
+          },
+          {
+            "depositRateType": "BONUS",
+            "rate": "0.0445",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "BUSINESS STAR SAVER_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "0.00",
+                "maximumValue": "2000000.00",
+                "rateApplicationMethod": "PER_TIER"
+              }
+            ],
+            "additionalValue": "BONUS INTEREST",
+            "additionalInfo": "Bonus interest paid on balance up to $2Mil subject to no withdrawals in the calendar month. Standard rate of interest paid on balance over $2 Mil or on the full balance of account when a withdrawal is made.",
+            "additionalInfoUri": "https://www.sccu.com.au/Business-Savings-and-Deposit-Accounts-Interest-Rate-Schedule"
+          },
+          {
+            "depositRateType": "BONUS",
+            "rate": "0.0",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "BUSINESS STAR SAVER_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "2000000.01",
+                "rateApplicationMethod": "PER_TIER"
+              }
+            ],
+            "additionalValue": "BONUS INTEREST",
+            "additionalInfo": "Bonus interest paid on balance up to $2Mil subject to no withdrawals in the calendar month. Standard rate of interest paid on balance over $2 Mil or on the full balance of account when a withdrawal is made.",
+            "additionalInfoUri": "https://www.sccu.com.au/Business-Savings-and-Deposit-Accounts-Interest-Rate-Schedule"
+          }
+        ],
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "productId": "BUSINESS_STAR_SAVER",
+        "effectiveFrom": "2023-08-08T00:00:00.000+10:00",
+        "lastUpdated": "2026-11-09T07:25:39.000+11:00",
+        "name": "BUSINESS STAR SAVER",
+        "description": "Star Saver savings account for Business",
+        "brand": "S",
+        "brandName": "SCCU",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.sccu.com.au/business-banking/business-star-saver/",
+          "termsUri": "https://www.sccu.com.au/product-disclosures/",
+          "eligibilityUri": "https://www.sccu.com.au/Business-Star-Saver-TMD",
+          "feesAndPricingUri": "https://www.sccu.com.au/Schedule-of-Fees-and-Charges"
+        }
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "BUSINESS_TERM_DEPOSIT",
+      "productCategory": "TERM_DEPOSITS",
+      "detail": {
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0115",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "tiers": [
+              {
+                "name": "BUSINESS TERM DEPOSIT_Tier",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "2000000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "BUSINESS TERM DEPOSIT_Tier",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "1",
+                "maximumValue": "1",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P1M",
+            "additionalInfo": "Interest recast at 0.10% if deposit partially or fully redeemed prior to expiry",
+            "additionalInfoUri": "https://www.sccu.com.au/Business-Savings-and-Deposit-Accounts-Interest-Rate-Schedule"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0115",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "tiers": [
+              {
+                "name": "BUSINESS TERM DEPOSIT_Tier",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "2000000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "BUSINESS TERM DEPOSIT_Tier",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "2",
+                "maximumValue": "2",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P2M",
+            "additionalInfo": "Interest recast at 0.10% if deposit partially or fully redeemed prior to expiry",
+            "additionalInfoUri": "https://www.sccu.com.au/Business-Savings-and-Deposit-Accounts-Interest-Rate-Schedule"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.051",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "tiers": [
+              {
+                "name": "BUSINESS TERM DEPOSIT_Tier",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "2000000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "BUSINESS TERM DEPOSIT_Tier",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "3",
+                "maximumValue": "3",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P3M",
+            "additionalInfo": "Interest recast at 0.10% if deposit partially or fully redeemed prior to expiry",
+            "additionalInfoUri": "https://www.sccu.com.au/Business-Savings-and-Deposit-Accounts-Interest-Rate-Schedule"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.045",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "tiers": [
+              {
+                "name": "BUSINESS TERM DEPOSIT_Tier",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "2000000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "BUSINESS TERM DEPOSIT_Tier",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "4",
+                "maximumValue": "4",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P4M",
+            "additionalInfo": "Interest recast at 0.10% if deposit partially or fully redeemed prior to expiry",
+            "additionalInfoUri": "https://www.sccu.com.au/Business-Savings-and-Deposit-Accounts-Interest-Rate-Schedule"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0405",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "tiers": [
+              {
+                "name": "BUSINESS TERM DEPOSIT_Tier",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "2000000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "BUSINESS TERM DEPOSIT_Tier",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "5",
+                "maximumValue": "5",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P5M",
+            "additionalInfo": "Interest recast at 0.10% if deposit partially or fully redeemed prior to expiry",
+            "additionalInfoUri": "https://www.sccu.com.au/Business-Savings-and-Deposit-Accounts-Interest-Rate-Schedule"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0535",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "tiers": [
+              {
+                "name": "BUSINESS TERM DEPOSIT_Tier",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "2000000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "BUSINESS TERM DEPOSIT_Tier",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "6",
+                "maximumValue": "6",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P6M",
+            "additionalInfo": "Interest recast at 0.10% if deposit partially or fully redeemed prior to expiry",
+            "additionalInfoUri": "https://www.sccu.com.au/Business-Savings-and-Deposit-Accounts-Interest-Rate-Schedule"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0535",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "BUSINESS TERM DEPOSIT_Tier",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "2000000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "BUSINESS TERM DEPOSIT_Tier",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "6",
+                "maximumValue": "6",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P6M",
+            "additionalInfo": "Interest recast at 0.10% if deposit partially or fully redeemed prior to expiry",
+            "additionalInfoUri": "https://www.sccu.com.au/Business-Savings-and-Deposit-Accounts-Interest-Rate-Schedule"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.05",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "tiers": [
+              {
+                "name": "BUSINESS TERM DEPOSIT_Tier",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "2000000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "BUSINESS TERM DEPOSIT_Tier",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "7",
+                "maximumValue": "7",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P7M",
+            "additionalInfo": "Interest recast at 0.10% if deposit partially or fully redeemed prior to expiry",
+            "additionalInfoUri": "https://www.sccu.com.au/Business-Savings-and-Deposit-Accounts-Interest-Rate-Schedule"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.05",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "BUSINESS TERM DEPOSIT_Tier",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "2000000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "BUSINESS TERM DEPOSIT_Tier",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "7",
+                "maximumValue": "7",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P7M",
+            "additionalInfo": "Interest recast at 0.10% if deposit partially or fully redeemed prior to expiry",
+            "additionalInfoUri": "https://www.sccu.com.au/Business-Savings-and-Deposit-Accounts-Interest-Rate-Schedule"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.038",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "tiers": [
+              {
+                "name": "BUSINESS TERM DEPOSIT_Tier",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "2000000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "BUSINESS TERM DEPOSIT_Tier",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "8",
+                "maximumValue": "8",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P8M",
+            "additionalInfo": "Interest recast at 0.10% if deposit partially or fully redeemed prior to expiry",
+            "additionalInfoUri": "https://www.sccu.com.au/Business-Savings-and-Deposit-Accounts-Interest-Rate-Schedule"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.038",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "BUSINESS TERM DEPOSIT_Tier",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "2000000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "BUSINESS TERM DEPOSIT_Tier",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "8",
+                "maximumValue": "8",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P8M",
+            "additionalInfo": "Interest recast at 0.10% if deposit partially or fully redeemed prior to expiry",
+            "additionalInfoUri": "https://www.sccu.com.au/Business-Savings-and-Deposit-Accounts-Interest-Rate-Schedule"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0545",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "tiers": [
+              {
+                "name": "BUSINESS TERM DEPOSIT_Tier",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "2000000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "BUSINESS TERM DEPOSIT_Tier",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "9",
+                "maximumValue": "9",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P9M",
+            "additionalInfo": "Interest recast at 0.10% if deposit partially or fully redeemed prior to expiry",
+            "additionalInfoUri": "https://www.sccu.com.au/Business-Savings-and-Deposit-Accounts-Interest-Rate-Schedule"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0545",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "BUSINESS TERM DEPOSIT_Tier",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "2000000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "BUSINESS TERM DEPOSIT_Tier",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "9",
+                "maximumValue": "9",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P9M",
+            "additionalInfo": "Interest recast at 0.10% if deposit partially or fully redeemed prior to expiry",
+            "additionalInfoUri": "https://www.sccu.com.au/Business-Savings-and-Deposit-Accounts-Interest-Rate-Schedule"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.038",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "tiers": [
+              {
+                "name": "BUSINESS TERM DEPOSIT_Tier",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "2000000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "BUSINESS TERM DEPOSIT_Tier",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "10",
+                "maximumValue": "10",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P10M",
+            "additionalInfo": "Interest recast at 0.10% if deposit partially or fully redeemed prior to expiry",
+            "additionalInfoUri": "https://www.sccu.com.au/Business-Savings-and-Deposit-Accounts-Interest-Rate-Schedule"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.038",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "BUSINESS TERM DEPOSIT_Tier",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "2000000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "BUSINESS TERM DEPOSIT_Tier",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "10",
+                "maximumValue": "10",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P10M",
+            "additionalInfo": "Interest recast at 0.10% if deposit partially or fully redeemed prior to expiry",
+            "additionalInfoUri": "https://www.sccu.com.au/Business-Savings-and-Deposit-Accounts-Interest-Rate-Schedule"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.051",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "tiers": [
+              {
+                "name": "BUSINESS TERM DEPOSIT_Tier",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "2000000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "BUSINESS TERM DEPOSIT_Tier",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "11",
+                "maximumValue": "11",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P11M",
+            "additionalInfo": "Interest recast at 0.10% if deposit partially or fully redeemed prior to expiry",
+            "additionalInfoUri": "https://www.sccu.com.au/Business-Savings-and-Deposit-Accounts-Interest-Rate-Schedule"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.051",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "BUSINESS TERM DEPOSIT_Tier",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "2000000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "BUSINESS TERM DEPOSIT_Tier",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "11",
+                "maximumValue": "11",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P11M",
+            "additionalInfo": "Interest recast at 0.10% if deposit partially or fully redeemed prior to expiry",
+            "additionalInfoUri": "https://www.sccu.com.au/Business-Savings-and-Deposit-Accounts-Interest-Rate-Schedule"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.055",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "tiers": [
+              {
+                "name": "BUSINESS TERM DEPOSIT_Tier",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "2000000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "BUSINESS TERM DEPOSIT_Tier",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "12",
+                "maximumValue": "12",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P12M",
+            "additionalInfo": "Interest recast at 0.10% if deposit partially or fully redeemed prior to expiry",
+            "additionalInfoUri": "https://www.sccu.com.au/Business-Savings-and-Deposit-Accounts-Interest-Rate-Schedule"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.055",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "BUSINESS TERM DEPOSIT_Tier",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "2000000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "BUSINESS TERM DEPOSIT_Tier",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "12",
+                "maximumValue": "12",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P12M",
+            "additionalInfo": "Interest recast at 0.10% if deposit partially or fully redeemed prior to expiry",
+            "additionalInfoUri": "https://www.sccu.com.au/Business-Savings-and-Deposit-Accounts-Interest-Rate-Schedule"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.045",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P12M",
+            "tiers": [
+              {
+                "name": "BUSINESS TERM DEPOSIT_Tier",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "2000000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "BUSINESS TERM DEPOSIT_Tier",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "18",
+                "maximumValue": "18",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P18M",
+            "additionalInfo": "Interest recast at 0.10% if deposit partially or fully redeemed prior to expiry",
+            "additionalInfoUri": "https://www.sccu.com.au/Business-Savings-and-Deposit-Accounts-Interest-Rate-Schedule"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.05",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P12M",
+            "tiers": [
+              {
+                "name": "BUSINESS TERM DEPOSIT_Tier",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "2000000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "BUSINESS TERM DEPOSIT_Tier",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "24",
+                "maximumValue": "24",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P24M",
+            "additionalInfo": "Interest recast at 0.10% if deposit partially or fully redeemed prior to expiry",
+            "additionalInfoUri": "https://www.sccu.com.au/Business-Savings-and-Deposit-Accounts-Interest-Rate-Schedule"
+          }
+        ],
+        "productCategory": "TERM_DEPOSITS",
+        "productId": "BUSINESS_TERM_DEPOSIT",
+        "lastUpdated": "2026-11-09T07:19:56.000+11:00",
+        "name": "BUSINESS TERM DEPOSIT",
+        "description": "Business Term Deposit",
+        "brand": "S",
+        "brandName": "SCCU",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.sccu.com.au/business-banking/business-term-deposit/",
+          "termsUri": "https://www.sccu.com.au/product-disclosures/",
+          "eligibilityUri": "https://www.sccu.com.au/Business-Term-Deposit-TMD",
+          "feesAndPricingUri": "https://www.sccu.com.au/Schedule-of-Fees-and-Charges"
+        }
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "EASY_ACCESS",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M"
+          }
+        ],
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "productId": "EASY_ACCESS",
+        "effectiveFrom": "2019-07-16T00:00:00.000+10:00",
+        "lastUpdated": "2026-06-09T11:09:43.000+10:00",
+        "name": "EASY ACCESS",
+        "description": "Easy to manage everyday transaction account non interest bearing",
+        "brand": "S",
+        "brandName": "SCCU",
+        "applicationUri": "https://sccu.apply-online.com.au/#/90c5c275-a293-4161-8990-3efe37e99a88",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.sccu.com.au/transaction-accounts/easy-access/",
+          "termsUri": "https://www.sccu.com.au/product-disclosures/",
+          "eligibilityUri": "https://www.sccu.com.au/Easy-Access-TMD",
+          "feesAndPricingUri": "https://www.sccu.com.au/Schedule-of-Fees-and-Charges"
+        }
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "EASY_ACCESS_50_PLUS",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.005",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "EASY ACCESS 50+_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "0.00",
+                "maximumValue": "9999.99",
+                "rateApplicationMethod": "PER_TIER"
+              }
+            ],
+            "additionalInfo": "Tiered rate based on balance thresholds",
+            "additionalInfoUri": "https://www.sccu.com.au/Savings-and-Deposit-Accounts-Interest-Rate-Schedule"
+          },
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.009",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "EASY ACCESS 50+_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "10000.00",
+                "maximumValue": "49999.99",
+                "rateApplicationMethod": "PER_TIER"
+              }
+            ],
+            "additionalInfo": "Tiered rate based on balance thresholds",
+            "additionalInfoUri": "https://www.sccu.com.au/Savings-and-Deposit-Accounts-Interest-Rate-Schedule"
+          },
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.027",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "EASY ACCESS 50+_Tier_3",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "50000.00",
+                "maximumValue": "199999.99",
+                "rateApplicationMethod": "PER_TIER"
+              }
+            ],
+            "additionalInfo": "Tiered rate based on balance thresholds",
+            "additionalInfoUri": "https://www.sccu.com.au/Savings-and-Deposit-Accounts-Interest-Rate-Schedule"
+          },
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.03",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "EASY ACCESS 50+_Tier_4",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "200000.00",
+                "rateApplicationMethod": "PER_TIER"
+              }
+            ],
+            "additionalInfo": "Tiered rate based on balance thresholds",
+            "additionalInfoUri": "https://www.sccu.com.au/Savings-and-Deposit-Accounts-Interest-Rate-Schedule"
+          }
+        ],
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "productId": "EASY_ACCESS_50_PLUS",
+        "effectiveFrom": "2024-10-01T00:00:00.000+10:00",
+        "lastUpdated": "2026-11-09T07:48:43.000+11:00",
+        "name": "EASY ACCESS 50+",
+        "description": "Everyday transaction account with easy access for those at retirement age with competitive Interest",
+        "brand": "S",
+        "brandName": "SCCU",
+        "applicationUri": "https://sccu.apply-online.com.au/#/90c5c275-a293-4161-8990-3efe37e99a95",
+        "isTailored": true,
+        "additionalInformation": {
+          "overviewUri": "https://www.sccu.com.au/transaction-accounts/easy-access-50/",
+          "termsUri": "https://www.sccu.com.au/product-disclosures/",
+          "eligibilityUri": "https://www.sccu.com.au/Easy-Access-50-TMD",
+          "feesAndPricingUri": "https://www.sccu.com.au/Schedule-of-Fees-and-Charges"
+        }
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "LITTLE_STAR_SAVER",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.01",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "LITTLE STAR SAVER_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "0.00",
+                "maximumValue": "50000.00",
+                "rateApplicationMethod": "PER_TIER"
+              }
+            ],
+            "additionalInfo": "Tiered rate based on different balance thresholds and bonus interest subject to no withdrawals",
+            "additionalInfoUri": "https://www.sccu.com.au/Savings-and-Deposit-Accounts-Interest-Rate-Schedule"
+          },
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.01",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "LITTLE STAR SAVER_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "50000.01",
+                "rateApplicationMethod": "PER_TIER"
+              }
+            ],
+            "additionalInfo": "Tiered rate based on different balance thresholds and bonus interest subject to no withdrawals",
+            "additionalInfoUri": "https://www.sccu.com.au/Savings-and-Deposit-Accounts-Interest-Rate-Schedule"
+          },
+          {
+            "depositRateType": "BONUS",
+            "rate": "0.0445",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "LITTLE STAR SAVER_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "0.00",
+                "maximumValue": "50000.00",
+                "rateApplicationMethod": "PER_TIER"
+              }
+            ],
+            "additionalValue": "Bonus",
+            "additionalInfo": "Tiered rate based on different balance thresholds and bonus interest subject to no withdrawals",
+            "additionalInfoUri": "https://www.sccu.com.au/Savings-and-Deposit-Accounts-Interest-Rate-Schedule"
+          },
+          {
+            "depositRateType": "BONUS",
+            "rate": "0.0",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "LITTLE STAR SAVER_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "50000.01",
+                "rateApplicationMethod": "PER_TIER"
+              }
+            ],
+            "additionalValue": "Bonus",
+            "additionalInfo": "Tiered rate based on different balance thresholds and bonus interest subject to no withdrawals",
+            "additionalInfoUri": "https://www.sccu.com.au/Savings-and-Deposit-Accounts-Interest-Rate-Schedule"
+          }
+        ],
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "productId": "LITTLE_STAR_SAVER",
+        "effectiveFrom": "2022-12-23T00:00:00.000+11:00",
+        "lastUpdated": "2026-11-09T07:25:01.000+11:00",
+        "name": "LITTLE STAR SAVER",
+        "description": "Savings account for customers under 14yrs. Bonus Interest paid on balance up to $50k subject to no withdrawals made.",
+        "brand": "S",
+        "brandName": "SCCU",
+        "applicationUri": "https://www.sccu.com.au/savings-accounts/little-star-saver/little-star-saver-form/",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.sccu.com.au/savings-accounts/little-star-saver/",
+          "termsUri": "https://www.sccu.com.au/product-disclosures/",
+          "eligibilityUri": "https://www.sccu.com.au/Little-Star-Saver-TMD",
+          "feesAndPricingUri": "https://www.sccu.com.au/Schedule-of-Fees-and-Charges"
+        }
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "STANDARD_TERM_DEPOSIT",
+      "productCategory": "TERM_DEPOSITS",
+      "detail": {
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0115",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "tiers": [
+              {
+                "name": "TERM DEPOSIT_Tier",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "20000000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "TERM DEPOSIT_Tier",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "1",
+                "maximumValue": "1",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P1M",
+            "additionalInfo": "Interest recast at 0.10% if deposit partially or fully redeemed prior to expiry",
+            "additionalInfoUri": "https://www.sccu.com.au/Savings-and-Deposit-Accounts-Interest-Rate-Schedule/"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0115",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "tiers": [
+              {
+                "name": "TERM DEPOSIT_Tier",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "20000000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "TERM DEPOSIT_Tier",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "2",
+                "maximumValue": "2",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P2M",
+            "additionalInfo": "Interest recast at 0.10% if deposit partially or fully redeemed prior to expiry",
+            "additionalInfoUri": "https://www.sccu.com.au/Savings-and-Deposit-Accounts-Interest-Rate-Schedule/"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.051",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "tiers": [
+              {
+                "name": "TERM DEPOSIT_Tier",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "20000000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "TERM DEPOSIT_Tier",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "3",
+                "maximumValue": "3",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P3M",
+            "additionalInfo": "Interest recast at 0.10% if deposit partially or fully redeemed prior to expiry",
+            "additionalInfoUri": "https://www.sccu.com.au/Savings-and-Deposit-Accounts-Interest-Rate-Schedule/"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.045",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "tiers": [
+              {
+                "name": "TERM DEPOSIT_Tier",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "20000000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "TERM DEPOSIT_Tier",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "4",
+                "maximumValue": "4",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P4M",
+            "additionalInfo": "Interest recast at 0.10% if deposit partially or fully redeemed prior to expiry",
+            "additionalInfoUri": "https://www.sccu.com.au/Savings-and-Deposit-Accounts-Interest-Rate-Schedule/"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0405",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "tiers": [
+              {
+                "name": "TERM DEPOSIT_Tier",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "20000000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "TERM DEPOSIT_Tier",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "5",
+                "maximumValue": "5",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P5M",
+            "additionalInfo": "Interest recast at 0.10% if deposit partially or fully redeemed prior to expiry",
+            "additionalInfoUri": "https://www.sccu.com.au/Savings-and-Deposit-Accounts-Interest-Rate-Schedule/"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0535",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "tiers": [
+              {
+                "name": "TERM DEPOSIT_Tier",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "20000000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "TERM DEPOSIT_Tier",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "6",
+                "maximumValue": "6",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P6M",
+            "additionalInfo": "Interest recast at 0.10% if deposit partially or fully redeemed prior to expiry",
+            "additionalInfoUri": "https://www.sccu.com.au/Savings-and-Deposit-Accounts-Interest-Rate-Schedule/"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0535",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "TERM DEPOSIT_Tier",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "20000000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "TERM DEPOSIT_Tier",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "6",
+                "maximumValue": "6",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P6M",
+            "additionalInfo": "Interest recast at 0.10% if deposit partially or fully redeemed prior to expiry",
+            "additionalInfoUri": "https://www.sccu.com.au/Savings-and-Deposit-Accounts-Interest-Rate-Schedule/"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.05",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "tiers": [
+              {
+                "name": "TERM DEPOSIT_Tier",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "20000000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "TERM DEPOSIT_Tier",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "7",
+                "maximumValue": "7",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P7M",
+            "additionalInfo": "Interest recast at 0.10% if deposit partially or fully redeemed prior to expiry",
+            "additionalInfoUri": "https://www.sccu.com.au/Savings-and-Deposit-Accounts-Interest-Rate-Schedule/"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.05",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "TERM DEPOSIT_Tier",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "20000000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "TERM DEPOSIT_Tier",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "7",
+                "maximumValue": "7",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P7M",
+            "additionalInfo": "Interest recast at 0.10% if deposit partially or fully redeemed prior to expiry",
+            "additionalInfoUri": "https://www.sccu.com.au/Savings-and-Deposit-Accounts-Interest-Rate-Schedule/"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.038",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "tiers": [
+              {
+                "name": "TERM DEPOSIT_Tier",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "20000000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "TERM DEPOSIT_Tier",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "8",
+                "maximumValue": "8",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P8M",
+            "additionalInfo": "Interest recast at 0.10% if deposit partially or fully redeemed prior to expiry",
+            "additionalInfoUri": "https://www.sccu.com.au/Savings-and-Deposit-Accounts-Interest-Rate-Schedule/"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.038",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "TERM DEPOSIT_Tier",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "20000000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "TERM DEPOSIT_Tier",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "8",
+                "maximumValue": "8",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P8M",
+            "additionalInfo": "Interest recast at 0.10% if deposit partially or fully redeemed prior to expiry",
+            "additionalInfoUri": "https://www.sccu.com.au/Savings-and-Deposit-Accounts-Interest-Rate-Schedule/"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0545",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "tiers": [
+              {
+                "name": "TERM DEPOSIT_Tier",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "20000000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "TERM DEPOSIT_Tier",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "9",
+                "maximumValue": "9",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P9M",
+            "additionalInfo": "Interest recast at 0.10% if deposit partially or fully redeemed prior to expiry",
+            "additionalInfoUri": "https://www.sccu.com.au/Savings-and-Deposit-Accounts-Interest-Rate-Schedule/"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0545",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "TERM DEPOSIT_Tier",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "20000000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "TERM DEPOSIT_Tier",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "9",
+                "maximumValue": "9",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P9M",
+            "additionalInfo": "Interest recast at 0.10% if deposit partially or fully redeemed prior to expiry",
+            "additionalInfoUri": "https://www.sccu.com.au/Savings-and-Deposit-Accounts-Interest-Rate-Schedule/"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.038",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "tiers": [
+              {
+                "name": "TERM DEPOSIT_Tier",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "20000000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "TERM DEPOSIT_Tier",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "10",
+                "maximumValue": "10",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P10M",
+            "additionalInfo": "Interest recast at 0.10% if deposit partially or fully redeemed prior to expiry",
+            "additionalInfoUri": "https://www.sccu.com.au/Savings-and-Deposit-Accounts-Interest-Rate-Schedule/"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.038",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "TERM DEPOSIT_Tier",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "20000000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "TERM DEPOSIT_Tier",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "10",
+                "maximumValue": "10",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P10M",
+            "additionalInfo": "Interest recast at 0.10% if deposit partially or fully redeemed prior to expiry",
+            "additionalInfoUri": "https://www.sccu.com.au/Savings-and-Deposit-Accounts-Interest-Rate-Schedule/"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.051",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "tiers": [
+              {
+                "name": "TERM DEPOSIT_Tier",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "20000000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "TERM DEPOSIT_Tier",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "11",
+                "maximumValue": "11",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P11M",
+            "additionalInfo": "Interest recast at 0.10% if deposit partially or fully redeemed prior to expiry",
+            "additionalInfoUri": "https://www.sccu.com.au/Savings-and-Deposit-Accounts-Interest-Rate-Schedule/"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.051",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "TERM DEPOSIT_Tier",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "20000000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "TERM DEPOSIT_Tier",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "11",
+                "maximumValue": "11",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P11M",
+            "additionalInfo": "Interest recast at 0.10% if deposit partially or fully redeemed prior to expiry",
+            "additionalInfoUri": "https://www.sccu.com.au/Savings-and-Deposit-Accounts-Interest-Rate-Schedule/"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.055",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "tiers": [
+              {
+                "name": "TERM DEPOSIT_Tier",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "20000000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "TERM DEPOSIT_Tier",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "12",
+                "maximumValue": "12",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P12M",
+            "additionalInfo": "Interest recast at 0.10% if deposit partially or fully redeemed prior to expiry",
+            "additionalInfoUri": "https://www.sccu.com.au/Savings-and-Deposit-Accounts-Interest-Rate-Schedule/"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.055",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "TERM DEPOSIT_Tier",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "20000000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "TERM DEPOSIT_Tier",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "12",
+                "maximumValue": "12",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P12M",
+            "additionalInfo": "Interest recast at 0.10% if deposit partially or fully redeemed prior to expiry",
+            "additionalInfoUri": "https://www.sccu.com.au/Savings-and-Deposit-Accounts-Interest-Rate-Schedule/"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.045",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P12M",
+            "tiers": [
+              {
+                "name": "TERM DEPOSIT_Tier",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "20000000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "TERM DEPOSIT_Tier",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "18",
+                "maximumValue": "18",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P18M",
+            "additionalInfo": "Interest recast at 0.10% if deposit partially or fully redeemed prior to expiry",
+            "additionalInfoUri": "https://www.sccu.com.au/Savings-and-Deposit-Accounts-Interest-Rate-Schedule/"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.05",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P12M",
+            "tiers": [
+              {
+                "name": "TERM DEPOSIT_Tier",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "20000000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "TERM DEPOSIT_Tier",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "24",
+                "maximumValue": "24",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P24M",
+            "additionalInfo": "Interest recast at 0.10% if deposit partially or fully redeemed prior to expiry",
+            "additionalInfoUri": "https://www.sccu.com.au/Savings-and-Deposit-Accounts-Interest-Rate-Schedule/"
+          }
+        ],
+        "productCategory": "TERM_DEPOSITS",
+        "productId": "STANDARD_TERM_DEPOSIT",
+        "lastUpdated": "2026-11-09T07:14:54.000+11:00",
+        "name": "TERM DEPOSIT",
+        "description": "Term Deposit",
+        "brand": "S",
+        "brandName": "SCCU",
+        "applicationUri": "https://www.sccu.com.au/term-deposits/term-deposit-application/",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.sccu.com.au/term-deposits/",
+          "termsUri": "https://www.sccu.com.au/product-disclosures/",
+          "eligibilityUri": "https://www.sccu.com.au/Term-Deposit-TMD",
+          "feesAndPricingUri": "https://www.sccu.com.au/Schedule-of-Fees-and-Charges"
+        }
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "STAR_SAVER",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "depositRates": [
+          {
+            "depositRateType": "BONUS",
+            "rate": "0.0445",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "additionalValue": "BONUS INTEREST",
+            "additionalInfo": "Bonus interest paid when a minimum balance increase of $100 is achieved for the calendar month",
+            "additionalInfoUri": "https://www.sccu.com.au/Savings-and-Deposit-Accounts-Interest-Rate-Schedule"
+          },
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.01",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "additionalInfo": "Bonus interest paid when a minimum balance increase of $100 is achieved for the calendar month",
+            "additionalInfoUri": "https://www.sccu.com.au/Savings-and-Deposit-Accounts-Interest-Rate-Schedule"
+          }
+        ],
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "productId": "STAR_SAVER",
+        "lastUpdated": "2026-11-06T14:55:18.000+11:00",
+        "name": "STAR SAVER",
+        "description": "Star Saver savings account",
+        "brand": "S",
+        "brandName": "SCCU",
+        "applicationUri": "https://www.sccu.com.au/savings-accounts/star-saver/star-saver-form/",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.sccu.com.au/savings-accounts/star-saver/",
+          "termsUri": "https://www.sccu.com.au/product-disclosures/",
+          "eligibilityUri": "https://www.sccu.com.au/Star-Saver-TMD",
+          "feesAndPricingUri": "https://www.sccu.com.au/Schedule-of-Fees-and-Charges"
+        }
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "STAR_SAVER_CMA",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.026",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "additionalInfoUri": "https://www.sccu.com.au/Business-Savings-and-Deposit-Accounts-Interest-Rate-Schedule"
+          }
+        ],
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "productId": "STAR_SAVER_CMA",
+        "lastUpdated": "2026-06-09T11:09:29.000+10:00",
+        "name": "STAR SAVER CONTROLLED MONEY ACCOUNT (SOLICITORS ONLY)",
+        "description": "STAR SAVER CONTROLLED MONEY ACCOUNT (SOLICITORS ONLY)",
+        "brand": "S",
+        "brandName": "SCCU",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.sccu.com.au/savings-accounts/star-saver-cma/",
+          "termsUri": "https://www.sccu.com.au/product-disclosures/",
+          "eligibilityUri": "https://www.sccu.com.au/Star-Saver-Controlled-Money-Account-Solicitors-Only-TMD",
+          "feesAndPricingUri": "https://www.sccu.com.au/Schedule-of-Fees-and-Charges"
+        }
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    }
+  ]
+}

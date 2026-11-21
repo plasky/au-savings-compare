@@ -1,0 +1,27 @@
+{
+  "endpoint": "https://public.cdr.afghomeloans.com.au/cds-au/v1/banking/products",
+  "slug": "afg-home-loans-retro-fe42d4",
+  "brands": [
+    {
+      "dataHolderBrandId": "e18ba774-4471-f111-9b47-6045bd3f59f5",
+      "brandName": "AFG Home Loans - Retro",
+      "brandGroup": null,
+      "abn": "90119343118",
+      "industries": [
+        "non-bank-lending"
+      ]
+    }
+  ],
+  "list": {
+    "ok": true,
+    "status": 200,
+    "version": "5",
+    "totalPages": 1,
+    "pagesFetched": 1,
+    "productCount": 8,
+    "categoryCounts": {
+      "RESIDENTIAL_MORTGAGES": 8
+    }
+  },
+  "products": []
+}

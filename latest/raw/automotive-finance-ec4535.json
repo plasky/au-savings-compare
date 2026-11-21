@@ -1,0 +1,28 @@
+{
+  "endpoint": "https://public.prd.automotive-finance.com.au/cds-au/v1/banking/products",
+  "slug": "automotive-finance-ec4535",
+  "brands": [
+    {
+      "dataHolderBrandId": "59e8e1c3-c66e-f111-9b47-6045bd3f59f5",
+      "brandName": "Automotive Finance",
+      "brandGroup": null,
+      "abn": "31609859985",
+      "industries": [
+        "non-bank-lending"
+      ]
+    }
+  ],
+  "list": {
+    "ok": true,
+    "status": 200,
+    "version": "5",
+    "totalPages": 1,
+    "pagesFetched": 1,
+    "productCount": 3,
+    "categoryCounts": {
+      "BUSINESS_LOANS": 1,
+      "PERS_LOANS": 2
+    }
+  },
+  "products": []
+}

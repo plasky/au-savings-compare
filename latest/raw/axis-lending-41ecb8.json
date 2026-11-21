@@ -1,0 +1,27 @@
+{
+  "endpoint": "https://public.axis-lending.cdr.colcap.com.au/cds-au/v1/banking/products",
+  "slug": "axis-lending-41ecb8",
+  "brands": [
+    {
+      "dataHolderBrandId": "e543b1d5-d4ba-f111-81be-000d3a799057",
+      "brandName": "Axis Lending",
+      "brandGroup": null,
+      "abn": "51119531252",
+      "industries": [
+        "non-bank-lending"
+      ]
+    }
+  ],
+  "list": {
+    "ok": false,
+    "status": 400,
+    "version": null,
+    "error": "http-400",
+    "errorDetail": "urn:au-cds:error:cds-all:Field/Invalid | Invalid Field | Invalid Field",
+    "totalPages": null,
+    "pagesFetched": 0,
+    "productCount": 0,
+    "categoryCounts": {}
+  },
+  "products": []
+}

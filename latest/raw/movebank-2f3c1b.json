@@ -1,0 +1,643 @@
+{
+  "endpoint": "https://od1.cdr.digital.move.bank/api/cds-au/v1/banking/products",
+  "slug": "movebank-2f3c1b",
+  "brands": [
+    {
+      "dataHolderBrandId": "89d458be-14ae-eb11-a822-000d3a884a20",
+      "brandName": "MoveBank",
+      "brandGroup": null,
+      "abn": "91087651090",
+      "industries": [
+        "banking"
+      ]
+    }
+  ],
+  "list": {
+    "ok": true,
+    "status": 200,
+    "version": "5",
+    "totalPages": 1,
+    "pagesFetched": 1,
+    "productCount": 11,
+    "categoryCounts": {
+      "CRED_AND_CHRG_CARDS": 1,
+      "PERS_LOANS": 2,
+      "RESIDENTIAL_MORTGAGES": 2,
+      "TRANS_AND_SAVINGS_ACCOUNTS": 6
+    }
+  },
+  "products": [
+    {
+      "productId": "0b61e81c-a7f6-4845-ae64-f9dd29169030",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "brand": "MoveBank",
+        "brandName": "MoveBank",
+        "constraints": [
+          {
+            "additionalInfo": "31 days' notice is required to break the term deposit early.",
+            "additionalValue": "31.00",
+            "constraintType": "MAX_LIMIT"
+          },
+          {
+            "additionalInfo": "You can only hold a maximum of 10 accounts for this product.",
+            "additionalValue": "10.00",
+            "constraintType": "MAX_LIMIT"
+          }
+        ],
+        "depositRates": [
+          {
+            "additionalInfo": "Rate for a 6 month term, interest paid at maturity.",
+            "additionalValue": "P6M",
+            "applicationType": "MATURITY",
+            "calculationFrequency": "P1D",
+            "depositRateType": "FIXED",
+            "rate": "0.0525",
+            "tiers": [
+              {
+                "minimumValue": "6",
+                "name": "6 month term",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "unitOfMeasure": "MONTH"
+              }
+            ]
+          },
+          {
+            "additionalInfo": "Rate for a 13 - 24 month term, interest paid yearly.",
+            "additionalValue": "P24M",
+            "applicationFrequency": "P1Y",
+            "applicationType": "PERIODIC",
+            "calculationFrequency": "P1D",
+            "depositRateType": "FIXED",
+            "rate": "0.0525",
+            "tiers": [
+              {
+                "maximumValue": "24",
+                "minimumValue": "13",
+                "name": "13 - 24 month term, yearly interest",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "unitOfMeasure": "MONTH"
+              }
+            ]
+          },
+          {
+            "additionalInfo": "Rate for a 12 month term, interest paid yearly.",
+            "additionalValue": "P12M",
+            "applicationFrequency": "P1Y",
+            "applicationType": "PERIODIC",
+            "calculationFrequency": "P1D",
+            "depositRateType": "FIXED",
+            "rate": "0.0535",
+            "tiers": [
+              {
+                "minimumValue": "12",
+                "name": "12 month term, yearly interest",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "unitOfMeasure": "MONTH"
+              }
+            ]
+          },
+          {
+            "additionalInfo": "Rate for a 13 - 24 month term, interest paid monthly.",
+            "additionalValue": "P24M",
+            "applicationFrequency": "P1M",
+            "applicationType": "PERIODIC",
+            "calculationFrequency": "P1D",
+            "depositRateType": "FIXED",
+            "rate": "0.0515",
+            "tiers": [
+              {
+                "maximumValue": "24",
+                "minimumValue": "13",
+                "name": "13 - 24 month term, monthly interest",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "unitOfMeasure": "MONTH"
+              }
+            ]
+          },
+          {
+            "additionalInfo": "Rate for a 12 month term, interest paid monthly",
+            "additionalValue": "P12M",
+            "applicationFrequency": "P1M",
+            "applicationType": "PERIODIC",
+            "calculationFrequency": "P1D",
+            "depositRateType": "FIXED",
+            "rate": "0.0525",
+            "tiers": [
+              {
+                "minimumValue": "12",
+                "name": "12 month term, monthly interest",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "unitOfMeasure": "MONTH"
+              }
+            ]
+          },
+          {
+            "additionalInfo": "Rate for a 5 month term, interest paid at maturity.",
+            "additionalValue": "P5M",
+            "applicationType": "MATURITY",
+            "calculationFrequency": "P1D",
+            "depositRateType": "FIXED",
+            "rate": "0.052",
+            "tiers": [
+              {
+                "minimumValue": "5",
+                "name": "5 month term",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "unitOfMeasure": "MONTH"
+              }
+            ]
+          },
+          {
+            "additionalValue": "P9M",
+            "applicationType": "MATURITY",
+            "calculationFrequency": "P1D",
+            "depositRateType": "FIXED",
+            "rate": "0.053",
+            "tiers": [
+              {
+                "minimumValue": "9",
+                "name": "9 month term",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "unitOfMeasure": "MONTH"
+              }
+            ]
+          },
+          {
+            "additionalInfo": "Rate for a 10 month term, interest paid at maturity.",
+            "additionalValue": "P10M",
+            "applicationType": "MATURITY",
+            "calculationFrequency": "P1D",
+            "depositRateType": "FIXED",
+            "rate": "0.053",
+            "tiers": [
+              {
+                "minimumValue": "10",
+                "name": "10 month term",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "unitOfMeasure": "MONTH"
+              }
+            ]
+          },
+          {
+            "additionalInfo": "Rate for a 11 month term, interest paid at maturity.",
+            "additionalValue": "P11M",
+            "applicationType": "MATURITY",
+            "calculationFrequency": "P1D",
+            "depositRateType": "FIXED",
+            "rate": "0.053",
+            "tiers": [
+              {
+                "minimumValue": "11",
+                "name": "11 month term",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "unitOfMeasure": "MONTH"
+              }
+            ]
+          },
+          {
+            "additionalInfo": "Rate for a 3 month term, interest paid at maturity.",
+            "additionalValue": "P3M",
+            "applicationType": "MATURITY",
+            "calculationFrequency": "P1D",
+            "depositRateType": "FIXED",
+            "rate": "0.05",
+            "tiers": [
+              {
+                "minimumValue": "3",
+                "name": "3 month term",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "unitOfMeasure": "MONTH"
+              }
+            ]
+          },
+          {
+            "additionalInfo": "Rate for a 4 month term, interest paid at maturity.",
+            "additionalValue": "P4M",
+            "applicationType": "MATURITY",
+            "calculationFrequency": "P1D",
+            "depositRateType": "FIXED",
+            "rate": "0.051",
+            "tiers": [
+              {
+                "minimumValue": "4",
+                "name": "4 month term",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "unitOfMeasure": "MONTH"
+              }
+            ]
+          },
+          {
+            "additionalInfo": "Rate for a 8 month term, interest paid at maturity.",
+            "additionalValue": "P8M",
+            "applicationType": "MATURITY",
+            "calculationFrequency": "P1D",
+            "depositRateType": "FIXED",
+            "rate": "0.053",
+            "tiers": [
+              {
+                "minimumValue": "8",
+                "name": "8 month term",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "unitOfMeasure": "MONTH"
+              }
+            ]
+          },
+          {
+            "additionalInfo": "Rate for a 7 month term, interest paid at maturity.",
+            "additionalValue": "P7M",
+            "applicationType": "MATURITY",
+            "calculationFrequency": "P1D",
+            "depositRateType": "FIXED",
+            "rate": "0.0535",
+            "tiers": [
+              {
+                "minimumValue": "7",
+                "name": "7 month term",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "unitOfMeasure": "MONTH"
+              }
+            ]
+          }
+        ],
+        "description": "Term Deposit",
+        "effectiveFrom": "2026-07-31T04:00:00Z",
+        "eligibility": [
+          {
+            "additionalInfo": "Must be an Australian tax resident.",
+            "additionalValue": "Australian resident",
+            "eligibilityType": "RESIDENCY_STATUS"
+          }
+        ],
+        "features": [
+          {
+            "additionalInfo": "You can receive notifications about activity on this account via email, mobile, and in-app for selected events.",
+            "additionalValue": "Email, mobile, in-app",
+            "featureType": "NOTIFICATIONS"
+          }
+        ],
+        "isTailored": false,
+        "lastUpdated": "2026-09-08T13:33:21.706914Z",
+        "name": "Term Deposit",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "productId": "0b61e81c-a7f6-4845-ae64-f9dd29169030"
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "4bb8798f-6059-4dea-89f9-db5015a30c89",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "brand": "MoveBank",
+        "brandName": "MoveBank",
+        "constraints": [
+          {
+            "additionalInfo": "You can only hold a maximum of 1 account for this product.",
+            "additionalValue": "1.00",
+            "constraintType": "MAX_LIMIT"
+          }
+        ],
+        "depositRates": [
+          {
+            "additionalInfo": "Bonus rate payable for a calendar month when the eligibility criteria below are met, in addition to the base rate.",
+            "additionalValue": "Monthly deposit and no-withdrawal bonus",
+            "applicabilityConditions": [
+              {
+                "additionalInfo": "No withdrawals from the account during the calendar month.",
+                "rateApplicabilityType": "OTHER"
+              },
+              {
+                "additionalInfo": "Minimum $200 in deposits (credits) to the account during the calendar month.",
+                "additionalValue": "200.00",
+                "rateApplicabilityType": "MIN_DEPOSIT_AMOUNT"
+              }
+            ],
+            "applicationFrequency": "P1M",
+            "applicationType": "PERIODIC",
+            "calculationFrequency": "P1D",
+            "depositRateType": "BONUS",
+            "rate": "0.0535",
+            "tiers": [
+              {
+                "maximumValue": "250000.00",
+                "minimumValue": "0.00",
+                "name": " Bonus eligible balance $0–$250,000",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "unitOfMeasure": "DOLLAR"
+              }
+            ]
+          },
+          {
+            "applicationFrequency": "P1M",
+            "applicationType": "PERIODIC",
+            "calculationFrequency": "P1D",
+            "depositRateType": "VARIABLE",
+            "rate": "0.001"
+          }
+        ],
+        "description": "Bonus Saver",
+        "effectiveFrom": "2026-07-31T04:00:00Z",
+        "eligibility": [
+          {
+            "additionalInfo": "Must be an Australian tax resident.",
+            "additionalValue": "Australian resident",
+            "eligibilityType": "RESIDENCY_STATUS"
+          }
+        ],
+        "features": [
+          {
+            "additionalInfo": "You can receive notifications about activity on this account via email, mobile, and in-app for selected events.",
+            "additionalValue": "Email, mobile, in-app",
+            "featureType": "NOTIFICATIONS"
+          }
+        ],
+        "isTailored": false,
+        "lastUpdated": "2026-11-01T00:17:18.904461Z",
+        "name": "Bonus Saver",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "productId": "4bb8798f-6059-4dea-89f9-db5015a30c89"
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "72d5ee63-6658-4b29-b399-0a3d55b4d4ca",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "brand": "MoveBank",
+        "brandName": "MoveBank",
+        "constraints": [
+          {
+            "additionalInfo": "You can only hold a maximum of 10 accounts for this product.",
+            "additionalValue": "10.00",
+            "constraintType": "MAX_LIMIT"
+          },
+          {
+            "additionalInfo": "Default daily payment limit is $5,000; customers can self-serve raise this up to $20,000 per day via the app.",
+            "additionalValue": "20000.00",
+            "constraintType": "MAX_LIMIT"
+          },
+          {
+            "additionalInfo": "Maximum combined cash and cheque deposit per 24 hours via Bank@Post.",
+            "additionalValue": "8000.00",
+            "constraintType": "MAX_LIMIT"
+          },
+          {
+            "additionalInfo": "Maximum cash withdrawal per day via ATM, POS cash-out, or Bank@Post.",
+            "additionalValue": "2010.00",
+            "constraintType": "MAX_LIMIT"
+          }
+        ],
+        "description": "Everyday Transaction Account",
+        "effectiveFrom": "2026-07-31T04:00:00Z",
+        "eligibility": [
+          {
+            "additionalInfo": "Must be an Australian tax resident.",
+            "additionalValue": "Australian resident",
+            "eligibilityType": "RESIDENCY_STATUS"
+          }
+        ],
+        "features": [
+          {
+            "additionalInfo": "You can receive notifications about activity on this account via email, mobile, and in-app for selected events",
+            "additionalValue": "Email, mobile, in-app",
+            "featureType": "NOTIFICATIONS"
+          },
+          {
+            "additionalValue": "Visa Debit",
+            "featureType": "CARD_ACCESS"
+          },
+          {
+            "additionalInfo": "Multiple cards can be held against a single account of this product.",
+            "featureType": "ADDITIONAL_CARDS"
+          },
+          {
+            "additionalValue": " Apple Pay, Google Pay",
+            "featureType": "DIGITAL_WALLET"
+          }
+        ],
+        "fees": [
+          {
+            "additionalInfo": "Charged on international card transactions",
+            "currency": "AUD",
+            "feeMethodUType": "rateBased",
+            "feeType": "TRANSACTION",
+            "name": "Debit International Transaction Fee",
+            "rateBased": {
+              "rate": "0.02",
+              "rateType": "TRANSACTION"
+            }
+          },
+          {
+            "additionalInfo": "Charged per payment dishonour",
+            "currency": "AUD",
+            "feeMethodUType": "fixedAmount",
+            "feeType": "DISHONOUR",
+            "fixedAmount": {
+              "amount": "15.00"
+            },
+            "name": "Payment Dishonour Fee"
+          },
+          {
+            "currency": "AUD",
+            "feeMethodUType": "fixedAmount",
+            "feeType": "TRANSACTION",
+            "fixedAmount": {
+              "amount": "5.00"
+            },
+            "name": "International ATM Withdrawal Fee"
+          }
+        ],
+        "isTailored": false,
+        "lastUpdated": "2026-07-30T10:37:26.366364Z",
+        "lendingRates": [
+          {
+            "applicationFrequency": "P1M",
+            "applicationType": "PERIODIC",
+            "calculationFrequency": "P1D",
+            "lendingRateType": "VARIABLE",
+            "loanPurpose": "OTHER",
+            "rate": "0",
+            "repaymentType": "OTHER"
+          }
+        ],
+        "name": "Everyday Transaction Account",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "productId": "72d5ee63-6658-4b29-b399-0a3d55b4d4ca"
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "de32ed1f-1b03-4344-9eb1-74266f4014dd",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "brand": "MoveBank",
+        "brandName": "MoveBank",
+        "constraints": [
+          {
+            "additionalInfo": "You can only hold a maximum of 10 accounts for this product.",
+            "additionalValue": "10.00",
+            "constraintType": "MAX_LIMIT"
+          }
+        ],
+        "depositRates": [
+          {
+            "applicationFrequency": "P1M",
+            "applicationType": "PERIODIC",
+            "calculationFrequency": "P1D",
+            "depositRateType": "VARIABLE",
+            "rate": "0.011"
+          }
+        ],
+        "description": "Express Saver",
+        "effectiveFrom": "2026-07-31T04:00:00Z",
+        "eligibility": [
+          {
+            "additionalInfo": "Must be an Australian tax resident.",
+            "additionalValue": "Australian resident",
+            "eligibilityType": "RESIDENCY_STATUS"
+          }
+        ],
+        "features": [
+          {
+            "additionalInfo": "You can receive notifications about activity on this account via email, mobile, and in-app for selected events.",
+            "additionalValue": "Email, mobile, in-app",
+            "featureType": "NOTIFICATIONS"
+          }
+        ],
+        "isTailored": false,
+        "lastUpdated": "2026-07-31T05:57:32.849963Z",
+        "name": "Express Saver",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "productId": "de32ed1f-1b03-4344-9eb1-74266f4014dd"
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "f6e39d0c-39bc-48ef-82e0-53bb6d495ea7",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "brand": "MoveBank",
+        "brandName": "MoveBank",
+        "constraints": [
+          {
+            "additionalInfo": "You can only hold a maximum of 10 accounts for this product.",
+            "additionalValue": "10.00",
+            "constraintType": "MAX_LIMIT"
+          }
+        ],
+        "depositRates": [
+          {
+            "applicationFrequency": "P1M",
+            "applicationType": "PERIODIC",
+            "calculationFrequency": "P1D",
+            "depositRateType": "VARIABLE",
+            "rate": "0.048"
+          }
+        ],
+        "description": "Online Saver",
+        "effectiveFrom": "2026-07-31T04:00:00Z",
+        "eligibility": [
+          {
+            "additionalInfo": "Must be an Australian tax resident.",
+            "additionalValue": "Australian resident",
+            "eligibilityType": "RESIDENCY_STATUS"
+          }
+        ],
+        "features": [
+          {
+            "additionalInfo": "You can receive notifications about activity on this account via email, mobile, and in-app for selected events.",
+            "additionalValue": "Email, mobile, in-app",
+            "featureType": "NOTIFICATIONS"
+          }
+        ],
+        "isTailored": false,
+        "lastUpdated": "2026-10-14T03:43:08.379585Z",
+        "name": "Online Saver",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "productId": "f6e39d0c-39bc-48ef-82e0-53bb6d495ea7"
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "ff2bc097-6390-4e1d-b97a-a3ebc42df30c",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "brand": "MoveBank",
+        "brandName": "MoveBank",
+        "constraints": [
+          {
+            "additionalInfo": "You can only hold a maximum of 1 account for this product.",
+            "additionalValue": "1.00",
+            "constraintType": "MAX_LIMIT"
+          }
+        ],
+        "depositRates": [
+          {
+            "applicationFrequency": "P1M",
+            "applicationType": "PERIODIC",
+            "calculationFrequency": "P1D",
+            "depositRateType": "VARIABLE",
+            "rate": "0.001"
+          },
+          {
+            "additionalInfo": "Bonus rate payable for a calendar month when the eligibility criteria below are met, in addition to the base rate.",
+            "additionalValue": "Monthly deposit and no-withdrawal bonus",
+            "applicabilityConditions": [
+              {
+                "additionalInfo": "No withdrawals from the account during the calendar month.",
+                "rateApplicabilityType": "OTHER"
+              },
+              {
+                "additionalInfo": "Minimum $200 in deposits (credits) to the account during the calendar month.",
+                "additionalValue": "200.00",
+                "rateApplicabilityType": "MIN_DEPOSIT_AMOUNT"
+              }
+            ],
+            "applicationFrequency": "P1M",
+            "applicationType": "PERIODIC",
+            "calculationFrequency": "P1D",
+            "depositRateType": "BONUS",
+            "rate": "0.0565",
+            "tiers": [
+              {
+                "maximumValue": "25000.00",
+                "minimumValue": "0.00",
+                "name": "Bonus eligible balance $0–$25,000",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "unitOfMeasure": "DOLLAR"
+              }
+            ]
+          }
+        ],
+        "description": "Growth Saver",
+        "effectiveFrom": "2026-07-31T04:00:00Z",
+        "eligibility": [
+          {
+            "additionalInfo": "Must be an Australian tax resident.",
+            "additionalValue": "Australian resident",
+            "eligibilityType": "RESIDENCY_STATUS"
+          }
+        ],
+        "features": [
+          {
+            "additionalInfo": "You can receive notifications about activity on this account via email, mobile, and in-app for selected events.",
+            "additionalValue": "Email, mobile, in-app",
+            "featureType": "NOTIFICATIONS"
+          }
+        ],
+        "isTailored": false,
+        "lastUpdated": "2026-11-01T00:12:21.175254Z",
+        "name": "Growth Saver",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "productId": "ff2bc097-6390-4e1d-b97a-a3ebc42df30c"
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    }
+  ]
+}

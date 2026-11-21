@@ -1,0 +1,27 @@
+{
+  "endpoint": "https://public.riyadh.cdr.colcap.com.au/cds-au/v1/banking/products",
+  "slug": "riyadh-financial-services-14a4eb",
+  "brands": [
+    {
+      "dataHolderBrandId": "5986324e-dfba-f111-81be-000d3a799057",
+      "brandName": "Riyadh Financial Services",
+      "brandGroup": null,
+      "abn": "51119531252",
+      "industries": [
+        "non-bank-lending"
+      ]
+    }
+  ],
+  "list": {
+    "ok": true,
+    "status": 200,
+    "version": "5",
+    "totalPages": 1,
+    "pagesFetched": 1,
+    "productCount": 11,
+    "categoryCounts": {
+      "RESIDENTIAL_MORTGAGES": 11
+    }
+  },
+  "products": []
+}

@@ -1,0 +1,1840 @@
+{
+  "endpoint": "https://public.cdr.bnk.com.au/cds-au/v1/banking/products",
+  "slug": "bnk-bank-goldfields-money-bchl-3f065e",
+  "brands": [
+    {
+      "dataHolderBrandId": "71f693b4-d62b-f011-9d48-002248148db8",
+      "brandName": "BNK Bank (Goldfields Money/BCHL)",
+      "brandGroup": null,
+      "abn": "63087651849",
+      "industries": [
+        "banking"
+      ]
+    }
+  ],
+  "list": {
+    "ok": true,
+    "status": 200,
+    "version": "5",
+    "totalPages": 1,
+    "pagesFetched": 1,
+    "productCount": 13,
+    "categoryCounts": {
+      "RESIDENTIAL_MORTGAGES": 4,
+      "TERM_DEPOSITS": 2,
+      "BUSINESS_LOANS": 4,
+      "TRANS_AND_SAVINGS_ACCOUNTS": 3
+    }
+  },
+  "products": [
+    {
+      "productId": "1001",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "brand": "BNK Bank (Goldfields Money/BCHL)",
+        "description": "An everyday transaction account for savvy savers.",
+        "isTailored": false,
+        "lastUpdated": "2026-04-20T01:20:00.4038Z",
+        "name": "Goldfields Essential Account",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "productId": "1001",
+        "additionalInformation": {
+          "overviewUri": null,
+          "termsUri": null,
+          "eligibilityUri": null,
+          "feesAndPricingUri": null,
+          "bundleUri": null,
+          "additionalOverviewUris": [],
+          "additionalTermsUris": [],
+          "additionalEligibilityUris": [],
+          "additionalFeesAndPricingUris": [],
+          "additionalBundleUris": []
+        },
+        "applicationUri": null,
+        "brandName": "BNK Bank (Goldfields Money/BCHL)",
+        "brandGroup": null,
+        "cardArt": [],
+        "effectiveFrom": "2020-09-29T14:00:00Z",
+        "effectiveTo": "9999-09-29T13:00:00Z",
+        "bundles": [],
+        "constraints": [],
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.00",
+            "additionalInfo": "The interest rate applied to Essential and Team zone Accounts ",
+            "additionalInfoUri": "https://www.bnk.com.au/everyday-banking/transaction-account/",
+            "additionalValue": null,
+            "applicationFrequency": "P1M",
+            "calculationFrequency": "P1D",
+            "tiers": [],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": [
+              {
+                "additionalInfo": "The interest rate applied to existing transaction and team zone customer accounts ",
+                "additionalInfoUri": null,
+                "rateApplicabilityType": "EXISTING_CUST",
+                "additionalValue": null
+              },
+              {
+                "additionalInfo": "The interest rate applied to new transaction Accounts only",
+                "additionalInfoUri": null,
+                "rateApplicabilityType": "NEW_ACCOUNTS",
+                "additionalValue": null
+              }
+            ]
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "OTHER",
+            "additionalInfo": "Have access to an electronic device with a working internet connection ",
+            "additionalInfoUri": null,
+            "additionalValue": null
+          },
+          {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalInfo": "be in Australia and have an Australian residential address and phone number",
+            "additionalInfoUri": null,
+            "additionalValue": "An Australian citizen, permanent resident or Australian resident for tax purposes"
+          },
+          {
+            "eligibilityType": "NATURAL_PERSON",
+            "additionalInfo": "To open a deposit account as a personal customer, you must: - be an individual (or up to 4 individuals) - be an Australian resident for tax purposes - have a residential postal address in Australia - maintain a current email address, an Australian mobile number and always have access to an electronic device with a working internet connection",
+            "additionalInfoUri": null,
+            "additionalValue": null
+          },
+          {
+            "eligibilityType": "MIN_AGE",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "18"
+          }
+        ],
+        "features": [
+          {
+            "featureType": "DIGITAL_WALLET",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "Apple Pay"
+          },
+          {
+            "featureType": "DIGITAL_WALLET",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "Google Pay"
+          },
+          {
+            "featureType": "CARD_ACCESS",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "Yes"
+          },
+          {
+            "featureType": "BILL_PAYMENT",
+            "additionalInfo": "There is a BPAY daily limit of $10,000 per day",
+            "additionalInfoUri": null,
+            "additionalValue": "BPAY"
+          },
+          {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": null
+          },
+          {
+            "featureType": "UNLIMITED_TXNS",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": null
+          },
+          {
+            "featureType": "ADDITIONAL_CARDS",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": null
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "ATM withdrawals - There is an ATM daily limit of $1,000",
+            "additionalInfoUri": null,
+            "additionalValue": null
+          }
+        ],
+        "fees": [
+          {
+            "feeType": "TRANSACTION",
+            "name": "RTGS/IPEX (outgoing)",
+            "additionalInfo": null,
+            "additionalInfoUri": "https://www.bnk.com.au/wp-content/uploads/2025/05/BNK-Goldfields-Transaction-Accounts-Fees-Charges-251112.pdf",
+            "additionalValue": null,
+            "currency": "AUD",
+            "discounts": [],
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "35.00"
+            },
+            "rateBased": null,
+            "variable": null,
+            "feeCap": null,
+            "feeCapPeriod": null
+          },
+          {
+            "feeType": "TRANSACTION",
+            "name": "RTGS/IPEX (incoming)",
+            "additionalInfo": null,
+            "additionalInfoUri": "https://www.bnk.com.au/wp-content/uploads/2025/05/BNK-Goldfields-Transaction-Accounts-Fees-Charges-251112.pdf",
+            "additionalValue": null,
+            "currency": "AUD",
+            "discounts": [],
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "10.00"
+            },
+            "rateBased": null,
+            "variable": null,
+            "feeCap": null,
+            "feeCapPeriod": null
+          },
+          {
+            "feeType": "EVENT",
+            "name": "Direct Debit Double Handling Fee",
+            "additionalInfo": null,
+            "additionalInfoUri": "https://www.bnk.com.au/wp-content/uploads/2025/05/BNK-Goldfields-Transaction-Accounts-Fees-Charges-251112.pdf",
+            "additionalValue": null,
+            "currency": "AUD",
+            "discounts": [],
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "5.00"
+            },
+            "rateBased": null,
+            "variable": null,
+            "feeCap": null,
+            "feeCapPeriod": null
+          },
+          {
+            "feeType": "WITHDRAWAL",
+            "name": "Overseas VISA debit card ATM withdrawal",
+            "additionalInfo": null,
+            "additionalInfoUri": "https://www.bnk.com.au/wp-content/uploads/2025/05/BNK-Goldfields-Transaction-Accounts-Fees-Charges-251112.pdf",
+            "additionalValue": null,
+            "currency": "AUD",
+            "discounts": [],
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "5.00"
+            },
+            "rateBased": null,
+            "variable": null,
+            "feeCap": null,
+            "feeCapPeriod": null
+          },
+          {
+            "feeType": "PAYMENT",
+            "name": "Direct Debit Facility Dishonour ",
+            "additionalInfo": null,
+            "additionalInfoUri": "https://www.bnk.com.au/wp-content/uploads/2025/05/BNK-Goldfields-Transaction-Accounts-Fees-Charges-251112.pdf",
+            "additionalValue": null,
+            "currency": "AUD",
+            "discounts": [],
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "25.00"
+            },
+            "rateBased": null,
+            "variable": null,
+            "feeCap": null,
+            "feeCapPeriod": null
+          },
+          {
+            "feeType": "EVENT",
+            "name": "Payment Dishonour",
+            "additionalInfo": null,
+            "additionalInfoUri": "https://www.bnk.com.au/wp-content/uploads/2025/05/BNK-Goldfields-Transaction-Accounts-Fees-Charges-251112.pdf",
+            "additionalValue": null,
+            "currency": "AUD",
+            "discounts": [],
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "25.00"
+            },
+            "rateBased": null,
+            "variable": null,
+            "feeCap": null,
+            "feeCapPeriod": null
+          },
+          {
+            "feeType": "EVENT",
+            "name": "Formal Overdraft Product Fee (Quarterly)",
+            "additionalInfo": null,
+            "additionalInfoUri": "https://www.bnk.com.au/wp-content/uploads/2025/05/BNK-Goldfields-Transaction-Accounts-Fees-Charges-251112.pdf",
+            "additionalValue": null,
+            "currency": "AUD",
+            "discounts": [],
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "27.50"
+            },
+            "rateBased": null,
+            "variable": null,
+            "feeCap": null,
+            "feeCapPeriod": null
+          },
+          {
+            "feeType": "PAYMENT",
+            "name": "Payment Honour",
+            "additionalInfo": null,
+            "additionalInfoUri": "https://www.bnk.com.au/wp-content/uploads/2025/05/BNK-Goldfields-Transaction-Accounts-Fees-Charges-251112.pdf",
+            "additionalValue": null,
+            "currency": "AUD",
+            "discounts": [],
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "20.00"
+            },
+            "rateBased": null,
+            "variable": null,
+            "feeCap": null,
+            "feeCapPeriod": null
+          },
+          {
+            "feeType": "EVENT",
+            "name": "VISA or EFT Chargeback Request",
+            "additionalInfo": null,
+            "additionalInfoUri": "https://www.bnk.com.au/wp-content/uploads/2025/05/BNK-Goldfields-Transaction-Accounts-Fees-Charges-251112.pdf",
+            "additionalValue": null,
+            "currency": null,
+            "discounts": [],
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "25.00"
+            },
+            "rateBased": null,
+            "variable": null,
+            "feeCap": null,
+            "feeCapPeriod": null
+          }
+        ],
+        "lendingRates": [],
+        "instalments": null
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "1003",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "brand": "BNK Bank (Goldfields Money/BCHL)",
+        "description": "A Goldfields Cash Management Account is a high interest earning account for individuals, business or companies ",
+        "isTailored": false,
+        "lastUpdated": "2026-11-04T04:00:00.250349Z",
+        "name": "Cash Management Account",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "productId": "1003",
+        "additionalInformation": {
+          "overviewUri": null,
+          "termsUri": null,
+          "eligibilityUri": null,
+          "feesAndPricingUri": null,
+          "bundleUri": null,
+          "additionalOverviewUris": [],
+          "additionalTermsUris": [],
+          "additionalEligibilityUris": [],
+          "additionalFeesAndPricingUris": [],
+          "additionalBundleUris": []
+        },
+        "applicationUri": null,
+        "brandName": "BNK Bank (Goldfields Money/BCHL)",
+        "brandGroup": null,
+        "cardArt": [],
+        "effectiveFrom": "2025-02-18T13:00:00Z",
+        "effectiveTo": "9999-09-29T13:00:00Z",
+        "bundles": [],
+        "constraints": [],
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.045",
+            "additionalInfo": "Cash Management Account interest rate ",
+            "additionalInfoUri": "https://www.bnk.com.au/everyday-banking/cash-management-accounts/",
+            "additionalValue": null,
+            "applicationFrequency": "P1M",
+            "calculationFrequency": "P1D",
+            "tiers": [],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": [
+              {
+                "additionalInfo": "The interest rate applied to existing customers CMA accounts ",
+                "additionalInfoUri": null,
+                "rateApplicabilityType": "EXISTING_CUST",
+                "additionalValue": null
+              },
+              {
+                "additionalInfo": "The interest rate applied to new CMA customer accounts",
+                "additionalInfoUri": null,
+                "rateApplicabilityType": "NEW_ACCOUNTS",
+                "additionalValue": null
+              }
+            ]
+          },
+          {
+            "depositRateType": "INTRODUCTORY",
+            "rate": "0.051",
+            "additionalInfo": "Cash Management Account introductory interest rate",
+            "additionalInfoUri": "https://www.bnk.com.au/everyday-banking/cash-management-accounts/",
+            "additionalValue": "P3M",
+            "applicationFrequency": "P1M",
+            "calculationFrequency": "P1D",
+            "tiers": [],
+            "applicationType": "MATURITY",
+            "applicabilityConditions": [
+              {
+                "additionalInfo": "The interest rate applied to new customers\nCMA accounts",
+                "additionalInfoUri": "https://www.bnk.com.au/everyday-banking/cash-management-accounts/",
+                "rateApplicabilityType": "NEW_CUSTOMER",
+                "additionalValue": null
+              },
+              {
+                "additionalInfo": "This offer is available to new customers on balances over $20,000 and is fixed at 0.60% p.a. above the standard CMA variable rate for 3 months.",
+                "additionalInfoUri": "https://www.bnk.com.au/everyday-banking/cash-management-accounts/",
+                "rateApplicabilityType": "MIN_DEPOSIT_AMOUNT",
+                "additionalValue": "20000.00"
+              }
+            ]
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "BUSINESS",
+            "additionalInfo": "ABN Holder",
+            "additionalInfoUri": null,
+            "additionalValue": null
+          },
+          {
+            "eligibilityType": "BUSINESS",
+            "additionalInfo": "Be a Company, sole trader business, partnership, or a Trustee of a SMSF and have at least one signatory who is at least 18 years of age and an Australian resident for tax purposes.",
+            "additionalInfoUri": null,
+            "additionalValue": null
+          },
+          {
+            "eligibilityType": "OTHER",
+            "additionalInfo": "have access to an electronic device with a working internet connection ",
+            "additionalInfoUri": null,
+            "additionalValue": null
+          },
+          {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalInfo": "have a business address, registered office and postal address in Australia",
+            "additionalInfoUri": null,
+            "additionalValue": "Business Address in Australia"
+          },
+          {
+            "eligibilityType": "OTHER",
+            "additionalInfo": "Have access to an electronic device with a working internet connection ",
+            "additionalInfoUri": null,
+            "additionalValue": null
+          },
+          {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalInfo": "be in Australia and have an Australian residential address and phone number",
+            "additionalInfoUri": null,
+            "additionalValue": "An Australian citizen, permanent resident or Australian resident for tax purposes"
+          },
+          {
+            "eligibilityType": "NATURAL_PERSON",
+            "additionalInfo": "To open a deposit account as a personal customer, you must: - be an individual (or up to 4 individuals) - be an Australian resident for tax purposes - have a residential postal address in Australia - maintain a current email address, an Australian mobile number and always have access to an electronic device with a working internet connection",
+            "additionalInfoUri": null,
+            "additionalValue": null
+          },
+          {
+            "eligibilityType": "MIN_AGE",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "18"
+          }
+        ],
+        "features": [
+          {
+            "featureType": "ADDITIONAL_CARDS",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": null
+          },
+          {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": null
+          },
+          {
+            "featureType": "CARD_ACCESS",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "VISA debit card"
+          },
+          {
+            "featureType": "DIGITAL_WALLET",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "Apple Pay"
+          },
+          {
+            "featureType": "BILL_PAYMENT",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "BPAY"
+          },
+          {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": null
+          },
+          {
+            "featureType": "UNLIMITED_TXNS",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": null
+          },
+          {
+            "featureType": "DIGITAL_WALLET",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "Google Pay"
+          }
+        ],
+        "fees": [
+          {
+            "feeType": "PAYMENT",
+            "name": "RTGS/IPEX (Outgoing)",
+            "additionalInfo": null,
+            "additionalInfoUri": "https://www.bnk.com.au/wp-content/uploads/2025/05/BNK-Goldfields-Transaction-Accounts-Fees-Charges-251112.pdf",
+            "additionalValue": null,
+            "currency": "AUD",
+            "discounts": [],
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "35.00"
+            },
+            "rateBased": null,
+            "variable": null,
+            "feeCap": null,
+            "feeCapPeriod": null
+          },
+          {
+            "feeType": "TRANSACTION",
+            "name": "RTGS/IPEX (incoming)",
+            "additionalInfo": null,
+            "additionalInfoUri": "https://www.bnk.com.au/wp-content/uploads/2025/05/BNK-Goldfields-Transaction-Accounts-Fees-Charges-251112.pdf",
+            "additionalValue": null,
+            "currency": "AUD",
+            "discounts": [],
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "10.00"
+            },
+            "rateBased": null,
+            "variable": null,
+            "feeCap": null,
+            "feeCapPeriod": null
+          },
+          {
+            "feeType": "PAYMENT",
+            "name": "Direct Debit Double Handling Fee",
+            "additionalInfo": null,
+            "additionalInfoUri": "https://www.bnk.com.au/wp-content/uploads/2025/05/BNK-Goldfields-Transaction-Accounts-Fees-Charges-251112.pdf",
+            "additionalValue": null,
+            "currency": "AUD",
+            "discounts": [],
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "5.00"
+            },
+            "rateBased": null,
+            "variable": null,
+            "feeCap": null,
+            "feeCapPeriod": null
+          },
+          {
+            "feeType": "WITHDRAWAL",
+            "name": "Overseas VISA debit card ATM withdrawal",
+            "additionalInfo": null,
+            "additionalInfoUri": "https://www.bnk.com.au/wp-content/uploads/2025/05/BNK-Goldfields-Transaction-Accounts-Fees-Charges-251112.pdf",
+            "additionalValue": null,
+            "currency": "AUD",
+            "discounts": [],
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "5.00"
+            },
+            "rateBased": null,
+            "variable": null,
+            "feeCap": null,
+            "feeCapPeriod": null
+          },
+          {
+            "feeType": "EVENT",
+            "name": "VISA or EFT Chargeback Request",
+            "additionalInfo": null,
+            "additionalInfoUri": "https://www.bnk.com.au/wp-content/uploads/2025/05/BNK-Goldfields-Transaction-Accounts-Fees-Charges-251112.pdf",
+            "additionalValue": null,
+            "currency": "AUD",
+            "discounts": [],
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "25.00"
+            },
+            "rateBased": null,
+            "variable": null,
+            "feeCap": null,
+            "feeCapPeriod": null
+          },
+          {
+            "feeType": "EVENT",
+            "name": "Direct Debit Facility Dishonour",
+            "additionalInfo": null,
+            "additionalInfoUri": "https://www.bnk.com.au/wp-content/uploads/2025/05/BNK-Goldfields-Transaction-Accounts-Fees-Charges-251112.pdf",
+            "additionalValue": null,
+            "currency": "AUD",
+            "discounts": [],
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "25.00"
+            },
+            "rateBased": null,
+            "variable": null,
+            "feeCap": null,
+            "feeCapPeriod": null
+          },
+          {
+            "feeType": "EVENT",
+            "name": "Payment Honour",
+            "additionalInfo": null,
+            "additionalInfoUri": "https://www.bnk.com.au/wp-content/uploads/2025/05/BNK-Goldfields-Transaction-Accounts-Fees-Charges-251112.pdf",
+            "additionalValue": null,
+            "currency": "AUD",
+            "discounts": [],
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "20.00"
+            },
+            "rateBased": null,
+            "variable": null,
+            "feeCap": null,
+            "feeCapPeriod": null
+          },
+          {
+            "feeType": "EVENT",
+            "name": "Payment Dishonour",
+            "additionalInfo": null,
+            "additionalInfoUri": "https://www.bnk.com.au/wp-content/uploads/2025/05/BNK-Goldfields-Transaction-Accounts-Fees-Charges-251112.pdf",
+            "additionalValue": null,
+            "currency": "AUD",
+            "discounts": [],
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "25.00"
+            },
+            "rateBased": null,
+            "variable": null,
+            "feeCap": null,
+            "feeCapPeriod": null
+          },
+          {
+            "feeType": "PERIODIC",
+            "name": "Formal Overdraft Product Fee (Quarterly)",
+            "additionalInfo": null,
+            "additionalInfoUri": "https://www.bnk.com.au/wp-content/uploads/2025/05/BNK-Goldfields-Transaction-Accounts-Fees-Charges-251112.pdf",
+            "additionalValue": "P3M",
+            "currency": "AUD",
+            "discounts": [],
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "52.50"
+            },
+            "rateBased": null,
+            "variable": null,
+            "feeCap": null,
+            "feeCapPeriod": null
+          },
+          {
+            "feeType": "TRANSACTION",
+            "name": "RTGS/IPEX (outgoing)",
+            "additionalInfo": null,
+            "additionalInfoUri": "https://www.bnk.com.au/wp-content/uploads/2025/05/BNK-Goldfields-Transaction-Accounts-Fees-Charges-251112.pdf",
+            "additionalValue": null,
+            "currency": "AUD",
+            "discounts": [],
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "35.00"
+            },
+            "rateBased": null,
+            "variable": null,
+            "feeCap": null,
+            "feeCapPeriod": null
+          },
+          {
+            "feeType": "TRANSACTION",
+            "name": "RTGS/IPEX (incoming)",
+            "additionalInfo": null,
+            "additionalInfoUri": "https://www.bnk.com.au/wp-content/uploads/2025/05/BNK-Goldfields-Transaction-Accounts-Fees-Charges-251112.pdf",
+            "additionalValue": null,
+            "currency": "AUD",
+            "discounts": [],
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "10.00"
+            },
+            "rateBased": null,
+            "variable": null,
+            "feeCap": null,
+            "feeCapPeriod": null
+          },
+          {
+            "feeType": "EVENT",
+            "name": "Direct Debit Double Handling Fee",
+            "additionalInfo": null,
+            "additionalInfoUri": "https://www.bnk.com.au/wp-content/uploads/2025/05/BNK-Goldfields-Transaction-Accounts-Fees-Charges-251112.pdf",
+            "additionalValue": null,
+            "currency": "AUD",
+            "discounts": [],
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "5.00"
+            },
+            "rateBased": null,
+            "variable": null,
+            "feeCap": null,
+            "feeCapPeriod": null
+          },
+          {
+            "feeType": "WITHDRAWAL",
+            "name": "Overseas VISA debit card ATM withdrawal",
+            "additionalInfo": null,
+            "additionalInfoUri": "https://www.bnk.com.au/wp-content/uploads/2025/05/BNK-Goldfields-Transaction-Accounts-Fees-Charges-251112.pdf",
+            "additionalValue": null,
+            "currency": "AUD",
+            "discounts": [],
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "5.00"
+            },
+            "rateBased": null,
+            "variable": null,
+            "feeCap": null,
+            "feeCapPeriod": null
+          },
+          {
+            "feeType": "PAYMENT",
+            "name": "Direct Debit Facility Dishonour ",
+            "additionalInfo": null,
+            "additionalInfoUri": "https://www.bnk.com.au/wp-content/uploads/2025/05/BNK-Goldfields-Transaction-Accounts-Fees-Charges-251112.pdf",
+            "additionalValue": null,
+            "currency": "AUD",
+            "discounts": [],
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "25.00"
+            },
+            "rateBased": null,
+            "variable": null,
+            "feeCap": null,
+            "feeCapPeriod": null
+          },
+          {
+            "feeType": "EVENT",
+            "name": "Payment Dishonour",
+            "additionalInfo": null,
+            "additionalInfoUri": "https://www.bnk.com.au/wp-content/uploads/2025/05/BNK-Goldfields-Transaction-Accounts-Fees-Charges-251112.pdf",
+            "additionalValue": null,
+            "currency": "AUD",
+            "discounts": [],
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "25.00"
+            },
+            "rateBased": null,
+            "variable": null,
+            "feeCap": null,
+            "feeCapPeriod": null
+          },
+          {
+            "feeType": "EVENT",
+            "name": "Formal Overdraft Product Fee (Quarterly)",
+            "additionalInfo": null,
+            "additionalInfoUri": "https://www.bnk.com.au/wp-content/uploads/2025/05/BNK-Goldfields-Transaction-Accounts-Fees-Charges-251112.pdf",
+            "additionalValue": null,
+            "currency": "AUD",
+            "discounts": [],
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "27.50"
+            },
+            "rateBased": null,
+            "variable": null,
+            "feeCap": null,
+            "feeCapPeriod": null
+          },
+          {
+            "feeType": "PAYMENT",
+            "name": "Payment Honour",
+            "additionalInfo": null,
+            "additionalInfoUri": "https://www.bnk.com.au/wp-content/uploads/2025/05/BNK-Goldfields-Transaction-Accounts-Fees-Charges-251112.pdf",
+            "additionalValue": null,
+            "currency": "AUD",
+            "discounts": [],
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "20.00"
+            },
+            "rateBased": null,
+            "variable": null,
+            "feeCap": null,
+            "feeCapPeriod": null
+          },
+          {
+            "feeType": "EVENT",
+            "name": "VISA or EFT Chargeback Request",
+            "additionalInfo": null,
+            "additionalInfoUri": "https://www.bnk.com.au/wp-content/uploads/2025/05/BNK-Goldfields-Transaction-Accounts-Fees-Charges-251112.pdf",
+            "additionalValue": null,
+            "currency": null,
+            "discounts": [],
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "25.00"
+            },
+            "rateBased": null,
+            "variable": null,
+            "feeCap": null,
+            "feeCapPeriod": null
+          }
+        ],
+        "lendingRates": [],
+        "instalments": null
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "1006",
+      "productCategory": "TERM_DEPOSITS",
+      "detail": {
+        "brand": "BNK Bank (Goldfields Money/BCHL)",
+        "description": "We offer both a personal and business option and we pay a great rate to reward you for stashing your hard earned cash with us.",
+        "isTailored": false,
+        "lastUpdated": "2026-11-09T03:01:05.0215Z",
+        "name": "Stow It Term Deposit Account",
+        "productCategory": "TERM_DEPOSITS",
+        "productId": "1006",
+        "additionalInformation": {
+          "overviewUri": null,
+          "termsUri": null,
+          "eligibilityUri": null,
+          "feesAndPricingUri": null,
+          "bundleUri": null,
+          "additionalOverviewUris": [],
+          "additionalTermsUris": [],
+          "additionalEligibilityUris": [],
+          "additionalFeesAndPricingUris": [],
+          "additionalBundleUris": []
+        },
+        "applicationUri": null,
+        "brandName": "BNK Bank (Goldfields Money/BCHL)",
+        "brandGroup": null,
+        "cardArt": [],
+        "effectiveFrom": "2025-04-15T14:00:00Z",
+        "effectiveTo": "9999-09-29T13:00:00Z",
+        "bundles": [],
+        "constraints": [
+          {
+            "constraintType": "MIN_BALANCE",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "5000.00"
+          },
+          {
+            "constraintType": "OPENING_BALANCE",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "5000.00"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0505",
+            "additionalInfo": "Rate applied to a 1 Month Term Deposit",
+            "additionalInfoUri": "https://www.goldfieldsmoney.com.au/products/deposits/term-deposits/",
+            "additionalValue": "P1M",
+            "applicationFrequency": "P1M",
+            "calculationFrequency": null,
+            "tiers": [],
+            "applicationType": "MATURITY",
+            "applicabilityConditions": [
+              {
+                "additionalInfo": "This rate is applicable to new Term Deposit Accounts ",
+                "additionalInfoUri": null,
+                "rateApplicabilityType": "NEW_ACCOUNTS",
+                "additionalValue": null
+              }
+            ]
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0545",
+            "additionalInfo": "The rate applied to a 9 month Term Deposit",
+            "additionalInfoUri": "https://www.goldfieldsmoney.com.au/products/deposits/term-deposits/",
+            "additionalValue": "P9M",
+            "applicationFrequency": "P9M",
+            "calculationFrequency": null,
+            "tiers": [],
+            "applicationType": "MATURITY",
+            "applicabilityConditions": [
+              {
+                "additionalInfo": "This rate is applicable to new Term Deposit Accounts ",
+                "additionalInfoUri": null,
+                "rateApplicabilityType": "NEW_ACCOUNTS",
+                "additionalValue": null
+              }
+            ]
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0535",
+            "additionalInfo": "The rate applied to a 8 month Term Deposit",
+            "additionalInfoUri": "https://www.goldfieldsmoney.com.au/products/deposits/term-deposits/",
+            "additionalValue": "P8M",
+            "applicationFrequency": "P8M",
+            "calculationFrequency": null,
+            "tiers": [],
+            "applicationType": "MATURITY",
+            "applicabilityConditions": [
+              {
+                "additionalInfo": "This rate is applicable to new Term Deposit Accounts ",
+                "additionalInfoUri": null,
+                "rateApplicabilityType": "NEW_ACCOUNTS",
+                "additionalValue": null
+              }
+            ]
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.053",
+            "additionalInfo": "The rate applied to a 3 month Term Deposit\n",
+            "additionalInfoUri": "https://www.goldfieldsmoney.com.au/products/deposits/term-deposits/",
+            "additionalValue": "P3M",
+            "applicationFrequency": "P3M",
+            "calculationFrequency": null,
+            "tiers": [],
+            "applicationType": "MATURITY",
+            "applicabilityConditions": [
+              {
+                "additionalInfo": "This rate is applicable to new Term Deposit Accounts ",
+                "additionalInfoUri": null,
+                "rateApplicabilityType": "NEW_ACCOUNTS",
+                "additionalValue": null
+              }
+            ]
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.054",
+            "additionalInfo": "The rate applied to a 7 month Term Deposit",
+            "additionalInfoUri": "https://www.goldfieldsmoney.com.au/products/deposits/term-deposits/",
+            "additionalValue": "P7M",
+            "applicationFrequency": "P7M",
+            "calculationFrequency": null,
+            "tiers": [],
+            "applicationType": "MATURITY",
+            "applicabilityConditions": [
+              {
+                "additionalInfo": "This rate is applicable to new Term Deposit Accounts ",
+                "additionalInfoUri": null,
+                "rateApplicabilityType": "NEW_ACCOUNTS",
+                "additionalValue": null
+              }
+            ]
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0545",
+            "additionalInfo": "The rate applied to a 10 month Term Deposit",
+            "additionalInfoUri": "https://www.goldfieldsmoney.com.au/products/deposits/term-deposits/",
+            "additionalValue": "P10M",
+            "applicationFrequency": "P10M",
+            "calculationFrequency": null,
+            "tiers": [],
+            "applicationType": "MATURITY",
+            "applicabilityConditions": [
+              {
+                "additionalInfo": "This rate is applicable to new Term Deposit Accounts ",
+                "additionalInfoUri": null,
+                "rateApplicabilityType": "NEW_ACCOUNTS",
+                "additionalValue": null
+              }
+            ]
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0545",
+            "additionalInfo": "The rate applied to a 12 month Term Deposit",
+            "additionalInfoUri": "https://www.goldfieldsmoney.com.au/products/deposits/term-deposits/",
+            "additionalValue": "P12M",
+            "applicationFrequency": "P12M",
+            "calculationFrequency": null,
+            "tiers": [],
+            "applicationType": "MATURITY",
+            "applicabilityConditions": [
+              {
+                "additionalInfo": "This rate is applicable to new Term Deposit Accounts ",
+                "additionalInfoUri": null,
+                "rateApplicabilityType": "NEW_ACCOUNTS",
+                "additionalValue": null
+              }
+            ]
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.054",
+            "additionalInfo": "The rate applied to a 6 month Term Deposit",
+            "additionalInfoUri": "https://www.goldfieldsmoney.com.au/products/deposits/term-deposits/",
+            "additionalValue": "P6M",
+            "applicationFrequency": "P6M",
+            "calculationFrequency": null,
+            "tiers": [],
+            "applicationType": "MATURITY",
+            "applicabilityConditions": [
+              {
+                "additionalInfo": "This rate is applicable to new Term Deposit Accounts ",
+                "additionalInfoUri": null,
+                "rateApplicabilityType": "NEW_ACCOUNTS",
+                "additionalValue": null
+              }
+            ]
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0535",
+            "additionalInfo": "The rate applied to a 5 month Term Deposit",
+            "additionalInfoUri": "https://www.goldfieldsmoney.com.au/products/deposits/term-deposits/",
+            "additionalValue": "P5M",
+            "applicationFrequency": "P5M",
+            "calculationFrequency": null,
+            "tiers": [],
+            "applicationType": "MATURITY",
+            "applicabilityConditions": [
+              {
+                "additionalInfo": "This rate is applicable to new Term Deposit Accounts ",
+                "additionalInfoUri": null,
+                "rateApplicabilityType": "NEW_ACCOUNTS",
+                "additionalValue": null
+              }
+            ]
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0505",
+            "additionalInfo": "The rate applied to a 2 month Term Deposit",
+            "additionalInfoUri": "https://www.goldfieldsmoney.com.au/products/deposits/term-deposits/",
+            "additionalValue": "P2M",
+            "applicationFrequency": "P2M",
+            "calculationFrequency": null,
+            "tiers": [],
+            "applicationType": "MATURITY",
+            "applicabilityConditions": [
+              {
+                "additionalInfo": "This rate is applicable to new Term Deposit Accounts ",
+                "additionalInfoUri": null,
+                "rateApplicabilityType": "NEW_ACCOUNTS",
+                "additionalValue": null
+              }
+            ]
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.053",
+            "additionalInfo": "The rate applied to a 4 month Term Deposit",
+            "additionalInfoUri": "https://www.goldfieldsmoney.com.au/products/deposits/term-deposits/",
+            "additionalValue": "P4M",
+            "applicationFrequency": "P4M",
+            "calculationFrequency": null,
+            "tiers": [],
+            "applicationType": "MATURITY",
+            "applicabilityConditions": [
+              {
+                "additionalInfo": "This rate is applicable to new Term Deposit Accounts ",
+                "additionalInfoUri": null,
+                "rateApplicabilityType": "NEW_ACCOUNTS",
+                "additionalValue": null
+              }
+            ]
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0545",
+            "additionalInfo": "The rate applied to a 11 month Term Deposit",
+            "additionalInfoUri": "https://www.goldfieldsmoney.com.au/products/deposits/term-deposits/",
+            "additionalValue": "P11M",
+            "applicationFrequency": "P11M",
+            "calculationFrequency": null,
+            "tiers": [],
+            "applicationType": "MATURITY",
+            "applicabilityConditions": [
+              {
+                "additionalInfo": "This rate is applicable to new Term Deposit Accounts ",
+                "additionalInfoUri": null,
+                "rateApplicabilityType": "NEW_ACCOUNTS",
+                "additionalValue": null
+              }
+            ]
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "MIN_AGE",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "18"
+          },
+          {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "An Australian citizen, permanent resident or Australian resident for tax purposes"
+          },
+          {
+            "eligibilityType": "NATURAL_PERSON",
+            "additionalInfo": "To open a term deposit as a personal customer, you must:\n- be an individual (or up to 4 individuals)\n- be an Australian resident for tax purposes \n- have a residential postal address in Australia\n- maintain a current email address, an Australian mobile number and always have access to an electronic device with a working internet connection ",
+            "additionalInfoUri": null,
+            "additionalValue": null
+          }
+        ],
+        "features": [
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "A loyalty bonus maybe offered if you automatically roll over your term deposit into a new term with BNK/Goldfields",
+            "additionalInfoUri": null,
+            "additionalValue": null
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "7 calendar days rollover cooling off period.",
+            "additionalInfoUri": null,
+            "additionalValue": null
+          },
+          {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": "Internet Banking Available",
+            "additionalInfoUri": null,
+            "additionalValue": null
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "No Fees",
+            "additionalInfoUri": null,
+            "additionalValue": null
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Rollover facility available",
+            "additionalInfoUri": null,
+            "additionalValue": null
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "All deposits you have with BNK/Goldfields are guaranteed up to $250,000 by the Australian Government, under the Financial Claims Scheme. For more information on the Financial Claims Scheme.",
+            "additionalInfoUri": "https://www.apra.gov.au/financial-claims-scheme-0",
+            "additionalValue": null
+          }
+        ],
+        "fees": [
+          {
+            "feeType": "WITHDRAWAL",
+            "name": "Term Deposit Early Withdrawals ",
+            "additionalInfo": "withdraw part or all of the balance before the maturity date, the interest you receive on the amount withdrawn may be reduced based on the term elapsed as a percentage of the total term. This is the Early Withdrawal Adjustment. View TD Terms and conditions for full details \nPercentage of time elapsed out of original term: Percentage Interest reduced by - 0% to <20%: 90%,  20% to < 40%:80%,  40% to < 60%: 60%, 60% to < 80%: 40%, 80% to < 100%: 20%",
+            "additionalInfoUri": "https://www.bnk.com.au/wp-content/uploads/2025/05/BNK-Goldfields-TD-Terms-Conditions-20251112.pdf",
+            "additionalValue": null,
+            "currency": "AUD",
+            "discounts": [],
+            "feeMethodUType": "variable",
+            "fixedAmount": null,
+            "rateBased": null,
+            "variable": {
+              "feeMinimum": "0.00",
+              "feeMaximum": null
+            },
+            "feeCap": null,
+            "feeCapPeriod": null
+          }
+        ],
+        "lendingRates": [],
+        "instalments": null
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "1008",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "brand": "BNK Bank (Goldfields Money/BCHL)",
+        "description": "Our Boss Access account is a hassle-free business transaction account with zero everyday fees for ABN holders",
+        "isTailored": false,
+        "lastUpdated": "2026-03-16T02:30:00.850942Z",
+        "name": "Boss Access Account",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "productId": "1008",
+        "additionalInformation": {
+          "overviewUri": null,
+          "termsUri": null,
+          "eligibilityUri": null,
+          "feesAndPricingUri": null,
+          "bundleUri": null,
+          "additionalOverviewUris": [],
+          "additionalTermsUris": [],
+          "additionalEligibilityUris": [],
+          "additionalFeesAndPricingUris": [],
+          "additionalBundleUris": []
+        },
+        "applicationUri": null,
+        "brandName": "BNK Bank (Goldfields Money/BCHL)",
+        "brandGroup": null,
+        "cardArt": [],
+        "effectiveFrom": "2020-09-29T14:00:00Z",
+        "effectiveTo": "9999-09-29T13:00:00Z",
+        "bundles": [],
+        "constraints": [],
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0005",
+            "additionalInfo": "The rate applied to BOSS accounts",
+            "additionalInfoUri": "https://www.goldfieldsmoney.com.au/products/deposits/business-accounts/",
+            "additionalValue": null,
+            "applicationFrequency": "P1M",
+            "calculationFrequency": "P1D",
+            "tiers": [],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": [
+              {
+                "additionalInfo": "The rate applied to existing BOSS accounts",
+                "additionalInfoUri": null,
+                "rateApplicabilityType": "EXISTING_CUST",
+                "additionalValue": null
+              },
+              {
+                "additionalInfo": "The rate applied to new BOSS accounts",
+                "additionalInfoUri": null,
+                "rateApplicabilityType": "NEW_ACCOUNTS",
+                "additionalValue": null
+              }
+            ]
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "BUSINESS",
+            "additionalInfo": "ABN Holder",
+            "additionalInfoUri": null,
+            "additionalValue": null
+          },
+          {
+            "eligibilityType": "BUSINESS",
+            "additionalInfo": "Be a Company, sole trader business, partnership, or a Trustee of a SMSF and have at least one signatory who is at least 18 years of age and an Australian resident for tax purposes.",
+            "additionalInfoUri": null,
+            "additionalValue": null
+          },
+          {
+            "eligibilityType": "OTHER",
+            "additionalInfo": "have access to an electronic device with a working internet connection ",
+            "additionalInfoUri": null,
+            "additionalValue": null
+          },
+          {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalInfo": "have a business address, registered office and postal address in Australia",
+            "additionalInfoUri": null,
+            "additionalValue": "Business Address in Australia"
+          }
+        ],
+        "features": [
+          {
+            "featureType": "CARD_ACCESS",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "Yes"
+          },
+          {
+            "featureType": "UNLIMITED_TXNS",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": null
+          },
+          {
+            "featureType": "DIGITAL_WALLET",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "Apple Pay"
+          },
+          {
+            "featureType": "DIGITAL_WALLET",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "Google Pay"
+          },
+          {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": null
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Overseas Debit cards",
+            "additionalInfoUri": null,
+            "additionalValue": null
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "ATM Withdrawals - There is a daily limit of $1,000 per day for ATM withdrawals",
+            "additionalInfoUri": null,
+            "additionalValue": null
+          },
+          {
+            "featureType": "BILL_PAYMENT",
+            "additionalInfo": "There is a BPAY daily limit of $50,000 per day",
+            "additionalInfoUri": null,
+            "additionalValue": null
+          },
+          {
+            "featureType": "ADDITIONAL_CARDS",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": null
+          }
+        ],
+        "fees": [
+          {
+            "feeType": "PAYMENT",
+            "name": "RTGS/IPEX (Outgoing)",
+            "additionalInfo": null,
+            "additionalInfoUri": "https://www.bnk.com.au/wp-content/uploads/2025/05/BNK-Goldfields-Transaction-Accounts-Fees-Charges-251112.pdf",
+            "additionalValue": null,
+            "currency": "AUD",
+            "discounts": [],
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "35.00"
+            },
+            "rateBased": null,
+            "variable": null,
+            "feeCap": null,
+            "feeCapPeriod": null
+          },
+          {
+            "feeType": "TRANSACTION",
+            "name": "RTGS/IPEX (incoming)",
+            "additionalInfo": null,
+            "additionalInfoUri": "https://www.bnk.com.au/wp-content/uploads/2025/05/BNK-Goldfields-Transaction-Accounts-Fees-Charges-251112.pdf",
+            "additionalValue": null,
+            "currency": "AUD",
+            "discounts": [],
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "10.00"
+            },
+            "rateBased": null,
+            "variable": null,
+            "feeCap": null,
+            "feeCapPeriod": null
+          },
+          {
+            "feeType": "PAYMENT",
+            "name": "Direct Debit Double Handling Fee",
+            "additionalInfo": null,
+            "additionalInfoUri": "https://www.bnk.com.au/wp-content/uploads/2025/05/BNK-Goldfields-Transaction-Accounts-Fees-Charges-251112.pdf",
+            "additionalValue": null,
+            "currency": "AUD",
+            "discounts": [],
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "5.00"
+            },
+            "rateBased": null,
+            "variable": null,
+            "feeCap": null,
+            "feeCapPeriod": null
+          },
+          {
+            "feeType": "WITHDRAWAL",
+            "name": "Overseas VISA debit card ATM withdrawal",
+            "additionalInfo": null,
+            "additionalInfoUri": "https://www.bnk.com.au/wp-content/uploads/2025/05/BNK-Goldfields-Transaction-Accounts-Fees-Charges-251112.pdf",
+            "additionalValue": null,
+            "currency": "AUD",
+            "discounts": [],
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "5.00"
+            },
+            "rateBased": null,
+            "variable": null,
+            "feeCap": null,
+            "feeCapPeriod": null
+          },
+          {
+            "feeType": "EVENT",
+            "name": "VISA or EFT Chargeback Request",
+            "additionalInfo": null,
+            "additionalInfoUri": "https://www.bnk.com.au/wp-content/uploads/2025/05/BNK-Goldfields-Transaction-Accounts-Fees-Charges-251112.pdf",
+            "additionalValue": null,
+            "currency": "AUD",
+            "discounts": [],
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "25.00"
+            },
+            "rateBased": null,
+            "variable": null,
+            "feeCap": null,
+            "feeCapPeriod": null
+          },
+          {
+            "feeType": "EVENT",
+            "name": "Direct Debit Facility Dishonour",
+            "additionalInfo": null,
+            "additionalInfoUri": "https://www.bnk.com.au/wp-content/uploads/2025/05/BNK-Goldfields-Transaction-Accounts-Fees-Charges-251112.pdf",
+            "additionalValue": null,
+            "currency": "AUD",
+            "discounts": [],
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "25.00"
+            },
+            "rateBased": null,
+            "variable": null,
+            "feeCap": null,
+            "feeCapPeriod": null
+          },
+          {
+            "feeType": "EVENT",
+            "name": "Payment Honour",
+            "additionalInfo": null,
+            "additionalInfoUri": "https://www.bnk.com.au/wp-content/uploads/2025/05/BNK-Goldfields-Transaction-Accounts-Fees-Charges-251112.pdf",
+            "additionalValue": null,
+            "currency": "AUD",
+            "discounts": [],
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "20.00"
+            },
+            "rateBased": null,
+            "variable": null,
+            "feeCap": null,
+            "feeCapPeriod": null
+          },
+          {
+            "feeType": "EVENT",
+            "name": "Payment Dishonour",
+            "additionalInfo": null,
+            "additionalInfoUri": "https://www.bnk.com.au/wp-content/uploads/2025/05/BNK-Goldfields-Transaction-Accounts-Fees-Charges-251112.pdf",
+            "additionalValue": null,
+            "currency": "AUD",
+            "discounts": [],
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "25.00"
+            },
+            "rateBased": null,
+            "variable": null,
+            "feeCap": null,
+            "feeCapPeriod": null
+          },
+          {
+            "feeType": "PERIODIC",
+            "name": "Formal Overdraft Product Fee (Quarterly)",
+            "additionalInfo": null,
+            "additionalInfoUri": "https://www.bnk.com.au/wp-content/uploads/2025/05/BNK-Goldfields-Transaction-Accounts-Fees-Charges-251112.pdf",
+            "additionalValue": "P3M",
+            "currency": "AUD",
+            "discounts": [],
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "52.50"
+            },
+            "rateBased": null,
+            "variable": null,
+            "feeCap": null,
+            "feeCapPeriod": null
+          }
+        ],
+        "lendingRates": [],
+        "instalments": null
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "Bus_TD_01",
+      "productCategory": "TERM_DEPOSITS",
+      "detail": {
+        "brand": "BNK Bank (Goldfields Money/BCHL)",
+        "description": "Business Term Deposit option: we pay a great rate to reward you for stashing your hard earned cash with us.",
+        "isTailored": false,
+        "lastUpdated": "2026-11-09T03:01:05.021504Z",
+        "name": "Business Term Deposit",
+        "productCategory": "TERM_DEPOSITS",
+        "productId": "Bus_TD_01",
+        "additionalInformation": {
+          "overviewUri": null,
+          "termsUri": null,
+          "eligibilityUri": null,
+          "feesAndPricingUri": null,
+          "bundleUri": null,
+          "additionalOverviewUris": [],
+          "additionalTermsUris": [],
+          "additionalEligibilityUris": [],
+          "additionalFeesAndPricingUris": [],
+          "additionalBundleUris": []
+        },
+        "applicationUri": null,
+        "brandName": "BNK Bank (Goldfields Money/BCHL)",
+        "brandGroup": null,
+        "cardArt": [],
+        "effectiveFrom": "2025-04-15T14:00:00Z",
+        "effectiveTo": "9999-09-29T13:00:00Z",
+        "bundles": [],
+        "constraints": [
+          {
+            "constraintType": "MIN_BALANCE",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "5000.00"
+          },
+          {
+            "constraintType": "OPENING_BALANCE",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "5000.00"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0505",
+            "additionalInfo": "Rate applied to a 1 Month Term Deposit",
+            "additionalInfoUri": "https://www.goldfieldsmoney.com.au/products/deposits/term-deposits/",
+            "additionalValue": "P1M",
+            "applicationFrequency": "P1M",
+            "calculationFrequency": null,
+            "tiers": [],
+            "applicationType": "MATURITY",
+            "applicabilityConditions": [
+              {
+                "additionalInfo": "This rate is applicable to new Term Deposit Accounts ",
+                "additionalInfoUri": null,
+                "rateApplicabilityType": "NEW_ACCOUNTS",
+                "additionalValue": null
+              }
+            ]
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0545",
+            "additionalInfo": "The rate applied to a 9 month Term Deposit",
+            "additionalInfoUri": "https://www.goldfieldsmoney.com.au/products/deposits/term-deposits/",
+            "additionalValue": "P9M",
+            "applicationFrequency": "P9M",
+            "calculationFrequency": null,
+            "tiers": [],
+            "applicationType": "MATURITY",
+            "applicabilityConditions": [
+              {
+                "additionalInfo": "This rate is applicable to new Term Deposit Accounts ",
+                "additionalInfoUri": null,
+                "rateApplicabilityType": "NEW_ACCOUNTS",
+                "additionalValue": null
+              }
+            ]
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0535",
+            "additionalInfo": "The rate applied to a 8 month Term Deposit",
+            "additionalInfoUri": "https://www.goldfieldsmoney.com.au/products/deposits/term-deposits/",
+            "additionalValue": "P8M",
+            "applicationFrequency": "P8M",
+            "calculationFrequency": null,
+            "tiers": [],
+            "applicationType": "MATURITY",
+            "applicabilityConditions": [
+              {
+                "additionalInfo": "This rate is applicable to new Term Deposit Accounts ",
+                "additionalInfoUri": null,
+                "rateApplicabilityType": "NEW_ACCOUNTS",
+                "additionalValue": null
+              }
+            ]
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.053",
+            "additionalInfo": "The rate applied to a 3 month Term Deposit\n",
+            "additionalInfoUri": "https://www.goldfieldsmoney.com.au/products/deposits/term-deposits/",
+            "additionalValue": "P3M",
+            "applicationFrequency": "P3M",
+            "calculationFrequency": null,
+            "tiers": [],
+            "applicationType": "MATURITY",
+            "applicabilityConditions": [
+              {
+                "additionalInfo": "This rate is applicable to new Term Deposit Accounts ",
+                "additionalInfoUri": null,
+                "rateApplicabilityType": "NEW_ACCOUNTS",
+                "additionalValue": null
+              }
+            ]
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.054",
+            "additionalInfo": "The rate applied to a 7 month Term Deposit",
+            "additionalInfoUri": "https://www.goldfieldsmoney.com.au/products/deposits/term-deposits/",
+            "additionalValue": "P7M",
+            "applicationFrequency": "P7M",
+            "calculationFrequency": null,
+            "tiers": [],
+            "applicationType": "MATURITY",
+            "applicabilityConditions": [
+              {
+                "additionalInfo": "This rate is applicable to new Term Deposit Accounts ",
+                "additionalInfoUri": null,
+                "rateApplicabilityType": "NEW_ACCOUNTS",
+                "additionalValue": null
+              }
+            ]
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0545",
+            "additionalInfo": "The rate applied to a 10 month Term Deposit",
+            "additionalInfoUri": "https://www.goldfieldsmoney.com.au/products/deposits/term-deposits/",
+            "additionalValue": "P10M",
+            "applicationFrequency": "P10M",
+            "calculationFrequency": null,
+            "tiers": [],
+            "applicationType": "MATURITY",
+            "applicabilityConditions": [
+              {
+                "additionalInfo": "This rate is applicable to new Term Deposit Accounts ",
+                "additionalInfoUri": null,
+                "rateApplicabilityType": "NEW_ACCOUNTS",
+                "additionalValue": null
+              }
+            ]
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0545",
+            "additionalInfo": "The rate applied to a 12 month Term Deposit",
+            "additionalInfoUri": "https://www.goldfieldsmoney.com.au/products/deposits/term-deposits/",
+            "additionalValue": "P12M",
+            "applicationFrequency": "P12M",
+            "calculationFrequency": null,
+            "tiers": [],
+            "applicationType": "MATURITY",
+            "applicabilityConditions": [
+              {
+                "additionalInfo": "This rate is applicable to new Term Deposit Accounts ",
+                "additionalInfoUri": null,
+                "rateApplicabilityType": "NEW_ACCOUNTS",
+                "additionalValue": null
+              }
+            ]
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.054",
+            "additionalInfo": "The rate applied to a 6 month Term Deposit",
+            "additionalInfoUri": "https://www.goldfieldsmoney.com.au/products/deposits/term-deposits/",
+            "additionalValue": "P6M",
+            "applicationFrequency": "P6M",
+            "calculationFrequency": null,
+            "tiers": [],
+            "applicationType": "MATURITY",
+            "applicabilityConditions": [
+              {
+                "additionalInfo": "This rate is applicable to new Term Deposit Accounts ",
+                "additionalInfoUri": null,
+                "rateApplicabilityType": "NEW_ACCOUNTS",
+                "additionalValue": null
+              }
+            ]
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0535",
+            "additionalInfo": "The rate applied to a 5 month Term Deposit",
+            "additionalInfoUri": "https://www.goldfieldsmoney.com.au/products/deposits/term-deposits/",
+            "additionalValue": "P5M",
+            "applicationFrequency": "P5M",
+            "calculationFrequency": null,
+            "tiers": [],
+            "applicationType": "MATURITY",
+            "applicabilityConditions": [
+              {
+                "additionalInfo": "This rate is applicable to new Term Deposit Accounts ",
+                "additionalInfoUri": null,
+                "rateApplicabilityType": "NEW_ACCOUNTS",
+                "additionalValue": null
+              }
+            ]
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0505",
+            "additionalInfo": "The rate applied to a 2 month Term Deposit",
+            "additionalInfoUri": "https://www.goldfieldsmoney.com.au/products/deposits/term-deposits/",
+            "additionalValue": "P2M",
+            "applicationFrequency": "P2M",
+            "calculationFrequency": null,
+            "tiers": [],
+            "applicationType": "MATURITY",
+            "applicabilityConditions": [
+              {
+                "additionalInfo": "This rate is applicable to new Term Deposit Accounts ",
+                "additionalInfoUri": null,
+                "rateApplicabilityType": "NEW_ACCOUNTS",
+                "additionalValue": null
+              }
+            ]
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.053",
+            "additionalInfo": "The rate applied to a 4 month Term Deposit",
+            "additionalInfoUri": "https://www.goldfieldsmoney.com.au/products/deposits/term-deposits/",
+            "additionalValue": "P4M",
+            "applicationFrequency": "P4M",
+            "calculationFrequency": null,
+            "tiers": [],
+            "applicationType": "MATURITY",
+            "applicabilityConditions": [
+              {
+                "additionalInfo": "This rate is applicable to new Term Deposit Accounts ",
+                "additionalInfoUri": null,
+                "rateApplicabilityType": "NEW_ACCOUNTS",
+                "additionalValue": null
+              }
+            ]
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0545",
+            "additionalInfo": "The rate applied to a 11 month Term Deposit",
+            "additionalInfoUri": "https://www.goldfieldsmoney.com.au/products/deposits/term-deposits/",
+            "additionalValue": "P11M",
+            "applicationFrequency": "P11M",
+            "calculationFrequency": null,
+            "tiers": [],
+            "applicationType": "MATURITY",
+            "applicabilityConditions": [
+              {
+                "additionalInfo": "This rate is applicable to new Term Deposit Accounts ",
+                "additionalInfoUri": null,
+                "rateApplicabilityType": "NEW_ACCOUNTS",
+                "additionalValue": null
+              }
+            ]
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "MIN_AGE",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "18"
+          },
+          {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "Be a Company, sole trader business, partnership, or a Trustee of a Trust or SMSF and have either an ACN, ABN or ARBN;"
+          },
+          {
+            "eligibilityType": "BUSINESS",
+            "additionalInfo": "- Be a Company, sole trader business, partnership, \nor a Trustee of a Trust or SMSF and have either \nan ACN, ABN or ARBN;\n- Only want up to a maximum of 8 signatories \non the Account and have at least one signatory \nwho is at least 18 years of age and an Australian \nresident for tax purposes; \n- Have a business address, registered office, and \npostal address in Australia; and\n- Maintain a current email address, an Australian \nmobile number and always have access to \nan electronic device with a working internet \nconnection.",
+            "additionalInfoUri": null,
+            "additionalValue": null
+          }
+        ],
+        "features": [
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "7 calendar days rollover cooling off period",
+            "additionalInfoUri": null,
+            "additionalValue": null
+          },
+          {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": null
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "All deposits you have with BNK/Goldfields are guaranteed up to $250,000 by the Australian Government, under the Financial Claims Scheme. For more information on the Financial Claims Scheme.",
+            "additionalInfoUri": "https://www.apra.gov.au/financial-claims-scheme-0",
+            "additionalValue": null
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "A loyalty bonus maybe offered if you automatically roll over your term deposit into a new term with BNK/Goldfields",
+            "additionalInfoUri": null,
+            "additionalValue": null
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "No Fees",
+            "additionalInfoUri": null,
+            "additionalValue": null
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Rollover facility available",
+            "additionalInfoUri": null,
+            "additionalValue": null
+          }
+        ],
+        "fees": [
+          {
+            "feeType": "WITHDRAWAL",
+            "name": "Term Deposit Early Withdrawals ",
+            "additionalInfo": "withdraw part or all of the balance before the maturity date, the interest you receive on the amount withdrawn may be reduced based on the term elapsed as a percentage of the total term. This is the Early Withdrawal Adjustment. View TD Terms and conditions for full details \nPercentage of time elapsed out of original term: Percentage Interest reduced by - 0% to <20%: 90%,  20% to < 40%:80%,  40% to < 60%: 60%, 60% to < 80%: 40%, 80% to < 100%: 20%",
+            "additionalInfoUri": "https://www.bnk.com.au/wp-content/uploads/2025/05/BNK-Goldfields-TD-Terms-Conditions-20251112.pdf",
+            "additionalValue": null,
+            "currency": "AUD",
+            "discounts": [],
+            "feeMethodUType": "variable",
+            "fixedAmount": null,
+            "rateBased": null,
+            "variable": {
+              "feeMinimum": "0.00",
+              "feeMaximum": null
+            },
+            "feeCap": null,
+            "feeCapPeriod": null
+          }
+        ],
+        "lendingRates": [],
+        "instalments": null
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    }
+  ]
+}

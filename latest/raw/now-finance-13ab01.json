@@ -1,0 +1,27 @@
+{
+  "endpoint": "https://prd.cdr.nowfinance.com.au/cds-au/v1/banking/products",
+  "slug": "now-finance-13ab01",
+  "brands": [
+    {
+      "dataHolderBrandId": "d2d7a251-c942-f111-9a91-000d3ae0db82",
+      "brandName": "NOW Finance",
+      "brandGroup": "NOW FINANCE",
+      "abn": "35158703612",
+      "industries": [
+        "non-bank-lending"
+      ]
+    }
+  ],
+  "list": {
+    "ok": true,
+    "status": 200,
+    "version": "5",
+    "totalPages": 1,
+    "pagesFetched": 1,
+    "productCount": 4,
+    "categoryCounts": {
+      "PERS_LOANS": 4
+    }
+  },
+  "products": []
+}

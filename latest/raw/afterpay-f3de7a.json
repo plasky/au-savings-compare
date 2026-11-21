@@ -1,0 +1,27 @@
+{
+  "endpoint": "https://sandbox.api.cash.app/cds-au/v1/banking/products",
+  "slug": "afterpay-f3de7a",
+  "brands": [
+    {
+      "dataHolderBrandId": "17b7e215-277b-f111-9b47-6045bd3f59f5",
+      "brandName": "Afterpay",
+      "brandGroup": null,
+      "abn": "15169342947",
+      "industries": [
+        "non-bank-lending"
+      ]
+    }
+  ],
+  "list": {
+    "ok": false,
+    "status": 406,
+    "version": null,
+    "error": "http-406",
+    "errorDetail": "NOT_ACCEPTABLE | No supported version found between x-min-v and x-v. This endpoint supports v7 and above.",
+    "totalPages": null,
+    "pagesFetched": 0,
+    "productCount": 0,
+    "categoryCounts": {}
+  },
+  "products": []
+}

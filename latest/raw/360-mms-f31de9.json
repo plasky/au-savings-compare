@@ -1,0 +1,27 @@
+{
+  "endpoint": "https://public.360mms.cdr.colcap.com.au/cds-au/v1/banking/products",
+  "slug": "360-mms-f31de9",
+  "brands": [
+    {
+      "dataHolderBrandId": "36991b60-d1ba-f111-81be-000d3a799057",
+      "brandName": "360 MMS",
+      "brandGroup": null,
+      "abn": "51119531252",
+      "industries": [
+        "non-bank-lending"
+      ]
+    }
+  ],
+  "list": {
+    "ok": true,
+    "status": 200,
+    "version": "5",
+    "totalPages": 1,
+    "pagesFetched": 1,
+    "productCount": 12,
+    "categoryCounts": {
+      "RESIDENTIAL_MORTGAGES": 12
+    }
+  },
+  "products": []
+}

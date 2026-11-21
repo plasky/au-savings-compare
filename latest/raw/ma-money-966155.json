@@ -1,0 +1,28 @@
+{
+  "endpoint": "https://public.cdr.mamoney.com.au/cds-au/v1/banking/products",
+  "slug": "ma-money-966155",
+  "brands": [
+    {
+      "dataHolderBrandId": "dd5e7c30-7473-f111-9b47-6045bd3f59f5",
+      "brandName": "MA Money",
+      "brandGroup": "MA MONEY",
+      "abn": "64639174315",
+      "industries": [
+        "non-bank-lending"
+      ]
+    }
+  ],
+  "list": {
+    "ok": true,
+    "status": 200,
+    "version": "5",
+    "totalPages": 1,
+    "pagesFetched": 1,
+    "productCount": 23,
+    "categoryCounts": {
+      "BUSINESS_LOANS": 5,
+      "RESIDENTIAL_MORTGAGES": 18
+    }
+  },
+  "products": []
+}

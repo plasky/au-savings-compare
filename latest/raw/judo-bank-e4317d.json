@@ -1,0 +1,2209 @@
+{
+  "endpoint": "https://public.open.judo.bank/cds-au/v1/banking/products",
+  "slug": "judo-bank-e4317d",
+  "brands": [
+    {
+      "dataHolderBrandId": "dd301af3-93b7-eb11-a822-000d3a884a20",
+      "brandName": "Judo Bank",
+      "brandGroup": null,
+      "abn": "11615995581",
+      "industries": [
+        "banking"
+      ]
+    }
+  ],
+  "list": {
+    "ok": true,
+    "status": 200,
+    "version": "5",
+    "totalPages": 1,
+    "pagesFetched": 1,
+    "productCount": 12,
+    "categoryCounts": {
+      "RESIDENTIAL_MORTGAGES": 1,
+      "TRANS_AND_SAVINGS_ACCOUNTS": 4,
+      "BUSINESS_LOANS": 3,
+      "TERM_DEPOSITS": 4
+    }
+  },
+  "products": [
+    {
+      "productId": "09c281bb-27cb-4daf-88f4-067e28d37ea4",
+      "productCategory": "TERM_DEPOSITS",
+      "detail": {
+        "brand": "Judo Bank",
+        "description": "Earn a competitive, fixed interest rate on your deposit with Judo Bank.",
+        "isTailored": false,
+        "lastUpdated": "2026-10-28T23:26:38.257139Z",
+        "name": "Personal Term Deposits",
+        "productCategory": "TERM_DEPOSITS",
+        "productId": "09c281bb-27cb-4daf-88f4-067e28d37ea4",
+        "additionalInformation": {
+          "overviewUri": "https://www.judo.bank/personal-term-deposit",
+          "termsUri": "https://www.judo.bank/term-deposit-accounts-terms-and-conditions",
+          "eligibilityUri": "https://www.judo.bank/personal-term-deposit",
+          "feesAndPricingUri": "https://www.judo.bank/personal-term-deposit",
+          "bundleUri": null,
+          "additionalOverviewUris": null,
+          "additionalTermsUris": null,
+          "additionalEligibilityUris": null,
+          "additionalFeesAndPricingUris": null,
+          "additionalBundleUris": null
+        },
+        "applicationUri": "https://www.judo.bank/personal-term-deposit",
+        "brandName": "Judo Bank",
+        "brandGroup": null,
+        "cardArt": [],
+        "effectiveFrom": null,
+        "effectiveTo": null,
+        "bundles": [],
+        "constraints": [
+          {
+            "constraintType": "MIN_BALANCE",
+            "additionalInfo": null,
+            "additionalInfoUri": "https://www.judo.bank/term-deposit-accounts-terms-and-conditions",
+            "additionalValue": "1000.00"
+          },
+          {
+            "constraintType": "OPENING_BALANCE",
+            "additionalInfo": null,
+            "additionalInfoUri": "https://www.judo.bank/term-deposit-accounts-terms-and-conditions",
+            "additionalValue": "1000.00"
+          },
+          {
+            "constraintType": "MAX_BALANCE",
+            "additionalInfo": "Online maximum deposits are up to $2,000,000, for amounts above $2,000,0000, contact JUDO on 13 58 36 for assistance.",
+            "additionalInfoUri": "https://www.judo.bank/term-deposit-accounts-terms-and-conditions",
+            "additionalValue": "2000000.00"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0485",
+            "additionalInfo": "Interest paid monthly",
+            "additionalInfoUri": "https://www.judo.bank/term-deposits/personal-term-deposit/",
+            "additionalValue": "P7M",
+            "applicationFrequency": "P1M",
+            "calculationFrequency": "P1D",
+            "tiers": [],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0565",
+            "additionalInfo": "Interest paid annually",
+            "additionalInfoUri": "https://www.judo.bank/term-deposits/personal-term-deposit/",
+            "additionalValue": "P4Y",
+            "applicationFrequency": "P1Y",
+            "calculationFrequency": "P1D",
+            "tiers": [],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0485",
+            "additionalInfo": "Interest paid monthly",
+            "additionalInfoUri": "https://www.judo.bank/term-deposits/personal-term-deposit/",
+            "additionalValue": "P6M",
+            "applicationFrequency": "P1M",
+            "calculationFrequency": "P1D",
+            "tiers": [],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0495",
+            "additionalInfo": "Interest paid at maturity",
+            "additionalInfoUri": "https://www.judo.bank/term-deposits/personal-term-deposit/",
+            "additionalValue": "P6M",
+            "applicationFrequency": null,
+            "calculationFrequency": "P1D",
+            "tiers": [],
+            "applicationType": "MATURITY",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0525",
+            "additionalInfo": "Interest paid at maturity",
+            "additionalInfoUri": "https://www.judo.bank/term-deposits/personal-term-deposit/",
+            "additionalValue": "P11M",
+            "applicationFrequency": null,
+            "calculationFrequency": "P1D",
+            "tiers": [],
+            "applicationType": "MATURITY",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0555",
+            "additionalInfo": "Interest paid monthly",
+            "additionalInfoUri": "https://www.judo.bank/term-deposits/personal-term-deposit/",
+            "additionalValue": "P4Y",
+            "applicationFrequency": "P1M",
+            "calculationFrequency": "P1D",
+            "tiers": [],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0515",
+            "additionalInfo": "Interest paid monthly",
+            "additionalInfoUri": "https://www.judo.bank/term-deposits/personal-term-deposit/",
+            "additionalValue": "P11M",
+            "applicationFrequency": "P1M",
+            "calculationFrequency": "P1D",
+            "tiers": [],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.048",
+            "additionalInfo": "Interest paid monthly",
+            "additionalInfoUri": "https://www.judo.bank/term-deposits/personal-term-deposit/",
+            "additionalValue": "P3M",
+            "applicationFrequency": "P1M",
+            "calculationFrequency": "P1D",
+            "tiers": [],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0505",
+            "additionalInfo": "Interest paid at maturity",
+            "additionalInfoUri": "https://www.judo.bank/term-deposits/personal-term-deposit/",
+            "additionalValue": "P9M",
+            "applicationFrequency": null,
+            "calculationFrequency": "P1D",
+            "tiers": [],
+            "applicationType": "MATURITY",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0535",
+            "additionalInfo": "Interest paid monthly",
+            "additionalInfoUri": "https://www.judo.bank/term-deposits/personal-term-deposit/",
+            "additionalValue": "P1Y",
+            "applicationFrequency": "P1M",
+            "calculationFrequency": "P1D",
+            "tiers": [],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.048",
+            "additionalInfo": "Interest paid monthly",
+            "additionalInfoUri": "https://www.judo.bank/term-deposits/personal-term-deposit/",
+            "additionalValue": "P5M",
+            "applicationFrequency": "P1M",
+            "calculationFrequency": "P1D",
+            "tiers": [],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.056",
+            "additionalInfo": "Interest paid annually",
+            "additionalInfoUri": "https://www.judo.bank/term-deposits/personal-term-deposit/",
+            "additionalValue": "P2Y",
+            "applicationFrequency": "P1Y",
+            "calculationFrequency": "P1D",
+            "tiers": [],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0495",
+            "additionalInfo": "Interest paid monthly",
+            "additionalInfoUri": "https://www.judo.bank/term-deposits/personal-term-deposit/",
+            "additionalValue": "P9M",
+            "applicationFrequency": "P1M",
+            "calculationFrequency": "P1D",
+            "tiers": [],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.021",
+            "additionalInfo": "Interest paid at maturity",
+            "additionalInfoUri": "https://www.judo.bank/term-deposits/personal-term-deposit/",
+            "additionalValue": "P1M",
+            "applicationFrequency": null,
+            "calculationFrequency": "P1D",
+            "tiers": [],
+            "applicationType": "MATURITY",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.048",
+            "additionalInfo": "Interest paid monthly",
+            "additionalInfoUri": "https://www.judo.bank/term-deposits/personal-term-deposit/",
+            "additionalValue": "P4M",
+            "applicationFrequency": "P1M",
+            "calculationFrequency": "P1D",
+            "tiers": [],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.049",
+            "additionalInfo": "Interest paid at maturity",
+            "additionalInfoUri": "https://www.judo.bank/term-deposits/personal-term-deposit/",
+            "additionalValue": "P4M",
+            "applicationFrequency": null,
+            "calculationFrequency": "P1D",
+            "tiers": [],
+            "applicationType": "MATURITY",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.023",
+            "additionalInfo": "Interest paid at maturity",
+            "additionalInfoUri": "https://www.judo.bank/term-deposits/personal-term-deposit/",
+            "additionalValue": "P2M",
+            "applicationFrequency": null,
+            "calculationFrequency": "P1D",
+            "tiers": [],
+            "applicationType": "MATURITY",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.022",
+            "additionalInfo": "Interest paid monthly",
+            "additionalInfoUri": "https://www.judo.bank/term-deposits/personal-term-deposit/",
+            "additionalValue": "P2M",
+            "applicationFrequency": "P1M",
+            "calculationFrequency": "P1D",
+            "tiers": [],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0485",
+            "additionalInfo": "Interest paid monthly",
+            "additionalInfoUri": "https://www.judo.bank/term-deposits/personal-term-deposit/",
+            "additionalValue": "P8M",
+            "applicationFrequency": "P1M",
+            "calculationFrequency": "P1D",
+            "tiers": [],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.049",
+            "additionalInfo": "Interest paid at maturity",
+            "additionalInfoUri": "https://www.judo.bank/term-deposits/personal-term-deposit/",
+            "additionalValue": "P5M",
+            "applicationFrequency": null,
+            "calculationFrequency": "P1D",
+            "tiers": [],
+            "applicationType": "MATURITY",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.049",
+            "additionalInfo": "Interest paid at maturity",
+            "additionalInfoUri": "https://www.judo.bank/term-deposits/personal-term-deposit/",
+            "additionalValue": "P3M",
+            "applicationFrequency": null,
+            "calculationFrequency": "P1D",
+            "tiers": [],
+            "applicationType": "MATURITY",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0495",
+            "additionalInfo": "Interest paid at maturity",
+            "additionalInfoUri": "https://www.judo.bank/term-deposits/personal-term-deposit/",
+            "additionalValue": "P8M",
+            "applicationFrequency": null,
+            "calculationFrequency": "P1D",
+            "tiers": [],
+            "applicationType": "MATURITY",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0565",
+            "additionalInfo": "Interest paid at maturity",
+            "additionalInfoUri": "https://www.judo.bank/term-deposits/personal-term-deposit/",
+            "additionalValue": "P10M",
+            "applicationFrequency": null,
+            "calculationFrequency": "P1D",
+            "tiers": [],
+            "applicationType": "MATURITY",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0565",
+            "additionalInfo": "Interest paid annually",
+            "additionalInfoUri": "https://www.judo.bank/term-deposits/personal-term-deposit/",
+            "additionalValue": "P5Y",
+            "applicationFrequency": "P1Y",
+            "calculationFrequency": "P1D",
+            "tiers": [],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0555",
+            "additionalInfo": "Interest paid monthly",
+            "additionalInfoUri": "https://www.judo.bank/term-deposits/personal-term-deposit/",
+            "additionalValue": "P10M",
+            "applicationFrequency": "P1M",
+            "calculationFrequency": "P1D",
+            "tiers": [],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0555",
+            "additionalInfo": "Interest paid monthly",
+            "additionalInfoUri": "https://www.judo.bank/term-deposits/personal-term-deposit/",
+            "additionalValue": "P5Y",
+            "applicationFrequency": "P1M",
+            "calculationFrequency": "P1D",
+            "tiers": [],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.055",
+            "additionalInfo": "Interest paid monthly",
+            "additionalInfoUri": "https://www.judo.bank/term-deposits/personal-term-deposit/",
+            "additionalValue": "P2Y",
+            "applicationFrequency": "P1M",
+            "calculationFrequency": "P1D",
+            "tiers": [],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.055",
+            "additionalInfo": "Interest paid monthly",
+            "additionalInfoUri": "https://www.judo.bank/term-deposits/personal-term-deposit/",
+            "additionalValue": "P3Y",
+            "applicationFrequency": "P1M",
+            "calculationFrequency": "P1D",
+            "tiers": [],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.056",
+            "additionalInfo": "Interest paid annually",
+            "additionalInfoUri": "https://www.judo.bank/term-deposits/personal-term-deposit/",
+            "additionalValue": "P3Y",
+            "applicationFrequency": "P1Y",
+            "calculationFrequency": "P1D",
+            "tiers": [],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0495",
+            "additionalInfo": "Interest paid at maturity",
+            "additionalInfoUri": "https://www.judo.bank/term-deposits/personal-term-deposit/",
+            "additionalValue": "P7M",
+            "applicationFrequency": null,
+            "calculationFrequency": "P1D",
+            "tiers": [],
+            "applicationType": "MATURITY",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.021",
+            "additionalInfo": "Interest paid monthly",
+            "additionalInfoUri": "https://www.judo.bank/term-deposits/personal-term-deposit/",
+            "additionalValue": "P1M",
+            "applicationFrequency": null,
+            "calculationFrequency": "P1D",
+            "tiers": [],
+            "applicationType": "MATURITY",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0545",
+            "additionalInfo": "Interest paid at maturity",
+            "additionalInfoUri": "https://www.judo.bank/term-deposits/personal-term-deposit/",
+            "additionalValue": "P1Y",
+            "applicationFrequency": null,
+            "calculationFrequency": "P1D",
+            "tiers": [],
+            "applicationType": "MATURITY",
+            "applicabilityConditions": []
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "NATURAL_PERSON",
+            "additionalInfo": "The account should be used in personal capacity or for personal use. It must not be opened or used for business or trustee purposes, for business deposits contact JUDO on 13 58 36.",
+            "additionalInfoUri": "https://www.judo.bank/term-deposits/personal-term-deposit/",
+            "additionalValue": null
+          },
+          {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalInfo": null,
+            "additionalInfoUri": "https://www.judo.bank/term-deposits/personal-term-deposit/",
+            "additionalValue": "Australian citizenship or permanent residency, and reside permanently in Australia. You must be over the age of 18."
+          },
+          {
+            "eligibilityType": "MIN_AGE",
+            "additionalInfo": null,
+            "additionalInfoUri": "https://www.judo.bank/term-deposits/personal-term-deposit/",
+            "additionalValue": "18"
+          }
+        ],
+        "features": [
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "No Fees.",
+            "additionalInfoUri": "https://www.judo.bank/term-deposit-accounts-terms-and-conditions/",
+            "additionalValue": null
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Fund via Direct Debit or BPAY.",
+            "additionalInfoUri": "https://www.judo.bank/term-deposit-accounts-terms-and-conditions/",
+            "additionalValue": null
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "10 calendar days rollover cooling off period.",
+            "additionalInfoUri": "https://www.judo.bank/term-deposit-accounts-terms-and-conditions/",
+            "additionalValue": null
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Rollover facility available.",
+            "additionalInfoUri": "https://www.judo.bank/term-deposit-accounts-terms-and-conditions/",
+            "additionalValue": null
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Confirmation Letter provided.",
+            "additionalInfoUri": "https://www.judo.bank/term-deposit-accounts-terms-and-conditions/",
+            "additionalValue": null
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "All deposits you have with Judo Bank are guaranteed up to $250,000 by the Australian Government, under the Financial Claims Scheme. For more information on the Financial Claims Scheme.\nGovernment Deposit Guarantee - Financial Claims Scheme",
+            "additionalInfoUri": "https://www.apra.gov.au/financial-claims-scheme-0",
+            "additionalValue": null
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "A loyalty bonus may be offered if you automatically roll over your term deposit into a new term with Judo.",
+            "additionalInfoUri": "https://www.judo.bank/term-deposits/personal-term-deposit/",
+            "additionalValue": null
+          },
+          {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": "Digital Banking available.",
+            "additionalInfoUri": "https://digital.judo.bank",
+            "additionalValue": null
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Scheduled, periodic payments available.",
+            "additionalInfoUri": "https://www.judo.bank/term-deposit-accounts-terms-and-conditions/",
+            "additionalValue": null
+          }
+        ],
+        "fees": [],
+        "lendingRates": [],
+        "instalments": null
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "09e5a9e5-f73c-434a-1021-f6f1574e4554",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "brand": "Judo Bank",
+        "description": "A competitive High Interest at-call savings account for Businesses. ",
+        "isTailored": false,
+        "lastUpdated": "2026-11-17T21:56:21.832073Z",
+        "name": "Business Savings Account",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "productId": "09e5a9e5-f73c-434a-1021-f6f1574e4554",
+        "additionalInformation": {
+          "overviewUri": "https://www.judo.bank/savings-accounts/business-savings-account",
+          "termsUri": "https://www.judo.bank/savings-account-terms-and-conditions/",
+          "eligibilityUri": "https://www.judo.bank/savings-accounts/business-savings-account",
+          "feesAndPricingUri": null,
+          "bundleUri": null,
+          "additionalOverviewUris": [],
+          "additionalTermsUris": [
+            {
+              "additionalInfoUri": "https://www.judo.bank/digital-terms-and-conditions/",
+              "description": "Digital Banking Terms and Conditions"
+            }
+          ],
+          "additionalEligibilityUris": [],
+          "additionalFeesAndPricingUris": [],
+          "additionalBundleUris": []
+        },
+        "applicationUri": "https://www.judo.bank/savings-accounts/business-savings-account",
+        "brandName": "Judo Bank",
+        "brandGroup": null,
+        "cardArt": [],
+        "effectiveFrom": "2026-02-24T00:00:00Z",
+        "effectiveTo": null,
+        "bundles": [],
+        "constraints": [
+          {
+            "constraintType": "MIN_BALANCE",
+            "additionalInfo": null,
+            "additionalInfoUri": "https://www.judo.bank/savings-account-terms-and-conditions",
+            "additionalValue": "1.00"
+          },
+          {
+            "constraintType": "OPENING_BALANCE",
+            "additionalInfo": null,
+            "additionalInfoUri": "https://www.judo.bank/savings-account-terms-and-conditions",
+            "additionalValue": "1.00"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0535",
+            "additionalInfo": "Interest is calculated daily and paid monthly on your balance at a tiered interest rate.",
+            "additionalInfoUri": "https://www.judo.bank/savings/business-savings-account/",
+            "additionalValue": null,
+            "applicationFrequency": "P1M",
+            "calculationFrequency": "P1D",
+            "tiers": [
+              {
+                "name": "Tier1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1.00",
+                "maximumValue": "250000.00",
+                "rateApplicationMethod": "PER_TIER",
+                "applicabilityConditions": []
+              }
+            ],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0225",
+            "additionalInfo": "Interest is calculated daily and paid monthly on your balance at a tiered interest rate.\n",
+            "additionalInfoUri": "https://www.judo.bank/savings/business-savings-account/",
+            "additionalValue": null,
+            "applicationFrequency": "P1M",
+            "calculationFrequency": "P1D",
+            "tiers": [
+              {
+                "name": "Tier3",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "2000001.00",
+                "rateApplicationMethod": "PER_TIER",
+                "applicabilityConditions": []
+              }
+            ],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0465",
+            "additionalInfo": "Interest is calculated daily and paid monthly on your balance at a tiered interest rate.",
+            "additionalInfoUri": "https://www.judo.bank/savings/business-savings-account/",
+            "additionalValue": null,
+            "applicationFrequency": "P1M",
+            "calculationFrequency": "P1D",
+            "tiers": [
+              {
+                "name": "Tier2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "250001.00",
+                "maximumValue": "2000000.00",
+                "rateApplicationMethod": "PER_TIER",
+                "applicabilityConditions": []
+              }
+            ],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": []
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "MIN_AGE",
+            "additionalInfo": null,
+            "additionalInfoUri": "https://www.judo.bank/term-deposits/business-term-deposit/",
+            "additionalValue": "18"
+          },
+          {
+            "eligibilityType": "OTHER",
+            "additionalInfo": "Judo Business Savings Account - \nOnly the following business entities are eligible to apply online:\n\n\nPrivate Company\nProvide an ABN\nMaximum number of directors is 9\nShareholders must be individuals\nThe company and all directors and shareholders must be Australian tax residents. We cannot accept applications from foreign tax residents\n\n\nTrust with individual trustee(s)\nProvide an ABN (you cannot apply without one)\nProvide a certified copy of your trust deed and any amendments\nEach trustee must be an Australian tax resident individual. We cannot accept applications from foreign tax residents\nMaximum number of trustees is 6\n\nIncorporated Association\nProvide an ABN and incorporation registration number (you cannot apply without them)\nProvide a copy of your Incorporation Certification\nChairman, Secretary and Treasurer will need to verify their identity",
+            "additionalInfoUri": "https://www.judo.bank/term-deposits/business-term-deposit/",
+            "additionalValue": null
+          }
+        ],
+        "features": [
+          {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": "Internet Banking available",
+            "additionalInfoUri": "https://digital.judo.bank",
+            "additionalValue": null
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": " Fund via Direct Entry.",
+            "additionalInfoUri": "https://www.judo.bank/savings-account-terms-and-conditions/",
+            "additionalValue": null
+          }
+        ],
+        "fees": [],
+        "lendingRates": [],
+        "instalments": null
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "19c28155-27cb-4daf-88f4-067e28d37bus",
+      "productCategory": "TERM_DEPOSITS",
+      "detail": {
+        "brand": "Judo Bank",
+        "description": "Earn a competitive, fixed interest rate on your Business Term Deposit with Judo Bank.",
+        "isTailored": false,
+        "lastUpdated": "2026-10-28T23:26:38.283393Z",
+        "name": "Business Term Deposits",
+        "productCategory": "TERM_DEPOSITS",
+        "productId": "19c28155-27cb-4daf-88f4-067e28d37bus",
+        "additionalInformation": {
+          "overviewUri": "https://www.judo.bank/term-deposits-business",
+          "termsUri": "https://www.judo.bank/term-deposit-accounts-terms-and-conditions",
+          "eligibilityUri": "https://www.judo.bank/term-deposits-business",
+          "feesAndPricingUri": "https://www.judo.bank/term-deposits-business",
+          "bundleUri": null,
+          "additionalOverviewUris": [],
+          "additionalTermsUris": [],
+          "additionalEligibilityUris": [],
+          "additionalFeesAndPricingUris": [],
+          "additionalBundleUris": []
+        },
+        "applicationUri": "https://www.judo.bank/term-deposits-business",
+        "brandName": "Judo Bank",
+        "brandGroup": null,
+        "cardArt": [],
+        "effectiveFrom": null,
+        "effectiveTo": null,
+        "bundles": [],
+        "constraints": [
+          {
+            "constraintType": "MAX_BALANCE",
+            "additionalInfo": "Online maximum deposits are up to $2,000,000, for amounts above $2,000,0000, contact JUDO on 13 58 36 for assistance.",
+            "additionalInfoUri": "https://www.judo.bank/term-deposit-accounts-terms-and-conditions",
+            "additionalValue": "2000000.00"
+          },
+          {
+            "constraintType": "MIN_BALANCE",
+            "additionalInfo": null,
+            "additionalInfoUri": "https://www.judo.bank/term-deposit-accounts-terms-and-conditions",
+            "additionalValue": "1000.00"
+          },
+          {
+            "constraintType": "OPENING_BALANCE",
+            "additionalInfo": null,
+            "additionalInfoUri": "https://www.judo.bank/term-deposit-accounts-terms-and-conditions",
+            "additionalValue": "1000.00"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.048",
+            "additionalInfo": "Interest paid monthly",
+            "additionalInfoUri": "https://www.judo.bank/term-deposits/business-term-deposit/",
+            "additionalValue": "P5M",
+            "applicationFrequency": "P1M",
+            "calculationFrequency": "P1D",
+            "tiers": [],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0565",
+            "additionalInfo": "Interest paid annually",
+            "additionalInfoUri": "https://www.judo.bank/term-deposits/business-term-deposit/",
+            "additionalValue": "P5Y",
+            "applicationFrequency": "P1Y",
+            "calculationFrequency": "P1D",
+            "tiers": [],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0555",
+            "additionalInfo": "Interest paid monthly",
+            "additionalInfoUri": "https://www.judo.bank/term-deposits/business-term-deposit/",
+            "additionalValue": "P10M",
+            "applicationFrequency": "P1M",
+            "calculationFrequency": "P1D",
+            "tiers": [],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.048",
+            "additionalInfo": "Interest paid monthly",
+            "additionalInfoUri": "https://www.judo.bank/term-deposits/business-term-deposit/",
+            "additionalValue": "P3M",
+            "applicationFrequency": "P1M",
+            "calculationFrequency": "P1D",
+            "tiers": [],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0495",
+            "additionalInfo": "Interest paid at maturity",
+            "additionalInfoUri": "https://www.judo.bank/term-deposits/business-term-deposit/",
+            "additionalValue": "P6M",
+            "applicationFrequency": null,
+            "calculationFrequency": "P1D",
+            "tiers": [],
+            "applicationType": "MATURITY",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0555",
+            "additionalInfo": "Interest paid monthly",
+            "additionalInfoUri": "https://www.judo.bank/term-deposits/business-term-deposit/",
+            "additionalValue": "P5Y",
+            "applicationFrequency": "P1M",
+            "calculationFrequency": "P1D",
+            "tiers": [],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.055",
+            "additionalInfo": "Interest paid monthly",
+            "additionalInfoUri": "https://www.judo.bank/term-deposits/business-term-deposit/",
+            "additionalValue": "P2Y",
+            "applicationFrequency": "P1M",
+            "calculationFrequency": "P1D",
+            "tiers": [],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.056",
+            "additionalInfo": "Interest paid annually",
+            "additionalInfoUri": "https://www.judo.bank/term-deposits/business-term-deposit/",
+            "additionalValue": "P2Y",
+            "applicationFrequency": "P1Y",
+            "calculationFrequency": "P1D",
+            "tiers": [],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0545",
+            "additionalInfo": "Interest paid at maturity",
+            "additionalInfoUri": "https://www.judo.bank/term-deposits/business-term-deposit/",
+            "additionalValue": "P1Y",
+            "applicationFrequency": null,
+            "calculationFrequency": "P1D",
+            "tiers": [],
+            "applicationType": "MATURITY",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.021",
+            "additionalInfo": "Interest paid at maturity",
+            "additionalInfoUri": "https://www.judo.bank/term-deposits/business-term-deposit/",
+            "additionalValue": "P1M",
+            "applicationFrequency": null,
+            "calculationFrequency": "P1D",
+            "tiers": [],
+            "applicationType": "MATURITY",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.023",
+            "additionalInfo": "Interest paid at maturity",
+            "additionalInfoUri": "https://www.judo.bank/term-deposits/business-term-deposit/",
+            "additionalValue": "P2M",
+            "applicationFrequency": null,
+            "calculationFrequency": "P1D",
+            "tiers": [],
+            "applicationType": "MATURITY",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.049",
+            "additionalInfo": "Interest paid at maturity",
+            "additionalInfoUri": "https://www.judo.bank/term-deposits/business-term-deposit/",
+            "additionalValue": "P3M",
+            "applicationFrequency": null,
+            "calculationFrequency": "P1D",
+            "tiers": [],
+            "applicationType": "MATURITY",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.021",
+            "additionalInfo": "Interest paid monthly",
+            "additionalInfoUri": "https://www.judo.bank/term-deposits/business-term-deposit/",
+            "additionalValue": "P1M",
+            "applicationFrequency": "P1M",
+            "calculationFrequency": "P1D",
+            "tiers": [],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.022",
+            "additionalInfo": "Interest paid monthly",
+            "additionalInfoUri": "https://www.judo.bank/term-deposits/business-term-deposit/",
+            "additionalValue": "P2M",
+            "applicationFrequency": "P1M",
+            "calculationFrequency": "P1D",
+            "tiers": [],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.049",
+            "additionalInfo": "Interest paid at maturity",
+            "additionalInfoUri": "https://www.judo.bank/term-deposits/business-term-deposit/",
+            "additionalValue": "P4M",
+            "applicationFrequency": null,
+            "calculationFrequency": "P1D",
+            "tiers": [],
+            "applicationType": "MATURITY",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0495",
+            "additionalInfo": "Interest paid at maturity",
+            "additionalInfoUri": "https://www.judo.bank/term-deposits/business-term-deposit/",
+            "additionalValue": "P7M",
+            "applicationFrequency": null,
+            "calculationFrequency": "P1D",
+            "tiers": [],
+            "applicationType": "MATURITY",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0525",
+            "additionalInfo": "Interest paid at maturity",
+            "additionalInfoUri": "https://www.judo.bank/term-deposits/business-term-deposit/",
+            "additionalValue": "P11M",
+            "applicationFrequency": null,
+            "calculationFrequency": "P1D",
+            "tiers": [],
+            "applicationType": "MATURITY",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.049",
+            "additionalInfo": "Interest paid at maturity",
+            "additionalInfoUri": "https://www.judo.bank/term-deposits/business-term-deposit/",
+            "additionalValue": "P5M",
+            "applicationFrequency": null,
+            "calculationFrequency": "P1D",
+            "tiers": [],
+            "applicationType": "MATURITY",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0485",
+            "additionalInfo": "Interest paid monthly",
+            "additionalInfoUri": "https://www.judo.bank/term-deposits/business-term-deposit/",
+            "additionalValue": "P7M",
+            "applicationFrequency": "P1M",
+            "calculationFrequency": "P1D",
+            "tiers": [],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.055",
+            "additionalInfo": "Interest paid monthly",
+            "additionalInfoUri": "https://www.judo.bank/term-deposits/business-term-deposit/",
+            "additionalValue": "P3Y",
+            "applicationFrequency": "P1M",
+            "calculationFrequency": "P1D",
+            "tiers": [],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0505",
+            "additionalInfo": "Interest paid at maturity",
+            "additionalInfoUri": "https://www.judo.bank/term-deposits/business-term-deposit/",
+            "additionalValue": "P9M",
+            "applicationFrequency": null,
+            "calculationFrequency": "P1D",
+            "tiers": [],
+            "applicationType": "MATURITY",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0565",
+            "additionalInfo": "Interest paid at maturity",
+            "additionalInfoUri": "https://www.judo.bank/term-deposits/business-term-deposit/",
+            "additionalValue": "P10M",
+            "applicationFrequency": null,
+            "calculationFrequency": "P1D",
+            "tiers": [],
+            "applicationType": "MATURITY",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0485",
+            "additionalInfo": "Interest paid monthly",
+            "additionalInfoUri": "https://www.judo.bank/term-deposits/business-term-deposit/",
+            "additionalValue": "P6M",
+            "applicationFrequency": "P1M",
+            "calculationFrequency": "P1D",
+            "tiers": [],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.048",
+            "additionalInfo": "Interest paid monthly",
+            "additionalInfoUri": "https://www.judo.bank/term-deposits/business-term-deposit/",
+            "additionalValue": "P4M",
+            "applicationFrequency": "P1M",
+            "calculationFrequency": "P1D",
+            "tiers": [],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0515",
+            "additionalInfo": "Interest paid monthly",
+            "additionalInfoUri": "https://www.judo.bank/term-deposits/business-term-deposit/",
+            "additionalValue": "P11M",
+            "applicationFrequency": "P1M",
+            "calculationFrequency": "P1D",
+            "tiers": [],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0485",
+            "additionalInfo": "Interest paid monthly",
+            "additionalInfoUri": "https://www.judo.bank/term-deposits/business-term-deposit/",
+            "additionalValue": "P8M",
+            "applicationFrequency": "P1M",
+            "calculationFrequency": "P1D",
+            "tiers": [],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0495",
+            "additionalInfo": "Interest paid at maturity",
+            "additionalInfoUri": "https://www.judo.bank/term-deposits/business-term-deposit/",
+            "additionalValue": "P8M",
+            "applicationFrequency": null,
+            "calculationFrequency": "P1D",
+            "tiers": [],
+            "applicationType": "MATURITY",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0495",
+            "additionalInfo": "Interest paid monthly",
+            "additionalInfoUri": "https://www.judo.bank/term-deposits/business-term-deposit/",
+            "additionalValue": "P9M",
+            "applicationFrequency": "P1M",
+            "calculationFrequency": "P1D",
+            "tiers": [],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.056",
+            "additionalInfo": "Interest paid annually",
+            "additionalInfoUri": "https://www.judo.bank/term-deposits/business-term-deposit/",
+            "additionalValue": "P3Y",
+            "applicationFrequency": "P1Y",
+            "calculationFrequency": "P1D",
+            "tiers": [],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0535",
+            "additionalInfo": "Interest paid monthly",
+            "additionalInfoUri": "https://www.judo.bank/term-deposits/business-term-deposit/",
+            "additionalValue": "P1Y",
+            "applicationFrequency": "P1M",
+            "calculationFrequency": "P1D",
+            "tiers": [],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0565",
+            "additionalInfo": "Interest paid annually",
+            "additionalInfoUri": "https://www.judo.bank/term-deposits/business-term-deposit/",
+            "additionalValue": "P4Y",
+            "applicationFrequency": "P1Y",
+            "calculationFrequency": "P1D",
+            "tiers": [],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0555",
+            "additionalInfo": "Interest paid monthly",
+            "additionalInfoUri": "https://www.judo.bank/term-deposits/business-term-deposit/",
+            "additionalValue": "P4Y",
+            "applicationFrequency": "P1M",
+            "calculationFrequency": "P1D",
+            "tiers": [],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": []
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "MIN_AGE",
+            "additionalInfo": null,
+            "additionalInfoUri": "https://www.judo.bank/term-deposits/business-term-deposit/",
+            "additionalValue": "18"
+          },
+          {
+            "eligibilityType": "OTHER",
+            "additionalInfo": "Only the following business entities are eligible to apply online:\nPrivate Company\n- Provide an ABN\n-Maximum number of directors is 9\n-Shareholders must be individuals\n-The company and all directors and shareholders must be Australian tax residents. We cannot accept applications from foreign tax residents\n\n\nTrust with individual trustee(s)\n-Provide an ABN (you cannot apply without one)\n-Provide a certified copy of your trust deed and any amendments\n-Each trustee must be an Australian tax resident individual. We cannot accept applications from foreign tax residents\n-Maximum number of trustees is 6\n\nIncorporated Association\n-Provide an ABN and incorporation registration number (you cannot apply without them)\n-Provide a copy of your Incorporation Certification\nChairman, Secretary and Treasurer will need to verify their identity",
+            "additionalInfoUri": "https://www.judo.bank/term-deposits/business-term-deposit/",
+            "additionalValue": null
+          }
+        ],
+        "features": [
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "All deposits you have with Judo Bank are guaranteed up to $250,000 by the Australian Government, under the Financial Claims Scheme. For more information on the Financial Claims Scheme.",
+            "additionalInfoUri": "https://www.apra.gov.au/financial-claims-scheme",
+            "additionalValue": null
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "No Fees",
+            "additionalInfoUri": "https://www.judo.bank/term-deposit-accounts-terms-and-conditions/",
+            "additionalValue": null
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Rollover facility available.",
+            "additionalInfoUri": "https://www.judo.bank/term-deposit-accounts-terms-and-conditions/",
+            "additionalValue": null
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": " Fund via Direct Debit or BPAY.",
+            "additionalInfoUri": "https://www.judo.bank/term-deposit-accounts-terms-and-conditions/",
+            "additionalValue": null
+          },
+          {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": "Digital Banking available.",
+            "additionalInfoUri": "https://digital.judo.bank",
+            "additionalValue": null
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Scheduled, periodic payments available",
+            "additionalInfoUri": "https://www.judo.bank/term-deposit-accounts-terms-and-conditions/",
+            "additionalValue": null
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Confirmation Letter provided.",
+            "additionalInfoUri": "https://www.judo.bank/term-deposit-accounts-terms-and-conditions/",
+            "additionalValue": null
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": " 10 calendar days rollover cooling off period.",
+            "additionalInfoUri": "https://www.judo.bank/term-deposit-accounts-terms-and-conditions/",
+            "additionalValue": null
+          }
+        ],
+        "fees": [],
+        "lendingRates": [],
+        "instalments": null
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "19c28155-27cb-4daf-88f4-067e28d3asav",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "brand": "Judo Bank",
+        "description": "A competitive, at-call savings account that is only available for customers who operate the product through their Broker.",
+        "isTailored": true,
+        "lastUpdated": "2026-08-07T00:02:25.022621Z",
+        "name": "Alliance Savings Account",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "productId": "19c28155-27cb-4daf-88f4-067e28d3asav",
+        "additionalInformation": {
+          "overviewUri": "https://www.judo.bank/savings-account",
+          "termsUri": null,
+          "eligibilityUri": "https://www.judo.bank/tmd/",
+          "feesAndPricingUri": null,
+          "bundleUri": null,
+          "additionalOverviewUris": [],
+          "additionalTermsUris": [],
+          "additionalEligibilityUris": [
+            {
+              "additionalInfoUri": "https://www.judo.bank/tmd/",
+              "description": "Alliance Savings Account TMD "
+            }
+          ],
+          "additionalFeesAndPricingUris": [],
+          "additionalBundleUris": []
+        },
+        "applicationUri": "https://www.judo.bank/savings-account",
+        "brandName": "Judo Bank",
+        "brandGroup": null,
+        "cardArt": [],
+        "effectiveFrom": null,
+        "effectiveTo": null,
+        "bundles": [],
+        "constraints": [],
+        "depositRates": [],
+        "eligibility": [
+          {
+            "eligibilityType": "OTHER",
+            "additionalInfo": "Only available through Judo Bank - approved Intermediaries",
+            "additionalInfoUri": "https://www.judo.bank/savings-account/",
+            "additionalValue": null
+          }
+        ],
+        "features": [],
+        "fees": [],
+        "lendingRates": [],
+        "instalments": null
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "19c28155-27cb-4daf-88f4-067e28d3smsf",
+      "productCategory": "TERM_DEPOSITS",
+      "detail": {
+        "brand": "Judo Bank",
+        "description": "Earn a competitive, fixed interest rate on your SMSF Term Deposit with Judo Bank.",
+        "isTailored": false,
+        "lastUpdated": "2026-10-28T23:26:38.283386Z",
+        "name": "SMSF Term Deposits",
+        "productCategory": "TERM_DEPOSITS",
+        "productId": "19c28155-27cb-4daf-88f4-067e28d3smsf",
+        "additionalInformation": {
+          "overviewUri": "https://www.judo.bank/term-deposits-smsf",
+          "termsUri": "https://www.judo.bank/term-deposit-accounts-terms-and-conditions",
+          "eligibilityUri": "https://www.judo.bank/term-deposits-smsf",
+          "feesAndPricingUri": "https://www.judo.bank/term-deposits-smsf",
+          "bundleUri": null,
+          "additionalOverviewUris": [],
+          "additionalTermsUris": [],
+          "additionalEligibilityUris": [],
+          "additionalFeesAndPricingUris": [],
+          "additionalBundleUris": []
+        },
+        "applicationUri": "https://www.judo.bank/term-deposits-smsf",
+        "brandName": "Judo Bank",
+        "brandGroup": null,
+        "cardArt": [],
+        "effectiveFrom": null,
+        "effectiveTo": null,
+        "bundles": [],
+        "constraints": [
+          {
+            "constraintType": "MIN_BALANCE",
+            "additionalInfo": null,
+            "additionalInfoUri": "https://www.judo.bank/term-deposit-accounts-terms-and-conditions",
+            "additionalValue": "1000.00"
+          },
+          {
+            "constraintType": "OPENING_BALANCE",
+            "additionalInfo": null,
+            "additionalInfoUri": "https://www.judo.bank/term-deposit-accounts-terms-and-conditions",
+            "additionalValue": "1000.00"
+          },
+          {
+            "constraintType": "MAX_BALANCE",
+            "additionalInfo": "Online maximum deposits are up to $2,000,000, for amounts above $2,000,0000, contact JUDO on 13 58 36 for assistance.",
+            "additionalInfoUri": "https://www.judo.bank/term-deposit-accounts-terms-and-conditions",
+            "additionalValue": "2000000.00"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0555",
+            "additionalInfo": "Interest paid monthly",
+            "additionalInfoUri": "https://www.judo.bank/term-deposits/smsf-term-deposits/",
+            "additionalValue": "P10M",
+            "applicationFrequency": "P1M",
+            "calculationFrequency": "P1D",
+            "tiers": [],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.048",
+            "additionalInfo": "Interest paid monthly",
+            "additionalInfoUri": "https://www.judo.bank/term-deposits/smsf-term-deposits/",
+            "additionalValue": "P3M",
+            "applicationFrequency": "P1M",
+            "calculationFrequency": "P1D",
+            "tiers": [],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.055",
+            "additionalInfo": "Interest paid monthly",
+            "additionalInfoUri": "https://www.judo.bank/term-deposits/smsf-term-deposits/",
+            "additionalValue": "P3Y",
+            "applicationFrequency": "P1M",
+            "calculationFrequency": "P1D",
+            "tiers": [],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0485",
+            "additionalInfo": "Interest paid monthly",
+            "additionalInfoUri": "https://www.judo.bank/term-deposits/smsf-term-deposits/",
+            "additionalValue": "P6M",
+            "applicationFrequency": "P1M",
+            "calculationFrequency": "P1D",
+            "tiers": [],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0495",
+            "additionalInfo": "Interest paid at maturity",
+            "additionalInfoUri": "https://www.judo.bank/term-deposits/smsf-term-deposits/",
+            "additionalValue": "P6M",
+            "applicationFrequency": null,
+            "calculationFrequency": "P1D",
+            "tiers": [],
+            "applicationType": "MATURITY",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0565",
+            "additionalInfo": "Interest paid annually",
+            "additionalInfoUri": "https://www.judo.bank/term-deposits/smsf-term-deposits/",
+            "additionalValue": "P4Y",
+            "applicationFrequency": "P1Y",
+            "calculationFrequency": "P1D",
+            "tiers": [],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0515",
+            "additionalInfo": "Interest paid monthly",
+            "additionalInfoUri": "https://www.judo.bank/term-deposits/smsf-term-deposits/",
+            "additionalValue": "P11M",
+            "applicationFrequency": "P1M",
+            "calculationFrequency": "P1D",
+            "tiers": [],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0485",
+            "additionalInfo": "Interest paid monthly",
+            "additionalInfoUri": "https://www.judo.bank/term-deposits/smsf-term-deposits/",
+            "additionalValue": "P8M",
+            "applicationFrequency": "P1M",
+            "calculationFrequency": "P1D",
+            "tiers": [],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0495",
+            "additionalInfo": "Interest paid at maturity",
+            "additionalInfoUri": "https://www.judo.bank/term-deposits/smsf-term-deposits/",
+            "additionalValue": "P8M",
+            "applicationFrequency": null,
+            "calculationFrequency": "P1D",
+            "tiers": [],
+            "applicationType": "MATURITY",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.048",
+            "additionalInfo": "Interest paid monthly",
+            "additionalInfoUri": "https://www.judo.bank/term-deposits/smsf-term-deposits/",
+            "additionalValue": "P4M",
+            "applicationFrequency": "P1M",
+            "calculationFrequency": "P1D",
+            "tiers": [],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.056",
+            "additionalInfo": "Interest paid annually",
+            "additionalInfoUri": "https://www.judo.bank/term-deposits/smsf-term-deposits/",
+            "additionalValue": "P2Y",
+            "applicationFrequency": "P1Y",
+            "calculationFrequency": "P1D",
+            "tiers": [],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.021",
+            "additionalInfo": "Interest paid at maturity",
+            "additionalInfoUri": "https://www.judo.bank/term-deposits/smsf-term-deposits/",
+            "additionalValue": "P1M",
+            "applicationFrequency": null,
+            "calculationFrequency": "P1D",
+            "tiers": [],
+            "applicationType": "MATURITY",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.023",
+            "additionalInfo": "Interest paid at maturity",
+            "additionalInfoUri": "https://www.judo.bank/term-deposits/smsf-term-deposits/",
+            "additionalValue": "P2M",
+            "applicationFrequency": null,
+            "calculationFrequency": "P1D",
+            "tiers": [],
+            "applicationType": "MATURITY",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.049",
+            "additionalInfo": "Interest paid at maturity",
+            "additionalInfoUri": "https://www.judo.bank/term-deposits/smsf-term-deposits/",
+            "additionalValue": "P3M",
+            "applicationFrequency": null,
+            "calculationFrequency": "P1D",
+            "tiers": [],
+            "applicationType": "MATURITY",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.049",
+            "additionalInfo": "Interest paid at maturity",
+            "additionalInfoUri": "https://www.judo.bank/term-deposits/smsf-term-deposits/",
+            "additionalValue": "P5M",
+            "applicationFrequency": null,
+            "calculationFrequency": "P1D",
+            "tiers": [],
+            "applicationType": "MATURITY",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0565",
+            "additionalInfo": "Interest paid at maturity",
+            "additionalInfoUri": "https://www.judo.bank/term-deposits/smsf-term-deposits/",
+            "additionalValue": "P10M",
+            "applicationFrequency": null,
+            "calculationFrequency": "P1D",
+            "tiers": [],
+            "applicationType": "MATURITY",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0485",
+            "additionalInfo": "Interest paid monthly",
+            "additionalInfoUri": "https://www.judo.bank/term-deposits/smsf-term-deposits/",
+            "additionalValue": "P7M",
+            "applicationFrequency": "P1M",
+            "calculationFrequency": "P1D",
+            "tiers": [],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0545",
+            "additionalInfo": "Interest paid at maturity",
+            "additionalInfoUri": "https://www.judo.bank/term-deposits/smsf-term-deposits/",
+            "additionalValue": "P1Y",
+            "applicationFrequency": null,
+            "calculationFrequency": "P1D",
+            "tiers": [],
+            "applicationType": "MATURITY",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0535",
+            "additionalInfo": "Interest paid monthly",
+            "additionalInfoUri": "https://www.judo.bank/term-deposits/smsf-term-deposits/",
+            "additionalValue": "P1Y",
+            "applicationFrequency": "P1M",
+            "calculationFrequency": "P1D",
+            "tiers": [],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.022",
+            "additionalInfo": "Interest paid monthly",
+            "additionalInfoUri": "https://www.judo.bank/term-deposits/smsf-term-deposits/",
+            "additionalValue": "P2M",
+            "applicationFrequency": "P1M",
+            "calculationFrequency": "P1D",
+            "tiers": [],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.021",
+            "additionalInfo": "Interest paid monthly",
+            "additionalInfoUri": "https://www.judo.bank/term-deposits/smsf-term-deposits/",
+            "additionalValue": "P1M",
+            "applicationFrequency": "P1M",
+            "calculationFrequency": "P1D",
+            "tiers": [],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0525",
+            "additionalInfo": "Interest paid at maturity",
+            "additionalInfoUri": "https://www.judo.bank/term-deposits/smsf-term-deposits/",
+            "additionalValue": "P11M",
+            "applicationFrequency": null,
+            "calculationFrequency": "P1D",
+            "tiers": [],
+            "applicationType": "MATURITY",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.048",
+            "additionalInfo": "Interest paid monthly",
+            "additionalInfoUri": "https://www.judo.bank/term-deposits/smsf-term-deposits/",
+            "additionalValue": "P5M",
+            "applicationFrequency": "P1M",
+            "calculationFrequency": "P1D",
+            "tiers": [],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0495",
+            "additionalInfo": "Interest paid at maturity",
+            "additionalInfoUri": "https://www.judo.bank/term-deposits/smsf-term-deposits/",
+            "additionalValue": "P7M",
+            "applicationFrequency": null,
+            "calculationFrequency": "P1D",
+            "tiers": [],
+            "applicationType": "MATURITY",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0495",
+            "additionalInfo": "Interest paid monthly",
+            "additionalInfoUri": "https://www.judo.bank/term-deposits/smsf-term-deposits/",
+            "additionalValue": "P9M",
+            "applicationFrequency": "P1M",
+            "calculationFrequency": "P1D",
+            "tiers": [],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.056",
+            "additionalInfo": "Interest paid annually",
+            "additionalInfoUri": "https://www.judo.bank/term-deposits/smsf-term-deposits/",
+            "additionalValue": "P3Y",
+            "applicationFrequency": "P1Y",
+            "calculationFrequency": "P1D",
+            "tiers": [],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0565",
+            "additionalInfo": "Interest paid annually",
+            "additionalInfoUri": "https://www.judo.bank/term-deposits/smsf-term-deposits/",
+            "additionalValue": "P5Y",
+            "applicationFrequency": "P1Y",
+            "calculationFrequency": "P1D",
+            "tiers": [],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0505",
+            "additionalInfo": "Interest paid at maturity",
+            "additionalInfoUri": "https://www.judo.bank/term-deposits/smsf-term-deposits/",
+            "additionalValue": "P9M",
+            "applicationFrequency": null,
+            "calculationFrequency": "P1D",
+            "tiers": [],
+            "applicationType": "MATURITY",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0555",
+            "additionalInfo": "Interest paid monthly",
+            "additionalInfoUri": "https://www.judo.bank/term-deposits/smsf-term-deposits/",
+            "additionalValue": "P4Y",
+            "applicationFrequency": "P1M",
+            "calculationFrequency": "P1D",
+            "tiers": [],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0555",
+            "additionalInfo": "Interest paid monthly",
+            "additionalInfoUri": "https://www.judo.bank/term-deposits/smsf-term-deposits/",
+            "additionalValue": "P5Y",
+            "applicationFrequency": "P1M",
+            "calculationFrequency": "P1D",
+            "tiers": [],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.055",
+            "additionalInfo": "Interest paid monthly",
+            "additionalInfoUri": null,
+            "additionalValue": "P2Y",
+            "applicationFrequency": "P1M",
+            "calculationFrequency": "P1D",
+            "tiers": [],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.049",
+            "additionalInfo": "Interest paid at maturity",
+            "additionalInfoUri": "https://www.judo.bank/term-deposits/smsf-term-deposits/",
+            "additionalValue": "P4M",
+            "applicationFrequency": null,
+            "calculationFrequency": "P1D",
+            "tiers": [],
+            "applicationType": "MATURITY",
+            "applicabilityConditions": []
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "OTHER",
+            "additionalInfo": "An online SMSF Term Deposit is only available to one corporate trustee of an SMSF or two to four individual trustees.",
+            "additionalInfoUri": "https://www.judo.bank/term-deposits/smsf-term-deposits",
+            "additionalValue": null
+          },
+          {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalInfo": null,
+            "additionalInfoUri": "https://www.judo.bank/term-deposits/smsf-term-deposits",
+            "additionalValue": "Be Australian tax residents and reside permanently in Australia living at an Australian residential address. We cannot accept applications from foreign tax residents. Be over the age of 18."
+          },
+          {
+            "eligibilityType": "MIN_AGE",
+            "additionalInfo": null,
+            "additionalInfoUri": "https://www.judo.bank/term-deposits/smsf-term-deposits/",
+            "additionalValue": "18"
+          }
+        ],
+        "features": [
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "10 calendar days rollover cooling off period.\n",
+            "additionalInfoUri": "https://www.judo.bank/term-deposit-accounts-terms-and-conditions/",
+            "additionalValue": null
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Rollover facility available.",
+            "additionalInfoUri": "https://www.judo.bank/term-deposit-accounts-terms-and-conditions/",
+            "additionalValue": null
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Scheduled, periodic payments available",
+            "additionalInfoUri": "https://www.judo.bank/term-deposit-accounts-terms-and-conditions/",
+            "additionalValue": null
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Confirmation Letter provided",
+            "additionalInfoUri": "https://www.judo.bank/term-deposit-accounts-terms-and-conditions/",
+            "additionalValue": null
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Fund via Direct Debit or BPAY.",
+            "additionalInfoUri": "https://www.judo.bank/term-deposit-accounts-terms-and-conditions/",
+            "additionalValue": null
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "All deposits you have with Judo Bank are guaranteed up to $250,000 by the Australian Government, under the Financial Claims Scheme. For more information on the Financial Claims Scheme.",
+            "additionalInfoUri": "https://www.apra.gov.au/financial-claims-scheme",
+            "additionalValue": null
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "No Fees",
+            "additionalInfoUri": "https://www.judo.bank/term-deposit-accounts-terms-and-conditions/",
+            "additionalValue": null
+          },
+          {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": "Digital Banking available.",
+            "additionalInfoUri": "https://digital.judo.bank",
+            "additionalValue": null
+          }
+        ],
+        "fees": [],
+        "lendingRates": [],
+        "instalments": null
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "19c28155-27cb-4daf-88f4-067e28d3whol",
+      "productCategory": "TERM_DEPOSITS",
+      "detail": {
+        "brand": "Judo Bank",
+        "description": "A competitive, fixed interest term deposit that is only available for customers who operate the product through their Broker/Intermediary.",
+        "isTailored": true,
+        "lastUpdated": "2026-08-07T00:06:04.869196Z",
+        "name": "Wholesale Term Deposits",
+        "productCategory": "TERM_DEPOSITS",
+        "productId": "19c28155-27cb-4daf-88f4-067e28d3whol",
+        "additionalInformation": {
+          "overviewUri": "https://www.judo.bank/term-deposit-accounts-terms-and-conditions/",
+          "termsUri": "https://www.judo.bank/term-deposit-accounts-terms-and-conditions/",
+          "eligibilityUri": "https://www.judo.bank/tmd/",
+          "feesAndPricingUri": null,
+          "bundleUri": null,
+          "additionalOverviewUris": [
+            {
+              "additionalInfoUri": "https://www.judo.bank/term-deposit-accounts-terms-and-conditions/",
+              "description": "Term Deposit Accounts Terms and Conditions "
+            }
+          ],
+          "additionalTermsUris": [],
+          "additionalEligibilityUris": [
+            {
+              "additionalInfoUri": "https://www.judo.bank/tmd/",
+              "description": "Term Deposit TMD"
+            }
+          ],
+          "additionalFeesAndPricingUris": [],
+          "additionalBundleUris": []
+        },
+        "applicationUri": null,
+        "brandName": "Judo Bank",
+        "brandGroup": null,
+        "cardArt": [],
+        "effectiveFrom": null,
+        "effectiveTo": null,
+        "bundles": [],
+        "constraints": [],
+        "depositRates": [],
+        "eligibility": [
+          {
+            "eligibilityType": "OTHER",
+            "additionalInfo": "Only available through Judo Bank - approved Intermediaries",
+            "additionalInfoUri": "https://www.judo.bank/term-deposit-accounts-terms-and-conditions/",
+            "additionalValue": null
+          }
+        ],
+        "features": [],
+        "fees": [],
+        "lendingRates": [],
+        "instalments": null
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "63e5a9e5-f73c-434a-1021-f6f1574e4554",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "brand": "Judo Bank",
+        "description": "A High Interest at-call savings account for SMSF's with a bonus interest rate if monthly criteria is met.",
+        "isTailored": false,
+        "lastUpdated": "2026-11-17T21:53:20.285983Z",
+        "name": "SMSF Savings Account",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "productId": "63e5a9e5-f73c-434a-1021-f6f1574e4554",
+        "additionalInformation": {
+          "overviewUri": "https://www.judo.bank/savings-accounts/smsf-savings-account",
+          "termsUri": "https://www.judo.bank/savings-account-terms-and-conditions/",
+          "eligibilityUri": "https://www.judo.bank/savings-accounts/smsf-savings-account",
+          "feesAndPricingUri": null,
+          "bundleUri": null,
+          "additionalOverviewUris": [],
+          "additionalTermsUris": [
+            {
+              "additionalInfoUri": "https://www.judo.bank/digital-terms-and-conditions/",
+              "description": "Digital Banking Terms and Conditions"
+            }
+          ],
+          "additionalEligibilityUris": [],
+          "additionalFeesAndPricingUris": [],
+          "additionalBundleUris": []
+        },
+        "applicationUri": "https://www.judo.bank/savings-accounts/smsf-savings-account",
+        "brandName": "Judo Bank",
+        "brandGroup": null,
+        "cardArt": [],
+        "effectiveFrom": "2026-02-24T00:00:00Z",
+        "effectiveTo": null,
+        "bundles": [],
+        "constraints": [
+          {
+            "constraintType": "OPENING_BALANCE",
+            "additionalInfo": null,
+            "additionalInfoUri": "https://www.judo.bank/savings-account-terms-and-conditions",
+            "additionalValue": "1.00"
+          },
+          {
+            "constraintType": "MIN_BALANCE",
+            "additionalInfo": null,
+            "additionalInfoUri": "https://www.judo.bank/savings-account-terms-and-conditions",
+            "additionalValue": "1.00"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "BONUS",
+            "rate": "0.0431",
+            "additionalInfo": "Interest is calculated daily and paid monthly on your balance at a tiered interest rate.",
+            "additionalInfoUri": "https://www.judo.bank/savings/smsf-savings-account/",
+            "additionalValue": "Deposit $500 within the month.",
+            "applicationFrequency": "P1M",
+            "calculationFrequency": "P1D",
+            "tiers": [
+              {
+                "name": "Tier3",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "2000001.00",
+                "rateApplicationMethod": "PER_TIER",
+                "applicabilityConditions": []
+              }
+            ],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": [
+              {
+                "additionalInfo": "To trigger the bonus rate, simply deposit $500 or more into the account each calendar month. This suits funds in accumulation phase or those holding cash buffers.",
+                "additionalInfoUri": "https://www.judo.bank/savings-accounts/smsf-savings-account/",
+                "rateApplicabilityType": "MIN_DEPOSIT_AMOUNT",
+                "additionalValue": "500.00"
+              }
+            ]
+          },
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0005",
+            "additionalInfo": "Interest is calculated daily and paid monthly on your balance at a tiered interest rate.",
+            "additionalInfoUri": "https://www.judo.bank/savings/smsf-savings-account/",
+            "additionalValue": null,
+            "applicationFrequency": "P1M",
+            "calculationFrequency": "P1D",
+            "tiers": [],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "BONUS",
+            "rate": "0.0481",
+            "additionalInfo": "Interest is calculated daily and paid monthly on your balance at a tiered interest rate.",
+            "additionalInfoUri": "https://www.judo.bank/savings/smsf-savings-account/",
+            "additionalValue": "Deposit $500 within the month.",
+            "applicationFrequency": "P1M",
+            "calculationFrequency": "P1D",
+            "tiers": [
+              {
+                "name": "Tier2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "250001.00",
+                "maximumValue": "2000000.00",
+                "rateApplicationMethod": "PER_TIER",
+                "applicabilityConditions": []
+              }
+            ],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": [
+              {
+                "additionalInfo": "To trigger the bonus rate, simply deposit $500 or more into the account each calendar month. This suits funds in accumulation phase or those holding cash buffers.",
+                "additionalInfoUri": "https://www.judo.bank/savings-accounts/smsf-savings-account/",
+                "rateApplicabilityType": "MIN_DEPOSIT_AMOUNT",
+                "additionalValue": "500.00"
+              }
+            ]
+          },
+          {
+            "depositRateType": "BONUS",
+            "rate": "0.0556",
+            "additionalInfo": "Interest is calculated daily and paid monthly on your balance at a tiered interest rate.",
+            "additionalInfoUri": "https://www.judo.bank/savings/smsf-savings-account/",
+            "additionalValue": "Deposit $500 within the month.",
+            "applicationFrequency": "P1M",
+            "calculationFrequency": "P1D",
+            "tiers": [
+              {
+                "name": "Tier1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1.00",
+                "maximumValue": "250000.00",
+                "rateApplicationMethod": "PER_TIER",
+                "applicabilityConditions": []
+              }
+            ],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": [
+              {
+                "additionalInfo": "To trigger the bonus rate, simply deposit $500 or more into the account each calendar month. This suits funds in accumulation phase or those holding cash buffers.",
+                "additionalInfoUri": "https://www.judo.bank/savings-accounts/smsf-savings-account/",
+                "rateApplicabilityType": "MIN_DEPOSIT_AMOUNT",
+                "additionalValue": "500.00"
+              }
+            ]
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalInfo": null,
+            "additionalInfoUri": "https://www.judo.bank/savings-accounts/smsf-savings-account/",
+            "additionalValue": "The person applying for the account must be:  over 18 years of age; an Australian citizen or Permanent resident; an Australian resident for tax purposes; and living at an Australian residential address."
+          },
+          {
+            "eligibilityType": "MIN_AGE",
+            "additionalInfo": null,
+            "additionalInfoUri": "https://www.judo.bank/savings-accounts/smsf-savings-account/",
+            "additionalValue": "18"
+          },
+          {
+            "eligibilityType": "OTHER",
+            "additionalInfo": "Judo SMSF Savings Account - only available to one corporate trustee of an SMSF or two to four individual trustees.",
+            "additionalInfoUri": "https://www.judo.bank/savings-accounts/smsf-savings-account/",
+            "additionalValue": null
+          }
+        ],
+        "features": [
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Funds via Direct Entry.",
+            "additionalInfoUri": "https://www.judo.bank/savings-account-terms-and-conditions/",
+            "additionalValue": null
+          },
+          {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": "Internet Banking available",
+            "additionalInfoUri": "https://digital.judo.bank",
+            "additionalValue": null
+          }
+        ],
+        "fees": [],
+        "lendingRates": [],
+        "instalments": null
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "63e5a9e5-f73c-434a-9221-f6f1574e4554",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "brand": "Judo Bank",
+        "description": "A High Interest at-call savings account with bonus interest rates if monthly criteria is met. ",
+        "isTailored": false,
+        "lastUpdated": "2026-11-17T21:52:25.107688Z",
+        "name": "Personal Savings Account",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "productId": "63e5a9e5-f73c-434a-9221-f6f1574e4554",
+        "additionalInformation": {
+          "overviewUri": "https://www.judo.bank/savings-accounts/personal-savings-account",
+          "termsUri": "https://www.judo.bank/savings-account-terms-and-conditions/",
+          "eligibilityUri": "https://www.judo.bank/savings-accounts/personal-savings-account",
+          "feesAndPricingUri": null,
+          "bundleUri": null,
+          "additionalOverviewUris": [],
+          "additionalTermsUris": [
+            {
+              "additionalInfoUri": "https://www.judo.bank/digital-terms-and-conditions/",
+              "description": "Digital Banking Terms and Conditions"
+            }
+          ],
+          "additionalEligibilityUris": [],
+          "additionalFeesAndPricingUris": [],
+          "additionalBundleUris": []
+        },
+        "applicationUri": "https://www.judo.bank/savings-accounts/personal-savings-account",
+        "brandName": "Judo Bank",
+        "brandGroup": null,
+        "cardArt": [],
+        "effectiveFrom": "2026-02-24T00:00:00Z",
+        "effectiveTo": null,
+        "bundles": [],
+        "constraints": [
+          {
+            "constraintType": "OPENING_BALANCE",
+            "additionalInfo": null,
+            "additionalInfoUri": "https://www.judo.bank/savings-account-terms-and-conditions",
+            "additionalValue": "1.00"
+          },
+          {
+            "constraintType": "MIN_BALANCE",
+            "additionalInfo": null,
+            "additionalInfoUri": "https://www.judo.bank/savings-account-terms-and-conditions",
+            "additionalValue": "1.00"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "BONUS",
+            "rate": "0.052",
+            "additionalInfo": "Interest is calculated daily and paid monthly on your balance at a tiered interest rate.",
+            "additionalInfoUri": "https://www.judo.bank/savings/personal-savings-account/",
+            "additionalValue": "Deposit $300 within the month.",
+            "applicationFrequency": "P1M",
+            "calculationFrequency": "P1D",
+            "tiers": [
+              {
+                "name": "Tier2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "250001.00",
+                "maximumValue": "2000000.00",
+                "rateApplicationMethod": "PER_TIER",
+                "applicabilityConditions": []
+              }
+            ],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": [
+              {
+                "additionalInfo": "To trigger the bonus rate, simply deposit $300 or more into your savings account each calendar month.",
+                "additionalInfoUri": "https://www.judo.bank/savings-accounts/personal-savings-account/#rates",
+                "rateApplicabilityType": "MIN_DEPOSIT_AMOUNT",
+                "additionalValue": "300.00"
+              }
+            ]
+          },
+          {
+            "depositRateType": "BONUS",
+            "rate": "0.057",
+            "additionalInfo": "Interest is calculated daily and paid monthly on your balance at a tiered interest rate.",
+            "additionalInfoUri": "https://www.judo.bank/savings/personal-savings-account/",
+            "additionalValue": "Deposit $300 within the month.",
+            "applicationFrequency": "P1M",
+            "calculationFrequency": "P1D",
+            "tiers": [
+              {
+                "name": "Tier1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1.00",
+                "maximumValue": "250000.00",
+                "rateApplicationMethod": "PER_TIER",
+                "applicabilityConditions": []
+              }
+            ],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": [
+              {
+                "additionalInfo": "To trigger the bonus rate, simply deposit $300 or more into your savings account each calendar month.",
+                "additionalInfoUri": "https://www.judo.bank/savings-accounts/personal-savings-account/#rates",
+                "rateApplicabilityType": "MIN_DEPOSIT_AMOUNT",
+                "additionalValue": "300.00"
+              }
+            ]
+          },
+          {
+            "depositRateType": "BONUS",
+            "rate": "0.00",
+            "additionalInfo": "Interest is calculated daily and paid monthly on your balance at a tiered interest rate.",
+            "additionalInfoUri": "https://www.judo.bank/savings/personal-savings-account/",
+            "additionalValue": "Deposit $300 within the month.",
+            "applicationFrequency": "P1M",
+            "calculationFrequency": "P1D",
+            "tiers": [
+              {
+                "name": "Tier3",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "2000001.00",
+                "rateApplicationMethod": "PER_TIER",
+                "applicabilityConditions": []
+              }
+            ],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": [
+              {
+                "additionalInfo": "To trigger the bonus rate, simply deposit $300 or more into your savings account each calendar month.",
+                "additionalInfoUri": "https://www.judo.bank/savings-accounts/personal-savings-account/#rates",
+                "rateApplicabilityType": "MIN_DEPOSIT_AMOUNT",
+                "additionalValue": "300.00"
+              }
+            ]
+          },
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0005",
+            "additionalInfo": "Interest is calculated daily and paid monthly on your balance at a tiered interest rate.",
+            "additionalInfoUri": null,
+            "additionalValue": null,
+            "applicationFrequency": "P1M",
+            "calculationFrequency": "P1D",
+            "tiers": [],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": []
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "MIN_AGE",
+            "additionalInfo": null,
+            "additionalInfoUri": "https://www.judo.bank/savings-accounts/personal-savings-account/",
+            "additionalValue": "18"
+          },
+          {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalInfo": null,
+            "additionalInfoUri": "https://www.judo.bank/savings-accounts/personal-savings-account/",
+            "additionalValue": "The person applying for the account must be:  over 18 years of age; an Australian citizen or Permanent resident; an Australian resident for tax purposes; and living at an Australian residential address."
+          },
+          {
+            "eligibilityType": "NATURAL_PERSON",
+            "additionalInfo": "The account should be used in personal capacity or for personal use. ",
+            "additionalInfoUri": "https://www.judo.bank/savings-accounts/personal-savings-account/",
+            "additionalValue": null
+          },
+          {
+            "eligibilityType": "OTHER",
+            "additionalInfo": "Can be a Joint -applicant",
+            "additionalInfoUri": "https://www.judo.bank/savings-accounts/personal-savings-account/",
+            "additionalValue": null
+          }
+        ],
+        "features": [
+          {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": "Internet Banking available",
+            "additionalInfoUri": "https://digital.judo.bank",
+            "additionalValue": null
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Fund via Direct Entry.",
+            "additionalInfoUri": "https://www.judo.bank/savings-account-terms-and-conditions/",
+            "additionalValue": null
+          }
+        ],
+        "fees": [],
+        "lendingRates": [],
+        "instalments": null
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    }
+  ]
+}

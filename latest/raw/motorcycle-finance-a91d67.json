@@ -1,0 +1,28 @@
+{
+  "endpoint": "https://public.prd.mcfinance.net.au/cds-au/v1/banking/products",
+  "slug": "motorcycle-finance-a91d67",
+  "brands": [
+    {
+      "dataHolderBrandId": "8e610ee2-d26e-f111-9b47-6045bd3f59f5",
+      "brandName": "MotorCycle Finance",
+      "brandGroup": null,
+      "abn": "31609859985",
+      "industries": [
+        "non-bank-lending"
+      ]
+    }
+  ],
+  "list": {
+    "ok": true,
+    "status": 200,
+    "version": "5",
+    "totalPages": 1,
+    "pagesFetched": 1,
+    "productCount": 4,
+    "categoryCounts": {
+      "PERS_LOANS": 2,
+      "BUSINESS_LOANS": 2
+    }
+  },
+  "products": []
+}

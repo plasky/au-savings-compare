@@ -1,0 +1,3556 @@
+{
+  "endpoint": "https://id-ob.suncorpbank.com.au/cds-au/v1/banking/products",
+  "slug": "suncorp-bank-58debb",
+  "brands": [
+    {
+      "dataHolderBrandId": "1e13f188-0591-eb11-a821-000d3a884a20",
+      "brandName": "Suncorp Bank",
+      "brandGroup": null,
+      "abn": "66010831722",
+      "industries": [
+        "banking"
+      ]
+    }
+  ],
+  "list": {
+    "ok": true,
+    "status": 200,
+    "version": "5",
+    "totalPages": 1,
+    "pagesFetched": 1,
+    "productCount": 11,
+    "categoryCounts": {
+      "TERM_DEPOSITS": 2,
+      "TRANS_AND_SAVINGS_ACCOUNTS": 7,
+      "REGULATED_TRUST_ACCOUNTS": 2
+    }
+  },
+  "products": [
+    {
+      "productId": "BPA",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "productId": "BPA",
+        "effectiveFrom": "2020-04-30T14:00:00.000Z",
+        "effectiveTo": "2999-12-30T13:00:00.000Z",
+        "lastUpdated": "2026-08-21T14:00:00.000Z",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "name": "Business Premium Account",
+        "description": "Easy business banking with no monthly account keeping fee and unlimited fee free transactions.",
+        "brand": "Suncorp Bank",
+        "brandName": "Suncorp Bank",
+        "applicationUri": "https://www.suncorpbank.com.au/business-banking/bank-accounts/business-premium-account.html",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.suncorpbank.com.au/business-banking/bank-accounts/business-premium-account.html",
+          "termsUri": "https://www.suncorpbank.com.au/content/dam/suncorp/bank/documents/product-information/business-deposit-accounts.pdf",
+          "eligibilityUri": "https://www.suncorpbank.com.au/content/dam/suncorp/bank/documents/product-information/business-deposit-accounts.pdf",
+          "feesAndPricingUri": "https://www.suncorpbank.com.au/content/dam/suncorp/bank/documents/product-information/business-deposit-accounts.pdf",
+          "additionalOverviewUris": [],
+          "additionalTermsUris": [],
+          "additionalEligibilityUris": [],
+          "additionalFeesAndPricingUris": [],
+          "additionalBundleUris": []
+        },
+        "features": [
+          {
+            "featureType": "BILL_PAYMENT",
+            "additionalValue": "BPAY"
+          },
+          {
+            "featureType": "UNLIMITED_TXNS"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Misplaced your card? Card lock in mobile banking lets you lock your card while you look for it",
+            "additionalInfoUri": "https://www.suncorpbank.com.au/help-support/ways-to-bank/suncorp-bank-app/banking-with-the-suncorp-bank-app.html"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "No maximum balance to earn interest"
+          },
+          {
+            "featureType": "NPP_PAYID",
+            "additionalInfo": "Create a PayID and link to your eligible account in Internet Banking",
+            "additionalInfoUri": "https://www.suncorpbank.com.au/help-support/ways-to-bank/fast-payments.html"
+          },
+          {
+            "featureType": "DIGITAL_WALLET",
+            "additionalValue": "Apple Pay",
+            "additionalInfo": "Apple Pay available with Visa Debit card",
+            "additionalInfoUri": "https://www.suncorpbank.com.au/help-support/ways-to-bank/apple-pay.html"
+          },
+          {
+            "featureType": "OVERDRAFT",
+            "additionalInfo": "Business Overdraft available to eligible customers"
+          },
+          {
+            "featureType": "OFFSET",
+            "additionalInfo": "100% Offset facility available when linked to an eligible Suncorp Bank Small Business Loan."
+          },
+          {
+            "featureType": "CARD_ACCESS",
+            "additionalValue": "Visa Debit Card",
+            "additionalInfo": "Use your Visa Debit Card to access cash at ATMs, shop securely online or tap & go with PayWave, Apple Pay or Google Pay"
+          },
+          {
+            "featureType": "NPP_ENABLED",
+            "additionalInfo": "Fast Payments through Suncorp Bank App and Internet Banking",
+            "additionalInfoUri": "https://www.suncorpbank.com.au/help-support/ways-to-bank/fast-payments.html"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "No minimum balance to earn interest"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Pay $0 account keeping fees"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Don't shop online? Card lock in mobile banking lets you lock your card for online purchases (domestic and international) and online subscriptions",
+            "additionalInfoUri": "https://www.suncorpbank.com.au/help-support/ways-to-bank/suncorp-bank-app/banking-with-the-suncorp-bank-app.html"
+          },
+          {
+            "featureType": "DIGITAL_BANKING"
+          },
+          {
+            "featureType": "DIGITAL_WALLET",
+            "additionalValue": "Google Pay",
+            "additionalInfo": "Google Pay available with VISA Debit card",
+            "additionalInfoUri": "https://www.suncorpbank.com.au/help-support/ways-to-bank/google-pay.html"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Don't travel? Card lock in mobile banking lets you lock your card for overseas instore purchases",
+            "additionalInfoUri": "https://www.suncorpbank.com.au/help-support/ways-to-bank/suncorp-bank-app/banking-with-the-suncorp-bank-app.html"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Pay To is available to manage payments from an eligible bank account in Suncorp Bank App",
+            "additionalInfoUri": "https://www.suncorpbank.com.au/help-support/ways-to-bank/payto.html"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "BUSINESS",
+            "additionalInfo": "Eligibility depends on your specific organisation structure and entity type - Please see Suncorp Bank website for more information",
+            "additionalInfoUri": "https://www.suncorpbank.com.au/content/dam/suncorp/bank/documents/personal/help-and-support/acc-opening-and-application-requirements.pdf"
+          }
+        ],
+        "fees": [
+          {
+            "name": "Copy of personal or bank cheque",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "12.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "eStatements",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Foreign Currency Bank Draft - trace request or stop payment",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "20.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Coin Handling (Non-Suncorp Bank Customer)",
+            "feeType": "OTHER",
+            "feeMethodUType": "rateBased",
+            "rateBased": {
+              "rateType": "TRANSACTION",
+              "rate": "0.05"
+            },
+            "currency": "AUD",
+            "additionalInfo": "5% of total coin value"
+          },
+          {
+            "name": "Coin Handling (Non-Suncorp Bank Customer)",
+            "feeType": "CASH_ADVANCE",
+            "feeMethodUType": "rateBased",
+            "rateBased": {
+              "rateType": "TRANSACTION",
+              "rate": "0.05"
+            },
+            "currency": "AUD",
+            "additionalInfo": "5% of total coin value"
+          },
+          {
+            "name": "Stop payment request - Direct Debit",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Record Search/Copy Fee (cheques, records, voucher retrieval)",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "70.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "per hour"
+          },
+          {
+            "name": "Request for Audit Certificate",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "30.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "per certificate"
+          },
+          {
+            "name": "Account keeping fee",
+            "feeType": "PERIODIC",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "currency": "AUD",
+            "additionalValue": "P1M",
+            "additionalInfo": "No monthly account keeping fees"
+          },
+          {
+            "name": "atmx by Armaguard network ATM withdrawals & enquiries",
+            "feeType": "WITHDRAWAL",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Bank@Post",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Fee Free - Limits apply"
+          },
+          {
+            "name": "Business and Company Name Search",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Business Offset Linking",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Card Replacement",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Foreign Currency Conversion Fee (Visa Debit Transactions)",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "rateBased",
+            "rateBased": {
+              "rateType": "TRANSACTION",
+              "rate": "0.03"
+            },
+            "currency": "AUD",
+            "additionalInfo": "3.0% of the converted Australian dollar transaction amount of any foreign currency transaction made or charged to your account"
+          },
+          {
+            "name": "Interest Certificate",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "10.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "previous financial year - per certificate issued"
+          },
+          {
+            "name": "Non Suncorp Bank and non-atmx network ATM withdrawals & enquiries",
+            "feeType": "OTHER",
+            "feeMethodUType": "variable",
+            "variable": {
+              "feeMinimum": "0.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "ATM Operator Fee"
+          },
+          {
+            "name": "Online Telegraphic Transfer sent via Global Payments",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Physical Security Token",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "20.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Suncorp Bank Secured App (soft token) available at no cost",
+            "additionalInfoUri": "https://www.suncorpbank.com.au/security/security-token-app.html"
+          },
+          {
+            "name": "Real Time Gross Settlements (RTGS) - outward",
+            "feeType": "WITHDRAWAL",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "35.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Stop Payment Request - bank cheques",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "15.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Sweep Fees",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Funds Management Sweep, Insufficient Funds Sweep and Sweep Failure"
+          },
+          {
+            "name": "Telegraphic Transfers (staff assisted and via Global Payments) recall, amended, trace request",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "30.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "plus other bank's costs"
+          },
+          {
+            "name": "Telegraphic Transfers sent - staff assisted",
+            "feeType": "WITHDRAWAL",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "30.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Trace/recall of funds request - cheque, electronic payment",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "30.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Visa debit card cash advance at non-Suncorp Bank Institution",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "5.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "per $1,000 advanced or part thereof"
+          },
+          {
+            "name": "Visa debit cards emergency overseas card replacement",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "50.00"
+            },
+            "currency": "AUD"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0001",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "$1 to $19,999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1.0",
+                "maximumValue": "19999.0",
+                "rateApplicationMethod": "PER_TIER"
+              }
+            ],
+            "additionalInfo": "Business Premium Variable Interest calculated daily and paid monthly on a tiered basis."
+          },
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0001",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "$20,000 to $49,999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "20000.0",
+                "maximumValue": "49999.0",
+                "rateApplicationMethod": "PER_TIER"
+              }
+            ],
+            "additionalInfo": "Business Premium Variable Interest calculated daily and paid monthly on a tiered basis. No interest is paid when account is operating in offset mode."
+          },
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0001",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "$500,000 and over",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "500000.0",
+                "maximumValue": "999999999999.0",
+                "rateApplicationMethod": "PER_TIER"
+              }
+            ],
+            "additionalInfo": "Business Premium Variable Interest calculated daily and paid monthly on a tiered basis. No interest is paid when account is operating in offset mode."
+          },
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0001",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "$250,000 to $499,999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "250000.0",
+                "maximumValue": "499999.0",
+                "rateApplicationMethod": "PER_TIER"
+              }
+            ],
+            "additionalInfo": "Business Premium Variable Interest calculated daily and paid monthly on a tiered basis. No interest is paid when account is operating in offset mode."
+          },
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0001",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "$100,000 to $249,999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "100000.0",
+                "maximumValue": "249999.0",
+                "rateApplicationMethod": "PER_TIER"
+              }
+            ],
+            "additionalInfo": "Business Premium Variable Interest calculated daily and paid monthly on a tiered basis. No interest is paid when account is operating in offset mode."
+          },
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0001",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "$50,000 to $99,999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "50000.0",
+                "maximumValue": "99999.0",
+                "rateApplicationMethod": "PER_TIER"
+              }
+            ],
+            "additionalInfo": "Business Premium Variable Interest calculated daily and paid monthly on a tiered basis. No interest is paid when account is operating in offset mode."
+          }
+        ]
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "BSA",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "productId": "BSA",
+        "effectiveFrom": "2020-04-30T14:00:00.000Z",
+        "effectiveTo": "2999-12-30T13:00:00.000Z",
+        "lastUpdated": "2026-11-11T13:00:00.000Z",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "name": "Business Saver Account",
+        "description": "A savings account that works for your business.",
+        "brand": "Suncorp Bank",
+        "brandName": "Suncorp Bank",
+        "applicationUri": "https://www.suncorpbank.com.au/business-banking/bank-accounts/business-savings-account.html",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.suncorpbank.com.au/business-banking/bank-accounts/business-savings-account.html",
+          "termsUri": "https://www.suncorpbank.com.au/content/dam/suncorp/bank/documents/product-information/business-deposit-accounts.pdf",
+          "eligibilityUri": "https://www.suncorpbank.com.au/content/dam/suncorp/bank/documents/product-information/business-deposit-accounts.pdf",
+          "feesAndPricingUri": "https://www.suncorpbank.com.au/content/dam/suncorp/bank/documents/product-information/business-deposit-accounts.pdf",
+          "additionalOverviewUris": [],
+          "additionalTermsUris": [],
+          "additionalEligibilityUris": [],
+          "additionalFeesAndPricingUris": [],
+          "additionalBundleUris": []
+        },
+        "features": [
+          {
+            "featureType": "NPP_ENABLED",
+            "additionalInfo": "Fast Payments through Suncorp Bank App and Internet Banking",
+            "additionalInfoUri": "https://www.suncorpbank.com.au/help-support/ways-to-bank/fast-payments.html"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Pay $0 account keeping fees"
+          },
+          {
+            "featureType": "NPP_PAYID",
+            "additionalInfo": "Create a PayID and link to your eligible account via Internet Banking",
+            "additionalInfoUri": "https://www.suncorpbank.com.au/help-support/ways-to-bank/fast-payments.html"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "No maximum balance to earn interest"
+          },
+          {
+            "featureType": "DIGITAL_BANKING"
+          },
+          {
+            "featureType": "UNLIMITED_TXNS"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "No minimum balance to earn interest"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Pay To is available to manage payments from an eligible bank account in Suncorp Bank App",
+            "additionalInfoUri": "https://www.suncorpbank.com.au/help-support/ways-to-bank/payto.html"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "BUSINESS",
+            "additionalInfo": "Eligibility depends on your specific organisation structure and entity type - Please see Suncorp Bank website for more information",
+            "additionalInfoUri": "https://www.suncorpbank.com.au/content/dam/suncorp/bank/documents/personal/help-and-support/acc-opening-and-application-requirements.pdf"
+          }
+        ],
+        "fees": [
+          {
+            "name": "Account keeping fee",
+            "feeType": "PERIODIC",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "currency": "AUD",
+            "additionalValue": "P1M",
+            "additionalInfo": "No monthly account keeping fees"
+          },
+          {
+            "name": "Copy of bank cheque",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "12.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "eStatements",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Interest Certificate",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "10.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "previous financial year - per certificate issued"
+          },
+          {
+            "name": "Physical Security Token",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "20.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Suncorp Bank Secured App (soft token) available at no cost",
+            "additionalInfoUri": "https://www.suncorpbank.com.au/security/security-token-app.html"
+          },
+          {
+            "name": "Real Time Gross Settlements (RTGS) - outward",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "35.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Record Search/Copy Fee (cheques, records, voucher retrieval)",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "70.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "per hour"
+          },
+          {
+            "name": "Request for Audit Certificate",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "30.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "per certificate"
+          },
+          {
+            "name": "Trace/recall of funds request",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "30.00"
+            },
+            "currency": "AUD"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.024",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "additionalInfo": "Business Saver Variable interest rate. Interest is calculated daily and paid monthly."
+          }
+        ]
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "EDO",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "productId": "EDO",
+        "effectiveFrom": "2020-04-30T14:00:00.000Z",
+        "effectiveTo": "2999-12-30T13:00:00.000Z",
+        "lastUpdated": "2026-08-21T14:00:00.000Z",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "name": "Everyday Options Account",
+        "description": "An easy, everyday bank account packed with extras to help you spend, save and budget better.",
+        "brand": "Suncorp Bank",
+        "brandName": "Suncorp Bank",
+        "applicationUri": "https://www.suncorpbank.com.au/bank-and-save/everyday-accounts/options.html#application",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.suncorpbank.com.au/bank-and-save/everyday-accounts/options.html",
+          "termsUri": "https://www.suncorpbank.com.au/content/dam/suncorp/bank/documents/product-information/personal-deposit-account-pid.pdf",
+          "eligibilityUri": "https://www.suncorpbank.com.au/content/dam/suncorp/bank/documents/product-information/personal-deposit-account-pid.pdf",
+          "feesAndPricingUri": "https://www.suncorpbank.com.au/content/dam/suncorp/bank/documents/product-information/personal-deposit-account-pid.pdf",
+          "additionalOverviewUris": [],
+          "additionalTermsUris": [],
+          "additionalEligibilityUris": [],
+          "additionalFeesAndPricingUris": [],
+          "additionalBundleUris": []
+        },
+        "cardArt": [
+          {
+            "cardScheme": "VISA",
+            "cardType": "DEBIT",
+            "title": "Visa Debit",
+            "imageUri": "https://www.suncorpbank.com.au/content/dam/suncorp/bank/images/cards/suncorp-visa-debit-eftpos-new.png"
+          }
+        ],
+        "features": [
+          {
+            "featureType": "DIGITAL_BANKING"
+          },
+          {
+            "featureType": "BILL_PAYMENT",
+            "additionalValue": "BPAY"
+          },
+          {
+            "featureType": "CARD_ACCESS",
+            "additionalValue": "Visa Debit Card for Ages 11-15 years",
+            "additionalInfo": "Use your Visa Debit Card to access cash at ATMs, shop securely online or tap & go with PayWave, Apple Pay or Google Pay. For Visa Debit Cards issued to customers aged 11-15 years of age, we will block known gambling, adult entertainment and certain other transactions involving restricted products or services."
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Pay $0 monthly account keeping fees"
+          },
+          {
+            "featureType": "CARD_ACCESS",
+            "additionalValue": "Visa Debit Card for Ages 16 and older",
+            "additionalInfo": "Use your Visa Debit Card to access cash at ATMs, shop securely online or tap & go with PayWave, Apple Pay or Google Pay"
+          },
+          {
+            "featureType": "UNLIMITED_TXNS"
+          },
+          {
+            "featureType": "NPP_ENABLED",
+            "additionalInfo": "Fast Payments through Suncorp Bank App and Internet Banking",
+            "additionalInfoUri": "https://www.suncorpbank.com.au/help-support/ways-to-bank/fast-payments.html"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Offset facility when linked to an eligible Suncorp Bank Home Loan."
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Pay $0 Foreign Currency Conversion Fees on Visa Debit Card purchases from overseas merchants"
+          },
+          {
+            "featureType": "NPP_PAYID",
+            "additionalInfo": "Create a PayID and link to your eligible account in Suncorp Bank App",
+            "additionalInfoUri": "https://www.suncorpbank.com.au/help-support/ways-to-bank/fast-payments.html"
+          },
+          {
+            "featureType": "DIGITAL_WALLET",
+            "additionalValue": "Google Pay",
+            "additionalInfo": "Google Pay with Visa Debit Cards",
+            "additionalInfoUri": "https://www.suncorpbank.com.au/help-support/ways-to-bank/google-pay.html"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Pay $0 Visa Debit Cash Advance Fees at non-Suncorp Bank ATMs"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Misplaced your card? Card lock in mobile banking lets you lock your card while you look for it",
+            "additionalInfoUri": "https://www.suncorpbank.com.au/help-support/ways-to-bank/suncorp-bank-app/banking-with-the-suncorp-bank-app.html"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Flexibility to add up to 9 optional sub-accounts to help you plan and save (no card access on sub-accounts)."
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Don't shop online? Card lock in mobile banking lets you lock your card for online purchases (domestic and international) and online subscriptions",
+            "additionalInfoUri": "https://www.suncorpbank.com.au/help-support/ways-to-bank/suncorp-bank-app/banking-with-the-suncorp-bank-app.html"
+          },
+          {
+            "featureType": "DIGITAL_WALLET",
+            "additionalValue": "Apple Pay",
+            "additionalInfo": "Apple Pay with Visa Debit Cards",
+            "additionalInfoUri": "https://www.suncorpbank.com.au/help-support/ways-to-bank/apple-pay.html"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Don't travel? Card lock in mobile banking lets you lock your card for overseas instore purchases",
+            "additionalInfoUri": "https://www.suncorpbank.com.au/help-support/ways-to-bank/suncorp-bank-app/banking-with-the-suncorp-bank-app.html"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Pay bills directly from optional sub-accounts at no additional cost."
+          },
+          {
+            "featureType": "LOYALTY_PROGRAM",
+            "additionalValue": "Feel Good Rewards",
+            "additionalInfo": "Feel Good Rewards is a rewards program which provides cashback paid into your Eligible Account when you meet the Eligibility Criteria as set out in the Account Terms and Conditions."
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Pay To is available to manage payments from an eligible bank account in Suncorp Bank App",
+            "additionalInfoUri": "https://www.suncorpbank.com.au/help-support/ways-to-bank/payto.html"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "11",
+            "additionalInfo": "Account owners must be 11 years or older"
+          },
+          {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalValue": "Account owners must be residents of Australia"
+          },
+          {
+            "eligibilityType": "NATURAL_PERSON",
+            "additionalInfo": "Account owners must be individuals as personal customers for personal use"
+          }
+        ],
+        "fees": [
+          {
+            "name": "Request for Audit Certificate",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "30.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "per certificate"
+          },
+          {
+            "name": "Account keeping fee",
+            "feeType": "PERIODIC",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "currency": "AUD",
+            "additionalValue": "P1M",
+            "additionalInfo": "No monthly account keeping fees"
+          },
+          {
+            "name": "atmx by Armaguard network ATM withdrawals & enquiries",
+            "feeType": "WITHDRAWAL",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Bank@Post",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Fee Free - Limits apply"
+          },
+          {
+            "name": "Card Replacement",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Copy of personal or bank cheque",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "12.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "eStatements",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Foreign Currency Bank Draft - trace request or stop payment",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "20.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Foreign Currency Conversion Fee (Visa Debit Transactions)",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Suncorp Bank Visa Debit Transactions"
+          },
+          {
+            "name": "Interest Certificate",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "10.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "previous financial year - per certificate issued"
+          },
+          {
+            "name": "Mortgage Offset Fee",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "75.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Waived with Home Package Plus"
+          },
+          {
+            "name": "Non Suncorp Bank ATM withdrawals & enquiries",
+            "feeType": "OTHER",
+            "feeMethodUType": "variable",
+            "variable": {
+              "feeMinimum": "0.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "ATM Operator Fee"
+          },
+          {
+            "name": "Physical Security Token",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "20.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Suncorp Bank Secured App (soft token) available at no cost",
+            "additionalInfoUri": "https://www.suncorpbank.com.au/security/security-token-app.html"
+          },
+          {
+            "name": "Real Time Gross Settlements (RTGS) - outward",
+            "feeType": "WITHDRAWAL",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "35.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Record Search/Copy Fee (cheques, records, voucher retrieval)",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "70.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "per hour"
+          },
+          {
+            "name": "Stop Payment Request - bank cheques",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "15.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Stop payment request - Direct Debit",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Telegraphic Transfers (staff assisted and via Global Payments) recall, amended, trace request",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "30.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "plus other bank's costs"
+          },
+          {
+            "name": "Telegraphic Transfers sent - staff assisted",
+            "feeType": "WITHDRAWAL",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "30.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Trace/recall of funds request - cheque, electronic payment",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "30.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Visa debit cards emergency overseas card replacement",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "50.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Visa debit card cash advance at non-Suncorp Bank Institution",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "per $1,000 advanced or part thereof",
+            "discounts": [
+              {
+                "description": "Accessibility Waiver",
+                "discountType": "ELIGIBILITY_ONLY",
+                "discountMethodUType": "fixedAmount",
+                "fixedAmount": {
+                  "amount": "0.00"
+                },
+                "additionalInfo": "Waive ATM Operator fees",
+                "eligibility": [
+                  {
+                    "discountEligibilityType": "OTHER",
+                    "additionalInfo": "Waive ATM Operator fees"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0001",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "additionalInfo": "Standard Interest on optional sub-accounts calculated daily and paid monthly.  No interest is paid when account is operating in offset mode",
+            "additionalInfoUri": "https://www.suncorpbank.com.au/bank-and-save/everyday-accounts/options.html?intCMP=SUN:BK:IN:NPS:OSL:20240417:-1390#rates-and-fees"
+          },
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0001",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P6M",
+            "additionalInfo": "Standard Interest on main account calculated daily and paid 6 monthly. . No interest is paid when account is operating in offset mode.",
+            "additionalInfoUri": "https://www.suncorpbank.com.au/bank-and-save/everyday-accounts/options.html?intCMP=SUN:BK:IN:NPS:OSL:20240417:-1390#rates-and-fees"
+          }
+        ]
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "ESS",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "productId": "ESS",
+        "effectiveFrom": "2020-04-30T14:00:00.000Z",
+        "effectiveTo": "2999-12-30T13:00:00.000Z",
+        "lastUpdated": "2026-03-19T13:00:00.000Z",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "name": "Everyday Essentials Account",
+        "description": "A basic day-to-day transaction account for holders of concession and health care cards or recipients of government income support.",
+        "brand": "SUNCORP BANK",
+        "brandName": "Suncorp Bank",
+        "applicationUri": "https://www.suncorpbank.com.au/bank-and-save/everyday-accounts.html",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.suncorpbank.com.au/bank-and-save/everyday-accounts/essentials.html",
+          "termsUri": "https://www.suncorpbank.com.au/content/dam/suncorp/bank/documents/product-information/personal-deposit-account-pid.pdf",
+          "eligibilityUri": "https://www.suncorpbank.com.au/content/dam/suncorp/bank/documents/product-information/personal-deposit-account-pid.pdf",
+          "feesAndPricingUri": "https://www.suncorpbank.com.au/content/dam/suncorp/bank/documents/product-information/personal-deposit-account-pid.pdf",
+          "additionalOverviewUris": [],
+          "additionalTermsUris": [],
+          "additionalEligibilityUris": [],
+          "additionalFeesAndPricingUris": [],
+          "additionalBundleUris": []
+        },
+        "cardArt": [
+          {
+            "cardScheme": "VISA",
+            "cardType": "DEBIT",
+            "title": "Visa Debit",
+            "imageUri": "https://www.suncorpbank.com.au/content/dam/suncorp/bank/images/cards/suncorp-visa-debit-eftpos-new.png"
+          }
+        ],
+        "features": [
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Don't travel? Card lock in mobile banking lets you lock your card for overseas instore purchases",
+            "additionalInfoUri": "https://www.suncorpbank.com.au/help-support/ways-to-bank/suncorp-bank-app/banking-with-the-suncorp-bank-app.html"
+          },
+          {
+            "featureType": "BILL_PAYMENT",
+            "additionalValue": "BPay"
+          },
+          {
+            "featureType": "DIGITAL_WALLET",
+            "additionalValue": "Google Pay",
+            "additionalInfo": "Google Pay with Visa Debit Cards",
+            "additionalInfoUri": "https://www.suncorpbank.com.au/help-support/ways-to-bank/google-pay.html"
+          },
+          {
+            "featureType": "NPP_ENABLED",
+            "additionalInfo": "Fast Payments through Suncorp Bank App and Internet Banking",
+            "additionalInfoUri": "https://www.suncorpbank.com.au/help-support/ways-to-bank/fast-payments.html"
+          },
+          {
+            "featureType": "DIGITAL_BANKING"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Don't shop online? Card lock in mobile banking lets you lock your card for online purchases (domestic and international) and online subscriptions",
+            "additionalInfoUri": "https://www.suncorpbank.com.au/help-support/ways-to-bank/suncorp-bank-app/banking-with-the-suncorp-bank-app.html"
+          },
+          {
+            "featureType": "CARD_ACCESS",
+            "additionalValue": "Visa Debit Card for Ages 16 and older",
+            "additionalInfo": "Use your Visa Debit Card to access cash at ATMs, shop securely online or tap & go with PayWave, Apple Pay or Google Pay"
+          },
+          {
+            "featureType": "CARD_ACCESS",
+            "additionalValue": "Visa Debit Card for Ages 11-15 years",
+            "additionalInfo": "Use your Visa Debit Card to access cash at ATMs, shop securely online or tap & go with PayWave, Apple Pay or Google Pay. For Visa Debit Cards issued to customers aged 11-15 years of age, we will block known gambling, adult entertainment and certain other transactions involving restricted products or services."
+          },
+          {
+            "featureType": "NPP_PAYID",
+            "additionalInfo": "Create a PayID and link to your eligible account in Suncorp Bank App",
+            "additionalInfoUri": "https://www.suncorpbank.com.au/help-support/ways-to-bank/fast-payments.html"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Misplaced your card? Card lock in mobile banking lets you lock your card while you look for it",
+            "additionalInfoUri": "https://www.suncorpbank.com.au/help-support/ways-to-bank/suncorp-bank-app/banking-with-the-suncorp-bank-app.html"
+          },
+          {
+            "featureType": "UNLIMITED_TXNS"
+          },
+          {
+            "featureType": "DIGITAL_WALLET",
+            "additionalValue": "Apple Pay",
+            "additionalInfo": "Apple Pay with Visa Debit Cards",
+            "additionalInfoUri": "https://www.suncorpbank.com.au/help-support/ways-to-bank/apple-pay.html"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Pay $0 Visa Debit Cash Advance Fees at non-Suncorp Bank ATMs"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Pay $0 Foreign Currency Conversion Fees on Visa Debit Card purchases from overseas merchants"
+          },
+          {
+            "featureType": "LOYALTY_PROGRAM",
+            "additionalValue": "Feel Good Rewards",
+            "additionalInfo": "Feel Good Rewards is a rewards program which provides cashback paid into your Eligible Account when you meet the Eligibility Criteria as set out in the Account Terms and Conditions."
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Pay To is available to manage payments from an eligible bank account in Suncorp Bank App",
+            "additionalInfoUri": "https://www.suncorpbank.com.au/help-support/ways-to-bank/payto.html"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "NATURAL_PERSON",
+            "additionalInfo": "Account owners must be individuals as personal customers for personal use"
+          },
+          {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "11",
+            "additionalInfo": "Account owners must be 11 years or older"
+          },
+          {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalValue": "Account owners must be residents of Australia"
+          }
+        ],
+        "fees": [
+          {
+            "name": "Account keeping fee",
+            "feeType": "PERIODIC",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "currency": "AUD",
+            "additionalValue": "P1M",
+            "additionalInfo": "No monthly account keeping fees"
+          },
+          {
+            "name": "atmx by Armaguard network ATM withdrawals & enquiries",
+            "feeType": "WITHDRAWAL",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Bank@Post",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Fee Free - Limits apply"
+          },
+          {
+            "name": "Card Replacement",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Copy of bank cheque",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "12.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "eStatements",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Foreign Currency Bank Draft - trace request or stop payment",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "20.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Foreign Currency Conversion Fee (Visa Debit Transactions)",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Suncorp Bank Visa Debit Transactions"
+          },
+          {
+            "name": "Physical Security Token",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "20.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Suncorp Bank Secured App (soft token) available at no cost",
+            "additionalInfoUri": "https://www.suncorpbank.com.au/security/security-token-app.html"
+          },
+          {
+            "name": "Real Time Gross Settlements (RTGS) - outward",
+            "feeType": "WITHDRAWAL",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "35.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Record Search/Copy Fee (cheques, records, voucher retrieval)",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "70.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "per hour"
+          },
+          {
+            "name": "Request for Audit Certificate",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "30.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "per certificate"
+          },
+          {
+            "name": "Stop Payment Request - bank cheques",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "15.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Stop payment request - Direct Debit",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Telegraphic Transfers (staff assisted and via Global Payments) recall, amended, trace request",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "30.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "plus other bank's costs"
+          },
+          {
+            "name": "Telegraphic Transfers sent - staff assisted",
+            "feeType": "WITHDRAWAL",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "30.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Trace/recall of funds request - cheque, electronic payment",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "30.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Visa debit card cash advance at non-Suncorp Bank Institution",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "per $1,000 advanced or part thereof"
+          },
+          {
+            "name": "Visa debit cards emergency overseas card replacement",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "50.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Non Suncorp Bank ATM withdrawals & enquiries",
+            "feeType": "OTHER",
+            "feeMethodUType": "variable",
+            "variable": {
+              "feeMinimum": "0.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "ATM Operator Fee",
+            "discounts": [
+              {
+                "description": "Accessibility Waiver",
+                "discountType": "ELIGIBILITY_ONLY",
+                "discountMethodUType": "fixedAmount",
+                "fixedAmount": {
+                  "amount": "0.00"
+                },
+                "additionalInfo": "Waive ATM Operator fees",
+                "eligibility": [
+                  {
+                    "discountEligibilityType": "OTHER",
+                    "additionalInfo": "Applies to customers with a permanent physical, intellectual disability or an impairment that restricts access to Suncorp Bank facilities."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "FMDAatcall",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "productId": "FMDAatcall",
+        "effectiveFrom": "2021-06-24T14:00:00.000Z",
+        "effectiveTo": "2999-12-30T13:00:00.000Z",
+        "lastUpdated": "2026-03-25T13:00:00.000Z",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "name": "Farm Management Deposit Account",
+        "description": "A Farm Management Deposit Account (FMDA) At Call is for primary producers who can take advantage of the tax benefits available under the Farm Management Deposits (FMD) scheme.  The FMDA At Call is a savings account with no fixed term which offers a standard variable interest rate on the money held in the account.",
+        "brand": "Suncorp Bank",
+        "brandName": "Suncorp Bank",
+        "applicationUri": "https://www.suncorpbank.com.au/business-banking/bank-accounts/farm-management.html",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.suncorpbank.com.au/business-banking/bank-accounts/farm-management.html",
+          "termsUri": "https://www.suncorpbank.com.au/content/dam/suncorp/bank/documents/product-information/farm-management-deposit-account-pid.pdf",
+          "eligibilityUri": "https://www.suncorpbank.com.au/content/dam/suncorp/bank/documents/product-information/farm-management-deposit-account-pid.pdf",
+          "additionalOverviewUris": [],
+          "additionalTermsUris": [],
+          "additionalEligibilityUris": [],
+          "additionalFeesAndPricingUris": [],
+          "additionalBundleUris": []
+        },
+        "features": [
+          {
+            "featureType": "UNLIMITED_TXNS",
+            "additionalInfo": "Staff assisted transactions only"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Pay $0 account keeping fees"
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "MIN_BALANCE",
+            "additionalValue": "1000.00",
+            "additionalInfo": "Minimum Balance of $1,000",
+            "additionalInfoUri": "https://www.suncorpbank.com.au/business-banking/bank-accounts/farm-management.html"
+          },
+          {
+            "constraintType": "MAX_BALANCE",
+            "additionalValue": "800000.00",
+            "additionalInfo": "Maximum Balance of $800,000",
+            "additionalInfoUri": "https://www.suncorpbank.com.au/business-banking/bank-accounts/farm-management.html"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "BUSINESS",
+            "additionalInfo": "Must be a primary producer",
+            "additionalInfoUri": "https://www.suncorpbank.com.au/business-banking/bank-accounts/farm-management.html"
+          },
+          {
+            "eligibilityType": "BUSINESS",
+            "additionalInfo": "Deposit must remain in the account for a minimum of 12 months to take advantage of tax benefits",
+            "additionalInfoUri": "https://www.suncorpbank.com.au/business-banking/bank-accounts/farm-management.html"
+          },
+          {
+            "eligibilityType": "BUSINESS",
+            "additionalInfo": "Deposit between $1000 and $800,000 for the relevant financial year",
+            "additionalInfoUri": "https://www.suncorpbank.com.au/business-banking/bank-accounts/farm-management.html"
+          },
+          {
+            "eligibilityType": "BUSINESS",
+            "additionalInfo": "Account can only be opened in an individuals name only",
+            "additionalInfoUri": "https://www.suncorpbank.com.au/business-banking/bank-accounts/farm-management.html"
+          },
+          {
+            "eligibilityType": "BUSINESS",
+            "additionalInfo": "Account holder has a taxable non-primary income of $100,000 or less",
+            "additionalInfoUri": "https://www.suncorpbank.com.au/business-banking/bank-accounts/farm-management.html"
+          }
+        ],
+        "fees": [
+          {
+            "name": "Interest Certificate",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "10.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "previous financial year - per certificate issued"
+          },
+          {
+            "name": "Record Search/Copy Fee",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "70.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "per hour"
+          },
+          {
+            "name": "Request for Audit Certificate",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "30.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "per certificate"
+          },
+          {
+            "name": "Standard fees",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "There are no fees associated with this account"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.02",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P12M",
+            "additionalInfo": "FMDA Variable Interest is calculated daily and paid anually into the nominated account (not into the Farm Management Deposit Account) on the anniversary of account opening. Calculated on the credit balance."
+          }
+        ]
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "FMDATD",
+      "productCategory": "TERM_DEPOSITS",
+      "detail": {
+        "productId": "FMDATD",
+        "effectiveFrom": "2021-06-24T14:00:00.000Z",
+        "effectiveTo": "2999-12-30T13:00:00.000Z",
+        "lastUpdated": "2026-05-27T14:00:00.000Z",
+        "productCategory": "TERM_DEPOSITS",
+        "name": "Farm Management Term Deposit",
+        "description": "A Farm Management Deposit Account (FMDA) Term Deposit is for primary producers who can take advantage of the tax benefits available under the Farm Management Deposits (FMD) scheme. The FMDA Term Deposit allows you to lock away an amount of money at a fixed interest rate for a nominated time period.  During the fixed term, no deposits or withdrawals are permitted.",
+        "brand": "Suncorp Bank",
+        "brandName": "Suncorp Bank",
+        "applicationUri": "https://www.suncorpbank.com.au/business-banking/bank-accounts/farm-management.html",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.suncorpbank.com.au/business-banking/bank-accounts/farm-management.html",
+          "termsUri": "https://www.suncorpbank.com.au/content/dam/suncorp/bank/documents/product-information/farm-management-deposit-account-pid.pdf",
+          "eligibilityUri": "https://www.suncorpbank.com.au/content/dam/suncorp/bank/documents/product-information/farm-management-deposit-account-pid.pdf",
+          "additionalOverviewUris": [],
+          "additionalTermsUris": [],
+          "additionalEligibilityUris": [],
+          "additionalFeesAndPricingUris": [],
+          "additionalBundleUris": []
+        },
+        "features": [
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Pay $0 account keeping fees"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Monthly interest payments are available on terms 2, 3, 6, 9, 12 and 24 months at 0.30% p.a. below carded rates for interest at maturity (terms 2, 3, 6, 9, 12 and 24 months)."
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Quarterly interest payments are available on terms 6, 9, 12 and 24 months at 0.25% p.a. below carded rates for interest at maturity (terms 6, 9, 12 and 24 months)."
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Semi-annual interest payments are available on terms 12 and 24 months at 0.15% p.a. below carded rates for interest at maturity (terms 12 and 24 months)."
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "MIN_BALANCE",
+            "additionalValue": "1000.00",
+            "additionalInfo": "Minimum Balance of $1,000"
+          },
+          {
+            "constraintType": "MAX_BALANCE",
+            "additionalValue": "800000.00",
+            "additionalInfo": "Maximum Balance of $800,000"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "BUSINESS",
+            "additionalInfo": "Must be a primary producer",
+            "additionalInfoUri": "https://www.suncorpbank.com.au/business-banking/bank-accounts/farm-management.html"
+          },
+          {
+            "eligibilityType": "BUSINESS",
+            "additionalInfo": "Deposit must remain in the account for a minimum of 12 months to take advantage of tax benefits",
+            "additionalInfoUri": "https://www.suncorpbank.com.au/business-banking/bank-accounts/farm-management.html"
+          },
+          {
+            "eligibilityType": "BUSINESS",
+            "additionalInfo": "Deposit between $1000 and $800,000 for the relevant financial year",
+            "additionalInfoUri": "https://www.suncorpbank.com.au/business-banking/bank-accounts/farm-management.html"
+          },
+          {
+            "eligibilityType": "BUSINESS",
+            "additionalInfo": "Account can only be opened in an individuals name only",
+            "additionalInfoUri": "https://www.suncorpbank.com.au/business-banking/bank-accounts/farm-management.html"
+          },
+          {
+            "eligibilityType": "BUSINESS",
+            "additionalInfo": "Account holder has a taxable non-primary income of $100,000 or less",
+            "additionalInfoUri": "https://www.suncorpbank.com.au/business-banking/bank-accounts/farm-management.html"
+          }
+        ],
+        "fees": [
+          {
+            "name": "Interest Certificate",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "10.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "previous financial year - per certificate issued"
+          },
+          {
+            "name": "Record Search/Copy Fee",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "70.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "per hour"
+          },
+          {
+            "name": "Request for Audit Certificate",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "30.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "per certificate"
+          },
+          {
+            "name": "Standard fees",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "There are no fees associated with this account",
+            "additionalInfoUri": "https://www.suncorpbank.com.au/business-banking/bank-accounts/farm-management.html"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.052",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1Y",
+            "tiers": [
+              {
+                "name": "$50,000 to $99,999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "50000.0",
+                "maximumValue": "99999.0",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P24M",
+            "additionalInfo": "24 Month TD Interest Annually"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.052",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1Y",
+            "tiers": [
+              {
+                "name": "$1,000 to $49,999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.0",
+                "maximumValue": "49999.0",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P24M",
+            "additionalInfo": "24 Month TD Interest Annually"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.052",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1Y",
+            "tiers": [
+              {
+                "name": "$100,000 to $800,000",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "100000.0",
+                "maximumValue": "800000.0",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P24M",
+            "additionalInfo": "24 Month TD Interest Annually"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0525",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P12M",
+            "tiers": [
+              {
+                "name": "$50,000 to $99,999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "50000.0",
+                "maximumValue": "99999.0",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P12M",
+            "additionalInfo": "12 Month TD Interest at Maturity"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0525",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P12M",
+            "tiers": [
+              {
+                "name": "$1,000 to $49,999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.0",
+                "maximumValue": "49999.0",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P12M",
+            "additionalInfo": "12 Month TD Interest at Maturity"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0525",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P12M",
+            "tiers": [
+              {
+                "name": "$100,000 to $800,000",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "100000.0",
+                "maximumValue": "800000.0",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P12M",
+            "additionalInfo": "12 Month TD Interest at Maturity"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.05",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P9M",
+            "tiers": [
+              {
+                "name": "$50,000 to $99,999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "50000.0",
+                "maximumValue": "99999.0",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P9M",
+            "additionalInfo": "09 Month TD Interest at Maturity"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.05",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P9M",
+            "tiers": [
+              {
+                "name": "$1,000 to $49,999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.0",
+                "maximumValue": "49999.0",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P9M",
+            "additionalInfo": "09 Month TD Interest at Maturity"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.05",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P9M",
+            "tiers": [
+              {
+                "name": "$100,000 to $800,000",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "100000.0",
+                "maximumValue": "800000.0",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P9M",
+            "additionalInfo": "09 Month TD Interest at Maturity"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0485",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P6M",
+            "tiers": [
+              {
+                "name": "$50,000 to $99,999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "50000.0",
+                "maximumValue": "99999.0",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P6M",
+            "additionalInfo": "06 Month TD Interest at Maturity"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0485",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P6M",
+            "tiers": [
+              {
+                "name": "$1,000 to $49,999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.0",
+                "maximumValue": "49999.0",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P6M",
+            "additionalInfo": "06 Month TD Interest at Maturity"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0485",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P6M",
+            "tiers": [
+              {
+                "name": "$100,000 to $800,000",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "100000.0",
+                "maximumValue": "800000.0",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P6M",
+            "additionalInfo": "06 Month TD Interest at Maturity"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0425",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P3M",
+            "tiers": [
+              {
+                "name": "$50,000 to $99,999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "50000.0",
+                "maximumValue": "99999.0",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P3M",
+            "additionalInfo": "03 Month TD Interest at Maturity"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0425",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P3M",
+            "tiers": [
+              {
+                "name": "$1,000 to $49,999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.0",
+                "maximumValue": "49999.0",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P3M",
+            "additionalInfo": "03 Month TD Interest at Maturity"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0425",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P3M",
+            "tiers": [
+              {
+                "name": "$100,000 to $800,000",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "100000.0",
+                "maximumValue": "800000.0",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P3M",
+            "additionalInfo": "03 Month TD Interest at Maturity"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.02",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P2M",
+            "tiers": [
+              {
+                "name": "$100,000 to $800,000",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "100000.0",
+                "maximumValue": "800000.0",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P2M",
+            "additionalInfo": "02 Month TD Interest at Maturity"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.02",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P2M",
+            "tiers": [
+              {
+                "name": "$50,000 to $99,999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "50000.0",
+                "maximumValue": "99999.0",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P2M",
+            "additionalInfo": "02 Month TD Interest at Maturity"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.02",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P2M",
+            "tiers": [
+              {
+                "name": "$1,000 to $49,999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.0",
+                "maximumValue": "49999.0",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P2M",
+            "additionalInfo": "02 Month TD Interest at Maturity"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0185",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "$100,000 to $800,000",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "100000.0",
+                "maximumValue": "800000.0",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P1M",
+            "additionalInfo": "01 Month TD Interest at Maturity"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0185",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "$50,000 to $99,999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "50000.0",
+                "maximumValue": "99999.0",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P1M",
+            "additionalInfo": "01 Month TD Interest at Maturity"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0185",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "$1,000 to $49,999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.0",
+                "maximumValue": "49999.0",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P1M",
+            "additionalInfo": "01 Month TD Interest at Maturity"
+          }
+        ]
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "GS",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "productId": "GS",
+        "effectiveFrom": "2020-04-30T14:00:00.000Z",
+        "effectiveTo": "2999-12-30T13:00:00.000Z",
+        "lastUpdated": "2026-11-11T13:00:00.000Z",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "name": "Growth Saver Account",
+        "description": "A higher interest savings account that rewards you with Bonus Interest for regular savings.",
+        "brand": "Suncorp Bank",
+        "brandName": "Suncorp Bank",
+        "applicationUri": "https://www.suncorpbank.com.au/bank-and-save/savings-accounts/growth-saver.html#application",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.suncorpbank.com.au/bank-and-save/savings-accounts/growth-saver.html",
+          "termsUri": "https://www.suncorpbank.com.au/content/dam/suncorp/bank/documents/product-information/personal-deposit-account-pid.pdf",
+          "eligibilityUri": "https://www.suncorpbank.com.au/content/dam/suncorp/bank/documents/product-information/personal-deposit-account-pid.pdf",
+          "feesAndPricingUri": "https://www.suncorpbank.com.au/content/dam/suncorp/bank/documents/product-information/personal-deposit-account-pid.pdf",
+          "additionalOverviewUris": [],
+          "additionalTermsUris": [],
+          "additionalEligibilityUris": [],
+          "additionalFeesAndPricingUris": [],
+          "additionalBundleUris": []
+        },
+        "features": [
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Pay $0 monthly account keeping fees"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Earn Bonus Interest when you grow your net balance by $200 (excluding interest) and make no more than 1 withdrawal in the calendar month."
+          },
+          {
+            "featureType": "NPP_PAYID",
+            "additionalInfo": "Create a PayID and link to your eligible account in the Suncorp Bank App",
+            "additionalInfoUri": "https://www.suncorpbank.com.au/help-support/ways-to-bank/fast-payments.html"
+          },
+          {
+            "featureType": "NPP_ENABLED",
+            "additionalInfo": "Fast Payments through Suncorp Bank App and Internet Banking",
+            "additionalInfoUri": "https://www.suncorpbank.com.au/help-support/ways-to-bank/fast-payments.html"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Bonus Interest - Standard Interest earned in the current calendar month does not contribute to the balance growth requirement for bonus interest."
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "No maximum balance"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "No minimum balance to earn standard interest"
+          },
+          {
+            "featureType": "DIGITAL_BANKING"
+          },
+          {
+            "featureType": "UNLIMITED_TXNS"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Pay To is available to manage payments from an eligible bank account in Suncorp Bank App",
+            "additionalInfoUri": "https://www.suncorpbank.com.au/help-support/ways-to-bank/payto.html"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "11",
+            "additionalInfo": "Account owners must be 11 years or older"
+          },
+          {
+            "eligibilityType": "NATURAL_PERSON",
+            "additionalInfo": "Account owners must be individuals as personal customers for personal use"
+          },
+          {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalValue": "Account owners must be residents of Australia"
+          }
+        ],
+        "fees": [
+          {
+            "name": "Account keeping fee",
+            "feeType": "PERIODIC",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "currency": "AUD",
+            "additionalValue": "P1M",
+            "additionalInfo": "No monthly account keeping fees"
+          },
+          {
+            "name": "Copy of bank cheque",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "12.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "eStatements",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Interest Certificate",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "10.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "previous financial year - per certificate issued"
+          },
+          {
+            "name": "Physical Security Token",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "20.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Suncorp Bank Secured App (soft token) available at no cost",
+            "additionalInfoUri": "https://www.suncorpbank.com.au/security/security-token-app.html"
+          },
+          {
+            "name": "Real Time Gross Settlements (RTGS) - outward",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "35.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Record Search/Copy Fee (cheques, records, voucher retrieval)",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "70.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "per hour"
+          },
+          {
+            "name": "Request for Audit Certificate",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "30.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "per certificate"
+          },
+          {
+            "name": "Stop Payment Request - bank cheques",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "15.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Telegraphic Transfers (staff assisted and via Global Payments) recall, amended, trace request",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "30.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "plus other bank's costs"
+          },
+          {
+            "name": "Telegraphic Transfers sent - staff assisted",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "30.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Trace/recall of funds request",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "30.00"
+            },
+            "currency": "AUD"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.001",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "additionalInfo": "Standard Interest calculated daily and paid monthly. If you do not meet the Bonus Conditions in a calendar month you still earn Standard Interest on daily balances."
+          },
+          {
+            "depositRateType": "BONUS",
+            "rate": "0.055",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "applicabilityConditions": [
+              {
+                "rateApplicabilityType": "DEPOSIT_BALANCE_INCREASED",
+                "additionalValue": "200",
+                "additionalInfo": "Minimum balance increase per month of $200"
+              },
+              {
+                "rateApplicabilityType": "MAX_WITHDRAWALS",
+                "additionalValue": "1",
+                "additionalInfo": "Maximum of 1 withdrawal per month"
+              }
+            ],
+            "additionalValue": "Closing balance on the last day of the month (excl. interest) at least $200 greater than the closing balance on the last day of the previous month and no more than 1 withdrawal in the month.",
+            "additionalInfo": "Bonus Interest - conditions must be met for bonus interest to be paid."
+          }
+        ]
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "KS",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "productId": "KS",
+        "effectiveFrom": "2020-04-30T14:00:00.000Z",
+        "effectiveTo": "2999-12-30T13:00:00.000Z",
+        "lastUpdated": "2026-11-11T13:00:00.000Z",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "name": "Kids Savings",
+        "description": "A savings account for under-18s that offers bonus interest for regular savers",
+        "brand": "Suncorp Bank",
+        "brandName": "Suncorp Bank",
+        "applicationUri": "https://www.suncorpbank.com.au/bank-and-save/kids-bank-accounts/kids-savings-account.html",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.suncorpbank.com.au/bank-and-save/kids-bank-accounts/kids-savings-account.html",
+          "termsUri": "https://www.suncorpbank.com.au/content/dam/suncorp/bank/documents/product-information/personal-deposit-account-pid.pdf",
+          "eligibilityUri": "https://www.suncorpbank.com.au/content/dam/suncorp/bank/documents/product-information/personal-deposit-account-pid.pdf",
+          "feesAndPricingUri": "https://www.suncorpbank.com.au/content/dam/suncorp/bank/documents/product-information/personal-deposit-account-pid.pdf",
+          "additionalOverviewUris": [],
+          "additionalTermsUris": [],
+          "additionalEligibilityUris": [],
+          "additionalFeesAndPricingUris": [],
+          "additionalBundleUris": []
+        },
+        "features": [
+          {
+            "featureType": "UNLIMITED_TXNS"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Pay $0 account keeping fees"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "No minimum balance to earn standard interest"
+          },
+          {
+            "featureType": "DIGITAL_BANKING"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Earn Bonus Interest when you deposit at least $20 each month and make no more than 1 withdrawal in the calendar month."
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "No maximum balance"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "MAX_AGE",
+            "additionalValue": "11-18",
+            "additionalInfo": "Where the child is aged 11 <18 years, the account can be opened and operated by the child either solely or as a shared account with the parent/guardian."
+          },
+          {
+            "eligibilityType": "MAX_AGE",
+            "additionalValue": "11",
+            "additionalInfo": "Where the child is under 11 years of age - parent/guardian consent is required to open the account. The parent/guardian will have full access to operate the account and the child cannot transact."
+          },
+          {
+            "eligibilityType": "NATURAL_PERSON",
+            "additionalInfo": "Account owners must be individuals as personal customers for personal use"
+          },
+          {
+            "eligibilityType": "MAX_AGE",
+            "additionalValue": "18",
+            "additionalInfo": "Account owners must be under 18"
+          },
+          {
+            "eligibilityType": "MAX_AGE",
+            "additionalValue": "18",
+            "additionalInfo": "On turning 18 years of age, the accountholder will no longer be eligible to hold a Kids Savings account. We will write to you and convert the account to a Suncorp Bank Everyday Options Account."
+          },
+          {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalValue": "Account owners must be residents of Australia"
+          }
+        ],
+        "fees": [
+          {
+            "name": "Account keeping fee",
+            "feeType": "PERIODIC",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "currency": "AUD",
+            "additionalValue": "P1M",
+            "additionalInfo": "No monthly account keeping fees"
+          },
+          {
+            "name": "Copy of bank cheque",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "12.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Interest Certificate",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "10.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "previous financial year - per certificate issued"
+          },
+          {
+            "name": "Physical Security Token",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "20.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Suncorp Bank Secured App (soft token) available at no cost",
+            "additionalInfoUri": "https://www.suncorpbank.com.au/security/security-token-app.html"
+          },
+          {
+            "name": "Record search/copy fee (cheques, records, retrieval)",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "70.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "per hour"
+          },
+          {
+            "name": "Request for Audit Certificate",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "30.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "per certificate"
+          },
+          {
+            "name": "Stop Payment Request - bank cheques",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "15.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "Trace/recall of funds request",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "30.00"
+            },
+            "currency": "AUD"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0035",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "additionalInfo": "Standard Interest calculated daily and paid monthly. If you do not meet the Bonus Conditions in a calendar month you still earn Standard Interest on daily balances."
+          },
+          {
+            "depositRateType": "BONUS",
+            "rate": "0.0445",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "applicabilityConditions": [
+              {
+                "rateApplicabilityType": "MIN_DEPOSITS",
+                "additionalValue": "20",
+                "additionalInfo": "Minimum deposit of $20 per month"
+              },
+              {
+                "rateApplicabilityType": "MAX_WITHDRAWALS",
+                "additionalValue": "1",
+                "additionalInfo": "Maximum of 1 withdrawal per month"
+              }
+            ],
+            "additionalValue": "Bonus interest is paid when you deposit at least $20 each month and make no more than 1 withdrawal in the month.",
+            "additionalInfo": "Bonus interest - conditions must be met for bonus interest to be paid."
+          }
+        ]
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "TD",
+      "productCategory": "TERM_DEPOSITS",
+      "detail": {
+        "productId": "TD",
+        "effectiveFrom": "2020-04-30T14:00:00.000Z",
+        "effectiveTo": "2999-12-30T13:00:00.000Z",
+        "lastUpdated": "2026-11-17T13:00:00.000Z",
+        "productCategory": "TERM_DEPOSITS",
+        "name": "Term Deposit",
+        "description": "Enjoy a guaranteed return on your money when you invest for a nominated fixed period",
+        "brand": "Suncorp Bank",
+        "brandName": "Suncorp Bank",
+        "applicationUri": "https://www.suncorpbank.com.au/bank-and-save/savings-accounts.html",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.suncorpbank.com.au/bank-and-save/savings-accounts/term-deposits.html",
+          "termsUri": "https://www.suncorpbank.com.au/content/dam/suncorp/bank/documents/product-information/fixed-term-deposit-pid.pdf",
+          "eligibilityUri": "https://www.suncorpbank.com.au/content/dam/suncorp/bank/documents/product-information/fixed-term-deposit-pid.pdf",
+          "feesAndPricingUri": "https://www.suncorpbank.com.au/content/dam/suncorp/bank/documents/product-information/fixed-term-deposit-pid.pdf",
+          "additionalOverviewUris": [],
+          "additionalTermsUris": [],
+          "additionalEligibilityUris": [],
+          "additionalFeesAndPricingUris": [],
+          "additionalBundleUris": []
+        },
+        "features": [
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Pay $0 monthly account keeping fees"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Monthly interest payments are available on terms 2-60 months at 0.05% p.a. below carded rates for interest at maturity (terms 2-12m) or interest annually (terms greater than 12m)."
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "If you want to withdraw your Term Deposit before maturity you need to provide at least 31 days' notice. You may incur an interest adjustment"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Quarterly interest payments are available on terms 6-60 months at 0.05% p.a. below carded rates for interest at maturity (terms 6-12m) or interest annually (terms greater than 12m)."
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Semi-annual interest payments are available on terms 12-60 months at 0.05% p.a. below carded rates for interest at maturity (12m) or interest annually (terms greater than 12m)."
+          },
+          {
+            "featureType": "DIGITAL_BANKING"
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "OPENING_BALANCE",
+            "additionalValue": "5000.00",
+            "additionalInfo": "Minimum balance of $5,000"
+          },
+          {
+            "constraintType": "MIN_BALANCE",
+            "additionalValue": "1000.00",
+            "additionalInfo": "Term Deposits from $1,000 are available only where the Term Deposit is used as security."
+          },
+          {
+            "constraintType": "MIN_BALANCE",
+            "additionalValue": "5000.00",
+            "additionalInfo": "Minimum balance of $5,000"
+          },
+          {
+            "constraintType": "MAX_BALANCE",
+            "additionalValue": "2000001.00",
+            "additionalInfo": "Negotiated Rates may be available for Term Deposits over $2 million as agreed by us"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalValue": "Account owners must be residents of Australia"
+          },
+          {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "11",
+            "additionalInfo": "At Least one personal account owner must be 18 years or older"
+          }
+        ],
+        "fees": [
+          {
+            "name": "Account keeping fee",
+            "feeType": "PERIODIC",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "currency": "AUD",
+            "additionalValue": "P1M",
+            "additionalInfo": "No monthly account keeping fees"
+          },
+          {
+            "name": "Breaking TD Term - Interest Adjustment",
+            "feeType": "OTHER",
+            "feeMethodUType": "variable",
+            "variable": {
+              "feeMinimum": "0.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Adjustment based on proportion of term completed. Proportion of term completed: 0%-25%, Adjustment: 80% of interest earned up to the date we will allow you to withdraw your deposit; Proportion of term completed: 26%-50%, Adjustment: 60% of interest earned up to the date we will allow you to withdraw your deposit; Proportion of term completed: 51%-75%, Adjustment: 40% of interest earned up to the date we will allow you to withdraw your deposit; Proportion of term completed: 76%-100%, Adjustment: 20% of interest earned up to the date we will allow you to withdraw your deposit."
+          },
+          {
+            "name": "Interest Certificate",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "10.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "previous financial year - per certificate issued"
+          },
+          {
+            "name": "Record Search/Copy Fee",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "70.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "per hour"
+          },
+          {
+            "name": "Request for Audit Certificate",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "30.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "per certificate"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0125",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "$5,000 to $99,999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.0",
+                "maximumValue": "99999.0",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P1M",
+            "additionalInfo": "01 Month TD Interest at Maturity"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.013",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "$100,000 to $999,999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "100000.0",
+                "maximumValue": "999999.0",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P1M",
+            "additionalInfo": "01 Month TD Interest at Maturity"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0135",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "$1,000,000 to $2,000,000",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000000.0",
+                "maximumValue": "2000000.0",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P1M",
+            "additionalInfo": "01 Month TD Interest at Maturity"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0195",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P2M",
+            "tiers": [
+              {
+                "name": "$5,000 to $99,999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.0",
+                "maximumValue": "99999.0",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P2M",
+            "additionalInfo": "02 Month TD Interest at Maturity"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.02",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P2M",
+            "tiers": [
+              {
+                "name": "$100,000 to $999,999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "100000.0",
+                "maximumValue": "999999.0",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P2M",
+            "additionalInfo": "02 Month TD Interest at Maturity"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0205",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P2M",
+            "tiers": [
+              {
+                "name": "$1,000,000 to $2,000,000",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000000.0",
+                "maximumValue": "2000000.0",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P2M",
+            "additionalInfo": "02 Month TD Interest at Maturity"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.048",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P3M",
+            "tiers": [
+              {
+                "name": "$5,000 to $99,999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.0",
+                "maximumValue": "99999.0",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P3M",
+            "additionalInfo": "03 Month TD Interest at Maturity"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.048",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P3M",
+            "tiers": [
+              {
+                "name": "$100,000 to $999,999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "100000.0",
+                "maximumValue": "999999.0",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P3M",
+            "additionalInfo": "03 Month TD Interest at Maturity"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.048",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P3M",
+            "tiers": [
+              {
+                "name": "$1,000,000 to $2,000,000",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000000.0",
+                "maximumValue": "2000000.0",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P3M",
+            "additionalInfo": "03 Month TD Interest at Maturity"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0395",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P4M",
+            "tiers": [
+              {
+                "name": "$5,000 to $99,999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.0",
+                "maximumValue": "99999.0",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P4M",
+            "additionalInfo": "04 Month TD Interest at Maturity"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.04",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P4M",
+            "tiers": [
+              {
+                "name": "$100,000 to $999,999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "100000.0",
+                "maximumValue": "999999.0",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P4M",
+            "additionalInfo": "04 Month TD Interest at Maturity"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0405",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P4M",
+            "tiers": [
+              {
+                "name": "$1,000,000 to $2,000,000",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000000.0",
+                "maximumValue": "2000000.0",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P4M",
+            "additionalInfo": "04 Month TD Interest at Maturity"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.037",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P5M",
+            "tiers": [
+              {
+                "name": "$5,000 to $99,999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.0",
+                "maximumValue": "99999.0",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P5M",
+            "additionalInfo": "05 Month TD Interest at Maturity"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0375",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P5M",
+            "tiers": [
+              {
+                "name": "$100,000 to $999,999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "100000.0",
+                "maximumValue": "999999.0",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P5M",
+            "additionalInfo": "05 Month TD Interest at Maturity"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.038",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P5M",
+            "tiers": [
+              {
+                "name": "$1,000,000 to $2,000,000",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000000.0",
+                "maximumValue": "2000000.0",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P5M",
+            "additionalInfo": "05 Month TD Interest at Maturity"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0525",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P6M",
+            "tiers": [
+              {
+                "name": "$5,000 to $99,999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.0",
+                "maximumValue": "99999.0",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P6M",
+            "additionalInfo": "06 Month TD Interest at Maturity"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0525",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P6M",
+            "tiers": [
+              {
+                "name": "$100,000 to $999,999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "100000.0",
+                "maximumValue": "999999.0",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P6M",
+            "additionalInfo": "06 Month TD Interest at Maturity"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0525",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P6M",
+            "tiers": [
+              {
+                "name": "$1,000,000 to $2,000,000",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000000.0",
+                "maximumValue": "2000000.0",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P6M",
+            "additionalInfo": "06 Month TD Interest at Maturity"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.052",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P7M",
+            "tiers": [
+              {
+                "name": "$5,000 to $99,999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.0",
+                "maximumValue": "99999.0",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P7M",
+            "additionalInfo": "07 Month TD Interest at Maturity"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.052",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P7M",
+            "tiers": [
+              {
+                "name": "$100,000 to $999,999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "100000.0",
+                "maximumValue": "999999.0",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P7M",
+            "additionalInfo": "07 Month TD Interest at Maturity"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.052",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P7M",
+            "tiers": [
+              {
+                "name": "$1,000,000 to $2,000,000",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000000.0",
+                "maximumValue": "2000000.0",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P7M",
+            "additionalInfo": "07 Month TD Interest at Maturity"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.041",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P8M",
+            "tiers": [
+              {
+                "name": "$5,000 to $99,999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.0",
+                "maximumValue": "99999.0",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P8M",
+            "additionalInfo": "08 Month TD Interest at Maturity"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.041",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P8M",
+            "tiers": [
+              {
+                "name": "$100,000 to $999,999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "100000.0",
+                "maximumValue": "999999.0",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P8M",
+            "additionalInfo": "08 Month TD Interest at Maturity"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.041",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P8M",
+            "tiers": [
+              {
+                "name": "$1,000,000 to $2,000,000",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000000.0",
+                "maximumValue": "2000000.0",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P8M",
+            "additionalInfo": "08 Month TD Interest at Maturity"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.053",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P9M",
+            "tiers": [
+              {
+                "name": "$5,000 to $99,999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.0",
+                "maximumValue": "99999.0",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P9M",
+            "additionalInfo": "09 Month TD Interest at Maturity"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.053",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P9M",
+            "tiers": [
+              {
+                "name": "$100,000 to $999,999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "100000.0",
+                "maximumValue": "999999.0",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P9M",
+            "additionalInfo": "09 Month TD Interest at Maturity"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.053",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P9M",
+            "tiers": [
+              {
+                "name": "$1,000,000 to $2,000,000",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000000.0",
+                "maximumValue": "2000000.0",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P9M",
+            "additionalInfo": "09 Month TD Interest at Maturity"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.037",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P10M",
+            "tiers": [
+              {
+                "name": "$5,000 to $99,999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.0",
+                "maximumValue": "99999.0",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P10M",
+            "additionalInfo": "10 Month TD Interest at Maturity"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0375",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P10M",
+            "tiers": [
+              {
+                "name": "$100,000 to $999,999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "100000.0",
+                "maximumValue": "999999.0",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P10M",
+            "additionalInfo": "10 Month TD Interest at Maturity"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.038",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P10M",
+            "tiers": [
+              {
+                "name": "$1,000,000 to $2,000,000",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000000.0",
+                "maximumValue": "2000000.0",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P10M",
+            "additionalInfo": "10 Month TD Interest at Maturity"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.041",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P11M",
+            "tiers": [
+              {
+                "name": "$5,000 to $99,999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.0",
+                "maximumValue": "99999.0",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P11M",
+            "additionalInfo": "11 Month TD Interest at Maturity"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0415",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P11M",
+            "tiers": [
+              {
+                "name": "$100,000 to $999,999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "100000.0",
+                "maximumValue": "999999.0",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P11M",
+            "additionalInfo": "11 Month TD Interest at Maturity"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.042",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P11M",
+            "tiers": [
+              {
+                "name": "$1,000,000 to $2,000,000",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000000.0",
+                "maximumValue": "2000000.0",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P11M",
+            "additionalInfo": "11 Month TD Interest at Maturity"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.052",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1Y",
+            "tiers": [
+              {
+                "name": "$5,000 to $99,999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.0",
+                "maximumValue": "99999.0",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P18M",
+            "additionalInfo": "18 Month TD Interest Annually"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0575",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P12M",
+            "tiers": [
+              {
+                "name": "$5,000 to $99,999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.0",
+                "maximumValue": "99999.0",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P12M",
+            "additionalInfo": "12 Month TD Interest at Maturity"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0575",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P12M",
+            "tiers": [
+              {
+                "name": "$100,000 to $999,999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "100000.0",
+                "maximumValue": "999999.0",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P12M",
+            "additionalInfo": "12 Month TD Interest at Maturity"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0575",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "applicationFrequency": "P12M",
+            "tiers": [
+              {
+                "name": "$1,000,000 to $2,000,000",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000000.0",
+                "maximumValue": "2000000.0",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P12M",
+            "additionalInfo": "12 Month TD Interest at Maturity"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.052",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1Y",
+            "tiers": [
+              {
+                "name": "$100,000 to $999,999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "100000.0",
+                "maximumValue": "999999.0",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P18M",
+            "additionalInfo": "18 Month TD Interest Annually"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.052",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1Y",
+            "tiers": [
+              {
+                "name": "$1,000,000 to $2,000,000",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000000.0",
+                "maximumValue": "2000000.0",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P18M",
+            "additionalInfo": "18 Month TD Interest Annually"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.055",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1Y",
+            "tiers": [
+              {
+                "name": "$5,000 to $99,999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.0",
+                "maximumValue": "99999.0",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P24M",
+            "additionalInfo": "24 Month TD Interest Annually"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.055",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1Y",
+            "tiers": [
+              {
+                "name": "$100,000 to $999,999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "100000.0",
+                "maximumValue": "999999.0",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P24M",
+            "additionalInfo": "24 Month TD Interest Annually"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.055",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1Y",
+            "tiers": [
+              {
+                "name": "$1,000,000 to $2,000,000",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000000.0",
+                "maximumValue": "2000000.0",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P24M",
+            "additionalInfo": "24 Month TD Interest Annually"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.05",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1Y",
+            "tiers": [
+              {
+                "name": "$5,000 to $99,999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.0",
+                "maximumValue": "99999.0",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P36M",
+            "additionalInfo": "36 Month TD Interest Annually"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.05",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1Y",
+            "tiers": [
+              {
+                "name": "$100,000 to $999,999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "100000.0",
+                "maximumValue": "999999.0",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P36M",
+            "additionalInfo": "36 Month TD Interest Annually"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.05",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1Y",
+            "tiers": [
+              {
+                "name": "$1,000,000 to $2,000,000",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000000.0",
+                "maximumValue": "2000000.0",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P36M",
+            "additionalInfo": "36 Month TD Interest Annually"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.05",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1Y",
+            "tiers": [
+              {
+                "name": "$5,000 to $99,999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.0",
+                "maximumValue": "99999.0",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P48M",
+            "additionalInfo": "48 Month TD Interest Annually"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.05",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1Y",
+            "tiers": [
+              {
+                "name": "$100,000 to $999,999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "100000.0",
+                "maximumValue": "999999.0",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P48M",
+            "additionalInfo": "48 Month TD Interest Annually"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.05",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1Y",
+            "tiers": [
+              {
+                "name": "$1,000,000 to $2,000,000",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000000.0",
+                "maximumValue": "2000000.0",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P48M",
+            "additionalInfo": "48 Month TD Interest Annually"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.05",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1Y",
+            "tiers": [
+              {
+                "name": "$5,000 to $99,999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.0",
+                "maximumValue": "99999.0",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P60M",
+            "additionalInfo": "60 Month TD Interest Annually"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.05",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1Y",
+            "tiers": [
+              {
+                "name": "$100,000 to $999,999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "100000.0",
+                "maximumValue": "999999.0",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P60M",
+            "additionalInfo": "60 Month TD Interest Annually"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.05",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1Y",
+            "tiers": [
+              {
+                "name": "$1,000,000 to $2,000,000",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000000.0",
+                "maximumValue": "2000000.0",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P60M",
+            "additionalInfo": "60 Month TD Interest Annually"
+          }
+        ]
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    }
+  ]
+}

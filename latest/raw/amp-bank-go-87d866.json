@@ -1,0 +1,1310 @@
+{
+  "endpoint": "https://pub.cdr-sme.amp.com.au/api/cds-au/v1/banking/products",
+  "slug": "amp-bank-go-87d866",
+  "brands": [
+    {
+      "dataHolderBrandId": "cb31cdc7-ec9c-ef11-95f6-000d3a79c46e",
+      "brandName": "AMP Bank GO",
+      "brandGroup": null,
+      "abn": "15081596009",
+      "industries": [
+        "banking"
+      ]
+    }
+  ],
+  "list": {
+    "ok": true,
+    "status": 200,
+    "version": "5",
+    "totalPages": 1,
+    "pagesFetched": 1,
+    "productCount": 9,
+    "categoryCounts": {
+      "TRANS_AND_SAVINGS_ACCOUNTS": 5,
+      "TERM_DEPOSITS": 4
+    }
+  },
+  "products": [
+    {
+      "productId": "28281a03-41e7-4995-a869-9d6524d63823",
+      "productCategory": "TERM_DEPOSITS",
+      "detail": {
+        "lastUpdated": "2026-11-03T06:11:35.969Z",
+        "productCategory": "TERM_DEPOSITS",
+        "name": "AMP Bank GO 12 Month Business Term Deposit",
+        "description": "12 Month Business Term Deposit via the AMP Bank GO app",
+        "brand": "AMP Bank GO",
+        "brandName": "AMP Bank GO",
+        "applicationUri": " https://www.amp.com.au/business-banking/small-business-everyday-money",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.amp.com.au/business-banking/business-term-deposit/amp-bank-go-business-term-deposit",
+          "termsUri": " https://www.amp.com.au/content/dam/amp-2024/documents/terms-and-conditions/bank/amp-bank-savings-account-terms-and-conditions.pdf",
+          "eligibilityUri": " https://www.amp.com.au/content/dam/amp-2024/documents/terms-and-conditions/bank/amp-bank-go-business-term-deposit.pdf",
+          "feesAndPricingUri": "https://www.amp.com.au/content/dam/amp-2024/documents/terms-and-conditions/bank/account-limits-fees-and-charges.pdf"
+        },
+        "features": [
+          {
+            "featureType": "DIGITAL_BANKING",
+            "additionalValue": "",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+          },
+          {
+            "featureType": "NOTIFICATIONS",
+            "additionalValue": "Real time notifications for money in and out. In-app service notifications",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "MIN_BALANCE",
+            "additionalValue": "5000.00",
+            "additionalInfo": "",
+            "additionalInfoUri": "https://www.amp.com.au/content/dam/amp-2024/documents/terms-and-conditions/bank/account-limits-fees-and-charges.pdf"
+          },
+          {
+            "constraintType": "MAX_BALANCE",
+            "additionalValue": "10000000.00",
+            "additionalInfo": "",
+            "additionalInfoUri": "https://www.amp.com.au/content/dam/amp-2024/documents/terms-and-conditions/bank/account-limits-fees-and-charges.pdf"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "BUSINESS",
+            "additionalValue": "",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+          },
+          {
+            "eligibilityType": "OTHER",
+            "additionalValue": "Linked Business Transaction Account",
+            "additionalInfo": "Customers must have an active AMP Bank GO Everyday Business Account in order to open an AMP Bank GO Business Term Deposit",
+            "additionalInfoUri": "https://www.amp.com.au/content/dam/amp-2024/documents/terms-and-conditions/bank/amp-bank-go-term-deposit.pdf"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.057",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "additionalValue": "P12M"
+          }
+        ],
+        "productId": "28281a03-41e7-4995-a869-9d6524d63823"
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "282bc819-b61b-4233-b53b-290808bcb9f3",
+      "productCategory": "TERM_DEPOSITS",
+      "detail": {
+        "lastUpdated": "2026-11-03T06:09:41.300Z",
+        "productCategory": "TERM_DEPOSITS",
+        "name": "AMP Bank GO 12 Month Term Deposit",
+        "description": " 12 Month Term Deposit via the AMP Bank GO app",
+        "brand": "AMP Bank GO",
+        "brandName": "AMP Bank GO",
+        "applicationUri": " https://www.amp.com.au/personal-banking/everyday-money",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": " https://www.amp.com.au/personal-banking/term-deposits/amp-bank-go-term-deposit",
+          "termsUri": "https://www.amp.com.au/content/dam/amp-2024/documents/terms-and-conditions/bank/amp-bank-go-term-deposit.pdf",
+          "eligibilityUri": "https://www.amp.com.au/content/dam/amp-2024/documents/tmds/bank/amp-bank-go-rtd-tmd.pdf",
+          "feesAndPricingUri": " https://www.amp.com.au/content/dam/amp-2024/documents/terms-and-conditions/bank/account-limits-fees-and-charges.pdf"
+        },
+        "features": [
+          {
+            "featureType": "DIGITAL_BANKING",
+            "additionalValue": "",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+          },
+          {
+            "featureType": "NOTIFICATIONS",
+            "additionalValue": "Real time notifications for money in and out. In-app service notifications",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "MAX_BALANCE",
+            "additionalValue": "10000000.00",
+            "additionalInfo": "",
+            "additionalInfoUri": "https://www.amp.com.au/content/dam/amp-2024/documents/terms-and-conditions/bank/account-limits-fees-and-charges.pdf"
+          },
+          {
+            "constraintType": "MIN_BALANCE",
+            "additionalValue": "5000.00",
+            "additionalInfo": "",
+            "additionalInfoUri": "https://www.amp.com.au/content/dam/amp-2024/documents/terms-and-conditions/bank/account-limits-fees-and-charges.pdf"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "15",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+          },
+          {
+            "eligibilityType": "NATURAL_PERSON",
+            "additionalValue": "",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+          },
+          {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalValue": "Must be an Australian resident",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+          },
+          {
+            "eligibilityType": "OTHER",
+            "additionalValue": "Linked Transaction Account",
+            "additionalInfo": "Customers must have an active AMP Bank GO Everyday Account in order to open an AMP Bank GO Personal Term Deposit",
+            "additionalInfoUri": "https://www.amp.com.au/content/dam/amp-2024/documents/terms-and-conditions/bank/amp-bank-go-term-deposit.pdf"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.057",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "additionalValue": "P12M"
+          }
+        ],
+        "productId": "282bc819-b61b-4233-b53b-290808bcb9f3"
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "282ccad5-9155-4767-9700-621d6149f05b",
+      "productCategory": "TERM_DEPOSITS",
+      "detail": {
+        "lastUpdated": "2026-11-03T06:16:42.555Z",
+        "productCategory": "TERM_DEPOSITS",
+        "name": " AMP Bank GO 6 Month Term Deposit",
+        "description": "6 Month Term Deposit via the AMP Bank GO app",
+        "brand": "AMP Bank GO",
+        "brandName": "AMP Bank GO",
+        "applicationUri": "https://www.amp.com.au/personal-banking/everyday-money",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": " https://www.amp.com.au/personal-banking/term-deposits/amp-bank-go-term-deposit",
+          "termsUri": "https://www.amp.com.au/content/dam/amp-2024/documents/terms-and-conditions/bank/amp-bank-go-term-deposit.pdf",
+          "eligibilityUri": "https://www.amp.com.au/content/dam/amp-2024/documents/tmds/bank/amp-bank-go-rtd-tmd.pdf",
+          "feesAndPricingUri": "https://www.amp.com.au/content/dam/amp-2024/documents/terms-and-conditions/bank/account-limits-fees-and-charges.pdf"
+        },
+        "features": [
+          {
+            "featureType": "DIGITAL_BANKING",
+            "additionalValue": "",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+          },
+          {
+            "featureType": "NOTIFICATIONS",
+            "additionalValue": "Real time notifications for money in and out. In-app service notifications",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "MIN_BALANCE",
+            "additionalValue": "5000.00",
+            "additionalInfo": "",
+            "additionalInfoUri": "https://www.amp.com.au/content/dam/amp-2024/documents/terms-and-conditions/bank/account-limits-fees-and-charges.pdf"
+          },
+          {
+            "constraintType": "MAX_BALANCE",
+            "additionalValue": "10000000.00",
+            "additionalInfo": "",
+            "additionalInfoUri": "https://www.amp.com.au/content/dam/amp-2024/documents/terms-and-conditions/bank/account-limits-fees-and-charges.pdf"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "15",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+          },
+          {
+            "eligibilityType": "NATURAL_PERSON",
+            "additionalValue": "",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+          },
+          {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalValue": "Must be an Australian resident",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+          },
+          {
+            "eligibilityType": "OTHER",
+            "additionalValue": "Linked Transaction Account",
+            "additionalInfo": "Customers must have an active AMP Bank GO Everyday Account in order to open an AMP Bank GO Personal Term Deposit",
+            "additionalInfoUri": "https://www.amp.com.au/content/dam/amp-2024/documents/terms-and-conditions/bank/amp-bank-go-term-deposit.pdf"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.054",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "additionalValue": "P6M"
+          }
+        ],
+        "productId": "282ccad5-9155-4767-9700-621d6149f05b"
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "282de35d-bc11-4886-b0a1-56bcf79be6f0",
+      "productCategory": "TERM_DEPOSITS",
+      "detail": {
+        "lastUpdated": "2026-11-03T06:13:32.029Z",
+        "productCategory": "TERM_DEPOSITS",
+        "name": "AMP Bank GO 6 Month Business Term Deposit",
+        "description": " 6 Month Business Term Deposit via the AMP Bank GO app",
+        "brand": "AMP Bank GO",
+        "brandName": "AMP Bank GO",
+        "applicationUri": "https://www.amp.com.au/business-banking/small-business-everyday-money",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": " https://www.amp.com.au/business-banking/business-term-deposit/amp-bank-go-business-term-deposit",
+          "termsUri": " https://www.amp.com.au/content/dam/amp-2024/documents/terms-and-conditions/bank/amp-bank-go-term-deposit.pdf",
+          "eligibilityUri": " https://www.amp.com.au/content/dam/amp-2024/documents/terms-and-conditions/bank/amp-bank-go-business-term-deposit.pdf",
+          "feesAndPricingUri": " https://www.amp.com.au/content/dam/amp-2024/documents/terms-and-conditions/bank/account-limits-fees-and-charges.pdf"
+        },
+        "features": [
+          {
+            "featureType": "DIGITAL_BANKING",
+            "additionalValue": "",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+          },
+          {
+            "featureType": "NOTIFICATIONS",
+            "additionalValue": "Real time notifications for money in and out. In-app service notifications",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "MIN_BALANCE",
+            "additionalValue": "5000.00",
+            "additionalInfo": "",
+            "additionalInfoUri": "https://www.amp.com.au/content/dam/amp-2024/documents/terms-and-conditions/bank/account-limits-fees-and-charges.pdf"
+          },
+          {
+            "constraintType": "MAX_BALANCE",
+            "additionalValue": "10000000.00",
+            "additionalInfo": "",
+            "additionalInfoUri": "https://www.amp.com.au/content/dam/amp-2024/documents/terms-and-conditions/bank/account-limits-fees-and-charges.pdf"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "BUSINESS",
+            "additionalValue": "",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+          },
+          {
+            "eligibilityType": "OTHER",
+            "additionalValue": "Linked Business Transaction Account",
+            "additionalInfo": "Customers must have an active AMP Bank GO Everyday Business Account in order to open an AMP Bank GO Business Term Deposit",
+            "additionalInfoUri": "https://www.amp.com.au/content/dam/amp-2024/documents/terms-and-conditions/bank/amp-bank-go-term-deposit.pdf"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.054",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "additionalValue": "P6M"
+          }
+        ],
+        "productId": "282de35d-bc11-4886-b0a1-56bcf79be6f0"
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "3886c579-2875-4c1d-99ae-03ab10b2d4ae",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "lastUpdated": "2026-11-09T01:02:08.869Z",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "name": " AMP Bank GO Save",
+        "description": "Our new simple savings account with none of the regular catches; just interest adding up, day after day.",
+        "brand": "AMP Bank GO",
+        "brandName": "AMP Bank GO",
+        "applicationUri": " https://www.amp.com.au/help-and-support/banking-faqs/amp-bank-go/download-amp-bank-go",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.amp.com.au/personal-banking/everyday-money/amp-bank-go-save",
+          "termsUri": "https://www.amp.com.au/content/dam/amp-2024/documents/terms-and-conditions/bank/amp-bank-savings-account-terms-and-conditions.pdf",
+          "eligibilityUri": "https://www.amp.com.au/content/dam/amp-2024/documents/tmds/bank/amp-bank-save-tmd.pdf",
+          "feesAndPricingUri": "https://www.amp.com.au/content/dam/amp-2024/documents/terms-and-conditions/bank/account-limits-fees-and-charges.pdf"
+        },
+        "features": [
+          {
+            "featureType": "FRAUD_PROTECTION",
+            "additionalValue": "",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+          },
+          {
+            "featureType": "DIGITAL_BANKING",
+            "additionalValue": "",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+          },
+          {
+            "featureType": "NOTIFICATIONS",
+            "additionalValue": "Real time notifications for money in and out. In-app service notifications",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+          },
+          {
+            "featureType": "OTHER",
+            "additionalValue": "Savings Spaces",
+            "additionalInfo": "Set and track your savings goals with Savings Spaces",
+            "additionalInfoUri": ""
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "15",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+          },
+          {
+            "eligibilityType": "NATURAL_PERSON",
+            "additionalValue": "",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+          },
+          {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalValue": "Must be an Australian resident",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+          },
+          {
+            "eligibilityType": "OTHER",
+            "additionalValue": "Linked Transaction Account",
+            "additionalInfo": "Customers must have an active AMP Bank GO Everyday Account in order to open an AMP Bank GO Save account",
+            "additionalInfoUri": "https://www.amp.com.au/content/dam/amp-2024/documents/terms-and-conditions/bank/amp-bank-savings-account-terms-and-conditions.pdf"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0575",
+            "calculationFrequency": "P1M",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "Deposit-AMP Bank GO Save 091126-5.75%",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "0.00",
+                "maximumValue": "50000.00"
+              }
+            ]
+          },
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0525",
+            "calculationFrequency": "P1M",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "Deposit-AMP Bank GO Save 091126-5.25%",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "50000.01",
+                "maximumValue": "250000.00"
+              }
+            ]
+          },
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0475",
+            "calculationFrequency": "P1M",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "Deposit-AMP Bank GO Save 091126-4.75%",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "250000.01",
+                "maximumValue": "5000000.00"
+              }
+            ]
+          },
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.00",
+            "calculationFrequency": "P1M",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "Deposit-AMP Bank GO Save 091126-0%",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000000.01"
+              }
+            ]
+          }
+        ],
+        "productId": "3886c579-2875-4c1d-99ae-03ab10b2d4ae"
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "3886fd0f-7d10-4e6c-b550-2faab05e4e50",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "lastUpdated": "2026-11-09T01:03:30.072Z",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "name": "AMP Bank GO Business Save",
+        "description": " Our new Business Save account makes earning interest easy. Simple savings with none of the regular catches; just interest adding up, day after day.",
+        "brand": "AMP Bank GO",
+        "brandName": "AMP Bank GO",
+        "applicationUri": "https://www.amp.com.au/help-and-support/banking-faqs/amp-bank-go/download-amp-bank-go",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.amp.com.au/business-banking/small-business-everyday-money/amp-bank-go-business-save",
+          "termsUri": "https://www.amp.com.au/content/dam/amp-2024/documents/terms-and-conditions/bank/amp-bank-savings-account-terms-and-conditions.pdf",
+          "eligibilityUri": " https://www.amp.com.au/content/dam/amp-2024/documents/tmds/bank/amp-bank-business-save-tmd.pdf",
+          "feesAndPricingUri": "https://www.amp.com.au/content/dam/amp-2024/documents/terms-and-conditions/bank/account-limits-fees-and-charges.pdf"
+        },
+        "features": [
+          {
+            "featureType": "FRAUD_PROTECTION",
+            "additionalValue": "",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+          },
+          {
+            "featureType": "DIGITAL_BANKING",
+            "additionalValue": "",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+          },
+          {
+            "featureType": "NOTIFICATIONS",
+            "additionalValue": "Real time notifications for money in and out. In-app service notifications",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+          },
+          {
+            "featureType": "OTHER",
+            "additionalValue": "Savings Spaces",
+            "additionalInfo": "Set and track your savings goals with Savings Spaces",
+            "additionalInfoUri": ""
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "BUSINESS",
+            "additionalValue": "",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+          },
+          {
+            "eligibilityType": "OTHER",
+            "additionalValue": "Linked Business Transaction Account",
+            "additionalInfo": "Customers must have an active AMP Bank GO Everyday Business Account in order to open an AMP Bank GO Business Save account",
+            "additionalInfoUri": "https://www.amp.com.au/content/dam/amp-2024/documents/terms-and-conditions/bank/amp-bank-savings-account-terms-and-conditions.pdf"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0525",
+            "calculationFrequency": "P1M",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "Deposit-AMP Bank GO Business Save 091126-5.25%",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "0.00",
+                "maximumValue": "500000.00"
+              }
+            ]
+          },
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0475",
+            "calculationFrequency": "P1M",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "Deposit-AMP Bank GO Business Save 091126-4.75%",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "500000.01",
+                "maximumValue": "5000000.00"
+              }
+            ]
+          },
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.00",
+            "calculationFrequency": "P1M",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "Deposit-AMP Bank GO Business Save 091126-0%",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000000.01"
+              }
+            ]
+          }
+        ],
+        "productId": "3886fd0f-7d10-4e6c-b550-2faab05e4e50"
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "742ac387-bd04-489d-a60b-6af630eee3ff",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "lastUpdated": "2026-04-30T06:41:23.009Z",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "name": "AMP Bank GO Joint Everyday Account",
+        "description": "The AMP Bank GO Everyday Account is a digital-first transaction account that has no monthly account fees and allows customers easy access to their funds.",
+        "brand": "AMP Bank GO",
+        "brandName": "AMP Bank GO",
+        "applicationUri": " https://www.amp.com.au/help-and-support/banking-faqs/amp-bank-go/download-amp-bank-go",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.amp.com.au/joint-everyday-account",
+          "termsUri": "https://www.amp.com.au/content/dam/amp-2024/documents/terms-and-conditions/bank/transaction-account-terms-and-conditions.pdf",
+          "eligibilityUri": "https://www.amp.com.au/content/dam/amp-2024/documents/tmds/bank/amp-bank-everyday-account-tmd.pdf",
+          "feesAndPricingUri": "https://www.amp.com.au/content/dam/amp-2024/documents/terms-and-conditions/bank/account-limits-fees-and-charges.pdf"
+        },
+        "features": [
+          {
+            "featureType": "FRAUD_PROTECTION",
+            "additionalValue": "",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+          },
+          {
+            "featureType": "DIGITAL_BANKING",
+            "additionalValue": "",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+          },
+          {
+            "featureType": "CARD_ACCESS",
+            "additionalValue": "AMP Bank Debit Mastercard",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+          },
+          {
+            "featureType": "NOTIFICATIONS",
+            "additionalValue": "Real time notifications for money in and out. In-app service notifications",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+          },
+          {
+            "featureType": "DIGITAL_WALLET",
+            "additionalValue": "Apple Pay and Google Pay",
+            "additionalInfo": "Digital wallet Terms and Conditions",
+            "additionalInfoUri": "https://www.amp.com.au/content/dam/amp-2024/documents/terms-conditions/bank/digital-wallet-terms-and-conditions.pdf"
+          },
+          {
+            "featureType": "UNLIMITED_TXNS",
+            "additionalValue": "",
+            "additionalInfo": "Transaction Account Terms and Conditions",
+            "additionalInfoUri": "https://www.amp.com.au/content/dam/amp-2024/documents/terms-conditions/bank/transaction-account-terms-and-conditions.pdf"
+          },
+          {
+            "featureType": "NPP_ENABLED",
+            "additionalValue": "",
+            "additionalInfo": "Transaction Account Terms and Conditions",
+            "additionalInfoUri": "https://www.amp.com.au/content/dam/amp-2024/documents/terms-conditions/bank/transaction-account-terms-and-conditions.pdf"
+          },
+          {
+            "featureType": "NPP_PAYID",
+            "additionalValue": "",
+            "additionalInfo": "Transaction Account Terms and Conditions",
+            "additionalInfoUri": "https://www.amp.com.au/content/dam/amp-2024/documents/terms-conditions/bank/transaction-account-terms-and-conditions.pdf"
+          },
+          {
+            "featureType": "BILL_PAYMENT",
+            "additionalValue": "BPAY",
+            "additionalInfo": "Transaction Account Terms and Conditions",
+            "additionalInfoUri": "https://www.amp.com.au/content/dam/amp-2024/documents/terms-conditions/bank/transaction-account-terms-and-conditions.pdf"
+          },
+          {
+            "featureType": "FREE_TXNS",
+            "additionalValue": "Unlimited",
+            "additionalInfo": "Account Limits, Fees and Charges",
+            "additionalInfoUri": "https://www.amp.com.au/content/dam/amp-2024/documents/terms-conditions/bank/account-limits-fees-and-charges.pdf"
+          },
+          {
+            "featureType": "LOYALTY_PROGRAM",
+            "additionalValue": "Qantas Frequent Flyer",
+            "additionalInfo": "",
+            "additionalInfoUri": "https://www.amp.com.au/personal-banking/everyday-money/qantas-frequent-flyer"
+          },
+          {
+            "featureType": "BONUS_REWARDS",
+            "additionalValue": "1 Qantas Point for every $10 of monthly average balance,  paid monthly. Maximum earn rate of 500,000 Qantas Points per month.",
+            "additionalInfo": "",
+            "additionalInfoUri": "https://www.amp.com.au/campaigns/bank/earn-qantas-rewards"
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "MIN_BALANCE",
+            "additionalValue": "0.00",
+            "additionalInfo": "The is no minimum balance",
+            "additionalInfoUri": ""
+          },
+          {
+            "constraintType": "OPENING_BALANCE",
+            "additionalValue": "0.00",
+            "additionalInfo": "There is no deposit requirement to open your account",
+            "additionalInfoUri": ""
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "15",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+          },
+          {
+            "eligibilityType": "NATURAL_PERSON",
+            "additionalValue": "",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+          },
+          {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalValue": "Must be an Australian resident",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+          }
+        ],
+        "fees": [
+          {
+            "name": "Monthly account management fee",
+            "feeType": "PERIODIC",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "currency": "AUD",
+            "additionalValue": "P1M",
+            "additionalInfo": "When you open and use your account with us ",
+            "additionalInfoUri": "https://www.amp.com.au/content/dam/amp-2024/documents/terms-and-conditions/bank/account-limits-fees-and-charges.pdf"
+          },
+          {
+            "name": "ATM withdrawal fee",
+            "feeType": "WITHDRAWAL",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "currency": "AUD",
+            "additionalValue": "",
+            "additionalInfo": "When you withdraw cash at ANZ, CBA, Westpac, NAB and atmx branded ATMs in Australia  We don't charge you a fee, but other ATM operators may apply a direct charge for ATM transactions ",
+            "additionalInfoUri": "https://www.amp.com.au/content/dam/amp-2024/documents/terms-and-conditions/bank/account-limits-fees-and-charges.pdf"
+          },
+          {
+            "name": "Currency conversion fee",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "currency": "AUD",
+            "additionalValue": "",
+            "additionalInfo": "When you use your Debit Card to make a purchase overseas or withdraw from an ATM overseas in a foreign currency, and the transaction is converted to Australian dollars ",
+            "additionalInfoUri": "https://www.amp.com.au/content/dam/amp-2024/documents/terms-and-conditions/bank/account-limits-fees-and-charges.pdf"
+          },
+          {
+            "name": "International ATM withdrawal fee ",
+            "feeType": "WITHDRAWAL",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "currency": "AUD",
+            "additionalValue": "",
+            "additionalInfo": "We don't charge you a fee, but ATM operators may apply a direct charge for ATM transactions ",
+            "additionalInfoUri": "https://www.amp.com.au/content/dam/amp-2024/documents/terms-and-conditions/bank/account-limits-fees-and-charges.pdf"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.00",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "Deposit-Retail Deposits-0%",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "0.00"
+              }
+            ]
+          }
+        ],
+        "lendingRates": [
+          {
+            "lendingRateType": "VARIABLE",
+            "rate": "0.00",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "interestPaymentDue": "IN_ARREARS",
+            "repaymentType": "OTHER",
+            "loanPurpose": "OTHER",
+            "tiers": [
+              {
+                "name": "Unarranged-Unarranged Overdraft-0%",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "0.00"
+              }
+            ]
+          }
+        ],
+        "productId": "742ac387-bd04-489d-a60b-6af630eee3ff"
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "90821a8d-3356-4e9a-bc23-13f16e03d413",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "lastUpdated": "2026-02-25T02:24:46.736Z",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "name": "AMP Bank GO Everyday Account",
+        "description": "The AMP Bank GO Everyday Account is a digital-first transaction account that has no monthly account fees and allows customers easy access to their funds.",
+        "brand": "AMP Bank GO",
+        "brandName": "AMP Bank GO",
+        "applicationUri": "https://www.amp.com.au/help-and-support/banking-faqs/amp-bank-go/download-amp-bank-go",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.amp.com.au/personal-banking/everyday-money/everyday-account",
+          "termsUri": "https://www.amp.com.au/content/dam/amp-2024/documents/terms-and-conditions/bank/transaction-account-terms-and-conditions.pdf",
+          "eligibilityUri": "https://www.amp.com.au/content/dam/amp-2024/documents/tmds/bank/amp-bank-everyday-account-tmd.pdf",
+          "feesAndPricingUri": "https://www.amp.com.au/content/dam/amp-2024/documents/terms-and-conditions/bank/account-limits-fees-and-charges.pdf"
+        },
+        "features": [
+          {
+            "featureType": "FRAUD_PROTECTION",
+            "additionalValue": "",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+          },
+          {
+            "featureType": "DIGITAL_BANKING",
+            "additionalValue": "",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+          },
+          {
+            "featureType": "CARD_ACCESS",
+            "additionalValue": "AMP Bank Debit Mastercard",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+          },
+          {
+            "featureType": "NOTIFICATIONS",
+            "additionalValue": "Real time notifications for money in and out. In-app service notifications",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+          },
+          {
+            "featureType": "DIGITAL_WALLET",
+            "additionalValue": "Apple Pay and Google Pay",
+            "additionalInfo": "Digital wallet Terms and Conditions",
+            "additionalInfoUri": "https://www.amp.com.au/content/dam/amp-2024/documents/terms-conditions/bank/digital-wallet-terms-and-conditions.pdf"
+          },
+          {
+            "featureType": "UNLIMITED_TXNS",
+            "additionalValue": "",
+            "additionalInfo": "Transaction Account Terms and Conditions",
+            "additionalInfoUri": "https://www.amp.com.au/content/dam/amp-2024/documents/terms-conditions/bank/transaction-account-terms-and-conditions.pdf"
+          },
+          {
+            "featureType": "NPP_ENABLED",
+            "additionalValue": "",
+            "additionalInfo": "Transaction Account Terms and Conditions",
+            "additionalInfoUri": "https://www.amp.com.au/content/dam/amp-2024/documents/terms-conditions/bank/transaction-account-terms-and-conditions.pdf"
+          },
+          {
+            "featureType": "NPP_PAYID",
+            "additionalValue": "",
+            "additionalInfo": "Transaction Account Terms and Conditions",
+            "additionalInfoUri": "https://www.amp.com.au/content/dam/amp-2024/documents/terms-conditions/bank/transaction-account-terms-and-conditions.pdf"
+          },
+          {
+            "featureType": "BILL_PAYMENT",
+            "additionalValue": "BPAY",
+            "additionalInfo": "Transaction Account Terms and Conditions",
+            "additionalInfoUri": "https://www.amp.com.au/content/dam/amp-2024/documents/terms-conditions/bank/transaction-account-terms-and-conditions.pdf"
+          },
+          {
+            "featureType": "FREE_TXNS",
+            "additionalValue": "Unlimited",
+            "additionalInfo": "Account Limits, Fees and Charges",
+            "additionalInfoUri": "https://www.amp.com.au/content/dam/amp-2024/documents/terms-conditions/bank/account-limits-fees-and-charges.pdf"
+          },
+          {
+            "featureType": "LOYALTY_PROGRAM",
+            "additionalValue": "Qantas Frequent Flyer",
+            "additionalInfo": "",
+            "additionalInfoUri": "https://www.amp.com.au/personal-banking/everyday-money/qantas-frequent-flyer"
+          },
+          {
+            "featureType": "BONUS_REWARDS",
+            "additionalValue": "1 Qantas Point for every $10 of monthly average balance,  paid monthly. Maximum earn rate of 500,000 Qantas Points per month.",
+            "additionalInfo": "",
+            "additionalInfoUri": "https://www.amp.com.au/campaigns/bank/earn-qantas-rewards"
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "MIN_BALANCE",
+            "additionalValue": "0.00",
+            "additionalInfo": "The is no minimum balance",
+            "additionalInfoUri": ""
+          },
+          {
+            "constraintType": "OPENING_BALANCE",
+            "additionalValue": "0.00",
+            "additionalInfo": "There is no deposit requirement to open your account",
+            "additionalInfoUri": ""
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "15",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+          },
+          {
+            "eligibilityType": "NATURAL_PERSON",
+            "additionalValue": "",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+          },
+          {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalValue": "Must be an Australian resident",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+          }
+        ],
+        "fees": [
+          {
+            "name": "Monthly account management fee",
+            "feeType": "PERIODIC",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "currency": "AUD",
+            "additionalValue": "P1M",
+            "additionalInfo": "When you open and use your account with us ",
+            "additionalInfoUri": "https://www.amp.com.au/content/dam/amp-2024/documents/terms-and-conditions/bank/account-limits-fees-and-charges.pdf"
+          },
+          {
+            "name": "ATM withdrawal fee",
+            "feeType": "WITHDRAWAL",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "currency": "AUD",
+            "additionalValue": "",
+            "additionalInfo": "When you withdraw cash at ANZ, CBA, Westpac, NAB and atmx branded ATMs in Australia  We don't charge you a fee, but other ATM operators may apply a direct charge for ATM transactions ",
+            "additionalInfoUri": "https://www.amp.com.au/content/dam/amp-2024/documents/terms-and-conditions/bank/account-limits-fees-and-charges.pdf"
+          },
+          {
+            "name": "Currency conversion fee",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "currency": "AUD",
+            "additionalValue": "",
+            "additionalInfo": "When you use your Debit Card to make a purchase overseas or withdraw from an ATM overseas in a foreign currency, and the transaction is converted to Australian dollars ",
+            "additionalInfoUri": "https://www.amp.com.au/content/dam/amp-2024/documents/terms-and-conditions/bank/account-limits-fees-and-charges.pdf"
+          },
+          {
+            "name": "International ATM withdrawal fee ",
+            "feeType": "WITHDRAWAL",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "currency": "AUD",
+            "additionalValue": "",
+            "additionalInfo": "We don't charge you a fee, but ATM operators may apply a direct charge for ATM transactions ",
+            "additionalInfoUri": "https://www.amp.com.au/content/dam/amp-2024/documents/terms-and-conditions/bank/account-limits-fees-and-charges.pdf"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.00",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "Deposit-Retail Deposits-0%",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "0.00"
+              }
+            ]
+          }
+        ],
+        "lendingRates": [
+          {
+            "lendingRateType": "VARIABLE",
+            "rate": "0.00",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "interestPaymentDue": "IN_ARREARS",
+            "repaymentType": "OTHER",
+            "loanPurpose": "OTHER",
+            "tiers": [
+              {
+                "name": "Unarranged-Unarranged Overdraft-0%",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "0.00"
+              }
+            ]
+          }
+        ],
+        "productId": "90821a8d-3356-4e9a-bc23-13f16e03d413"
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "908e6787-1a71-4f7f-a982-6f93a557020e",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "lastUpdated": "2026-03-13T02:46:31.628Z",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "name": "AMP Bank GO Everyday Business Account",
+        "description": "The AMP Bank GO Everyday Business Account is a digital-first transaction account for business purposes.",
+        "brand": "AMP Bank GO",
+        "brandName": "AMP Bank GO",
+        "applicationUri": "https://www.amp.com.au/help-and-support/banking-faqs/amp-bank-go/download-amp-bank-go",
+        "isTailored": true,
+        "additionalInformation": {
+          "overviewUri": "https://www.amp.com.au/business-banking/small-business-everyday-money",
+          "termsUri": "https://www.amp.com.au/content/dam/amp-2024/documents/terms-conditions/bank/transaction-account-terms-and-conditions.pdf",
+          "eligibilityUri": "https://www.amp.com.au/content/dam/bank-app/amp-bank-everyday-business-account-tmd-ob.pdf",
+          "feesAndPricingUri": "https://www.amp.com.au/content/dam/amp-2024/documents/terms-conditions/bank/account-limits-fees-and-charges.pdf"
+        },
+        "features": [
+          {
+            "featureType": "FRAUD_PROTECTION",
+            "additionalValue": "",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+          },
+          {
+            "featureType": "DIGITAL_BANKING",
+            "additionalValue": "",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+          },
+          {
+            "featureType": "CARD_ACCESS",
+            "additionalValue": "AMP Bank Debit Mastercard",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+          },
+          {
+            "featureType": "NOTIFICATIONS",
+            "additionalValue": "Real time notifications for money in and out. In-app service notifications",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+          },
+          {
+            "featureType": "DIGITAL_WALLET",
+            "additionalValue": "Apple Pay and Google Pay",
+            "additionalInfo": "Digital wallet Terms and Conditions",
+            "additionalInfoUri": "https://www.amp.com.au/content/dam/amp-2024/documents/terms-conditions/bank/digital-wallet-terms-and-conditions.pdf"
+          },
+          {
+            "featureType": "UNLIMITED_TXNS",
+            "additionalValue": "",
+            "additionalInfo": "Transaction Account Terms and Conditions",
+            "additionalInfoUri": "https://www.amp.com.au/content/dam/amp-2024/documents/terms-conditions/bank/transaction-account-terms-and-conditions.pdf"
+          },
+          {
+            "featureType": "NPP_ENABLED",
+            "additionalValue": "",
+            "additionalInfo": "Transaction Account Terms and Conditions",
+            "additionalInfoUri": "https://www.amp.com.au/content/dam/amp-2024/documents/terms-conditions/bank/transaction-account-terms-and-conditions.pdf"
+          },
+          {
+            "featureType": "NPP_PAYID",
+            "additionalValue": "",
+            "additionalInfo": "Transaction Account Terms and Conditions",
+            "additionalInfoUri": "https://www.amp.com.au/content/dam/amp-2024/documents/terms-conditions/bank/transaction-account-terms-and-conditions.pdf"
+          },
+          {
+            "featureType": "BILL_PAYMENT",
+            "additionalValue": "BPAY",
+            "additionalInfo": "Transaction Account Terms and Conditions",
+            "additionalInfoUri": "https://www.amp.com.au/content/dam/amp-2024/documents/terms-conditions/bank/transaction-account-terms-and-conditions.pdf"
+          },
+          {
+            "featureType": "FREE_TXNS",
+            "additionalValue": "Unlimited",
+            "additionalInfo": "Account Limits, Fees and Charges",
+            "additionalInfoUri": "https://www.amp.com.au/content/dam/amp-2024/documents/terms-conditions/bank/account-limits-fees-and-charges.pdf"
+          },
+          {
+            "featureType": "LOYALTY_PROGRAM",
+            "additionalValue": "Qantas Business Rewards",
+            "additionalInfo": "",
+            "additionalInfoUri": "https://www.amp.com.au/business-banking/small-business-everyday-money/qantas-business-rewards"
+          },
+          {
+            "featureType": "OVERDRAFT",
+            "additionalValue": "A Business Overdraft is a credit facility that is linked to your Everyday Business Account.",
+            "additionalInfo": "Business Overdraft Terms and Conditions",
+            "additionalInfoUri": "https://www.amp.com.au/content/dam/amp-2024/documents/terms-and-conditions/bank/business-overdraft-terms-and-conditions.pdf"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalValue": "Live Payments",
+            "additionalInfo": "Simple, affordable payment acceptance for mini-businesses. Available to customers who sign up to Live Payments via AMP Bank GO and settle into an AMP Bank GO Everyday Business Account.",
+            "additionalInfoUri": "https://www.amp.com.au/business-banking/small-business-everyday-money/live-payments"
+          },
+          {
+            "featureType": "BONUS_REWARDS",
+            "additionalValue": "1 Qantas Point for every $10 of monthly average balance,  paid monthly. Maximum earn rate of 500,000 Qantas Points per month.",
+            "additionalInfo": "",
+            "additionalInfoUri": "https://www.amp.com.au/campaigns/bank/earn-qantas-rewards"
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "MIN_BALANCE",
+            "additionalValue": "0.00",
+            "additionalInfo": "The is no minimum balance",
+            "additionalInfoUri": ""
+          },
+          {
+            "constraintType": "OPENING_BALANCE",
+            "additionalValue": "0.00",
+            "additionalInfo": "There is no deposit requirement to open your account",
+            "additionalInfoUri": ""
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "BUSINESS",
+            "additionalValue": "",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+          }
+        ],
+        "fees": [
+          {
+            "name": "Monthly account management fee",
+            "feeType": "PERIODIC",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "currency": "AUD",
+            "additionalValue": "P1M",
+            "additionalInfo": "When you open and use your account with us ",
+            "additionalInfoUri": "https://www.amp.com.au/content/dam/amp-2024/documents/terms-and-conditions/bank/account-limits-fees-and-charges.pdf"
+          },
+          {
+            "name": "Business Overdraft Monthly Service Fee",
+            "feeType": "PERIODIC",
+            "feeMethodUType": "variable",
+            "currency": "AUD",
+            "additionalValue": "P1M",
+            "additionalInfo": "1% p.a. of your approved credit limit, charged monthly in arrears. A monthly fee based on your Business Overdraft limit",
+            "additionalInfoUri": "https://www.amp.com.au/content/dam/amp-2024/documents/terms-and-conditions/bank/business-overdraft-terms-and-conditions.pdf",
+            "variable": {}
+          },
+          {
+            "name": " Business Overdraft Establishment Fee over $20000",
+            "feeType": "UPFRONT",
+            "feeMethodUType": "variable",
+            "variable": {
+              "feeMinimum": "200.00"
+            },
+            "currency": "AUD",
+            "additionalValue": "",
+            "additionalInfo": "1% of their approved credit limit OR a $200 upfront fee will be applied to the overdraft origination fee depending on which value is greater.",
+            "additionalInfoUri": "https://www.amp.com.au/business-banking/small-business-everyday-money/business-overdrafts"
+          },
+          {
+            "name": "Business Overdraft Establishment Fee",
+            "feeType": "UPFRONT",
+            "feeMethodUType": "variable",
+            "variable": {
+              "feeMinimum": "200.00"
+            },
+            "currency": "AUD",
+            "additionalValue": "",
+            "additionalInfo": "A one-time set up fee charged to your Everyday Business Account when you open a Business Overdraft. Establishment fee is calculated at $200 or 1% of credit limit, whichever is greater. ",
+            "additionalInfoUri": "https://www.amp.com.au/business-banking/small-business-everyday-money/business-overdrafts"
+          },
+          {
+            "name": "ATM withdrawal fee",
+            "feeType": "WITHDRAWAL",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "currency": "AUD",
+            "additionalValue": "",
+            "additionalInfo": "When you withdraw cash at ANZ, CBA, Westpac, NAB and atmx branded ATMs in Australia  We don't charge you a fee, but other ATM operators may apply a direct charge for ATM transactions ",
+            "additionalInfoUri": "https://www.amp.com.au/content/dam/amp-2024/documents/terms-and-conditions/bank/account-limits-fees-and-charges.pdf"
+          },
+          {
+            "name": "Currency conversion fee",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "currency": "AUD",
+            "additionalValue": "",
+            "additionalInfo": "When you use your Debit Card to make a purchase overseas or withdraw from an ATM overseas in a foreign currency, and the transaction is converted to Australian dollars ",
+            "additionalInfoUri": "https://www.amp.com.au/content/dam/amp-2024/documents/terms-and-conditions/bank/account-limits-fees-and-charges.pdf"
+          },
+          {
+            "name": "International ATM withdrawal fee ",
+            "feeType": "WITHDRAWAL",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "currency": "AUD",
+            "additionalValue": "",
+            "additionalInfo": "We don't charge you a fee, but ATM operators may apply a direct charge for ATM transactions ",
+            "additionalInfoUri": "https://www.amp.com.au/content/dam/amp-2024/documents/terms-and-conditions/bank/account-limits-fees-and-charges.pdf"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.00",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "Deposit-Business Deposits-0%",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "0.00"
+              }
+            ]
+          }
+        ],
+        "lendingRates": [
+          {
+            "lendingRateType": "VARIABLE",
+            "rate": "0.00",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "interestPaymentDue": "IN_ARREARS",
+            "repaymentType": "OTHER",
+            "loanPurpose": "OTHER",
+            "tiers": [
+              {
+                "name": "Unarranged-Everyday Business Unarranged Overdraft-0%",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "0.00"
+              }
+            ]
+          },
+          {
+            "lendingRateType": "VARIABLE",
+            "rate": "0.1545",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "interestPaymentDue": "IN_ARREARS",
+            "repaymentType": "OTHER",
+            "loanPurpose": "OTHER",
+            "tiers": [
+              {
+                "name": "Sole Trader Overdraft 0825-Arranged-Business Overdraft Sole Trader Interest Scheme 120825-15.45%",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "0.00"
+              }
+            ]
+          },
+          {
+            "lendingRateType": "VARIABLE",
+            "rate": "0.1545",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "interestPaymentDue": "IN_ARREARS",
+            "repaymentType": "OTHER",
+            "loanPurpose": "OTHER",
+            "tiers": [
+              {
+                "name": "Single Director Overdraft 0825-Arranged-Overdraft Single Director Interest Scheme 120825-15.45%",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "0.00"
+              }
+            ]
+          }
+        ],
+        "productId": "908e6787-1a71-4f7f-a982-6f93a557020e"
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    }
+  ]
+}

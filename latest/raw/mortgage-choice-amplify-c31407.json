@@ -1,0 +1,28 @@
+{
+  "endpoint": "https://prd.pm.productdata.au/fd8a17fe-c3c9-41cc-9cbc-90f00380f306/adapter/cds-au/v1/banking/products",
+  "slug": "mortgage-choice-amplify-c31407",
+  "brands": [
+    {
+      "dataHolderBrandId": "b2cd8300-8c76-f111-9b47-6045bd3f59f5",
+      "brandName": "Mortgage Choice Amplify",
+      "brandGroup": null,
+      "abn": "29122698328",
+      "industries": [
+        "non-bank-lending"
+      ]
+    }
+  ],
+  "list": {
+    "ok": true,
+    "status": 200,
+    "version": "5",
+    "totalPages": 1,
+    "pagesFetched": 1,
+    "productCount": 6,
+    "categoryCounts": {
+      "RESIDENTIAL_MORTGAGES": 4,
+      "BUSINESS_LOANS": 2
+    }
+  },
+  "products": []
+}

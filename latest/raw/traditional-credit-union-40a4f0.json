@@ -1,0 +1,885 @@
+{
+  "endpoint": "https://prd.tcu.com.au/cds-au/v1/banking/products",
+  "slug": "traditional-credit-union-40a4f0",
+  "brands": [
+    {
+      "dataHolderBrandId": "cae1ccc1-f2de-4b61-85b6-0320c180e009",
+      "brandName": "Traditional Credit Union",
+      "brandGroup": null,
+      "abn": null,
+      "industries": [
+        "banking"
+      ]
+    }
+  ],
+  "list": {
+    "ok": true,
+    "status": 200,
+    "version": "5",
+    "totalPages": 1,
+    "pagesFetched": 1,
+    "productCount": 11,
+    "categoryCounts": {
+      "TRANS_AND_SAVINGS_ACCOUNTS": 9,
+      "TERM_DEPOSITS": 1,
+      "PERS_LOANS": 1
+    }
+  },
+  "products": [
+    {
+      "productId": "TCU001",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "productId": "TCU001",
+        "effectiveFrom": "2023-03-01T00:00:00.000+11:00",
+        "effectiveTo": "2027-10-31T00:00:00.000+11:00",
+        "lastUpdated": "2025-10-31T00:00:00.000+11:00",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "name": "S1 Everyday Account",
+        "description": "Everyday transaction and savings account.for members who utilse branch and online banknig channels",
+        "brand": "TCU",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://tcu.com.au/personal-banking-2/",
+          "termsUri": "https://tcu.com.au/wp-content/uploads/2025/10/Account-Access-Facility-Conditions-of-Use-PB-Accounts-v23-011125.pdf",
+          "feesAndPricingUri": "https://tcu.com.au/wp-content/uploads/2025/10/Savings-and-Investment-accounts-IFC-v26-011125.pdf",
+          "additionalOverviewUris": [],
+          "additionalTermsUris": [],
+          "additionalEligibilityUris": [],
+          "additionalFeesAndPricingUris": [],
+          "additionalBundleUris": []
+        },
+        "cardArt": [],
+        "bundles": [],
+        "features": [
+          {
+            "featureType": "CARD_ACCESS"
+          },
+          {
+            "featureType": "DIGITAL_BANKING"
+          },
+          {
+            "featureType": "ADDITIONAL_CARDS"
+          },
+          {
+            "featureType": "BILL_PAYMENT"
+          }
+        ],
+        "constraints": [],
+        "eligibility": [],
+        "fees": [],
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.01",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "S1 Interest Rate Tier 1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": 1,
+                "maximumValue": 999.99,
+                "rateApplicationMethod": "PER_TIER"
+              }
+            ]
+          },
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "2.00",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "S1 Interest Rate Tier 2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": 1000,
+                "maximumValue": 0,
+                "rateApplicationMethod": "PER_TIER"
+              }
+            ]
+          }
+        ],
+        "lendingRates": []
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "TCU002",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "productId": "TCU002",
+        "effectiveFrom": "2023-03-01T00:00:00.000+11:00",
+        "effectiveTo": "2027-10-31T00:00:00.000+11:00",
+        "lastUpdated": "2025-10-31T00:00:00.000+11:00",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "name": "S2 Budget Account",
+        "description": "This account is used to budget or save for a specific purpose.",
+        "brand": "TCU",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://tcu.com.au/personal-banking-2/",
+          "termsUri": "https://tcu.com.au/wp-content/uploads/2025/10/Account-Access-Facility-Conditions-of-Use-PB-Accounts-v23-011125.pdf",
+          "feesAndPricingUri": "https://tcu.com.au/wp-content/uploads/2025/10/Savings-and-Investment-accounts-IFC-v26-011125.pdf",
+          "additionalOverviewUris": [],
+          "additionalTermsUris": [],
+          "additionalEligibilityUris": [],
+          "additionalFeesAndPricingUris": [],
+          "additionalBundleUris": []
+        },
+        "cardArt": [],
+        "bundles": [],
+        "features": [
+          {
+            "featureType": "CARD_ACCESS"
+          },
+          {
+            "featureType": "ADDITIONAL_CARDS"
+          },
+          {
+            "featureType": "DIGITAL_BANKING"
+          },
+          {
+            "featureType": "BILL_PAYMENT"
+          }
+        ],
+        "constraints": [],
+        "eligibility": [],
+        "fees": [],
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.01",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "S2 Interest Tier 1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": 1,
+                "maximumValue": 999.99,
+                "rateApplicationMethod": "PER_TIER"
+              }
+            ]
+          },
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "2.00",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "S2 Interest Rate Tier 2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": 1000,
+                "maximumValue": 0,
+                "rateApplicationMethod": "PER_TIER"
+              }
+            ]
+          }
+        ],
+        "lendingRates": []
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "TCU0024",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "productId": "TCU0024",
+        "effectiveFrom": "2026-05-14T00:00:00.000+10:00",
+        "effectiveTo": "2028-05-14T00:00:00.000+10:00",
+        "lastUpdated": "2026-05-14T00:00:00.000+10:00",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "name": "S24 Business Transaction Account",
+        "description": "Everyday transaction account for Businesses",
+        "brand": "TCU",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://tcu.com.au/business-banking-2/",
+          "termsUri": "https://tcu.com.au/wp-content/uploads/2026/05/Account-Information-and-Access-V24-1703.pdf",
+          "feesAndPricingUri": "https://tcu.com.au/wp-content/uploads/2026/05/Business-Account-IFC-11-1703.pdf",
+          "additionalOverviewUris": [],
+          "additionalTermsUris": [],
+          "additionalEligibilityUris": [],
+          "additionalFeesAndPricingUris": [],
+          "additionalBundleUris": []
+        },
+        "cardArt": [],
+        "bundles": [],
+        "features": [
+          {
+            "featureType": "FREE_TXNS_ALLOWANCE"
+          },
+          {
+            "featureType": "DIGITAL_BANKING"
+          },
+          {
+            "featureType": "BILL_PAYMENT"
+          },
+          {
+            "featureType": "CARD_ACCESS"
+          }
+        ],
+        "constraints": [],
+        "eligibility": [
+          {
+            "eligibilityType": "BUSINESS"
+          }
+        ],
+        "fees": [],
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "2.00",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "S24 Interest Rate Tier 5",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": 250000,
+                "maximumValue": 499999.99,
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ]
+          },
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "2.25",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "S24 Interest Rate Tier 6",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": 500000,
+                "maximumValue": 0,
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ]
+          },
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.01",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "S24 Interest Rate Tier 1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": 1,
+                "maximumValue": 19999.99,
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ]
+          },
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.25",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "S24 Interest Rate Tier 2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": 20000,
+                "maximumValue": 49999.99,
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ]
+          },
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.50",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "S24 Interest Rate Tier 3",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": 50000,
+                "maximumValue": 99999.99,
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ]
+          },
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "1.00",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "S24 Interest Rate Tier 4",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": 100000,
+                "maximumValue": 249999.99,
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ]
+          }
+        ],
+        "lendingRates": [
+          {
+            "lendingRateType": "FIXED",
+            "rate": "18",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "tiers": [],
+            "additionalInfo": "Interest on overdrawn accounts"
+          }
+        ]
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "TCU0028",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "productId": "TCU0028",
+        "effectiveFrom": "2023-03-01T00:00:00.000+11:00",
+        "effectiveTo": "2027-10-31T00:00:00.000+11:00",
+        "lastUpdated": "2025-10-31T00:00:00.000+11:00",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "name": "S28 Benevolent Account",
+        "description": "Day to day transaction account for charitable and 'not for profit' organisations ",
+        "brand": "TCU",
+        "isTailored": true,
+        "additionalInformation": {
+          "overviewUri": "https://tcu.com.au/business-banking-2/",
+          "termsUri": "https://tcu.com.au/wp-content/uploads/2025/10/Account-Access-Facility-Conditions-of-Use-PB-Accounts-v23-011125.pdf",
+          "feesAndPricingUri": "https://tcu.com.au/wp-content/uploads/2025/10/Business-account-IFC-v10-011125.pdf",
+          "additionalOverviewUris": [],
+          "additionalTermsUris": [],
+          "additionalEligibilityUris": [],
+          "additionalFeesAndPricingUris": [],
+          "additionalBundleUris": []
+        },
+        "cardArt": [],
+        "bundles": [],
+        "features": [],
+        "constraints": [],
+        "eligibility": [
+          {
+            "eligibilityType": "OTHER",
+            "additionalInfo": "Benevolent Organisations"
+          }
+        ],
+        "fees": [],
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "2.25",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "S28 Interest Tier 6",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": 500000,
+                "maximumValue": 0,
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ]
+          },
+          {
+            "depositRateType": "VARIABLE",
+            "rate": ".25",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "S28 Interest Rate Tier 2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": 20000,
+                "maximumValue": 49999.99,
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ]
+          },
+          {
+            "depositRateType": "VARIABLE",
+            "rate": ".50",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "S28 Interest Rate Tier 3",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": 50000,
+                "maximumValue": 99999.99,
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ]
+          },
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "1",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "S28 Interest Rate Tier 4",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": 100000,
+                "maximumValue": 249999.99,
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ]
+          },
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.01",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "S28 Interest Rate Tier 1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": 1,
+                "maximumValue": 19999.99,
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ]
+          },
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "2",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "S28 Interest Rate Tier 5",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": 250000,
+                "maximumValue": 499999.99,
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ]
+          }
+        ],
+        "lendingRates": [
+          {
+            "lendingRateType": "FIXED",
+            "rate": "18",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "tiers": [],
+            "additionalInfo": "Interest on overdrawn accounts"
+          }
+        ]
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "TCU003",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "productId": "TCU003",
+        "effectiveFrom": "2023-03-01T00:00:00.000+11:00",
+        "effectiveTo": "2027-10-31T00:00:00.000+11:00",
+        "lastUpdated": "2025-10-31T00:00:00.000+11:00",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "name": "S3 Christmas Club Account",
+        "description": "Christmas Savings account",
+        "brand": "TCU",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://tcu.com.au/personal-banking-2/",
+          "termsUri": "https://tcu.com.au/wp-content/uploads/2025/10/Account-Access-Facility-Conditions-of-Use-PB-Accounts-v23-011125.pdf",
+          "feesAndPricingUri": "https://tcu.com.au/wp-content/uploads/2025/10/Savings-and-Investment-accounts-IFC-v26-011125.pdf",
+          "additionalOverviewUris": [],
+          "additionalTermsUris": [],
+          "additionalEligibilityUris": [],
+          "additionalFeesAndPricingUris": [],
+          "additionalBundleUris": []
+        },
+        "cardArt": [],
+        "bundles": [],
+        "features": [
+          {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": "Accessible for withdrawals between 1st November and 31st December annually"
+          }
+        ],
+        "constraints": [],
+        "eligibility": [],
+        "fees": [],
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "2.25",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "S3 Interest Tier 2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": 1000,
+                "maximumValue": 0,
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ]
+          },
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "1.00",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "S3 Interest Tier 1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": 1,
+                "maximumValue": 999.99,
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ]
+          }
+        ],
+        "lendingRates": []
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "TCU0030",
+      "productCategory": "TERM_DEPOSITS",
+      "detail": {
+        "productId": "TCU0030",
+        "effectiveFrom": "2020-10-01T00:00:00.000+10:00",
+        "effectiveTo": "2027-10-31T00:00:00.000+11:00",
+        "lastUpdated": "2025-10-31T00:00:00.000+11:00",
+        "productCategory": "TERM_DEPOSITS",
+        "name": "Term Deposit",
+        "description": "Fixed Term Investment",
+        "brand": "TCU",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://tcu.com.au/personal-banking-2/",
+          "termsUri": "https://tcu.com.au/wp-content/uploads/2025/10/Account-Access-Facility-Conditions-of-Use-PB-Accounts-v23-011125.pdf",
+          "feesAndPricingUri": "https://tcu.com.au/wp-content/uploads/2025/10/Savings-and-Investment-accounts-IFC-v26-011125.pdf",
+          "additionalOverviewUris": [],
+          "additionalTermsUris": [],
+          "additionalEligibilityUris": [],
+          "additionalFeesAndPricingUris": [],
+          "additionalBundleUris": []
+        },
+        "cardArt": [],
+        "bundles": [],
+        "features": [],
+        "constraints": [
+          {
+            "constraintType": "MIN_BALANCE",
+            "additionalValue": "500.00"
+          }
+        ],
+        "eligibility": [],
+        "fees": [],
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0",
+            "tiers": [],
+            "additionalInfo": "Early withdrawal of a Term Deposit may incur an interest rate penalty. Daily market interest rate."
+          }
+        ],
+        "lendingRates": []
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "TCU004",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "productId": "TCU004",
+        "effectiveFrom": "2023-03-01T00:00:00.000+11:00",
+        "effectiveTo": "2027-10-31T00:00:00.000+11:00",
+        "lastUpdated": "2025-10-31T00:00:00.000+11:00",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "name": "S4 Family/Clan/Group Account",
+        "description": "This account that can be used by a whole family, clan or group (Sporting Club, etc).",
+        "brand": "TCU",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://tcu.com.au/personal-banking-2/",
+          "termsUri": "https://tcu.com.au/wp-content/uploads/2025/10/Account-Access-Facility-Conditions-of-Use-PB-Accounts-v23-011125.pdf",
+          "feesAndPricingUri": "https://tcu.com.au/wp-content/uploads/2025/10/Savings-and-Investment-accounts-IFC-v26-011125.pdf",
+          "additionalOverviewUris": [],
+          "additionalTermsUris": [],
+          "additionalEligibilityUris": [],
+          "additionalFeesAndPricingUris": [],
+          "additionalBundleUris": []
+        },
+        "cardArt": [],
+        "bundles": [],
+        "features": [
+          {
+            "featureType": "BILL_PAYMENT"
+          }
+        ],
+        "constraints": [],
+        "eligibility": [],
+        "fees": [],
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.01",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "S4 Interest Tier 1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": 1,
+                "maximumValue": 999.99,
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ]
+          },
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "2.25",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "S4 Interest Tier 2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": 1000,
+                "maximumValue": 0,
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ]
+          }
+        ],
+        "lendingRates": []
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "TCU006",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "productId": "TCU006",
+        "effectiveFrom": "2023-03-01T00:00:00.000+11:00",
+        "effectiveTo": "2027-10-31T00:00:00.000+11:00",
+        "lastUpdated": "2025-10-31T00:00:00.000+11:00",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "name": "S6 Student Account",
+        "description": "An account for Students aged between 13 and 18",
+        "brand": "TCU",
+        "isTailored": true,
+        "additionalInformation": {
+          "overviewUri": "https://tcu.com.au/personal-banking-2/",
+          "termsUri": "https://tcu.com.au/wp-content/uploads/2025/10/Account-Access-Facility-Conditions-of-Use-PB-Accounts-v23-011125.pdfhttps://tcu.com.au/wp-content/uploads/2020/07/Personal-Business-TC-Version-18-0107020.pdf",
+          "feesAndPricingUri": "https://tcu.com.au/wp-content/uploads/2025/10/Savings-and-Investment-accounts-IFC-v26-011125.pdf",
+          "additionalOverviewUris": [],
+          "additionalTermsUris": [],
+          "additionalEligibilityUris": [],
+          "additionalFeesAndPricingUris": [],
+          "additionalBundleUris": []
+        },
+        "cardArt": [],
+        "bundles": [],
+        "features": [
+          {
+            "featureType": "CARD_ACCESS",
+            "additionalValue": "16",
+            "additionalInfo": "Cuecard access only for students aged under 16"
+          },
+          {
+            "featureType": "DIGITAL_BANKING"
+          },
+          {
+            "featureType": "FREE_TXNS"
+          },
+          {
+            "featureType": "CARD_ACCESS",
+            "additionalInfo": "Visa Debit Cards can only be issued for students 16 years and above"
+          }
+        ],
+        "constraints": [],
+        "eligibility": [
+          {
+            "eligibilityType": "MAX_AGE",
+            "additionalValue": "18",
+            "additionalInfo": "When the student turns 19 the account will default to a S1 Everyday account"
+          },
+          {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "13"
+          }
+        ],
+        "fees": [],
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.01",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "S6 Interest Tier 1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": 1,
+                "maximumValue": 999.99,
+                "rateApplicationMethod": "PER_TIER"
+              }
+            ]
+          },
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "2.00",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "S6 Interest Tier 2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": 1000,
+                "maximumValue": 0,
+                "rateApplicationMethod": "PER_TIER"
+              }
+            ]
+          }
+        ],
+        "lendingRates": []
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "TCU009",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "productId": "TCU009",
+        "effectiveFrom": "2023-03-01T00:00:00.000+11:00",
+        "effectiveTo": "2027-10-31T00:00:00.000+11:00",
+        "lastUpdated": "2025-10-31T00:00:00.000+11:00",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "name": "S9 Child account",
+        "description": "An account for children from birth to age 12",
+        "brand": "TCU",
+        "isTailored": true,
+        "additionalInformation": {
+          "overviewUri": "https://tcu.com.au/personal-banking-2/",
+          "termsUri": "https://tcu.com.au/wp-content/uploads/2025/10/Account-Access-Facility-Conditions-of-Use-PB-Accounts-v23-011125.pdf",
+          "feesAndPricingUri": "https://tcu.com.au/wp-content/uploads/2025/10/Savings-and-Investment-accounts-IFC-v26-011125.pdf",
+          "additionalOverviewUris": [],
+          "additionalTermsUris": [],
+          "additionalEligibilityUris": [],
+          "additionalFeesAndPricingUris": [],
+          "additionalBundleUris": []
+        },
+        "cardArt": [],
+        "bundles": [],
+        "features": [
+          {
+            "featureType": "FREE_TXNS"
+          },
+          {
+            "featureType": "CARD_ACCESS",
+            "additionalInfo": "Cuecards only "
+          }
+        ],
+        "constraints": [],
+        "eligibility": [
+          {
+            "eligibilityType": "MAX_AGE",
+            "additionalValue": "12",
+            "additionalInfo": "When the child turns 13 the account will default to a S6 Student account"
+          }
+        ],
+        "fees": [],
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.01",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "S9 Interest Tier 1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": 1,
+                "maximumValue": 999.99,
+                "rateApplicationMethod": "PER_TIER"
+              }
+            ]
+          },
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "2.00",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "S9 Interest Tier 2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": 1000,
+                "maximumValue": 0,
+                "rateApplicationMethod": "PER_TIER"
+              }
+            ]
+          }
+        ],
+        "lendingRates": []
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "TCU010",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "productId": "TCU010",
+        "effectiveFrom": "2020-10-01T00:00:00.000+10:00",
+        "effectiveTo": "2027-10-31T00:00:00.000+11:00",
+        "lastUpdated": "2025-10-31T00:00:00.000+11:00",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "name": "S10 Online Account",
+        "description": "Low Fee everyday transaction account for members are looking for a fully featured everyday transaction account that provides convenient access to their funds; and expect to make infrequent over the counter transactions ",
+        "brand": "TCU",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://tcu.com.au/personal-banking-2/",
+          "termsUri": "https://tcu.com.au/wp-content/uploads/2020/07/Personal-Business-TC-Version-18-0107020.pdf",
+          "feesAndPricingUri": "https://tcu.com.au/wp-content/uploads/2020/07/Savings-and-Investment-accounts-IFC-Version-20-010720.pdf",
+          "additionalOverviewUris": [],
+          "additionalTermsUris": [],
+          "additionalEligibilityUris": [],
+          "additionalFeesAndPricingUris": [],
+          "additionalBundleUris": []
+        },
+        "cardArt": [],
+        "bundles": [],
+        "features": [
+          {
+            "featureType": "BILL_PAYMENT"
+          },
+          {
+            "featureType": "CARD_ACCESS"
+          },
+          {
+            "featureType": "DIGITAL_BANKING"
+          }
+        ],
+        "constraints": [],
+        "eligibility": [],
+        "fees": [],
+        "depositRates": [],
+        "lendingRates": []
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    }
+  ]
+}

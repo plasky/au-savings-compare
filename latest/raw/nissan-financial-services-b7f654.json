@@ -1,0 +1,29 @@
+{
+  "endpoint": "https://public.nfs-cdr.automotivelendingsolutions.com.au/cds-au/v1/banking/products",
+  "slug": "nissan-financial-services-b7f654",
+  "brands": [
+    {
+      "dataHolderBrandId": "5cba81f6-5e7b-f111-9b47-6045bd3f59f5",
+      "brandName": "Nissan Financial Services",
+      "brandGroup": null,
+      "abn": "70130046794",
+      "industries": [
+        "non-bank-lending"
+      ]
+    }
+  ],
+  "list": {
+    "ok": true,
+    "status": 200,
+    "version": "5",
+    "totalPages": 1,
+    "pagesFetched": 1,
+    "productCount": 15,
+    "categoryCounts": {
+      "PERS_LOANS": 7,
+      "BUSINESS_LOANS": 7,
+      "LEASES": 1
+    }
+  },
+  "products": []
+}

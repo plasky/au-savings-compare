@@ -1,0 +1,27 @@
+{
+  "endpoint": "https://public.ym-life.cdr.colcap.com.au/cds-au/v1/banking/products",
+  "slug": "ym-life-pty-ltd-19781f",
+  "brands": [
+    {
+      "dataHolderBrandId": "c8b4d4a0-e0ba-f111-81be-000d3a799057",
+      "brandName": "YM Life Pty Ltd",
+      "brandGroup": null,
+      "abn": "51119531252",
+      "industries": [
+        "non-bank-lending"
+      ]
+    }
+  ],
+  "list": {
+    "ok": false,
+    "status": 400,
+    "version": null,
+    "error": "http-400",
+    "errorDetail": "urn:au-cds:error:cds-all:Field/Invalid | Invalid Field | Invalid Field",
+    "totalPages": null,
+    "pagesFetched": 0,
+    "productCount": 0,
+    "categoryCounts": {}
+  },
+  "products": []
+}

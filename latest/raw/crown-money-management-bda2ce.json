@@ -1,0 +1,27 @@
+{
+  "endpoint": "https://public.crown.cdr.colcap.com.au/cds-au/v1/banking/products",
+  "slug": "crown-money-management-bda2ce",
+  "brands": [
+    {
+      "dataHolderBrandId": "e7c1517b-d5ba-f111-81be-000d3a799057",
+      "brandName": "Crown Money Management",
+      "brandGroup": null,
+      "abn": "51119531252",
+      "industries": [
+        "non-bank-lending"
+      ]
+    }
+  ],
+  "list": {
+    "ok": true,
+    "status": 200,
+    "version": "5",
+    "totalPages": 1,
+    "pagesFetched": 1,
+    "productCount": 7,
+    "categoryCounts": {
+      "RESIDENTIAL_MORTGAGES": 7
+    }
+  },
+  "products": []
+}

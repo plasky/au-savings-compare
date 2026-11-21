@@ -1,0 +1,3670 @@
+{
+  "endpoint": "https://public.open.rslmoney.com.au/cds-au/v1/banking/products",
+  "slug": "rsl-money-a6fbe0",
+  "brands": [
+    {
+      "dataHolderBrandId": "5d5ecd1d-1d98-eb11-a821-000d3a884a20",
+      "brandName": "RSL Money",
+      "brandGroup": null,
+      "abn": "48087649741",
+      "industries": [
+        "banking"
+      ]
+    }
+  ],
+  "list": {
+    "ok": true,
+    "status": 200,
+    "version": "5",
+    "totalPages": 1,
+    "pagesFetched": 1,
+    "productCount": 7,
+    "categoryCounts": {
+      "TERM_DEPOSITS": 4,
+      "CRED_AND_CHRG_CARDS": 1,
+      "TRANS_AND_SAVINGS_ACCOUNTS": 2
+    }
+  },
+  "products": [
+    {
+      "productId": "0cf9e8d4-3a9d-4bbb-9b7c-3065f1a52a65",
+      "productCategory": "TERM_DEPOSITS",
+      "detail": {
+        "brand": "RSL",
+        "description": "As part of our ongoing commitment to the Returned & Services League of Australia, Australian Military Bank is proud to offer Sub Branches an exclusive offer on our Term Deposits. Make a solid return on your investment with interest paid on maturity or annually if your term is greater than 12 months.​",
+        "isTailored": false,
+        "lastUpdated": "2026-10-20T13:00:00.503741Z",
+        "name": "RSL Sub-Branch Investment Plus",
+        "productCategory": "TERM_DEPOSITS",
+        "productId": "0cf9e8d4-3a9d-4bbb-9b7c-3065f1a52a65",
+        "additionalInformation": {
+          "overviewUri": "https://www.rslmoney.com.au/products/rsl-term-deposit",
+          "termsUri": "https://www.rslmoney.com.au/disclosuredocuments",
+          "eligibilityUri": "https://www.rslmoney.com.au/disclosuredocuments",
+          "feesAndPricingUri": "https://www.rslmoney.com.au/disclosuredocuments",
+          "bundleUri": null,
+          "additionalOverviewUris": null,
+          "additionalTermsUris": null,
+          "additionalEligibilityUris": null,
+          "additionalFeesAndPricingUris": null,
+          "additionalBundleUris": null
+        },
+        "applicationUri": "https://www.rslmoney.com.au/contact",
+        "brandName": "RSL Money Prod",
+        "brandGroup": null,
+        "cardArt": [],
+        "effectiveFrom": "2025-03-17T13:00:00Z",
+        "effectiveTo": null,
+        "bundles": [],
+        "constraints": [
+          {
+            "constraintType": "MIN_BALANCE",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "1000.00"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0355",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "P19M",
+            "applicationFrequency": "P1Y",
+            "calculationFrequency": "P1D",
+            "tiers": [
+              {
+                "name": "Tier 1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "applicabilityConditions": []
+              }
+            ],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0355",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "P13M",
+            "applicationFrequency": "P1Y",
+            "calculationFrequency": "P1D",
+            "tiers": [
+              {
+                "name": "Tier 1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "0.00",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "applicabilityConditions": []
+              }
+            ],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0355",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "P18M",
+            "applicationFrequency": "P1Y",
+            "calculationFrequency": "P1D",
+            "tiers": [
+              {
+                "name": "Tier 1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "applicabilityConditions": []
+              }
+            ],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.032",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "P27M",
+            "applicationFrequency": "P1Y",
+            "calculationFrequency": "P1D",
+            "tiers": [
+              {
+                "name": "Tier 1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "applicabilityConditions": []
+              }
+            ],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.032",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "P28M",
+            "applicationFrequency": "P1Y",
+            "calculationFrequency": "P1D",
+            "tiers": [
+              {
+                "name": "Tier 1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "applicabilityConditions": []
+              }
+            ],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.032",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "P30M",
+            "applicationFrequency": "P1Y",
+            "calculationFrequency": "P1D",
+            "tiers": [
+              {
+                "name": "Tier 1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "applicabilityConditions": []
+              }
+            ],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.032",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "P31M",
+            "applicationFrequency": "P1Y",
+            "calculationFrequency": "P1D",
+            "tiers": [
+              {
+                "name": "Tier 1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "applicabilityConditions": []
+              }
+            ],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.032",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "P32M",
+            "applicationFrequency": "P1Y",
+            "calculationFrequency": "P1D",
+            "tiers": [
+              {
+                "name": "Tier 1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "applicabilityConditions": []
+              }
+            ],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0545",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "P6M",
+            "applicationFrequency": "P6M",
+            "calculationFrequency": "P1D",
+            "tiers": [
+              {
+                "name": "Tier 1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "0.00",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "applicabilityConditions": []
+              }
+            ],
+            "applicationType": "MATURITY",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.054",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "P7M",
+            "applicationFrequency": "P7M",
+            "calculationFrequency": "P1D",
+            "tiers": [
+              {
+                "name": "Tier 1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "0.00",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "applicabilityConditions": []
+              }
+            ],
+            "applicationType": "MATURITY",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.032",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "P34M",
+            "applicationFrequency": "P1Y",
+            "calculationFrequency": "P1D",
+            "tiers": [
+              {
+                "name": "Tier 1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "applicabilityConditions": []
+              }
+            ],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.032",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "P35M",
+            "applicationFrequency": "P1Y",
+            "calculationFrequency": "P1D",
+            "tiers": [
+              {
+                "name": "Tier 1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "applicabilityConditions": []
+              }
+            ],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0355",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "P14M",
+            "applicationFrequency": "P1Y",
+            "calculationFrequency": "P1D",
+            "tiers": [
+              {
+                "name": "Tier 1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "0.00",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "applicabilityConditions": []
+              }
+            ],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0355",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "P15M",
+            "applicationFrequency": "P1Y",
+            "calculationFrequency": "P1D",
+            "tiers": [
+              {
+                "name": "Tier 1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "0.00",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "applicabilityConditions": []
+              }
+            ],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0355",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "P24M",
+            "applicationFrequency": "P1Y",
+            "calculationFrequency": "P1D",
+            "tiers": [
+              {
+                "name": "Tier 1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "applicabilityConditions": []
+              }
+            ],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.032",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "P25M",
+            "applicationFrequency": "P1Y",
+            "calculationFrequency": "P1D",
+            "tiers": [
+              {
+                "name": "Tier 1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "applicabilityConditions": []
+              }
+            ],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.032",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "P33M",
+            "applicationFrequency": "P1Y",
+            "calculationFrequency": "P1D",
+            "tiers": [
+              {
+                "name": "Tier 1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "applicabilityConditions": []
+              }
+            ],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.032",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "P36M",
+            "applicationFrequency": "P1Y",
+            "calculationFrequency": "P1D",
+            "tiers": [
+              {
+                "name": "Tier 1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "applicabilityConditions": []
+              }
+            ],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.043",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "P3M",
+            "applicationFrequency": "P3M",
+            "calculationFrequency": "P1D",
+            "tiers": [
+              {
+                "name": "Tier 1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "0.00",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "applicabilityConditions": []
+              }
+            ],
+            "applicationType": "MATURITY",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.043",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "P4M",
+            "applicationFrequency": "P4M",
+            "calculationFrequency": "P1D",
+            "tiers": [
+              {
+                "name": "Tier 1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "0.00",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "applicabilityConditions": []
+              }
+            ],
+            "applicationType": "MATURITY",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0355",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "P16M",
+            "applicationFrequency": "P1Y",
+            "calculationFrequency": "P1D",
+            "tiers": [
+              {
+                "name": "Tier 1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "applicabilityConditions": []
+              }
+            ],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0355",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "P17M",
+            "applicationFrequency": "P1Y",
+            "calculationFrequency": "P1D",
+            "tiers": [
+              {
+                "name": "Tier 1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "applicabilityConditions": []
+              }
+            ],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0355",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "P20M",
+            "applicationFrequency": "P1Y",
+            "calculationFrequency": "P1D",
+            "tiers": [
+              {
+                "name": "Tier 1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "applicabilityConditions": []
+              }
+            ],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0355",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "P22M",
+            "applicationFrequency": "P1Y",
+            "calculationFrequency": "P1D",
+            "tiers": [
+              {
+                "name": "Tier 1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "applicabilityConditions": []
+              }
+            ],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.032",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "P26M",
+            "applicationFrequency": "P1Y",
+            "calculationFrequency": "P1D",
+            "tiers": [
+              {
+                "name": "Tier 1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "applicabilityConditions": []
+              }
+            ],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.032",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "P29M",
+            "applicationFrequency": "P1Y",
+            "calculationFrequency": "P1D",
+            "tiers": [
+              {
+                "name": "Tier 1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "applicabilityConditions": []
+              }
+            ],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.054",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "P12M",
+            "applicationFrequency": "P1Y",
+            "calculationFrequency": "P1D",
+            "tiers": [
+              {
+                "name": "Tier 1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "0.00",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "applicabilityConditions": []
+              }
+            ],
+            "applicationType": "MATURITY",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.043",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "P5M",
+            "applicationFrequency": "P5M",
+            "calculationFrequency": "P1D",
+            "tiers": [
+              {
+                "name": "Tier 1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "0.00",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "applicabilityConditions": []
+              }
+            ],
+            "applicationType": "MATURITY",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.043",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "P8M",
+            "applicationFrequency": "P8M",
+            "calculationFrequency": "P1D",
+            "tiers": [
+              {
+                "name": "Tier 1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "0.00",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "applicabilityConditions": []
+              }
+            ],
+            "applicationType": "MATURITY",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0355",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "P23M",
+            "applicationFrequency": "P1Y",
+            "calculationFrequency": "P1D",
+            "tiers": [
+              {
+                "name": "Tier 1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "applicabilityConditions": []
+              }
+            ],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0355",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "P21M",
+            "applicationFrequency": "P1Y",
+            "calculationFrequency": "P1D",
+            "tiers": [
+              {
+                "name": "Tier 1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "applicabilityConditions": []
+              }
+            ],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0535",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "P9M",
+            "applicationFrequency": "P9M",
+            "calculationFrequency": "P1D",
+            "tiers": [
+              {
+                "name": "Tier 1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "0.00",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "applicabilityConditions": []
+              }
+            ],
+            "applicationType": "MATURITY",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.043",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "P10M",
+            "applicationFrequency": "P10M",
+            "calculationFrequency": "P1D",
+            "tiers": [
+              {
+                "name": "Tier 1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "0.00",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "applicabilityConditions": []
+              }
+            ],
+            "applicationType": "MATURITY",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.043",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "P11M",
+            "applicationFrequency": "P11M",
+            "calculationFrequency": "P1D",
+            "tiers": [
+              {
+                "name": "Tier 1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "0.00",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "applicabilityConditions": []
+              }
+            ],
+            "applicationType": "MATURITY",
+            "applicabilityConditions": []
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "OTHER",
+            "additionalInfo": "Exclusively for RSL Sub Branches and their members",
+            "additionalInfoUri": null,
+            "additionalValue": null
+          },
+          {
+            "eligibilityType": "MIN_AGE",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "18"
+          },
+          {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "Individuals must be citizens or permanent residents of Australia."
+          }
+        ],
+        "features": [
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Members can set up a variety of notifications in Internet Banking",
+            "additionalInfoUri": null,
+            "additionalValue": null
+          },
+          {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": null
+          }
+        ],
+        "fees": [
+          {
+            "feeType": "EVENT",
+            "name": "Early Withdrawal from Term Deposit",
+            "additionalInfo": "Early Withdrawal fee depends on portion of term remaining which determines interest rate reduction. Fee is based on balance and interest rate reduction is between 20% and 90%. Refer to Fees and Charges Schedule.",
+            "additionalInfoUri": null,
+            "additionalValue": null,
+            "currency": "AUD",
+            "discounts": [],
+            "feeMethodUType": "rateBased",
+            "fixedAmount": null,
+            "rateBased": {
+              "rateType": "BALANCE",
+              "rate": "0.90",
+              "accrualFrequency": null,
+              "amountRange": null
+            },
+            "variable": null,
+            "feeCap": null,
+            "feeCapPeriod": null
+          },
+          {
+            "feeType": "EVENT",
+            "name": "Paper statements printed at branch/posted",
+            "additionalInfo": "per page $2.50 if collected at branch or $5 if posted",
+            "additionalInfoUri": null,
+            "additionalValue": null,
+            "currency": "AUD",
+            "discounts": [],
+            "feeMethodUType": "variable",
+            "fixedAmount": null,
+            "rateBased": null,
+            "variable": {
+              "feeMinimum": "2.50",
+              "feeMaximum": "5.00"
+            },
+            "feeCap": null,
+            "feeCapPeriod": null
+          },
+          {
+            "feeType": "EVENT",
+            "name": "Audit Certificate Fee",
+            "additionalInfo": "Per audit certificate requested",
+            "additionalInfoUri": null,
+            "additionalValue": null,
+            "currency": "AUD",
+            "discounts": [],
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "50.00"
+            },
+            "rateBased": null,
+            "variable": null,
+            "feeCap": null,
+            "feeCapPeriod": null
+          },
+          {
+            "feeType": "EVENT",
+            "name": "Archive retrieval fee",
+            "additionalInfo": "Per hour fee applies plus any expenses incurred",
+            "additionalInfoUri": null,
+            "additionalValue": null,
+            "currency": "AUD",
+            "discounts": [],
+            "feeMethodUType": "variable",
+            "fixedAmount": null,
+            "rateBased": null,
+            "variable": {
+              "feeMinimum": "50.00",
+              "feeMaximum": null
+            },
+            "feeCap": null,
+            "feeCapPeriod": null
+          },
+          {
+            "feeType": "PERIODIC",
+            "name": "Paper statement fee (per statement)",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "P3M",
+            "currency": "AUD",
+            "discounts": [],
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "2.00"
+            },
+            "rateBased": null,
+            "variable": null,
+            "feeCap": null,
+            "feeCapPeriod": null
+          }
+        ],
+        "lendingRates": [],
+        "instalments": null
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "4007302f-9762-4f5e-8054-5cb2116e0f37",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "brand": "RSL",
+        "description": "Specifically designed for RSL Sub Branches, this flexible and easy to manage transaction account offers your Sub Branch a range of convenient banking options with no monthly account keeping fees.",
+        "isTailored": false,
+        "lastUpdated": "2026-09-14T17:00:00.280354Z",
+        "name": "Sub Branch Account",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "productId": "4007302f-9762-4f5e-8054-5cb2116e0f37",
+        "additionalInformation": {
+          "overviewUri": "https://www.rslmoney.com.au/products/rsl-money-sub-branch-account",
+          "termsUri": "https://www.rslmoney.com.au/disclosuredocuments",
+          "eligibilityUri": "https://www.rslmoney.com.au/disclosuredocuments",
+          "feesAndPricingUri": "https://www.rslmoney.com.au/disclosuredocuments",
+          "bundleUri": null,
+          "additionalOverviewUris": null,
+          "additionalTermsUris": null,
+          "additionalEligibilityUris": null,
+          "additionalFeesAndPricingUris": null,
+          "additionalBundleUris": null
+        },
+        "applicationUri": "https://www.rslmoney.com.au/contact",
+        "brandName": "RSL Money Prod",
+        "brandGroup": null,
+        "cardArt": [
+          {
+            "imageUri": "https://www.australianmilitarybank.com.au/sites/default/files/RSLGeneric.png",
+            "title": "VISA Debit - Generic",
+            "cardScheme": "VISA",
+            "cardType": "DEBIT"
+          }
+        ],
+        "effectiveFrom": "2024-04-23T14:00:00Z",
+        "effectiveTo": null,
+        "bundles": [],
+        "constraints": [],
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.021",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": null,
+            "applicationFrequency": "P1Y",
+            "calculationFrequency": "P1D",
+            "tiers": [],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": []
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "OTHER",
+            "additionalInfo": "Account can only be opened by an RSL Sub Branch",
+            "additionalInfoUri": null,
+            "additionalValue": null
+          },
+          {
+            "eligibilityType": "BUSINESS",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": null
+          },
+          {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "RSL Sub branch must be registered in Australia"
+          }
+        ],
+        "features": [
+          {
+            "featureType": "BILL_PAYMENT",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "BPAY"
+          },
+          {
+            "featureType": "NPP_PAYID",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": null
+          },
+          {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": null
+          },
+          {
+            "featureType": "ADDITIONAL_CARDS",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": null
+          },
+          {
+            "featureType": "CARD_ACCESS",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "Visa Debit with payWave"
+          },
+          {
+            "featureType": "UNLIMITED_TXNS",
+            "additionalInfo": "Unlimited Visa, EFTPOS, BPAY, Pay Anyone, Direct Debit and Bank@Post Transactions",
+            "additionalInfoUri": null,
+            "additionalValue": null
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "No monthly account keeping fees",
+            "additionalInfoUri": null,
+            "additionalValue": null
+          },
+          {
+            "featureType": "NOTIFICATIONS",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "Members can set up a variety of notifications in Internet Banking"
+          }
+        ],
+        "fees": [
+          {
+            "feeType": "EVENT",
+            "name": "Declined credit transactions",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": null,
+            "currency": "AUD",
+            "discounts": [],
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.80"
+            },
+            "rateBased": null,
+            "variable": null,
+            "feeCap": null,
+            "feeCapPeriod": null
+          },
+          {
+            "feeType": "EVENT",
+            "name": "Declined EFTPOS transactions",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": null,
+            "currency": "AUD",
+            "discounts": [],
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.80"
+            },
+            "rateBased": null,
+            "variable": null,
+            "feeCap": null,
+            "feeCapPeriod": null
+          },
+          {
+            "feeType": "EVENT",
+            "name": "Staff assisted external transfer and BPAY transaction",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": null,
+            "currency": "AUD",
+            "discounts": [],
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.60"
+            },
+            "rateBased": null,
+            "variable": null,
+            "feeCap": null,
+            "feeCapPeriod": null
+          },
+          {
+            "feeType": "EVENT",
+            "name": "EFTPOS dispute fee",
+            "additionalInfo": "At cost",
+            "additionalInfoUri": null,
+            "additionalValue": null,
+            "currency": "AUD",
+            "discounts": [],
+            "feeMethodUType": "variable",
+            "fixedAmount": null,
+            "rateBased": null,
+            "variable": {
+              "feeMinimum": "1.00",
+              "feeMaximum": null
+            },
+            "feeCap": null,
+            "feeCapPeriod": null
+          },
+          {
+            "feeType": "EVENT",
+            "name": "Bank@Post cheque dishonour fee ",
+            "additionalInfo": "At cost",
+            "additionalInfoUri": null,
+            "additionalValue": null,
+            "currency": "AUD",
+            "discounts": [],
+            "feeMethodUType": "variable",
+            "fixedAmount": null,
+            "rateBased": null,
+            "variable": {
+              "feeMinimum": "1.00",
+              "feeMaximum": null
+            },
+            "feeCap": null,
+            "feeCapPeriod": null
+          },
+          {
+            "feeType": "TRANSACTION",
+            "name": "Telegraphic transfers (online)",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": null,
+            "currency": "AUD",
+            "discounts": [],
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "20.00"
+            },
+            "rateBased": null,
+            "variable": null,
+            "feeCap": null,
+            "feeCapPeriod": null
+          },
+          {
+            "feeType": "TRANSACTION",
+            "name": "EFT trace/recall of funds",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": null,
+            "currency": "AUD",
+            "discounts": [],
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "25.00"
+            },
+            "rateBased": null,
+            "variable": null,
+            "feeCap": null,
+            "feeCapPeriod": null
+          },
+          {
+            "feeType": "EVENT",
+            "name": "Foreign Cheque encashment (<AU$5000)",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": null,
+            "currency": "AUD",
+            "discounts": [],
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "15.00"
+            },
+            "rateBased": null,
+            "variable": null,
+            "feeCap": null,
+            "feeCapPeriod": null
+          },
+          {
+            "feeType": "TRANSACTION",
+            "name": "Foreign drafts",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": null,
+            "currency": "AUD",
+            "discounts": [],
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "20.00"
+            },
+            "rateBased": null,
+            "variable": null,
+            "feeCap": null,
+            "feeCapPeriod": null
+          },
+          {
+            "feeType": "WITHDRAWAL",
+            "name": "Overseas ATM withdrawals",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": null,
+            "currency": "AUD",
+            "discounts": [],
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "4.50"
+            },
+            "rateBased": null,
+            "variable": null,
+            "feeCap": null,
+            "feeCapPeriod": null
+          },
+          {
+            "feeType": "TRANSACTION",
+            "name": "Foreign Currency Conversion fee",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": null,
+            "currency": "AUD",
+            "discounts": [],
+            "feeMethodUType": "rateBased",
+            "fixedAmount": null,
+            "rateBased": {
+              "rateType": "TRANSACTION",
+              "rate": "0.03",
+              "accrualFrequency": null,
+              "amountRange": null
+            },
+            "variable": null,
+            "feeCap": null,
+            "feeCapPeriod": null
+          },
+          {
+            "feeType": "TRANSACTION",
+            "name": "Telegraphic transfers (AUD)",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": null,
+            "currency": "AUD",
+            "discounts": [],
+            "feeMethodUType": "variable",
+            "fixedAmount": null,
+            "rateBased": null,
+            "variable": {
+              "feeMinimum": "20.00",
+              "feeMaximum": "50.00"
+            },
+            "feeCap": null,
+            "feeCapPeriod": null
+          },
+          {
+            "feeType": "EVENT",
+            "name": "Visa Card replacement processing fee",
+            "additionalInfo": "At cost",
+            "additionalInfoUri": null,
+            "additionalValue": null,
+            "currency": "AUD",
+            "discounts": [],
+            "feeMethodUType": "variable",
+            "fixedAmount": null,
+            "rateBased": null,
+            "variable": {
+              "feeMinimum": "20.00",
+              "feeMaximum": null
+            },
+            "feeCap": null,
+            "feeCapPeriod": null
+          },
+          {
+            "feeType": "PERIODIC",
+            "name": "Dormancy fee for accounts inactive greater\nthan 24 months",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "P1M",
+            "currency": "AUD",
+            "discounts": [],
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "2.00"
+            },
+            "rateBased": null,
+            "variable": null,
+            "feeCap": null,
+            "feeCapPeriod": null
+          },
+          {
+            "feeType": "TRANSACTION",
+            "name": "Swift transfers",
+            "additionalInfo": "Electronic funds transfer between Australian Military Bank and other financial institutions",
+            "additionalInfoUri": null,
+            "additionalValue": null,
+            "currency": "AUD",
+            "discounts": [],
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "25.00"
+            },
+            "rateBased": null,
+            "variable": null,
+            "feeCap": null,
+            "feeCapPeriod": null
+          },
+          {
+            "feeType": "TRANSACTION",
+            "name": "Direct debit dishonour",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": null,
+            "currency": "AUD",
+            "discounts": [],
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "10.00"
+            },
+            "rateBased": null,
+            "variable": null,
+            "feeCap": null,
+            "feeCapPeriod": null
+          },
+          {
+            "feeType": "EVENT",
+            "name": "Declined Visa dispute",
+            "additionalInfo": "If a Visa dispute lodged by you is declined and found that the claim was invalid",
+            "additionalInfoUri": null,
+            "additionalValue": null,
+            "currency": "AUD",
+            "discounts": [],
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "30.00"
+            },
+            "rateBased": null,
+            "variable": null,
+            "feeCap": null,
+            "feeCapPeriod": null
+          },
+          {
+            "feeType": "EVENT",
+            "name": "Foreign Cheque encashment (>AU$5000)",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": null,
+            "currency": "AUD",
+            "discounts": [],
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "50.00"
+            },
+            "rateBased": null,
+            "variable": null,
+            "feeCap": null,
+            "feeCapPeriod": null
+          },
+          {
+            "feeType": "EVENT",
+            "name": "Retrieval of member documents from archives",
+            "additionalInfo": "Per hour fee applies plus any expenses incurred",
+            "additionalInfoUri": null,
+            "additionalValue": null,
+            "currency": "AUD",
+            "discounts": [],
+            "feeMethodUType": "variable",
+            "fixedAmount": null,
+            "rateBased": null,
+            "variable": {
+              "feeMinimum": "50.00",
+              "feeMaximum": null
+            },
+            "feeCap": null,
+            "feeCapPeriod": null
+          },
+          {
+            "feeType": "EVENT",
+            "name": "Paper statements printed at branch or posted",
+            "additionalInfo": "$2.50 for printed and collect at branch or $5 if posted.\nNo statement fee for RSL Money Sub Branch accounts",
+            "additionalInfoUri": null,
+            "additionalValue": null,
+            "currency": "AUD",
+            "discounts": [],
+            "feeMethodUType": "variable",
+            "fixedAmount": null,
+            "rateBased": null,
+            "variable": {
+              "feeMinimum": "2.50",
+              "feeMaximum": "5.00"
+            },
+            "feeCap": null,
+            "feeCapPeriod": null
+          },
+          {
+            "feeType": "PERIODIC",
+            "name": "Paper statement fee (per statement)",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "P1M",
+            "currency": "AUD",
+            "discounts": [],
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "2.00"
+            },
+            "rateBased": null,
+            "variable": null,
+            "feeCap": null,
+            "feeCapPeriod": null
+          },
+          {
+            "feeType": "EVENT",
+            "name": "Foreign Currency Encashment",
+            "additionalInfo": "Minimum encashment of AU$50 applies",
+            "additionalInfoUri": null,
+            "additionalValue": null,
+            "currency": "AUD",
+            "discounts": [],
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "10.00"
+            },
+            "rateBased": null,
+            "variable": null,
+            "feeCap": null,
+            "feeCapPeriod": null
+          },
+          {
+            "feeType": "TRANSACTION",
+            "name": "Amendment/ cancellation of\ntelegraphic transfer/swift transfers",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": null,
+            "currency": "AUD",
+            "discounts": [],
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "35.00"
+            },
+            "rateBased": null,
+            "variable": null,
+            "feeCap": null,
+            "feeCapPeriod": null
+          },
+          {
+            "feeType": "EVENT",
+            "name": "Buy Foreign Currency",
+            "additionalInfo": "1% of AUD value of amount purchased. Minimum order of AU$100 applies",
+            "additionalInfoUri": null,
+            "additionalValue": null,
+            "currency": "AUD",
+            "discounts": [],
+            "feeMethodUType": "rateBased",
+            "fixedAmount": null,
+            "rateBased": {
+              "rateType": "TRANSACTION",
+              "rate": "0.01",
+              "accrualFrequency": null,
+              "amountRange": null
+            },
+            "variable": null,
+            "feeCap": null,
+            "feeCapPeriod": null
+          },
+          {
+            "feeType": "EVENT",
+            "name": "Audit Certificate Fee",
+            "additionalInfo": "Per audit certificate requested",
+            "additionalInfoUri": null,
+            "additionalValue": null,
+            "currency": "AUD",
+            "discounts": [],
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "50.00"
+            },
+            "rateBased": null,
+            "variable": null,
+            "feeCap": null,
+            "feeCapPeriod": null
+          }
+        ],
+        "lendingRates": [],
+        "instalments": null
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "53173a06-7fd8-4fc3-bdce-871dcd373830",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "brand": "RSL",
+        "description": "Designed specifically for those on a Government pension and for retirees, the RSL Money Pension account allows you to grow your savings whilst supporting you with no everyday banking fees to assist you in that goal.",
+        "isTailored": false,
+        "lastUpdated": "2026-09-14T17:00:00.280346Z",
+        "name": "RSL Everyday Account",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "productId": "53173a06-7fd8-4fc3-bdce-871dcd373830",
+        "additionalInformation": {
+          "overviewUri": "https://www.rslmoney.com.au/products/rsl-money-everyday-account",
+          "termsUri": "https://www.rslmoney.com.au/disclosuredocuments",
+          "eligibilityUri": "https://www.rslmoney.com.au/disclosuredocuments",
+          "feesAndPricingUri": "https://www.rslmoney.com.au/disclosuredocuments",
+          "bundleUri": null,
+          "additionalOverviewUris": null,
+          "additionalTermsUris": null,
+          "additionalEligibilityUris": null,
+          "additionalFeesAndPricingUris": null,
+          "additionalBundleUris": null
+        },
+        "applicationUri": "https://www.rslmoney.com.au/contact",
+        "brandName": "RSL Money Prod",
+        "brandGroup": null,
+        "cardArt": [
+          {
+            "imageUri": "https://www.australianmilitarybank.com.au/sites/default/files/RSLGeneric.png",
+            "title": "VISA Debit - Generic",
+            "cardScheme": "VISA",
+            "cardType": "DEBIT"
+          }
+        ],
+        "effectiveFrom": null,
+        "effectiveTo": null,
+        "bundles": [],
+        "constraints": [],
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.005",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": null,
+            "applicationFrequency": "P1M",
+            "calculationFrequency": "P1D",
+            "tiers": [],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": []
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "OTHER",
+            "additionalInfo": "Only RSL Sub Branch member and their families can open this account",
+            "additionalInfoUri": null,
+            "additionalValue": null
+          },
+          {
+            "eligibilityType": "MIN_AGE",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "18"
+          },
+          {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "Australian citizen or permanent resident"
+          }
+        ],
+        "features": [
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "0.20% of the balance is donated to RSL National per annum",
+            "additionalInfoUri": null,
+            "additionalValue": null
+          },
+          {
+            "featureType": "CARD_ACCESS",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "Visa Debit with payWave"
+          },
+          {
+            "featureType": "BILL_PAYMENT",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "BPAY"
+          },
+          {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": null
+          },
+          {
+            "featureType": "NOTIFICATIONS",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "Members can set up a variety of notifications in Internet Banking"
+          },
+          {
+            "featureType": "ADDITIONAL_CARDS",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": null
+          },
+          {
+            "featureType": "UNLIMITED_TXNS",
+            "additionalInfo": "Unlimited Visa, EFTPOS, BPAY, Pay Anyone, Direct Debit and Bank@Post Transactions",
+            "additionalInfoUri": null,
+            "additionalValue": null
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Free cheque book",
+            "additionalInfoUri": null,
+            "additionalValue": null
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Pension Account holders also receive 2.00% discount on the RSL Low Rate Visa Card ",
+            "additionalInfoUri": null,
+            "additionalValue": null
+          },
+          {
+            "featureType": "NPP_PAYID",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": null
+          }
+        ],
+        "fees": [
+          {
+            "feeType": "EVENT",
+            "name": "Declined credit transactions",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": null,
+            "currency": "AUD",
+            "discounts": [],
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.80"
+            },
+            "rateBased": null,
+            "variable": null,
+            "feeCap": null,
+            "feeCapPeriod": null
+          },
+          {
+            "feeType": "EVENT",
+            "name": "Declined EFTPOS transactions",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": null,
+            "currency": "AUD",
+            "discounts": [],
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.80"
+            },
+            "rateBased": null,
+            "variable": null,
+            "feeCap": null,
+            "feeCapPeriod": null
+          },
+          {
+            "feeType": "EVENT",
+            "name": "Staff assisted external transfer and BPAY transaction",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": null,
+            "currency": "AUD",
+            "discounts": [],
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.60"
+            },
+            "rateBased": null,
+            "variable": null,
+            "feeCap": null,
+            "feeCapPeriod": null
+          },
+          {
+            "feeType": "EVENT",
+            "name": "EFTPOS dispute fee",
+            "additionalInfo": "At cost",
+            "additionalInfoUri": null,
+            "additionalValue": null,
+            "currency": "AUD",
+            "discounts": [],
+            "feeMethodUType": "variable",
+            "fixedAmount": null,
+            "rateBased": null,
+            "variable": {
+              "feeMinimum": "1.00",
+              "feeMaximum": null
+            },
+            "feeCap": null,
+            "feeCapPeriod": null
+          },
+          {
+            "feeType": "EVENT",
+            "name": "Bank@Post cheque dishonour fee ",
+            "additionalInfo": "At cost",
+            "additionalInfoUri": null,
+            "additionalValue": null,
+            "currency": "AUD",
+            "discounts": [],
+            "feeMethodUType": "variable",
+            "fixedAmount": null,
+            "rateBased": null,
+            "variable": {
+              "feeMinimum": "1.00",
+              "feeMaximum": null
+            },
+            "feeCap": null,
+            "feeCapPeriod": null
+          },
+          {
+            "feeType": "TRANSACTION",
+            "name": "Telegraphic transfers (online)",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": null,
+            "currency": "AUD",
+            "discounts": [],
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "20.00"
+            },
+            "rateBased": null,
+            "variable": null,
+            "feeCap": null,
+            "feeCapPeriod": null
+          },
+          {
+            "feeType": "TRANSACTION",
+            "name": "EFT trace/recall of funds",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": null,
+            "currency": "AUD",
+            "discounts": [],
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "25.00"
+            },
+            "rateBased": null,
+            "variable": null,
+            "feeCap": null,
+            "feeCapPeriod": null
+          },
+          {
+            "feeType": "EVENT",
+            "name": "Foreign Cheque encashment (<AU$5000)",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": null,
+            "currency": "AUD",
+            "discounts": [],
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "15.00"
+            },
+            "rateBased": null,
+            "variable": null,
+            "feeCap": null,
+            "feeCapPeriod": null
+          },
+          {
+            "feeType": "TRANSACTION",
+            "name": "Foreign drafts",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": null,
+            "currency": "AUD",
+            "discounts": [],
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "20.00"
+            },
+            "rateBased": null,
+            "variable": null,
+            "feeCap": null,
+            "feeCapPeriod": null
+          },
+          {
+            "feeType": "WITHDRAWAL",
+            "name": "Overseas ATM withdrawals",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": null,
+            "currency": "AUD",
+            "discounts": [],
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "4.50"
+            },
+            "rateBased": null,
+            "variable": null,
+            "feeCap": null,
+            "feeCapPeriod": null
+          },
+          {
+            "feeType": "TRANSACTION",
+            "name": "Foreign Currency Conversion fee",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": null,
+            "currency": "AUD",
+            "discounts": [],
+            "feeMethodUType": "rateBased",
+            "fixedAmount": null,
+            "rateBased": {
+              "rateType": "TRANSACTION",
+              "rate": "0.03",
+              "accrualFrequency": null,
+              "amountRange": null
+            },
+            "variable": null,
+            "feeCap": null,
+            "feeCapPeriod": null
+          },
+          {
+            "feeType": "TRANSACTION",
+            "name": "Telegraphic transfers (AUD)",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": null,
+            "currency": "AUD",
+            "discounts": [],
+            "feeMethodUType": "variable",
+            "fixedAmount": null,
+            "rateBased": null,
+            "variable": {
+              "feeMinimum": "20.00",
+              "feeMaximum": "50.00"
+            },
+            "feeCap": null,
+            "feeCapPeriod": null
+          },
+          {
+            "feeType": "EVENT",
+            "name": "Visa Card replacement processing fee",
+            "additionalInfo": "At cost",
+            "additionalInfoUri": null,
+            "additionalValue": null,
+            "currency": "AUD",
+            "discounts": [],
+            "feeMethodUType": "variable",
+            "fixedAmount": null,
+            "rateBased": null,
+            "variable": {
+              "feeMinimum": "20.00",
+              "feeMaximum": null
+            },
+            "feeCap": null,
+            "feeCapPeriod": null
+          },
+          {
+            "feeType": "PERIODIC",
+            "name": "Dormancy fee for accounts inactive greater\nthan 24 months",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "P1M",
+            "currency": "AUD",
+            "discounts": [],
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "2.00"
+            },
+            "rateBased": null,
+            "variable": null,
+            "feeCap": null,
+            "feeCapPeriod": null
+          },
+          {
+            "feeType": "TRANSACTION",
+            "name": "Swift transfers",
+            "additionalInfo": "Electronic funds transfer between Australian Military Bank and other financial institutions",
+            "additionalInfoUri": null,
+            "additionalValue": null,
+            "currency": "AUD",
+            "discounts": [],
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "25.00"
+            },
+            "rateBased": null,
+            "variable": null,
+            "feeCap": null,
+            "feeCapPeriod": null
+          },
+          {
+            "feeType": "TRANSACTION",
+            "name": "Direct debit dishonour",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": null,
+            "currency": "AUD",
+            "discounts": [],
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "10.00"
+            },
+            "rateBased": null,
+            "variable": null,
+            "feeCap": null,
+            "feeCapPeriod": null
+          },
+          {
+            "feeType": "EVENT",
+            "name": "Declined Visa dispute",
+            "additionalInfo": "If a Visa dispute lodged by you is declined and found that the claim was invalid",
+            "additionalInfoUri": null,
+            "additionalValue": null,
+            "currency": "AUD",
+            "discounts": [],
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "30.00"
+            },
+            "rateBased": null,
+            "variable": null,
+            "feeCap": null,
+            "feeCapPeriod": null
+          },
+          {
+            "feeType": "EVENT",
+            "name": "Foreign Cheque encashment (>AU$5000)",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": null,
+            "currency": "AUD",
+            "discounts": [],
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "50.00"
+            },
+            "rateBased": null,
+            "variable": null,
+            "feeCap": null,
+            "feeCapPeriod": null
+          },
+          {
+            "feeType": "EVENT",
+            "name": "Retrieval of member documents from archives",
+            "additionalInfo": "Per hour fee applies plus any expenses incurred",
+            "additionalInfoUri": null,
+            "additionalValue": null,
+            "currency": "AUD",
+            "discounts": [],
+            "feeMethodUType": "variable",
+            "fixedAmount": null,
+            "rateBased": null,
+            "variable": {
+              "feeMinimum": "50.00",
+              "feeMaximum": null
+            },
+            "feeCap": null,
+            "feeCapPeriod": null
+          },
+          {
+            "feeType": "EVENT",
+            "name": "Paper statements printed at branch or posted",
+            "additionalInfo": "$2.50 for printed and collect at branch or $5 if posted.\nNo statement fee for RSL Money Sub Branch accounts",
+            "additionalInfoUri": null,
+            "additionalValue": null,
+            "currency": "AUD",
+            "discounts": [],
+            "feeMethodUType": "variable",
+            "fixedAmount": null,
+            "rateBased": null,
+            "variable": {
+              "feeMinimum": "2.50",
+              "feeMaximum": "5.00"
+            },
+            "feeCap": null,
+            "feeCapPeriod": null
+          },
+          {
+            "feeType": "PERIODIC",
+            "name": "Paper statement fee (per statement)",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "P1M",
+            "currency": "AUD",
+            "discounts": [],
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "2.00"
+            },
+            "rateBased": null,
+            "variable": null,
+            "feeCap": null,
+            "feeCapPeriod": null
+          },
+          {
+            "feeType": "EVENT",
+            "name": "Foreign Currency Encashment",
+            "additionalInfo": "Minimum encashment of AU$50 applies",
+            "additionalInfoUri": null,
+            "additionalValue": null,
+            "currency": "AUD",
+            "discounts": [],
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "10.00"
+            },
+            "rateBased": null,
+            "variable": null,
+            "feeCap": null,
+            "feeCapPeriod": null
+          },
+          {
+            "feeType": "TRANSACTION",
+            "name": "Amendment/ cancellation of\ntelegraphic transfer/swift transfers",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": null,
+            "currency": "AUD",
+            "discounts": [],
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "35.00"
+            },
+            "rateBased": null,
+            "variable": null,
+            "feeCap": null,
+            "feeCapPeriod": null
+          },
+          {
+            "feeType": "EVENT",
+            "name": "Buy Foreign Currency",
+            "additionalInfo": "1% of AUD value of amount purchased. Minimum order of AU$100 applies",
+            "additionalInfoUri": null,
+            "additionalValue": null,
+            "currency": "AUD",
+            "discounts": [],
+            "feeMethodUType": "rateBased",
+            "fixedAmount": null,
+            "rateBased": {
+              "rateType": "TRANSACTION",
+              "rate": "0.01",
+              "accrualFrequency": null,
+              "amountRange": null
+            },
+            "variable": null,
+            "feeCap": null,
+            "feeCapPeriod": null
+          },
+          {
+            "feeType": "EVENT",
+            "name": "Audit Certificate Fee",
+            "additionalInfo": "Per audit certificate requested",
+            "additionalInfoUri": null,
+            "additionalValue": null,
+            "currency": "AUD",
+            "discounts": [],
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "50.00"
+            },
+            "rateBased": null,
+            "variable": null,
+            "feeCap": null,
+            "feeCapPeriod": null
+          }
+        ],
+        "lendingRates": [],
+        "instalments": null
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "TRBMT",
+      "productCategory": "TERM_DEPOSITS",
+      "detail": {
+        "brand": "RSL",
+        "description": "As part of our ongoing commitment to the Returned & Services League of Australia, Australian Military Bank is proud to offer Sub Branches an exclusive offer on our Term Deposits. Make a regular income on your savings with interest paid monthly.​",
+        "isTailored": false,
+        "lastUpdated": "2026-10-20T13:00:00.482179Z",
+        "name": "RSL Sub-Branch Income Plus",
+        "productCategory": "TERM_DEPOSITS",
+        "productId": "TRBMT",
+        "additionalInformation": {
+          "overviewUri": "https://www.rslmoney.com.au/products/rsl-term-deposit​",
+          "termsUri": "https://www.rslmoney.com.au/disclosuredocuments​",
+          "eligibilityUri": "https://www.rslmoney.com.au/disclosuredocuments​",
+          "feesAndPricingUri": "https://www.rslmoney.com.au/disclosuredocuments​",
+          "bundleUri": null,
+          "additionalOverviewUris": [],
+          "additionalTermsUris": [],
+          "additionalEligibilityUris": [],
+          "additionalFeesAndPricingUris": [],
+          "additionalBundleUris": []
+        },
+        "applicationUri": null,
+        "brandName": "RSL Money Prod",
+        "brandGroup": null,
+        "cardArt": [],
+        "effectiveFrom": "2026-08-18T00:00:00Z",
+        "effectiveTo": null,
+        "bundles": [],
+        "constraints": [
+          {
+            "constraintType": "MIN_BALANCE",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "1000.00"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.043",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "P5M",
+            "applicationFrequency": "P5M",
+            "calculationFrequency": "P1D",
+            "tiers": [
+              {
+                "name": "Tier 1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "0.00",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "applicabilityConditions": []
+              }
+            ],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.043",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "P3M",
+            "applicationFrequency": "P1M",
+            "calculationFrequency": "P1D",
+            "tiers": [
+              {
+                "name": "Tier 1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "0.00",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "applicabilityConditions": []
+              }
+            ],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.043",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "P4M",
+            "applicationFrequency": "P4M",
+            "calculationFrequency": "P1D",
+            "tiers": [
+              {
+                "name": "Tier 1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "0.00",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "applicabilityConditions": []
+              }
+            ],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.043",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "P8M",
+            "applicationFrequency": "P8M",
+            "calculationFrequency": "P1D",
+            "tiers": [
+              {
+                "name": "Tier 1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "0.00",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "applicabilityConditions": []
+              }
+            ],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.054",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "P7M",
+            "applicationFrequency": "P7M",
+            "calculationFrequency": "P1D",
+            "tiers": [
+              {
+                "name": "Tier 1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "0.00",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "applicabilityConditions": []
+              }
+            ],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0535",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "P9M",
+            "applicationFrequency": "P9M",
+            "calculationFrequency": "P1D",
+            "tiers": [
+              {
+                "name": "Tier 1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "0.00",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "applicabilityConditions": []
+              }
+            ],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.054",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "P12M",
+            "applicationFrequency": "P1Y",
+            "calculationFrequency": "P1D",
+            "tiers": [
+              {
+                "name": "Tier 1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "0.00",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "applicabilityConditions": []
+              }
+            ],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0545",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "P6M",
+            "applicationFrequency": "P6M",
+            "calculationFrequency": "P1D",
+            "tiers": [
+              {
+                "name": "Tier 1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "0.00",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "applicabilityConditions": []
+              }
+            ],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.043",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "P10M",
+            "applicationFrequency": "P10M",
+            "calculationFrequency": "P1D",
+            "tiers": [
+              {
+                "name": "Tier 1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "0.00",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "applicabilityConditions": []
+              }
+            ],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.043",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "P11M",
+            "applicationFrequency": "P11M",
+            "calculationFrequency": "P1D",
+            "tiers": [
+              {
+                "name": "Tier 1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "0.00",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "applicabilityConditions": []
+              }
+            ],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": []
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "OTHER",
+            "additionalInfo": "Exclusively for RSL Sub Branches and their members",
+            "additionalInfoUri": null,
+            "additionalValue": null
+          },
+          {
+            "eligibilityType": "MIN_AGE",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "18"
+          },
+          {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "Individuals must be citizens or permanent residents of Australia."
+          }
+        ],
+        "features": [
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Members can set up a variety of notifications in Internet Banking",
+            "additionalInfoUri": null,
+            "additionalValue": null
+          },
+          {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": null
+          }
+        ],
+        "fees": [
+          {
+            "feeType": "EVENT",
+            "name": "Early Withdrawal from Term Deposit",
+            "additionalInfo": "Early Withdrawal fee depends on portion of term remaining which determines interest rate reduction. Fee is based on balance and interest rate reduction is between 20% and 90%. Refer to Fees and Charges Schedule.",
+            "additionalInfoUri": null,
+            "additionalValue": null,
+            "currency": "AUD",
+            "discounts": [],
+            "feeMethodUType": "rateBased",
+            "fixedAmount": null,
+            "rateBased": {
+              "rateType": "BALANCE",
+              "rate": "0.90",
+              "accrualFrequency": null,
+              "amountRange": null
+            },
+            "variable": null,
+            "feeCap": null,
+            "feeCapPeriod": null
+          },
+          {
+            "feeType": "EVENT",
+            "name": "Paper statements printed at branch/posted",
+            "additionalInfo": "per page $2.50 if collected at branch or $5 if posted",
+            "additionalInfoUri": null,
+            "additionalValue": null,
+            "currency": "AUD",
+            "discounts": [],
+            "feeMethodUType": "variable",
+            "fixedAmount": null,
+            "rateBased": null,
+            "variable": {
+              "feeMinimum": "2.50",
+              "feeMaximum": "5.00"
+            },
+            "feeCap": null,
+            "feeCapPeriod": null
+          },
+          {
+            "feeType": "EVENT",
+            "name": "Audit Certificate Fee",
+            "additionalInfo": "Per audit certificate requested",
+            "additionalInfoUri": null,
+            "additionalValue": null,
+            "currency": "AUD",
+            "discounts": [],
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "50.00"
+            },
+            "rateBased": null,
+            "variable": null,
+            "feeCap": null,
+            "feeCapPeriod": null
+          },
+          {
+            "feeType": "EVENT",
+            "name": "Archive retrieval fee",
+            "additionalInfo": "Per hour fee applies plus any expenses incurred",
+            "additionalInfoUri": null,
+            "additionalValue": null,
+            "currency": "AUD",
+            "discounts": [],
+            "feeMethodUType": "variable",
+            "fixedAmount": null,
+            "rateBased": null,
+            "variable": {
+              "feeMinimum": "50.00",
+              "feeMaximum": null
+            },
+            "feeCap": null,
+            "feeCapPeriod": null
+          },
+          {
+            "feeType": "PERIODIC",
+            "name": "Paper statement fee (per statement)",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "P3M",
+            "currency": "AUD",
+            "discounts": [],
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "2.00"
+            },
+            "rateBased": null,
+            "variable": null,
+            "feeCap": null,
+            "feeCapPeriod": null
+          }
+        ],
+        "lendingRates": [],
+        "instalments": null
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "TRPMA",
+      "productCategory": "TERM_DEPOSITS",
+      "detail": {
+        "brand": "RSL",
+        "description": "As part of our ongoing commitment to the Returned & Services League of Australia, Australian Military Bank is proud to offer Sub Branch members and their spouses an exclusive offer on our Term Deposits. Receiving bonus interest on your investment, you can be sure that Australian Military Bank’s Term Deposits are reliable and secure. Make a solid return on your investment with interest paid on maturity or annually if your term is greater than 12 months.",
+        "isTailored": false,
+        "lastUpdated": "2026-10-20T13:00:00.460737Z",
+        "name": "RSL Member Investment Plus",
+        "productCategory": "TERM_DEPOSITS",
+        "productId": "TRPMA",
+        "additionalInformation": {
+          "overviewUri": "https://www.rslmoney.com.au/products/rsl-term-deposit",
+          "termsUri": "https://www.rslmoney.com.au/disclosuredocuments",
+          "eligibilityUri": "https://www.rslmoney.com.au/disclosuredocuments",
+          "feesAndPricingUri": "https://www.rslmoney.com.au/disclosuredocuments",
+          "bundleUri": null,
+          "additionalOverviewUris": [],
+          "additionalTermsUris": [],
+          "additionalEligibilityUris": [],
+          "additionalFeesAndPricingUris": [],
+          "additionalBundleUris": []
+        },
+        "applicationUri": null,
+        "brandName": "RSL Money Prod",
+        "brandGroup": null,
+        "cardArt": [],
+        "effectiveFrom": "2025-08-06T16:00:00Z",
+        "effectiveTo": null,
+        "bundles": [],
+        "constraints": [
+          {
+            "constraintType": "MIN_BALANCE",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "1000.00"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0355",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "P19M",
+            "applicationFrequency": "P1Y",
+            "calculationFrequency": "P1D",
+            "tiers": [
+              {
+                "name": "Tier 1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "applicabilityConditions": []
+              }
+            ],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0355",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "P13M",
+            "applicationFrequency": "P1Y",
+            "calculationFrequency": "P1D",
+            "tiers": [
+              {
+                "name": "Tier 1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "0.00",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "applicabilityConditions": []
+              }
+            ],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0355",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "P18M",
+            "applicationFrequency": "P1Y",
+            "calculationFrequency": "P1D",
+            "tiers": [
+              {
+                "name": "Tier 1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "applicabilityConditions": []
+              }
+            ],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.032",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "P27M",
+            "applicationFrequency": "P1Y",
+            "calculationFrequency": "P1D",
+            "tiers": [
+              {
+                "name": "Tier 1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "applicabilityConditions": []
+              }
+            ],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.032",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "P28M",
+            "applicationFrequency": "P1Y",
+            "calculationFrequency": "P1D",
+            "tiers": [
+              {
+                "name": "Tier 1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "applicabilityConditions": []
+              }
+            ],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.032",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "P30M",
+            "applicationFrequency": "P1Y",
+            "calculationFrequency": "P1D",
+            "tiers": [
+              {
+                "name": "Tier 1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "applicabilityConditions": []
+              }
+            ],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.032",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "P31M",
+            "applicationFrequency": "P1Y",
+            "calculationFrequency": "P1D",
+            "tiers": [
+              {
+                "name": "Tier 1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "applicabilityConditions": []
+              }
+            ],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.032",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "P32M",
+            "applicationFrequency": "P1Y",
+            "calculationFrequency": "P1D",
+            "tiers": [
+              {
+                "name": "Tier 1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "applicabilityConditions": []
+              }
+            ],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0545",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "P6M",
+            "applicationFrequency": "P6M",
+            "calculationFrequency": "P1D",
+            "tiers": [
+              {
+                "name": "Tier 1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "0.00",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "applicabilityConditions": []
+              }
+            ],
+            "applicationType": "MATURITY",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.054",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "P7M",
+            "applicationFrequency": "P7M",
+            "calculationFrequency": "P1D",
+            "tiers": [
+              {
+                "name": "Tier 1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "0.00",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "applicabilityConditions": []
+              }
+            ],
+            "applicationType": "MATURITY",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.032",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "P34M",
+            "applicationFrequency": "P1Y",
+            "calculationFrequency": "P1D",
+            "tiers": [
+              {
+                "name": "Tier 1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "applicabilityConditions": []
+              }
+            ],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.032",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "P35M",
+            "applicationFrequency": "P1Y",
+            "calculationFrequency": "P1D",
+            "tiers": [
+              {
+                "name": "Tier 1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "applicabilityConditions": []
+              }
+            ],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0355",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "P14M",
+            "applicationFrequency": "P1Y",
+            "calculationFrequency": "P1D",
+            "tiers": [
+              {
+                "name": "Tier 1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "0.00",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "applicabilityConditions": []
+              }
+            ],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0355",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "P15M",
+            "applicationFrequency": "P1Y",
+            "calculationFrequency": "P1D",
+            "tiers": [
+              {
+                "name": "Tier 1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "0.00",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "applicabilityConditions": []
+              }
+            ],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0355",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "P24M",
+            "applicationFrequency": "P1Y",
+            "calculationFrequency": "P1D",
+            "tiers": [
+              {
+                "name": "Tier 1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "applicabilityConditions": []
+              }
+            ],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.032",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "P25M",
+            "applicationFrequency": "P1Y",
+            "calculationFrequency": "P1D",
+            "tiers": [
+              {
+                "name": "Tier 1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "applicabilityConditions": []
+              }
+            ],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.032",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "P33M",
+            "applicationFrequency": "P1Y",
+            "calculationFrequency": "P1D",
+            "tiers": [
+              {
+                "name": "Tier 1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "applicabilityConditions": []
+              }
+            ],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.032",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "P36M",
+            "applicationFrequency": "P1Y",
+            "calculationFrequency": "P1D",
+            "tiers": [
+              {
+                "name": "Tier 1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "applicabilityConditions": []
+              }
+            ],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.043",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "P3M",
+            "applicationFrequency": "P3M",
+            "calculationFrequency": "P1D",
+            "tiers": [
+              {
+                "name": "Tier 1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "0.00",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "applicabilityConditions": []
+              }
+            ],
+            "applicationType": "MATURITY",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.043",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "P4M",
+            "applicationFrequency": "P4M",
+            "calculationFrequency": "P1D",
+            "tiers": [
+              {
+                "name": "Tier 1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "0.00",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "applicabilityConditions": []
+              }
+            ],
+            "applicationType": "MATURITY",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0355",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "P16M",
+            "applicationFrequency": "P1Y",
+            "calculationFrequency": "P1D",
+            "tiers": [
+              {
+                "name": "Tier 1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "applicabilityConditions": []
+              }
+            ],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0355",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "P17M",
+            "applicationFrequency": "P1Y",
+            "calculationFrequency": "P1D",
+            "tiers": [
+              {
+                "name": "Tier 1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "applicabilityConditions": []
+              }
+            ],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0355",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "P20M",
+            "applicationFrequency": "P1Y",
+            "calculationFrequency": "P1D",
+            "tiers": [
+              {
+                "name": "Tier 1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "applicabilityConditions": []
+              }
+            ],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0355",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "P22M",
+            "applicationFrequency": "P1Y",
+            "calculationFrequency": "P1D",
+            "tiers": [
+              {
+                "name": "Tier 1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "applicabilityConditions": []
+              }
+            ],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.032",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "P26M",
+            "applicationFrequency": "P1Y",
+            "calculationFrequency": "P1D",
+            "tiers": [
+              {
+                "name": "Tier 1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "applicabilityConditions": []
+              }
+            ],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.032",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "P29M",
+            "applicationFrequency": "P1Y",
+            "calculationFrequency": "P1D",
+            "tiers": [
+              {
+                "name": "Tier 1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "applicabilityConditions": []
+              }
+            ],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.054",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "P12M",
+            "applicationFrequency": "P1Y",
+            "calculationFrequency": "P1D",
+            "tiers": [
+              {
+                "name": "Tier 1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "0.00",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "applicabilityConditions": []
+              }
+            ],
+            "applicationType": "MATURITY",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.043",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "P5M",
+            "applicationFrequency": "P5M",
+            "calculationFrequency": "P1D",
+            "tiers": [
+              {
+                "name": "Tier 1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "0.00",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "applicabilityConditions": []
+              }
+            ],
+            "applicationType": "MATURITY",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.043",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "P8M",
+            "applicationFrequency": "P8M",
+            "calculationFrequency": "P1D",
+            "tiers": [
+              {
+                "name": "Tier 1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "0.00",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "applicabilityConditions": []
+              }
+            ],
+            "applicationType": "MATURITY",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0355",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "P23M",
+            "applicationFrequency": "P1Y",
+            "calculationFrequency": "P1D",
+            "tiers": [
+              {
+                "name": "Tier 1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "applicabilityConditions": []
+              }
+            ],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0355",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "P21M",
+            "applicationFrequency": "P1Y",
+            "calculationFrequency": "P1D",
+            "tiers": [
+              {
+                "name": "Tier 1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "applicabilityConditions": []
+              }
+            ],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0535",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "P9M",
+            "applicationFrequency": "P9M",
+            "calculationFrequency": "P1D",
+            "tiers": [
+              {
+                "name": "Tier 1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "0.00",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "applicabilityConditions": []
+              }
+            ],
+            "applicationType": "MATURITY",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.043",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "P10M",
+            "applicationFrequency": "P10M",
+            "calculationFrequency": "P1D",
+            "tiers": [
+              {
+                "name": "Tier 1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "0.00",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "applicabilityConditions": []
+              }
+            ],
+            "applicationType": "MATURITY",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.043",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "P11M",
+            "applicationFrequency": "P11M",
+            "calculationFrequency": "P1D",
+            "tiers": [
+              {
+                "name": "Tier 1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "0.00",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "applicabilityConditions": []
+              }
+            ],
+            "applicationType": "MATURITY",
+            "applicabilityConditions": []
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "OTHER",
+            "additionalInfo": "Exclusively for RSL Sub Branches and their members",
+            "additionalInfoUri": null,
+            "additionalValue": null
+          },
+          {
+            "eligibilityType": "MIN_AGE",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "18"
+          },
+          {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "Individuals must be citizens or permanent residents of Australia."
+          }
+        ],
+        "features": [
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Members can set up a variety of notifications in Internet Banking",
+            "additionalInfoUri": null,
+            "additionalValue": null
+          },
+          {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": null
+          }
+        ],
+        "fees": [
+          {
+            "feeType": "EVENT",
+            "name": "Early Withdrawal from Term Deposit",
+            "additionalInfo": "Early Withdrawal fee depends on portion of term remaining which determines interest rate reduction. Fee is based on balance and interest rate reduction is between 20% and 90%. Refer to Fees and Charges Schedule.",
+            "additionalInfoUri": null,
+            "additionalValue": null,
+            "currency": "AUD",
+            "discounts": [],
+            "feeMethodUType": "rateBased",
+            "fixedAmount": null,
+            "rateBased": {
+              "rateType": "BALANCE",
+              "rate": "0.90",
+              "accrualFrequency": null,
+              "amountRange": null
+            },
+            "variable": null,
+            "feeCap": null,
+            "feeCapPeriod": null
+          },
+          {
+            "feeType": "EVENT",
+            "name": "Paper statements printed at branch/posted",
+            "additionalInfo": "per page $2.50 if collected at branch or $5 if posted",
+            "additionalInfoUri": null,
+            "additionalValue": null,
+            "currency": "AUD",
+            "discounts": [],
+            "feeMethodUType": "variable",
+            "fixedAmount": null,
+            "rateBased": null,
+            "variable": {
+              "feeMinimum": "2.50",
+              "feeMaximum": "5.00"
+            },
+            "feeCap": null,
+            "feeCapPeriod": null
+          },
+          {
+            "feeType": "EVENT",
+            "name": "Audit Certificate Fee",
+            "additionalInfo": "Per audit certificate requested",
+            "additionalInfoUri": null,
+            "additionalValue": null,
+            "currency": "AUD",
+            "discounts": [],
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "50.00"
+            },
+            "rateBased": null,
+            "variable": null,
+            "feeCap": null,
+            "feeCapPeriod": null
+          },
+          {
+            "feeType": "EVENT",
+            "name": "Archive retrieval fee",
+            "additionalInfo": "Per hour fee applies plus any expenses incurred",
+            "additionalInfoUri": null,
+            "additionalValue": null,
+            "currency": "AUD",
+            "discounts": [],
+            "feeMethodUType": "variable",
+            "fixedAmount": null,
+            "rateBased": null,
+            "variable": {
+              "feeMinimum": "50.00",
+              "feeMaximum": null
+            },
+            "feeCap": null,
+            "feeCapPeriod": null
+          },
+          {
+            "feeType": "PERIODIC",
+            "name": "Paper statement fee (per statement)",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "P3M",
+            "currency": "AUD",
+            "discounts": [],
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "2.00"
+            },
+            "rateBased": null,
+            "variable": null,
+            "feeCap": null,
+            "feeCapPeriod": null
+          }
+        ],
+        "lendingRates": [],
+        "instalments": null
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "TRPMT",
+      "productCategory": "TERM_DEPOSITS",
+      "detail": {
+        "brand": "RSL",
+        "description": "As part of our ongoing commitment to the Returned & Services League of Australia, Australian Military Bank is proud to offer Sub Branch members and their spouses an exclusive offer on our Term Deposits. Receiving bonus interest on your investment, you can be sure that Australian Military Bank’s Term Deposits are reliable and secure. Make a regular income on your savings with interest paid monthly.​",
+        "isTailored": false,
+        "lastUpdated": "2026-10-20T13:00:00.503733Z",
+        "name": "RSL Member Income Plus",
+        "productCategory": "TERM_DEPOSITS",
+        "productId": "TRPMT",
+        "additionalInformation": {
+          "overviewUri": "https://www.rslmoney.com.au/products/rsl-term-deposit​",
+          "termsUri": "https://www.rslmoney.com.au/disclosuredocuments​",
+          "eligibilityUri": "https://www.rslmoney.com.au/disclosuredocuments​",
+          "feesAndPricingUri": "https://www.rslmoney.com.au/disclosuredocuments​",
+          "bundleUri": null,
+          "additionalOverviewUris": [],
+          "additionalTermsUris": [],
+          "additionalEligibilityUris": [],
+          "additionalFeesAndPricingUris": [],
+          "additionalBundleUris": []
+        },
+        "applicationUri": "https://www.rslmoney.com.au/disclosuredocuments​",
+        "brandName": "RSL Money Prod",
+        "brandGroup": null,
+        "cardArt": [],
+        "effectiveFrom": "2026-08-18T00:00:00Z",
+        "effectiveTo": null,
+        "bundles": [],
+        "constraints": [
+          {
+            "constraintType": "MIN_BALANCE",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "1000.00"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.043",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "P5M",
+            "applicationFrequency": "P5M",
+            "calculationFrequency": "P1D",
+            "tiers": [
+              {
+                "name": "Tier 1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "0.00",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "applicabilityConditions": []
+              }
+            ],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.043",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "P3M",
+            "applicationFrequency": "P1M",
+            "calculationFrequency": "P1D",
+            "tiers": [
+              {
+                "name": "Tier 1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "0.00",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "applicabilityConditions": []
+              }
+            ],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.043",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "P4M",
+            "applicationFrequency": "P4M",
+            "calculationFrequency": "P1D",
+            "tiers": [
+              {
+                "name": "Tier 1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "0.00",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "applicabilityConditions": []
+              }
+            ],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.043",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "P8M",
+            "applicationFrequency": "P8M",
+            "calculationFrequency": "P1D",
+            "tiers": [
+              {
+                "name": "Tier 1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "0.00",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "applicabilityConditions": []
+              }
+            ],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.054",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "P7M",
+            "applicationFrequency": "P7M",
+            "calculationFrequency": "P1D",
+            "tiers": [
+              {
+                "name": "Tier 1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "0.00",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "applicabilityConditions": []
+              }
+            ],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0535",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "P9M",
+            "applicationFrequency": "P9M",
+            "calculationFrequency": "P1D",
+            "tiers": [
+              {
+                "name": "Tier 1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "0.00",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "applicabilityConditions": []
+              }
+            ],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.054",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "P12M",
+            "applicationFrequency": "P1Y",
+            "calculationFrequency": "P1D",
+            "tiers": [
+              {
+                "name": "Tier 1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "0.00",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "applicabilityConditions": []
+              }
+            ],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0545",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "P6M",
+            "applicationFrequency": "P6M",
+            "calculationFrequency": "P1D",
+            "tiers": [
+              {
+                "name": "Tier 1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "0.00",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "applicabilityConditions": []
+              }
+            ],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.043",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "P10M",
+            "applicationFrequency": "P10M",
+            "calculationFrequency": "P1D",
+            "tiers": [
+              {
+                "name": "Tier 1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "0.00",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "applicabilityConditions": []
+              }
+            ],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.043",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "P11M",
+            "applicationFrequency": "P11M",
+            "calculationFrequency": "P1D",
+            "tiers": [
+              {
+                "name": "Tier 1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "0.00",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "applicabilityConditions": []
+              }
+            ],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": []
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "OTHER",
+            "additionalInfo": "Exclusively for RSL Sub Branches and their members",
+            "additionalInfoUri": null,
+            "additionalValue": null
+          },
+          {
+            "eligibilityType": "MIN_AGE",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "18"
+          },
+          {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "Individuals must be citizens or permanent residents of Australia."
+          }
+        ],
+        "features": [
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Members can set up a variety of notifications in Internet Banking",
+            "additionalInfoUri": null,
+            "additionalValue": null
+          },
+          {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": null
+          }
+        ],
+        "fees": [
+          {
+            "feeType": "EVENT",
+            "name": "Early Withdrawal from Term Deposit",
+            "additionalInfo": "Early Withdrawal fee depends on portion of term remaining which determines interest rate reduction. Fee is based on balance and interest rate reduction is between 20% and 90%. Refer to Fees and Charges Schedule.",
+            "additionalInfoUri": null,
+            "additionalValue": null,
+            "currency": "AUD",
+            "discounts": [],
+            "feeMethodUType": "rateBased",
+            "fixedAmount": null,
+            "rateBased": {
+              "rateType": "BALANCE",
+              "rate": "0.90",
+              "accrualFrequency": null,
+              "amountRange": null
+            },
+            "variable": null,
+            "feeCap": null,
+            "feeCapPeriod": null
+          },
+          {
+            "feeType": "EVENT",
+            "name": "Paper statements printed at branch/posted",
+            "additionalInfo": "per page $2.50 if collected at branch or $5 if posted",
+            "additionalInfoUri": null,
+            "additionalValue": null,
+            "currency": "AUD",
+            "discounts": [],
+            "feeMethodUType": "variable",
+            "fixedAmount": null,
+            "rateBased": null,
+            "variable": {
+              "feeMinimum": "2.50",
+              "feeMaximum": "5.00"
+            },
+            "feeCap": null,
+            "feeCapPeriod": null
+          },
+          {
+            "feeType": "EVENT",
+            "name": "Audit Certificate Fee",
+            "additionalInfo": "Per audit certificate requested",
+            "additionalInfoUri": null,
+            "additionalValue": null,
+            "currency": "AUD",
+            "discounts": [],
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "50.00"
+            },
+            "rateBased": null,
+            "variable": null,
+            "feeCap": null,
+            "feeCapPeriod": null
+          },
+          {
+            "feeType": "EVENT",
+            "name": "Archive retrieval fee",
+            "additionalInfo": "Per hour fee applies plus any expenses incurred",
+            "additionalInfoUri": null,
+            "additionalValue": null,
+            "currency": "AUD",
+            "discounts": [],
+            "feeMethodUType": "variable",
+            "fixedAmount": null,
+            "rateBased": null,
+            "variable": {
+              "feeMinimum": "50.00",
+              "feeMaximum": null
+            },
+            "feeCap": null,
+            "feeCapPeriod": null
+          },
+          {
+            "feeType": "PERIODIC",
+            "name": "Paper statement fee (per statement)",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "P3M",
+            "currency": "AUD",
+            "discounts": [],
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "2.00"
+            },
+            "rateBased": null,
+            "variable": null,
+            "feeCap": null,
+            "feeCapPeriod": null
+          }
+        ],
+        "lendingRates": [],
+        "instalments": null
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    }
+  ]
+}

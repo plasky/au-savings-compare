@@ -1,0 +1,1198 @@
+{
+  "endpoint": "https://api.cds.mebank.com.au/cds-au/v1/banking/products",
+  "slug": "me-bank-me-go-7fe1c0",
+  "brands": [
+    {
+      "dataHolderBrandId": "78883a14-67ae-ed11-a838-000d3a8830d6",
+      "brandName": "ME Bank - ME Go",
+      "brandGroup": null,
+      "abn": "32009656740",
+      "industries": [
+        "banking"
+      ]
+    }
+  ],
+  "list": {
+    "ok": true,
+    "status": 200,
+    "version": "5",
+    "totalPages": 1,
+    "pagesFetched": 1,
+    "productCount": 6,
+    "categoryCounts": {
+      "RESIDENTIAL_MORTGAGES": 2,
+      "TERM_DEPOSITS": 1,
+      "TRANS_AND_SAVINGS_ACCOUNTS": 3
+    }
+  },
+  "products": [
+    {
+      "productId": "0f039bda-f265-f011-bec3-002248106111",
+      "productCategory": "TERM_DEPOSITS",
+      "detail": {
+        "productId": "0f039bda-f265-f011-bec3-002248106111",
+        "lastUpdated": "2026-11-18T21:39:23Z",
+        "productCategory": "TERM_DEPOSITS",
+        "name": "ME Go Term Deposit",
+        "description": "Digital Term Deposit for ME Go",
+        "brand": "MEB",
+        "brandName": "ME Bank",
+        "applicationUri": "https://www.mebank.com.au/term-deposits/",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.mebank.com.au/term-deposits/",
+          "termsUri": "https://www.mebank.com.au/term-deposits/",
+          "eligibilityUri": "https://www.mebank.com.au/term-deposits/",
+          "feesAndPricingUri": "https://www.mebank.com.au/term-deposits/"
+        },
+        "features": [
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "A fixed interest rate for the term of the investment"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "31 days prior notice required if you want to access your funds prior to the  maturity date with an Early Withdrawal Interest Adjustment"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "A Term Deposit has to be linked to a internal nominated transaction or savings account.  New to Bank customers is a transaction account and Existing to Bank is a Savings or Transaction account"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "With no application or establishment fees and no account keeping fees, grow every cent you deposit."
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "MIN_BALANCE",
+            "additionalValue": "5000.0000000000",
+            "additionalInfo": "Minimum balance invested $5,000"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalValue": "Resident or Citizen",
+            "additionalInfo": "Be an Australian citizen or permanent resident or resident for tax purposes with an Australian residential address."
+          },
+          {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "14",
+            "additionalInfo": "At least 14 years old"
+          },
+          {
+            "eligibilityType": "OTHER",
+            "additionalInfo": "Personal use only"
+          }
+        ],
+        "depositRates": [
+          {
+            "rate": "0.0550000000000000",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "additionalValue": "P12M",
+            "additionalInfo": "Interest is calculated on the daily closing balance of your account and paid end of term.",
+            "depositRateType": "FIXED"
+          },
+          {
+            "rate": "0.0535000000000000",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "additionalValue": "P7M",
+            "additionalInfo": "Interest is calculated on the daily closing balance of your account and paid end of term.",
+            "depositRateType": "FIXED"
+          },
+          {
+            "rate": "0.0510000000000000",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "additionalValue": "P3M",
+            "additionalInfo": "Interest is calculated on the daily closing balance of your account and paid end of term.",
+            "depositRateType": "FIXED"
+          },
+          {
+            "rate": "0.0515000000000000",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "additionalValue": "P4M",
+            "additionalInfo": "Interest is calculated on the daily closing balance of your account and paid end of term.",
+            "depositRateType": "FIXED"
+          },
+          {
+            "rate": "0.0540000000000000",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "additionalValue": "P6M",
+            "additionalInfo": "Interest is calculated on the daily closing balance of your account and paid end of term.",
+            "depositRateType": "FIXED"
+          },
+          {
+            "rate": "0.0540000000000000",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "additionalValue": "P9M",
+            "additionalInfo": "Interest is calculated on the daily closing balance of your account and paid end of term.",
+            "depositRateType": "FIXED"
+          }
+        ]
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "77126e21-102c-ee11-9966-002248e1dc43",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "productId": "77126e21-102c-ee11-9966-002248e1dc43",
+        "lastUpdated": "2026-10-21T04:44:34Z",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "name": "SpendME",
+        "description": "The everyday account that does good, every day.",
+        "brand": "MEB",
+        "brandName": "ME Bank",
+        "applicationUri": "https://application.mebank.com.au/me-form/me-bank-and-save/me-apply-now/",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.mebank.com.au/banking/everyday-transaction-account/",
+          "termsUri": "https://www.mebank.com.au/me-app/in-app/terms-and-conditions/",
+          "eligibilityUri": "https://www.mebank.com.au/banking/everyday-transaction-account/",
+          "feesAndPricingUri": "https://www.mebank.com.au/getmedia/062a4f65-614d-4b58-a9ac-c39d776ebc67/deposit-account-rates-limits-fees-charges.pdf"
+        },
+        "cardArt": [
+          {
+            "title": "Pink",
+            "imageUri": "https://www.mebank.com.au/getmedia/8c366b43-7a33-40e5-9566-2072b7f82d86/pink_card",
+            "cardScheme": "VISA",
+            "cardType": "DEBIT"
+          },
+          {
+            "title": "Green",
+            "imageUri": "https://www.mebank.com.au/getmedia/ec89a846-ddb2-43d1-a870-3e90a1da7a66/avocado_green",
+            "cardScheme": "VISA",
+            "cardType": "DEBIT"
+          },
+          {
+            "title": "Blue",
+            "imageUri": "https://www.mebank.com.au/getmedia/47dc187c-fd76-46ab-b32d-1b075249a31c/shark_blue",
+            "cardScheme": "VISA",
+            "cardType": "DEBIT"
+          },
+          {
+            "title": "Rainbow",
+            "imageUri": "https://www.mebank.com.au/getmedia/0201079a-806b-4869-943a-340bae1f2c2d/Rainbow",
+            "cardScheme": "VISA",
+            "cardType": "DEBIT"
+          },
+          {
+            "title": "Orange",
+            "imageUri": "https://www.mebank.com.au/getmedia/dc00390a-f4c3-42d6-830a-82354d3d69f8/Orange",
+            "cardScheme": "VISA",
+            "cardType": "DEBIT"
+          }
+        ],
+        "features": [
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "No withdrawal fees at thousands of Australian ATMs."
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Make payments and transactions in real-time. Send and receive money in an instant with PayID enabled accounts."
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Charged when a balance enquiry is performed at an ATM outside of Australia. A fee may also be charged by the ATM owner which should be displayed on the screen before proceeding with the enquiry or associated withdrawal."
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "No overdrawn fees if you happen to overdraw your account."
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Make transactions all from the palm of your hand. Make your money mobile and pay on the go with Apple Pay, Samsung Pay or Google Pay."
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Manage your money easily. Set spending budgets on specific categories like groceries, bills and more. And get personalised insights and real-time alerts all in the palm of your hands with our handy banking app."
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Never miss a payment on your everyday bills or recurring transactions. We'll give you a heads up when your bills are due, so you can make sure you've got the funds available."
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "No transaction fees within Australia."
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Charged when a withdrawal is performed at an ATM outside of Australia. A fee may also be charged by the ATM owner and should be displayed on the screen before proceeding with the withdrawal."
+          },
+          {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": "Grow your savings whenever you spend. Round up debit card transactions to the nearest dollar and we'll put the extra change straight into one of your savings accounts."
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Fee charged by ME for any International Transaction which includes; any transaction made in a foreign currency; or when any transaction is processed outside of Australia (in Australian dollars or a foreign currency). It is calculated as a percentage of the Australian dollar equivalent."
+          },
+          {
+            "featureType": "NPP_ENABLED",
+            "additionalInfo": "We've made monthly account keeping fees on your SpendME Account a thing of the past."
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "14",
+            "additionalInfo": "Fourteen (14) years of age or over"
+          },
+          {
+            "eligibilityType": "OTHER",
+            "additionalInfo": "An Australian mobile number"
+          },
+          {
+            "eligibilityType": "OTHER",
+            "additionalInfo": "An Australian residential address"
+          },
+          {
+            "eligibilityType": "OTHER",
+            "additionalInfo": "A smartphone that supports iOS 12.0+ or Android 8.0+."
+          },
+          {
+            "eligibilityType": "NATURAL_PERSON",
+            "additionalInfo": "Applying for a personal account and not in the name of a business or trust. There should be no more than two account holders for this account"
+          },
+          {
+            "eligibilityType": "OTHER",
+            "additionalInfo": "An Australian drivers licence or Australian passport or Medicare card"
+          },
+          {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalValue": "Resident or Citizen",
+            "additionalInfo": "A citizen or permanent resident of Australia"
+          }
+        ],
+        "fees": [
+          {
+            "name": "Debit Interest Rate (applied to overdrawn Accounts)",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.0000"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Interest is charged on a daily basis on all debit balances and debited to the relevant Account monthly.",
+            "additionalInfoUri": "https://www.mebank.com.au/getmedia/062a4f65-614d-4b58-a9ac-c39d776ebc67/deposit-account-rates-limits-fees-charges.pdf?v=1783295594"
+          },
+          {
+            "name": "Paper Statement - International",
+            "feeType": "PERIODIC",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "5.0000"
+            },
+            "currency": "AUD",
+            "additionalValue": "P1M",
+            "additionalInfo": "Charged for each paper statement that is required to be posted to an International Address.",
+            "additionalInfoUri": "https://www.mebank.com.au/getmedia/062a4f65-614d-4b58-a9ac-c39d776ebc67/deposit-account-rates-limits-fees-charges.pdf?v=1783295594"
+          },
+          {
+            "name": "International ATM Withdrawal",
+            "feeType": "WITHDRAWAL",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.0000"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Charged when a withdrawal is performed at an ATM outside of Australia. A fee may also be charged by the ATM owner and should be displayed on the screen before proceeding with the withdrawal.",
+            "additionalInfoUri": "https://www.mebank.com.au/getmedia/062a4f65-614d-4b58-a9ac-c39d776ebc67/deposit-account-rates-limits-fees-charges.pdf?v=1783295594"
+          },
+          {
+            "name": "BPAY, Pay Someone, Card Transactions",
+            "feeType": "PAYMENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.0000"
+            },
+            "currency": "AUD",
+            "additionalInfo": "There is no fee charged by BOQ for performing a BPAY Payment, Pay Anyone or making a Card transaction. Merchants may charge fee in respect of card transactions which should be advised to you at the time of making the transaction.",
+            "additionalInfoUri": "https://www.mebank.com.au/getmedia/062a4f65-614d-4b58-a9ac-c39d776ebc67/deposit-account-rates-limits-fees-charges.pdf?v=1783295594"
+          },
+          {
+            "name": "Unclaimed Monies",
+            "feeType": "OTHER",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "30.0000"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Charged when the unclaimed monies process starts which is after 7 years of inactivity.",
+            "additionalInfoUri": "https://www.mebank.com.au/getmedia/062a4f65-614d-4b58-a9ac-c39d776ebc67/deposit-account-rates-limits-fees-charges.pdf?v=1783295594"
+          },
+          {
+            "name": "Direct Debit Dishonour",
+            "feeType": "DISHONOUR",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.0000"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Charged for each direct debit that is dishonoured on the same day that the dishonour takes place.",
+            "additionalInfoUri": "https://www.mebank.com.au/getmedia/062a4f65-614d-4b58-a9ac-c39d776ebc67/deposit-account-rates-limits-fees-charges.pdf?v=1783295594"
+          },
+          {
+            "name": "Electronic Transaction Error Correction Fee",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "30.0000"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Charged when the bank is requested by you or the recipient Financial Institution or Biller, to correct an error you have made with a BPAY payment, using the �Pay Someone� functionality, or NPP transaction.",
+            "additionalInfoUri": "https://www.mebank.com.au/getmedia/062a4f65-614d-4b58-a9ac-c39d776ebc67/deposit-account-rates-limits-fees-charges.pdf?v=1783295594"
+          },
+          {
+            "name": "Trace",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "20.0000"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Charged for each request to perform a trace on any transaction type.",
+            "additionalInfoUri": "https://www.mebank.com.au/getmedia/062a4f65-614d-4b58-a9ac-c39d776ebc67/deposit-account-rates-limits-fees-charges.pdf?v=1783295594"
+          },
+          {
+            "name": "Failed Transaction Dispute",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "15.0000"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Charged when a transaction dispute is unsuccessful.",
+            "additionalInfoUri": "https://www.mebank.com.au/getmedia/062a4f65-614d-4b58-a9ac-c39d776ebc67/deposit-account-rates-limits-fees-charges.pdf?v=1783295594"
+          },
+          {
+            "name": "Domestic ATM Withdrawal/ Balance Enquiry Fee",
+            "feeType": "WITHDRAWAL",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.0000"
+            },
+            "currency": "AUD",
+            "additionalInfo": "We don't charge a fee to withdraw cash or check your account balance, however the ATM owner may charge a fee which should be displayed on the screen before proceeding with the withdrawal.",
+            "additionalInfoUri": "https://www.mebank.com.au/getmedia/062a4f65-614d-4b58-a9ac-c39d776ebc67/deposit-account-rates-limits-fees-charges.pdf?v=1783295594"
+          },
+          {
+            "name": "International Balance Enquiry",
+            "feeType": "ENQUIRY",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.0000"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Charged when a balance enquiry is performed at an ATM outside of Australia. A fee may also be charged by the ATM owner which should be displayed on the screen before proceeding with the enquiry or associated withdrawal.",
+            "additionalInfoUri": "https://www.mebank.com.au/getmedia/062a4f65-614d-4b58-a9ac-c39d776ebc67/deposit-account-rates-limits-fees-charges.pdf?v=1783295594"
+          },
+          {
+            "name": "Monthly Account Keeping",
+            "feeType": "PERIODIC",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.0000"
+            },
+            "currency": "AUD",
+            "additionalValue": "P1M",
+            "additionalInfo": "There are no monthly account keeping fees with myBOQ Accounts.",
+            "additionalInfoUri": "https://www.mebank.com.au/getmedia/062a4f65-614d-4b58-a9ac-c39d776ebc67/deposit-account-rates-limits-fees-charges.pdf?v=1783295594"
+          },
+          {
+            "name": "International Emergency Card Replacement",
+            "feeType": "REPLACEMENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "75.0000"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Charged when we courier a card to you internationally.",
+            "additionalInfoUri": "https://www.mebank.com.au/getmedia/062a4f65-614d-4b58-a9ac-c39d776ebc67/deposit-account-rates-limits-fees-charges.pdf?v=1783295594"
+          },
+          {
+            "name": "Bank Cheque",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "10.0000"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Charged for each bank cheque that is produced and posted to an Australian address.",
+            "additionalInfoUri": "https://www.mebank.com.au/getmedia/062a4f65-614d-4b58-a9ac-c39d776ebc67/deposit-account-rates-limits-fees-charges.pdf?v=1783295594"
+          },
+          {
+            "name": "Currency Conversion",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "rateBased",
+            "rateBased": {
+              "rateType": "BALANCE",
+              "rate": "0.0000000000000000"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Fee charged for any International Transaction which includes: • any transaction made in a foreign currency; or • when any transaction is processed outside of Australia (in Australian dollars or a foreign currency). It is calculated as a percentage of the Australian dollar equivalent.",
+            "additionalInfoUri": "https://www.mebank.com.au/getmedia/062a4f65-614d-4b58-a9ac-c39d776ebc67/deposit-account-rates-limits-fees-charges.pdf?v=1783295594"
+          },
+          {
+            "name": "Overdrawn Account",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.0000"
+            },
+            "currency": "AUD",
+            "additionalInfo": "There is no overdrawn fee, however a debit interest rate is applied as set out below.",
+            "additionalInfoUri": "https://www.mebank.com.au/getmedia/062a4f65-614d-4b58-a9ac-c39d776ebc67/deposit-account-rates-limits-fees-charges.pdf?v=1783295594"
+          },
+          {
+            "name": "Cheque Dishonour",
+            "feeType": "DISHONOUR",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.0000"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Charged for each Cheque deposit that is dishonoured on the same day that the dishonour takes place.",
+            "additionalInfoUri": "https://www.mebank.com.au/getmedia/062a4f65-614d-4b58-a9ac-c39d776ebc67/deposit-account-rates-limits-fees-charges.pdf?v=1783295594"
+          },
+          {
+            "name": "Domestic Emergency Card Replacement",
+            "feeType": "REPLACEMENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "15.0000"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Charged when we courier a card to you within Australia.",
+            "additionalInfoUri": "https://www.mebank.com.au/getmedia/062a4f65-614d-4b58-a9ac-c39d776ebc67/deposit-account-rates-limits-fees-charges.pdf?v=1783295594"
+          },
+          {
+            "name": "Manual Statement",
+            "feeType": "ENQUIRY",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "10.0000"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Charged when you request a manual statement to be generated and emailed to you. Statements are available on the myBOQ App and can be accessed for closed Accounts at no cost.Statements for periods prior to migration of an Account to the myBOQ app will not be available from the myBOQ app, but can be requested from BOQ.",
+            "additionalInfoUri": "https://www.mebank.com.au/getmedia/062a4f65-614d-4b58-a9ac-c39d776ebc67/deposit-account-rates-limits-fees-charges.pdf?v=1783295594"
+          }
+        ]
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "98f3781e-102c-ee11-9966-002248e1d7d5",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "productId": "98f3781e-102c-ee11-9966-002248e1d7d5",
+        "lastUpdated": "2026-11-16T00:14:35Z",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "name": "HomeME",
+        "description": "Whether you're saving for your first home, forever home or a home for someone else, ME's HomeME account has the features to help you get home.",
+        "brand": "MEB",
+        "brandName": "ME Bank",
+        "applicationUri": "https://application.mebank.com.au/me-form/me-bank-and-save/me-apply-now/",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.mebank.com.au/banking/homeme",
+          "eligibilityUri": "https://www.mebank.com.au/banking/home-deposit-savings-account/",
+          "feesAndPricingUri": "https://www.mebank.com.au/getmedia/062a4f65-614d-4b58-a9ac-c39d776ebc67/deposit-account-rates-limits-fees-charges.pdf"
+        },
+        "features": [
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Your account automatically comes with a SpendME transaction account. It's the perfect match to help you manage your money.",
+            "additionalInfoUri": "https://www.mebank.com.au/banking/homeme"
+          },
+          {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": "A HomeME savings account with ME comes with the ME Go app - the banking app designed to make your everyday banking easier.",
+            "additionalInfoUri": "https://www.mebank.com.au/banking/homeme"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "All deposits up to $250,000 are protected by the Federal Government's deposit guarantee, so your savings are secure with us.",
+            "additionalInfoUri": "https://www.mebank.com.au/banking/homeme"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "We've made monthly account keeping fees a thing of the past. We want your savings to grow.",
+            "additionalInfoUri": "https://www.mebank.com.au/banking/homeme"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Enjoy bonus interest each month when you meet the criteria. Simply deposit a minimum of $2,000 into your linked SpendME Account from an external bank account (cash and cheques excluded).",
+            "additionalInfoUri": "https://www.mebank.com.au/banking/homeme"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "OTHER",
+            "additionalInfo": "An Australian mobile number.",
+            "additionalInfoUri": "https://www.mebank.com.au/banking/homeme"
+          },
+          {
+            "eligibilityType": "OTHER",
+            "additionalInfo": "A smartphone that supports iOS 12.0+ or Android 8.0+.",
+            "additionalInfoUri": "https://www.mebank.com.au/banking/homeme"
+          },
+          {
+            "eligibilityType": "OTHER",
+            "additionalInfo": "An Australian residential address",
+            "additionalInfoUri": "https://www.mebank.com.au/banking/homeme"
+          },
+          {
+            "eligibilityType": "OTHER",
+            "additionalInfo": "An Australian drivers licence or Australian passport or Medicare card",
+            "additionalInfoUri": "https://www.mebank.com.au/banking/homeme"
+          },
+          {
+            "eligibilityType": "NATURAL_PERSON",
+            "additionalInfo": "Applying for a personal account and not in the name of a business or trust. There should be no more than two account holders for this account",
+            "additionalInfoUri": "https://www.mebank.com.au/banking/homeme"
+          },
+          {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalValue": "Resident or Citizen",
+            "additionalInfo": "A citizen or permanent resident of Australia",
+            "additionalInfoUri": "https://www.mebank.com.au/banking/homeme"
+          }
+        ],
+        "fees": [
+          {
+            "name": "International Emergency Card Replacement",
+            "feeType": "REPLACEMENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "75.0000"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Charged when we courier a card to you internationally.",
+            "additionalInfoUri": "https://www.mebank.com.au/getmedia/062a4f65-614d-4b58-a9ac-c39d776ebc67/deposit-account-rates-limits-fees-charges.pdf?v=1783295594"
+          },
+          {
+            "name": "Failed Transaction Dispute",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "15.0000"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Charged when a transaction dispute is unsuccessful.",
+            "additionalInfoUri": "https://www.mebank.com.au/getmedia/062a4f65-614d-4b58-a9ac-c39d776ebc67/deposit-account-rates-limits-fees-charges.pdf?v=1783295594"
+          },
+          {
+            "name": "Cheque Dishonour",
+            "feeType": "DISHONOUR",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.0000"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Charged for each Cheque deposit that is dishonoured on the same day that the dishonour takes place.",
+            "additionalInfoUri": "https://www.mebank.com.au/getmedia/062a4f65-614d-4b58-a9ac-c39d776ebc67/deposit-account-rates-limits-fees-charges.pdf?v=1783295594"
+          },
+          {
+            "name": "Trace",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "20.0000"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Charged for each request to perform a trace on any transaction type.",
+            "additionalInfoUri": "https://www.mebank.com.au/getmedia/062a4f65-614d-4b58-a9ac-c39d776ebc67/deposit-account-rates-limits-fees-charges.pdf?v=1783295594"
+          },
+          {
+            "name": "BPAY, Pay Someone, Card Transactions",
+            "feeType": "PAYMENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.0000"
+            },
+            "currency": "AUD",
+            "additionalInfo": "There is no fee charged by BOQ for performing a BPAY Payment, Pay Anyone or making a Card transaction. Merchants may charge fee in respect of card transactions which should be advised to you at the time of making the transaction.",
+            "additionalInfoUri": "https://www.mebank.com.au/getmedia/062a4f65-614d-4b58-a9ac-c39d776ebc67/deposit-account-rates-limits-fees-charges.pdf?v=1783295594"
+          },
+          {
+            "name": "Manual Statement",
+            "feeType": "ENQUIRY",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "10.0000"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Charged when you request a manual statement to be generated and emailed to you. Statements are available on the myBOQ App and can be accessed for closed Accounts at no cost.Statements for periods prior to migration of an Account to the myBOQ app will not be available from the myBOQ app, but can be requested from BOQ.",
+            "additionalInfoUri": "https://www.mebank.com.au/getmedia/062a4f65-614d-4b58-a9ac-c39d776ebc67/deposit-account-rates-limits-fees-charges.pdf?v=1783295594"
+          },
+          {
+            "name": "Overdrawn Account",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.0000"
+            },
+            "currency": "AUD",
+            "additionalInfo": "There is no overdrawn fee, however a debit interest rate is applied as set out below.",
+            "additionalInfoUri": "https://www.mebank.com.au/getmedia/062a4f65-614d-4b58-a9ac-c39d776ebc67/deposit-account-rates-limits-fees-charges.pdf?v=1783295594"
+          },
+          {
+            "name": "Domestic Emergency Card Replacement",
+            "feeType": "REPLACEMENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "15.0000"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Charged when we courier a card to you within Australia.",
+            "additionalInfoUri": "https://www.mebank.com.au/getmedia/062a4f65-614d-4b58-a9ac-c39d776ebc67/deposit-account-rates-limits-fees-charges.pdf?v=1783295594"
+          },
+          {
+            "name": "International Balance Enquiry",
+            "feeType": "ENQUIRY",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.0000"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Charged when a balance enquiry is performed at an ATM outside of Australia. A fee may also be charged by the ATM owner which should be displayed on the screen before proceeding with the enquiry or associated withdrawal.",
+            "additionalInfoUri": "https://www.mebank.com.au/getmedia/062a4f65-614d-4b58-a9ac-c39d776ebc67/deposit-account-rates-limits-fees-charges.pdf?v=1783295594"
+          },
+          {
+            "name": "Bank Cheque",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "10.0000"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Charged for each bank cheque that is produced and posted to an Australian address.",
+            "additionalInfoUri": "https://www.mebank.com.au/getmedia/062a4f65-614d-4b58-a9ac-c39d776ebc67/deposit-account-rates-limits-fees-charges.pdf?v=1783295594"
+          },
+          {
+            "name": "Monthly Account Keeping",
+            "feeType": "PERIODIC",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.0000"
+            },
+            "currency": "AUD",
+            "additionalValue": "P1M",
+            "additionalInfo": "There are no monthly account keeping fees with myBOQ Accounts.",
+            "additionalInfoUri": "https://www.mebank.com.au/getmedia/062a4f65-614d-4b58-a9ac-c39d776ebc67/deposit-account-rates-limits-fees-charges.pdf?v=1783295594"
+          },
+          {
+            "name": "Domestic ATM Withdrawal/ Balance Enquiry Fee",
+            "feeType": "WITHDRAWAL",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.0000"
+            },
+            "currency": "AUD",
+            "additionalInfo": "We don't charge a fee to withdraw cash or check your account balance, however the ATM owner may charge a fee which should be displayed on the screen before proceeding with the withdrawal.",
+            "additionalInfoUri": "https://www.mebank.com.au/getmedia/062a4f65-614d-4b58-a9ac-c39d776ebc67/deposit-account-rates-limits-fees-charges.pdf?v=1783295594"
+          },
+          {
+            "name": "Paper Statement - International",
+            "feeType": "PERIODIC",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "5.0000"
+            },
+            "currency": "AUD",
+            "additionalValue": "P1M",
+            "additionalInfo": "Charged for each paper statement that is required to be posted to an International Address.",
+            "additionalInfoUri": "https://www.mebank.com.au/getmedia/062a4f65-614d-4b58-a9ac-c39d776ebc67/deposit-account-rates-limits-fees-charges.pdf?v=1783295594"
+          },
+          {
+            "name": "International ATM Withdrawal",
+            "feeType": "WITHDRAWAL",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.0000"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Charged when a withdrawal is performed at an ATM outside of Australia. A fee may also be charged by the ATM owner and should be displayed on the screen before proceeding with the withdrawal.",
+            "additionalInfoUri": "https://www.mebank.com.au/getmedia/062a4f65-614d-4b58-a9ac-c39d776ebc67/deposit-account-rates-limits-fees-charges.pdf?v=1783295594"
+          },
+          {
+            "name": "Direct Debit Dishonour",
+            "feeType": "DISHONOUR",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.0000"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Charged for each direct debit that is dishonoured on the same day that the dishonour takes place.",
+            "additionalInfoUri": "https://www.mebank.com.au/getmedia/062a4f65-614d-4b58-a9ac-c39d776ebc67/deposit-account-rates-limits-fees-charges.pdf?v=1783295594"
+          },
+          {
+            "name": "Currency Conversion",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "rateBased",
+            "rateBased": {
+              "rateType": "BALANCE",
+              "rate": "0.0000000000000000"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Fee charged for any International Transaction which includes: • any transaction made in a foreign currency; or • when any transaction is processed outside of Australia (in Australian dollars or a foreign currency). It is calculated as a percentage of the Australian dollar equivalent.",
+            "additionalInfoUri": "https://www.mebank.com.au/getmedia/062a4f65-614d-4b58-a9ac-c39d776ebc67/deposit-account-rates-limits-fees-charges.pdf?v=1783295594"
+          },
+          {
+            "name": "Unclaimed Monies",
+            "feeType": "OTHER",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "30.0000"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Charged when the unclaimed monies process starts which is after 7 years of inactivity.",
+            "additionalInfoUri": "https://www.mebank.com.au/getmedia/062a4f65-614d-4b58-a9ac-c39d776ebc67/deposit-account-rates-limits-fees-charges.pdf?v=1783295594"
+          },
+          {
+            "name": "Electronic Transaction Error Correction Fee",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "30.0000"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Charged when the bank is requested by you or the recipient Financial Institution or Biller, to correct an error you have made with a BPAY payment, using the �Pay Someone� functionality, or NPP transaction.",
+            "additionalInfoUri": "https://www.mebank.com.au/getmedia/062a4f65-614d-4b58-a9ac-c39d776ebc67/deposit-account-rates-limits-fees-charges.pdf?v=1783295594"
+          },
+          {
+            "name": "Debit Interest Rate (applied to overdrawn Accounts)",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.0000"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Interest is charged on a daily basis on all debit balances and debited to the relevant Account monthly.",
+            "additionalInfoUri": "https://www.mebank.com.au/getmedia/062a4f65-614d-4b58-a9ac-c39d776ebc67/deposit-account-rates-limits-fees-charges.pdf?v=1783295594"
+          }
+        ],
+        "depositRates": [
+          {
+            "rate": "0.0005000000000000",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "additionalInfo": "Base variable rate",
+            "additionalInfoUri": "https://www.mebank.com.au/banking/homeme",
+            "depositRateType": "VARIABLE"
+          },
+          {
+            "rate": "0.0580000000000000",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "additionalValue": "$2,000 from an external account to your linked SpendME transaction account",
+            "additionalInfo": "Bonus interest applies if Bonus Criteria is met. Otherwise only base rate (0.05%) will apply",
+            "additionalInfoUri": "https://www.mebank.com.au/banking/homeme",
+            "tiers": [
+              {
+                "additionalInfoUri": "https://www.mebank.com.au/banking/home-deposit-savings-account/",
+                "name": "$100000 to $1000000",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "100000.01",
+                "maximumValue": "1000000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "applicabilityConditions": [
+                  {
+                    "rateApplicabilityType": "MIN_DEPOSIT_AMOUNT",
+                    "additionalValue": "2000.00"
+                  }
+                ]
+              }
+            ],
+            "depositRateType": "BONUS"
+          },
+          {
+            "rate": "0.0580000000000000",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "additionalValue": "$2,000 from an external account to your linked SpendME transaction account",
+            "additionalInfo": "Bonus interest applies if Bonus Criteria is met. Otherwise only base rate (0.05%) will apply",
+            "additionalInfoUri": "https://www.mebank.com.au/banking/homeme",
+            "tiers": [
+              {
+                "additionalInfoUri": "https://www.mebank.com.au/banking/home-deposit-savings-account/",
+                "name": "$0 to $100000",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "0.00",
+                "maximumValue": "100000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "applicabilityConditions": [
+                  {
+                    "rateApplicabilityType": "MIN_DEPOSIT_AMOUNT",
+                    "additionalValue": "2000.00"
+                  }
+                ]
+              }
+            ],
+            "depositRateType": "BONUS"
+          }
+        ]
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "99f3781e-102c-ee11-9966-002248e1d7d5",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "productId": "99f3781e-102c-ee11-9966-002248e1d7d5",
+        "lastUpdated": "2026-11-11T22:10:09Z",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "name": "SaveME",
+        "description": "ME's goal-oriented Savings Account packed with smart and supportive features.",
+        "brand": "MEB",
+        "brandName": "ME Bank",
+        "applicationUri": "https://application.mebank.com.au/me-form/me-bank-and-save/me-apply-now/",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.mebank.com.au/banking/saveme",
+          "termsUri": "https://www.mebank.com.au/me-app/in-app/terms-and-conditions/",
+          "eligibilityUri": "https://www.mebank.com.au/banking/online-savings-account/",
+          "feesAndPricingUri": "https://www.mebank.com.au/getmedia/062a4f65-614d-4b58-a9ac-c39d776ebc67/deposit-account-rates-limits-fees-charges.pdf"
+        },
+        "features": [
+          {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": "A SaveME savings account with ME comes with the ME Go app - the banking app designed to make your everyday banking easier.",
+            "additionalInfoUri": "https://www.mebank.com.au/banking/saveme"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "We've made monthly account keeping fees a thing of the past. We want your savings to grow.",
+            "additionalInfoUri": "https://www.mebank.com.au/banking/saveme"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Make every cent count. Open multiple SaveME accounts to manage your savings across multiple goals.",
+            "additionalInfoUri": "https://www.mebank.com.au/banking/saveme"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Enjoy bonus interest each month when you meet the criteria. Simply make 4 eligible card purchases to save faster!",
+            "additionalInfoUri": "https://www.mebank.com.au/banking/saveme"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "All deposits up to $250,000 are protected by the Federal Government's deposit guarantee, so your savings are secure with us.",
+            "additionalInfoUri": "https://www.mebank.com.au/banking/saveme"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Your account automatically comes with a SpendME transaction account. It's the perfect match to help you manage your money.",
+            "additionalInfoUri": "https://www.mebank.com.au/banking/saveme"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "OTHER",
+            "additionalInfo": "A smartphone that supports iOS 12.0+ or Android 8.0+.",
+            "additionalInfoUri": "https://www.mebank.com.au/banking/saveme"
+          },
+          {
+            "eligibilityType": "OTHER",
+            "additionalInfo": "An Australian mobile number",
+            "additionalInfoUri": "https://www.mebank.com.au/banking/saveme"
+          },
+          {
+            "eligibilityType": "OTHER",
+            "additionalInfo": "An Australian residential address",
+            "additionalInfoUri": "https://www.mebank.com.au/banking/saveme"
+          },
+          {
+            "eligibilityType": "NATURAL_PERSON",
+            "additionalInfo": "Applying for a personal account and not in the name of a business or trust. There should be no more than two account holders for this account",
+            "additionalInfoUri": "https://www.mebank.com.au/banking/saveme"
+          },
+          {
+            "eligibilityType": "OTHER",
+            "additionalInfo": "An Australian drivers licence or Australian passport or Medicare card",
+            "additionalInfoUri": "https://www.mebank.com.au/banking/saveme"
+          },
+          {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalValue": "Resident or Citizen",
+            "additionalInfo": "A citizen or permanent resident of Australia",
+            "additionalInfoUri": "https://www.mebank.com.au/banking/saveme"
+          },
+          {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "14",
+            "additionalInfo": "Be aged 14 years or older",
+            "additionalInfoUri": "https://www.mebank.com.au/banking/online-savings-account/"
+          }
+        ],
+        "fees": [
+          {
+            "name": "Cheque Dishonour",
+            "feeType": "DISHONOUR",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.0000"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Charged for each Cheque deposit that is dishonoured on the same day that the dishonour takes place.",
+            "additionalInfoUri": "https://www.mebank.com.au/getmedia/062a4f65-614d-4b58-a9ac-c39d776ebc67/deposit-account-rates-limits-fees-charges.pdf?v=1783295594"
+          },
+          {
+            "name": "Direct Debit Dishonour",
+            "feeType": "DISHONOUR",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.0000"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Charged for each direct debit that is dishonoured on the same day that the dishonour takes place.",
+            "additionalInfoUri": "https://www.mebank.com.au/getmedia/062a4f65-614d-4b58-a9ac-c39d776ebc67/deposit-account-rates-limits-fees-charges.pdf?v=1783295594"
+          },
+          {
+            "name": "International Balance Enquiry",
+            "feeType": "ENQUIRY",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.0000"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Charged when a balance enquiry is performed at an ATM outside of Australia. A fee may also be charged by the ATM owner which should be displayed on the screen before proceeding with the enquiry or associated withdrawal.",
+            "additionalInfoUri": "https://www.mebank.com.au/getmedia/062a4f65-614d-4b58-a9ac-c39d776ebc67/deposit-account-rates-limits-fees-charges.pdf?v=1783295594"
+          },
+          {
+            "name": "Unclaimed Monies",
+            "feeType": "OTHER",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "30.0000"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Charged when the unclaimed monies process starts which is after 7 years of inactivity.",
+            "additionalInfoUri": "https://www.mebank.com.au/getmedia/062a4f65-614d-4b58-a9ac-c39d776ebc67/deposit-account-rates-limits-fees-charges.pdf?v=1783295594"
+          },
+          {
+            "name": "Manual Statement",
+            "feeType": "ENQUIRY",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "10.0000"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Charged when you request a manual statement to be generated and emailed to you. Statements are available on the myBOQ App and can be accessed for closed Accounts at no cost.Statements for periods prior to migration of an Account to the myBOQ app will not be available from the myBOQ app, but can be requested from BOQ.",
+            "additionalInfoUri": "https://www.mebank.com.au/getmedia/062a4f65-614d-4b58-a9ac-c39d776ebc67/deposit-account-rates-limits-fees-charges.pdf?v=1783295594"
+          },
+          {
+            "name": "Currency Conversion",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "rateBased",
+            "rateBased": {
+              "rateType": "BALANCE",
+              "rate": "0.0000000000000000"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Fee charged for any International Transaction which includes: • any transaction made in a foreign currency; or • when any transaction is processed outside of Australia (in Australian dollars or a foreign currency). It is calculated as a percentage of the Australian dollar equivalent.",
+            "additionalInfoUri": "https://www.mebank.com.au/getmedia/062a4f65-614d-4b58-a9ac-c39d776ebc67/deposit-account-rates-limits-fees-charges.pdf?v=1783295594"
+          },
+          {
+            "name": "International ATM Withdrawal",
+            "feeType": "WITHDRAWAL",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.0000"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Charged when a withdrawal is performed at an ATM outside of Australia. A fee may also be charged by the ATM owner and should be displayed on the screen before proceeding with the withdrawal.",
+            "additionalInfoUri": "https://www.mebank.com.au/getmedia/062a4f65-614d-4b58-a9ac-c39d776ebc67/deposit-account-rates-limits-fees-charges.pdf?v=1783295594"
+          },
+          {
+            "name": "Domestic ATM Withdrawal/ Balance Enquiry Fee",
+            "feeType": "WITHDRAWAL",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.0000"
+            },
+            "currency": "AUD",
+            "additionalInfo": "We don't charge a fee to withdraw cash or check your account balance, however the ATM owner may charge a fee which should be displayed on the screen before proceeding with the withdrawal.",
+            "additionalInfoUri": "https://www.mebank.com.au/getmedia/062a4f65-614d-4b58-a9ac-c39d776ebc67/deposit-account-rates-limits-fees-charges.pdf?v=1783295594"
+          },
+          {
+            "name": "Electronic Transaction Error Correction Fee",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "30.0000"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Charged when the bank is requested by you or the recipient Financial Institution or Biller, to correct an error you have made with a BPAY payment, using the �Pay Someone� functionality, or NPP transaction.",
+            "additionalInfoUri": "https://www.mebank.com.au/getmedia/062a4f65-614d-4b58-a9ac-c39d776ebc67/deposit-account-rates-limits-fees-charges.pdf?v=1783295594"
+          },
+          {
+            "name": "Trace",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "20.0000"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Charged for each request to perform a trace on any transaction type.",
+            "additionalInfoUri": "https://www.mebank.com.au/getmedia/062a4f65-614d-4b58-a9ac-c39d776ebc67/deposit-account-rates-limits-fees-charges.pdf?v=1783295594"
+          },
+          {
+            "name": "Debit Interest Rate (applied to overdrawn Accounts)",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.0000"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Interest is charged on a daily basis on all debit balances and debited to the relevant Account monthly.",
+            "additionalInfoUri": "https://www.mebank.com.au/getmedia/062a4f65-614d-4b58-a9ac-c39d776ebc67/deposit-account-rates-limits-fees-charges.pdf?v=1783295594"
+          },
+          {
+            "name": "Overdrawn Account",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.0000"
+            },
+            "currency": "AUD",
+            "additionalInfo": "There is no overdrawn fee, however a debit interest rate is applied as set out below.",
+            "additionalInfoUri": "https://www.mebank.com.au/getmedia/062a4f65-614d-4b58-a9ac-c39d776ebc67/deposit-account-rates-limits-fees-charges.pdf?v=1783295594"
+          },
+          {
+            "name": "Domestic Emergency Card Replacement",
+            "feeType": "REPLACEMENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "15.0000"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Charged when we courier a card to you within Australia.",
+            "additionalInfoUri": "https://www.mebank.com.au/getmedia/062a4f65-614d-4b58-a9ac-c39d776ebc67/deposit-account-rates-limits-fees-charges.pdf?v=1783295594"
+          },
+          {
+            "name": "Failed Transaction Dispute",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "15.0000"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Charged when a transaction dispute is unsuccessful.",
+            "additionalInfoUri": "https://www.mebank.com.au/getmedia/062a4f65-614d-4b58-a9ac-c39d776ebc67/deposit-account-rates-limits-fees-charges.pdf?v=1783295594"
+          },
+          {
+            "name": "BPAY, Pay Someone, Card Transactions",
+            "feeType": "PAYMENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.0000"
+            },
+            "currency": "AUD",
+            "additionalInfo": "There is no fee charged by BOQ for performing a BPAY Payment, Pay Anyone or making a Card transaction. Merchants may charge fee in respect of card transactions which should be advised to you at the time of making the transaction.",
+            "additionalInfoUri": "https://www.mebank.com.au/getmedia/062a4f65-614d-4b58-a9ac-c39d776ebc67/deposit-account-rates-limits-fees-charges.pdf?v=1783295594"
+          },
+          {
+            "name": "Bank Cheque",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "10.0000"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Charged for each bank cheque that is produced and posted to an Australian address.",
+            "additionalInfoUri": "https://www.mebank.com.au/getmedia/062a4f65-614d-4b58-a9ac-c39d776ebc67/deposit-account-rates-limits-fees-charges.pdf?v=1783295594"
+          },
+          {
+            "name": "Paper Statement - International",
+            "feeType": "PERIODIC",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "5.0000"
+            },
+            "currency": "AUD",
+            "additionalValue": "P1M",
+            "additionalInfo": "Charged for each paper statement that is required to be posted to an International Address.",
+            "additionalInfoUri": "https://www.mebank.com.au/getmedia/062a4f65-614d-4b58-a9ac-c39d776ebc67/deposit-account-rates-limits-fees-charges.pdf?v=1783295594"
+          },
+          {
+            "name": "International Emergency Card Replacement",
+            "feeType": "REPLACEMENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "75.0000"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Charged when we courier a card to you internationally.",
+            "additionalInfoUri": "https://www.mebank.com.au/getmedia/062a4f65-614d-4b58-a9ac-c39d776ebc67/deposit-account-rates-limits-fees-charges.pdf?v=1783295594"
+          },
+          {
+            "name": "Monthly Account Keeping",
+            "feeType": "PERIODIC",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.0000"
+            },
+            "currency": "AUD",
+            "additionalValue": "P1M",
+            "additionalInfo": "There are no monthly account keeping fees with myBOQ Accounts.",
+            "additionalInfoUri": "https://www.mebank.com.au/getmedia/062a4f65-614d-4b58-a9ac-c39d776ebc67/deposit-account-rates-limits-fees-charges.pdf?v=1783295594"
+          }
+        ],
+        "depositRates": [
+          {
+            "rate": "0.0005000000000000",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "additionalInfoUri": "https://www.mebank.com.au/banking/saveme",
+            "depositRateType": "VARIABLE"
+          },
+          {
+            "rate": "0.0480000000000000",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "additionalValue": "4 or more Visa Debit card purchases per month – which must be settled, not pending – using your linked SpendME account.",
+            "additionalInfo": "Bonus rate applies if Bonus Criteria is met. Otherwise only base rate will apply",
+            "additionalInfoUri": "https://www.mebank.com.au/banking/saveme",
+            "tiers": [
+              {
+                "additionalInfoUri": "https://www.mebank.com.au/banking/saveme",
+                "name": "$1 to $500000",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1.00",
+                "maximumValue": "500000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "applicabilityConditions": [
+                  {
+                    "rateApplicabilityType": "MIN_PURCHASES",
+                    "additionalValue": "4"
+                  }
+                ]
+              }
+            ],
+            "depositRateType": "BONUS"
+          }
+        ]
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    }
+  ]
+}

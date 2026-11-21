@@ -1,0 +1,27 @@
+{
+  "endpoint": "https://public.aaafincorp.cdr.colcap.com.au/cds-au/v1/banking/products",
+  "slug": "aaa-financial-corporation-85bee2",
+  "brands": [
+    {
+      "dataHolderBrandId": "96d4fce9-d2ba-f111-81be-000d3a799057",
+      "brandName": "AAA FINANCIAL CORPORATION",
+      "brandGroup": null,
+      "abn": "51119531252",
+      "industries": [
+        "non-bank-lending"
+      ]
+    }
+  ],
+  "list": {
+    "ok": true,
+    "status": 200,
+    "version": "5",
+    "totalPages": 1,
+    "pagesFetched": 1,
+    "productCount": 15,
+    "categoryCounts": {
+      "RESIDENTIAL_MORTGAGES": 15
+    }
+  },
+  "products": []
+}

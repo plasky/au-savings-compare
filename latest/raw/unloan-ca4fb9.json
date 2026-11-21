@@ -1,0 +1,27 @@
+{
+  "endpoint": "https://public.api.cdr.unloan.com.au/cds-au/v1/banking/products",
+  "slug": "unloan-ca4fb9",
+  "brands": [
+    {
+      "dataHolderBrandId": "fcfec791-391b-ec11-a827-000d3a884a20",
+      "brandName": "Unloan",
+      "brandGroup": null,
+      "abn": "48123123124",
+      "industries": [
+        "banking"
+      ]
+    }
+  ],
+  "list": {
+    "ok": true,
+    "status": 200,
+    "version": "5",
+    "totalPages": 1,
+    "pagesFetched": 1,
+    "productCount": 1,
+    "categoryCounts": {
+      "RESIDENTIAL_MORTGAGES": 1
+    }
+  },
+  "products": []
+}

@@ -1,0 +1,5285 @@
+{
+  "endpoint": "https://ob.tmbl.com.au/unibank/cds-au/v1/banking/products",
+  "slug": "unibank-cc3047",
+  "brands": [
+    {
+      "dataHolderBrandId": "8ac1db25-30b1-eb11-a822-000d3a884a20",
+      "brandName": "UniBank",
+      "brandGroup": null,
+      "abn": "30087650459",
+      "industries": [
+        "banking"
+      ]
+    }
+  ],
+  "list": {
+    "ok": true,
+    "status": 200,
+    "version": "5",
+    "totalPages": 1,
+    "pagesFetched": 1,
+    "productCount": 30,
+    "categoryCounts": {
+      "PERS_LOANS": 4,
+      "RESIDENTIAL_MORTGAGES": 16,
+      "TRANS_AND_SAVINGS_ACCOUNTS": 6,
+      "TERM_DEPOSITS": 3,
+      "CRED_AND_CHRG_CARDS": 1
+    }
+  },
+  "products": [
+    {
+      "productId": "2c8c3aec-68ea-4210-90b4-8a8f1797252e",
+      "productCategory": "TERM_DEPOSITS",
+      "detail": {
+        "productId": "2c8c3aec-68ea-4210-90b4-8a8f1797252e",
+        "lastUpdated": "2026-11-11T23:59:28.000+11:00",
+        "productCategory": "TERM_DEPOSITS",
+        "name": "Term Deposit",
+        "description": "Take advantage of great returns on our term deposits.",
+        "brand": "UB",
+        "brandName": "UniBank",
+        "applicationUri": "https://www.unibank.com.au/banking/term-deposit",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.unibank.com.au/banking/term-deposit",
+          "termsUri": "https://www.unibank.com.au/content/dam/documents/collateral/conditions-of-use.pdf",
+          "eligibilityUri": "https://www.unibank.com.au/banking/term-deposit",
+          "feesAndPricingUri": "https://www.unibank.com.au/content/dam/documents/collateral/fees-and-charges.pdf"
+        },
+        "features": [
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "No account keeping fee"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "A guaranteed rate for terms from 3 to 36 months"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Earn a competitive interest rate on your investment with a minimum opening balance of $1,000 can get you started."
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Interest can be paid monthly, 12 monthly or at maturity."
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "For deposits of $500,000 and over, rates are by negotiation and subject to acceptance."
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "We'll send you a written renewal notice before your deposit matures."
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "If you want to withdraw your Term Deposit before it matures you'll need to give us 31 days' notice. A reduced rate of interest will apply in these circumstances. For full details refer to our Conditions of Use.",
+            "additionalInfoUri": "https://www.unibank.com.au/content/dam/documents/collateral/conditions-of-use.pdf"
+          },
+          {
+            "featureType": "DIGITAL_BANKING"
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "OPENING_BALANCE",
+            "additionalValue": "1000.00"
+          },
+          {
+            "constraintType": "MIN_BALANCE",
+            "additionalValue": "1000.00"
+          },
+          {
+            "constraintType": "MAX_BALANCE",
+            "additionalValue": "499999.99",
+            "additionalInfo": "For deposits of $500,000 and over, rates are by negotiation and subject to acceptance."
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "OTHER",
+            "additionalInfo": "You must be a member. Membership is open to current or retired employees, graduates and post-graduates and current students of an Australian university or family members of members (i.e. shareholders) of the Bank.",
+            "additionalInfoUri": "https://www.unibank.com.au/banking/term-deposit"
+          },
+          {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalValue": "Individuals must be citizens or permanent residents of Australia."
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0505",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P119D",
+            "tiers": [
+              {
+                "name": "Term Deposit_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "4999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit_Tier_1",
+                "unitOfMeasure": "DAY",
+                "minimumValue": "90",
+                "maximumValue": "119",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P119D"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0505",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P119D",
+            "tiers": [
+              {
+                "name": "Term Deposit_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "9999999.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit_Tier_2",
+                "unitOfMeasure": "DAY",
+                "minimumValue": "90",
+                "maximumValue": "119",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P119D"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.045",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P149D",
+            "tiers": [
+              {
+                "name": "Term Deposit_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "4999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit_Tier_1",
+                "unitOfMeasure": "DAY",
+                "minimumValue": "120",
+                "maximumValue": "149",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P149D"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.045",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P149D",
+            "tiers": [
+              {
+                "name": "Term Deposit_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "9999999.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit_Tier_2",
+                "unitOfMeasure": "DAY",
+                "minimumValue": "120",
+                "maximumValue": "149",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P149D"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.045",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P179D",
+            "tiers": [
+              {
+                "name": "Term Deposit_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "4999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit_Tier_1",
+                "unitOfMeasure": "DAY",
+                "minimumValue": "150",
+                "maximumValue": "179",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P179D"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.045",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P179D",
+            "tiers": [
+              {
+                "name": "Term Deposit_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "9999999.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit_Tier_2",
+                "unitOfMeasure": "DAY",
+                "minimumValue": "150",
+                "maximumValue": "179",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P179D"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0545",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P209D",
+            "tiers": [
+              {
+                "name": "Term Deposit_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "4999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit_Tier_1",
+                "unitOfMeasure": "DAY",
+                "minimumValue": "180",
+                "maximumValue": "209",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P209D"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0545",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P209D",
+            "tiers": [
+              {
+                "name": "Term Deposit_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "9999999.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit_Tier_2",
+                "unitOfMeasure": "DAY",
+                "minimumValue": "180",
+                "maximumValue": "209",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P209D"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.051",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P239D",
+            "tiers": [
+              {
+                "name": "Term Deposit_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "4999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit_Tier_1",
+                "unitOfMeasure": "DAY",
+                "minimumValue": "210",
+                "maximumValue": "239",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P239D"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.051",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P239D",
+            "tiers": [
+              {
+                "name": "Term Deposit_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "9999999.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit_Tier_2",
+                "unitOfMeasure": "DAY",
+                "minimumValue": "210",
+                "maximumValue": "239",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P239D"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.045",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P269D",
+            "tiers": [
+              {
+                "name": "Term Deposit_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "4999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit_Tier_1",
+                "unitOfMeasure": "DAY",
+                "minimumValue": "240",
+                "maximumValue": "269",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P269D"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.045",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P269D",
+            "tiers": [
+              {
+                "name": "Term Deposit_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "9999999.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit_Tier_2",
+                "unitOfMeasure": "DAY",
+                "minimumValue": "240",
+                "maximumValue": "269",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P269D"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.05",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P299D",
+            "tiers": [
+              {
+                "name": "Term Deposit_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "4999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit_Tier_1",
+                "unitOfMeasure": "DAY",
+                "minimumValue": "270",
+                "maximumValue": "299",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P299D"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.05",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P299D",
+            "tiers": [
+              {
+                "name": "Term Deposit_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "9999999.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit_Tier_2",
+                "unitOfMeasure": "DAY",
+                "minimumValue": "270",
+                "maximumValue": "299",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P299D"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.045",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P329D",
+            "tiers": [
+              {
+                "name": "Term Deposit_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "4999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit_Tier_1",
+                "unitOfMeasure": "DAY",
+                "minimumValue": "300",
+                "maximumValue": "329",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P329D"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.045",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P329D",
+            "tiers": [
+              {
+                "name": "Term Deposit_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "9999999.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit_Tier_2",
+                "unitOfMeasure": "DAY",
+                "minimumValue": "300",
+                "maximumValue": "329",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P329D"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.045",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P364D",
+            "tiers": [
+              {
+                "name": "Term Deposit_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "4999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit_Tier_1",
+                "unitOfMeasure": "DAY",
+                "minimumValue": "330",
+                "maximumValue": "364",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P364D"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.045",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P364D",
+            "tiers": [
+              {
+                "name": "Term Deposit_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "9999999.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit_Tier_2",
+                "unitOfMeasure": "DAY",
+                "minimumValue": "330",
+                "maximumValue": "364",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P364D"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0545",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P394D",
+            "tiers": [
+              {
+                "name": "Term Deposit_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "4999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit_Tier_1",
+                "unitOfMeasure": "DAY",
+                "minimumValue": "365",
+                "maximumValue": "394",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P394D"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0545",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P394D",
+            "tiers": [
+              {
+                "name": "Term Deposit_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "9999999.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit_Tier_2",
+                "unitOfMeasure": "DAY",
+                "minimumValue": "365",
+                "maximumValue": "394",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P394D"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.045",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P544D",
+            "tiers": [
+              {
+                "name": "Term Deposit_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "4999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit_Tier_1",
+                "unitOfMeasure": "DAY",
+                "minimumValue": "395",
+                "maximumValue": "544",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P544D"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.045",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P544D",
+            "tiers": [
+              {
+                "name": "Term Deposit_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "9999999.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit_Tier_2",
+                "unitOfMeasure": "DAY",
+                "minimumValue": "395",
+                "maximumValue": "544",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P544D"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.045",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P729D",
+            "tiers": [
+              {
+                "name": "Term Deposit_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "4999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit_Tier_1",
+                "unitOfMeasure": "DAY",
+                "minimumValue": "545",
+                "maximumValue": "729",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P729D"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.045",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P729D",
+            "tiers": [
+              {
+                "name": "Term Deposit_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "9999999.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit_Tier_2",
+                "unitOfMeasure": "DAY",
+                "minimumValue": "545",
+                "maximumValue": "729",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P729D"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.045",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1094D",
+            "tiers": [
+              {
+                "name": "Term Deposit_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "4999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit_Tier_1",
+                "unitOfMeasure": "DAY",
+                "minimumValue": "730",
+                "maximumValue": "1094",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P1094D"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.045",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1094D",
+            "tiers": [
+              {
+                "name": "Term Deposit_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "9999999.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit_Tier_2",
+                "unitOfMeasure": "DAY",
+                "minimumValue": "730",
+                "maximumValue": "1094",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P1094D"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0505",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P3M",
+            "tiers": [
+              {
+                "name": "Term Deposit_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "4999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit_Tier_1",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "3",
+                "maximumValue": "3",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P3M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0505",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P3M",
+            "tiers": [
+              {
+                "name": "Term Deposit_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "9999999.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit_Tier_2",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "3",
+                "maximumValue": "3",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P3M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.045",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P4M",
+            "tiers": [
+              {
+                "name": "Term Deposit_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "4999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit_Tier_1",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "4",
+                "maximumValue": "4",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P4M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.045",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P4M",
+            "tiers": [
+              {
+                "name": "Term Deposit_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "9999999.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit_Tier_2",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "4",
+                "maximumValue": "4",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P4M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.045",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P5M",
+            "tiers": [
+              {
+                "name": "Term Deposit_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "4999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit_Tier_1",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "5",
+                "maximumValue": "5",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P5M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.045",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P5M",
+            "tiers": [
+              {
+                "name": "Term Deposit_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "9999999.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit_Tier_2",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "5",
+                "maximumValue": "5",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P5M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0545",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P6M",
+            "tiers": [
+              {
+                "name": "Term Deposit_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "4999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit_Tier_1",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "6",
+                "maximumValue": "6",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P6M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0545",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P6M",
+            "tiers": [
+              {
+                "name": "Term Deposit_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "9999999.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit_Tier_2",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "6",
+                "maximumValue": "6",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P6M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.051",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P7M",
+            "tiers": [
+              {
+                "name": "Term Deposit_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "4999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit_Tier_1",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "7",
+                "maximumValue": "7",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P7M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.051",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P7M",
+            "tiers": [
+              {
+                "name": "Term Deposit_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "9999999.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit_Tier_2",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "7",
+                "maximumValue": "7",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P7M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.045",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P8M",
+            "tiers": [
+              {
+                "name": "Term Deposit_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "4999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit_Tier_1",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "8",
+                "maximumValue": "8",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P8M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.045",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P8M",
+            "tiers": [
+              {
+                "name": "Term Deposit_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "9999999.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit_Tier_2",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "8",
+                "maximumValue": "8",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P8M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.05",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P9M",
+            "tiers": [
+              {
+                "name": "Term Deposit_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "4999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit_Tier_1",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "9",
+                "maximumValue": "9",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P9M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.05",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P9M",
+            "tiers": [
+              {
+                "name": "Term Deposit_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "9999999.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit_Tier_2",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "9",
+                "maximumValue": "9",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P9M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.045",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P10M",
+            "tiers": [
+              {
+                "name": "Term Deposit_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "4999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit_Tier_1",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "10",
+                "maximumValue": "10",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P10M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.045",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P10M",
+            "tiers": [
+              {
+                "name": "Term Deposit_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "9999999.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit_Tier_2",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "10",
+                "maximumValue": "10",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P10M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.045",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P11M",
+            "tiers": [
+              {
+                "name": "Term Deposit_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "4999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit_Tier_1",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "11",
+                "maximumValue": "11",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P11M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.045",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P11M",
+            "tiers": [
+              {
+                "name": "Term Deposit_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "9999999.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit_Tier_2",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "11",
+                "maximumValue": "11",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P11M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0545",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P12M",
+            "tiers": [
+              {
+                "name": "Term Deposit_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "4999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit_Tier_1",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "12",
+                "maximumValue": "12",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P12M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0545",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P12M",
+            "tiers": [
+              {
+                "name": "Term Deposit_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "9999999.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit_Tier_2",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "12",
+                "maximumValue": "12",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P12M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.045",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P17M",
+            "tiers": [
+              {
+                "name": "Term Deposit_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "4999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit_Tier_1",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "13",
+                "maximumValue": "17",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P17M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.045",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P17M",
+            "tiers": [
+              {
+                "name": "Term Deposit_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "9999999.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit_Tier_2",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "13",
+                "maximumValue": "17",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P17M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.045",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P23M",
+            "tiers": [
+              {
+                "name": "Term Deposit_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "4999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit_Tier_1",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "18",
+                "maximumValue": "23",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P23M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.045",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P23M",
+            "tiers": [
+              {
+                "name": "Term Deposit_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "9999999.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit_Tier_2",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "18",
+                "maximumValue": "23",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P23M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.045",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P35M",
+            "tiers": [
+              {
+                "name": "Term Deposit_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "4999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit_Tier_1",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "24",
+                "maximumValue": "35",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P35M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.045",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P35M",
+            "tiers": [
+              {
+                "name": "Term Deposit_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "9999999.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit_Tier_2",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "24",
+                "maximumValue": "35",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P35M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.045",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P36M",
+            "tiers": [
+              {
+                "name": "Term Deposit_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "4999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit_Tier_1",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "36",
+                "maximumValue": "36",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P36M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.045",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P36M",
+            "tiers": [
+              {
+                "name": "Term Deposit_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "9999999.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit_Tier_2",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "36",
+                "maximumValue": "36",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P36M"
+          }
+        ]
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "4380bf0d-5531-4497-b1ea-3e5344c6a3f5",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "productId": "4380bf0d-5531-4497-b1ea-3e5344c6a3f5",
+        "lastUpdated": "2026-11-12T07:45:12.000+11:00",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "name": "Pension Advantage account",
+        "description": "An account for members receiving a pension or allowance from Centrelink or Veteran Affairs.",
+        "brand": "UB",
+        "brandName": "UniBank",
+        "applicationUri": "https://www.unibank.com.au/banking/pension-advantage",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.unibank.com.au/banking/pension-advantage",
+          "termsUri": "https://www.unibank.com.au/content/dam/documents/collateral/conditions-of-use.pdf",
+          "eligibilityUri": "https://www.unibank.com.au/banking/pension-advantage",
+          "feesAndPricingUri": "https://www.unibank.com.au/content/dam/documents/collateral/fees-and-charges.pdf"
+        },
+        "cardArt": [
+          {
+            "cardScheme": "VISA",
+            "cardType": "DEBIT",
+            "title": "Visa Debit",
+            "imageUri": "https://www.unibank.com.au/content/dam/channels/websites/common-assets/open-banking/feature-mobile-wallet-ub.png"
+          }
+        ],
+        "features": [
+          {
+            "featureType": "DIGITAL_BANKING"
+          },
+          {
+            "featureType": "NPP_PAYID"
+          },
+          {
+            "featureType": "NPP_ENABLED"
+          },
+          {
+            "featureType": "NOTIFICATIONS",
+            "additionalValue": "Track payments with SMS and email alerts."
+          },
+          {
+            "featureType": "ADDITIONAL_CARDS"
+          },
+          {
+            "featureType": "BILL_PAYMENT",
+            "additionalValue": "BPAY"
+          },
+          {
+            "featureType": "CARD_ACCESS",
+            "additionalValue": "Visa Debit with payWave"
+          },
+          {
+            "featureType": "UNLIMITED_TXNS"
+          },
+          {
+            "featureType": "DIGITAL_WALLET",
+            "additionalValue": "Apple Pay",
+            "additionalInfoUri": "https://www.unibank.com.au/ways-to-bank/mobile-wallet"
+          },
+          {
+            "featureType": "DIGITAL_WALLET",
+            "additionalValue": "Google Pay",
+            "additionalInfoUri": "https://www.unibank.com.au/ways-to-bank/mobile-wallet"
+          },
+          {
+            "featureType": "DIGITAL_WALLET",
+            "additionalValue": "Samsung Pay",
+            "additionalInfoUri": "https://www.unibank.com.au/ways-to-bank/mobile-wallet"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Our sweep service automatically transfers funds from certain savings accounts to cover most transactions which would otherwise exceed your transaction account's available balance."
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Make deposits and withdrawals through a Bank@Post facility at Australia Post outlets. For full details refer to our Conditions of Use. Fees and charges apply.",
+            "additionalInfoUri": "https://www.unibank.com.au/content/dam/documents/collateral/conditions-of-use.pdf"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "NATURAL_PERSON",
+            "additionalInfo": "You must be a member. Membership is open to current or retired employees, graduates and post-graduates and current students of an Australian university or family members of members (i.e. shareholders) of the Bank.",
+            "additionalInfoUri": "https://www.unibank.com.au/banking/pension-advantage"
+          },
+          {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalValue": "Individuals must be citizens or permanent residents of Australia."
+          },
+          {
+            "eligibilityType": "PENSION_RECIPIENT",
+            "additionalValue": "An account for members receiving a pension or allowance from Centrelink or Veteran Affairs.",
+            "additionalInfo": "You must be receiving a pension or allowance from Centrelink or Veteran Affairs and the pension or allowance must be paid directly into the account."
+          }
+        ],
+        "fees": [
+          {
+            "name": "CASH_ADVANCES_FEE",
+            "feeType": "CASH_ADVANCE",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "4.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Visa Debit and Visa Credit card cash advances at other financial institutions in Australia and overseas. Individual bank branches may not offer this service and may charge additional fees (at cost)."
+          },
+          {
+            "name": "ATM_WITHDRAWALS_OVERSEAS",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "4.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "INTERNATIONAL_CONVERSION_FEE",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "rateBased",
+            "rateBased": {
+              "rateType": "TRANSACTION",
+              "rate": "0.029"
+            },
+            "currency": "AUD",
+            "additionalInfo": "2.90% of transaction value in $AUD collected by Cuscal Limited - 0.90% paid to Us; 1.00% retained by Cuscal; 1.00% paid to Visa International. Payable when you transact in a foreign currency using your Visa card either online or at a merchant point of sale (irrespective of where the transaction occurs; performed not in Australian Dollar; or overseas merchants transact in a foreign currency.)"
+          },
+          {
+            "name": "TELE_TRANSFER",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "13.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Tele transfer within Australia to an account at another financial institution."
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.035",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "Pension Advantage account_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "0.00",
+                "maximumValue": "50000.00",
+                "rateApplicationMethod": "PER_TIER"
+              }
+            ]
+          },
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.035",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "Pension Advantage account_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "50000.01",
+                "rateApplicationMethod": "PER_TIER"
+              }
+            ]
+          }
+        ]
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "46b5f76d-1279-4427-adb5-5dfc1ab12285",
+      "productCategory": "TERM_DEPOSITS",
+      "detail": {
+        "productId": "46b5f76d-1279-4427-adb5-5dfc1ab12285",
+        "lastUpdated": "2026-11-11T00:41:54.000+11:00",
+        "productCategory": "TERM_DEPOSITS",
+        "name": "Term Deposit for Customers",
+        "description": "Take advantage of great returns on our term deposits.",
+        "brand": "UB",
+        "brandName": "UniBank",
+        "applicationUri": "https://www.unibank.com.au/banking/term-deposit",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.unibank.com.au/banking/term-deposit",
+          "termsUri": "https://www.unibank.com.au/content/dam/documents/collateral/conditions-of-use.pdf",
+          "eligibilityUri": "https://www.unibank.com.au/banking/term-deposit",
+          "feesAndPricingUri": "https://www.unibank.com.au/content/dam/documents/collateral/fees-and-charges.pdf"
+        },
+        "features": [
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "No account keeping fee"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "A guaranteed rate for terms from 3 to 36 months"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Earn a competitive interest rate on your investment with a minimum opening balance of $1,000 can get you started."
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Interest can be paid monthly, 12 monthly or at maturity."
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "For deposits of $500,000 and over, rates are by negotiation and subject to acceptance."
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "We'll send you a written renewal notice before your deposit matures."
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "If you want to withdraw your Term Deposit before it matures you'll need to give us 31 days' notice. A reduced rate of interest will apply in these circumstances. For full details refer to our Conditions of Use.",
+            "additionalInfoUri": "https://www.unibank.com.au/content/dam/documents/collateral/conditions-of-use.pdf"
+          },
+          {
+            "featureType": "DIGITAL_BANKING"
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "OPENING_BALANCE",
+            "additionalValue": "1000.00"
+          },
+          {
+            "constraintType": "MIN_BALANCE",
+            "additionalValue": "1000.00"
+          },
+          {
+            "constraintType": "MAX_BALANCE",
+            "additionalValue": "499999.99",
+            "additionalInfo": "For deposits of $500,000 and over, rates are by negotiation and subject to acceptance."
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalValue": "Individuals must be citizens or permanent residents of Australia.",
+            "additionalInfoUri": "https://www.unibank.com.au/banking/term-deposit"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0505",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P119D",
+            "tiers": [
+              {
+                "name": "Term Deposit for Customers_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "4999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit for Customers_Tier_1",
+                "unitOfMeasure": "DAY",
+                "minimumValue": "90",
+                "maximumValue": "119",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P119D"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0505",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P119D",
+            "tiers": [
+              {
+                "name": "Term Deposit for Customers_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "9999999.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit for Customers_Tier_2",
+                "unitOfMeasure": "DAY",
+                "minimumValue": "90",
+                "maximumValue": "119",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P119D"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.045",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P149D",
+            "tiers": [
+              {
+                "name": "Term Deposit for Customers_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "4999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit for Customers_Tier_1",
+                "unitOfMeasure": "DAY",
+                "minimumValue": "120",
+                "maximumValue": "149",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P149D"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.045",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P149D",
+            "tiers": [
+              {
+                "name": "Term Deposit for Customers_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "9999999.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit for Customers_Tier_2",
+                "unitOfMeasure": "DAY",
+                "minimumValue": "120",
+                "maximumValue": "149",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P149D"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.045",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P179D",
+            "tiers": [
+              {
+                "name": "Term Deposit for Customers_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "4999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit for Customers_Tier_1",
+                "unitOfMeasure": "DAY",
+                "minimumValue": "150",
+                "maximumValue": "179",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P179D"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.045",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P179D",
+            "tiers": [
+              {
+                "name": "Term Deposit for Customers_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "9999999.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit for Customers_Tier_2",
+                "unitOfMeasure": "DAY",
+                "minimumValue": "150",
+                "maximumValue": "179",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P179D"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0545",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P209D",
+            "tiers": [
+              {
+                "name": "Term Deposit for Customers_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "4999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit for Customers_Tier_1",
+                "unitOfMeasure": "DAY",
+                "minimumValue": "180",
+                "maximumValue": "209",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P209D"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0545",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P209D",
+            "tiers": [
+              {
+                "name": "Term Deposit for Customers_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "9999999.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit for Customers_Tier_2",
+                "unitOfMeasure": "DAY",
+                "minimumValue": "180",
+                "maximumValue": "209",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P209D"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.051",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P239D",
+            "tiers": [
+              {
+                "name": "Term Deposit for Customers_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "4999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit for Customers_Tier_1",
+                "unitOfMeasure": "DAY",
+                "minimumValue": "210",
+                "maximumValue": "239",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P239D"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.051",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P239D",
+            "tiers": [
+              {
+                "name": "Term Deposit for Customers_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "9999999.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit for Customers_Tier_2",
+                "unitOfMeasure": "DAY",
+                "minimumValue": "210",
+                "maximumValue": "239",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P239D"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.045",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P269D",
+            "tiers": [
+              {
+                "name": "Term Deposit for Customers_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "4999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit for Customers_Tier_1",
+                "unitOfMeasure": "DAY",
+                "minimumValue": "240",
+                "maximumValue": "269",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P269D"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.045",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P269D",
+            "tiers": [
+              {
+                "name": "Term Deposit for Customers_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "9999999.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit for Customers_Tier_2",
+                "unitOfMeasure": "DAY",
+                "minimumValue": "240",
+                "maximumValue": "269",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P269D"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.05",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P299D",
+            "tiers": [
+              {
+                "name": "Term Deposit for Customers_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "4999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit for Customers_Tier_1",
+                "unitOfMeasure": "DAY",
+                "minimumValue": "270",
+                "maximumValue": "299",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P299D"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.05",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P299D",
+            "tiers": [
+              {
+                "name": "Term Deposit for Customers_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "9999999.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit for Customers_Tier_2",
+                "unitOfMeasure": "DAY",
+                "minimumValue": "270",
+                "maximumValue": "299",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P299D"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.045",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P329D",
+            "tiers": [
+              {
+                "name": "Term Deposit for Customers_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "4999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit for Customers_Tier_1",
+                "unitOfMeasure": "DAY",
+                "minimumValue": "300",
+                "maximumValue": "329",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P329D"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.045",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P329D",
+            "tiers": [
+              {
+                "name": "Term Deposit for Customers_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "9999999.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit for Customers_Tier_2",
+                "unitOfMeasure": "DAY",
+                "minimumValue": "300",
+                "maximumValue": "329",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P329D"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.045",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P364D",
+            "tiers": [
+              {
+                "name": "Term Deposit for Customers_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "4999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit for Customers_Tier_1",
+                "unitOfMeasure": "DAY",
+                "minimumValue": "330",
+                "maximumValue": "364",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P364D"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.045",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P364D",
+            "tiers": [
+              {
+                "name": "Term Deposit for Customers_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "9999999.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit for Customers_Tier_2",
+                "unitOfMeasure": "DAY",
+                "minimumValue": "330",
+                "maximumValue": "364",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P364D"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0545",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P394D",
+            "tiers": [
+              {
+                "name": "Term Deposit for Customers_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "4999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit for Customers_Tier_1",
+                "unitOfMeasure": "DAY",
+                "minimumValue": "365",
+                "maximumValue": "394",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P394D"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0545",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P394D",
+            "tiers": [
+              {
+                "name": "Term Deposit for Customers_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "9999999.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit for Customers_Tier_2",
+                "unitOfMeasure": "DAY",
+                "minimumValue": "365",
+                "maximumValue": "394",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P394D"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.045",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P544D",
+            "tiers": [
+              {
+                "name": "Term Deposit for Customers_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "4999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit for Customers_Tier_1",
+                "unitOfMeasure": "DAY",
+                "minimumValue": "395",
+                "maximumValue": "544",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P544D"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.045",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P544D",
+            "tiers": [
+              {
+                "name": "Term Deposit for Customers_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "9999999.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit for Customers_Tier_2",
+                "unitOfMeasure": "DAY",
+                "minimumValue": "395",
+                "maximumValue": "544",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P544D"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.045",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P729D",
+            "tiers": [
+              {
+                "name": "Term Deposit for Customers_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "4999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit for Customers_Tier_1",
+                "unitOfMeasure": "DAY",
+                "minimumValue": "545",
+                "maximumValue": "729",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P729D"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.045",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P729D",
+            "tiers": [
+              {
+                "name": "Term Deposit for Customers_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "9999999.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit for Customers_Tier_2",
+                "unitOfMeasure": "DAY",
+                "minimumValue": "545",
+                "maximumValue": "729",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P729D"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.045",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1094D",
+            "tiers": [
+              {
+                "name": "Term Deposit for Customers_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "4999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit for Customers_Tier_1",
+                "unitOfMeasure": "DAY",
+                "minimumValue": "730",
+                "maximumValue": "1094",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P1094D"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.045",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1094D",
+            "tiers": [
+              {
+                "name": "Term Deposit for Customers_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "9999999.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit for Customers_Tier_2",
+                "unitOfMeasure": "DAY",
+                "minimumValue": "730",
+                "maximumValue": "1094",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P1094D"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0505",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P3M",
+            "tiers": [
+              {
+                "name": "Term Deposit for Customers_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "4999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit for Customers_Tier_1",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "3",
+                "maximumValue": "3",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P3M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0505",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P3M",
+            "tiers": [
+              {
+                "name": "Term Deposit for Customers_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "9999999.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit for Customers_Tier_2",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "3",
+                "maximumValue": "3",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P3M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.045",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P4M",
+            "tiers": [
+              {
+                "name": "Term Deposit for Customers_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "4999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit for Customers_Tier_1",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "4",
+                "maximumValue": "4",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P4M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.045",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P4M",
+            "tiers": [
+              {
+                "name": "Term Deposit for Customers_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "9999999.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit for Customers_Tier_2",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "4",
+                "maximumValue": "4",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P4M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.045",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P5M",
+            "tiers": [
+              {
+                "name": "Term Deposit for Customers_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "4999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit for Customers_Tier_1",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "5",
+                "maximumValue": "5",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P5M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.045",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P5M",
+            "tiers": [
+              {
+                "name": "Term Deposit for Customers_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "9999999.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit for Customers_Tier_2",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "5",
+                "maximumValue": "5",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P5M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0545",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P6M",
+            "tiers": [
+              {
+                "name": "Term Deposit for Customers_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "4999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit for Customers_Tier_1",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "6",
+                "maximumValue": "6",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P6M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0545",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P6M",
+            "tiers": [
+              {
+                "name": "Term Deposit for Customers_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "9999999.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit for Customers_Tier_2",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "6",
+                "maximumValue": "6",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P6M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.051",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P7M",
+            "tiers": [
+              {
+                "name": "Term Deposit for Customers_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "4999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit for Customers_Tier_1",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "7",
+                "maximumValue": "7",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P7M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.051",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P7M",
+            "tiers": [
+              {
+                "name": "Term Deposit for Customers_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "9999999.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit for Customers_Tier_2",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "7",
+                "maximumValue": "7",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P7M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.045",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P8M",
+            "tiers": [
+              {
+                "name": "Term Deposit for Customers_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "4999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit for Customers_Tier_1",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "8",
+                "maximumValue": "8",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P8M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.045",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P8M",
+            "tiers": [
+              {
+                "name": "Term Deposit for Customers_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "9999999.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit for Customers_Tier_2",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "8",
+                "maximumValue": "8",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P8M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.05",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P9M",
+            "tiers": [
+              {
+                "name": "Term Deposit for Customers_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "4999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit for Customers_Tier_1",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "9",
+                "maximumValue": "9",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P9M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.05",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P9M",
+            "tiers": [
+              {
+                "name": "Term Deposit for Customers_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "9999999.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit for Customers_Tier_2",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "9",
+                "maximumValue": "9",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P9M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.045",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P10M",
+            "tiers": [
+              {
+                "name": "Term Deposit for Customers_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "4999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit for Customers_Tier_1",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "10",
+                "maximumValue": "10",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P10M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.045",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P10M",
+            "tiers": [
+              {
+                "name": "Term Deposit for Customers_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "9999999.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit for Customers_Tier_2",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "10",
+                "maximumValue": "10",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P10M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.045",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P11M",
+            "tiers": [
+              {
+                "name": "Term Deposit for Customers_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "4999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit for Customers_Tier_1",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "11",
+                "maximumValue": "11",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P11M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.045",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P11M",
+            "tiers": [
+              {
+                "name": "Term Deposit for Customers_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "9999999.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit for Customers_Tier_2",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "11",
+                "maximumValue": "11",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P11M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0545",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P12M",
+            "tiers": [
+              {
+                "name": "Term Deposit for Customers_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "4999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit for Customers_Tier_1",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "12",
+                "maximumValue": "12",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P12M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0545",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P12M",
+            "tiers": [
+              {
+                "name": "Term Deposit for Customers_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "9999999.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit for Customers_Tier_2",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "12",
+                "maximumValue": "12",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P12M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.045",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P17M",
+            "tiers": [
+              {
+                "name": "Term Deposit for Customers_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "4999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit for Customers_Tier_1",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "13",
+                "maximumValue": "17",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P17M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.045",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P17M",
+            "tiers": [
+              {
+                "name": "Term Deposit for Customers_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "9999999.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit for Customers_Tier_2",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "13",
+                "maximumValue": "17",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P17M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.045",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P23M",
+            "tiers": [
+              {
+                "name": "Term Deposit for Customers_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "4999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit for Customers_Tier_1",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "18",
+                "maximumValue": "23",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P23M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.045",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P23M",
+            "tiers": [
+              {
+                "name": "Term Deposit for Customers_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "9999999.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit for Customers_Tier_2",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "18",
+                "maximumValue": "23",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P23M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.045",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P35M",
+            "tiers": [
+              {
+                "name": "Term Deposit for Customers_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "4999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit for Customers_Tier_1",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "24",
+                "maximumValue": "35",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P35M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.045",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P35M",
+            "tiers": [
+              {
+                "name": "Term Deposit for Customers_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "9999999.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit for Customers_Tier_2",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "24",
+                "maximumValue": "35",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P35M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.045",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P36M",
+            "tiers": [
+              {
+                "name": "Term Deposit for Customers_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "4999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit for Customers_Tier_1",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "36",
+                "maximumValue": "36",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P36M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.045",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P36M",
+            "tiers": [
+              {
+                "name": "Term Deposit for Customers_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "9999999.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit for Customers_Tier_2",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "36",
+                "maximumValue": "36",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P36M"
+          }
+        ]
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "7309a297-db38-4ffe-833e-2cc07032988d",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "productId": "7309a297-db38-4ffe-833e-2cc07032988d",
+        "lastUpdated": "2026-11-12T07:31:01.000+11:00",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "name": "Essential Saver account",
+        "description": "An interest bearing online savings account with a tiered interest rate structure",
+        "brand": "UB",
+        "brandName": "UniBank",
+        "applicationUri": "https://www.unibank.com.au/banking/essential-saver",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.unibank.com.au/banking/essential-saver",
+          "termsUri": "https://www.unibank.com.au/content/dam/documents/collateral/conditions-of-use.pdf",
+          "eligibilityUri": "https://www.unibank.com.au/banking/essential-saver",
+          "feesAndPricingUri": "https://www.unibank.com.au/content/dam/documents/collateral/fees-and-charges.pdf"
+        },
+        "features": [
+          {
+            "featureType": "UNLIMITED_TXNS"
+          },
+          {
+            "featureType": "DIGITAL_BANKING"
+          },
+          {
+            "featureType": "NPP_ENABLED"
+          },
+          {
+            "featureType": "NPP_PAYID"
+          },
+          {
+            "featureType": "NOTIFICATIONS",
+            "additionalValue": "Track payments with SMS and email alerts."
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "No fees for accessing your account online or via phone banking."
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "No monthly access fee."
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "No minimum balance."
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "OTHER",
+            "additionalInfo": "You must be a member. Membership is open to current or retired employees of the Australian education sector or family members of members (i.e. shareholders) of the Bank.",
+            "additionalInfoUri": "https://www.unibank.com.au/banking/essential-saver"
+          },
+          {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalValue": "Individuals must be citizens or permanent residents of Australia."
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.055",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "Essential Saver account_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "0.00",
+                "maximumValue": "250000.00",
+                "rateApplicationMethod": "PER_TIER"
+              }
+            ]
+          },
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.055",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "Essential Saver account_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "250000.01",
+                "maximumValue": "500000.00",
+                "rateApplicationMethod": "PER_TIER"
+              }
+            ]
+          },
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.055",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "Essential Saver account_Tier_3",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "500000.01",
+                "maximumValue": "1000000.00",
+                "rateApplicationMethod": "PER_TIER"
+              }
+            ]
+          },
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.035",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "Essential Saver account_Tier_4",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000000.01",
+                "maximumValue": "5000000.00",
+                "rateApplicationMethod": "PER_TIER"
+              }
+            ]
+          },
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.035",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "Essential Saver account_Tier_5",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000000.01",
+                "rateApplicationMethod": "PER_TIER"
+              }
+            ]
+          }
+        ]
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "75a18d90-7c65-4fb0-86d8-16b13b7dbe5c",
+      "productCategory": "TERM_DEPOSITS",
+      "detail": {
+        "productId": "75a18d90-7c65-4fb0-86d8-16b13b7dbe5c",
+        "lastUpdated": "2026-11-11T00:20:03.000+11:00",
+        "productCategory": "TERM_DEPOSITS",
+        "name": "Term Deposit for Edvest Members",
+        "description": "Take advantage of great returns on our term deposits.",
+        "brand": "UB",
+        "brandName": "UniBank",
+        "applicationUri": "https://www.unibank.com.au/banking/term-deposit",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.unibank.com.au/banking/term-deposit",
+          "termsUri": "https://www.unibank.com.au/content/dam/documents/collateral/conditions-of-use.pdf",
+          "eligibilityUri": "https://www.unibank.com.au/banking/term-deposit",
+          "feesAndPricingUri": "https://www.unibank.com.au/content/dam/documents/collateral/fees-and-charges.pdf"
+        },
+        "features": [
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "No account keeping fee"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "A guaranteed rate for terms from 3 to 36 months"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Earn a competitive interest rate on your investment with a minimum opening balance of $1,000 can get you started."
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Interest can be paid fortnight, monthly, 12 monthly or at maturity."
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "For deposits of $500,000 and over, rates are by negotiation and subject to acceptance."
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "We'll send you a written renewal notice before your deposit matures."
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "If you want to withdraw your Term Deposit before it matures you'll need to give us 31 days' notice. A reduced rate of interest will apply in these circumstances. For full details refer to our Conditions of Use.",
+            "additionalInfoUri": "https://www.unibank.com.au/content/dam/documents/collateral/conditions-of-use.pdf"
+          },
+          {
+            "featureType": "DIGITAL_BANKING"
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "OPENING_BALANCE",
+            "additionalValue": "1000.00"
+          },
+          {
+            "constraintType": "MIN_BALANCE",
+            "additionalValue": "1000.00"
+          },
+          {
+            "constraintType": "MAX_BALANCE",
+            "additionalValue": "499999.99",
+            "additionalInfo": "For deposits of $500,000 and over, rates are by negotiation and subject to acceptance."
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "OTHER",
+            "additionalInfo": "This product is only available to members who are 50 years or older and part of our Edvest benefit scheme and currently hold an Everyday Direct or Bill Paying account with us.",
+            "additionalInfoUri": "https://www.unibank.com.au/banking/term-deposit"
+          },
+          {
+            "eligibilityType": "OTHER",
+            "additionalInfo": "You must be a member. Membership is open to current or retired employees, graduates and post-graduates and current students of an Australian university or family members of members (i.e. shareholders) of the Bank.",
+            "additionalInfoUri": "https://www.unibank.com.au/banking/term-deposit"
+          },
+          {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalValue": "Individuals must be citizens or permanent residents of Australia."
+          }
+        ],
+        "fees": [
+          {
+            "name": "EDVEST_MEMBERSHIP",
+            "feeType": "PERIODIC",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "30.00"
+            },
+            "currency": "AUD",
+            "additionalValue": "P1Y",
+            "additionalInfo": "An annual charge debited from the Everyday Direct account on each Edvest membership in January and on a pro-rata basis for new Edvest members."
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.051",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P119D",
+            "tiers": [
+              {
+                "name": "Term Deposit for Edvest Members_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "4999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit for Edvest Members_Tier_1",
+                "unitOfMeasure": "DAY",
+                "minimumValue": "90",
+                "maximumValue": "119",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P119D"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.051",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P119D",
+            "tiers": [
+              {
+                "name": "Term Deposit for Edvest Members_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "9999999.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit for Edvest Members_Tier_2",
+                "unitOfMeasure": "DAY",
+                "minimumValue": "90",
+                "maximumValue": "119",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P119D"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0455",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P149D",
+            "tiers": [
+              {
+                "name": "Term Deposit for Edvest Members_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "4999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit for Edvest Members_Tier_1",
+                "unitOfMeasure": "DAY",
+                "minimumValue": "120",
+                "maximumValue": "149",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P149D"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0455",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P149D",
+            "tiers": [
+              {
+                "name": "Term Deposit for Edvest Members_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "9999999.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit for Edvest Members_Tier_2",
+                "unitOfMeasure": "DAY",
+                "minimumValue": "120",
+                "maximumValue": "149",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P149D"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0455",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P179D",
+            "tiers": [
+              {
+                "name": "Term Deposit for Edvest Members_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "4999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit for Edvest Members_Tier_1",
+                "unitOfMeasure": "DAY",
+                "minimumValue": "150",
+                "maximumValue": "179",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P179D"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0455",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P179D",
+            "tiers": [
+              {
+                "name": "Term Deposit for Edvest Members_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "9999999.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit for Edvest Members_Tier_2",
+                "unitOfMeasure": "DAY",
+                "minimumValue": "150",
+                "maximumValue": "179",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P179D"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.055",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P209D",
+            "tiers": [
+              {
+                "name": "Term Deposit for Edvest Members_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "4999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit for Edvest Members_Tier_1",
+                "unitOfMeasure": "DAY",
+                "minimumValue": "180",
+                "maximumValue": "209",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P209D"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.055",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P209D",
+            "tiers": [
+              {
+                "name": "Term Deposit for Edvest Members_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "9999999.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit for Edvest Members_Tier_2",
+                "unitOfMeasure": "DAY",
+                "minimumValue": "180",
+                "maximumValue": "209",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P209D"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0515",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P239D",
+            "tiers": [
+              {
+                "name": "Term Deposit for Edvest Members_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "4999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit for Edvest Members_Tier_1",
+                "unitOfMeasure": "DAY",
+                "minimumValue": "210",
+                "maximumValue": "239",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P239D"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0515",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P239D",
+            "tiers": [
+              {
+                "name": "Term Deposit for Edvest Members_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "9999999.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit for Edvest Members_Tier_2",
+                "unitOfMeasure": "DAY",
+                "minimumValue": "210",
+                "maximumValue": "239",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P239D"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0455",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P269D",
+            "tiers": [
+              {
+                "name": "Term Deposit for Edvest Members_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "4999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit for Edvest Members_Tier_1",
+                "unitOfMeasure": "DAY",
+                "minimumValue": "240",
+                "maximumValue": "269",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P269D"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0455",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P269D",
+            "tiers": [
+              {
+                "name": "Term Deposit for Edvest Members_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "9999999.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit for Edvest Members_Tier_2",
+                "unitOfMeasure": "DAY",
+                "minimumValue": "240",
+                "maximumValue": "269",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P269D"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0505",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P299D",
+            "tiers": [
+              {
+                "name": "Term Deposit for Edvest Members_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "4999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit for Edvest Members_Tier_1",
+                "unitOfMeasure": "DAY",
+                "minimumValue": "270",
+                "maximumValue": "299",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P299D"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0505",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P299D",
+            "tiers": [
+              {
+                "name": "Term Deposit for Edvest Members_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "9999999.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit for Edvest Members_Tier_2",
+                "unitOfMeasure": "DAY",
+                "minimumValue": "270",
+                "maximumValue": "299",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P299D"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0455",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P329D",
+            "tiers": [
+              {
+                "name": "Term Deposit for Edvest Members_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "4999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit for Edvest Members_Tier_1",
+                "unitOfMeasure": "DAY",
+                "minimumValue": "300",
+                "maximumValue": "329",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P329D"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0455",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P329D",
+            "tiers": [
+              {
+                "name": "Term Deposit for Edvest Members_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "9999999.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit for Edvest Members_Tier_2",
+                "unitOfMeasure": "DAY",
+                "minimumValue": "300",
+                "maximumValue": "329",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P329D"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0455",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P364D",
+            "tiers": [
+              {
+                "name": "Term Deposit for Edvest Members_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "4999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit for Edvest Members_Tier_1",
+                "unitOfMeasure": "DAY",
+                "minimumValue": "330",
+                "maximumValue": "364",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P364D"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0455",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P364D",
+            "tiers": [
+              {
+                "name": "Term Deposit for Edvest Members_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "9999999.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit for Edvest Members_Tier_2",
+                "unitOfMeasure": "DAY",
+                "minimumValue": "330",
+                "maximumValue": "364",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P364D"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.055",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P394D",
+            "tiers": [
+              {
+                "name": "Term Deposit for Edvest Members_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "4999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit for Edvest Members_Tier_1",
+                "unitOfMeasure": "DAY",
+                "minimumValue": "365",
+                "maximumValue": "394",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P394D"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.055",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P394D",
+            "tiers": [
+              {
+                "name": "Term Deposit for Edvest Members_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "9999999.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit for Edvest Members_Tier_2",
+                "unitOfMeasure": "DAY",
+                "minimumValue": "365",
+                "maximumValue": "394",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P394D"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0455",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P544D",
+            "tiers": [
+              {
+                "name": "Term Deposit for Edvest Members_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "4999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit for Edvest Members_Tier_1",
+                "unitOfMeasure": "DAY",
+                "minimumValue": "395",
+                "maximumValue": "544",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P544D"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0455",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P544D",
+            "tiers": [
+              {
+                "name": "Term Deposit for Edvest Members_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "9999999.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit for Edvest Members_Tier_2",
+                "unitOfMeasure": "DAY",
+                "minimumValue": "395",
+                "maximumValue": "544",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P544D"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0455",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P729D",
+            "tiers": [
+              {
+                "name": "Term Deposit for Edvest Members_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "4999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit for Edvest Members_Tier_1",
+                "unitOfMeasure": "DAY",
+                "minimumValue": "545",
+                "maximumValue": "729",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P729D"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0455",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P729D",
+            "tiers": [
+              {
+                "name": "Term Deposit for Edvest Members_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "9999999.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit for Edvest Members_Tier_2",
+                "unitOfMeasure": "DAY",
+                "minimumValue": "545",
+                "maximumValue": "729",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P729D"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0455",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1094D",
+            "tiers": [
+              {
+                "name": "Term Deposit for Edvest Members_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "4999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit for Edvest Members_Tier_1",
+                "unitOfMeasure": "DAY",
+                "minimumValue": "730",
+                "maximumValue": "1094",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P1094D"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0455",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1094D",
+            "tiers": [
+              {
+                "name": "Term Deposit for Edvest Members_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "9999999.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit for Edvest Members_Tier_2",
+                "unitOfMeasure": "DAY",
+                "minimumValue": "730",
+                "maximumValue": "1094",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P1094D"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.051",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P3M",
+            "tiers": [
+              {
+                "name": "Term Deposit for Edvest Members_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "4999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit for Edvest Members_Tier_1",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "3",
+                "maximumValue": "3",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P3M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.051",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P3M",
+            "tiers": [
+              {
+                "name": "Term Deposit for Edvest Members_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "9999999.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit for Edvest Members_Tier_2",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "3",
+                "maximumValue": "3",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P3M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0455",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P4M",
+            "tiers": [
+              {
+                "name": "Term Deposit for Edvest Members_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "4999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit for Edvest Members_Tier_1",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "4",
+                "maximumValue": "4",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P4M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0455",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P4M",
+            "tiers": [
+              {
+                "name": "Term Deposit for Edvest Members_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "9999999.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit for Edvest Members_Tier_2",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "4",
+                "maximumValue": "4",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P4M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0455",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P5M",
+            "tiers": [
+              {
+                "name": "Term Deposit for Edvest Members_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "4999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit for Edvest Members_Tier_1",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "5",
+                "maximumValue": "5",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P5M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0455",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P5M",
+            "tiers": [
+              {
+                "name": "Term Deposit for Edvest Members_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "9999999.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit for Edvest Members_Tier_2",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "5",
+                "maximumValue": "5",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P5M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.055",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P6M",
+            "tiers": [
+              {
+                "name": "Term Deposit for Edvest Members_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "4999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit for Edvest Members_Tier_1",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "6",
+                "maximumValue": "6",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P6M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.055",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P6M",
+            "tiers": [
+              {
+                "name": "Term Deposit for Edvest Members_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "9999999.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit for Edvest Members_Tier_2",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "6",
+                "maximumValue": "6",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P6M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0515",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P7M",
+            "tiers": [
+              {
+                "name": "Term Deposit for Edvest Members_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "4999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit for Edvest Members_Tier_1",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "7",
+                "maximumValue": "7",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P7M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0515",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P7M",
+            "tiers": [
+              {
+                "name": "Term Deposit for Edvest Members_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "9999999.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit for Edvest Members_Tier_2",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "7",
+                "maximumValue": "7",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P7M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0455",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P8M",
+            "tiers": [
+              {
+                "name": "Term Deposit for Edvest Members_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "4999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit for Edvest Members_Tier_1",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "8",
+                "maximumValue": "8",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P8M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0455",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P8M",
+            "tiers": [
+              {
+                "name": "Term Deposit for Edvest Members_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "9999999.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit for Edvest Members_Tier_2",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "8",
+                "maximumValue": "8",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P8M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0505",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P9M",
+            "tiers": [
+              {
+                "name": "Term Deposit for Edvest Members_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "4999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit for Edvest Members_Tier_1",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "9",
+                "maximumValue": "9",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P9M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0505",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P9M",
+            "tiers": [
+              {
+                "name": "Term Deposit for Edvest Members_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "9999999.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit for Edvest Members_Tier_2",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "9",
+                "maximumValue": "9",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P9M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0455",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P10M",
+            "tiers": [
+              {
+                "name": "Term Deposit for Edvest Members_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "4999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit for Edvest Members_Tier_1",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "10",
+                "maximumValue": "10",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P10M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0455",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P10M",
+            "tiers": [
+              {
+                "name": "Term Deposit for Edvest Members_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "9999999.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit for Edvest Members_Tier_2",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "10",
+                "maximumValue": "10",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P10M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0455",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P11M",
+            "tiers": [
+              {
+                "name": "Term Deposit for Edvest Members_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "4999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit for Edvest Members_Tier_1",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "11",
+                "maximumValue": "11",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P11M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0455",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P11M",
+            "tiers": [
+              {
+                "name": "Term Deposit for Edvest Members_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "9999999.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit for Edvest Members_Tier_2",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "11",
+                "maximumValue": "11",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P11M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.055",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P12M",
+            "tiers": [
+              {
+                "name": "Term Deposit for Edvest Members_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "4999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit for Edvest Members_Tier_1",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "12",
+                "maximumValue": "12",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P12M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.055",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P12M",
+            "tiers": [
+              {
+                "name": "Term Deposit for Edvest Members_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "9999999.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit for Edvest Members_Tier_2",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "12",
+                "maximumValue": "12",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P12M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0455",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P17M",
+            "tiers": [
+              {
+                "name": "Term Deposit for Edvest Members_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "4999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit for Edvest Members_Tier_1",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "13",
+                "maximumValue": "17",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P17M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0455",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P17M",
+            "tiers": [
+              {
+                "name": "Term Deposit for Edvest Members_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "9999999.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit for Edvest Members_Tier_2",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "13",
+                "maximumValue": "17",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P17M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0455",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P23M",
+            "tiers": [
+              {
+                "name": "Term Deposit for Edvest Members_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "4999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit for Edvest Members_Tier_1",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "18",
+                "maximumValue": "23",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P23M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0455",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P23M",
+            "tiers": [
+              {
+                "name": "Term Deposit for Edvest Members_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "9999999.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit for Edvest Members_Tier_2",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "18",
+                "maximumValue": "23",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P23M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0455",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P35M",
+            "tiers": [
+              {
+                "name": "Term Deposit for Edvest Members_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "4999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit for Edvest Members_Tier_1",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "24",
+                "maximumValue": "35",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P35M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0455",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P35M",
+            "tiers": [
+              {
+                "name": "Term Deposit for Edvest Members_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "9999999.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit for Edvest Members_Tier_2",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "24",
+                "maximumValue": "35",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P35M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0455",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P36M",
+            "tiers": [
+              {
+                "name": "Term Deposit for Edvest Members_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "4999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit for Edvest Members_Tier_1",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "36",
+                "maximumValue": "36",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P36M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0455",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P36M",
+            "tiers": [
+              {
+                "name": "Term Deposit for Edvest Members_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "9999999.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit for Edvest Members_Tier_2",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "36",
+                "maximumValue": "36",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P36M"
+          }
+        ]
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "766e55b7-3942-4df2-a472-f882552543be",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "productId": "766e55b7-3942-4df2-a472-f882552543be",
+        "lastUpdated": "2026-11-12T07:54:26.000+11:00",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "name": "Edvest Cash Management account",
+        "description": "Exclusive to Edvest members, our higher interest rates make your money work harder for you.",
+        "brand": "UB",
+        "brandName": "UniBank",
+        "applicationUri": "https://www.unibank.com.au/banking/edvest-cash-management-account",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.unibank.com.au/banking/edvest-cash-management-account",
+          "termsUri": "https://www.unibank.com.au/content/dam/documents/collateral/conditions-of-use.pdf",
+          "eligibilityUri": "https://www.unibank.com.au/banking/edvest-cash-management-account",
+          "feesAndPricingUri": "https://www.unibank.com.au/content/dam/documents/collateral/fees-and-charges.pdf"
+        },
+        "features": [
+          {
+            "featureType": "DIGITAL_BANKING"
+          },
+          {
+            "featureType": "NPP_PAYID"
+          },
+          {
+            "featureType": "NPP_ENABLED"
+          },
+          {
+            "featureType": "NOTIFICATIONS",
+            "additionalValue": "Track payments with SMS and email alerts."
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Higher interest rate for balances $2,000 and over."
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "No minimum balance."
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "OTHER",
+            "additionalInfo": "This product is only available to members who are 50 years or older and part of our Edvest benefit scheme and currently hold an Everyday Direct or Bill Paying account with us.",
+            "additionalInfoUri": "https://www.unibank.com.au/banking/edvest-cash-management-account"
+          },
+          {
+            "eligibilityType": "OTHER",
+            "additionalInfo": "You must be a member. Membership is open to current or retired employees, graduates and post-graduates and current students of an Australian university or family members of members (i.e. shareholders) of the Bank.",
+            "additionalInfoUri": "https://www.unibank.com.au/banking/edvest-cash-management-account"
+          },
+          {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalValue": "Individuals must be citizens or permanent residents of Australia."
+          }
+        ],
+        "fees": [
+          {
+            "name": "EDVEST_MEMBERSHIP",
+            "feeType": "PERIODIC",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "30.00"
+            },
+            "currency": "AUD",
+            "additionalValue": "P1Y",
+            "additionalInfo": "An annual charge debited from the Everyday Direct account on each Edvest membership in January and on a pro-rata basis for new Edvest members."
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.015",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "Edvest Cash Management account_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "0.00",
+                "maximumValue": "1999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ]
+          },
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.015",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "Edvest Cash Management account_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "2000.00",
+                "maximumValue": "4999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ]
+          },
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.015",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "Edvest Cash Management account_Tier_3",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "9999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ]
+          },
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.015",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "Edvest Cash Management account_Tier_4",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "10000.00",
+                "maximumValue": "19999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ]
+          },
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.015",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "Edvest Cash Management account_Tier_5",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "20000.00",
+                "maximumValue": "49999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ]
+          },
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.015",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "Edvest Cash Management account_Tier_6",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "50000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ]
+          }
+        ]
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "8ec0c776-eec2-4dea-8fa3-64602cf50fa3",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "productId": "8ec0c776-eec2-4dea-8fa3-64602cf50fa3",
+        "lastUpdated": "2026-11-12T07:34:03.000+11:00",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "name": "Starter Saver account",
+        "description": "Starter Saver Account is a high interest savings account for Under 30 year olds that rewards savings.",
+        "brand": "UB",
+        "brandName": "UniBank",
+        "applicationUri": "https://www.unibank.com.au/banking/starter-saver",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.unibank.com.au/banking/starter-saver",
+          "termsUri": "https://www.unibank.com.au/content/dam/documents/collateral/conditions-of-use.pdf",
+          "eligibilityUri": "https://www.unibank.com.au/banking/starter-saver",
+          "feesAndPricingUri": "https://www.unibank.com.au/content/dam/documents/collateral/fees-and-charges.pdf"
+        },
+        "features": [
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "The product pays members a higher rate of interest on balances up to $50,000.00, with a stepped down rate for balances $50,000.01 and over. Members have funds available at call, with flexibility to access their funds without forfeiting interest within a calendar month."
+          },
+          {
+            "featureType": "DIGITAL_BANKING"
+          },
+          {
+            "featureType": "NPP_PAYID"
+          },
+          {
+            "featureType": "NPP_ENABLED"
+          },
+          {
+            "featureType": "NOTIFICATIONS",
+            "additionalValue": "Track payments with SMS and email alerts."
+          },
+          {
+            "featureType": "UNLIMITED_TXNS"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "OTHER",
+            "additionalInfo": "You must be a member. Membership is open to current or retired employees, graduates and post-graduates and current students of an Australian university or family members of members (i.e. shareholders) of the Bank.",
+            "additionalInfoUri": "https://www.unibank.com.au/banking/starter-saver"
+          },
+          {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalValue": "Individuals must be citizens or permanent residents of Australia."
+          },
+          {
+            "eligibilityType": "MAX_AGE",
+            "additionalValue": "29",
+            "additionalInfo": "This Product is only available for members aged under 30 years and Students"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0575",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "Starter Saver account_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "0.00",
+                "maximumValue": "50000.00",
+                "rateApplicationMethod": "PER_TIER"
+              }
+            ],
+            "additionalInfo": "The product pays members a higher rate of interest on balances up to $20,000.00, with a stepped down rate for balances $20,000.01 and over. Members have funds available at call, with flexibility to access their funds without forfeiting interest within a calendar month."
+          },
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0475",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "Starter Saver account_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "50000.01",
+                "rateApplicationMethod": "PER_TIER"
+              }
+            ],
+            "additionalInfo": "The product pays members a higher rate of interest on balances up to $20,000.00, with a stepped down rate for balances $20,000.01 and over. Members have funds available at call, with flexibility to access their funds without forfeiting interest within a calendar month."
+          }
+        ]
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "c095041f-2d72-40c4-9cea-94183d0721bd",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "productId": "c095041f-2d72-40c4-9cea-94183d0721bd",
+        "lastUpdated": "2026-10-30T16:32:47.000+11:00",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "name": "Everyday Direct account",
+        "description": "Your everyday transaction account with VISA Debit access.",
+        "brand": "UB",
+        "brandName": "UniBank",
+        "applicationUri": "https://www.unibank.com.au/banking/everyday-direct",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.unibank.com.au/banking/everyday-direct",
+          "termsUri": "https://www.unibank.com.au/content/dam/documents/collateral/conditions-of-use.pdf",
+          "eligibilityUri": "https://www.unibank.com.au/banking/everyday-direct",
+          "feesAndPricingUri": "https://www.unibank.com.au/content/dam/documents/collateral/fees-and-charges.pdf"
+        },
+        "cardArt": [
+          {
+            "cardScheme": "VISA",
+            "cardType": "DEBIT",
+            "title": "Visa Debit",
+            "imageUri": "https://www.unibank.com.au/content/dam/channels/websites/common-assets/open-banking/feature-mobile-wallet-ub.png"
+          }
+        ],
+        "features": [
+          {
+            "featureType": "CARD_ACCESS",
+            "additionalValue": "Visa Debit with payWave"
+          },
+          {
+            "featureType": "ADDITIONAL_CARDS"
+          },
+          {
+            "featureType": "UNLIMITED_TXNS"
+          },
+          {
+            "featureType": "OVERDRAFT",
+            "additionalInfo": "You can apply to have an overdraft (RediCredit) linked to the Everyday Direct account. All applications for credit are subject to responsible lending criteria and fees and charges apply. For full details visit our website.",
+            "additionalInfoUri": "https://www.unibank.com.au/banking/everyday-direct"
+          },
+          {
+            "featureType": "DIGITAL_WALLET",
+            "additionalValue": "Apple Pay",
+            "additionalInfoUri": "https://www.unibank.com.au/ways-to-bank/mobile-wallet"
+          },
+          {
+            "featureType": "DIGITAL_WALLET",
+            "additionalValue": "Google Pay",
+            "additionalInfoUri": "https://www.unibank.com.au/ways-to-bank/mobile-wallet"
+          },
+          {
+            "featureType": "DIGITAL_WALLET",
+            "additionalValue": "Samsung Pay",
+            "additionalInfoUri": "https://www.unibank.com.au/ways-to-bank/mobile-wallet"
+          },
+          {
+            "featureType": "DIGITAL_BANKING"
+          },
+          {
+            "featureType": "NPP_PAYID"
+          },
+          {
+            "featureType": "NPP_ENABLED"
+          },
+          {
+            "featureType": "BILL_PAYMENT",
+            "additionalValue": "BPAY"
+          },
+          {
+            "featureType": "NOTIFICATIONS",
+            "additionalValue": "Track payments with SMS and email alerts"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Our sweep service automatically transfers funds from certain savings accounts to cover most transactions which would otherwise exceed your transaction account's available balance."
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Make deposits and withdrawals through a Bank@Post facility at Australia Post outlets. For full details refer to our Conditions of Use. Fees and charges apply.",
+            "additionalInfoUri": "https://www.unibank.com.au/content/dam/documents/collateral/conditions-of-use.pdf"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "OTHER",
+            "additionalInfo": "You must be a member. Membership is open to current or retired employees, graduates and post-graduates and current students of an Australian university or family members of members (i.e. shareholders) of the Bank.",
+            "additionalInfoUri": "https://www.unibank.com.au/banking/everyday-direct"
+          },
+          {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalValue": "Individuals must be citizens or permanent residents of Australia."
+          }
+        ],
+        "fees": [
+          {
+            "name": "CASH_ADVANCES_FEE",
+            "feeType": "CASH_ADVANCE",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "4.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Visa Debit and Visa Credit card cash advances at other financial institutions in Australia and overseas. Individual bank branches may not offer this service and may charge additional fees (at cost)."
+          },
+          {
+            "name": "INTERNATIONAL_CONVERSION_FEE",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "rateBased",
+            "rateBased": {
+              "rateType": "TRANSACTION",
+              "rate": "0.029"
+            },
+            "currency": "AUD",
+            "additionalInfo": "2.90% of transaction value in $AUD collected by Cuscal Limited - 0.90% paid to Us; 1.00% retained by Cuscal; 1.00% paid to Visa International. Payable when you transact in a foreign currency using your Visa card either online or at a merchant point of sale (irrespective of where the transaction occurs; performed not in Australian Dollar; or overseas merchants transact in a foreign currency.)"
+          },
+          {
+            "name": "BUSINESS_ACCOUNT_MONTHLY_ACCOUNT_KEEPING_FEE",
+            "feeType": "PERIODIC",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "5.00"
+            },
+            "currency": "AUD",
+            "additionalValue": "P1M",
+            "additionalInfo": "Monthly account keeping fee charged on the 25th of each month for non-individual members; and individual and non-individual customers."
+          },
+          {
+            "name": "TELE_TRANSFER",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "13.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Tele transfer within Australia to an account at another financial institution."
+          },
+          {
+            "name": "ATM_WITHDRAWALS_OVERSEAS",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "4.00"
+            },
+            "currency": "AUD"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "Everyday Direct account_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "0.00",
+                "maximumValue": "9999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ]
+          },
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "Everyday Direct account_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "10000.00",
+                "maximumValue": "19999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ]
+          },
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "Everyday Direct account_Tier_3",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "20000.00",
+                "maximumValue": "49999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ]
+          },
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "Everyday Direct account_Tier_4",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "50000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ]
+          }
+        ],
+        "lendingRates": [
+          {
+            "lendingRateType": "VARIABLE",
+            "rate": "0.1264",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "interestPaymentDue": "IN_ARREARS",
+            "repaymentType": "OTHER",
+            "loanPurpose": "OTHER",
+            "additionalInfo": "The overdraft (RediCredit) interest rate that applies to any overdrawn amounts."
+          }
+        ]
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "c2901370-6c0c-11f0-85f0-325096b39f47",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "productId": "c2901370-6c0c-11f0-85f0-325096b39f47",
+        "lastUpdated": "2026-10-13T08:56:59.000+11:00",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "name": "MOMENTUM SAVER",
+        "description": "The Momentum Saver account rewards savers with an ongoing bonus interest rate when you deposit a minimum of $100 and make no withdrawals during the month.",
+        "brand": "UB",
+        "brandName": "UniBank",
+        "applicationUri": "https://www.unibank.com.au/forms/membership?product_tparam=momentum-saver",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.unibank.com.au/banking/momentum-saver",
+          "termsUri": "https://www.unibank.com.au/content/dam/documents/collateral/conditions-of-use.pdf",
+          "eligibilityUri": "https://www.unibank.com.au/banking/momentum-saver",
+          "feesAndPricingUri": "https://www.unibank.com.au/content/dam/documents/collateral/fees-and-charges.pdf"
+        },
+        "features": [
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Bonus interest earned for each month you deposit a minimum of $100, make no withdrawals during the month and the account has a credit balance at all times during that month."
+          },
+          {
+            "featureType": "DIGITAL_BANKING"
+          },
+          {
+            "featureType": "NPP_PAYID"
+          },
+          {
+            "featureType": "NPP_ENABLED"
+          },
+          {
+            "featureType": "NOTIFICATIONS",
+            "additionalValue": "Track payments with SMS and email alerts."
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "No fees for accessing your account online or via phone banking."
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "No monthly access fee."
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "No minimum balance."
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "OTHER",
+            "additionalInfo": "You must be a member. Membership is open to current or retired employees of the Australian education sector or family members of members (i.e. shareholders) of the Bank.",
+            "additionalInfoUri": "https://www.unibank.com.au/banking/momentum-saver"
+          },
+          {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalValue": "Individuals must be citizens or permanent residents of Australia."
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.001",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "MOMENTUM SAVER_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "0.00",
+                "maximumValue": "250000.00",
+                "rateApplicationMethod": "PER_TIER"
+              }
+            ],
+            "applicabilityConditions": [
+              {
+                "rateApplicabilityType": "MAX_WITHDRAWALS",
+                "additionalValue": "0"
+              },
+              {
+                "rateApplicabilityType": "MIN_DEPOSIT_AMOUNT",
+                "additionalValue": "100.00"
+              }
+            ]
+          },
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.001",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "MOMENTUM SAVER_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "250000.01",
+                "maximumValue": "500000.01",
+                "rateApplicationMethod": "PER_TIER"
+              }
+            ],
+            "applicabilityConditions": [
+              {
+                "rateApplicabilityType": "MAX_WITHDRAWALS",
+                "additionalValue": "0"
+              },
+              {
+                "rateApplicabilityType": "MIN_DEPOSIT_AMOUNT",
+                "additionalValue": "100.00"
+              }
+            ]
+          },
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.001",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "MOMENTUM SAVER_Tier_3",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "500000.02",
+                "maximumValue": "1000000.01",
+                "rateApplicationMethod": "PER_TIER"
+              }
+            ],
+            "applicabilityConditions": [
+              {
+                "rateApplicabilityType": "MAX_WITHDRAWALS",
+                "additionalValue": "0"
+              },
+              {
+                "rateApplicabilityType": "MIN_DEPOSIT_AMOUNT",
+                "additionalValue": "100.00"
+              }
+            ]
+          },
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.001",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "MOMENTUM SAVER_Tier_4",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000000.02",
+                "rateApplicationMethod": "PER_TIER"
+              }
+            ],
+            "applicabilityConditions": [
+              {
+                "rateApplicabilityType": "MAX_WITHDRAWALS",
+                "additionalValue": "0"
+              },
+              {
+                "rateApplicabilityType": "MIN_DEPOSIT_AMOUNT",
+                "additionalValue": "100.00"
+              }
+            ]
+          },
+          {
+            "depositRateType": "BONUS",
+            "rate": "0.0525",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "MOMENTUM SAVER_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "0.00",
+                "maximumValue": "250000.00",
+                "rateApplicationMethod": "PER_TIER"
+              }
+            ],
+            "applicabilityConditions": [
+              {
+                "rateApplicabilityType": "MAX_WITHDRAWALS",
+                "additionalValue": "0"
+              },
+              {
+                "rateApplicabilityType": "MIN_DEPOSIT_AMOUNT",
+                "additionalValue": "100.00"
+              }
+            ],
+            "additionalValue": "Bonus interest earned for each month you deposit a miniumum of $100, make no withdrawals during the month and the account has a credit balance at all times during the month."
+          },
+          {
+            "depositRateType": "BONUS",
+            "rate": "0.0515",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "MOMENTUM SAVER_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "250000.01",
+                "maximumValue": "500000.01",
+                "rateApplicationMethod": "PER_TIER"
+              }
+            ],
+            "applicabilityConditions": [
+              {
+                "rateApplicabilityType": "MAX_WITHDRAWALS",
+                "additionalValue": "0"
+              },
+              {
+                "rateApplicabilityType": "MIN_DEPOSIT_AMOUNT",
+                "additionalValue": "100.00"
+              }
+            ],
+            "additionalValue": "Bonus interest earned for each month you deposit a miniumum of $100, make no withdrawals during the month and the account has a credit balance at all times during the month."
+          },
+          {
+            "depositRateType": "BONUS",
+            "rate": "0.0515",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "MOMENTUM SAVER_Tier_3",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "500000.02",
+                "maximumValue": "1000000.01",
+                "rateApplicationMethod": "PER_TIER"
+              }
+            ],
+            "applicabilityConditions": [
+              {
+                "rateApplicabilityType": "MAX_WITHDRAWALS",
+                "additionalValue": "0"
+              },
+              {
+                "rateApplicabilityType": "MIN_DEPOSIT_AMOUNT",
+                "additionalValue": "100.00"
+              }
+            ],
+            "additionalValue": "Bonus interest earned for each month you deposit a miniumum of $100, make no withdrawals during the month and the account has a credit balance at all times during the month."
+          },
+          {
+            "depositRateType": "BONUS",
+            "rate": "0.049",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "MOMENTUM SAVER_Tier_4",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000000.02",
+                "rateApplicationMethod": "PER_TIER"
+              }
+            ],
+            "applicabilityConditions": [
+              {
+                "rateApplicabilityType": "MAX_WITHDRAWALS",
+                "additionalValue": "0"
+              },
+              {
+                "rateApplicabilityType": "MIN_DEPOSIT_AMOUNT",
+                "additionalValue": "100.00"
+              }
+            ],
+            "additionalValue": "Bonus interest earned for each month you deposit a miniumum of $100, make no withdrawals during the month and the account has a credit balance at all times during the month."
+          }
+        ]
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    }
+  ]
+}

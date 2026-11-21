@@ -1,0 +1,464 @@
+{
+  "endpoint": "https://cdr.apix.anz/cds-au/v1/banking/products",
+  "slug": "anz-plus-ea74bb",
+  "brands": [
+    {
+      "dataHolderBrandId": "e89bd6dc-0515-ec11-a826-000d3a884a20",
+      "brandName": "ANZ Plus",
+      "brandGroup": null,
+      "abn": "11005357522",
+      "industries": [
+        "banking"
+      ]
+    }
+  ],
+  "list": {
+    "ok": true,
+    "status": 200,
+    "version": "5",
+    "totalPages": 1,
+    "pagesFetched": 1,
+    "productCount": 3,
+    "categoryCounts": {
+      "TRANS_AND_SAVINGS_ACCOUNTS": 3
+    }
+  },
+  "products": [
+    {
+      "productId": "SAVING01",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "productId": "SAVING01",
+        "lastUpdated": "2026-11-12T13:00:00.000Z",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "name": "ANZ Plus Growth Saver",
+        "description": "Get an ANZ Plus Growth Saver account to help smash your savings goals",
+        "brand": "ANZ Plus",
+        "brandName": "ANZ Plus",
+        "applicationUri": "https://anz.com/plus/products",
+        "isTailored": false,
+        "additionalInformation": {
+          "bundleUri": "https://anz.com/plus/products",
+          "eligibilityUri": "https://anz.com/plus/terms",
+          "feesAndPricingUri": "https://anz.com/plus/terms",
+          "overviewUri": "https://anz.com/plus/products",
+          "termsUri": "https://anz.com/plus/terms"
+        },
+        "bundles": [
+          {
+            "additionalInfoUri": "https://anz.com/plus/products",
+            "description": "ANZ Plus bundle with a single ANZ Plus Everyday account, a single ANZ Plus Growth Saver account and a Visa Debit Consumer Standard Card attached as a service to the ANZ Plus Everyday account.",
+            "name": "ANZ Plus",
+            "productIds": [
+              "TRANSACT01",
+              "SAVING01"
+            ]
+          }
+        ],
+        "features": [
+          {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfoUri": "https://anz.com/plus/products"
+          },
+          {
+            "featureType": "NPP_ENABLED"
+          },
+          {
+            "featureType": "UNLIMITED_TXNS"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Savings Goals - Set and track up to 99 savings goals without opening new accounts",
+            "additionalInfoUri": "https://anz.com/plus/products"
+          },
+          {
+            "featureType": "FRAUD_PROTECTION"
+          }
+        ],
+        "eligibility": [
+          {
+            "additionalValue": "15",
+            "eligibilityType": "MIN_AGE"
+          },
+          {
+            "eligibilityType": "NATURAL_PERSON"
+          },
+          {
+            "additionalValue": "Australian Permanent Resident, Australian Citizen, Australian Temporary Resident",
+            "eligibilityType": "RESIDENCY_STATUS"
+          }
+        ],
+        "fees": [
+          {
+            "name": "INTERNATIONAL INWARD MONEY TRANSFER FEE",
+            "feeType": "TRANSACTION",
+            "currency": "AUD",
+            "additionalInfo": "See the ANZ Plus Deposit Account T&Cs for details on fees.",
+            "additionalInfoUri": "https://anz.com/plus/terms",
+            "feeMethodUType": "variable",
+            "variable": {
+              "feeMinimum": "0.00",
+              "feeMaximum": "15.00"
+            }
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0010",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "additionalInfo": "ANZ Plus Growth Saver Rates",
+            "additionalInfoUri": "https://www.anz.com.au/plus/interest-fees/",
+            "applicationType": "PERIODIC",
+            "tiers": [
+              {
+                "name": "Greater than $0",
+                "unitOfMeasure": "DOLLAR",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "minimumValue": "0.00",
+                "maximumValue": "999999999.99"
+              }
+            ]
+          },
+          {
+            "depositRateType": "BONUS",
+            "rate": "0.0550",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "additionalValue": "Grow your savings by $100 or more (on top of any interest you receive) each month to earn a bonus rate with ANZ Plus Growth Saver.",
+            "additionalInfo": "Grow $100 by last business day of month",
+            "additionalInfoUri": "https://www.anz.com.au/plus/interest-fees/",
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": [
+              {
+                "additionalInfo": "Grow your savings by $100 or more (on top of any interest you receive) each month to earn a bonus rate with ANZ Plus Growth Saver",
+                "additionalInfoUri": "https://www.anz.com.au/plus/interest-fees/",
+                "rateApplicabilityType": "DEPOSIT_BALANCE_INCREASED",
+                "additionalValue": "100.00"
+              }
+            ]
+          }
+        ]
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "SAVING02",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "productId": "SAVING02",
+        "lastUpdated": "2026-10-08T13:00:00.000Z",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "name": "ANZ Plus Flex Saver",
+        "description": "Earn interest, pay bills and make transfers using the ANZ Plus Flex Saver.",
+        "brand": "ANZ Plus",
+        "brandName": "ANZ Plus",
+        "applicationUri": "https://anz.com/plus/products",
+        "isTailored": false,
+        "additionalInformation": {
+          "eligibilityUri": "https://anz.com/plus/terms",
+          "feesAndPricingUri": "https://anz.com/plus/terms",
+          "overviewUri": "https://www.anz.com.au/plus/accounts/anz-plus-flex-saver/",
+          "termsUri": "https://anz.com/plus/terms"
+        },
+        "features": [
+          {
+            "featureType": "BILL_PAYMENT",
+            "additionalValue": "PayTo",
+            "additionalInfoUri": "https://www.anz.com.au/plus/accounts/anz-plus-flex-saver/"
+          },
+          {
+            "featureType": "BILL_PAYMENT",
+            "additionalValue": "BPAY",
+            "additionalInfoUri": "https://www.anz.com.au/plus/accounts/anz-plus-flex-saver/"
+          },
+          {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfoUri": "https://anz.com/plus/products"
+          },
+          {
+            "featureType": "NPP_ENABLED"
+          },
+          {
+            "featureType": "NPP_PAYID",
+            "additionalInfoUri": "https://anz.com/plus/products"
+          },
+          {
+            "featureType": "UNLIMITED_TXNS"
+          },
+          {
+            "featureType": "FRAUD_PROTECTION"
+          }
+        ],
+        "eligibility": [
+          {
+            "additionalValue": "15",
+            "eligibilityType": "MIN_AGE"
+          },
+          {
+            "eligibilityType": "NATURAL_PERSON"
+          },
+          {
+            "additionalValue": "Australian Permanent Resident, Australian Citizen, Australian Temporary Resident",
+            "eligibilityType": "RESIDENCY_STATUS"
+          }
+        ],
+        "fees": [
+          {
+            "name": "INTERNATIONAL INWARD MONEY TRANSFER FEE",
+            "feeType": "TRANSACTION",
+            "currency": "AUD",
+            "additionalInfo": "See the ANZ Plus Deposit Account T&Cs for details on fees.",
+            "additionalInfoUri": "https://anz.com/plus/terms",
+            "feeMethodUType": "variable",
+            "variable": {
+              "feeMinimum": "0.00",
+              "feeMaximum": "15.00"
+            }
+          },
+          {
+            "name": "INTERNATIONAL MONEY TRANSFER FEE",
+            "feeType": "TRANSACTION",
+            "currency": "AUD",
+            "additionalInfo": "See the ANZ Plus Deposit Account T&Cs for details on fees.\n\n",
+            "additionalInfoUri": "https://anz.com/plus/terms",
+            "feeMethodUType": "variable",
+            "variable": {
+              "feeMinimum": "0.00",
+              "feeMaximum": "15.00"
+            }
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0535",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "additionalInfo": "ANZ Plus Flex Saver Rates",
+            "additionalInfoUri": "https://www.anz.com.au/plus/interest-fees/",
+            "applicationType": "PERIODIC",
+            "tiers": [
+              {
+                "name": "First $5,000",
+                "unitOfMeasure": "DOLLAR",
+                "rateApplicationMethod": "PER_TIER",
+                "minimumValue": "0.00",
+                "maximumValue": "5000.00",
+                "applicabilityConditions": [
+                  {
+                    "additionalInfo": "Balances up to $5,000",
+                    "additionalInfoUri": "https://www.anz.com.au/plus/interest-fees/",
+                    "rateApplicabilityType": "OTHER"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0235",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "additionalInfo": "ANZ Plus Flex Saver Rates",
+            "additionalInfoUri": "https://www.anz.com.au/plus/interest-fees/",
+            "applicationType": "PERIODIC",
+            "tiers": [
+              {
+                "name": "Every dollar over $5,000",
+                "unitOfMeasure": "DOLLAR",
+                "rateApplicationMethod": "PER_TIER",
+                "minimumValue": "5000.01",
+                "maximumValue": "999999999.99",
+                "applicabilityConditions": [
+                  {
+                    "additionalInfo": "Every dollar over $5,000",
+                    "additionalInfoUri": "https://www.anz.com.au/plus/interest-fees/",
+                    "rateApplicabilityType": "OTHER"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "TRANSACT01",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "productId": "TRANSACT01",
+        "lastUpdated": "2026-04-27T14:00:00.000Z",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "name": "ANZ Plus Everyday",
+        "description": "Get an ANZ Plus Everyday account to help sort your spending",
+        "brand": "ANZ Plus",
+        "brandName": "ANZ Plus",
+        "applicationUri": "https://anz.com/plus/products",
+        "isTailored": false,
+        "additionalInformation": {
+          "bundleUri": "https://anz.com/plus/products",
+          "eligibilityUri": "https://anz.com/plus/terms",
+          "feesAndPricingUri": "https://anz.com/plus/terms",
+          "overviewUri": "https://anz.com/plus/products",
+          "termsUri": "https://anz.com/plus/terms"
+        },
+        "cardArt": [
+          {
+            "cardScheme": "VISA",
+            "cardType": "DEBIT",
+            "imageUri": "https://anz.com.au/content/dam/anzplus/images/open-banking/anzplus-visa-debit-card-512px.png",
+            "title": "Consumer Visa Debit Card Standard"
+          }
+        ],
+        "bundles": [
+          {
+            "additionalInfoUri": "https://anz.com/plus/products",
+            "description": "ANZ Plus bundle with a single ANZ Plus Everyday account, a single ANZ Plus Growth Saver account and a Visa Debit Consumer Standard Card attached as a service to the ANZ Plus Everyday account.",
+            "name": "ANZ Plus",
+            "productIds": [
+              "TRANSACT01",
+              "SAVING01"
+            ]
+          }
+        ],
+        "features": [
+          {
+            "featureType": "BILL_PAYMENT",
+            "additionalValue": "BPAY",
+            "additionalInfoUri": "https://anz.com/plus/products"
+          },
+          {
+            "featureType": "BILL_PAYMENT",
+            "additionalValue": "PayTo",
+            "additionalInfoUri": "https://anz.com/plus/products"
+          },
+          {
+            "featureType": "CARD_ACCESS",
+            "additionalValue": "Consumer Visa Debit Card Standard",
+            "additionalInfoUri": "https://anz.com/plus/products"
+          },
+          {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfoUri": "https://anz.com/plus/products"
+          },
+          {
+            "featureType": "DIGITAL_WALLET",
+            "additionalValue": "Apple Pay",
+            "additionalInfoUri": "https://anz.com/plus/products"
+          },
+          {
+            "featureType": "DIGITAL_WALLET",
+            "additionalValue": "Google Pay",
+            "additionalInfoUri": "https://anz.com/plus/products"
+          },
+          {
+            "featureType": "DIGITAL_WALLET",
+            "additionalValue": "Samsung Pay",
+            "additionalInfoUri": "https://anz.com/plus/products"
+          },
+          {
+            "featureType": "DIGITAL_WALLET",
+            "additionalValue": "Garmin Pay",
+            "additionalInfoUri": "https://anz.com/plus/products"
+          },
+          {
+            "featureType": "NPP_ENABLED"
+          },
+          {
+            "featureType": "NPP_PAYID",
+            "additionalInfoUri": "https://anz.com/plus/products"
+          },
+          {
+            "featureType": "UNLIMITED_TXNS"
+          },
+          {
+            "featureType": "FRAUD_PROTECTION"
+          }
+        ],
+        "eligibility": [
+          {
+            "additionalValue": "15",
+            "eligibilityType": "MIN_AGE"
+          },
+          {
+            "eligibilityType": "NATURAL_PERSON"
+          },
+          {
+            "additionalValue": "Australian Permanent Resident, Australian Citizen, Australian Temporary Resident",
+            "eligibilityType": "RESIDENCY_STATUS"
+          }
+        ],
+        "fees": [
+          {
+            "name": "OVERSEAS NON ANZ ATM FEE",
+            "feeType": "TRANSACTION",
+            "currency": "AUD",
+            "additionalInfo": "See the ANZ Plus Deposit Account T&Cs for details on fees.",
+            "additionalInfoUri": "https://anz.com/plus/terms",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "5.00"
+            }
+          },
+          {
+            "name": "Overseas Transaction Fee",
+            "feeType": "TRANSACTION",
+            "currency": "AUD",
+            "additionalInfo": "See the ANZ Plus Deposit Account T&Cs for details on fees.",
+            "additionalInfoUri": "https://anz.com/plus/terms",
+            "feeMethodUType": "rateBased",
+            "rateBased": {
+              "rateType": "TRANSACTION",
+              "rate": "0.0300",
+              "amountRange": {
+                "feeMinimum": "0.00"
+              }
+            }
+          },
+          {
+            "name": "INTERNATIONAL INWARD MONEY TRANSFER FEE",
+            "feeType": "TRANSACTION",
+            "currency": "AUD",
+            "additionalInfo": "See the ANZ Plus Deposit Account T&Cs for details on fees.",
+            "additionalInfoUri": "https://anz.com/plus/terms",
+            "feeMethodUType": "variable",
+            "variable": {
+              "feeMinimum": "0.00",
+              "feeMaximum": "15.00"
+            }
+          },
+          {
+            "name": "OFFSET FEE",
+            "feeType": "EVENT",
+            "currency": "AUD",
+            "additionalInfo": "See the ANZ Plus Deposit Account T&Cs for details on fees.",
+            "additionalInfoUri": "https://anz.com/plus/terms",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "10.00"
+            }
+          },
+          {
+            "name": "INTERNATIONAL MONEY TRANSFER FEE",
+            "feeType": "TRANSACTION",
+            "currency": "AUD",
+            "additionalInfo": "See the ANZ Plus Deposit Account T&Cs for details on fees.\n\n",
+            "additionalInfoUri": "https://anz.com/plus/terms",
+            "feeMethodUType": "variable",
+            "variable": {
+              "feeMinimum": "0.00",
+              "feeMaximum": "15.00"
+            }
+          }
+        ]
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    }
+  ]
+}

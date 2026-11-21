@@ -1,0 +1,27 @@
+{
+  "endpoint": "https://api.cls.openbanking.prod.peppermoney.com.au/cds-au/v1/banking/products",
+  "slug": "connective-solutions-ab27a4",
+  "brands": [
+    {
+      "dataHolderBrandId": "e9244a99-b43e-f111-9a91-000d3ae0db82",
+      "brandName": "Connective Solutions",
+      "brandGroup": null,
+      "abn": "55094317665",
+      "industries": [
+        "non-bank-lending"
+      ]
+    }
+  ],
+  "list": {
+    "ok": true,
+    "status": 200,
+    "version": "5",
+    "totalPages": 1,
+    "pagesFetched": 1,
+    "productCount": 18,
+    "categoryCounts": {
+      "RESIDENTIAL_MORTGAGES": 18
+    }
+  },
+  "products": []
+}

@@ -1,0 +1,27 @@
+{
+  "endpoint": "https://public.qantas-atlas.cdr.colcap.com.au/cds-au/v1/banking/products",
+  "slug": "qantas-money-atlas-home-loans-551057",
+  "brands": [
+    {
+      "dataHolderBrandId": "5b837cec-deba-f111-81be-000d3a799057",
+      "brandName": "Qantas Money Atlas Home Loans",
+      "brandGroup": null,
+      "abn": "51119531252",
+      "industries": [
+        "non-bank-lending"
+      ]
+    }
+  ],
+  "list": {
+    "ok": true,
+    "status": 200,
+    "version": "5",
+    "totalPages": 1,
+    "pagesFetched": 1,
+    "productCount": 1,
+    "categoryCounts": {
+      "RESIDENTIAL_MORTGAGES": 1
+    }
+  },
+  "products": []
+}

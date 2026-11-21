@@ -1,0 +1,28 @@
+{
+  "endpoint": "https://public.cdr-paramount.thinktank.au/cds-au/v1/banking/products",
+  "slug": "paramount-edge-56d56f",
+  "brands": [
+    {
+      "dataHolderBrandId": "f93dddec-f674-f111-9b47-6045bd3f59f5",
+      "brandName": "Paramount Edge",
+      "brandGroup": null,
+      "abn": "75117819084",
+      "industries": [
+        "non-bank-lending"
+      ]
+    }
+  ],
+  "list": {
+    "ok": true,
+    "status": 200,
+    "version": "5",
+    "totalPages": 1,
+    "pagesFetched": 1,
+    "productCount": 4,
+    "categoryCounts": {
+      "RESIDENTIAL_MORTGAGES": 2,
+      "BUSINESS_LOANS": 2
+    }
+  },
+  "products": []
+}

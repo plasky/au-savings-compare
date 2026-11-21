@@ -1,0 +1,27 @@
+{
+  "endpoint": "https://public.prime.cdr.colcap.com.au/cds-au/v1/banking/products",
+  "slug": "prime-mortgage-group-2bdd39",
+  "brands": [
+    {
+      "dataHolderBrandId": "c7a586d0-deba-f111-81be-000d3a799057",
+      "brandName": "Prime Mortgage Group",
+      "brandGroup": null,
+      "abn": "51119531252",
+      "industries": [
+        "non-bank-lending"
+      ]
+    }
+  ],
+  "list": {
+    "ok": false,
+    "status": 400,
+    "version": null,
+    "error": "http-400",
+    "errorDetail": "urn:au-cds:error:cds-all:Field/Invalid | Invalid Field | Invalid Field",
+    "totalPages": null,
+    "pagesFetched": 0,
+    "productCount": 0,
+    "categoryCounts": {}
+  },
+  "products": []
+}

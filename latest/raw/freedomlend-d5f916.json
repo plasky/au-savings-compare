@@ -1,0 +1,27 @@
+{
+  "endpoint": "https://public.freedom.cdr.colcap.com.au/cds-au/v1/banking/products",
+  "slug": "freedomlend-d5f916",
+  "brands": [
+    {
+      "dataHolderBrandId": "2d3cd758-d7ba-f111-81be-000d3a799057",
+      "brandName": "FreedomLend",
+      "brandGroup": null,
+      "abn": "51119531252",
+      "industries": [
+        "non-bank-lending"
+      ]
+    }
+  ],
+  "list": {
+    "ok": false,
+    "status": 400,
+    "version": null,
+    "error": "http-400",
+    "errorDetail": "urn:au-cds:error:cds-all:Field/Invalid | Invalid Field | Invalid Field",
+    "totalPages": null,
+    "pagesFetched": 0,
+    "productCount": 0,
+    "categoryCounts": {}
+  },
+  "products": []
+}

@@ -1,0 +1,28 @@
+{
+  "endpoint": "https://public.prd.fiatfinancialservices.com.au/cds-au/v1/banking/products",
+  "slug": "fiat-financial-services-australia-392aa2",
+  "brands": [
+    {
+      "dataHolderBrandId": "f0f918f1-c76e-f111-9b47-6045bd3f59f5",
+      "brandName": "Fiat Financial Services Australia",
+      "brandGroup": null,
+      "abn": "31609859985",
+      "industries": [
+        "non-bank-lending"
+      ]
+    }
+  ],
+  "list": {
+    "ok": true,
+    "status": 200,
+    "version": "5",
+    "totalPages": 1,
+    "pagesFetched": 1,
+    "productCount": 2,
+    "categoryCounts": {
+      "PERS_LOANS": 1,
+      "BUSINESS_LOANS": 1
+    }
+  },
+  "products": []
+}

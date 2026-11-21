@@ -1,0 +1,1922 @@
+{
+  "endpoint": "https://au-cdr-public.revolut.com/public/cds-au/v1/banking/products",
+  "slug": "revolut-0420b3",
+  "brands": [
+    {
+      "dataHolderBrandId": "a890809f-ee12-ed11-a831-000d3a8830d6",
+      "brandName": "Revolut",
+      "brandGroup": null,
+      "abn": "21634823180",
+      "industries": [
+        "banking"
+      ]
+    }
+  ],
+  "list": {
+    "ok": true,
+    "status": 200,
+    "version": "5",
+    "totalPages": 1,
+    "pagesFetched": 1,
+    "productCount": 11,
+    "categoryCounts": {
+      "CRED_AND_CHRG_CARDS": 1,
+      "TRANS_AND_SAVINGS_ACCOUNTS": 9,
+      "PERS_LOANS": 1
+    }
+  },
+  "products": [
+    {
+      "productId": "1c4b00ef-fc1c-4e72-a85a-3d2c20645492",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "productId": "1c4b00ef-fc1c-4e72-a85a-3d2c20645492",
+        "lastUpdated": "2026-09-10T13:44:58.054177Z",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "name": "Revolut Business Multi-currency Wallet",
+        "description": "A non-AUD multi-currency sub-account for holding and exchanging foreign currencies within the Revolut Business Account. Features and fees will vary based on paid plan tiers (Basic, Grow, Scale, Enterprise).",
+        "brand": "Revolut",
+        "isTailored": false,
+        "additionalInformation": {
+          "termsUri": "https://www.revolut.com/en-AU/legal/business-terms/",
+          "overviewUri": "https://www.revolut.com/en-AU/business/",
+          "eligibilityUri": "https://www.revolut.com/en-AU/legal/business-terms/",
+          "feesAndPricingUri": "https://www.revolut.com/en-AU/legal/business-fees/"
+        },
+        "cardArt": [],
+        "features": [
+          {
+            "additionalInfo": "Manage business finances with powerful budgeting, analytics, multi-currency accounts, international transfers and expense management.",
+            "featureType": "DIGITAL_BANKING"
+          },
+          {
+            "additionalInfo": "Real-time transaction monitoring, instant card freeze via app, two-factor authentication for sensitive transactions, and 3D Secure.",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/business/how-we-keep-your-money-safe/",
+            "featureType": "FRAUD_PROTECTION"
+          },
+          {
+            "additionalValue": "0",
+            "additionalInfo": "Reflects the number of inbound and outbound international transfers each month for a Basic Plan that don't incur a transfer fee. This international transfer allowance will vary depending on your plan - see our website for more info.",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/legal/business-fees/",
+            "featureType": "FREE_TXNS"
+          },
+          {
+            "additionalValue": "2000.00",
+            "additionalInfo": "Reflects monthly exchange allowance for Basic plan. Exchange allowance will vary depending on your plan - see our website for more info.",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/legal/business-fees/",
+            "featureType": "FREE_TXNS_ALLOWANCE"
+          },
+          {
+            "additionalValue": "Instant push notifications available and can be customised in-app",
+            "featureType": "NOTIFICATIONS"
+          },
+          {
+            "additionalValue": "Basic plan",
+            "additionalInfo": "Features and benefits will vary depending on your plan - see our website for more info. Plan-specific fees and benefits are tied to your Revolut Business Account.",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/legal/business-fees/",
+            "featureType": "OTHER"
+          },
+          {
+            "additionalValue": "Grow plan",
+            "additionalInfo": "Features and benefits will vary depending on your plan - see our website for more info. Plan-specific fees and benefits are tied to your Revolut Business Account.",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/legal/business-fees/",
+            "featureType": "OTHER"
+          },
+          {
+            "additionalValue": "Scale plan",
+            "additionalInfo": "Features and benefits will vary depending on your plan - see our website for more info. Plan-specific fees and benefits are tied to your Revolut Business Account.",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/legal/business-fees/",
+            "featureType": "OTHER"
+          },
+          {
+            "additionalValue": "Enterprise plan",
+            "additionalInfo": "Features and benefits will vary depending on your plan - see our website for more info. Plan-specific fees and benefits are tied to your Revolut Business Account.",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/legal/business-fees/",
+            "featureType": "OTHER"
+          }
+        ],
+        "constraints": [],
+        "eligibility": [
+          {
+            "additionalInfo": "Business must be fully incorporated and active and registered in Australia. Other business eligibility conditions may apply.",
+            "additionalInfoUri": "https://help.revolut.com/en-AU/business/help/setting-up-an-account/is-my-business-eligible/why-is-my-account-not-eligible/",
+            "eligibilityType": "BUSINESS"
+          },
+          {
+            "additionalValue": "18",
+            "eligibilityType": "MIN_AGE"
+          },
+          {
+            "additionalValue": "Must be a resident of one of the following: Australia, Austria, Belgium, Bulgaria, Croatia, Cyprus, Czechia, Denmark, Estonia, Finland (including the Åland Islands), France (including Corsica, French Guyana, Guadeloupe, Martinique, Mayotte, Réunion, and Saint-Martin), Germany, Greece, Hungary, Iceland, Ireland, Italy, Latvia, Liechtenstein, Lithuania, Luxembourg, Malta, Netherlands, Norway, Poland, Portugal (including the Azores and Madeira), Romania, Singapore, Slovakia, Slovenia, Spain (including the Canary Islands), Sweden, Switzerland, the United Kingdom, or the United States",
+            "eligibilityType": "RESIDENCY_STATUS"
+          }
+        ],
+        "fees": [
+          {
+            "additionalValue": "INTERNATIONAL",
+            "additionalInfo": "This reflects the international transfer fee for a Basic plan. Fees may vary depending on your plan and allowances. This doesn't include SWIFT transfers. See our website for more info.",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/legal/business-fees/",
+            "name": "International Transfers Over Allowance Fee",
+            "feeType": "PAYMENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "10.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "additionalValue": "SWIFT",
+            "additionalInfo": "Pay the full intermediary bank fee amount for transfers processed by the SWIFT network, and ensure that the recipient receives the full payment amount.",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/legal/business-fees/",
+            "name": "SWIFT (OUR) Transfers",
+            "feeType": "PAYMENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "35.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "additionalInfo": "This reflects the Basic plan rate and is applied over the exchange allowance. Currency exchange rates will vary depending on plan, exchange allowance and exchange market hours.",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/legal/business-fees/",
+            "name": "Exchange Fees",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "rateBased",
+            "rateBased": {
+              "rateType": "TRANSACTION",
+              "rate": "0.006"
+            },
+            "currency": "AUD"
+          },
+          {
+            "additionalInfo": "2% fee applies to all ATM withdrawals. Third-party ATM operator fees may also apply.",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/legal/business-fees/",
+            "name": "ATM Withdrawal Fee",
+            "feeType": "WITHDRAWAL",
+            "feeMethodUType": "rateBased",
+            "rateBased": {
+              "rateType": "TRANSACTION",
+              "rate": "0.02"
+            },
+            "currency": "AUD"
+          }
+        ],
+        "depositRates": [],
+        "lendingRates": []
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "4f5beba9-3e44-497e-b429-58e43b5d7476",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "productId": "4f5beba9-3e44-497e-b429-58e43b5d7476",
+        "lastUpdated": "2026-09-29T09:05:14.489841Z",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "name": "Revolut Kids & Teens Account",
+        "description": "A sub-account linked to a parent's Revolut Personal Account intended for children aged 6 to 15, designed to help young users develop financial skills with parental oversight. Features and allowances vary based on the parent's subscription plan tier.",
+        "brand": "Revolut",
+        "isTailored": false,
+        "additionalInformation": {
+          "termsUri": "https://www.revolut.com/en-AU/legal/revolut-under18",
+          "overviewUri": "https://www.revolut.com/en-AU/revolut-kids-and-teens-parent-and-guardians/",
+          "eligibilityUri": "https://www.revolut.com/en-AU/legal/revolut-under18",
+          "feesAndPricingUri": "https://www.revolut.com/en-AU/legal/revolut-under18"
+        },
+        "cardArt": [],
+        "features": [
+          {
+            "additionalValue": "1",
+            "additionalInfo": "Reflects the maximum number of linked RKT accounts for a parent on Standard plan. The number of linked RKT accounts will vary depending on the parent's plan - see our website for more info",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/legal/revolut-under18/",
+            "featureType": "ADDITIONAL_CARDS"
+          },
+          {
+            "additionalValue": "Visa or Mastercard prepaid card (physical and virtual)",
+            "featureType": "CARD_ACCESS"
+          },
+          {
+            "additionalInfo": "Manage spending with budgeting and analytics, designed for young users under parental oversight",
+            "featureType": "DIGITAL_BANKING"
+          },
+          {
+            "additionalValue": "Apple Pay, Google Pay",
+            "additionalInfo": "Kids & Teens physical cards available for all users and virtual cards are available for those aged 13+",
+            "featureType": "DIGITAL_WALLET"
+          },
+          {
+            "additionalInfo": "Real-time transaction monitoring, instant card freeze via app and disposable virtual card numbers",
+            "featureType": "FRAUD_PROTECTION"
+          },
+          {
+            "additionalValue": "750.00",
+            "additionalInfo": "Reflects the monthly fair usage limit for non-AUD RKT Card transactions for a parent on Standard plan. FX fair usage allowance will vary depending on the parent's plan and exchange market hours - see our website for more info",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/legal/revolut-under18/",
+            "featureType": "FREE_TXNS_ALLOWANCE"
+          },
+          {
+            "additionalValue": "150.00",
+            "additionalInfo": "Reflects monthly RKT ATM withdrawal allowance for a parent on Standard plan. ATM withdrawal allowance will vary depending on the parent's plan - see our website for more info",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/legal/revolut-under18/",
+            "featureType": "FREE_TXNS_ALLOWANCE"
+          },
+          {
+            "additionalValue": "Instant push notifications available and can be customised by parent in-app",
+            "featureType": "NOTIFICATIONS"
+          },
+          {
+            "additionalValue": "Parent account on Standard plan",
+            "additionalInfo": "Features and benefits will vary depending on the parent's plan - see our website for more info. Plan-specific fees and benefits are tied to the parent's Revolut Personal Account",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/our-pricing-plans/",
+            "featureType": "OTHER"
+          },
+          {
+            "additionalValue": "Parent account on Plus plan",
+            "additionalInfo": "Features and benefits will vary depending on the parent's plan - see our website for more info. Plan-specific fees and benefits are tied to the parent's Revolut Personal Account",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/our-pricing-plans/",
+            "featureType": "OTHER"
+          },
+          {
+            "additionalValue": "Parent account on Premium plan",
+            "additionalInfo": "Features and benefits will vary depending on the parent's plan - see our website for more info. Plan-specific fees and benefits are tied to the parent's Revolut Personal Account",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/our-pricing-plans/",
+            "featureType": "OTHER"
+          },
+          {
+            "additionalValue": "Parent account on Metal plan",
+            "additionalInfo": "Features and benefits will vary depending on the parent's plan - see our website for more info. Plan-specific fees and benefits are tied to the parent's Revolut Personal Account",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/our-pricing-plans/",
+            "featureType": "OTHER"
+          },
+          {
+            "additionalValue": "Parent account on Ultra plan",
+            "additionalInfo": "Features and benefits will vary depending on the parent's plan - see our website for more info. Plan-specific fees and benefits are tied to the parent's Revolut Personal Account",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/our-pricing-plans/",
+            "featureType": "OTHER"
+          }
+        ],
+        "constraints": [
+          {
+            "additionalValue": "999.00",
+            "additionalInfo": "Maximum total RKT Account balance across all currency pockets, aggregated and converted to AUD at current FX rates",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/legal/revolut-under18/",
+            "constraintType": "MAX_BALANCE"
+          },
+          {
+            "additionalValue": "210.00",
+            "additionalInfo": "Maximum amount per day ATM withdrawals across all currency pockets, aggregated and converted to AUD at current FX rates; daily and weekly cap on ATM withdrawal instances also apply",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/legal/revolut-under18/",
+            "constraintType": "MAX_LIMIT"
+          },
+          {
+            "additionalValue": "999.00",
+            "additionalInfo": "Maximum amount per day for card transactions across all currency pockets, aggregated and converted to AUD at current FX rates; daily transaction cap also applies. Transactions above a certain threshold may require parent approval",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/legal/revolut-under18/",
+            "constraintType": "MAX_LIMIT"
+          },
+          {
+            "additionalValue": "7000.00",
+            "additionalInfo": "Maximum per year for top-ups including receiving RKT Payments across all currency pockets, aggregated and converted to AUD at current FX rates",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/legal/revolut-under18/",
+            "constraintType": "MAX_LIMIT"
+          }
+        ],
+        "eligibility": [
+          {
+            "additionalValue": "6",
+            "eligibilityType": "MIN_AGE"
+          },
+          {
+            "additionalValue": "18",
+            "additionalInfo": "Kids & Teens is intended for children aged 6 to 15. When the RKT user turns 16, they may migrate to a 16–17 account. At 18, they may move to a full Retail account. The RKT account is force-closed on the last day before their 19th birthday.",
+            "eligibilityType": "MAX_AGE"
+          },
+          {
+            "additionalInfo": "Available to children of eligible Revolut account holders only. The parent or guardian must hold a Revolut Personal Account",
+            "eligibilityType": "NATURAL_PERSON"
+          },
+          {
+            "additionalValue": "Must be an Australian resident with a valid Australian residential address",
+            "additionalInfo": "Australian residents including temporary visa holders are eligible. Non-residents are not eligible for an Australian Revolut account",
+            "eligibilityType": "RESIDENCY_STATUS"
+          },
+          {
+            "additionalInfo": "A parent or guardian must hold an active Revolut Personal Account to create a Kids & Teens sub-account. The Kids & Teens account is linked to and managed by the parent's account",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/revolut-kids/",
+            "eligibilityType": "OTHER"
+          }
+        ],
+        "fees": [
+          {
+            "additionalInfo": "The rate shown is for Consumer domestic credit. Fees may vary depending on top-up methods and the parent's plan",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/legal/fees/",
+            "name": "Top-Up Fee",
+            "feeType": "DEPOSIT",
+            "feeMethodUType": "rateBased",
+            "rateBased": {
+              "rateType": "TRANSACTION",
+              "rate": "0.004"
+            },
+            "currency": "AUD"
+          },
+          {
+            "additionalInfo": "Reflects the additional card fee for a Standard plan. Fees may vary depending on the parent's plan and card type and delivery fees may also apply - see our website for more info.",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/legal/fees/",
+            "name": "Additional Kids & Teens Card Fee",
+            "feeType": "EVENT",
+            "feeMethodUType": "variable",
+            "variable": {
+              "feeMinimum": "0.00",
+              "feeMaximum": "8.99"
+            },
+            "currency": "AUD"
+          },
+          {
+            "additionalInfo": "Fees may vary depending on the parent's plan - see our website for more info.",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/legal/fees/",
+            "name": "Kids & Teens Card Personalisation Fee",
+            "feeType": "EVENT",
+            "feeMethodUType": "variable",
+            "variable": {
+              "feeMinimum": "0.00",
+              "feeMaximum": "3.99"
+            },
+            "currency": "AUD"
+          },
+          {
+            "additionalInfo": "This reflects the Standard plan rate charged over the fair usage limit. Currency exchange rates will vary depending on the parent's plan, currency destination, fair usage allowance and exchange market hours. Third parties fees may also impose additional fees.",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/legal/fees/",
+            "name": "Exchange Fee",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "rateBased",
+            "rateBased": {
+              "rateType": "TRANSACTION",
+              "rate": "0.005"
+            },
+            "currency": "AUD"
+          },
+          {
+            "additionalInfo": "This reflects the Standard Currency Transfer Fee. Currency exchange rates will vary depending on the parent's plan, currency destination, fair usage allowance and exchange market hours. Third parties fees may also impose additional fees.",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/legal/fees/",
+            "name": "Currency Transfer Fee",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "rateBased",
+            "rateBased": {
+              "rateType": "TRANSACTION",
+              "rate": "0.0015"
+            },
+            "currency": "AUD"
+          },
+          {
+            "additionalInfo": "This reflects the Standard plan fee charged over the monthly ATM Withdrawal Allowance. Fees and monthly ATM withdrawal allowances will vary depending on the parent's plan - see our website for more info. Third-party ATM operator fees may also apply.",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/legal/fees/",
+            "name": "ATM Withdrawal Fee",
+            "feeType": "WITHDRAWAL",
+            "feeMethodUType": "rateBased",
+            "rateBased": {
+              "rateType": "TRANSACTION",
+              "rate": "0.02",
+              "amountRange": {
+                "feeMinimum": "1.50"
+              }
+            },
+            "currency": "AUD"
+          }
+        ],
+        "depositRates": [],
+        "lendingRates": []
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "550e8400-e29b-41d4-a716-446655440000",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "productId": "550e8400-e29b-41d4-a716-446655440000",
+        "lastUpdated": "2026-09-29T09:05:14.489841Z",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "name": "Revolut Personal Account",
+        "description": "A multi-currency transaction account with app-based management, international transfers, currency exchange and a debit card. Features and fees will vary based on paid plan tiers (Standard, Plus, Premium, Metal, Ultra).",
+        "brand": "Revolut",
+        "isTailored": false,
+        "additionalInformation": {
+          "termsUri": "https://www.revolut.com/en-AU/legal/terms/",
+          "overviewUri": "https://www.revolut.com/en-AU/personal-account/",
+          "eligibilityUri": "https://www.revolut.com/en-AU/legal/terms/",
+          "feesAndPricingUri": "https://www.revolut.com/en-AU/legal/fees/"
+        },
+        "cardArt": [],
+        "features": [
+          {
+            "additionalValue": "5",
+            "additionalInfo": "Reflects the number of additional physical cards that can be active. Virtual cards have a different active limit.",
+            "additionalInfoUri": "https://help.revolut.com/en-AU/help/cards/card-order/can-i-have-multiple-cards/",
+            "featureType": "ADDITIONAL_CARDS"
+          },
+          {
+            "additionalValue": "BPAY",
+            "additionalInfo": "BPAY is a convenient and secure way to pay bills in Australia.",
+            "additionalInfoUri": "https://help.revolut.com/en-AU/help/transfers/bpay/question-what-is-bpay-and-how-can-i-use-it/",
+            "featureType": "BILL_PAYMENT"
+          },
+          {
+            "additionalValue": "Visa or Mastercard debit card (physical and virtual)",
+            "additionalInfo": "Virtual card available instantly in-app. Physical card delivery fees will vary depending on your plan - see our website for more info.",
+            "featureType": "CARD_ACCESS"
+          },
+          {
+            "additionalValue": "Additional complementary products such as subscriptions, eSims, airport lounge passes and security fast track lane access may be eligible depending on your subscription plan.",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/our-pricing-plans/",
+            "featureType": "COMPLEMENTARY_PRODUCT_DISCOUNTS"
+          },
+          {
+            "additionalInfo": "Manage your everyday spending with powerful budgeting and analytics, transfer money abroad, spend easily in the local currency, and so much more.",
+            "featureType": "DIGITAL_BANKING"
+          },
+          {
+            "additionalValue": "Apple Pay, Google Pay",
+            "additionalInfo": "Available for both physical and virtual Revolut cards.",
+            "featureType": "DIGITAL_WALLET"
+          },
+          {
+            "additionalInfo": "Real-time transaction monitoring, instant card freeze via app and disposable virtual card numbers.",
+            "featureType": "FRAUD_PROTECTION"
+          },
+          {
+            "additionalValue": "Everyday Protection and/or Travel Insurance",
+            "additionalInfo": "If you are subscribed to a Paid Plan, you may be eligible to access the benefit of certain complimentary insurance cover.",
+            "featureType": "INSURANCE"
+          },
+          {
+            "additionalValue": "2000.00",
+            "additionalInfo": "Reflects monthly FX fair usage allowance for Standard plan. FX fair usage allowance will vary depending on your plan. Fees may apply outside of exchange market hours - see our website for more info.",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/legal/fees/",
+            "featureType": "FREE_TXNS_ALLOWANCE"
+          },
+          {
+            "additionalValue": "350.00",
+            "additionalInfo": "Reflects monthly ATM withdrawal allowance for Standard plan. Transaction caps may apply. AU domestic ATM cash withdrawals are not included in as part of your monthly ATM withdrawal allowance. ATM withdrawal allowance will vary depending on your plan - see our website for more info.",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/legal/fees/",
+            "featureType": "FREE_TXNS_ALLOWANCE"
+          },
+          {
+            "additionalValue": "RevPoints",
+            "additionalInfo": "Earn RevPoints on eligible card purchases. Redeemable with multiple airlines and other options. T&Cs apply.",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/revpoints/",
+            "featureType": "LOYALTY_PROGRAM"
+          },
+          {
+            "additionalValue": "Instant push notifications available and can be customised in-app",
+            "featureType": "NOTIFICATIONS"
+          },
+          {
+            "additionalInfo": "Pay and receive near real-time payments.",
+            "featureType": "NPP_ENABLED"
+          },
+          {
+            "additionalInfo": "Mobile number and email address PayID supported; register via the Revolut app under Account Settings.",
+            "featureType": "NPP_PAYID"
+          },
+          {
+            "additionalValue": "Standard plan",
+            "additionalInfo": "Features and benefits will vary depending on your plan - see our website for more info. Plan-specific fees and benefits are tied to your Revolut Personal Account.",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/our-pricing-plans/",
+            "featureType": "OTHER"
+          },
+          {
+            "additionalValue": "Plus plan",
+            "additionalInfo": "Features and benefits will vary depending on your plan - see our website for more info. Plan-specific fees and benefits are tied to your Revolut Personal Account.",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/our-pricing-plans/",
+            "featureType": "OTHER"
+          },
+          {
+            "additionalValue": "Premium plan",
+            "additionalInfo": "Features and benefits will vary depending on your plan - see our website for more info. Plan-specific fees and benefits are tied to your Revolut Personal Account.",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/our-pricing-plans/",
+            "featureType": "OTHER"
+          },
+          {
+            "additionalValue": "Metal plan",
+            "additionalInfo": "Features and benefits will vary depending on your plan - see our website for more info. Plan-specific fees and benefits are tied to your Revolut Personal Account.",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/our-pricing-plans/",
+            "featureType": "OTHER"
+          },
+          {
+            "additionalValue": "Ultra plan",
+            "additionalInfo": "Features and benefits will vary depending on your plan - see our website for more info. Plan-specific fees and benefits are tied to your Revolut Personal Account.",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/our-pricing-plans/",
+            "featureType": "OTHER"
+          },
+          {
+            "additionalValue": "Revolut Kids & Teens (RKT)",
+            "additionalInfo": "Allows parents to create a sub-account for children aged from 6 to 16 years old (a RKT user) to enable their children to gain financial skills by teaching them how to use and manage money.",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/revolut-kids-and-teens-parent-and-guardians/",
+            "featureType": "OTHER"
+          }
+        ],
+        "constraints": [],
+        "eligibility": [
+          {
+            "additionalValue": "18",
+            "eligibilityType": "MIN_AGE"
+          },
+          {
+            "additionalInfo": "Available to eligible customers only. Business customers should apply for a Revolut Business account.",
+            "eligibilityType": "NATURAL_PERSON"
+          },
+          {
+            "additionalValue": "Must be an Australian resident with a valid Australian residential address",
+            "additionalInfo": "Australian residents including temporary visa holders are eligible. Non-residents are not eligible for an Australian Revolut account.",
+            "eligibilityType": "RESIDENCY_STATUS"
+          }
+        ],
+        "fees": [
+          {
+            "additionalInfo": "The rate shown is for Consumer domestic credit. Fees may vary depending on top-up methods",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/legal/fees/",
+            "name": "Top-Up Fee",
+            "feeType": "DEPOSIT",
+            "feeMethodUType": "rateBased",
+            "rateBased": {
+              "rateType": "TRANSACTION",
+              "rate": "0.004"
+            },
+            "currency": "AUD"
+          },
+          {
+            "additionalInfo": "This reflects the Standard card fee. Fees may vary depending on your plan and card type and delivery fees may also apply - see our website for more info.",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/legal/fees/",
+            "name": "Additional Card Fee",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "8.99"
+            },
+            "currency": "AUD"
+          },
+          {
+            "additionalInfo": "Fees may vary depending on your plan - see our website for more info.",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/legal/fees/",
+            "name": "Card Personalisation Fee",
+            "feeType": "EVENT",
+            "feeMethodUType": "variable",
+            "variable": {
+              "feeMinimum": "0.00",
+              "feeMaximum": "7.99"
+            },
+            "currency": "AUD"
+          },
+          {
+            "additionalValue": "P1M",
+            "additionalInfo": "All plans and fees are subject to our T&Cs, which may change from time to time.",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/legal/fees/",
+            "name": "Standard Monthly Fee",
+            "feeType": "PERIODIC",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "additionalValue": "P1M",
+            "additionalInfo": "All plans and fees are subject to our T&Cs, which may change from time to time.",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/legal/fees/",
+            "name": "Plus Monthly Fee",
+            "feeType": "PERIODIC",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "5.99"
+            },
+            "currency": "AUD"
+          },
+          {
+            "additionalValue": "P1M",
+            "additionalInfo": "All plans and fees are subject to our T&Cs, which may change from time to time.",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/legal/fees/",
+            "name": "Premium Monthly Fee",
+            "feeType": "PERIODIC",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "11.99"
+            },
+            "currency": "AUD"
+          },
+          {
+            "additionalValue": "P1M",
+            "additionalInfo": "All plans and fees are subject to our T&Cs, which may change from time to time.",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/legal/fees/",
+            "name": "Metal Monthly Fee",
+            "feeType": "PERIODIC",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "28.99"
+            },
+            "currency": "AUD"
+          },
+          {
+            "additionalValue": "P1M",
+            "additionalInfo": "All plans and fees are subject to our T&Cs, which may change from time to time.",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/legal/fees/",
+            "name": "Ultra Monthly Fee",
+            "feeType": "PERIODIC",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "99.99"
+            },
+            "currency": "AUD"
+          },
+          {
+            "additionalValue": "P1Y",
+            "additionalInfo": "All plans and fees are subject to our T&Cs, which may change from time to time.",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/legal/fees/",
+            "name": "Standard Annual Fee",
+            "feeType": "PERIODIC",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "additionalValue": "P1Y",
+            "additionalInfo": "All plans and fees are subject to our T&Cs, which may change from time to time.",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/legal/fees/",
+            "name": "Plus Annual Fee",
+            "feeType": "PERIODIC",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "59.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "additionalValue": "P1Y",
+            "additionalInfo": "All plans and fees are subject to our T&Cs, which may change from time to time.",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/legal/fees/",
+            "name": "Premium Annual Fee",
+            "feeType": "PERIODIC",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "119.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "additionalValue": "P1Y",
+            "additionalInfo": "All plans and fees are subject to our T&Cs, which may change from time to time.",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/legal/fees/",
+            "name": "Metal Annual Fee",
+            "feeType": "PERIODIC",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "279.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "additionalValue": "P1Y",
+            "additionalInfo": "All plans and fees are subject to our T&Cs, which may change from time to time.",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/legal/fees/",
+            "name": "Ultra Annual Fee",
+            "feeType": "PERIODIC",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "999.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "additionalInfo": "This reflects the Standard plan rate charged over the fair usage limit. Currency exchange rates will vary depending on plan, currency destination, fair usage allowance and exchange market hours. Third parties fees may also impose additional fees.",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/legal/fees/",
+            "name": "Exchange Fee",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "rateBased",
+            "rateBased": {
+              "rateType": "TRANSACTION",
+              "rate": "0.005"
+            },
+            "currency": "AUD"
+          },
+          {
+            "additionalInfo": "This reflects the Standard Currency Transfer Fee. Currency exchange rates will vary depending on plan, currency destination, fair usage allowance and exchange market hours. Third parties fees may also impose additional fees.",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/legal/fees/",
+            "name": "Currency Transfer Fee",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "rateBased",
+            "rateBased": {
+              "rateType": "TRANSACTION",
+              "rate": "0.0015"
+            },
+            "currency": "AUD"
+          },
+          {
+            "additionalInfo": "This reflects the Standard plan fee charged over the monthly ATM Withdrawal Allowance. Fees and monthly ATM withdrawal allowances will vary depending on your plan - see our website for more info. AU domestic ATM cash withdrawals do not carry fees. Third-party ATM operator fees may also apply.",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/legal/fees/",
+            "name": "ATM Withdrawal Fee",
+            "feeType": "WITHDRAWAL",
+            "feeMethodUType": "rateBased",
+            "rateBased": {
+              "rateType": "TRANSACTION",
+              "rate": "0.02",
+              "amountRange": {
+                "feeMinimum": "1.50"
+              }
+            },
+            "currency": "AUD"
+          }
+        ],
+        "depositRates": [],
+        "lendingRates": []
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "550e8400-e29b-41d4-a716-446655440001",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "productId": "550e8400-e29b-41d4-a716-446655440001",
+        "lastUpdated": "2026-09-29T09:05:14.489841Z",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "name": "Revolut Personal Multi-Currency Wallet",
+        "description": "A non-AUD multi-currency sub-account for holding and exchanging foreign currencies within the Revolut Personal Account. Features and fees will vary based on paid plan tiers (Standard, Plus, Premium, Metal, Ultra).",
+        "brand": "Revolut",
+        "isTailored": false,
+        "additionalInformation": {
+          "termsUri": "https://www.revolut.com/en-AU/legal/terms/",
+          "overviewUri": "https://www.revolut.com/en-AU/personal-account/",
+          "eligibilityUri": "https://www.revolut.com/en-AU/legal/terms/",
+          "feesAndPricingUri": "https://www.revolut.com/en-AU/legal/fees/"
+        },
+        "cardArt": [],
+        "features": [
+          {
+            "additionalInfo": "Manage your everyday spending with powerful budgeting and analytics, transfer money abroad, spend easily in the local currency, and so much more.",
+            "featureType": "DIGITAL_BANKING"
+          },
+          {
+            "additionalInfo": "Real-time transaction monitoring, instant card freeze via app and disposable virtual card numbers.",
+            "featureType": "FRAUD_PROTECTION"
+          },
+          {
+            "additionalValue": "2000.00",
+            "additionalInfo": "Reflects monthly FX fair usage allowance for Standard plan. FX fair usage allowance will vary depending on your plan and exchange market hours - see our website for more info.",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/legal/fees/",
+            "featureType": "FREE_TXNS_ALLOWANCE"
+          },
+          {
+            "additionalValue": "350.00",
+            "additionalInfo": "Reflects monthly ATM withdrawal allowance for Standard plan. AU domestic ATM cash withdrawals are not included in as part of your monthly ATM withdrawal allowance. Transaction caps may apply. ATM withdrawal allowance will vary depending on your plan - see our website for more info.",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/legal/fees/",
+            "featureType": "FREE_TXNS_ALLOWANCE"
+          },
+          {
+            "additionalValue": "RevPoints",
+            "additionalInfo": "Earn RevPoints on eligible card purchases. Redeemable with multiple airlines and other options. T&Cs apply.",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/revpoints/",
+            "featureType": "LOYALTY_PROGRAM"
+          },
+          {
+            "additionalValue": "Instant push notifications available and can be customised in-app",
+            "featureType": "NOTIFICATIONS"
+          },
+          {
+            "additionalValue": "Standard plan",
+            "additionalInfo": "Features and benefits will vary depending on your plan - see our website for more info. Plan-specific fees and benefits are tied to your Revolut Personal Account.",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/our-pricing-plans/",
+            "featureType": "OTHER"
+          },
+          {
+            "additionalValue": "Plus plan",
+            "additionalInfo": "Features and benefits will vary depending on your plan - see our website for more info. Plan-specific fees and benefits are tied to your Revolut Personal Account.",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/our-pricing-plans/",
+            "featureType": "OTHER"
+          },
+          {
+            "additionalValue": "Premium plan",
+            "additionalInfo": "Features and benefits will vary depending on your plan - see our website for more info. Plan-specific fees and benefits are tied to your Revolut Personal Account.",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/our-pricing-plans/",
+            "featureType": "OTHER"
+          },
+          {
+            "additionalValue": "Metal plan",
+            "additionalInfo": "Features and benefits will vary depending on your plan - see our website for more info. Plan-specific fees and benefits are tied to your Revolut Personal Account.",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/our-pricing-plans/",
+            "featureType": "OTHER"
+          },
+          {
+            "additionalValue": "Ultra plan",
+            "additionalInfo": "Features and benefits will vary depending on your plan - see our website for more info. Plan-specific fees and benefits are tied to your Revolut Personal Account.",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/our-pricing-plans/",
+            "featureType": "OTHER"
+          }
+        ],
+        "constraints": [],
+        "eligibility": [
+          {
+            "additionalValue": "18",
+            "eligibilityType": "MIN_AGE"
+          },
+          {
+            "additionalInfo": "Available to eligible customers only. Business customers should apply for a Revolut Business account.",
+            "eligibilityType": "NATURAL_PERSON"
+          },
+          {
+            "additionalValue": "Must be an Australian resident with a valid Australian residential address",
+            "additionalInfo": "Australian residents including temporary visa holders are eligible. Non-residents are not eligible for an Australian Revolut account.",
+            "eligibilityType": "RESIDENCY_STATUS"
+          }
+        ],
+        "fees": [
+          {
+            "additionalInfo": "The rate shown is for Consumer domestic credit. Fees may vary depending on top-up methods",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/legal/fees/",
+            "name": "Top-Up Fee",
+            "feeType": "DEPOSIT",
+            "feeMethodUType": "rateBased",
+            "rateBased": {
+              "rateType": "TRANSACTION",
+              "rate": "0.004"
+            },
+            "currency": "AUD"
+          },
+          {
+            "additionalInfo": "This reflects the Standard plan rate charged over the fair usage limit. Currency exchange rates will vary depending on plan, currency destination, fair usage allowance and exchange market hours. Third parties fees may also impose additional fees.",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/legal/fees/",
+            "name": "Exchange Fee",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "rateBased",
+            "rateBased": {
+              "rateType": "TRANSACTION",
+              "rate": "0.005"
+            },
+            "currency": "AUD"
+          },
+          {
+            "additionalInfo": "This reflects the Standard Currency Transfer Fee. Currency exchange rates will vary depending on plan, currency destination, fair usage allowance and exchange market hours. Third parties fees may also impose additional fees.",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/legal/fees/",
+            "name": "Currency Transfer Fee",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "rateBased",
+            "rateBased": {
+              "rateType": "TRANSACTION",
+              "rate": "0.0015"
+            },
+            "currency": "AUD"
+          },
+          {
+            "additionalInfo": "This reflects the Standard plan fee charged over the monthly ATM Withdrawal Allowance. Fees and monthly ATM withdrawal allowances will vary depending on your plan - see our website for more info. AU domestic ATM cash withdrawals do not carry fees. Third-party ATM operator fees may also apply.",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/legal/fees/",
+            "name": "ATM Withdrawal Fee",
+            "feeType": "WITHDRAWAL",
+            "feeMethodUType": "rateBased",
+            "rateBased": {
+              "rateType": "TRANSACTION",
+              "rate": "0.02",
+              "amountRange": {
+                "feeMinimum": "1.50"
+              }
+            },
+            "currency": "AUD"
+          }
+        ],
+        "depositRates": [],
+        "lendingRates": []
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "550e8400-e29b-41d4-a716-446655440002",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "productId": "550e8400-e29b-41d4-a716-446655440002",
+        "lastUpdated": "2026-09-29T09:05:14.489841Z",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "name": "Revolut Joint Account",
+        "description": "A joint transaction account held by two Revolut users for shared spending, international transfers and currency exchange with a debit card. Features and fees will vary based on the primary account holder's paid plan tier (Standard, Plus, Premium, Metal, Ultra).",
+        "brand": "Revolut",
+        "isTailored": false,
+        "additionalInformation": {
+          "termsUri": "https://www.revolut.com/en-AU/legal/joint-accounts/",
+          "overviewUri": "https://www.revolut.com/en-AU/joint-account/",
+          "eligibilityUri": "https://www.revolut.com/en-AU/legal/terms/",
+          "feesAndPricingUri": "https://www.revolut.com/en-AU/legal/fees/"
+        },
+        "cardArt": [],
+        "features": [
+          {
+            "additionalValue": "5",
+            "additionalInfo": "Reflects the number of additional physical cards that can be active. Virtual cards have a different active limit.",
+            "additionalInfoUri": "https://help.revolut.com/en-AU/help/cards/card-order/can-i-have-multiple-cards/",
+            "featureType": "ADDITIONAL_CARDS"
+          },
+          {
+            "additionalValue": "BPAY",
+            "additionalInfo": "BPAY is a convenient and secure way to pay bills in Australia.",
+            "additionalInfoUri": "https://help.revolut.com/en-AU/help/transfers/bpay/question-what-is-bpay-and-how-can-i-use-it/",
+            "featureType": "BILL_PAYMENT"
+          },
+          {
+            "additionalValue": "Visa or Mastercard debit card (physical and virtual)",
+            "additionalInfo": "Virtual card available instantly in-app. Physical card delivery fees will vary depending on your plan - see our website for more info.",
+            "featureType": "CARD_ACCESS"
+          },
+          {
+            "additionalInfo": "Manage your everyday spending with powerful budgeting and analytics, transfer money abroad, spend easily in the local currency, and so much more.",
+            "featureType": "DIGITAL_BANKING"
+          },
+          {
+            "additionalValue": "Apple Pay, Google Pay",
+            "additionalInfo": "Available for both physical and virtual Revolut cards.",
+            "featureType": "DIGITAL_WALLET"
+          },
+          {
+            "additionalValue": "2000.00",
+            "additionalInfo": "Reflects monthly FX fair usage allowance for Standard plan. FX fair usage allowance will vary depending on your plan. Fees may apply outside of exchange market hours - see our website for more info.",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/legal/fees/",
+            "featureType": "FREE_TXNS_ALLOWANCE"
+          },
+          {
+            "additionalValue": "350.00",
+            "additionalInfo": "Reflects monthly ATM withdrawal allowance for Standard plan. Transaction caps may apply. AU domestic ATM cash withdrawals are not included in as part of your monthly ATM withdrawal allowance. ATM withdrawal allowance will vary depending on your plan - see our website for more info.",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/legal/fees/",
+            "featureType": "FREE_TXNS_ALLOWANCE"
+          },
+          {
+            "additionalInfo": "Real-time transaction monitoring, instant card freeze via app and disposable virtual card numbers.",
+            "featureType": "FRAUD_PROTECTION"
+          },
+          {
+            "additionalValue": "RevPoints",
+            "additionalInfo": "Earn RevPoints on eligible card purchases. Redeemable with multiple airlines and other options. T&Cs apply.",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/revpoints/",
+            "featureType": "LOYALTY_PROGRAM"
+          },
+          {
+            "additionalValue": "Instant push notifications available and can be customised in-app",
+            "featureType": "NOTIFICATIONS"
+          },
+          {
+            "additionalInfo": "Pay and receive near real-time payments.",
+            "featureType": "NPP_ENABLED"
+          },
+          {
+            "additionalInfo": "Mobile number and email address PayID supported; register via the Revolut app under Account Settings.",
+            "featureType": "NPP_PAYID"
+          },
+          {
+            "additionalValue": "Standard plan",
+            "additionalInfo": "Features and benefits will vary depending on your plan - see our website for more info. Plan-specific fees and benefits are tied to your Revolut Personal Account.",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/our-pricing-plans/",
+            "featureType": "OTHER"
+          },
+          {
+            "additionalValue": "Plus plan",
+            "additionalInfo": "Features and benefits will vary depending on your plan - see our website for more info. Plan-specific fees and benefits are tied to your Revolut Personal Account.",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/our-pricing-plans/",
+            "featureType": "OTHER"
+          },
+          {
+            "additionalValue": "Premium plan",
+            "additionalInfo": "Features and benefits will vary depending on your plan - see our website for more info. Plan-specific fees and benefits are tied to your Revolut Personal Account.",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/our-pricing-plans/",
+            "featureType": "OTHER"
+          },
+          {
+            "additionalValue": "Metal plan",
+            "additionalInfo": "Features and benefits will vary depending on your plan - see our website for more info. Plan-specific fees and benefits are tied to your Revolut Personal Account.",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/our-pricing-plans/",
+            "featureType": "OTHER"
+          },
+          {
+            "additionalValue": "Ultra plan",
+            "additionalInfo": "Features and benefits will vary depending on your plan - see our website for more info. Plan-specific fees and benefits are tied to your Revolut Personal Account.",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/our-pricing-plans/",
+            "featureType": "OTHER"
+          }
+        ],
+        "constraints": [],
+        "eligibility": [
+          {
+            "additionalValue": "18",
+            "additionalInfo": "Both joint account holders must be 18 years or older.",
+            "eligibilityType": "MIN_AGE"
+          },
+          {
+            "additionalInfo": "Available to eligible customers only. Both joint account holders must be eligible Revolut users. Business customers should apply for a Revolut Business account.",
+            "eligibilityType": "NATURAL_PERSON"
+          },
+          {
+            "additionalValue": "Must be an Australian resident with a valid Australian residential address",
+            "additionalInfo": "Australian residents including temporary visa holders are eligible. Both holders must meet residency requirements. Non-residents are not eligible for an Australian Revolut account.",
+            "eligibilityType": "RESIDENCY_STATUS"
+          }
+        ],
+        "fees": [
+          {
+            "additionalInfo": "The rate shown is for Consumer domestic credit. Fees may vary depending on top-up methods",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/legal/fees/",
+            "name": "Top-Up Fee",
+            "feeType": "DEPOSIT",
+            "feeMethodUType": "rateBased",
+            "rateBased": {
+              "rateType": "TRANSACTION",
+              "rate": "0.004"
+            },
+            "currency": "AUD"
+          },
+          {
+            "additionalInfo": "This reflects the Standard card fee. Fees may vary depending on your plan and card type and delivery fees may also apply - see our website for more info.",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/legal/fees/",
+            "name": "Additional Card Fee",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "8.99"
+            },
+            "currency": "AUD"
+          },
+          {
+            "additionalInfo": "Fees may vary depending on your plan - see our website for more info.",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/legal/fees/",
+            "name": "Card Personalisation Fee",
+            "feeType": "EVENT",
+            "feeMethodUType": "variable",
+            "variable": {
+              "feeMinimum": "0.00",
+              "feeMaximum": "7.99"
+            },
+            "currency": "AUD"
+          },
+          {
+            "additionalInfo": "This reflects the Standard plan rate charged over the fair usage limit. Currency exchange rates will vary depending on plan, currency destination, fair usage allowance and exchange market hours. Third parties fees may also impose additional fees.",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/legal/fees/",
+            "name": "Exchange Fee",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "rateBased",
+            "rateBased": {
+              "rateType": "TRANSACTION",
+              "rate": "0.005"
+            },
+            "currency": "AUD"
+          },
+          {
+            "additionalInfo": "This reflects the Standard Currency Transfer Fee. Currency exchange rates will vary depending on plan, currency destination, fair usage allowance and exchange market hours. Third parties fees may also impose additional fees.",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/legal/fees/",
+            "name": "Currency Transfer Fee",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "rateBased",
+            "rateBased": {
+              "rateType": "TRANSACTION",
+              "rate": "0.0015"
+            },
+            "currency": "AUD"
+          },
+          {
+            "additionalInfo": "This reflects the Standard plan fee charged over the monthly ATM Withdrawal Allowance. Fees and monthly ATM withdrawal allowances will vary depending on your plan - see our website for more info. AU domestic ATM cash withdrawals do not carry fees. Third-party ATM operator fees may also apply.",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/legal/fees/",
+            "name": "ATM Withdrawal Fee",
+            "feeType": "WITHDRAWAL",
+            "feeMethodUType": "rateBased",
+            "rateBased": {
+              "rateType": "TRANSACTION",
+              "rate": "0.02",
+              "amountRange": {
+                "feeMinimum": "1.50"
+              }
+            },
+            "currency": "AUD"
+          }
+        ],
+        "depositRates": [],
+        "lendingRates": []
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "550e8400-e29b-41d4-a716-446655440003",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "productId": "550e8400-e29b-41d4-a716-446655440003",
+        "lastUpdated": "2026-11-10T10:23:36.299449Z",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "name": "Revolut Instant Access Savings",
+        "description": "A savings account that earns variable interest on AUD balances. Interest accrues and is applied daily. Features and fees will vary based on paid plan tier (Standard, Plus, Premium, Metal, Ultra).",
+        "brand": "Revolut",
+        "isTailored": false,
+        "additionalInformation": {
+          "termsUri": "https://www.revolut.com/en-AU/legal/savings-account/",
+          "overviewUri": "https://www.revolut.com/en-AU/savings/",
+          "eligibilityUri": "https://www.revolut.com/en-AU/legal/savings-account/",
+          "feesAndPricingUri": "https://www.revolut.com/en-AU/legal/interest-rates-and-fees/"
+        },
+        "cardArt": [],
+        "features": [
+          {
+            "additionalInfo": "Manage your everyday spending with powerful budgeting and analytics, transfer money abroad, spend easily in the local currency, and so much more.",
+            "featureType": "DIGITAL_BANKING"
+          },
+          {
+            "additionalInfo": "Real-time transaction monitoring, instant card freeze via app and disposable virtual card numbers.",
+            "featureType": "FRAUD_PROTECTION"
+          },
+          {
+            "additionalValue": "Instant push notifications available and can be customised in-app",
+            "featureType": "NOTIFICATIONS"
+          },
+          {
+            "additionalValue": "Standard plan",
+            "additionalInfo": "Features and benefits will vary depending on your plan - see our website for more info. Plan-specific fees and benefits are tied to your Revolut Personal Account.",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/our-pricing-plans/",
+            "featureType": "OTHER"
+          },
+          {
+            "additionalValue": "Plus plan",
+            "additionalInfo": "Features and benefits will vary depending on your plan - see our website for more info. Plan-specific fees and benefits are tied to your Revolut Personal Account.",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/our-pricing-plans/",
+            "featureType": "OTHER"
+          },
+          {
+            "additionalValue": "Premium plan",
+            "additionalInfo": "Features and benefits will vary depending on your plan - see our website for more info. Plan-specific fees and benefits are tied to your Revolut Personal Account.",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/our-pricing-plans/",
+            "featureType": "OTHER"
+          },
+          {
+            "additionalValue": "Metal plan",
+            "additionalInfo": "Features and benefits will vary depending on your plan - see our website for more info. Plan-specific fees and benefits are tied to your Revolut Personal Account.",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/our-pricing-plans/",
+            "featureType": "OTHER"
+          },
+          {
+            "additionalValue": "Ultra plan",
+            "additionalInfo": "Features and benefits will vary depending on your plan - see our website for more info. Plan-specific fees and benefits are tied to your Revolut Personal Account.",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/our-pricing-plans/",
+            "featureType": "OTHER"
+          }
+        ],
+        "constraints": [],
+        "eligibility": [
+          {
+            "additionalValue": "18",
+            "eligibilityType": "MIN_AGE"
+          },
+          {
+            "additionalInfo": "Available to eligible customers only. Business customers should apply for a Revolut Business account.",
+            "eligibilityType": "NATURAL_PERSON"
+          },
+          {
+            "additionalValue": "Must be an Australian resident with a valid Australian residential address",
+            "additionalInfo": "Australian residents including temporary visa holders are eligible. Non-residents are not eligible for an Australian Revolut account.",
+            "eligibilityType": "RESIDENCY_STATUS"
+          }
+        ],
+        "fees": [],
+        "depositRates": [
+          {
+            "additionalInfo": "Standard Plan p.a. variable interest rate. Interest is earnt and paid daily. Rates may change at any time.",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/legal/interest-rates-and-fees/",
+            "depositRateType": "VARIABLE",
+            "rate": "0.03",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1D",
+            "tiers": [
+              {
+                "name": "Standard Plan",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "0.0",
+                "maximumValue": "1000000.0",
+                "rateApplicationMethod": "PER_TIER"
+              }
+            ]
+          },
+          {
+            "additionalInfo": "Plus Plan p.a. variable interest rate. Interest is earnt and paid daily. Lower interest rates apply based on the total balance across all your personal savings accounts. Rates may change at any time.",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/legal/interest-rates-and-fees/",
+            "depositRateType": "VARIABLE",
+            "rate": "0.03",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1D",
+            "tiers": [
+              {
+                "name": "Plus Plan",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "0.0",
+                "maximumValue": "1000000.0",
+                "rateApplicationMethod": "PER_TIER"
+              }
+            ]
+          },
+          {
+            "additionalInfo": "Premium Plan p.a. variable interest rate (balances up to $250,000). Interest is earnt and paid daily. Lower interest rates apply based on the total balance across all your personal savings accounts. Rates may change at any time.",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/legal/interest-rates-and-fees/",
+            "depositRateType": "VARIABLE",
+            "rate": "0.0415",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1D",
+            "tiers": [
+              {
+                "name": "Premium Plan (balances up to $250,000)",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "0.0",
+                "maximumValue": "250000.0",
+                "rateApplicationMethod": "PER_TIER"
+              }
+            ]
+          },
+          {
+            "additionalInfo": "Premium Plan p.a. variable interest rate (balances from $250,001 up to $1,000,000). Interest is earnt and paid daily. Lower interest rates apply based on the total balance across all your personal savings accounts. Rates may change at any time.",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/legal/interest-rates-and-fees/",
+            "depositRateType": "VARIABLE",
+            "rate": "0.03",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1D",
+            "tiers": [
+              {
+                "name": "Premium Plan (balances from $250,001 up to $1,000,000)",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "250001.0",
+                "maximumValue": "1000000.0",
+                "rateApplicationMethod": "PER_TIER"
+              }
+            ]
+          },
+          {
+            "additionalInfo": "Metal Plan p.a. variable interest rate (balances up to $250,000). Interest is earnt and paid daily. Lower interest rates apply based on the total balance across all your personal savings accounts. Rates may change at any time.",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/legal/interest-rates-and-fees/",
+            "depositRateType": "VARIABLE",
+            "rate": "0.0485",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1D",
+            "tiers": [
+              {
+                "name": "Metal Plan (balances up to $250,000)",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "0.0",
+                "maximumValue": "250000.0",
+                "rateApplicationMethod": "PER_TIER"
+              }
+            ]
+          },
+          {
+            "additionalInfo": "Metal Plan p.a. variable interest rate (balances from $250,001 up to $1,000,000). Interest is earnt and paid daily. Lower interest rates apply based on the total balance across all your personal savings accounts. Rates may change at any time.",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/legal/interest-rates-and-fees/",
+            "depositRateType": "VARIABLE",
+            "rate": "0.0415",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1D",
+            "tiers": [
+              {
+                "name": "Metal Plan (balances from $250,001 up to $1,000,000)",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "250001.0",
+                "maximumValue": "1000000.0",
+                "rateApplicationMethod": "PER_TIER"
+              }
+            ]
+          },
+          {
+            "additionalInfo": "Ultra Plan p.a. variable interest rate. Interest is earnt and paid daily. Lower interest rates apply based on the total balance across all your personal savings accounts. Rates may change at any time.",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/legal/interest-rates-and-fees/",
+            "depositRateType": "VARIABLE",
+            "rate": "0.0555",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1D",
+            "tiers": [
+              {
+                "name": "Ultra Plan (balances up to $250,000)",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "0.0",
+                "maximumValue": "250000.0",
+                "rateApplicationMethod": "PER_TIER"
+              }
+            ]
+          },
+          {
+            "additionalInfo": "Ultra Plan p.a. variable interest rate. Interest is earnt and paid daily. Lower interest rates apply based on the total balance across all your personal savings accounts. Rates may change at any time.",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/legal/interest-rates-and-fees/",
+            "depositRateType": "VARIABLE",
+            "rate": "0.0485",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1D",
+            "tiers": [
+              {
+                "name": "Ultra Plan (balances from $250,001 up to $1,000,000)",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "250001.0",
+                "maximumValue": "1000000.0",
+                "rateApplicationMethod": "PER_TIER"
+              }
+            ]
+          },
+          {
+            "additionalValue": "P3M",
+            "additionalInfo": "Boosted promotional rate for 3 months on balances up to $50,000, available to new Revolut AU retail customers subject to specific conditions. After 3 months, rate will revert to your default plan rate",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/legal/interest-rates-and-fees/",
+            "depositRateType": "INTRODUCTORY",
+            "rate": "0.065",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1D",
+            "tiers": [
+              {
+                "name": "High Yield Savings Promotional Rate (balances up to $50,000)",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "0.0",
+                "maximumValue": "50000.0",
+                "rateApplicationMethod": "PER_TIER",
+                "applicabilityConditions": [
+                  {
+                    "additionalValue": "P3M",
+                    "additionalInfo": "Available to new Revolut customers who create a Revolut Instant Access Savings account within 1 month of completing KYC verification, during the promotional sign-up window. The promotional rate applies for 3 months from savings account creation, after which the default plan rate applies.",
+                    "rateApplicabilityType": "NEW_CUSTOMER"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "lendingRates": []
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "a24fca53-2350-4c43-8219-c2478e89201a",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "productId": "a24fca53-2350-4c43-8219-c2478e89201a",
+        "lastUpdated": "2026-09-10T13:44:58.054177Z",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "name": "Revolut Business Account",
+        "description": "An AUD-denominated business transaction account with app-based management, domestic and international transfers, currency exchange and Visa/Mastercard business cards. Features and fees will vary based on paid plan tiers (Basic, Grow, Scale, Enterprise).",
+        "brand": "Revolut",
+        "isTailored": false,
+        "additionalInformation": {
+          "termsUri": "https://www.revolut.com/en-AU/legal/business-terms/",
+          "overviewUri": "https://www.revolut.com/en-AU/business/",
+          "eligibilityUri": "https://www.revolut.com/en-AU/legal/business-terms/",
+          "feesAndPricingUri": "https://www.revolut.com/en-AU/legal/business-fees/"
+        },
+        "cardArt": [],
+        "features": [
+          {
+            "additionalValue": "2",
+            "additionalInfo": "Reflects the number of additional active physical cards. Higher limit applies for active virtual cards. This limit applies to all Revolut Business plans.",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/business/cards/",
+            "featureType": "ADDITIONAL_CARDS"
+          },
+          {
+            "additionalInfo": "BPAY bill payments available for paying bills to participating organisations.",
+            "additionalInfoUri": "https://help.revolut.com/en-AU/business/help/integrating-with-external-apps/introduction-to-billpay/bpay-payments/",
+            "featureType": "BILL_PAYMENT"
+          },
+          {
+            "additionalValue": "Visa or Mastercard business debit cards (physical and virtual)",
+            "additionalInfo": "Virtual card available instantly in-app. Physical card delivery fees will vary depending on your plan - see our website for more info.",
+            "featureType": "CARD_ACCESS"
+          },
+          {
+            "additionalValue": "Discounts on business subscriptions, software, and partner services may be available depending on your paid plan.",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/business/business-account-plans/",
+            "featureType": "COMPLEMENTARY_PRODUCT_DISCOUNTS"
+          },
+          {
+            "additionalInfo": "Manage business finances with powerful budgeting, analytics, multi-currency accounts, international transfers and expense management.",
+            "featureType": "DIGITAL_BANKING"
+          },
+          {
+            "additionalValue": "Apple Pay, Google Pay",
+            "additionalInfo": "Available for both physical and virtual Revolut business cards.",
+            "featureType": "DIGITAL_WALLET"
+          },
+          {
+            "additionalInfo": "Real-time transaction monitoring, instant card freeze via app, two-factor authentication for sensitive transactions, and 3D Secure.",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/business/how-we-keep-your-money-safe/",
+            "featureType": "FRAUD_PROTECTION"
+          },
+          {
+            "additionalValue": "1000",
+            "additionalInfo": "Reflects the number of inbound and outbound domestic transfers each month for a Basic Plan that don't incur a transfer fee. This domestic transfer allowance will vary depending on your plan - see our website for more info.",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/legal/business-fees/",
+            "featureType": "FREE_TXNS"
+          },
+          {
+            "additionalValue": "0",
+            "additionalInfo": "Reflects the number of inbound and outbound international transfers each month for a Basic Plan that don't incur a transfer fee. This international transfer allowance will vary depending on your plan - see our website for more info.",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/legal/business-fees/",
+            "featureType": "FREE_TXNS"
+          },
+          {
+            "additionalValue": "2000.00",
+            "additionalInfo": "Reflects monthly exchange allowance for Basic plan. Exchange allowance will vary depending on your plan - see our website for more info.",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/legal/business-fees/",
+            "featureType": "FREE_TXNS_ALLOWANCE"
+          },
+          {
+            "additionalValue": "Instant push notifications available and can be customised in-app",
+            "featureType": "NOTIFICATIONS"
+          },
+          {
+            "additionalInfo": "NPP and PayTo available.",
+            "featureType": "NPP_ENABLED"
+          },
+          {
+            "additionalValue": "Basic plan",
+            "additionalInfo": "Features and benefits will vary depending on your plan - see our website for more info. Plan-specific fees and benefits are tied to your Revolut Business Account.",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/legal/business-fees/",
+            "featureType": "OTHER"
+          },
+          {
+            "additionalValue": "Grow plan",
+            "additionalInfo": "Features and benefits will vary depending on your plan - see our website for more info. Plan-specific fees and benefits are tied to your Revolut Business Account.",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/legal/business-fees/",
+            "featureType": "OTHER"
+          },
+          {
+            "additionalValue": "Scale plan",
+            "additionalInfo": "Features and benefits will vary depending on your plan - see our website for more info. Plan-specific fees and benefits are tied to your Revolut Business Account.",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/legal/business-fees/",
+            "featureType": "OTHER"
+          },
+          {
+            "additionalValue": "Enterprise plan",
+            "additionalInfo": "Features and benefits will vary depending on your plan - see our website for more info. Plan-specific fees and benefits are tied to your Revolut Business Account.",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/legal/business-fees/",
+            "featureType": "OTHER"
+          },
+          {
+            "additionalValue": "Revolut Expense Management",
+            "additionalInfo": "Expense management feature available for an additional monthly fee per active team member per month.",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/business/expense-management/",
+            "featureType": "OTHER"
+          },
+          {
+            "additionalInfo": "Dedicated account management and priority support for Enterprise plan customers.",
+            "featureType": "RELATIONSHIP_MANAGEMENT"
+          }
+        ],
+        "constraints": [],
+        "eligibility": [
+          {
+            "additionalInfo": "Business must be fully incorporated and active and registered in Australia. Other business eligibility conditions may apply.",
+            "additionalInfoUri": "https://help.revolut.com/en-AU/business/help/setting-up-an-account/is-my-business-eligible/why-is-my-account-not-eligible/",
+            "eligibilityType": "BUSINESS"
+          },
+          {
+            "additionalValue": "18",
+            "eligibilityType": "MIN_AGE"
+          },
+          {
+            "additionalInfo": "Enterprise plan requires a minimum team size and annual billing commitment. Contact sales for eligibility details.",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/legal/business-terms/",
+            "eligibilityType": "OTHER"
+          },
+          {
+            "additionalValue": "Must be a resident of one of the following: Australia, Austria, Belgium, Bulgaria, Croatia, Cyprus, Czechia, Denmark, Estonia, Finland (including the Åland Islands), France (including Corsica, French Guyana, Guadeloupe, Martinique, Mayotte, Réunion, and Saint-Martin), Germany, Greece, Hungary, Iceland, Ireland, Italy, Latvia, Liechtenstein, Lithuania, Luxembourg, Malta, Netherlands, Norway, Poland, Portugal (including the Azores and Madeira), Romania, Singapore, Slovakia, Slovenia, Spain (including the Canary Islands), Sweden, Switzerland, the United Kingdom, or the United States",
+            "eligibilityType": "RESIDENCY_STATUS"
+          }
+        ],
+        "fees": [
+          {
+            "additionalInfo": "For any additional or replacement physical card beyond the first card issued per Authorised Team Member. Delivery fees may apply and Metal replacement cards cost extra.",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/legal/business-fees/",
+            "name": "Additional Card Fee",
+            "feeType": "EVENT",
+            "feeMethodUType": "variable",
+            "variable": {
+              "feeMinimum": "0.00",
+              "feeMaximum": "9.99"
+            },
+            "currency": "AUD"
+          },
+          {
+            "additionalValue": "DOMESTIC",
+            "additionalInfo": "This reflects the domestic transfer fee over the transfer allowance for a Basic plan. Fees may vary depending on your plan - see our website for more info.",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/legal/business-fees/",
+            "name": "Domestic Transfers Over Allowance Fee",
+            "feeType": "PAYMENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.20"
+            },
+            "currency": "AUD"
+          },
+          {
+            "additionalValue": "INTERNATIONAL",
+            "additionalInfo": "This reflects the international transfer fee for a Basic plan. Fees may vary depending on your plan and allowances. This doesn't include SWIFT transfers. See our website for more info.",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/legal/business-fees/",
+            "name": "International Transfers Over Allowance Fee",
+            "feeType": "PAYMENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "10.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "additionalValue": "SWIFT",
+            "additionalInfo": "Pay the full intermediary bank fee amount for transfers processed by the SWIFT network, and ensure that the recipient receives the full payment amount.",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/legal/business-fees/",
+            "name": "SWIFT (OUR) Transfers",
+            "feeType": "PAYMENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "35.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "additionalValue": "P1M",
+            "additionalInfo": "All plans and fees are subject to our T&Cs, which may change from time to time.",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/legal/business-fees/",
+            "name": "Basic Monthly Fee",
+            "feeType": "PERIODIC",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "15.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "additionalValue": "P1M",
+            "additionalInfo": "All plans and fees are subject to our T&Cs, which may change from time to time.",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/legal/business-fees/",
+            "name": "Grow Monthly Fee",
+            "feeType": "PERIODIC",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "30.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "additionalValue": "P1Y",
+            "additionalInfo": "All plans and fees are subject to our T&Cs, which may change from time to time.",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/legal/business-fees/",
+            "name": "Grow Annual Fee",
+            "feeType": "PERIODIC",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "360.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "additionalValue": "P1M",
+            "additionalInfo": "All plans and fees are subject to our T&Cs, which may change from time to time.",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/legal/business-fees/",
+            "name": "Scale Monthly Fee",
+            "feeType": "PERIODIC",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "150.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "additionalValue": "P1Y",
+            "additionalInfo": "All plans and fees are subject to our T&Cs, which may change from time to time.",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/legal/business-fees/",
+            "name": "Scale Annual Fee",
+            "feeType": "PERIODIC",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "1800.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "additionalValue": "P1M",
+            "additionalInfo": "Reflects the default Enterprise fee, however custom pricing may apply to Enterprise plans. All plans and fees are subject to our T&Cs, which may change from time to time.",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/legal/business-fees/",
+            "name": "Enterprise Monthly Fee",
+            "feeType": "PERIODIC",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "1250.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "additionalValue": "P1M",
+            "additionalInfo": "Per month per active team member for the Revolut Expense Management feature. Fees are subject to change.",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/legal/business-fees/",
+            "name": "Revolut Expense Management Fee",
+            "feeType": "PERIODIC",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "8.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "additionalInfo": "This reflects the Basic plan rate and is applied over the exchange allowance. Currency exchange rates will vary depending on plan, exchange allowance and exchange market hours.",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/legal/business-fees/",
+            "name": "Exchange Fees",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "rateBased",
+            "rateBased": {
+              "rateType": "TRANSACTION",
+              "rate": "0.006"
+            },
+            "currency": "AUD"
+          },
+          {
+            "additionalInfo": "2% fee applies to all ATM withdrawals. Third-party ATM operator fees may also apply.",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/legal/business-fees/",
+            "name": "ATM Withdrawal Fee",
+            "feeType": "WITHDRAWAL",
+            "feeMethodUType": "rateBased",
+            "rateBased": {
+              "rateType": "TRANSACTION",
+              "rate": "0.02"
+            },
+            "currency": "AUD"
+          }
+        ],
+        "depositRates": [],
+        "lendingRates": []
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "b3ad3f63-c3e5-4a92-ad48-e83edf32325e",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "productId": "b3ad3f63-c3e5-4a92-ad48-e83edf32325e",
+        "lastUpdated": "2026-11-10T10:23:36.299449Z",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "name": "Revolut Kids & Teens Instant Access Savings",
+        "description": "A savings sub-account linked to a parent's Revolut Personal Account intended for children aged 6 to 15, earning variable interest on AUD balances. Features and allowances vary based on the parent's subscription plan tier.",
+        "brand": "Revolut",
+        "isTailored": false,
+        "additionalInformation": {
+          "termsUri": "https://www.revolut.com/en-AU/legal/u18-savings-account/",
+          "overviewUri": "https://www.revolut.com/en-AU/revolut-kids-and-teens-parent-and-guardians/",
+          "eligibilityUri": "https://www.revolut.com/en-AU/legal/u18-savings-account/",
+          "feesAndPricingUri": "https://www.revolut.com/en-AU/legal/interest-rates-and-fees/"
+        },
+        "cardArt": [],
+        "features": [
+          {
+            "additionalInfo": "Manage spending with budgeting and analytics, designed for young users under parental oversight",
+            "featureType": "DIGITAL_BANKING"
+          },
+          {
+            "additionalInfo": "Real-time transaction monitoring available",
+            "featureType": "FRAUD_PROTECTION"
+          },
+          {
+            "additionalValue": "Instant push notifications available and can be customised by parent in-app",
+            "featureType": "NOTIFICATIONS"
+          },
+          {
+            "additionalValue": "Parent account on Standard plan",
+            "additionalInfo": "Features and benefits will vary depending on the parent's plan - see our website for more info. Plan-specific fees and benefits are tied to the parent's Revolut Personal Account",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/our-pricing-plans/",
+            "featureType": "OTHER"
+          },
+          {
+            "additionalValue": "Parent account on Plus plan",
+            "additionalInfo": "Features and benefits will vary depending on the parent's plan - see our website for more info. Plan-specific fees and benefits are tied to the parent's Revolut Personal Account",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/our-pricing-plans/",
+            "featureType": "OTHER"
+          },
+          {
+            "additionalValue": "Parent account on Premium plan",
+            "additionalInfo": "Features and benefits will vary depending on the parent's plan - see our website for more info. Plan-specific fees and benefits are tied to the parent's Revolut Personal Account",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/our-pricing-plans/",
+            "featureType": "OTHER"
+          },
+          {
+            "additionalValue": "Parent account on Metal plan",
+            "additionalInfo": "Features and benefits will vary depending on the parent's plan - see our website for more info. Plan-specific fees and benefits are tied to the parent's Revolut Personal Account",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/our-pricing-plans/",
+            "featureType": "OTHER"
+          },
+          {
+            "additionalValue": "Parent account on Ultra plan",
+            "additionalInfo": "Features and benefits will vary depending on the parent's plan - see our website for more info. Plan-specific fees and benefits are tied to the parent's Revolut Personal Account",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/our-pricing-plans/",
+            "featureType": "OTHER"
+          }
+        ],
+        "constraints": [
+          {
+            "additionalValue": "699.00",
+            "additionalInfo": "Maximum total balance for the RKT Savings sub-account is A$699.00",
+            "constraintType": "MAX_BALANCE"
+          }
+        ],
+        "eligibility": [
+          {
+            "additionalValue": "6",
+            "eligibilityType": "MIN_AGE"
+          },
+          {
+            "additionalValue": "18",
+            "additionalInfo": "Kids & Teens is intended for children aged 6 to 15. When the RKT user turns 16, they may migrate to a 16–17 account. At 18, they may move to a full Retail account. The RKT account is force-closed on the last day before their 19th birthday.",
+            "eligibilityType": "MAX_AGE"
+          },
+          {
+            "additionalInfo": "Available to children of eligible Revolut account holders only. The parent or guardian must hold a Revolut Personal Account",
+            "eligibilityType": "NATURAL_PERSON"
+          },
+          {
+            "additionalValue": "Must be an Australian resident with a valid Australian residential address",
+            "additionalInfo": "Australian residents including temporary visa holders are eligible. Non-residents are not eligible for an Australian Revolut account",
+            "eligibilityType": "RESIDENCY_STATUS"
+          },
+          {
+            "additionalInfo": "A parent or guardian must hold an active Revolut Personal Account to create a Kids & Teens sub-account. The Kids & Teens account is linked to and managed by the parent's account",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/revolut-kids/",
+            "eligibilityType": "OTHER"
+          }
+        ],
+        "fees": [],
+        "depositRates": [
+          {
+            "additionalInfo": "Parent's Standard Plan p.a. variable interest rate. Interest is earnt and paid daily. Lower interest rates apply based on the total balance across all the parent's personal savings accounts. Rates may change at any time.",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/legal/interest-rates-and-fees/",
+            "depositRateType": "VARIABLE",
+            "rate": "0.03",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M"
+          },
+          {
+            "additionalInfo": "Parent's Plus Plan p.a. variable interest rate. Interest is earnt and paid daily. Lower interest rates apply based on the total balance across all the parent's personal savings accounts. Rates may change at any time.",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/legal/interest-rates-and-fees/",
+            "depositRateType": "VARIABLE",
+            "rate": "0.03",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M"
+          },
+          {
+            "additionalInfo": "Parent's Premium Plan p.a. variable interest rate. Interest is earnt and paid daily. Lower interest rates apply based on the total balance across all the parent's personal savings accounts. Rates may change at any time.",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/legal/interest-rates-and-fees/",
+            "depositRateType": "VARIABLE",
+            "rate": "0.0415",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M"
+          },
+          {
+            "additionalInfo": "Parent's Metal Plan p.a. variable interest rate. Interest is earnt and paid daily. Lower interest rates apply based on the total balance across all the parent's personal savings accounts. Rates may change at any time.",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/legal/interest-rates-and-fees/",
+            "depositRateType": "VARIABLE",
+            "rate": "0.0485",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M"
+          },
+          {
+            "additionalInfo": "Parent's Ultra Plan p.a. variable interest rate. Interest is earnt and paid daily. Lower interest rates apply based on the total balance across all the parent's personal savings accounts. Rates may change at any time.",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/legal/interest-rates-and-fees/",
+            "depositRateType": "VARIABLE",
+            "rate": "0.0555",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M"
+          }
+        ],
+        "lendingRates": []
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "d1849c3e-419a-4251-90d8-c98a6f79e619",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "productId": "d1849c3e-419a-4251-90d8-c98a6f79e619",
+        "lastUpdated": "2026-10-06T10:27:30.264152Z",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "name": "Revolut Business Instant Access Savings",
+        "description": "An instant access savings sub-account within the Revolut Business Account, earning variable interest on AUD balances. Interest accrues and is applied daily.",
+        "brand": "Revolut",
+        "isTailored": false,
+        "additionalInformation": {
+          "termsUri": "https://www.revolut.com/en-AU/legal/business-savings/",
+          "overviewUri": "https://www.revolut.com/en-AU/business/business-account-plans/",
+          "eligibilityUri": "https://www.revolut.com/en-AU/legal/business-savings/",
+          "feesAndPricingUri": "https://www.revolut.com/en-AU/legal/business-interest-rates-and-fees/"
+        },
+        "cardArt": [],
+        "features": [
+          {
+            "additionalInfo": "Manage business finances with powerful budgeting, analytics, multi-currency accounts, international transfers and expense management.",
+            "featureType": "DIGITAL_BANKING"
+          },
+          {
+            "additionalInfo": "Real-time transaction monitoring, instant card freeze via app, two-factor authentication for sensitive transactions, and 3D Secure.",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/business/how-we-keep-your-money-safe/",
+            "featureType": "FRAUD_PROTECTION"
+          },
+          {
+            "additionalValue": "Instant push notifications available and can be customised in-app",
+            "featureType": "NOTIFICATIONS"
+          },
+          {
+            "additionalValue": "Basic plan",
+            "additionalInfo": "Features and benefits will vary depending on your plan - see our website for more info. Plan-specific fees and benefits are tied to your Revolut Business Account.",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/legal/business-fees/",
+            "featureType": "OTHER"
+          },
+          {
+            "additionalValue": "Grow plan",
+            "additionalInfo": "Features and benefits will vary depending on your plan - see our website for more info. Plan-specific fees and benefits are tied to your Revolut Business Account.",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/legal/business-fees/",
+            "featureType": "OTHER"
+          },
+          {
+            "additionalValue": "Scale plan",
+            "additionalInfo": "Features and benefits will vary depending on your plan - see our website for more info. Plan-specific fees and benefits are tied to your Revolut Business Account.",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/legal/business-fees/",
+            "featureType": "OTHER"
+          },
+          {
+            "additionalValue": "Enterprise plan",
+            "additionalInfo": "Features and benefits will vary depending on your plan - see our website for more info. Plan-specific fees and benefits are tied to your Revolut Business Account.",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/legal/business-fees/",
+            "featureType": "OTHER"
+          }
+        ],
+        "constraints": [],
+        "eligibility": [
+          {
+            "additionalInfo": "Business must be fully incorporated and active and registered in Australia. Other business eligibility conditions may apply.",
+            "additionalInfoUri": "https://help.revolut.com/en-AU/business/help/setting-up-an-account/is-my-business-eligible/why-is-my-account-not-eligible/",
+            "eligibilityType": "BUSINESS"
+          },
+          {
+            "additionalValue": "18",
+            "eligibilityType": "MIN_AGE"
+          },
+          {
+            "additionalValue": "Must be a resident of one of the following: Australia, Austria, Belgium, Bulgaria, Croatia, Cyprus, Czechia, Denmark, Estonia, Finland (including the Åland Islands), France (including Corsica, French Guyana, Guadeloupe, Martinique, Mayotte, Réunion, and Saint-Martin), Germany, Greece, Hungary, Iceland, Ireland, Italy, Latvia, Liechtenstein, Lithuania, Luxembourg, Malta, Netherlands, Norway, Poland, Portugal (including the Azores and Madeira), Romania, Singapore, Slovakia, Slovenia, Spain (including the Canary Islands), Sweden, Switzerland, the United Kingdom, or the United States",
+            "eligibilityType": "RESIDENCY_STATUS"
+          }
+        ],
+        "fees": [],
+        "depositRates": [
+          {
+            "additionalInfo": "Basic Plan variable interest rate. Interest accrues and is applied daily. Rates may change at any time.",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/legal/business-interest-rates-and-fees/",
+            "depositRateType": "VARIABLE",
+            "rate": "0.0225",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M"
+          },
+          {
+            "additionalInfo": "Grow Plan variable interest rate. Interest accrues and is applied daily. Rates may change at any time.",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/legal/business-interest-rates-and-fees/",
+            "depositRateType": "VARIABLE",
+            "rate": "0.0325",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M"
+          },
+          {
+            "additionalInfo": "Scale Plan variable interest rate. Interest accrues and is applied daily. Rates may change at any time.",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/legal/business-interest-rates-and-fees/",
+            "depositRateType": "VARIABLE",
+            "rate": "0.0425",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M"
+          },
+          {
+            "additionalInfo": "Enterprise Plan variable interest rate. Interest accrues and is applied daily. Rates may change at any time.",
+            "additionalInfoUri": "https://www.revolut.com/en-AU/legal/business-interest-rates-and-fees/",
+            "depositRateType": "VARIABLE",
+            "rate": "0.045",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M"
+          }
+        ],
+        "lendingRates": []
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    }
+  ]
+}

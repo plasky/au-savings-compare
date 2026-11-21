@@ -1,0 +1,4316 @@
+{
+  "endpoint": "https://api.cdr.bendigobank.com.au/cds-au/v1/banking/products",
+  "slug": "bendigo-bank-c7851b",
+  "brands": [
+    {
+      "dataHolderBrandId": "459574b5-999d-eb11-a821-000d3a884a20",
+      "brandName": "Bendigo Bank",
+      "brandGroup": null,
+      "abn": "11068049178",
+      "industries": [
+        "banking"
+      ]
+    }
+  ],
+  "list": {
+    "ok": true,
+    "status": 200,
+    "version": "5",
+    "totalPages": 1,
+    "pagesFetched": 1,
+    "productCount": 50,
+    "categoryCounts": {
+      "RESIDENTIAL_MORTGAGES": 9,
+      "TRANS_AND_SAVINGS_ACCOUNTS": 13,
+      "BUSINESS_LOANS": 5,
+      "REGULATED_TRUST_ACCOUNTS": 4,
+      "CRED_AND_CHRG_CARDS": 6,
+      "TERM_DEPOSITS": 5,
+      "PERS_LOANS": 6,
+      "OVERDRAFTS": 1,
+      "LEASES": 1
+    }
+  },
+  "products": [
+    {
+      "productId": "127b2ef2-a72c-4d51-bb46-cafe5f9bef42",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "lastUpdated": "2026-10-18T13:32:22.814Z",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "name": "Bendigo Easy Retirement Account",
+        "description": "A transaction account designed to make life easier for retirees and pensioners.",
+        "productId": "127b2ef2-a72c-4d51-bb46-cafe5f9bef42",
+        "brandName": "Bendigo Bank",
+        "applicationUri": "https://www.bendigobank.com.au/personal/transaction-accounts/easy-retirement-account/",
+        "isTailored": false,
+        "bundles": [],
+        "cardArt": [],
+        "features": [
+          {
+            "featureType": "DIGITAL_BANKING"
+          },
+          {
+            "featureType": "NPP_ENABLED"
+          },
+          {
+            "featureType": "CARD_ACCESS",
+            "additionalValue": "A card is available for the product to access funds"
+          }
+        ],
+        "constraints": [],
+        "eligibility": [
+          {
+            "eligibilityType": "EMPLOYMENT_STATUS",
+            "additionalValue": "Employment Status",
+            "additionalInfo": "Available to retirees over 55 years of age who are either a self-funded retiree or a recipient of a Centrelink aged pension of Department of Veterans’ Affairs (DVA) administered pension."
+          },
+          {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "55"
+          }
+        ],
+        "fees": [
+          {
+            "name": "Staff Assisted Transaction In Branch Fee",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "discounts": [],
+            "fixedAmount": {
+              "amount": "2.500000"
+            }
+          },
+          {
+            "name": "Periodical Payment to Other Financial Institution",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "discounts": [],
+            "fixedAmount": {
+              "amount": "3.750000"
+            }
+          },
+          {
+            "name": "Direct Debit Dishonour Fee",
+            "feeType": "DISHONOUR",
+            "feeMethodUType": "fixedAmount",
+            "additionalInfo": "Applies when a direct debit from your account is \ndishonoured due to insufficient funds.",
+            "discounts": [],
+            "fixedAmount": {
+              "amount": "10.000000"
+            }
+          },
+          {
+            "name": "International Transaction Fee",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "rateBased",
+            "additionalInfo": "3% of the Transaction amount (in AUD) payable for \neach Transaction which is conducted in a currency \nother than Australian dollars (AUD) or in Australian \ndollars (AUD) but with or using a merchant, payment \nprocessor, financial institution or other entity \n(including an online merchant) who is outside of \nAustralia.",
+            "discounts": [],
+            "rateBased": {
+              "rateType": "TRANSACTION",
+              "rate": "0.0300000000000000"
+            }
+          },
+          {
+            "name": "International ATM Withdrawal",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "additionalInfo": "Payable whenever you make a cash withdrawal outside of Australia at a non-Bendigo Bank ATM (in addition to the Cash Advance Fee).\nOther financial institutions may charge you a fee for using their ATMs. This fee will be displayed at the time of the transaction and allows the customer to accept or decline the fee as shown. If using your credit card interest will be charged from the day the withdrawal is completed.\n",
+            "discounts": [],
+            "fixedAmount": {
+              "amount": "5.000000"
+            }
+          },
+          {
+            "name": "Bank@Post balance enquiry",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "additionalInfo": "When you make balance enquiry at a Bank@Post \nterminal in an Australia Post Office using a Bendigo \nBank card, where this facility is available.",
+            "additionalInfoUri": "https://www.bendigobank.com.au/globalassets/documents/disclosures/schedule-of-fees-charges-and-transaction-account-rebates.pdf",
+            "discounts": [],
+            "fixedAmount": {
+              "amount": "0.000000"
+            }
+          },
+          {
+            "name": "Bank@Post Withdrawal",
+            "feeType": "WITHDRAWAL",
+            "feeMethodUType": "fixedAmount",
+            "additionalInfo": "When you make a withdrawal at a Bank@Post terminal in an \nAustralia Post Office using a Bendigo Bank card where \nthis facility is available.\n",
+            "additionalInfoUri": "https://www.bendigobank.com.au/globalassets/documents/disclosures/schedule-of-fees-charges-and-transaction-account-rebates.pdf",
+            "discounts": [],
+            "fixedAmount": {
+              "amount": "2.500000"
+            }
+          },
+          {
+            "name": "Bank@Post Deposit",
+            "feeType": "DEPOSIT",
+            "feeMethodUType": "fixedAmount",
+            "additionalInfo": "When you make a deposit at a Bank@Post terminal in an \nAustralia Post Office using a Bendigo Bank card where \nthis facility is available.\n",
+            "additionalInfoUri": "https://www.bendigobank.com.au/globalassets/documents/disclosures/schedule-of-fees-charges-and-transaction-account-rebates.pdf",
+            "discounts": [],
+            "fixedAmount": {
+              "amount": "2.500000"
+            }
+          },
+          {
+            "name": "Bank Cheque Withdrawal",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "additionalInfo": "When you request us to provide you with a bank cheque. \nThis fee will be charged to your account.",
+            "additionalInfoUri": "https://www.bendigobank.com.au/globalassets/documents/disclosures/schedule-of-fees-charges-and-transaction-account-rebates.pdf",
+            "discounts": [],
+            "fixedAmount": {
+              "amount": "10.000000"
+            }
+          },
+          {
+            "name": "EFT Credit Transfer",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "additionalInfoUri": "https://www.bendigobank.com.au/globalassets/documents/disclosures/schedule-of-fees-charges-and-transaction-account-rebates.pdf",
+            "discounts": [],
+            "fixedAmount": {
+              "amount": "4.000000"
+            }
+          },
+          {
+            "name": "Monthly Service Fee",
+            "feeType": "PERIODIC",
+            "feeMethodUType": "fixedAmount",
+            "additionalValue": "P1M",
+            "discounts": [],
+            "fixedAmount": {
+              "amount": "0.000000"
+            }
+          },
+          {
+            "name": "EFTPOS Withdrawal",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "discounts": [],
+            "fixedAmount": {
+              "amount": "0.000000"
+            }
+          },
+          {
+            "name": "Bendigo Bank ATM Transfer",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "discounts": [],
+            "fixedAmount": {
+              "amount": "0.000000"
+            }
+          },
+          {
+            "name": "Bendigo Bank ATM Withdrawal",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "discounts": [],
+            "fixedAmount": {
+              "amount": "0.000000"
+            }
+          }
+        ],
+        "lendingRates": [],
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0035000000000000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "applicationType": "PERIODIC",
+            "tiers": [
+              {
+                "name": "$0 < $9,999.99",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "0.0000000000000000",
+                "maximumValue": "9999.9900000000000000",
+                "rateApplicationMethod": "PER_TIER"
+              }
+            ]
+          },
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0195000000000000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "applicationType": "PERIODIC",
+            "tiers": [
+              {
+                "name": "$10,000 < $49,999.99",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "10000.0000000000000000",
+                "maximumValue": "49999.9900000000000000",
+                "rateApplicationMethod": "PER_TIER"
+              }
+            ]
+          },
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0245000000000000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "applicationType": "PERIODIC",
+            "tiers": [
+              {
+                "name": "$50,000 < $249,999.99",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "50000.0000000000000000",
+                "maximumValue": "249999.9900000000000000",
+                "rateApplicationMethod": "PER_TIER"
+              }
+            ]
+          },
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0275000000000000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "applicationType": "PERIODIC",
+            "tiers": [
+              {
+                "name": "$250000.00 plus",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "250000.0000000000000000",
+                "rateApplicationMethod": "PER_TIER"
+              }
+            ]
+          }
+        ],
+        "additionalInformation": {
+          "overviewUri": "https://www.bendigobank.com.au/personal/transaction-accounts/easy-retirement-account/",
+          "termsUri": "https://www.bendigobank.com.au/disclosure-documents/",
+          "eligibilityUri": "https://www.bendigobank.com.au/disclosure-documents/",
+          "feesAndPricingUri": "https://www.bendigobank.com.au/globalassets/documents/disclosures/schedule-of-fees-charges-and-transaction-account-rebates.pdf"
+        },
+        "brand": "BENDIGO"
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "1c7fb67a-446b-4dc5-94e5-9e5f716a87bb",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "lastUpdated": "2026-08-31T06:51:48.730Z",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "name": "Bendigo Student Account",
+        "description": "This clever transaction account is designed to help you earn while you learn.  It's available to full time students, apprentices and trainees.",
+        "productId": "1c7fb67a-446b-4dc5-94e5-9e5f716a87bb",
+        "brandName": "Bendigo Bank",
+        "applicationUri": "https://applynow.bendigobank.com.au/apply/#/apply/new/depositAccounts/productSelection?productCode=DDA-14-STU",
+        "isTailored": false,
+        "bundles": [],
+        "cardArt": [],
+        "features": [
+          {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": "Ability for existing customers to open an account in e-banking"
+          },
+          {
+            "featureType": "NPP_ENABLED"
+          },
+          {
+            "featureType": "CARD_ACCESS",
+            "additionalValue": "A card is available for the product to access funds"
+          }
+        ],
+        "constraints": [],
+        "eligibility": [
+          {
+            "eligibilityType": "STUDENT",
+            "additionalValue": "Available to full-time students, apprentices and trainees aged 12 years and over. ",
+            "additionalInfo": "Once you turn 25 years of age, proof of ongoing enrolment to be provided by 14 April every year."
+          },
+          {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "12"
+          },
+          {
+            "eligibilityType": "NATURAL_PERSON",
+            "additionalValue": "Must be a natural person"
+          },
+          {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalValue": "Australian citizen or resident",
+            "additionalInfo": "You need to be an Australian citizen or resident"
+          }
+        ],
+        "fees": [
+          {
+            "name": "Periodical Payment to Other Financial Institution",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "discounts": [],
+            "fixedAmount": {
+              "amount": "3.750000"
+            }
+          },
+          {
+            "name": "Direct Debit Dishonour Fee",
+            "feeType": "DISHONOUR",
+            "feeMethodUType": "fixedAmount",
+            "additionalInfo": "Applies when a direct debit from your account is \ndishonoured due to insufficient funds.",
+            "discounts": [],
+            "fixedAmount": {
+              "amount": "10.000000"
+            }
+          },
+          {
+            "name": "International Transaction Fee",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "rateBased",
+            "additionalInfo": "3% of the Transaction amount (in AUD) payable for \neach Transaction which is conducted in a currency \nother than Australian dollars (AUD) or in Australian \ndollars (AUD) but with or using a merchant, payment \nprocessor, financial institution or other entity \n(including an online merchant) who is outside of \nAustralia.",
+            "discounts": [],
+            "rateBased": {
+              "rateType": "TRANSACTION",
+              "rate": "0.0300000000000000"
+            }
+          },
+          {
+            "name": "International ATM Withdrawal",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "additionalInfo": "Payable whenever you make a cash withdrawal outside of Australia at a non-Bendigo Bank ATM (in addition to the Cash Advance Fee).\nOther financial institutions may charge you a fee for using their ATMs. This fee will be displayed at the time of the transaction and allows the customer to accept or decline the fee as shown. If using your credit card interest will be charged from the day the withdrawal is completed.\n",
+            "discounts": [],
+            "fixedAmount": {
+              "amount": "5.000000"
+            }
+          },
+          {
+            "name": "Bank@Post balance enquiry",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "additionalInfo": "When you make balance enquiry at a Bank@Post \nterminal in an Australia Post Office using a Bendigo \nBank card, where this facility is available.",
+            "discounts": [],
+            "fixedAmount": {
+              "amount": "0.000000"
+            }
+          },
+          {
+            "name": "Bank@Post Deposit",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "additionalInfo": "When you make a deposit at a Bank@Post terminal in an \nAustralia Post Office using a Bendigo Bank card where \nthis facility is available.\n",
+            "discounts": [],
+            "fixedAmount": {
+              "amount": "2.500000"
+            }
+          },
+          {
+            "name": "Bank@Post Withdrawal",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "additionalInfo": "When you make a Withdrawal at a Bank@Post terminal in an \nAustralia Post Office using a Bendigo Bank card where \nthis facility is available.\n",
+            "discounts": [],
+            "fixedAmount": {
+              "amount": "2.500000"
+            }
+          },
+          {
+            "name": "Staff Assisted Service Fee In Branch",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "additionalInfo": "All in branch Staff Assisted Services for withdrawals and transfers will incur this fee.",
+            "discounts": [],
+            "fixedAmount": {
+              "amount": "2.500000"
+            }
+          },
+          {
+            "name": "Bendigo Bank ATM Transfer",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "discounts": [],
+            "fixedAmount": {
+              "amount": "0.000000"
+            }
+          },
+          {
+            "name": "Bendigo Bank ATM Withdrawal",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "discounts": [],
+            "fixedAmount": {
+              "amount": "0.000000"
+            }
+          },
+          {
+            "name": "Monthly Service Fee",
+            "feeType": "PERIODIC",
+            "feeMethodUType": "fixedAmount",
+            "additionalValue": "P1M",
+            "discounts": [],
+            "fixedAmount": {
+              "amount": "0.000000"
+            }
+          }
+        ],
+        "lendingRates": [],
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0000000000000000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "applicationType": "PERIODIC",
+            "tiers": [
+              {
+                "name": "$0 < $250",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "0.0000000000000000",
+                "maximumValue": "250.0000000000000000",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ]
+          },
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0000000000000000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "applicationType": "PERIODIC",
+            "tiers": [
+              {
+                "name": "$250 < $2,000",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "250.0000000000000000",
+                "maximumValue": "2000.0000000000000000",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ]
+          },
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0000000000000000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "applicationType": "PERIODIC",
+            "tiers": [
+              {
+                "name": "$2,000 < $5,000",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "2000.0000000000000000",
+                "maximumValue": "5000.0000000000000000",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ]
+          },
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0001000000000000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "applicationType": "PERIODIC",
+            "tiers": [
+              {
+                "name": "$5,000 plus",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.0000000000000000",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ]
+          }
+        ],
+        "additionalInformation": {
+          "overviewUri": "https://www.bendigobank.com.au/personal/transaction-accounts/student-account/",
+          "termsUri": "https://www.bendigobank.com.au/disclosure-documents/",
+          "eligibilityUri": "https://www.bendigobank.com.au/disclosure-documents/",
+          "feesAndPricingUri": "https://www.bendigobank.com.au/disclosure-documents/"
+        },
+        "brand": "BENDIGO"
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "2ba04e82-9c1b-41d3-8647-cb7d701db022",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "lastUpdated": "2026-03-22T03:55:26.970Z",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "name": "Foreign Currency At Call Deposit Account",
+        "description": "An everyday account denominated in a foreign currency",
+        "productId": "2ba04e82-9c1b-41d3-8647-cb7d701db022",
+        "brandName": "Bendigo Bank",
+        "isTailored": false,
+        "bundles": [],
+        "cardArt": [],
+        "features": [
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "At call account denominated in a foreign currency provided you do so prior to the relevant \"cut off time\" for the applicable currency otherwise it will be the next business day.",
+            "additionalInfoUri": "https://www.bendigobank.com.au/globalassets/documents/interestrates/schedule-for-bendigo-foreign-currency-at-call-deposit-account.pdf"
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "OPENING_BALANCE",
+            "additionalInfo": "A Foreign Currency Account can only be maintained if an existing Australian dollar  account is held in the same name / title.",
+            "additionalValue": "10000.00"
+          }
+        ],
+        "eligibility": [],
+        "fees": [],
+        "lendingRates": [],
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0000000000000000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1Y",
+            "additionalInfo": "The rate will vary depending upon the currency pair and interest tiers involved.",
+            "applicationType": "PERIODIC"
+          }
+        ],
+        "additionalInformation": {
+          "overviewUri": "https://www.bendigobank.com.au/business/manage-fx/",
+          "termsUri": "https://www.bendigobank.com.au/disclosure-documents/",
+          "eligibilityUri": "https://www.bendigobank.com.au/globalassets/documents/tmd/bendigobank/foreign-exchange-savings-account.pdf",
+          "feesAndPricingUri": "https://www.bendigobank.com.au/globalassets/documents/disclosures/bendigo-foreign-currency-at-call-deposit-account-pds.pdf"
+        },
+        "brand": "BENDIGO"
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "4ed9b9eb-62e7-4fdb-b716-d56b690ca2c4",
+      "productCategory": "TERM_DEPOSITS",
+      "detail": {
+        "lastUpdated": "2026-07-09T05:50:10.917Z",
+        "productCategory": "TERM_DEPOSITS",
+        "name": "Gold Term Deposit",
+        "description": "A Bendigo Gold Term Deposit Account is a deposit account that allows a retail client to deposit $2,000 or more into it for \na 12 month investment period with interest payable every 3 months at an agreed rate. Funds can be reinvested or \nwithdrawn, however any withdrawal greater than 25% of the value of the initial deposit requires the client to provide \nnotice. Funds released early may attract a reduced interest rate. ",
+        "productId": "4ed9b9eb-62e7-4fdb-b716-d56b690ca2c4",
+        "brandName": "Bendigo Bank",
+        "applicationUri": "https://www.bendigobank.com.au/personal/term-deposits/term-deposit-enquiry/",
+        "isTailored": false,
+        "bundles": [],
+        "cardArt": [],
+        "features": [
+          {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": "*Existing customers only "
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "OPENING_BALANCE",
+            "additionalInfo": "*Minimum to Open",
+            "additionalValue": "2000.00"
+          },
+          {
+            "constraintType": "MIN_BALANCE",
+            "additionalInfo": "*Minimum Balance to Maintain",
+            "additionalValue": "1.00"
+          }
+        ],
+        "eligibility": [],
+        "fees": [
+          {
+            "name": "Bank Cheque Withdrawal",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "discounts": [],
+            "fixedAmount": {
+              "amount": "10.000000"
+            }
+          },
+          {
+            "name": "EFT Credit Transfer",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "discounts": [],
+            "fixedAmount": {
+              "amount": "4.000000"
+            }
+          }
+        ],
+        "lendingRates": [],
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0005000000000000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P3M",
+            "additionalValue": "P1Y",
+            "applicationType": "PERIODIC",
+            "tiers": [
+              {
+                "name": "$0 - $1,999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "0.0000000000000000",
+                "maximumValue": "1999.9900000000000000",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ]
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0005000000000000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P3M",
+            "additionalValue": "P1Y",
+            "applicationType": "PERIODIC",
+            "tiers": [
+              {
+                "name": "$2000 - $5,000,000",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "2000.0000000000000000",
+                "maximumValue": "5000000.0000000000000000",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ]
+          }
+        ],
+        "additionalInformation": {
+          "overviewUri": "https://www.bendigobank.com.au/personal/term-deposits/",
+          "termsUri": "https://www.bendigobank.com.au/disclosure-documents/",
+          "eligibilityUri": "https://www.bendigobank.com.au/disclosure-documents/",
+          "feesAndPricingUri": "https://www.bendigobank.com.au/disclosure-documents/"
+        },
+        "brand": "BENDIGO"
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "5debfb49-f04c-4b99-bb55-8d64e8d98bc5",
+      "productCategory": "TERM_DEPOSITS",
+      "detail": {
+        "lastUpdated": "2026-03-16T04:45:54.800Z",
+        "productCategory": "TERM_DEPOSITS",
+        "name": "Foreign Currency Term Deposit Account",
+        "description": "A deposit account for an agreed sum of money denominated in a foreign currency for a fixed term to receive a fixed return.",
+        "productId": "5debfb49-f04c-4b99-bb55-8d64e8d98bc5",
+        "brandName": "Bendigo Bank",
+        "isTailored": true,
+        "bundles": [],
+        "cardArt": [],
+        "features": [
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "A fixed rate of interest that is denominated in a foreign currency."
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Maximum period of 12 months of of Investment Term, and interest is calculated on daily basis. The interest rate paid varies based on the prevailing foreign currency market interest rate for the relevant foreign currency."
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "OPENING_BALANCE",
+            "additionalInfo": "Cut off time for various currencies on offer",
+            "additionalValue": "10000.00",
+            "additionalInfoUri": "https://www.bendigobank.com.au/globalassets/documents/interestrates/schedule-for-bendigo-foreign-currency-term-deposit-account.pdf"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "OTHER",
+            "additionalInfo": "This product is only available to retail clients who meet the anti-money laundering and counter terrorism financing legislation requirements and hold an existing Australian dollar account in the same name / title."
+          }
+        ],
+        "fees": [
+          {
+            "name": "Telegraphic transfers",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "currency": "AUD",
+            "additionalInfo": "AUD15.00 for Bendigo and Adelaide Bank shareholder. Note, accepting bank may charge a handling/acceptance fee which may be deducted from the total of funds on receipt.",
+            "additionalInfoUri": "https://www.bendigobank.com.au/globalassets/documents/disclosures/bendigo-foreign-currency-term-deposit-account-pds.pdf",
+            "discounts": [],
+            "fixedAmount": {
+              "amount": "30.000000"
+            }
+          },
+          {
+            "name": "Return telegraphic transfers",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "currency": "AUD",
+            "additionalInfoUri": "https://www.bendigobank.com.au/globalassets/documents/disclosures/bendigo-foreign-currency-term-deposit-account-pds.pdf",
+            "discounts": [],
+            "fixedAmount": {
+              "amount": "25.000000"
+            }
+          }
+        ],
+        "depositRates": [],
+        "lendingRates": [],
+        "additionalInformation": {
+          "overviewUri": "https://www.bendigobank.com.au/business/manage-fx/",
+          "termsUri": "https://www.bendigobank.com.au/disclosure-documents/",
+          "eligibilityUri": "https://www.bendigobank.com.au/globalassets/documents/tmd/bendigobank/foreign-exchange-term-deposit.pdf",
+          "feesAndPricingUri": "https://www.bendigobank.com.au/disclosure-documents/"
+        },
+        "brand": "BENDIGO"
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "5f279355-c6ae-4717-a28c-3cf4a0df85ee",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "lastUpdated": "2026-10-01T03:50:12.243Z",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "name": "Bendigo Business Everyday Account",
+        "description": "Businesses requiring frequent transactions",
+        "productId": "5f279355-c6ae-4717-a28c-3cf4a0df85ee",
+        "brandName": "Bendigo Bank",
+        "isTailored": false,
+        "bundles": [],
+        "cardArt": [],
+        "features": [
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Phone Banking (Age restrictions apply. Available subject to approval)"
+          },
+          {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": "E-Banking *Age restrictions apply. Available subject to approval "
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Bulk Payments(Age restrictions apply. Available subject to approval)"
+          },
+          {
+            "featureType": "BILL_PAYMENT",
+            "additionalInfo": "*BPAY View are only available if you have access to Bendigo E-Banking.",
+            "additionalValue": "BPAY & BPAY View*"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Pay Anyone Service (Pay Anyone is only available if you have access to Bendigo E-Banking)"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Automatic Payments "
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Telegraphic Transfers"
+          },
+          {
+            "featureType": "CARD_ACCESS",
+            "additionalInfo": "Age restrictions apply. Subject to approval",
+            "additionalValue": "Debit Card Availble"
+          },
+          {
+            "featureType": "OVERDRAFT",
+            "additionalInfo": "*Age restrictions apply. Available subject to approval."
+          },
+          {
+            "featureType": "NPP_PAYID"
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "OPENING_BALANCE",
+            "additionalValue": "1.00"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "BUSINESS"
+          }
+        ],
+        "fees": [
+          {
+            "name": "Monthly Service Fee",
+            "feeType": "PERIODIC",
+            "feeMethodUType": "fixedAmount",
+            "currency": "AUD",
+            "additionalValue": "P1M",
+            "additionalInfoUri": "https://www.bendigobank.com.au/globalassets/documents/disclosures/business-fees-and-charges.pdf",
+            "discounts": [],
+            "fixedAmount": {
+              "amount": "15.000000"
+            }
+          },
+          {
+            "name": "Business Debit Mastercard Fee",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "currency": "AUD",
+            "additionalInfo": "No transaction fees on purchases in Australia when you press credit# or Tap & Go",
+            "discounts": [],
+            "fixedAmount": {
+              "amount": "0.000000"
+            }
+          },
+          {
+            "name": "Bank@Post Withdrawal",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "currency": "AUD",
+            "additionalInfoUri": "https://www.bendigobank.com.au/globalassets/documents/disclosures/business-fees-and-charges.pdf",
+            "discounts": [],
+            "fixedAmount": {
+              "amount": "4.000000"
+            }
+          },
+          {
+            "name": "Bank@Post Deposit",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "currency": "AUD",
+            "additionalInfoUri": "https://www.bendigobank.com.au/globalassets/documents/disclosures/business-fees-and-charges.pdf",
+            "discounts": [],
+            "fixedAmount": {
+              "amount": "4.000000"
+            }
+          },
+          {
+            "name": "Bank Cheque Withdrawal",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "currency": "AUD",
+            "additionalInfoUri": "https://www.bendigobank.com.au/globalassets/documents/disclosures/business-fees-and-charges.pdf",
+            "discounts": [],
+            "fixedAmount": {
+              "amount": "10.000000"
+            }
+          },
+          {
+            "name": "EFT Credit Transfer",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "currency": "AUD",
+            "additionalInfoUri": "https://www.bendigobank.com.au/globalassets/documents/disclosures/business-fees-and-charges.pdf",
+            "discounts": [],
+            "fixedAmount": {
+              "amount": "4.000000"
+            }
+          },
+          {
+            "name": "Periodical Payment to Other Financial Institution",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "currency": "AUD",
+            "additionalInfoUri": "https://www.bendigobank.com.au/globalassets/documents/disclosures/business-fees-and-charges.pdf",
+            "discounts": [],
+            "fixedAmount": {
+              "amount": "3.750000"
+            }
+          }
+        ],
+        "lendingRates": [],
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0000000000000000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "additionalInfoUri": "https://www.bendigobank.com.au/globalassets/documents/interestrates/schedule-of-interest-rates-for-business-accounts.pdf",
+            "applicationType": "PERIODIC"
+          }
+        ],
+        "additionalInformation": {
+          "overviewUri": "https://www.bendigobank.com.au/business/business-transaction-accounts/",
+          "termsUri": "https://www.bendigobank.com.au/disclosure-documents/",
+          "eligibilityUri": "https://www.bendigobank.com.au/globalassets/documents/disclosures/bendigo-business-accounts-and-facilities.pdf",
+          "feesAndPricingUri": "https://www.bendigobank.com.au/globalassets/documents/disclosures/business-fees-and-charges.pdf"
+        },
+        "brand": "BENDIGO"
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "65294c0f-0db3-47b0-b556-e24fd7e83849",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "effectiveFrom": "2025-02-09T14:00:00.000Z",
+        "lastUpdated": "2026-09-02T05:15:20.977Z",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "name": "Variable Rate Farm Management Account",
+        "description": " Farm Management Deposit (FMD) is an important cash flow management tool that enables individuals carrying on a primary production business in Australia (primary producers) to set aside pre-tax income from their profitable years and earn interest on it – so the money’s available when they most need it.",
+        "productId": "65294c0f-0db3-47b0-b556-e24fd7e83849",
+        "brandName": "Bendigo Bank",
+        "isTailored": false,
+        "bundles": [],
+        "cardArt": [],
+        "features": [
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Designed for primary producers who’ve earned a taxable non-farm income of $100,000 or less over a financial year."
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "You can have more than one Farm Management Deposit, up to a combined value of $800,000 per farmer."
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "No monthly account service fees or transaction fees apply to Bendigo Bank Farm Management Deposit accounts."
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "At call, no early withdrawal notice required."
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "OPENING_BALANCE",
+            "additionalValue": "1000.00"
+          },
+          {
+            "constraintType": "MAX_BALANCE",
+            "additionalInfo": "The total of all FMD’s held in a client’s name must not exceed $800,000.",
+            "additionalValue": "800000.00"
+          },
+          {
+            "constraintType": "MIN_BALANCE",
+            "additionalValue": "1000.00"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "OTHER",
+            "additionalInfo": "Customer must be a primary producer with an off-farm taxable income of less than $100,000 per annum."
+          },
+          {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalValue": "Australian Resident ",
+            "additionalInfo": "Only available to Australian primary producers."
+          },
+          {
+            "eligibilityType": "OTHER",
+            "additionalInfo": "Can only be opened in the name of an individual."
+          },
+          {
+            "eligibilityType": "OTHER",
+            "additionalInfo": "Subject to farm management deposit scheme eligibility guidelines."
+          }
+        ],
+        "fees": [
+          {
+            "name": "Bank Cheque Fee",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "additionalInfo": "Applies per bank cheque you request. This fee will not be debited to your FMD.",
+            "discounts": [],
+            "fixedAmount": {
+              "amount": "10.000000"
+            }
+          }
+        ],
+        "lendingRates": [],
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0000000000000000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1Y",
+            "applicationType": "PERIODIC",
+            "tiers": [
+              {
+                "name": "$0 - $999.99",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "0.0000000000000000",
+                "maximumValue": "999.9900000000000000",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ]
+          },
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0000000000000000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1Y",
+            "applicationType": "PERIODIC",
+            "tiers": [
+              {
+                "name": "$1,000.00 - $49,999.99",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.0000000000000000",
+                "maximumValue": "49999.0000000000000000",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ]
+          },
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0125000000000000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1Y",
+            "applicationType": "PERIODIC",
+            "tiers": [
+              {
+                "name": "$50,000.00 - $800,000.00",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "50000.0000000000000000",
+                "maximumValue": "800000.0000000000000000",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ]
+          }
+        ],
+        "additionalInformation": {
+          "overviewUri": "https://www.bendigobank.com.au/business/accounts/farm-management-deposit/",
+          "termsUri": "https://www.bendigobank.com.au/globalassets/documents/disclosures/bendigo-business-accounts-and-facilities.pdf",
+          "feesAndPricingUri": "https://www.bendigobank.com.au/globalassets/documents/interestrates/schedule-of-interest-rates-for-farm-management-deposit-accounts.pdf"
+        },
+        "brand": "BENDIGO"
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "6d6b4d2d-55b4-48ef-afeb-b5d4a6d0cae4",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "lastUpdated": "2026-10-18T13:32:24.574Z",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "name": "Bendigo Business EasySaver",
+        "description": "This account offers a single interest rate on the entire balance of the account, and includes free e-banking transactions.",
+        "productId": "6d6b4d2d-55b4-48ef-afeb-b5d4a6d0cae4",
+        "brandName": "Bendigo Bank",
+        "isTailored": false,
+        "bundles": [],
+        "cardArt": [],
+        "features": [
+          {
+            "featureType": "UNLIMITED_TXNS",
+            "additionalInfo": "Unlimited free e-banking transactions."
+          },
+          {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": "Internet and phone banking available"
+          },
+          {
+            "featureType": "NPP_ENABLED"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Minimum opening balance of just $1"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Single interest rate regardless of the account balance"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "No monthly account service fee, and free e-banking transactions"
+          },
+          {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": "e-statements available"
+          },
+          {
+            "featureType": "NPP_PAYID"
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "MIN_BALANCE",
+            "additionalValue": "1.00"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "BUSINESS"
+          }
+        ],
+        "fees": [
+          {
+            "name": "Branch Cash Withdrawal",
+            "feeType": "WITHDRAWAL",
+            "feeMethodUType": "fixedAmount",
+            "additionalInfoUri": "https://www.bendigobank.com.au/globalassets/documents/disclosures/business-fees-and-charges.pdf",
+            "discounts": [],
+            "fixedAmount": {
+              "amount": "1.750000"
+            }
+          },
+          {
+            "name": "Branch Transfer",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "additionalInfoUri": "https://www.bendigobank.com.au/globalassets/documents/disclosures/business-fees-and-charges.pdf",
+            "discounts": [],
+            "fixedAmount": {
+              "amount": "1.750000"
+            }
+          },
+          {
+            "name": "Collection Item",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "additionalInfoUri": "https://www.bendigobank.com.au/globalassets/documents/disclosures/business-fees-and-charges.pdf",
+            "discounts": [],
+            "fixedAmount": {
+              "amount": "0.700000"
+            }
+          },
+          {
+            "name": "Bank Cheque Withdrawal",
+            "feeType": "WITHDRAWAL",
+            "feeMethodUType": "fixedAmount",
+            "discounts": [],
+            "fixedAmount": {
+              "amount": "10.000000"
+            }
+          },
+          {
+            "name": "EFT Credit Transfer",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "additionalInfoUri": "https://www.bendigobank.com.au/globalassets/documents/disclosures/business-fees-and-charges.pdf",
+            "discounts": [],
+            "fixedAmount": {
+              "amount": "4.000000"
+            }
+          },
+          {
+            "name": "Periodical Payment to Other Financial Institution",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "additionalInfoUri": "https://www.bendigobank.com.au/globalassets/documents/disclosures/business-fees-and-charges.pdf",
+            "discounts": [],
+            "fixedAmount": {
+              "amount": "3.750000"
+            }
+          }
+        ],
+        "lendingRates": [],
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0150000000000000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "applicationType": "PERIODIC"
+          }
+        ],
+        "additionalInformation": {
+          "overviewUri": "https://www.bendigobank.com.au/business/business-savings-accounts/",
+          "termsUri": "https://www.bendigobank.com.au/disclosure-documents/",
+          "eligibilityUri": "https://www.bendigobank.com.au/disclosure-documents/",
+          "feesAndPricingUri": "https://www.bendigobank.com.au/disclosure-documents/"
+        },
+        "brand": "BENDIGO"
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "9f51088a-d0b5-4e29-9214-f9d262f9569e",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "lastUpdated": "2026-11-15T23:41:51.139Z",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "name": "Bendigo Business Basic Account",
+        "description": "Businesses requiring less frequent transactions.",
+        "productId": "9f51088a-d0b5-4e29-9214-f9d262f9569e",
+        "brandName": "Bendigo Bank",
+        "isTailored": false,
+        "bundles": [],
+        "features": [
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Phone Banking (Age restrictions apply. Available subject to approval)"
+          },
+          {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": "E-Banking (Age restrictions apply. Available subject to approval)"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Bulk Payments (Age restrictions apply. Available subject to approval)"
+          },
+          {
+            "featureType": "BILL_PAYMENT",
+            "additionalInfo": "*BPAY View are only available if you have access to Bendigo E-Banking",
+            "additionalValue": "BPAY & BPAY View*"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Pay Anyone Service (Pay Anyone is only available if you have access to Bendigo E-Banking)"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Automatic Payments "
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "No Monthly Service Fee "
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Telegraphic Transfers"
+          },
+          {
+            "featureType": "CARD_ACCESS",
+            "additionalInfo": "Age restrictions apply. Subject to approval",
+            "additionalValue": "Debit Card Availble"
+          },
+          {
+            "featureType": "NPP_PAYID"
+          }
+        ],
+        "cardArt": [],
+        "constraints": [
+          {
+            "constraintType": "OPENING_BALANCE",
+            "additionalValue": "1.00"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "BUSINESS"
+          }
+        ],
+        "fees": [
+          {
+            "name": "Business Debit Mastercard Fee",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "currency": "AUD",
+            "additionalInfo": "No transaction fees on purchases in Australia when you press credit# or Tap & Go",
+            "discounts": [],
+            "fixedAmount": {
+              "amount": "0.000000"
+            }
+          },
+          {
+            "name": "BPAY Withdrawal",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "currency": "AUD",
+            "additionalInfoUri": "https://www.bendigobank.com.au/globalassets/documents/disclosures/business-fees-and-charges.pdf",
+            "discounts": [],
+            "fixedAmount": {
+              "amount": "0.400000"
+            }
+          },
+          {
+            "name": "E-Banking Internal Transfer",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "currency": "AUD",
+            "additionalInfoUri": "https://www.bendigobank.com.au/globalassets/documents/disclosures/business-fees-and-charges.pdf",
+            "discounts": [],
+            "fixedAmount": {
+              "amount": "0.400000"
+            }
+          },
+          {
+            "name": "Phone Banking Transfer",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "currency": "AUD",
+            "additionalInfoUri": "https://www.bendigobank.com.au/globalassets/documents/disclosures/business-fees-and-charges.pdf",
+            "discounts": [],
+            "fixedAmount": {
+              "amount": "0.400000"
+            }
+          },
+          {
+            "name": "E-Banking Pay Anyone transfer incl. Osko",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "currency": "AUD",
+            "additionalInfoUri": "https://www.bendigobank.com.au/globalassets/documents/disclosures/business-fees-and-charges.pdf",
+            "discounts": [],
+            "fixedAmount": {
+              "amount": "0.400000"
+            }
+          },
+          {
+            "name": "Cash Withdrawal ",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "currency": "AUD",
+            "additionalInfoUri": "https://www.bendigobank.com.au/globalassets/documents/disclosures/business-fees-and-charges.pdf",
+            "discounts": [],
+            "fixedAmount": {
+              "amount": "1.750000"
+            }
+          },
+          {
+            "name": "Branch Transfer",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "currency": "AUD",
+            "additionalInfoUri": "https://www.bendigobank.com.au/globalassets/documents/disclosures/business-fees-and-charges.pdf",
+            "discounts": [],
+            "fixedAmount": {
+              "amount": "1.750000"
+            }
+          },
+          {
+            "name": "Collection Item ",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "currency": "AUD",
+            "additionalInfoUri": "https://www.bendigobank.com.au/globalassets/documents/disclosures/business-fees-and-charges.pdf",
+            "discounts": [],
+            "fixedAmount": {
+              "amount": "0.700000"
+            }
+          },
+          {
+            "name": "EFTPOS Withdrawal",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "currency": "AUD",
+            "additionalInfoUri": "https://www.bendigobank.com.au/globalassets/documents/disclosures/business-fees-and-charges.pdf",
+            "discounts": [],
+            "fixedAmount": {
+              "amount": "0.700000"
+            }
+          },
+          {
+            "name": "Bank@Post Withdrawal",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "currency": "AUD",
+            "additionalInfoUri": "https://www.bendigobank.com.au/globalassets/documents/disclosures/business-fees-and-charges.pdf",
+            "discounts": [],
+            "fixedAmount": {
+              "amount": "4.000000"
+            }
+          },
+          {
+            "name": "Bank@Post Deposit",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "currency": "AUD",
+            "additionalInfoUri": "https://www.bendigobank.com.au/globalassets/documents/disclosures/business-fees-and-charges.pdf",
+            "discounts": [],
+            "fixedAmount": {
+              "amount": "4.000000"
+            }
+          },
+          {
+            "name": "Cheque Withdrawal",
+            "feeType": "WITHDRAWAL",
+            "feeMethodUType": "fixedAmount",
+            "currency": "AUD",
+            "additionalInfo": "Existing Accounts Only. Cheque Facilities and Cheque books not available on new accounts opened from 1 August 2023.",
+            "additionalInfoUri": "https://www.bendigobank.com.au/globalassets/documents/disclosures/business-fees-and-charges.pdf",
+            "discounts": [],
+            "fixedAmount": {
+              "amount": "0.700000"
+            }
+          },
+          {
+            "name": "Bank Cheque Withdrawal",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "currency": "AUD",
+            "additionalInfoUri": "https://www.bendigobank.com.au/globalassets/documents/disclosures/business-fees-and-charges.pdf",
+            "discounts": [],
+            "fixedAmount": {
+              "amount": "10.000000"
+            }
+          },
+          {
+            "name": "EFT Credit Transfer",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "currency": "AUD",
+            "additionalInfoUri": "https://www.bendigobank.com.au/globalassets/documents/disclosures/business-fees-and-charges.pdf",
+            "discounts": [],
+            "fixedAmount": {
+              "amount": "4.000000"
+            }
+          },
+          {
+            "name": "Periodical Payment to Other Financial Institution",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "currency": "AUD",
+            "additionalInfoUri": "https://www.bendigobank.com.au/globalassets/documents/disclosures/business-fees-and-charges.pdf",
+            "discounts": [],
+            "fixedAmount": {
+              "amount": "3.750000"
+            }
+          }
+        ],
+        "lendingRates": [],
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0000000000000000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "additionalInfoUri": "https://www.bendigobank.com.au/globalassets/documents/interestrates/schedule-of-interest-rates-for-business-accounts.pdf",
+            "applicationType": "PERIODIC"
+          }
+        ],
+        "additionalInformation": {
+          "overviewUri": "https://www.bendigobank.com.au/business/business-transaction-accounts/",
+          "termsUri": "https://www.bendigobank.com.au/disclosure-documents/",
+          "eligibilityUri": "https://www.bendigobank.com.au/disclosure-documents/",
+          "feesAndPricingUri": "https://www.bendigobank.com.au/globalassets/documents/disclosures/business-fees-and-charges.pdf"
+        },
+        "brand": "BENDIGO"
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "b712bbfe-6bd8-4490-b83c-4c5461ea3b0c",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "lastUpdated": "2026-08-31T06:51:48.928Z",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "name": "Bendigo Concession Account",
+        "description": "This easy to use transaction account is for customers with an eligible Commonwealth Government concession card.  Designed for everyday banking with free e-banking transactions, 24 hour ATM and EFTPOS access via your choice of card.",
+        "productId": "b712bbfe-6bd8-4490-b83c-4c5461ea3b0c",
+        "brandName": "Bendigo Bank",
+        "applicationUri": "https://www.bendigobank.com.au/personal/transaction-accounts/concession-account/",
+        "isTailored": false,
+        "bundles": [],
+        "cardArt": [],
+        "features": [
+          {
+            "featureType": "UNLIMITED_TXNS"
+          },
+          {
+            "featureType": "DIGITAL_BANKING"
+          },
+          {
+            "featureType": "NPP_ENABLED"
+          },
+          {
+            "featureType": "CARD_ACCESS",
+            "additionalValue": "A card is available for the product to access funds"
+          }
+        ],
+        "constraints": [],
+        "eligibility": [
+          {
+            "eligibilityType": "PENSION_RECIPIENT",
+            "additionalValue": "- This product is available to retail clients who:  - currently hold a Health Care Card, Pensioner Concession Card, Commonwealth Seniors Health Card or Department of Veterans' Affairs (DVA) Health Card (Gold card or Repatriation Health Card)  - or are otherwise deemed to be eligible by Bendigo Bank  - and they ensure any Australian Government payments (where applicable) are paid consistently into the account  Note: Customers who no longer meet the eligibility requirements may be converted to a Bendigo Everyday Account.",
+            "additionalInfo": "Note: Customers who no longer meet the eligibility requirements may be converted to a Bendigo Everyday Account.",
+            "additionalInfoUri": "https://www.bendigobank.com.au/personal/accounts/transaction-accounts/concession/"
+          },
+          {
+            "eligibilityType": "NATURAL_PERSON",
+            "additionalValue": "Must be a natural person"
+          },
+          {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalValue": "You need to be an Australian citizen or resident"
+          }
+        ],
+        "fees": [
+          {
+            "name": "International ATM Withdrawal",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "additionalInfo": "Payable whenever you make a cash withdrawal outside of Australia at a non-Bendigo Bank ATM (in addition to the Cash Advance Fee).\nOther financial institutions may charge you a fee for using their ATMs. This fee will be displayed at the time of the transaction and allows the customer to accept or decline the fee as shown. If using your credit card interest will be charged from the day the withdrawal is completed.\n",
+            "discounts": [],
+            "fixedAmount": {
+              "amount": "5.000000"
+            }
+          },
+          {
+            "name": "International Transaction Fee",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "rateBased",
+            "additionalInfo": "3% of the Transaction amount (in AUD) payable for \neach Transaction which is conducted in a currency \nother than Australian dollars (AUD) or in Australian \ndollars (AUD) but with or using a merchant, payment \nprocessor, financial institution or other entity \n(including an online merchant) who is outside of \nAustralia.",
+            "discounts": [],
+            "rateBased": {
+              "rateType": "TRANSACTION",
+              "rate": "0.0300000000000000"
+            }
+          },
+          {
+            "name": "Bank Cheque Withdrawal",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "discounts": [],
+            "fixedAmount": {
+              "amount": "0.000000"
+            }
+          },
+          {
+            "name": "EFT Credit Transfer",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "discounts": [],
+            "fixedAmount": {
+              "amount": "0.000000"
+            }
+          },
+          {
+            "name": "Periodical Payment to Other Financial Institution",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "discounts": [],
+            "fixedAmount": {
+              "amount": "0.000000"
+            }
+          },
+          {
+            "name": "Bank@Post Withdrawal",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "discounts": [],
+            "fixedAmount": {
+              "amount": "0.000000"
+            }
+          },
+          {
+            "name": "Bank@Post Deposit",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "discounts": [],
+            "fixedAmount": {
+              "amount": "0.000000"
+            }
+          },
+          {
+            "name": "Bank@Post balance enquiry",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "discounts": [],
+            "fixedAmount": {
+              "amount": "0.000000"
+            }
+          },
+          {
+            "name": "Monthly Service Fee",
+            "feeType": "PERIODIC",
+            "feeMethodUType": "fixedAmount",
+            "additionalValue": "P1M",
+            "discounts": [],
+            "fixedAmount": {
+              "amount": "0.000000"
+            }
+          },
+          {
+            "name": "Staff Assisted Transaction In Branch Fee",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "discounts": [],
+            "fixedAmount": {
+              "amount": "0.000000"
+            }
+          },
+          {
+            "name": "EFTPOS Withdrawal",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "discounts": [],
+            "fixedAmount": {
+              "amount": "0.000000"
+            }
+          },
+          {
+            "name": "Bendigo Bank ATM Withdrawal",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "discounts": [],
+            "fixedAmount": {
+              "amount": "0.000000"
+            }
+          },
+          {
+            "name": "Bendigo Bank ATM Transfer",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "discounts": [],
+            "fixedAmount": {
+              "amount": "0.000000"
+            }
+          }
+        ],
+        "lendingRates": [],
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0000000000000000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1Y",
+            "applicationType": "PERIODIC"
+          }
+        ],
+        "additionalInformation": {
+          "overviewUri": "https://www.bendigobank.com.au/personal/transaction-accounts/concession-account/",
+          "termsUri": "https://www.bendigobank.com.au/disclosure-documents/",
+          "eligibilityUri": "https://www.bendigobank.com.au/disclosure-documents/",
+          "feesAndPricingUri": "https://www.bendigobank.com.au/disclosure-documents/"
+        },
+        "brand": "BENDIGO"
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "b85e1a64-ee7f-475d-b2dd-c0de7b5504b7",
+      "productCategory": "TERM_DEPOSITS",
+      "detail": {
+        "effectiveFrom": "2025-11-24T01:00:00.000Z",
+        "lastUpdated": "2026-07-24T01:18:35.447Z",
+        "productCategory": "TERM_DEPOSITS",
+        "name": "Bendigo Cash Solutions Term Deposit",
+        "description": "A term deposit offered exclusively through accredited Financial Planners and Custodians, with each partner offering individual pricing.",
+        "productId": "b85e1a64-ee7f-475d-b2dd-c0de7b5504b7",
+        "brandName": "Bendigo Bank",
+        "isTailored": true,
+        "bundles": [],
+        "cardArt": [],
+        "features": [
+          {
+            "featureType": "DIGITAL_BANKING"
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "OPENING_BALANCE",
+            "additionalValue": "5000.00"
+          }
+        ],
+        "eligibility": [],
+        "fees": [
+          {
+            "name": "Bank Cheque Fee",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "additionalInfo": "Is payable for each Bank Cheque drawn.",
+            "discounts": [],
+            "fixedAmount": {
+              "amount": "10.000000"
+            }
+          },
+          {
+            "name": "EFT Transfer Fee",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "discounts": [],
+            "fixedAmount": {
+              "amount": "4.000000"
+            }
+          }
+        ],
+        "lendingRates": [],
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0090000000000000",
+            "calculationFrequency": "P1D",
+            "additionalInfo": "$5k and above",
+            "additionalValue": "P1M",
+            "applicationType": "MATURITY"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0110000000000000",
+            "calculationFrequency": "P1D",
+            "additionalInfo": "$5k and above",
+            "additionalValue": "P2M",
+            "applicationType": "MATURITY"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0280000000000000",
+            "calculationFrequency": "P1D",
+            "additionalInfo": "$5k and above",
+            "additionalValue": "P3M",
+            "applicationType": "MATURITY"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0210000000000000",
+            "calculationFrequency": "P1D",
+            "additionalInfo": "$5k and above",
+            "additionalValue": "P4M",
+            "applicationType": "MATURITY"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0220000000000000",
+            "calculationFrequency": "P1D",
+            "additionalInfo": "$5k and above",
+            "additionalValue": "P5M",
+            "applicationType": "MATURITY"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0325000000000000",
+            "calculationFrequency": "P1D",
+            "additionalInfo": "$5k and above",
+            "additionalValue": "P6M",
+            "applicationType": "MATURITY"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0320000000000000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "additionalInfo": "$5k and above",
+            "additionalValue": "P6M",
+            "applicationType": "PERIODIC"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0250000000000000",
+            "calculationFrequency": "P1D",
+            "additionalInfo": "$5k and above",
+            "additionalValue": "P7M",
+            "applicationType": "MATURITY"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0247000000000000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "additionalInfo": "$5k and above",
+            "additionalValue": "P7M",
+            "applicationType": "PERIODIC"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0260000000000000",
+            "calculationFrequency": "P1D",
+            "additionalInfo": "$5k and above",
+            "additionalValue": "P8M",
+            "applicationType": "MATURITY"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0257000000000000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "additionalInfo": "$5k and above",
+            "additionalValue": "P8M",
+            "applicationType": "PERIODIC"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0290000000000000",
+            "calculationFrequency": "P1D",
+            "additionalInfo": "$5k and above",
+            "additionalValue": "P9M",
+            "applicationType": "MATURITY"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0286000000000000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "additionalInfo": "$5k and above",
+            "additionalValue": "P9M",
+            "applicationType": "PERIODIC"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0280000000000000",
+            "calculationFrequency": "P1D",
+            "additionalInfo": "$5k and above",
+            "additionalValue": "P10M",
+            "applicationType": "MATURITY"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0276000000000000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "additionalInfo": "$5k and above",
+            "additionalValue": "P10M",
+            "applicationType": "PERIODIC"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0290000000000000",
+            "calculationFrequency": "P1D",
+            "additionalInfo": "$5k and above",
+            "additionalValue": "P11M",
+            "applicationType": "MATURITY"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0286000000000000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "additionalInfo": "$5k and above",
+            "additionalValue": "P11M",
+            "applicationType": "PERIODIC"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0350000000000000",
+            "calculationFrequency": "P1D",
+            "additionalInfo": "$5k and above",
+            "additionalValue": "P1Y",
+            "applicationType": "MATURITY"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0345000000000000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "additionalInfo": "$5k and above",
+            "additionalValue": "P1Y",
+            "applicationType": "PERIODIC"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0345000000000000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P3M",
+            "additionalInfo": "$5k and above",
+            "additionalValue": "P1Y",
+            "applicationType": "PERIODIC"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0347000000000000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P6M",
+            "additionalInfo": "$5k and above",
+            "additionalValue": "P1Y",
+            "applicationType": "PERIODIC"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0378000000000000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "additionalInfo": "$5k and above",
+            "additionalValue": "P2Y",
+            "applicationType": "PERIODIC"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0380000000000000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P3M",
+            "additionalInfo": "$5k and above",
+            "additionalValue": "P2Y",
+            "applicationType": "PERIODIC"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0381000000000000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P6M",
+            "additionalInfo": "$5k and above",
+            "additionalValue": "P2Y",
+            "applicationType": "PERIODIC"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0385000000000000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1Y",
+            "additionalInfo": "$5k and above",
+            "additionalValue": "P2Y",
+            "applicationType": "PERIODIC"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0378000000000000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "additionalInfo": "$5k and above",
+            "additionalValue": "P3Y",
+            "applicationType": "PERIODIC"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0380000000000000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P3M",
+            "additionalInfo": "$5k and above",
+            "additionalValue": "P3Y",
+            "applicationType": "PERIODIC"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0381000000000000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P6M",
+            "additionalInfo": "$5k and above",
+            "additionalValue": "P3Y",
+            "applicationType": "PERIODIC"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0385000000000000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1Y",
+            "additionalInfo": "$5k and above",
+            "additionalValue": "P3Y",
+            "applicationType": "PERIODIC"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0378000000000000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "additionalInfo": "$5k and above",
+            "additionalValue": "P4Y",
+            "applicationType": "PERIODIC"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0380000000000000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P3M",
+            "additionalInfo": "$5k and above",
+            "additionalValue": "P4Y",
+            "applicationType": "PERIODIC"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0381000000000000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P6M",
+            "additionalInfo": "$5k and above",
+            "additionalValue": "P4Y",
+            "applicationType": "PERIODIC"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0385000000000000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1Y",
+            "additionalInfo": "$5k and above",
+            "additionalValue": "P4Y",
+            "applicationType": "PERIODIC"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0378000000000000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "additionalInfo": "$5k and above",
+            "additionalValue": "P5Y",
+            "applicationType": "PERIODIC"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0380000000000000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P3M",
+            "additionalInfo": "$5k and above",
+            "additionalValue": "P5Y",
+            "applicationType": "PERIODIC"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0381000000000000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P6M",
+            "additionalInfo": "$5k and above",
+            "additionalValue": "P5Y",
+            "applicationType": "PERIODIC"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0385000000000000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1Y",
+            "additionalInfo": "$5k and above",
+            "additionalValue": "P5Y",
+            "applicationType": "PERIODIC"
+          }
+        ],
+        "brand": "BENDIGO"
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "bc6fb157-f291-46db-b5b7-846030f66aec",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "lastUpdated": "2026-08-31T06:51:49.028Z",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "name": "Bendigo Everyday Account",
+        "description": "A simple account offering internet banking, phone banking and card access for everyday banking.",
+        "productId": "bc6fb157-f291-46db-b5b7-846030f66aec",
+        "brandName": "Bendigo Bank",
+        "applicationUri": "https://applynow.bendigobank.com.au/apply/#/apply/new/depositAccounts/productSelection?productCode=DDA-14-TAA",
+        "isTailored": false,
+        "bundles": [],
+        "features": [
+          {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": "Ability for existing customers to open an account in e-banking"
+          },
+          {
+            "featureType": "NPP_ENABLED"
+          },
+          {
+            "featureType": "CARD_ACCESS",
+            "additionalValue": "A card is available for the product to access funds"
+          }
+        ],
+        "cardArt": [],
+        "eligibility": [],
+        "fees": [
+          {
+            "name": "Staff Assisted Transaction In Branch Fee",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "discounts": [],
+            "fixedAmount": {
+              "amount": "2.500000"
+            }
+          },
+          {
+            "name": "EFT Credit Transfer",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "discounts": [],
+            "fixedAmount": {
+              "amount": "4.000000"
+            }
+          },
+          {
+            "name": "Bank@Post balance enquiry",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "additionalInfo": "When you make balance enquiry at a Bank@Post \nterminal in an Australia Post Office using a Bendigo \nBank card, where this facility is available.",
+            "discounts": [],
+            "fixedAmount": {
+              "amount": "0.000000"
+            }
+          },
+          {
+            "name": "Periodical Payment to Other Financial Institution",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "discounts": [],
+            "fixedAmount": {
+              "amount": "3.750000"
+            }
+          },
+          {
+            "name": "Bank Cheque Withdrawal",
+            "feeType": "WITHDRAWAL",
+            "feeMethodUType": "fixedAmount",
+            "discounts": [],
+            "fixedAmount": {
+              "amount": "10.000000"
+            }
+          },
+          {
+            "name": "Direct Debit Dishonour Fee",
+            "feeType": "DISHONOUR",
+            "feeMethodUType": "fixedAmount",
+            "additionalInfo": "Applies when a direct debit from your account is \ndishonoured due to insufficient funds.",
+            "discounts": [],
+            "fixedAmount": {
+              "amount": "10.000000"
+            }
+          },
+          {
+            "name": "International ATM Withdrawal",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "additionalInfo": "Payable whenever you make a cash withdrawal outside of Australia at a non-Bendigo Bank ATM (in addition to the Cash Advance Fee).\nOther financial institutions may charge you a fee for using their ATMs. This fee will be displayed at the time of the transaction and allows the customer to accept or decline the fee as shown. If using your credit card interest will be charged from the day the withdrawal is completed.\n",
+            "discounts": [],
+            "fixedAmount": {
+              "amount": "5.000000"
+            }
+          },
+          {
+            "name": "International Transaction Fee",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "rateBased",
+            "additionalInfo": "3% of the Transaction amount (in AUD) payable for \neach Transaction which is conducted in a currency \nother than Australian dollars (AUD) or in Australian \ndollars (AUD) but with or using a merchant, payment \nprocessor, financial institution or other entity \n(including an online merchant) who is outside of \nAustralia.",
+            "discounts": [],
+            "rateBased": {
+              "rateType": "TRANSACTION",
+              "rate": "0.0300000000000000"
+            }
+          },
+          {
+            "name": "Monthly Service Fee",
+            "feeType": "PERIODIC",
+            "feeMethodUType": "fixedAmount",
+            "additionalValue": "P1M",
+            "discounts": [],
+            "fixedAmount": {
+              "amount": "0.000000"
+            }
+          },
+          {
+            "name": "EFTPOS Withdrawal",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "discounts": [],
+            "fixedAmount": {
+              "amount": "0.000000"
+            }
+          },
+          {
+            "name": "Bendigo Bank ATM Withdrawal",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "discounts": [],
+            "fixedAmount": {
+              "amount": "0.000000"
+            }
+          },
+          {
+            "name": "Bendigo Bank ATM Transfer",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "discounts": [],
+            "fixedAmount": {
+              "amount": "0.000000"
+            }
+          },
+          {
+            "name": "Bank@Post Withdrawal",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "additionalInfo": "When you make a withdrawal at a Bank@Post terminal in an Australia Post Office using a Bendigo Bank card where this facility is available.\n",
+            "discounts": [],
+            "fixedAmount": {
+              "amount": "2.500000"
+            }
+          },
+          {
+            "name": "Bank@Post Deposit",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "additionalInfo": "When you make a deposit at a Bank@Post terminal in an \nAustralia Post Office using a Bendigo Bank card where this facility is available.\n",
+            "discounts": [],
+            "fixedAmount": {
+              "amount": "2.500000"
+            }
+          }
+        ],
+        "constraints": [],
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0000000000000000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P6M",
+            "applicationType": "PERIODIC"
+          }
+        ],
+        "lendingRates": [],
+        "additionalInformation": {
+          "overviewUri": "https://www.bendigobank.com.au/personal/transaction-accounts/everyday-account/",
+          "termsUri": "https://www.bendigobank.com.au/disclosure-documents/",
+          "eligibilityUri": "https://www.bendigobank.com.au/disclosure-documents/",
+          "feesAndPricingUri": "https://www.bendigobank.com.au/disclosure-documents/"
+        },
+        "brand": "BENDIGO"
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "bd41ed42-262c-4445-a7f6-f3b61314ec0c",
+      "productCategory": "TERM_DEPOSITS",
+      "detail": {
+        "lastUpdated": "2026-10-15T13:32:23.283Z",
+        "productCategory": "TERM_DEPOSITS",
+        "name": "Standard Term Deposit",
+        "description": "Bendigo Bank’s range of term deposits offer great rates so you can watch your money grow.  At maturity, reinvest, add extra or withdraw all/part of your investment from any Bendigo Branch.",
+        "productId": "bd41ed42-262c-4445-a7f6-f3b61314ec0c",
+        "brandName": "Bendigo Bank",
+        "applicationUri": "https://www.bendigobank.com.au/personal/term-deposits/term-deposit-enquiry/",
+        "isTailored": false,
+        "bundles": [],
+        "cardArt": [],
+        "features": [
+          {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": "Existing customers only"
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "OPENING_BALANCE",
+            "additionalInfo": "*Minimum to Open",
+            "additionalValue": "1000.00"
+          },
+          {
+            "constraintType": "MIN_BALANCE",
+            "additionalInfo": "*Minimum Balance to Maintain ",
+            "additionalValue": "1.00"
+          }
+        ],
+        "eligibility": [],
+        "fees": [
+          {
+            "name": "Bank Cheque Withdrawal",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "discounts": [],
+            "fixedAmount": {
+              "amount": "10.000000"
+            }
+          },
+          {
+            "name": "EFT Credit Transfer",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "discounts": [],
+            "fixedAmount": {
+              "amount": "4.000000"
+            }
+          }
+        ],
+        "lendingRates": [],
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0005000000000000",
+            "calculationFrequency": "P1D",
+            "additionalValue": "P1M",
+            "applicationType": "MATURITY",
+            "tiers": [
+              {
+                "name": "$0 - $4,999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "0.0000000000000000",
+                "maximumValue": "4999.9900000000000000",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ]
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0005000000000000",
+            "calculationFrequency": "P1D",
+            "additionalValue": "P2M",
+            "applicationType": "MATURITY",
+            "tiers": [
+              {
+                "name": "$0 - $4,999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "0.0000000000000000",
+                "maximumValue": "4999.9900000000000000",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ]
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0005000000000000",
+            "calculationFrequency": "P1D",
+            "additionalValue": "P5M",
+            "applicationType": "MATURITY",
+            "tiers": [
+              {
+                "name": "$0 - $4,999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "0.0000000000000000",
+                "maximumValue": "4999.9900000000000000",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ]
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0005000000000000",
+            "calculationFrequency": "P1D",
+            "additionalValue": "P3M",
+            "applicationType": "MATURITY",
+            "tiers": [
+              {
+                "name": "$0 - $4,999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "0.0000000000000000",
+                "maximumValue": "4999.9900000000000000",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ]
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0005000000000000",
+            "calculationFrequency": "P1D",
+            "additionalValue": "P4M",
+            "applicationType": "MATURITY",
+            "tiers": [
+              {
+                "name": "$0 - $4,999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "0.0000000000000000",
+                "maximumValue": "4999.9900000000000000",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ]
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0010000000000000",
+            "calculationFrequency": "P1D",
+            "additionalValue": "P6M",
+            "applicationType": "MATURITY",
+            "tiers": [
+              {
+                "name": "$0 - $4,999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "0.0000000000000000",
+                "maximumValue": "4999.9900000000000000",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ]
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0010000000000000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P3M",
+            "additionalValue": "P6M",
+            "applicationType": "PERIODIC",
+            "tiers": [
+              {
+                "name": "$0 - $4,999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "0.0000000000000000",
+                "maximumValue": "4999.9900000000000000",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ]
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0010000000000000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "additionalValue": "P6M",
+            "applicationType": "PERIODIC",
+            "tiers": [
+              {
+                "name": "$0 - $4,999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "0.0000000000000000",
+                "maximumValue": "4999.9900000000000000",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ]
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0010000000000000",
+            "calculationFrequency": "P1D",
+            "additionalValue": "P7M",
+            "applicationType": "MATURITY",
+            "tiers": [
+              {
+                "name": "$0 - $4,999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "0.0000000000000000",
+                "maximumValue": "4999.9900000000000000",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ]
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0010000000000000",
+            "calculationFrequency": "P1D",
+            "additionalValue": "P8M",
+            "applicationType": "MATURITY",
+            "tiers": [
+              {
+                "name": "$0 - $4,999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "0.0000000000000000",
+                "maximumValue": "4999.9900000000000000",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ]
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0010000000000000",
+            "calculationFrequency": "P1D",
+            "additionalValue": "P9M",
+            "applicationType": "MATURITY",
+            "tiers": [
+              {
+                "name": "$0 - $4,999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "0.0000000000000000",
+                "maximumValue": "4999.9900000000000000",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ]
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0010000000000000",
+            "calculationFrequency": "P1D",
+            "additionalValue": "P10M",
+            "applicationType": "MATURITY",
+            "tiers": [
+              {
+                "name": "$0 - $4,999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "0.0000000000000000",
+                "maximumValue": "4999.9900000000000000",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ]
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0010000000000000",
+            "calculationFrequency": "P1D",
+            "additionalValue": "P11M",
+            "applicationType": "MATURITY",
+            "tiers": [
+              {
+                "name": "$0 - $4,999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "0.0000000000000000",
+                "maximumValue": "4999.9900000000000000",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ]
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0015000000000000",
+            "calculationFrequency": "P1D",
+            "additionalValue": "P12M",
+            "applicationType": "MATURITY",
+            "tiers": [
+              {
+                "name": "$0 - $4,999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "0.0000000000000000",
+                "maximumValue": "4999.9900000000000000",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ]
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0015000000000000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P6M",
+            "additionalValue": "P12M",
+            "applicationType": "PERIODIC",
+            "tiers": [
+              {
+                "name": "$0 - $4,999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "0.0000000000000000",
+                "maximumValue": "4999.9900000000000000",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ]
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0015000000000000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P3M",
+            "additionalValue": "P12M",
+            "applicationType": "PERIODIC",
+            "tiers": [
+              {
+                "name": "$0 - $4,999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "0.0000000000000000",
+                "maximumValue": "4999.9900000000000000",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ]
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0015000000000000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "additionalValue": "P12M",
+            "applicationType": "PERIODIC",
+            "tiers": [
+              {
+                "name": "$0 - $4,999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "0.0000000000000000",
+                "maximumValue": "4999.9900000000000000",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ]
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0015000000000000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P3M",
+            "additionalValue": "P15M",
+            "applicationType": "PERIODIC",
+            "tiers": [
+              {
+                "name": "$0 - $4,999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "0.0000000000000000",
+                "maximumValue": "4999.9900000000000000",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ]
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0015000000000000",
+            "calculationFrequency": "P1D",
+            "additionalValue": "P24M",
+            "applicationType": "MATURITY",
+            "tiers": [
+              {
+                "name": "$0 - $4,999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "0.0000000000000000",
+                "maximumValue": "4999.9900000000000000",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ]
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0015000000000000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P12M",
+            "additionalValue": "P24M",
+            "applicationType": "PERIODIC",
+            "tiers": [
+              {
+                "name": "$0 - $4,999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "0.0000000000000000",
+                "maximumValue": "4999.9900000000000000",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ]
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0015000000000000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P6M",
+            "additionalValue": "P24M",
+            "applicationType": "PERIODIC",
+            "tiers": [
+              {
+                "name": "$0 - $4,999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "0.0000000000000000",
+                "maximumValue": "4999.9900000000000000",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ]
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0015000000000000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P3M",
+            "additionalValue": "P24M",
+            "applicationType": "PERIODIC",
+            "tiers": [
+              {
+                "name": "$0 - $4,999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "0.0000000000000000",
+                "maximumValue": "4999.9900000000000000",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ]
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0015000000000000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "additionalValue": "P24M",
+            "applicationType": "PERIODIC",
+            "tiers": [
+              {
+                "name": "$0 - $4,999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "0.0000000000000000",
+                "maximumValue": "4999.9900000000000000",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ]
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0015000000000000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P12M",
+            "additionalValue": "P36M",
+            "applicationType": "PERIODIC",
+            "tiers": [
+              {
+                "name": "$0 - $4,999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "0.0000000000000000",
+                "maximumValue": "4999.9900000000000000",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ]
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0015000000000000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P6M",
+            "additionalValue": "P36M",
+            "applicationType": "PERIODIC",
+            "tiers": [
+              {
+                "name": "$0 - $4,999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "0.0000000000000000",
+                "maximumValue": "4999.9900000000000000",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ]
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0015000000000000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P3M",
+            "additionalValue": "P36M",
+            "applicationType": "PERIODIC",
+            "tiers": [
+              {
+                "name": "$0 - $4,999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "0.0000000000000000",
+                "maximumValue": "4999.9900000000000000",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ]
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0015000000000000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "additionalValue": "P36M",
+            "applicationType": "PERIODIC",
+            "tiers": [
+              {
+                "name": "$0 - $4,999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "0.0000000000000000",
+                "maximumValue": "4999.9900000000000000",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ]
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0015000000000000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P12M",
+            "additionalValue": "P48M",
+            "applicationType": "PERIODIC",
+            "tiers": [
+              {
+                "name": "$0 - $4,999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "0.0000000000000000",
+                "maximumValue": "4999.9900000000000000",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ]
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0015000000000000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P6M",
+            "additionalValue": "P48M",
+            "applicationType": "PERIODIC",
+            "tiers": [
+              {
+                "name": "$0 - $4,999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "0.0000000000000000",
+                "maximumValue": "4999.9900000000000000",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ]
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0015000000000000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P3M",
+            "additionalValue": "P48M",
+            "applicationType": "PERIODIC",
+            "tiers": [
+              {
+                "name": "$0 - $4,999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "0.0000000000000000",
+                "maximumValue": "4999.9900000000000000",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ]
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0015000000000000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "additionalValue": "P48M",
+            "applicationType": "PERIODIC",
+            "tiers": [
+              {
+                "name": "$0 - $4,999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "0.0000000000000000",
+                "maximumValue": "4999.9900000000000000",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ]
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0015000000000000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P12M",
+            "additionalValue": "P60M",
+            "applicationType": "PERIODIC",
+            "tiers": [
+              {
+                "name": "$0 - $4,999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "0.0000000000000000",
+                "maximumValue": "4999.9900000000000000",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ]
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0015000000000000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P6M",
+            "additionalValue": "P60M",
+            "applicationType": "PERIODIC",
+            "tiers": [
+              {
+                "name": "$0 - $4,999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "0.0000000000000000",
+                "maximumValue": "4999.9900000000000000",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ]
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0015000000000000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P3M",
+            "additionalValue": "P60M",
+            "applicationType": "PERIODIC",
+            "tiers": [
+              {
+                "name": "$0 - $4,999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "0.0000000000000000",
+                "maximumValue": "4999.9900000000000000",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ]
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0015000000000000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "additionalValue": "P60M",
+            "applicationType": "PERIODIC",
+            "tiers": [
+              {
+                "name": "$0 - $4,999",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "0.0000000000000000",
+                "maximumValue": "4999.9900000000000000",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ]
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0120000000000000",
+            "calculationFrequency": "P1D",
+            "additionalValue": "P1M",
+            "applicationType": "MATURITY",
+            "tiers": [
+              {
+                "name": "$5000 plus",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.0000000000000000",
+                "maximumValue": "5000000.0000000000000000",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "additionalInfo": "For investments over $5M please contact Bendigo Bank"
+              }
+            ]
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0145000000000000",
+            "calculationFrequency": "P1D",
+            "additionalValue": "P2M",
+            "applicationType": "MATURITY",
+            "tiers": [
+              {
+                "name": "$5000 plus",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.0000000000000000",
+                "maximumValue": "5000000.0000000000000000",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "additionalInfo": "For investments over $5M please contact Bendigo Bank"
+              }
+            ]
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0275000000000000",
+            "calculationFrequency": "P1D",
+            "additionalValue": "P3M",
+            "applicationType": "MATURITY",
+            "tiers": [
+              {
+                "name": "$5000 plus",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.0000000000000000",
+                "maximumValue": "5000000.0000000000000000",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "additionalInfo": "For investments over $5M please contact Bendigo Bank"
+              }
+            ]
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0360000000000000",
+            "calculationFrequency": "P1D",
+            "additionalValue": "P4M",
+            "applicationType": "MATURITY",
+            "tiers": [
+              {
+                "name": "$5000 plus",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.0000000000000000",
+                "maximumValue": "5000000.0000000000000000",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "additionalInfo": "For investments over $5M please contact Bendigo Bank"
+              }
+            ]
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0290000000000000",
+            "calculationFrequency": "P1D",
+            "additionalValue": "P5M",
+            "applicationType": "MATURITY",
+            "tiers": [
+              {
+                "name": "$5000 plus",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.0000000000000000",
+                "maximumValue": "5000000.0000000000000000",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "additionalInfo": "For investments over $5M please contact Bendigo Bank"
+              }
+            ]
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0470000000000000",
+            "calculationFrequency": "P1D",
+            "additionalValue": "P6M",
+            "applicationType": "MATURITY",
+            "tiers": [
+              {
+                "name": "$5000 plus",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.0000000000000000",
+                "maximumValue": "5000000.0000000000000000",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "additionalInfo": "For investments over $5M please contact Bendigo Bank"
+              }
+            ]
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0465000000000000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "additionalValue": "P6M",
+            "applicationType": "PERIODIC",
+            "tiers": [
+              {
+                "name": "$5000 plus",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.0000000000000000",
+                "maximumValue": "5000000.0000000000000000",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "additionalInfo": "For investments over $5M please contact Bendigo Bank"
+              }
+            ]
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0465000000000000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P3M",
+            "additionalValue": "P6M",
+            "applicationType": "PERIODIC",
+            "tiers": [
+              {
+                "name": "$5000 plus",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.0000000000000000",
+                "maximumValue": "5000000.0000000000000000",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "additionalInfo": "For investments over $5M please contact Bendigo Bank"
+              }
+            ]
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0315000000000000",
+            "calculationFrequency": "P1D",
+            "additionalValue": "P7M",
+            "applicationType": "MATURITY",
+            "tiers": [
+              {
+                "name": "$5000 plus",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.0000000000000000",
+                "maximumValue": "5000000.0000000000000000",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "additionalInfo": "For investments over $5M please contact Bendigo Bank"
+              }
+            ]
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0350000000000000",
+            "calculationFrequency": "P1D",
+            "additionalValue": "P8M",
+            "applicationType": "MATURITY",
+            "tiers": [
+              {
+                "name": "$5000 plus",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.0000000000000000",
+                "maximumValue": "5000000.0000000000000000",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "additionalInfo": "For investments over $5M please contact Bendigo Bank"
+              }
+            ]
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0320000000000000",
+            "calculationFrequency": "P1D",
+            "additionalValue": "P9M",
+            "applicationType": "MATURITY",
+            "tiers": [
+              {
+                "name": "$5000 plus",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.0000000000000000",
+                "maximumValue": "5000000.0000000000000000",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "additionalInfo": "For investments over $5M please contact Bendigo Bank"
+              }
+            ]
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0325000000000000",
+            "calculationFrequency": "P1D",
+            "additionalValue": "P10M",
+            "applicationType": "MATURITY",
+            "tiers": [
+              {
+                "name": "$5000 plus",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.0000000000000000",
+                "maximumValue": "5000000.0000000000000000",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "additionalInfo": "For investments over $5M please contact Bendigo Bank"
+              }
+            ]
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0330000000000000",
+            "calculationFrequency": "P1D",
+            "additionalValue": "P11M",
+            "applicationType": "MATURITY",
+            "tiers": [
+              {
+                "name": "$5000 plus",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.0000000000000000",
+                "maximumValue": "5000000.0000000000000000",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "additionalInfo": "For investments over $5M please contact Bendigo Bank"
+              }
+            ]
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0490000000000000",
+            "calculationFrequency": "P1D",
+            "additionalValue": "P12M",
+            "applicationType": "MATURITY",
+            "tiers": [
+              {
+                "name": "$5000 plus",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.0000000000000000",
+                "maximumValue": "5000000.0000000000000000",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "additionalInfo": "For investments over $5M please contact Bendigo Bank"
+              }
+            ]
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0485000000000000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P3M",
+            "additionalValue": "P12M",
+            "applicationType": "PERIODIC",
+            "tiers": [
+              {
+                "name": "$5000 plus",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.0000000000000000",
+                "maximumValue": "5000000.0000000000000000",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "additionalInfo": "For investments over $5M please contact Bendigo Bank"
+              }
+            ]
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0485000000000000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P6M",
+            "additionalValue": "P12M",
+            "applicationType": "PERIODIC",
+            "tiers": [
+              {
+                "name": "$5000 plus",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.0000000000000000",
+                "maximumValue": "5000000.0000000000000000",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "additionalInfo": "For investments over $5M please contact Bendigo Bank"
+              }
+            ]
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0485000000000000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "additionalValue": "P12M",
+            "applicationType": "PERIODIC",
+            "tiers": [
+              {
+                "name": "$5000 plus",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.0000000000000000",
+                "maximumValue": "5000000.0000000000000000",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "additionalInfo": "For investments over $5M please contact Bendigo Bank"
+              }
+            ]
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0300000000000000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P3M",
+            "additionalValue": "P15M",
+            "applicationType": "PERIODIC",
+            "tiers": [
+              {
+                "name": "$5000 plus",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.0000000000000000",
+                "maximumValue": "5000000.0000000000000000",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "additionalInfo": "For investments over $5M please contact Bendigo Bank"
+              }
+            ]
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0450000000000000",
+            "calculationFrequency": "P1D",
+            "additionalValue": "P24M",
+            "applicationType": "MATURITY",
+            "tiers": [
+              {
+                "name": "$5000 plus",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.0000000000000000",
+                "maximumValue": "5000000.0000000000000000",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "additionalInfo": "For investments over $5M please contact Bendigo Bank"
+              }
+            ]
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0445000000000000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P12M",
+            "additionalValue": "P24M",
+            "applicationType": "PERIODIC",
+            "tiers": [
+              {
+                "name": "$5000 plus",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.0000000000000000",
+                "maximumValue": "5000000.0000000000000000",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "additionalInfo": "For investments over $5M please contact Bendigo Bank"
+              }
+            ]
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0440000000000000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P6M",
+            "additionalValue": "P24M",
+            "applicationType": "PERIODIC",
+            "tiers": [
+              {
+                "name": "$5000 plus",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.0000000000000000",
+                "maximumValue": "5000000.0000000000000000",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "additionalInfo": "For investments over $5M please contact Bendigo Bank"
+              }
+            ]
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0440000000000000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P3M",
+            "additionalValue": "P24M",
+            "applicationType": "PERIODIC",
+            "tiers": [
+              {
+                "name": "$5000 plus",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.0000000000000000",
+                "maximumValue": "5000000.0000000000000000",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "additionalInfo": "For investments over $5M please contact Bendigo Bank"
+              }
+            ]
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0440000000000000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "additionalValue": "P24M",
+            "applicationType": "PERIODIC",
+            "tiers": [
+              {
+                "name": "$5000 plus",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.0000000000000000",
+                "maximumValue": "5000000.0000000000000000",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "additionalInfo": "For investments over $5M please contact Bendigo Bank"
+              }
+            ]
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0300000000000000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P12M",
+            "additionalValue": "P36M",
+            "applicationType": "PERIODIC",
+            "tiers": [
+              {
+                "name": "$5000 plus",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.0000000000000000",
+                "maximumValue": "5000000.0000000000000000",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "additionalInfo": "For investments over $5M please contact Bendigo Bank"
+              }
+            ]
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0295000000000000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P6M",
+            "additionalValue": "P36M",
+            "applicationType": "PERIODIC",
+            "tiers": [
+              {
+                "name": "$5000 plus",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.0000000000000000",
+                "maximumValue": "5000000.0000000000000000",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "additionalInfo": "For investments over $5M please contact Bendigo Bank"
+              }
+            ]
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0295000000000000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P3M",
+            "additionalValue": "P36M",
+            "applicationType": "PERIODIC",
+            "tiers": [
+              {
+                "name": "$5000 plus",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.0000000000000000",
+                "maximumValue": "5000000.0000000000000000",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "additionalInfo": "For investments over $5M please contact Bendigo Bank"
+              }
+            ]
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0295000000000000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "additionalValue": "P36M",
+            "applicationType": "PERIODIC",
+            "tiers": [
+              {
+                "name": "$5000 plus",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.0000000000000000",
+                "maximumValue": "5000000.0000000000000000",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "additionalInfo": "For investments over $5M please contact Bendigo Bank"
+              }
+            ]
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0300000000000000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P12M",
+            "additionalValue": "P48M",
+            "applicationType": "PERIODIC",
+            "tiers": [
+              {
+                "name": "$5000 plus",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.0000000000000000",
+                "maximumValue": "5000000.0000000000000000",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "additionalInfo": "For investments over $5M please contact Bendigo Bank"
+              }
+            ]
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0295000000000000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P6M",
+            "additionalValue": "P48M",
+            "applicationType": "PERIODIC",
+            "tiers": [
+              {
+                "name": "$5000 plus",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.0000000000000000",
+                "maximumValue": "5000000.0000000000000000",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "additionalInfo": "For investments over $5M please contact Bendigo Bank"
+              }
+            ]
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0295000000000000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P3M",
+            "additionalValue": "P48M",
+            "applicationType": "PERIODIC",
+            "tiers": [
+              {
+                "name": "$5000 plus",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.0000000000000000",
+                "maximumValue": "5000000.0000000000000000",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "additionalInfo": "For investments over $5M please contact Bendigo Bank"
+              }
+            ]
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0295000000000000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "additionalValue": "P48M",
+            "applicationType": "PERIODIC",
+            "tiers": [
+              {
+                "name": "$5000 plus",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.0000000000000000",
+                "maximumValue": "5000000.0000000000000000",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "additionalInfo": "For investments over $5M please contact Bendigo Bank"
+              }
+            ]
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0300000000000000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P12M",
+            "additionalValue": "P60M",
+            "applicationType": "PERIODIC",
+            "tiers": [
+              {
+                "name": "$5000 plus",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.0000000000000000",
+                "maximumValue": "5000000.0000000000000000",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "additionalInfo": "For investments over $5M please contact Bendigo Bank"
+              }
+            ]
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0295000000000000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "additionalValue": "P60M",
+            "applicationType": "PERIODIC",
+            "tiers": [
+              {
+                "name": "$5000 plus",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.0000000000000000",
+                "maximumValue": "5000000.0000000000000000",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "additionalInfo": "For investments over $5M please contact Bendigo Bank"
+              }
+            ]
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0295000000000000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P6M",
+            "additionalValue": "P60M",
+            "applicationType": "PERIODIC",
+            "tiers": [
+              {
+                "name": "$5000 plus",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.0000000000000000",
+                "maximumValue": "5000000.0000000000000000",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "additionalInfo": "For investments over $5M please contact Bendigo Bank"
+              }
+            ]
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0295000000000000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P3M",
+            "additionalValue": "P60M",
+            "applicationType": "PERIODIC",
+            "tiers": [
+              {
+                "name": "$5000 plus",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.0000000000000000",
+                "maximumValue": "5000000.0000000000000000",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "additionalInfo": "For investments over $5M please contact Bendigo Bank"
+              }
+            ]
+          }
+        ],
+        "additionalInformation": {
+          "overviewUri": "https://www.bendigobank.com.au/personal/term-deposits/",
+          "termsUri": "https://www.bendigobank.com.au/globalassets/documents/disclosures/bendigo-term-deposit-accounts-facilities.pdf",
+          "eligibilityUri": "https://www.bendigobank.com.au/globalassets/documents/disclosures/bendigo-term-deposit-accounts-facilities.pdf",
+          "feesAndPricingUri": "https://www.bendigobank.com.au/disclosure-documents/"
+        },
+        "brand": "BENDIGO"
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "c2044188-1f73-46d9-95e6-5852f3fb4d92",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "lastUpdated": "2026-10-18T13:32:24.134Z",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "name": "Bendigo EasySaver",
+        "description": "Earn an attractive interest rate no matter how much you save or how much you transact.",
+        "productId": "c2044188-1f73-46d9-95e6-5852f3fb4d92",
+        "brandName": "Bendigo Bank",
+        "applicationUri": "https://applynow.bendigobank.com.au/apply/#/apply/new/depositAccounts/productSelection?productCode=SAV-V5-CME",
+        "isTailored": false,
+        "bundles": [],
+        "cardArt": [],
+        "features": [
+          {
+            "featureType": "NPP_ENABLED"
+          },
+          {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": "Ability for existing customers to open an account in e-banking"
+          },
+          {
+            "featureType": "UNLIMITED_TXNS",
+            "additionalInfo": "unlimited free e-banking transaction"
+          },
+          {
+            "featureType": "FREE_TXNS",
+            "additionalInfo": "2 free in branch cash withdrawals or transfers per month ",
+            "additionalValue": "2"
+          }
+        ],
+        "constraints": [],
+        "eligibility": [],
+        "fees": [
+          {
+            "name": "Bank Cheque Fee",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "additionalInfo": "Is payable for each Bank Cheque drawn.",
+            "discounts": [],
+            "fixedAmount": {
+              "amount": "10.000000"
+            }
+          },
+          {
+            "name": "EFT Credit Transfer",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "discounts": [],
+            "fixedAmount": {
+              "amount": "4.000000"
+            }
+          },
+          {
+            "name": "Periodical Payment to Other Financial Institution",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "discounts": [],
+            "fixedAmount": {
+              "amount": "3.750000"
+            }
+          },
+          {
+            "name": "Branch Transaction",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "discounts": [],
+            "fixedAmount": {
+              "amount": "1.750000"
+            }
+          }
+        ],
+        "lendingRates": [],
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0380000000000000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "applicationType": "PERIODIC"
+          }
+        ],
+        "additionalInformation": {
+          "overviewUri": "https://www.bendigobank.com.au/personal/savings-accounts/easysaver-account/",
+          "termsUri": "https://www.bendigobank.com.au/disclosure-documents/",
+          "eligibilityUri": "https://www.bendigobank.com.au/disclosure-documents/",
+          "feesAndPricingUri": "https://www.bendigobank.com.au/disclosure-documents/"
+        },
+        "brand": "BENDIGO"
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "cb6f3716-4e76-4e5b-b79d-0720756a21ac",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "effectiveFrom": "2021-03-09T13:00:00.000Z",
+        "lastUpdated": "2026-10-18T13:32:23.694Z",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "name": "Bendigo Reward Saver",
+        "description": "A savings account that helps you save for your goals - with a Bonus Rate to get you there faster.",
+        "productId": "cb6f3716-4e76-4e5b-b79d-0720756a21ac",
+        "brandName": "Bendigo Bank",
+        "isTailored": false,
+        "bundles": [],
+        "cardArt": [],
+        "features": [
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Bonus interest rate available when you grow your balance each month."
+          },
+          {
+            "featureType": "UNLIMITED_TXNS",
+            "additionalInfo": "Unlimited e-banking transactions"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "No Monthly Service Fee"
+          },
+          {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": "Ability for existing customers to open an account in e-banking"
+          }
+        ],
+        "constraints": [],
+        "eligibility": [
+          {
+            "eligibilityType": "OTHER",
+            "additionalInfo": "Grow your balance every month "
+          }
+        ],
+        "fees": [],
+        "lendingRates": [],
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0010000000000000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "applicationType": "PERIODIC"
+          },
+          {
+            "depositRateType": "BONUS",
+            "rate": "0.0490000000000000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "additionalInfo": "Bonus Rate in addition to variable (Base) rate where criteria is met\nWhen you grow your balance every month*\nWatch your savings grow without worrying about monthly service fees",
+            "additionalValue": "For customers 31 years old or older Subject to eligibility criteria being met",
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": [
+              {
+                "rateApplicabilityType": "DEPOSIT_BALANCE_INCREASED",
+                "additionalValue": "0.01",
+                "additionalInfo": "In addition to interest paid by us."
+              }
+            ]
+          },
+          {
+            "depositRateType": "BONUS",
+            "rate": "0.0490000000000000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "additionalInfo": "Bonus Rate in addition to variable (Base) rate where criteria is met.\nWhen you grow your balance every month*\nWatch your savings grow without worrying about monthly service fees ",
+            "additionalValue": "For customers 30 years old or younger, subject to eligibility criteria being met",
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": [
+              {
+                "rateApplicabilityType": "DEPOSIT_BALANCE_INCREASED",
+                "additionalValue": "0.01",
+                "additionalInfo": "In addition to interest paid by us."
+              }
+            ]
+          }
+        ],
+        "additionalInformation": {
+          "overviewUri": "https://www.bendigobank.com.au/personal/savings-accounts/reward-saver/",
+          "termsUri": "https://www.bendigobank.com.au/disclosure-documents/",
+          "eligibilityUri": "https://www.bendigobank.com.au/disclosure-documents/",
+          "feesAndPricingUri": "https://www.bendigobank.com.au/disclosure-documents/"
+        },
+        "brand": "BENDIGO"
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "d85e9c1b-fa75-4493-ae9c-05038cda8b70",
+      "productCategory": "TERM_DEPOSITS",
+      "detail": {
+        "effectiveFrom": "2025-02-09T14:00:00.000Z",
+        "lastUpdated": "2026-09-03T01:37:15.152Z",
+        "productCategory": "TERM_DEPOSITS",
+        "name": "Fixed Rate Farm Management Deposit",
+        "description": "A Farm Management Deposit (FMD) is an important cash flow management tool that enables individuals carrying on a primary production business in Australia (primary producers) to set aside pre-tax income from their profitable years and earn interest on it – so the money’s available when they most need it.",
+        "productId": "d85e9c1b-fa75-4493-ae9c-05038cda8b70",
+        "brandName": "Bendigo Bank",
+        "isTailored": false,
+        "bundles": [],
+        "cardArt": [],
+        "features": [
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Fixed 1, 2, 3, 6, 12 or 24 month terms available."
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Designed for primary producers who’ve earned a taxable non-farm income of $100,000 or less over a financial year."
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "You can have more than one Farm Management Deposit, up to a combined value of $800,000 per farmer."
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Earn competitive interest rates on a choice of fixed terms."
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "No monthly account service fees or transaction fees apply to Bendigo Bank Farm Management Deposit accounts."
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "31 day withdrawal notice if need to access funds before its maturity date."
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "OPENING_BALANCE",
+            "additionalValue": "5000.00"
+          },
+          {
+            "constraintType": "MAX_BALANCE",
+            "additionalInfo": "The total of all FMD’s held in a client’s name must not exceed $800,000.00",
+            "additionalValue": "800000.00"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "OTHER",
+            "additionalInfo": "Customer must be a primary producer with an off-farm taxable income of less than $100,000 per annum."
+          },
+          {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalValue": "Australian Residency",
+            "additionalInfo": "Only available to Australian primary producers."
+          },
+          {
+            "eligibilityType": "OTHER",
+            "additionalInfo": "Can only be opened in the name of an individual."
+          },
+          {
+            "eligibilityType": "OTHER",
+            "additionalInfo": "Subject to farm management deposit scheme eligibility guidelines."
+          }
+        ],
+        "fees": [
+          {
+            "name": "Bank Cheque Fee",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "currency": "AUD",
+            "additionalInfo": "Applies per bank cheque you request. This fee will not be debited to your FMD.",
+            "discounts": [],
+            "fixedAmount": {
+              "amount": "10.000000"
+            }
+          }
+        ],
+        "lendingRates": [],
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0000000000000000",
+            "calculationFrequency": "P1D",
+            "additionalValue": "P1M",
+            "applicationType": "MATURITY",
+            "tiers": [
+              {
+                "name": "$0 - $4,999.99",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "0.0000000000000000",
+                "maximumValue": "4999.9900000000000000",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ]
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0200000000000000",
+            "calculationFrequency": "P1D",
+            "additionalValue": "P1M",
+            "applicationType": "MATURITY",
+            "tiers": [
+              {
+                "name": "$5,000 to $800,000",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.0000000000000000",
+                "maximumValue": "800000.0000000000000000",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ]
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0000000000000000",
+            "calculationFrequency": "P1D",
+            "additionalValue": "P2M",
+            "applicationType": "MATURITY",
+            "tiers": [
+              {
+                "name": "$0 - $4,999.99",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "0.0000000000000000",
+                "maximumValue": "4999.9900000000000000",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ]
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0200000000000000",
+            "calculationFrequency": "P1D",
+            "additionalValue": "P2M",
+            "applicationType": "MATURITY",
+            "tiers": [
+              {
+                "name": "$5,000 to $800,000",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.0000000000000000",
+                "maximumValue": "800000.0000000000000000",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ]
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0000000000000000",
+            "calculationFrequency": "P1D",
+            "additionalValue": "P3M",
+            "applicationType": "MATURITY",
+            "tiers": [
+              {
+                "name": "$0 - $4,999.99",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "0.0000000000000000",
+                "maximumValue": "4999.9900000000000000",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ]
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0370000000000000",
+            "calculationFrequency": "P1D",
+            "additionalValue": "P3M",
+            "applicationType": "MATURITY",
+            "tiers": [
+              {
+                "name": "$5,000 to $800,000",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.0000000000000000",
+                "maximumValue": "800000.0000000000000000",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ]
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0000000000000000",
+            "calculationFrequency": "P1D",
+            "additionalValue": "P6M",
+            "applicationType": "MATURITY",
+            "tiers": [
+              {
+                "name": "$0 - $4,999.99",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "0.0000000000000000",
+                "maximumValue": "4999.9900000000000000",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ]
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0450000000000000",
+            "calculationFrequency": "P1D",
+            "additionalValue": "P6M",
+            "applicationType": "MATURITY",
+            "tiers": [
+              {
+                "name": "$5,000 to $800,000",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.0000000000000000",
+                "maximumValue": "800000.0000000000000000",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ]
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0000000000000000",
+            "calculationFrequency": "P1D",
+            "additionalValue": "P1Y",
+            "applicationType": "MATURITY",
+            "tiers": [
+              {
+                "name": "$0 - $4,999.99",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "0.0000000000000000",
+                "maximumValue": "4999.9900000000000000",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ]
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0520000000000000",
+            "calculationFrequency": "P1D",
+            "additionalValue": "P1Y",
+            "applicationType": "MATURITY",
+            "tiers": [
+              {
+                "name": "5,000 to $800,000",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.0000000000000000",
+                "maximumValue": "800000.0000000000000000",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ]
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0000000000000000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P3M",
+            "additionalValue": "P1Y",
+            "applicationType": "PERIODIC",
+            "tiers": [
+              {
+                "name": "$0 - $4,999.99",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "0.0000000000000000",
+                "maximumValue": "4999.9900000000000000",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ]
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0515000000000000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P3M",
+            "additionalValue": "P1Y",
+            "applicationType": "PERIODIC",
+            "tiers": [
+              {
+                "name": "$5,000 to $800,000",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.0000000000000000",
+                "maximumValue": "800000.0000000000000000",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ]
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0000000000000000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "additionalValue": "P1Y",
+            "applicationType": "PERIODIC",
+            "tiers": [
+              {
+                "name": "$0 - $4,999.99",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "0.0000000000000000",
+                "maximumValue": "4999.9900000000000000",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ]
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0515000000000000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "additionalValue": "P1Y",
+            "applicationType": "PERIODIC",
+            "tiers": [
+              {
+                "name": "$5,000 to $800,000",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.0000000000000000",
+                "maximumValue": "800000.0000000000000000",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ]
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0000000000000000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1Y",
+            "additionalValue": "P2Y",
+            "applicationType": "PERIODIC",
+            "tiers": [
+              {
+                "name": "$0 - $4,999.99",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "0.0000000000000000",
+                "maximumValue": "4999.9900000000000000",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ]
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0470000000000000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1Y",
+            "additionalValue": "P2Y",
+            "applicationType": "PERIODIC",
+            "tiers": [
+              {
+                "name": "$5,000 to $800,000",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.0000000000000000",
+                "maximumValue": "800000.0000000000000000",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ]
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0000000000000000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P3M",
+            "additionalValue": "P2Y",
+            "applicationType": "PERIODIC",
+            "tiers": [
+              {
+                "name": "$0 - $4,999.99",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "0.0000000000000000",
+                "maximumValue": "4999.9900000000000000",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ]
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0465000000000000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P3M",
+            "additionalValue": "P2Y",
+            "applicationType": "PERIODIC",
+            "tiers": [
+              {
+                "name": "$5,000 to $800,000",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.0000000000000000",
+                "maximumValue": "800000.0000000000000000",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ]
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0000000000000000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "additionalValue": "P2Y",
+            "applicationType": "PERIODIC",
+            "tiers": [
+              {
+                "name": "$0 - $4,999.99",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "0.0000000000000000",
+                "maximumValue": "4999.9900000000000000",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ]
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0465000000000000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "additionalValue": "P2Y",
+            "applicationType": "PERIODIC",
+            "tiers": [
+              {
+                "name": "$5,000 to $800,000",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.0000000000000000",
+                "maximumValue": "800000.0000000000000000",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ]
+          }
+        ],
+        "additionalInformation": {
+          "overviewUri": "https://www.bendigobank.com.au/business/accounts/farm-management-deposit/",
+          "termsUri": "https://www.bendigobank.com.au/globalassets/documents/disclosures/bendigo-business-accounts-and-facilities.pdf",
+          "feesAndPricingUri": "https://www.bendigobank.com.au/globalassets/documents/interestrates/schedule-of-interest-rates-for-farm-management-deposit-accounts.pdf"
+        },
+        "brand": "BENDIGO"
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "d898056d-054a-4a1b-b78f-54875584191d",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "effectiveFrom": "2025-08-08T02:01:00.000Z",
+        "lastUpdated": "2026-08-31T06:53:41.179Z",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "name": "Bendigo Cash Management Account (CMA)",
+        "description": "An interest earning at-call deposit account which is sold to new or existing customers via a custodian or advisor. Account access is available via Debit Mastercard or online banking.",
+        "productId": "d898056d-054a-4a1b-b78f-54875584191d",
+        "brandName": "Bendigo Bank",
+        "isTailored": false,
+        "bundles": [],
+        "cardArt": [],
+        "features": [
+          {
+            "featureType": "BILL_PAYMENT",
+            "additionalValue": "BPAY"
+          },
+          {
+            "featureType": "CARD_ACCESS",
+            "additionalValue": "Debit Mastercard"
+          },
+          {
+            "featureType": "DIGITAL_BANKING"
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "MIN_BALANCE",
+            "additionalValue": "1000.00"
+          }
+        ],
+        "eligibility": [],
+        "fees": [
+          {
+            "name": "Cash Withdrawal (in branch)",
+            "feeType": "WITHDRAWAL",
+            "feeMethodUType": "fixedAmount",
+            "additionalInfo": "When you make a cash withdrawal from your Bendigo Bank account ‘over- the-counter’ at a Bendigo Bank branch. ",
+            "discounts": [],
+            "fixedAmount": {
+              "amount": "2.500000"
+            }
+          },
+          {
+            "name": "Transfer (in branch)",
+            "feeType": "PAYMENT",
+            "feeMethodUType": "fixedAmount",
+            "additionalInfo": "When you make an ‘over-the-counter’ request at a Bendigo Bank branch to transfer funds from one Bendigo Bank account to another Bendigo Bank account (including scheduled in branch transfers where you request one or more future dated transfers as opposed to establishing a periodical payment or sweep facility).",
+            "discounts": [],
+            "fixedAmount": {
+              "amount": "2.500000"
+            }
+          },
+          {
+            "name": "Bank@Post Withdrawal",
+            "feeType": "WITHDRAWAL",
+            "feeMethodUType": "fixedAmount",
+            "additionalInfo": "When you make a withdrawal at a Bank@Post terminal in an Australia Post Office using a Bendigo Bank card where this facility is available.",
+            "discounts": [],
+            "fixedAmount": {
+              "amount": "2.500000"
+            }
+          },
+          {
+            "name": "Bank@Post Deposit",
+            "feeType": "DEPOSIT",
+            "feeMethodUType": "fixedAmount",
+            "additionalInfo": "When you make a deposit at a Bank@Post terminal in an Australia Post Office using a Bendigo Bank card where this facility is available",
+            "discounts": [],
+            "fixedAmount": {
+              "amount": "2.500000"
+            }
+          },
+          {
+            "name": "Bank Cheque Fee",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "additionalInfo": "Is payable for each Bank Cheque drawn.",
+            "discounts": [],
+            "fixedAmount": {
+              "amount": "10.000000"
+            }
+          },
+          {
+            "name": "Bank Cheque Replacement",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "additionalInfo": "When a Bank Cheque has been lost, destroyed or stolen and you request us to provide you with a replacement Bank Cheque.",
+            "discounts": [],
+            "fixedAmount": {
+              "amount": "30.000000"
+            }
+          },
+          {
+            "name": "Bank cheque stop payment",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "additionalInfo": "When you request us to stop payment on a bank cheque and to purchase it back (allowed only in limited circumstances)",
+            "discounts": [],
+            "fixedAmount": {
+              "amount": "20.000000"
+            }
+          },
+          {
+            "name": "Inward telegraphic transfer in AUD currency",
+            "feeType": "PAYMENT",
+            "feeMethodUType": "fixedAmount",
+            "additionalInfo": "Acceptance of payment in AUD currency for swift transfer to a Bendigo Bank account ",
+            "discounts": [],
+            "fixedAmount": {
+              "amount": "2.000000"
+            }
+          },
+          {
+            "name": "Inward telegraphic transfer in a foreign currency",
+            "feeType": "PAYMENT",
+            "feeMethodUType": "fixedAmount",
+            "additionalInfo": "Acceptance of payments in a foreign currency for swift transfer to a Bendigo Bank account ",
+            "discounts": [],
+            "fixedAmount": {
+              "amount": "10.000000"
+            }
+          },
+          {
+            "name": "Outward telegraphic transfer",
+            "feeType": "PAYMENT",
+            "feeMethodUType": "fixedAmount",
+            "additionalInfo": "When you request the transfer of funds to a non-Bendigo Bank account. This includes:\n\tInternational Telegraphic Transfers – funds sent from your Bendigo Bank account to overseas destinations worldwide in AUD or foreign currency\n\tDomestic Telegraphic Transfers – AUD funds sent from your Bendigo Bank account to other financial institutions within Australia",
+            "discounts": [],
+            "fixedAmount": {
+              "amount": "30.000000"
+            }
+          },
+          {
+            "name": "Bill Payment Transaction Recall/Trace Fee",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "additionalInfo": "When you request us to trace or recall a bill payment you have made through the BPAY scheme.",
+            "discounts": [],
+            "fixedAmount": {
+              "amount": "20.000000"
+            }
+          },
+          {
+            "name": "Direct Debit Dishonour Fee",
+            "feeType": "DISHONOUR",
+            "feeMethodUType": "fixedAmount",
+            "additionalInfo": "Applies when a direct debit from your account is dishonoured due to insufficient funds.",
+            "discounts": [],
+            "fixedAmount": {
+              "amount": "10.000000"
+            }
+          }
+        ],
+        "lendingRates": [],
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0100000000000000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "additionalInfo": "n/a",
+            "applicationType": "PERIODIC"
+          }
+        ],
+        "brand": "BENDIGO"
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "e7e9fe9a-f9e9-4316-a78f-8f00a1850daf",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "lastUpdated": "2026-10-18T13:32:23.333Z",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "name": "Bendigo PiggySaver",
+        "description": "Designed for kids under 12. Fun and rewarding way to introduce them to saving.",
+        "productId": "e7e9fe9a-f9e9-4316-a78f-8f00a1850daf",
+        "brandName": "Bendigo Bank",
+        "applicationUri": "https://www.bendigobank.com.au/personal/savings-accounts/piggysaver-account/",
+        "isTailored": false,
+        "bundles": [],
+        "cardArt": [],
+        "features": [
+          {
+            "featureType": "UNLIMITED_TXNS"
+          },
+          {
+            "featureType": "DIGITAL_BANKING"
+          },
+          {
+            "featureType": "NPP_ENABLED"
+          }
+        ],
+        "constraints": [],
+        "eligibility": [
+          {
+            "eligibilityType": "MAX_AGE",
+            "additionalValue": "12",
+            "additionalInfo": "Available to children under 12 years. Account must be opened in the childs names with a parent or guardian acting as a non-titled member."
+          }
+        ],
+        "fees": [],
+        "lendingRates": [],
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0380000000000000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "applicationType": "PERIODIC"
+          }
+        ],
+        "additionalInformation": {
+          "overviewUri": "https://www.bendigobank.com.au/personal/savings-accounts/piggysaver-account/",
+          "termsUri": "https://www.bendigobank.com.au/disclosure-documents/",
+          "eligibilityUri": "https://www.bendigobank.com.au/disclosure-documents/",
+          "feesAndPricingUri": "https://www.bendigobank.com.au/globalassets/documents/disclosures/schedule-of-fees-charges-and-transaction-account-rebates.pdf"
+        },
+        "brand": "BENDIGO"
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    }
+  ]
+}

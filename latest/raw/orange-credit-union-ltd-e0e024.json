@@ -1,0 +1,1577 @@
+{
+  "endpoint": "https://online.orangecu.com.au/openbanking/cds-au/v1/banking/products",
+  "slug": "orange-credit-union-ltd-e0e024",
+  "brands": [
+    {
+      "dataHolderBrandId": "54eff5f1-2ac4-eb11-a823-000d3a884a20",
+      "brandName": "ORANGE CREDIT UNION LTD",
+      "brandGroup": null,
+      "abn": "34087650477",
+      "industries": [
+        "banking"
+      ]
+    }
+  ],
+  "list": {
+    "ok": true,
+    "status": 200,
+    "version": "5",
+    "totalPages": 1,
+    "pagesFetched": 1,
+    "productCount": 32,
+    "categoryCounts": {
+      "TRANS_AND_SAVINGS_ACCOUNTS": 8,
+      "PERS_LOANS": 3,
+      "RESIDENTIAL_MORTGAGES": 14,
+      "TERM_DEPOSITS": 7
+    }
+  },
+  "products": [
+    {
+      "productId": "12MNTH_WEALTH_BUILDER_TD",
+      "productCategory": "TERM_DEPOSITS",
+      "detail": {
+        "features": [
+          {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": "Balance Only"
+          },
+          {
+            "featureType": "CARD_ACCESS",
+            "additionalValue": "No",
+            "additionalInfo": "No"
+          },
+          {
+            "featureType": "FUNDS_AVAILABLE_AFTER",
+            "additionalValue": "P1Y",
+            "additionalInfo": "Maturity. On maturity we will automatically re-invest your Term Deposit for the same term as you originally chose, unless you advise us otherwise. Minimum 7 days notice is required"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Direct Debits: No"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Direct Credits: No"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Interest Income: At maturity"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Branch Transaction: Yes"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "BPAY Phone & Internet: No"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Early withdrawal penalty. Minimum 7 days notice is required for an early break in the relevant term, upon which a fee of $30 plus a rate reduction based on: 0 to 30% of term elapsed   30% of the initial rate; 31 to 60% of term elapsed   60% of the initial rate; 61 to 90% of term elapsed   90% of the initial rate will be applicable."
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "MIN_BALANCE",
+            "additionalValue": "50000.00"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "OTHER",
+            "additionalInfo": "NEW MEMBER ONLY"
+          }
+        ],
+        "fees": [
+          {
+            "name": "TERM_DEPOSIT_EARLY_REDEMPTION_FEE",
+            "feeType": "VARIATION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "30.00"
+            },
+            "currency": "AUD",
+            "additionalInfoUri": "https://www.bankorange.com.au/quicklinks/rates-and-fees/"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0535",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "tiers": [
+              {
+                "name": "12MTH FIXED TERM DEPOSIT WEALTH BUILDER_Tier",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "50000.00",
+                "maximumValue": "1000000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "12MTH FIXED TERM DEPOSIT WEALTH BUILDER_Tier",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "12",
+                "maximumValue": "12",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P12M",
+            "additionalInfo": "*Eligibility criteria, terms & conditions, fees & charges apply. Funds must come from an account the member or customer does not currently hold with Orange Credit Union, with a minimum initial deposit amount of $50,000. Visit website for full T&C's.",
+            "additionalInfoUri": "https://www.bankorange.com.au/bank-save/term-deposits/wealth-builder-term-deposit#Text-83411-Interest_Rates"
+          }
+        ],
+        "productCategory": "TERM_DEPOSITS",
+        "productId": "12MNTH_WEALTH_BUILDER_TD",
+        "lastUpdated": "2026-05-15T10:25:29.000+10:00",
+        "name": "12MTH FIXED TERM DEPOSIT WEALTH BUILDER",
+        "description": "12 MONTHS WEALTH BUILDER",
+        "brand": "ORANGE CREDIT UNION LTD",
+        "brandName": "ORANGE CREDIT UNION LTD",
+        "applicationUri": "https://www.bankorange.com.au/online-forms/member-application-form/",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.bankorange.com.au/bank-save/term-deposits/wealth-builder-term-deposit/",
+          "termsUri": "https://www.bankorange.com.au/about/corporate-information/disclosure-documents/",
+          "eligibilityUri": "https://www.bankorange.com.au/about/corporate-information/disclosure-documents/",
+          "feesAndPricingUri": "https://www.bankorange.com.au/quicklinks/rates-and-fees/"
+        }
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "12MTH_TERM_DEPOSIT",
+      "productCategory": "TERM_DEPOSITS",
+      "detail": {
+        "features": [
+          {
+            "featureType": "FUNDS_AVAILABLE_AFTER",
+            "additionalValue": "P1Y",
+            "additionalInfo": "Maturity. On maturity we will automatically re-invest your Term Deposit for the same term as you originally chose, unless you advise us otherwise. Minimum 7 days notice is required"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Early withdrawal penalty. Minimum 7 days notice is required for an early break in the relevant term, upon which a fee of $30 plus a rate reduction based on: 0 to 30% of term elapsed   30% of the initial rate; 31 to 60% of term elapsed   60% of the initial rate; 61 to 90% of term elapsed   90% of the initial rate will be applicable."
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Interest Income: At Maturity"
+          },
+          {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": "Balance Only"
+          },
+          {
+            "featureType": "CARD_ACCESS",
+            "additionalValue": "No",
+            "additionalInfo": "No"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Branch Transactions"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Direct Credits: No"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Direct Debits: No"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "BPAY Phone & Internet: No"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Periodical Payments: No"
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "MIN_BALANCE",
+            "additionalValue": "1000.00"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "OTHER",
+            "additionalInfo": "MEMBER ONLY"
+          }
+        ],
+        "fees": [
+          {
+            "name": "TERM_DEPOSIT_EARLY_REDEMPTION_FEE",
+            "feeType": "VARIATION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "30.00"
+            },
+            "currency": "AUD",
+            "additionalInfoUri": "https://www.bankorange.com.au/quicklinks/rates-and-fees/"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.052",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P06M",
+            "tiers": [
+              {
+                "name": "12MTH FIXED TERM DEPOSIT_Tier",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "1000000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "12MTH FIXED TERM DEPOSIT_Tier",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "12",
+                "maximumValue": "12",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P12M",
+            "additionalInfoUri": "https://www.bankorange.com.au/bank-save/term-deposits/term-deposit#Text-c9d11-Interest_Rates"
+          }
+        ],
+        "productCategory": "TERM_DEPOSITS",
+        "productId": "12MTH_TERM_DEPOSIT",
+        "lastUpdated": "2026-07-02T11:02:00.000+10:00",
+        "name": "12MTH FIXED TERM DEPOSIT",
+        "description": "12 MONTHS",
+        "brand": "ORANGE CREDIT UNION LTD",
+        "brandName": "ORANGE CREDIT UNION LTD",
+        "applicationUri": "https://www.bankorange.com.au/online-forms/member-application-form/",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.bankorange.com.au/bank-save/term-deposits/term-deposit/",
+          "termsUri": "https://www.bankorange.com.au/about/corporate-information/disclosure-documents/",
+          "eligibilityUri": "https://www.bankorange.com.au/about/corporate-information/disclosure-documents/",
+          "feesAndPricingUri": "https://www.bankorange.com.au/quicklinks/rates-and-fees/",
+          "bundleUri": "https://www.bankorange.com.au/quicklinks/rates-and-fees/"
+        }
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "24MNTH_WEALTH_BUILDER_TD",
+      "productCategory": "TERM_DEPOSITS",
+      "detail": {
+        "features": [
+          {
+            "featureType": "FUNDS_AVAILABLE_AFTER",
+            "additionalValue": "P24M",
+            "additionalInfo": "Maturity. On maturity we will automatically re-invest your Term Deposit for the same term as you originally chose, unless you advise us otherwise. Minimum 7 days notice is required"
+          },
+          {
+            "featureType": "CARD_ACCESS",
+            "additionalValue": "No",
+            "additionalInfo": "No"
+          },
+          {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": "Balance Only"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Early withdrawal penalty. Minimum 7 days notice is required for an early break in the relevant term, upon which a fee of $30 plus a rate reduction based on: 0 to 30% of term elapsed   30% of the initial rate; 31 to 60% of term elapsed   60% of the initial rate; 61 to 90% of term elapsed   90% of the initial rate will be applicable."
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Interest Income: At maturity"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Direct Debits: No"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Direct Credits: No"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Branch Transaction: Yes"
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "MIN_BALANCE",
+            "additionalValue": "50000.00"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "OTHER",
+            "additionalInfo": "NEW MEMBER ONLY"
+          }
+        ],
+        "fees": [
+          {
+            "name": "TERM_DEPOSIT_EARLY_REDEMPTION_FEE",
+            "feeType": "VARIATION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "30.00"
+            },
+            "currency": "AUD",
+            "additionalInfoUri": "https://www.bankorange.com.au/quicklinks/rates-and-fees/"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0455",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "tiers": [
+              {
+                "name": "24MTH FIXED TERM DEPOSIT WEALTH BUILDER_Tier",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "50000.00",
+                "maximumValue": "999999.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "24MTH FIXED TERM DEPOSIT WEALTH BUILDER_Tier",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "24",
+                "maximumValue": "24",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P24M",
+            "additionalInfo": "*Eligibility criteria, terms & conditions, fees & charges apply. Funds must come from an account the member or customer does not currently hold with Orange Credit Union, with a minimum initial deposit amount of $50,000. Visit website for full T&C's.",
+            "additionalInfoUri": "https://www.bankorange.com.au/bank-save/term-deposits/wealth-builder-term-deposit#Text-83411-Interest_Rates"
+          }
+        ],
+        "productCategory": "TERM_DEPOSITS",
+        "productId": "24MNTH_WEALTH_BUILDER_TD",
+        "lastUpdated": "2026-05-08T09:14:05.000+10:00",
+        "name": "24MTH FIXED TERM DEPOSIT WEALTH BUILDER",
+        "description": "24 MONTHS WEALTH BUILDER",
+        "brand": "ORANGE CREDIT UNION LTD",
+        "brandName": "ORANGE CREDIT UNION LTD",
+        "applicationUri": "https://www.bankorange.com.au/online-forms/member-application-form/",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.bankorange.com.au/bank-save/term-deposits/wealth-builder-term-deposit//",
+          "termsUri": "https://www.bankorange.com.au/about/corporate-information/disclosure-documents/",
+          "eligibilityUri": "https://www.bankorange.com.au/about/corporate-information/disclosure-documents/",
+          "feesAndPricingUri": "https://www.bankorange.com.au/quicklinks/rates-and-fees/"
+        }
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "24MTH_TERM_DEPOSIT",
+      "productCategory": "TERM_DEPOSITS",
+      "detail": {
+        "features": [
+          {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": "Balance Only"
+          },
+          {
+            "featureType": "CARD_ACCESS",
+            "additionalValue": "No",
+            "additionalInfo": "No"
+          },
+          {
+            "featureType": "FUNDS_AVAILABLE_AFTER",
+            "additionalValue": "P2Y",
+            "additionalInfo": "Maturity. On maturity we will automatically re-invest your Term Deposit for the same term as you originally chose, unless you advise us otherwise. Minimum 7 days notice is required"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Interest Income at maturity"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Early withdrawal penalty. Minimum 7 days notice is required for an early break in the relevant term, upon which a fee of $30 plus a rate reduction based on: 0 to 30% of term elapsed   30% of the initial rate; 31 to 60% of term elapsed   60% of the initial rate; 61 to 90% of term elapsed   90% of the initial rate will be applicable."
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Periodical Payments: No"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Branch Transaction: Yes"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "BPAY Phone & Internet: No"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Direct Debits: No"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Direct Credits: No"
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "MIN_BALANCE",
+            "additionalValue": "1000.00"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "RESIDENCY_STATUS"
+          }
+        ],
+        "fees": [
+          {
+            "name": "TERM_DEPOSIT_EARLY_REDEMPTION_FEE",
+            "feeType": "VARIATION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "30.00"
+            },
+            "currency": "AUD",
+            "additionalInfoUri": "https://www.bankorange.com.au/quicklinks/rates-and-fees/"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.045",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P06M",
+            "tiers": [
+              {
+                "name": "24 MONTHS_Tier",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "1000000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "24 MONTHS_Tier",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "1",
+                "maximumValue": "24",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P24M",
+            "additionalInfoUri": "https://www.bankorange.com.au/bank-save/term-deposits/term-deposit#Text-c9d11-Interest_Rates"
+          }
+        ],
+        "productCategory": "TERM_DEPOSITS",
+        "productId": "24MTH_TERM_DEPOSIT",
+        "lastUpdated": "2026-07-02T11:03:33.000+10:00",
+        "name": "24 MONTHS",
+        "description": "24 MONTHS",
+        "brand": "ORANGE CREDIT UNION LTD",
+        "brandName": "ORANGE CREDIT UNION LTD",
+        "applicationUri": "https://www.bankorange.com.au/online-forms/member-application-form/",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.bankorange.com.au/bank-save/term-deposits/term-deposit/",
+          "termsUri": "https://www.bankorange.com.au/about/corporate-information/disclosure-documents/",
+          "eligibilityUri": "https://www.bankorange.com.au/about/corporate-information/disclosure-documents/",
+          "feesAndPricingUri": "https://www.bankorange.com.au/quicklinks/rates-and-fees/"
+        }
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "3MTH_TERM_DEPOSIT",
+      "productCategory": "TERM_DEPOSITS",
+      "detail": {
+        "features": [
+          {
+            "featureType": "FUNDS_AVAILABLE_AFTER",
+            "additionalValue": "P3M",
+            "additionalInfo": "Maturity. On maturity we will automatically re-invest your Term Deposit for the same term as you originally chose, unless you advise us otherwise. Minimum 7 days notice is required"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Early withdrawal penalty. Minimum 7 days notice is required for an early break in the relevant term, upon which a fee of $30 plus a rate reduction based on: 0 to 30% of term elapsed   30% of the initial rate; 31 to 60% of term elapsed   60% of the initial rate; 61 to 90% of term elapsed   90% of the initial rate will be applicable."
+          },
+          {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": "Balance Only"
+          },
+          {
+            "featureType": "CARD_ACCESS",
+            "additionalValue": "No",
+            "additionalInfo": "No"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Branch Transactions: Yes"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Direct Credits: No"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Direct Debits: No"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "BPAY Phone & Internet: No"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Periodical Payments: No"
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "MIN_BALANCE",
+            "additionalValue": "1000.00"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "RESIDENCY_STATUS"
+          }
+        ],
+        "fees": [
+          {
+            "name": "TERM_DEPOSIT_EARLY_REDEMPTION_FEE",
+            "feeType": "VARIATION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "30.00"
+            },
+            "currency": "AUD",
+            "additionalInfoUri": "https://www.bankorange.com.au/quicklinks/rates-and-fees/"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.01",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "tiers": [
+              {
+                "name": "3MTH FIXED TERM DEPOSIT_Tier",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "2000000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "3MTH FIXED TERM DEPOSIT_Tier",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "1",
+                "maximumValue": "3",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P3M",
+            "additionalInfoUri": "https://www.bankorange.com.au/bank-save/term-deposits/term-deposit#Text-c9d11-Interest_Rates"
+          }
+        ],
+        "productCategory": "TERM_DEPOSITS",
+        "productId": "3MTH_TERM_DEPOSIT",
+        "lastUpdated": "2026-07-02T11:04:56.000+10:00",
+        "name": "3MTH FIXED TERM DEPOSIT",
+        "description": "TERM DEPOSIT 3 MONTHS",
+        "brand": "ORANGE CREDIT UNION LTD",
+        "brandName": "ORANGE CREDIT UNION LTD",
+        "applicationUri": "https://www.bankorange.com.au/online-forms/member-application-form/",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.bankorange.com.au/bank-save/term-deposits/term-deposit/",
+          "termsUri": "https://www.bankorange.com.au/about/corporate-information/disclosure-documents/",
+          "eligibilityUri": "https://www.bankorange.com.au/about/corporate-information/disclosure-documents/",
+          "feesAndPricingUri": "https://www.bankorange.com.au/quicklinks/rates-and-fees/",
+          "bundleUri": "https://www.bankorange.com.au/quicklinks/rates-and-fees/"
+        }
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "6MTH_TERM_DEPOSIT",
+      "productCategory": "TERM_DEPOSITS",
+      "detail": {
+        "features": [
+          {
+            "featureType": "CARD_ACCESS",
+            "additionalValue": "No",
+            "additionalInfo": "No"
+          },
+          {
+            "featureType": "FUNDS_AVAILABLE_AFTER",
+            "additionalValue": "P6M",
+            "additionalInfo": "Maturity. On maturity we will automatically re-invest your Term Deposit for the same term as you originally chose, unless you advise us otherwise. Minimum 7 days notice is required"
+          },
+          {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": "Balance Only"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Early withdrawal penalty. Minimum 7 days notice is required for an early break in the relevant term, upon which a fee of $30 plus a rate reduction based on: 0 to 30% of term elapsed   30% of the initial rate; 31 to 60% of term elapsed   60% of the initial rate; 61 to 90% of term elapsed   90% of the initial rate will be applicable."
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Interest Income at maturity"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Branch Transactions: Yes"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Periodical Payments: No"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "BPAY Phone & Internet: No"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Direct Credits: No"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Direct Debits: No"
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "MIN_BALANCE",
+            "additionalValue": "1000.00"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "OTHER",
+            "additionalInfo": "MEMBER ONLY"
+          }
+        ],
+        "fees": [
+          {
+            "name": "TERM_DEPOSIT_EARLY_REDEMPTION_FEE",
+            "feeType": "VARIATION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "30.00"
+            },
+            "currency": "AUD",
+            "additionalInfoUri": "https://www.bankorange.com.au/quicklinks/rates-and-fees/"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0125",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "tiers": [
+              {
+                "name": "6MTH FIXED TERM DEPOSIT_Tier",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "500.00",
+                "maximumValue": "1000000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "6MTH FIXED TERM DEPOSIT_Tier",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "1",
+                "maximumValue": "6",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P6M",
+            "additionalInfoUri": "https://www.orangecu.com.au/bank-save/term-deposits/term-deposit#Text-c9d11-Interest_Rates"
+          }
+        ],
+        "productCategory": "TERM_DEPOSITS",
+        "productId": "6MTH_TERM_DEPOSIT",
+        "lastUpdated": "2026-07-02T11:05:40.000+10:00",
+        "name": "6MTH FIXED TERM DEPOSIT",
+        "description": "FTD 6 MONTHS",
+        "brand": "ORANGE CREDIT UNION LTD",
+        "brandName": "ORANGE CREDIT UNION LTD",
+        "applicationUri": "https://www.bankorange.com.au/online-forms/member-application-form/",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.bankorange.com.au/bank-save/term-deposits/term-deposit/",
+          "termsUri": "https://www.bankorange.com.au/about/corporate-information/disclosure-documents/",
+          "eligibilityUri": "https://www.bankorange.com.au/about/corporate-information/disclosure-documents/",
+          "feesAndPricingUri": "https://www.bankorange.com.au/quicklinks/rates-and-fees/",
+          "bundleUri": "https://www.bankorange.com.au/quicklinks/rates-and-fees/"
+        }
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "9MTH_TERM_DEPOSIT",
+      "productCategory": "TERM_DEPOSITS",
+      "detail": {
+        "features": [
+          {
+            "featureType": "FUNDS_AVAILABLE_AFTER",
+            "additionalValue": "P9M",
+            "additionalInfo": "Maturity. On maturity we will automatically re-invest your Term Deposit for the same term as you originally chose, unless you advise us otherwise. Minimum 7 days notice is required"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Early withdrawal penalty. Minimum 7 days notice is required for an early break in the relevant term, upon which a fee of $30 plus a rate reduction based on: 0 to 30% of term elapsed   30% of the initial rate; 31 to 60% of term elapsed   60% of the initial rate; 61 to 90% of term elapsed   90% of the initial rate will be applicable."
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Interest Income: At maturity"
+          },
+          {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": "Balance Only"
+          },
+          {
+            "featureType": "CARD_ACCESS",
+            "additionalValue": "No",
+            "additionalInfo": "No"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Branch Transaction: Yes"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Direct Credits: No"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Direct Debits: No"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "BPAY Phone & Internet: No"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Periodical Payments: No"
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "MIN_BALANCE",
+            "additionalValue": "1000.00"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "OTHER",
+            "additionalInfo": "MEMBER ONLY"
+          }
+        ],
+        "fees": [
+          {
+            "name": "TERM_DEPOSIT_EARLY_REDEMPTION_FEE",
+            "feeType": "VARIATION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "30.00"
+            },
+            "currency": "AUD",
+            "additionalInfoUri": "https://www.bankorange.com.au/quicklinks/rates-and-fees/"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0205",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "tiers": [
+              {
+                "name": "9MTH FIXED TERM DEPOSIT_Tier",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "500.00",
+                "maximumValue": "1000000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "9MTH FIXED TERM DEPOSIT_Tier",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "1",
+                "maximumValue": "9",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P9M",
+            "additionalInfoUri": "https://www.bankorange.com.au/bank-save/term-deposits/term-deposit#Text-c9d11-Interest_Rates"
+          }
+        ],
+        "productCategory": "TERM_DEPOSITS",
+        "productId": "9MTH_TERM_DEPOSIT",
+        "lastUpdated": "2026-07-02T11:03:05.000+10:00",
+        "name": "9MTH FIXED TERM DEPOSIT",
+        "description": "FTD 9 MONTH",
+        "brand": "ORANGE CREDIT UNION LTD",
+        "brandName": "ORANGE CREDIT UNION LTD",
+        "applicationUri": "https://www.bankorange.com.au/online-forms/member-application-form/",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.bankorange.com.au/bank-save/term-deposits/term-deposit/",
+          "termsUri": "https://www.bankorange.com.au/about/corporate-information/disclosure-documents/",
+          "eligibilityUri": "https://www.bankorange.com.au/about/corporate-information/disclosure-documents/",
+          "feesAndPricingUri": "https://www.bankorange.com.au/quicklinks/rates-and-fees/",
+          "bundleUri": "https://www.bankorange.com.au/quicklinks/rates-and-fees/"
+        }
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "ALL_PURPOSE_SAVINGS",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "features": [
+          {
+            "featureType": "CARD_ACCESS",
+            "additionalValue": "VISA Card",
+            "additionalInfo": "VISA Card"
+          },
+          {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": "Internet Banking Access"
+          },
+          {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": "Mobile App Access"
+          },
+          {
+            "featureType": "DIGITAL_WALLET",
+            "additionalValue": "ApplePay",
+            "additionalInfo": "ApplePay"
+          },
+          {
+            "featureType": "DIGITAL_WALLET",
+            "additionalValue": "Google Pay",
+            "additionalInfo": "Google Pay"
+          },
+          {
+            "featureType": "DIGITAL_WALLET",
+            "additionalValue": "Samsung Pay",
+            "additionalInfo": "Samsung Pay"
+          },
+          {
+            "featureType": "ADDITIONAL_CARDS"
+          },
+          {
+            "featureType": "NPP_ENABLED"
+          },
+          {
+            "featureType": "BILL_PAYMENT"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Periodical payments"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Direct Debits"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Direct Credits"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Eftpos and ATM"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Branch transactions"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "ALL PURPOSE SAVINGS_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "0.00",
+                "maximumValue": "999.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalInfo": "This is an everyday account for general spending.",
+            "additionalInfoUri": "https://www.orangecu.com.au/bank-save/transaction-accounts/all-purpose-savings-account/"
+          },
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "ALL PURPOSE SAVINGS_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "999.01",
+                "maximumValue": "4999.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalInfo": "This is an everyday account for general spending.",
+            "additionalInfoUri": "https://www.orangecu.com.au/bank-save/transaction-accounts/all-purpose-savings-account/"
+          },
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "ALL PURPOSE SAVINGS_Tier_3",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "4999.01",
+                "maximumValue": "9999.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalInfo": "This is an everyday account for general spending.",
+            "additionalInfoUri": "https://www.orangecu.com.au/bank-save/transaction-accounts/all-purpose-savings-account/"
+          },
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "ALL PURPOSE SAVINGS_Tier_4",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "9999.01",
+                "maximumValue": "49999.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalInfo": "This is an everyday account for general spending.",
+            "additionalInfoUri": "https://www.orangecu.com.au/bank-save/transaction-accounts/all-purpose-savings-account/"
+          },
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "ALL PURPOSE SAVINGS_Tier_5",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "49999.01",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalInfo": "This is an everyday account for general spending.",
+            "additionalInfoUri": "https://www.orangecu.com.au/bank-save/transaction-accounts/all-purpose-savings-account/"
+          }
+        ],
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "cardArt": [
+          {
+            "cardScheme": "VISA",
+            "cardType": "DEBIT",
+            "title": "Visa Debit Card",
+            "imageUri": "https://www.bankorange.com.au/media/3014/untitled-design-77.png?crop=0,0.25058262711864404,0.23728813559322035,0.391896186440678&cropmode=percentage&width=1920&height=450&rnd=134174846440000000"
+          }
+        ],
+        "productId": "ALL_PURPOSE_SAVINGS",
+        "lastUpdated": "2026-03-09T14:02:54.000+11:00",
+        "name": "ALL PURPOSE SAVINGS",
+        "description": "ALL PURPOSE SAVINGS",
+        "brand": "ORANGE CREDIT UNION LTD",
+        "brandName": "ORANGE CREDIT UNION LTD",
+        "applicationUri": "https://www.bankorange.com.au/online-forms/member-application-form/",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.bankorange.com.au/bank-save/transaction-accounts/all-purpose-savings-account/",
+          "termsUri": "https://www.bankorange.com.au/about/corporate-information/disclosure-documents/",
+          "eligibilityUri": "https://www.bankorange.com.au/about/corporate-information/disclosure-documents/",
+          "feesAndPricingUri": "https://www.bankorange.com.au/quicklinks/rates-and-fees/"
+        }
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "BONUS_SAVER",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "features": [
+          {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": "Internet Banking Access"
+          },
+          {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": "Mobile App Access"
+          },
+          {
+            "featureType": "BILL_PAYMENT",
+            "additionalInfo": "BPAY Internet"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Direct Credits"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "No Direct Debits"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Minimum Deposit $50 per month",
+            "additionalInfoUri": "https://www.bankorange.com.au/bank-save/savings-accounts/bonus-saver-account#Text-9d541-Interest_Rates"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Branch Transactions"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Bonus interest earned above the base rate every month when you make a deposit (minimum $50 per month) and no withdrawals"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "At Call"
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "MIN_BALANCE",
+            "additionalValue": "1.00"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0025",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "additionalInfoUri": "https://www.orangecu.com.au/bank-save/savings-accounts/bonus-saver-account/"
+          },
+          {
+            "depositRateType": "BONUS",
+            "rate": "0.035",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "additionalInfoUri": "https://www.orangecu.com.au/bank-save/savings-accounts/bonus-saver-account/"
+          }
+        ],
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "productId": "BONUS_SAVER",
+        "lastUpdated": "2026-01-20T13:58:17.000+11:00",
+        "name": "BONUS SAVER",
+        "description": "BONUS SAVER",
+        "brand": "ORANGE CREDIT UNION LTD",
+        "brandName": "ORANGE CREDIT UNION LTD",
+        "applicationUri": "https://www.bankorange.com.au/online-forms/member-application-form/",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.bankorange.com.au/bank-save/savings-accounts/bonus-saver-account/",
+          "termsUri": "https://www.bankorange.com.au/about/corporate-information/disclosure-documents/",
+          "eligibilityUri": "https://www.bankorange.com.au/about/corporate-information/disclosure-documents/",
+          "feesAndPricingUri": "https://www.bankorange.com.au/quicklinks/rates-and-fees/"
+        }
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "BUDGET_ACCOUNT",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "features": [
+          {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": "Internet Banking Access"
+          },
+          {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": "Mobile App Access"
+          },
+          {
+            "featureType": "BILL_PAYMENT",
+            "additionalInfo": "BPAY"
+          },
+          {
+            "featureType": "NPP_ENABLED"
+          },
+          {
+            "featureType": "CARD_ACCESS",
+            "additionalValue": "Visa Debit",
+            "additionalInfo": "Visa Debit"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Direct Credits"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Direct Debits"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Branch transactions"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Periodical payments"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "At Call"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "additionalInfo": "This is a planned savings account to pay regular bills. The Budget Account is a way to to keep your budget funds separate from your everyday spending account.",
+            "additionalInfoUri": "https://www.orangecu.com.au/quicklinks/rates-and-fees/"
+          }
+        ],
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "productId": "BUDGET_ACCOUNT",
+        "lastUpdated": "2026-01-20T13:50:10.000+11:00",
+        "name": "BUDGET ACCOUNT",
+        "description": "BUDGET ACCOUNT",
+        "brand": "ORANGE CREDIT UNION LTD",
+        "brandName": "ORANGE CREDIT UNION LTD",
+        "applicationUri": "https://www.bankorange.com.au/online-forms/member-application-form/",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.bankorange.com.au/bank-save/transaction-accounts/budget-account/",
+          "termsUri": "https://www.bankorange.com.au/about/corporate-information/disclosure-documents/",
+          "eligibilityUri": "https://www.bankorange.com.au/about/corporate-information/disclosure-documents/",
+          "feesAndPricingUri": "https://www.bankorange.com.au/quicklinks/rates-and-fees/"
+        }
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "CHRISTMAS_CLUB",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "features": [
+          {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": "Access available Nov to Jan"
+          },
+          {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": "Access available Nov to Jan"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Access available Nov to Jan"
+          },
+          {
+            "featureType": "NPP_ENABLED"
+          }
+        ],
+        "fees": [
+          {
+            "name": "CHRISTMAS_CLUB_EARLY_WITHDRAWAL_FEE",
+            "feeType": "WITHDRAWAL",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "10.00"
+            },
+            "currency": "AUD",
+            "additionalInfoUri": "https://www.bankorange.com.au/quicklinks/rates-and-fees/"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.015",
+            "calculationFrequency": "P1M",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "additionalInfoUri": "https://www.bankorange.com.au/quicklinks/rates-and-fees/savings-interest-rates/"
+          }
+        ],
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "productId": "CHRISTMAS_CLUB",
+        "lastUpdated": "2026-11-06T08:57:02.000+11:00",
+        "name": "CHRISTMAS CLUB",
+        "description": "CHRISTMAS CLUB",
+        "brand": "ORANGE CREDIT UNION LTD",
+        "brandName": "ORANGE CREDIT UNION LTD",
+        "applicationUri": "https://www.bankorange.com.au/online-forms/member-application-form/",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.bankorange.com.au/bank-save/savings-accounts/christmas-club-account/",
+          "termsUri": "https://www.bankorange.com.au/about/corporate-information/disclosure-documents/",
+          "eligibilityUri": "https://www.bankorange.com.au/about/corporate-information/disclosure-documents/",
+          "feesAndPricingUri": "https://www.bankorange.com.au/quicklinks/rates-and-fees/"
+        }
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "KIDS_SUPER_SAVER",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "eligibility": [
+          {
+            "eligibilityType": "MAX_AGE",
+            "additionalValue": "17"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.03",
+            "calculationFrequency": "P1M",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "additionalInfo": "You must be under 17 years of age to open this account. Junior members are required to pay a Junior share of $2.00 to become a member of Orange Credit Union and open a Super Saver account.",
+            "additionalInfoUri": "https://www.orangecu.com.au/bank-save/savings-accounts/kids-super-saver-account/"
+          }
+        ],
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "productId": "KIDS_SUPER_SAVER",
+        "lastUpdated": "2026-03-02T13:50:54.000+11:00",
+        "name": "SUPER SAVER",
+        "description": "SUPER SAVER",
+        "brand": "ORANGE CREDIT UNION LTD",
+        "brandName": "ORANGE CREDIT UNION LTD",
+        "applicationUri": "https://www.bankorange.com.au/online-forms/member-application-form/",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.bankorange.com.au/bank-save/savings-accounts/kids-super-saver-account/",
+          "termsUri": "https://www.bankorange.com.au/about/corporate-information/disclosure-documents/",
+          "eligibilityUri": "https://www.bankorange.com.au/about/corporate-information/disclosure-documents/",
+          "feesAndPricingUri": "https://www.bankorange.com.au/quicklinks/rates-and-fees/"
+        }
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "MORTGAGE_OFFSET",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "features": [
+          {
+            "featureType": "DIGITAL_BANKING"
+          },
+          {
+            "featureType": "DIGITAL_BANKING"
+          },
+          {
+            "featureType": "NPP_ENABLED"
+          },
+          {
+            "featureType": "BILL_PAYMENT"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "OTHER",
+            "additionalInfo": "Only for members with eligible loan"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M"
+          }
+        ],
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "productId": "MORTGAGE_OFFSET",
+        "lastUpdated": "2024-08-30T14:57:27.000+10:00",
+        "name": "MORTGAGE OFFSET",
+        "description": "MORTGAGE OFFSET",
+        "brand": "ORANGE CREDIT UNION LTD",
+        "brandName": "ORANGE CREDIT UNION LTD",
+        "applicationUri": "https://www.bankorange.com.au/online-forms/member-application-form/",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.bankorange.com.au/bank-save/transaction-accounts/mortgage-offset-account/",
+          "termsUri": "https://www.bankorange.com.au/about/corporate-information/disclosure-documents/",
+          "eligibilityUri": "https://www.bankorange.com.au/about/corporate-information/disclosure-documents/",
+          "feesAndPricingUri": "https://www.bankorange.com.au/quicklinks/rates-and-fees/"
+        }
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "ONLINE_SAVER",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "features": [
+          {
+            "featureType": "DIGITAL_BANKING"
+          },
+          {
+            "featureType": "DIGITAL_BANKING"
+          },
+          {
+            "featureType": "BILL_PAYMENT",
+            "additionalInfo": "BPAY Interenet"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Direct Credit - Direct Credits allowed from Internet Banking and Payroll Transfers"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "No Direct Debits"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "At Call"
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "MIN_BALANCE",
+            "additionalValue": "1.00"
+          }
+        ],
+        "fees": [
+          {
+            "name": "STAFF_ASSISTED_ONLINE_SAVER_TRANSFER_FEE",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "5.00"
+            },
+            "currency": "AUD",
+            "additionalInfoUri": "https://www.bankorange.com.au/quicklinks/rates-and-fees/"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "ONLINE SAVER_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "0.00",
+                "maximumValue": "999.99",
+                "rateApplicationMethod": "PER_TIER"
+              }
+            ],
+            "additionalInfo": "This is a high interest savings account, designed for those who like to manage their savings online, from the convenience of home or on the go",
+            "additionalInfoUri": "https://www.orangecu.com.au/bank-save/savings-accounts/online-saver-account/"
+          },
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0525",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "ONLINE SAVER_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "rateApplicationMethod": "PER_TIER"
+              }
+            ],
+            "additionalInfo": "This is a high interest savings account, designed for those who like to manage their savings online, from the convenience of home or on the go",
+            "additionalInfoUri": "https://www.orangecu.com.au/bank-save/savings-accounts/online-saver-account/"
+          }
+        ],
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "productId": "ONLINE_SAVER",
+        "lastUpdated": "2026-11-19T12:28:06.000+11:00",
+        "name": "ONLINE SAVER",
+        "description": "ONLINE SAVER",
+        "brand": "ORANGE CREDIT UNION LTD",
+        "brandName": "ORANGE CREDIT UNION LTD",
+        "applicationUri": "https://www.bankorange.com.au/online-forms/member-application-form/",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.bankorange.com.au/bank-save/savings-accounts/online-saver-account/",
+          "termsUri": "https://www.bankorange.com.au/about/corporate-information/disclosure-documents/",
+          "eligibilityUri": "https://www.bankorange.com.au/about/corporate-information/disclosure-documents/",
+          "feesAndPricingUri": "https://www.bankorange.com.au/quicklinks/rates-and-fees/"
+        }
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "PRESTIGE_ACCOUNT",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "features": [
+          {
+            "featureType": "CARD_ACCESS",
+            "additionalValue": "VISA Card",
+            "additionalInfo": "VISA Card"
+          },
+          {
+            "featureType": "ADDITIONAL_CARDS"
+          },
+          {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": "Internet Banking Access"
+          },
+          {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": "Mobile App Access"
+          },
+          {
+            "featureType": "DIGITAL_WALLET",
+            "additionalValue": "ApplePay",
+            "additionalInfo": "ApplePay"
+          },
+          {
+            "featureType": "DIGITAL_WALLET",
+            "additionalValue": "Google Pay",
+            "additionalInfo": "Google Pay"
+          },
+          {
+            "featureType": "DIGITAL_WALLET",
+            "additionalValue": "Samsung Pay",
+            "additionalInfo": "Samsung Pay"
+          },
+          {
+            "featureType": "NPP_ENABLED"
+          },
+          {
+            "featureType": "CARD_ACCESS",
+            "additionalValue": "ATM & Eftpos",
+            "additionalInfo": "ATM & Eftpos"
+          },
+          {
+            "featureType": "BILL_PAYMENT",
+            "additionalInfo": "BPAY Internet"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "At Call"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Branch Transactions"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "55",
+            "additionalInfo": "This account is for anyone over 55 years of age not working, or in receipt of an aged or veteran affairs pension. This account offers a tiered interest rate and is an interest-earning alternative to the All Purpose Savings Account."
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0001",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "PRESTIGE ACCOUNT_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "0.00",
+                "maximumValue": "1999.00",
+                "rateApplicationMethod": "PER_TIER"
+              }
+            ],
+            "additionalInfo": "This is an everyday transaction account for anyone over 55 years of age and not working, or in receipt of an aged or veteran affairs pension",
+            "additionalInfoUri": "https://www.orangecu.com.au/bank-save/transaction-accounts/prestige-account/"
+          },
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0005",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "PRESTIGE ACCOUNT_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1999.01",
+                "maximumValue": "44999.00",
+                "rateApplicationMethod": "PER_TIER"
+              }
+            ],
+            "additionalInfo": "This is an everyday transaction account for anyone over 55 years of age and not working, or in receipt of an aged or veteran affairs pension",
+            "additionalInfoUri": "https://www.orangecu.com.au/bank-save/transaction-accounts/prestige-account/"
+          },
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0005",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "PRESTIGE ACCOUNT_Tier_3",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "44999.01",
+                "rateApplicationMethod": "PER_TIER"
+              }
+            ],
+            "additionalInfo": "This is an everyday transaction account for anyone over 55 years of age and not working, or in receipt of an aged or veteran affairs pension",
+            "additionalInfoUri": "https://www.orangecu.com.au/bank-save/transaction-accounts/prestige-account/"
+          }
+        ],
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "productId": "PRESTIGE_ACCOUNT",
+        "lastUpdated": "2026-01-20T13:39:22.000+11:00",
+        "name": "PRESTIGE ACCOUNT",
+        "description": "PRESTIGE ACCOUNT",
+        "brand": "ORANGE CREDIT UNION LTD",
+        "brandName": "ORANGE CREDIT UNION LTD",
+        "applicationUri": "https://www.bankorange.com.au/online-forms/member-application-form/",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.bankorange.com.au/bank-save/transaction-accounts/prestige-account/",
+          "termsUri": "https://www.bankorange.com.au/about/corporate-information/disclosure-documents/",
+          "eligibilityUri": "https://www.bankorange.com.au/about/corporate-information/disclosure-documents/",
+          "feesAndPricingUri": "https://www.bankorange.com.au/quicklinks/rates-and-fees/"
+        }
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    }
+  ]
+}

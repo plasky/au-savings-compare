@@ -1,0 +1,1652 @@
+{
+  "endpoint": "https://banking.transportmutual.com.au/OpenBanking/cds-au/v1/banking/products",
+  "slug": "tmcu-007fd9",
+  "brands": [
+    {
+      "dataHolderBrandId": "75a52ce6-120a-ec11-a826-000d3a884a20",
+      "brandName": "TMCU",
+      "brandGroup": null,
+      "abn": "78087650600",
+      "industries": [
+        "banking"
+      ]
+    }
+  ],
+  "list": {
+    "ok": true,
+    "status": 200,
+    "version": "5",
+    "totalPages": 1,
+    "pagesFetched": 1,
+    "productCount": 37,
+    "categoryCounts": {
+      "RESIDENTIAL_MORTGAGES": 12,
+      "PERS_LOANS": 6,
+      "TRANS_AND_SAVINGS_ACCOUNTS": 10,
+      "TERM_DEPOSITS": 9
+    }
+  },
+  "products": [
+    {
+      "productId": "24_MONTH_TERM",
+      "productCategory": "TERM_DEPOSITS",
+      "detail": {
+        "constraints": [
+          {
+            "constraintType": "MIN_BALANCE",
+            "additionalValue": "1000.00"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "NATURAL_PERSON"
+          }
+        ],
+        "fees": [
+          {
+            "name": "TERM_DEPOSIT_EARLY_REDEMPTION_FEE",
+            "feeType": "CASH_ADVANCE",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "currency": "AUD",
+            "additionalInfoUri": "https://www.transportmutual.com.au/media/2907/account-access-facility-conditions-of-use.pdf"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.032",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "tiers": [
+              {
+                "name": "24 MONTH TERM_Tier",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "1000000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "24 MONTH TERM_Tier",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "24",
+                "maximumValue": "24",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P24M"
+          }
+        ],
+        "productCategory": "TERM_DEPOSITS",
+        "productId": "24_MONTH_TERM",
+        "lastUpdated": "2026-08-04T09:51:38.000+10:00",
+        "name": "24 MONTH TERM",
+        "description": "24 MONTH TERM",
+        "brand": "TRANSPORT MUTUAL CREDIT UNION LTD",
+        "brandName": "TRANSPORT MUTUAL CREDIT UNION LTD",
+        "applicationUri": "https://www.transportmutual.com.au/banking/term-deposits/term-deposits/",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.transportmutual.com.au/banking/term-deposits/term-deposits/",
+          "termsUri": "https://www.transportmutual.com.au/media/2907/account-access-facility-conditions-of-use-2025.pdf",
+          "eligibilityUri": "https://www.transportmutual.com.au/banking/term-deposits/term-deposits/",
+          "feesAndPricingUri": "https://www.transportmutual.com.au/support/rates-fees/fees-and-charges/"
+        }
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "24_MTHS_[EDVEST]",
+      "productCategory": "TERM_DEPOSITS",
+      "detail": {
+        "constraints": [
+          {
+            "constraintType": "MIN_BALANCE",
+            "additionalValue": "1000.00"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "NATURAL_PERSON"
+          }
+        ],
+        "fees": [
+          {
+            "name": "TERM_DEPOSIT_EARLY_REDEMPTION_FEE",
+            "feeType": "CASH_ADVANCE",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "currency": "AUD",
+            "additionalInfoUri": "https://www.transportmutual.com.au/media/2907/account-access-facility-conditions-of-use.pdf"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0355",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P12M",
+            "tiers": [
+              {
+                "name": "24 MTHS [EDVEST]_Tier",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "1000000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "24 MTHS [EDVEST]_Tier",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "24",
+                "maximumValue": "24",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P24M"
+          }
+        ],
+        "productCategory": "TERM_DEPOSITS",
+        "productId": "24_MTHS_[EDVEST]",
+        "lastUpdated": "2026-11-12T09:00:27.000+11:00",
+        "name": "24 MTHS [EDVEST]",
+        "description": "24 MTHS [EDVEST]",
+        "brand": "TRANSPORT MUTUAL CREDIT UNION LTD",
+        "brandName": "TRANSPORT MUTUAL CREDIT UNION LTD",
+        "applicationUri": "https://www.transportmutual.com.au/banking/term-deposits/term-deposits/",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.transportmutual.com.au/banking/term-deposits/term-deposits/",
+          "termsUri": "https://www.transportmutual.com.au/media/2907/account-access-facility-conditions-of-use-2025.pdf",
+          "eligibilityUri": "https://www.transportmutual.com.au/banking/term-deposits/term-deposits/",
+          "feesAndPricingUri": "https://www.transportmutual.com.au/banking/rates-fees/fees-and-charges/"
+        }
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "24_MTHS_4WKLY_INT",
+      "productCategory": "TERM_DEPOSITS",
+      "detail": {
+        "constraints": [
+          {
+            "constraintType": "MIN_BALANCE",
+            "additionalValue": "1000.00"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "NATURAL_PERSON"
+          }
+        ],
+        "fees": [
+          {
+            "name": "TERM_DEPOSIT_EARLY_REDEMPTION_FEE",
+            "feeType": "CASH_ADVANCE",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "currency": "AUD",
+            "additionalInfoUri": "https://www.transportmutual.com.au/media/2907/account-access-facility-conditions-of-use.pdf"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.032",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P28D",
+            "tiers": [
+              {
+                "name": "24 MTHS 4WKLY INT._Tier",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "1000000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "24 MTHS 4WKLY INT._Tier",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "24",
+                "maximumValue": "24",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P24M"
+          }
+        ],
+        "productCategory": "TERM_DEPOSITS",
+        "productId": "24_MTHS_4WKLY_INT",
+        "lastUpdated": "2026-11-12T08:59:34.000+11:00",
+        "name": "24 MTHS 4WKLY INT.",
+        "description": "24 MTHS 4WKLY INT.",
+        "brand": "TRANSPORT MUTUAL CREDIT UNION LTD",
+        "brandName": "TRANSPORT MUTUAL CREDIT UNION LTD",
+        "applicationUri": "https://www.transportmutual.com.au/banking/term-deposits/term-deposits/",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.transportmutual.com.au/banking/term-deposits/term-deposits/",
+          "termsUri": "https://www.transportmutual.com.au/media/2907/account-access-facility-conditions-of-use-2025.pdf",
+          "eligibilityUri": "https://www.transportmutual.com.au/banking/term-deposits/term-deposits/",
+          "feesAndPricingUri": "https://www.transportmutual.com.au/banking/rates-fees/fees-and-charges/"
+        }
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "3M_TO_LESS_THAN_6M",
+      "productCategory": "TERM_DEPOSITS",
+      "detail": {
+        "constraints": [
+          {
+            "constraintType": "MIN_BALANCE",
+            "additionalValue": "1000.00"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "NATURAL_PERSON"
+          }
+        ],
+        "fees": [
+          {
+            "name": "TERM_DEPOSIT_EARLY_REDEMPTION_FEE",
+            "feeType": "CASH_ADVANCE",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "currency": "AUD",
+            "additionalInfoUri": "https://www.transportmutual.com.au/media/2907/account-access-facility-conditions-of-use.pdf"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.036",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "tiers": [
+              {
+                "name": "3M TO LESS THAN 6M_Tier",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "1000000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "3M TO LESS THAN 6M_Tier",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "3",
+                "maximumValue": "6",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P6M"
+          }
+        ],
+        "productCategory": "TERM_DEPOSITS",
+        "productId": "3M_TO_LESS_THAN_6M",
+        "lastUpdated": "2026-11-12T08:58:49.000+11:00",
+        "name": "3M TO LESS THAN 6M",
+        "description": "3M TO LESS THAN 6M",
+        "brand": "TRANSPORT MUTUAL CREDIT UNION LTD",
+        "brandName": "TRANSPORT MUTUAL CREDIT UNION LTD",
+        "applicationUri": "https://www.transportmutual.com.au/banking/term-deposits/term-deposits/",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.transportmutual.com.au/banking/term-deposits/term-deposits/",
+          "termsUri": "https://www.transportmutual.com.au/media/2907/account-access-facility-conditions-of-use-2025.pdf",
+          "eligibilityUri": "https://www.transportmutual.com.au/banking/term-deposits/term-deposits/",
+          "feesAndPricingUri": "https://www.transportmutual.com.au/banking/rates-fees/fees-and-charges/"
+        }
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "6M_TO_LESS_THAN_12M",
+      "productCategory": "TERM_DEPOSITS",
+      "detail": {
+        "constraints": [
+          {
+            "constraintType": "MIN_BALANCE",
+            "additionalValue": "1000.00"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "NATURAL_PERSON"
+          }
+        ],
+        "fees": [
+          {
+            "name": "TERM_DEPOSIT_EARLY_REDEMPTION_FEE",
+            "feeType": "CASH_ADVANCE",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "currency": "AUD",
+            "additionalInfoUri": "https://www.transportmutual.com.au/media/2907/account-access-facility-conditions-of-use.pdf"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0355",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "tiers": [
+              {
+                "name": "6M TO LESS THAN 12M_Tier",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "1000000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "6M TO LESS THAN 12M_Tier",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "6",
+                "maximumValue": "11",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P11M"
+          }
+        ],
+        "productCategory": "TERM_DEPOSITS",
+        "productId": "6M_TO_LESS_THAN_12M",
+        "lastUpdated": "2026-11-12T08:59:56.000+11:00",
+        "name": "6M TO LESS THAN 12M",
+        "description": "6M TO LESS THAN 12M",
+        "brand": "TRANSPORT MUTUAL CREDIT UNION LTD",
+        "brandName": "TRANSPORT MUTUAL CREDIT UNION LTD",
+        "applicationUri": "https://www.transportmutual.com.au/banking/term-deposits/term-deposits/",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.transportmutual.com.au/banking/term-deposits/term-deposits/",
+          "termsUri": "https://www.transportmutual.com.au/media/2907/account-access-facility-conditions-of-use-2025.pdf",
+          "eligibilityUri": "https://www.transportmutual.com.au/banking/term-deposits/term-deposits/",
+          "feesAndPricingUri": "https://www.transportmutual.com.au/banking/rates-fees/fees-and-charges/"
+        }
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "CHRISTMAS_CLUB_ACCOUNT",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "features": [
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "FUNDS AVAILABLE FROM 1ST NOV UNTIL 31ST JAN"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "NATURAL_PERSON"
+          }
+        ],
+        "fees": [
+          {
+            "name": "CHRISTMAS_CLUB_EARLY_WITHDRAWAL_FEE",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "10.00"
+            },
+            "currency": "AUD"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.03",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M"
+          }
+        ],
+        "lendingRates": [
+          {
+            "lendingRateType": "VARIABLE",
+            "rate": "0.0",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "repaymentType": "OTHER",
+            "loanPurpose": "OTHER"
+          }
+        ],
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "productId": "CHRISTMAS_CLUB_ACCOUNT",
+        "lastUpdated": "2026-11-12T09:07:10.000+11:00",
+        "name": "CHRISTMAS CLUB ACCOUNT",
+        "description": "CHRISTMAS CLUB ACCOUNT",
+        "brand": "TRANSPORT MUTUAL CREDIT UNION LTD",
+        "brandName": "TRANSPORT MUTUAL CREDIT UNION LTD",
+        "applicationUri": "https://www.transportmutual.com.au/banking/savings-accounts/christmas-club-account/",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.transportmutual.com.au/banking/savings-accounts/christmas-club-account/",
+          "termsUri": "https://www.transportmutual.com.au/banking/savings-accounts/christmas-club-account/",
+          "feesAndPricingUri": "https://www.transportmutual.com.au/banking/rates-fees/fees-and-charges/"
+        }
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "I22_12_TO_23_MONTHS",
+      "productCategory": "TERM_DEPOSITS",
+      "detail": {
+        "constraints": [
+          {
+            "constraintType": "MIN_BALANCE",
+            "additionalValue": "1000.00"
+          }
+        ],
+        "fees": [
+          {
+            "name": "TERM_DEPOSIT_EARLY_REDEMPTION_FEE",
+            "feeType": "CASH_ADVANCE",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "currency": "AUD",
+            "additionalInfoUri": "https://www.transportmutual.com.au/media/2907/account-access-facility-conditions-of-use.pdf"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0325",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "tiers": [
+              {
+                "name": "I22_12_TO_23_MONTHS_Tier",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "1000000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "I22_12_TO_23_MONTHS_Tier",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "12",
+                "maximumValue": "23",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P23M"
+          }
+        ],
+        "productCategory": "TERM_DEPOSITS",
+        "productId": "I22_12_TO_23_MONTHS",
+        "lastUpdated": "2026-11-12T08:58:56.000+11:00",
+        "name": "I22_12_TO_23_MONTHS",
+        "description": "I22_12_TO_23_MONTHS",
+        "brand": "TRANSPORT MUTUAL CREDIT UNION LTD",
+        "brandName": "TRANSPORT MUTUAL CREDIT UNION LTD",
+        "applicationUri": "https://www.transportmutual.com.au/banking/term-deposits/term-deposits/",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.transportmutual.com.au/banking/term-deposits/term-deposits/",
+          "termsUri": "https://www.transportmutual.com.au/media/2907/account-access-facility-conditions-of-use-2025.pdf",
+          "eligibilityUri": "https://www.transportmutual.com.au/banking/term-deposits/term-deposits/",
+          "feesAndPricingUri": "https://www.transportmutual.com.au/banking/rates-fees/fees-and-charges/"
+        }
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "I24_12_TO_23_MTHS_INT_4_WKLY",
+      "productCategory": "TERM_DEPOSITS",
+      "detail": {
+        "constraints": [
+          {
+            "constraintType": "MIN_BALANCE",
+            "additionalValue": "1000.00"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "NATURAL_PERSON"
+          }
+        ],
+        "fees": [
+          {
+            "name": "TERM_DEPOSIT_EARLY_REDEMPTION_FEE",
+            "feeType": "CASH_ADVANCE",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "currency": "AUD",
+            "additionalInfoUri": "https://www.transportmutual.com.au/media/2907/account-access-facility-conditions-of-use.pdf"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0345",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P28D",
+            "tiers": [
+              {
+                "name": "I24_12_TO_23_MTHS_INT_4_WKLY_Tier",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "1000000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "I24_12_TO_23_MTHS_INT_4_WKLY_Tier",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "12",
+                "maximumValue": "23",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P23M"
+          }
+        ],
+        "productCategory": "TERM_DEPOSITS",
+        "productId": "I24_12_TO_23_MTHS_INT_4_WKLY",
+        "lastUpdated": "2026-11-12T08:59:06.000+11:00",
+        "name": "I24_12_TO_23_MTHS_INT_4_WKLY",
+        "description": "I24_12_TO_23_MTHS_INT_4_WKLY",
+        "brand": "TRANSPORT MUTUAL CREDIT UNION LTD",
+        "brandName": "TRANSPORT MUTUAL CREDIT UNION LTD",
+        "applicationUri": "https://www.transportmutual.com.au/banking/term-deposits/term-deposits/",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.transportmutual.com.au/banking/term-deposits/term-deposits/",
+          "termsUri": "https://www.transportmutual.com.au/media/2907/account-access-facility-conditions-of-use-2025.pdf",
+          "eligibilityUri": "https://www.transportmutual.com.au/banking/term-deposits/term-deposits/",
+          "feesAndPricingUri": "https://www.transportmutual.com.au/banking/rates-fees/fees-and-charges/"
+        }
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "KIDS_SAVER_ACCOUNT",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "constraints": [
+          {
+            "constraintType": "MAX_BALANCE",
+            "additionalValue": "10000.00",
+            "additionalInfo": "BONUS INTEREST PAID UP TO 10000 BALANCE"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "NATURAL_PERSON"
+          },
+          {
+            "eligibilityType": "MAX_AGE",
+            "additionalValue": "17"
+          }
+        ],
+        "fees": [
+          {
+            "name": "PAPER_STATEMENT_FEE",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "2.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "STAFF_ASSISTED_TRANSACTION",
+            "feeType": "UPFRONT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "5.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "EXCESS_ATM/EFT_FEE",
+            "feeType": "WITHDRAWAL",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "1.50"
+            },
+            "currency": "AUD"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.035",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "KIDS SAVER ACCOUNT_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "0.00",
+                "maximumValue": "10000.00",
+                "rateApplicationMethod": "PER_TIER"
+              }
+            ]
+          },
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0002",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "KIDS SAVER ACCOUNT_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "10000.01",
+                "maximumValue": "19999.99",
+                "rateApplicationMethod": "PER_TIER"
+              }
+            ]
+          },
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.00045",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "KIDS SAVER ACCOUNT_Tier_3",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "20000.00",
+                "maximumValue": "49999.99",
+                "rateApplicationMethod": "PER_TIER"
+              }
+            ]
+          },
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.00075",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "KIDS SAVER ACCOUNT_Tier_4",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "50000.00",
+                "rateApplicationMethod": "PER_TIER"
+              }
+            ]
+          }
+        ],
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "productId": "KIDS_SAVER_ACCOUNT",
+        "lastUpdated": "2026-11-12T09:07:26.000+11:00",
+        "name": "KIDS SAVER ACCOUNT",
+        "description": "KIDS SAVER ACCOUNT",
+        "brand": "TRANSPORT MUTUAL CREDIT UNION LTD",
+        "brandName": "TRANSPORT MUTUAL CREDIT UNION LTD",
+        "applicationUri": "https://www.transportmutual.com.au/banking/savings-accounts/kids-saver-high-interest-account/",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.transportmutual.com.au/banking/savings-accounts/kids-saver-high-interest-account/",
+          "termsUri": "https://www.transportmutual.com.au/banking/savings-accounts/kids-saver-high-interest-account/",
+          "feesAndPricingUri": "https://www.transportmutual.com.au/banking/rates-fees/fees-and-charges/"
+        }
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "MULTI-ACCESS_ACCOUNT",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "features": [
+          {
+            "featureType": "CARD_ACCESS",
+            "additionalInfo": "Visa Debit"
+          },
+          {
+            "featureType": "ADDITIONAL_CARDS"
+          },
+          {
+            "featureType": "OVERDRAFT"
+          },
+          {
+            "featureType": "BILL_PAYMENT"
+          },
+          {
+            "featureType": "FREE_TXNS",
+            "additionalValue": "12",
+            "additionalInfo": "12 FREE EFT SAVINGS TRANSACTIONS PER MONTH"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "NATURAL_PERSON"
+          }
+        ],
+        "fees": [
+          {
+            "name": "ATM_BALANCE_FEE",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.50"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "EXCESS_ATM/EFT_FEE",
+            "feeType": "WITHDRAWAL",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "1.50"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "BANK@POST_FEE",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "2.50"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "COUNTER_CHEQUE_FEE",
+            "feeType": "WITHDRAWAL",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "5.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "MEMBER_CHEQUE_FEE",
+            "feeType": "WITHDRAWAL",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "1.50"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "STAFF_ASSISTED_TRANSACTION",
+            "feeType": "UPFRONT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "5.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "PAPER_STATEMENT_FEE",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "2.00"
+            },
+            "currency": "AUD"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.00015",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "MULTI-ACCESS ACCOUNT_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "0.00",
+                "maximumValue": "4999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ]
+          },
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0002",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "MULTI-ACCESS ACCOUNT_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "19999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ]
+          },
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.00045",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "MULTI-ACCESS ACCOUNT_Tier_3",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "20000.00",
+                "maximumValue": "49999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ]
+          },
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.00075",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "MULTI-ACCESS ACCOUNT_Tier_4",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "50000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ]
+          }
+        ],
+        "lendingRates": [
+          {
+            "lendingRateType": "VARIABLE",
+            "rate": "0.0",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "repaymentType": "OTHER",
+            "loanPurpose": "OTHER",
+            "additionalInfo": "WHERE ACCOUNT USED WITH AN OVERDRAFT"
+          }
+        ],
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "productId": "MULTI-ACCESS_ACCOUNT",
+        "lastUpdated": "2026-11-12T09:06:25.000+11:00",
+        "name": "MULTI-ACCESS ACCOUNT",
+        "description": "MULTI-ACCESS ACCOUNT",
+        "brand": "TRANSPORT MUTUAL CREDIT UNION LTD",
+        "brandName": "TRANSPORT MUTUAL CREDIT UNION LTD",
+        "applicationUri": "https://www.transportmutual.com.au/banking/transaction-accounts/multi-access-account/",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.transportmutual.com.au/banking/transaction-accounts/multi-access-account/",
+          "termsUri": "https://www.transportmutual.com.au/media/2907/account-access-facility-conditions-of-use-2025.pdf",
+          "feesAndPricingUri": "https://www.transportmutual.com.au/banking/rates-fees/fees-and-charges/"
+        }
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "OFFSET_SAVINGS_L56",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "features": [
+          {
+            "featureType": "OFFSET"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "NATURAL_PERSON"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M"
+          }
+        ],
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "productId": "OFFSET_SAVINGS_L56",
+        "lastUpdated": "2025-06-05T12:37:15.000+10:00",
+        "name": "OFFSET SAVINGS - L56",
+        "description": "OFFSET SAVINGS - L56",
+        "brand": "TRANSPORT MUTUAL CREDIT UNION LTD",
+        "brandName": "TRANSPORT MUTUAL CREDIT UNION LTD",
+        "isTailored": false,
+        "additionalInformation": {}
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "OFFSET_SAVINGS_L62",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "features": [
+          {
+            "featureType": "OFFSET"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "NATURAL_PERSON"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M"
+          }
+        ],
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "productId": "OFFSET_SAVINGS_L62",
+        "lastUpdated": "2025-06-05T15:14:26.000+10:00",
+        "name": "OFFSET SAVINGS - L62",
+        "description": "OFFSET SAVINGS - L62",
+        "brand": "TRANSPORT MUTUAL CREDIT UNION LTD",
+        "brandName": "TRANSPORT MUTUAL CREDIT UNION LTD",
+        "isTailored": false,
+        "additionalInformation": {}
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "OFFSET_SAVINGS_L68",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "features": [
+          {
+            "featureType": "OFFSET"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "NATURAL_PERSON"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M"
+          }
+        ],
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "productId": "OFFSET_SAVINGS_L68",
+        "lastUpdated": "2025-06-05T12:37:42.000+10:00",
+        "name": "OFFSET SAVINGS - L68",
+        "description": "OFFSET SAVINGS - L68",
+        "brand": "TRANSPORT MUTUAL CREDIT UNION LTD",
+        "brandName": "TRANSPORT MUTUAL CREDIT UNION LTD",
+        "isTailored": false,
+        "additionalInformation": {}
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "OFFSET_SAVINGS_L79",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "features": [
+          {
+            "featureType": "OFFSET"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "NATURAL_PERSON"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M"
+          }
+        ],
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "productId": "OFFSET_SAVINGS_L79",
+        "lastUpdated": "2025-06-05T12:37:55.000+10:00",
+        "name": "OFFSET SAVINGS - L79",
+        "description": "OFFSET SAVINGS - L79",
+        "brand": "TRANSPORT MUTUAL CREDIT UNION LTD",
+        "brandName": "TRANSPORT MUTUAL CREDIT UNION LTD",
+        "isTailored": false,
+        "additionalInformation": {}
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "S50_BUSINESS_ACCOUNT",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "features": [
+          {
+            "featureType": "CARD_ACCESS",
+            "additionalValue": "VISA DEBIT"
+          },
+          {
+            "featureType": "ADDITIONAL_CARDS",
+            "additionalValue": "VISA DEBIT"
+          },
+          {
+            "featureType": "FREE_TXNS_ALLOWANCE",
+            "additionalValue": "4.00",
+            "additionalInfo": "$1.00 PER TRANSACTION AFTER"
+          },
+          {
+            "featureType": "FREE_TXNS_ALLOWANCE",
+            "additionalValue": "4.00",
+            "additionalInfo": "ATM TRANSACTION $1.50 PER TRANSACTION"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "BUSINESS"
+          }
+        ],
+        "fees": [
+          {
+            "name": "ATM_BALANCE_FEE",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.50"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "BANK@POST_FEE",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "2.50"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "COUNTER_CHEQUE_FEE",
+            "feeType": "WITHDRAWAL",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "5.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "EXCESS_ATM/EFT_FEE",
+            "feeType": "WITHDRAWAL",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "1.50"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "PAPER_STATEMENT_FEE",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "2.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "STAFF_ASSISTED_TRANSACTION",
+            "feeType": "UPFRONT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "5.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "MEMBER_CHEQUE_FEE",
+            "feeType": "WITHDRAWAL",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "1.50"
+            },
+            "currency": "AUD"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.00015",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "BUSINESS ACCOUNT_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "0.00",
+                "maximumValue": "4999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ]
+          },
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0002",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "BUSINESS ACCOUNT_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "19999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ]
+          },
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.00045",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "BUSINESS ACCOUNT_Tier_3",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "20000.00",
+                "maximumValue": "49999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ]
+          },
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.00075",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "BUSINESS ACCOUNT_Tier_4",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "50000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ]
+          }
+        ],
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "productId": "S50_BUSINESS_ACCOUNT",
+        "lastUpdated": "2026-11-12T09:06:46.000+11:00",
+        "name": "BUSINESS ACCOUNT",
+        "description": "BUSINESS ACCOUNT",
+        "brand": "TRANSPORT MUTUAL CREDIT UNION LTD",
+        "brandName": "TRANSPORT MUTUAL CREDIT UNION LTD",
+        "applicationUri": "https://www.transportmutual.com.au/banking/transaction-accounts/business-account/",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.transportmutual.com.au/banking/transaction-accounts/business-account/",
+          "termsUri": "https://www.transportmutual.com.au/media/2907/account-access-facility-conditions-of-use-2025.pdf",
+          "feesAndPricingUri": "https://www.transportmutual.com.au/banking/rates-fees/fees-and-charges/"
+        }
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "S7_REDIFUND_ACCOUNT",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "features": [
+          {
+            "featureType": "BILL_PAYMENT"
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "MIN_BALANCE",
+            "additionalValue": "5000.00",
+            "additionalInfo": "FUNDS AVAILABLE AFTER 7 DAYS"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "NATURAL_PERSON"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.00015",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "REDIFUND ACCOUNT_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "0.00",
+                "maximumValue": "4999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ]
+          },
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0105",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "REDIFUND ACCOUNT_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "9999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ]
+          },
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.011",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "REDIFUND ACCOUNT_Tier_3",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "10000.00",
+                "maximumValue": "24999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ]
+          },
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0115",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "REDIFUND ACCOUNT_Tier_4",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "25000.00",
+                "maximumValue": "49999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ]
+          },
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.012",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "REDIFUND ACCOUNT_Tier_5",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "50000.00",
+                "maximumValue": "99999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ]
+          },
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0225",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "REDIFUND ACCOUNT_Tier_6",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "100000.00",
+                "maximumValue": "249999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ]
+          },
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0235",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "REDIFUND ACCOUNT_Tier_7",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "250000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ]
+          }
+        ],
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "productId": "S7_REDIFUND_ACCOUNT",
+        "lastUpdated": "2026-11-12T09:07:45.000+11:00",
+        "name": "REDIFUND ACCOUNT",
+        "description": "REDIFUND ACCOUNT",
+        "brand": "TRANSPORT MUTUAL CREDIT UNION LTD",
+        "brandName": "TRANSPORT MUTUAL CREDIT UNION LTD",
+        "applicationUri": "https://www.transportmutual.com.au/banking/savings-accounts/redifund-account/",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.transportmutual.com.au/banking/savings-accounts/redifund-account/",
+          "termsUri": "https://www.transportmutual.com.au/media/2907/account-access-facility-conditions-of-use-2025.pdf",
+          "feesAndPricingUri": "https://www.transportmutual.com.au/banking/rates-fees/fees-and-charges/"
+        }
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "S8_PREMIUM_SAVERS_ACCOUNT",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "features": [
+          {
+            "featureType": "BILL_PAYMENT"
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "MIN_BALANCE",
+            "additionalValue": "10000.00",
+            "additionalInfo": "FUNDS AVAILABLE AFTER 30 DAYS INTEREST PAID MONTHLY"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "NATURAL_PERSON"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.00015",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "PREMIUM SAVERS ACCOUNT_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "0.00",
+                "maximumValue": "9999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ]
+          },
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0225",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "PREMIUM SAVERS ACCOUNT_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "10000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ]
+          }
+        ],
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "productId": "S8_PREMIUM_SAVERS_ACCOUNT",
+        "lastUpdated": "2026-11-12T09:08:11.000+11:00",
+        "name": "PREMIUM SAVERS ACCOUNT",
+        "description": "PREMIUM SAVERS ACCOUNT",
+        "brand": "TRANSPORT MUTUAL CREDIT UNION LTD",
+        "brandName": "TRANSPORT MUTUAL CREDIT UNION LTD",
+        "applicationUri": "https://www.transportmutual.com.au/banking/savings-accounts/premium-savers-account/",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.transportmutual.com.au/banking/savings-accounts/premium-savers-account/",
+          "termsUri": "https://www.transportmutual.com.au/media/2907/account-access-facility-conditions-of-use-2025.pdf",
+          "feesAndPricingUri": "https://www.transportmutual.com.au/banking/rates-fees/fees-and-charges/"
+        }
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "SELFMANAGED_SUPER_FUND",
+      "productCategory": "TERM_DEPOSITS",
+      "detail": {
+        "fees": [
+          {
+            "name": "TERM_DEPOSIT_EARLY_REDEMPTION_FEE",
+            "feeType": "CASH_ADVANCE",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "currency": "AUD",
+            "additionalInfoUri": "https://www.transportmutual.com.au/media/2907/account-access-facility-conditions-of-use.pdf"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0315",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "tiers": [
+              {
+                "name": "SELFMANAGED SUPER FUND_Tier",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "1000000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "SELFMANAGED SUPER FUND_Tier",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "3",
+                "maximumValue": "5",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P5M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0315",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "tiers": [
+              {
+                "name": "SELFMANAGED SUPER FUND_Tier",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "1000000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "SELFMANAGED SUPER FUND_Tier",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "6",
+                "maximumValue": "11",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P11M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0305",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "tiers": [
+              {
+                "name": "SELFMANAGED SUPER FUND_Tier",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "1000000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "SELFMANAGED SUPER FUND_Tier",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "12",
+                "maximumValue": "23",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P23M"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0305",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "tiers": [
+              {
+                "name": "SELFMANAGED SUPER FUND_Tier",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "1000000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "SELFMANAGED SUPER FUND_Tier",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "24",
+                "maximumValue": "24",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P24M"
+          }
+        ],
+        "productCategory": "TERM_DEPOSITS",
+        "productId": "SELFMANAGED_SUPER_FUND",
+        "lastUpdated": "2026-11-12T08:59:43.000+11:00",
+        "name": "SELFMANAGED SUPER FUND",
+        "description": "SELFMANAGED SUPER FUND",
+        "brand": "TRANSPORT MUTUAL CREDIT UNION LTD",
+        "brandName": "TRANSPORT MUTUAL CREDIT UNION LTD",
+        "applicationUri": "https://www.transportmutual.com.au/banking/term-deposits/smsf-accounts/",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.transportmutual.com.au/banking/term-deposits/smsf-accounts/",
+          "termsUri": "https://www.transportmutual.com.au/media/2907/account-access-facility-conditions-of-use-2025.pdf",
+          "eligibilityUri": "https://www.transportmutual.com.au/banking/term-deposits/smsf-accounts/",
+          "feesAndPricingUri": "https://www.transportmutual.com.au/banking/rates-fees/fees-and-charges/"
+        }
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "TERM_12-23MTHS_(EDVEST)",
+      "productCategory": "TERM_DEPOSITS",
+      "detail": {
+        "constraints": [
+          {
+            "constraintType": "MIN_BALANCE",
+            "additionalValue": "1000.00"
+          }
+        ],
+        "fees": [
+          {
+            "name": "TERM_DEPOSIT_EARLY_REDEMPTION_FEE",
+            "feeType": "CASH_ADVANCE",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "currency": "AUD",
+            "additionalInfoUri": "https://www.transportmutual.com.au/media/2907/account-access-facility-conditions-of-use.pdf"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.0355",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P12M",
+            "tiers": [
+              {
+                "name": "TERM 12-23MTHS (EDV)_Tier",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "5000.00",
+                "maximumValue": "1000000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "TERM 12-23MTHS (EDV)_Tier",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "12",
+                "maximumValue": "23",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P23M"
+          }
+        ],
+        "productCategory": "TERM_DEPOSITS",
+        "productId": "TERM_12-23MTHS_(EDVEST)",
+        "lastUpdated": "2026-11-12T09:00:38.000+11:00",
+        "name": "TERM 12-23MTHS (EDV)",
+        "description": "TERM 12-23MTHS (EDV)",
+        "brand": "TRANSPORT MUTUAL CREDIT UNION LTD",
+        "brandName": "TRANSPORT MUTUAL CREDIT UNION LTD",
+        "applicationUri": "https://www.transportmutual.com.au/banking/term-deposits/term-deposits/",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.transportmutual.com.au/banking/term-deposits/term-deposits/",
+          "termsUri": "https://www.transportmutual.com.au/media/2907/account-access-facility-conditions-of-use-2025.pdf",
+          "eligibilityUri": "https://www.transportmutual.com.au/banking/term-deposits/term-deposits/",
+          "feesAndPricingUri": "https://www.transportmutual.com.au/banking/rates-fees/fees-and-charges/"
+        }
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    }
+  ]
+}

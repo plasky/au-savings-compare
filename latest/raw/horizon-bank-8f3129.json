@@ -1,0 +1,2884 @@
+{
+  "endpoint": "https://onlinebanking.horizonbank.com.au/openbanking/cds-au/v1/banking/products",
+  "slug": "horizon-bank-8f3129",
+  "brands": [
+    {
+      "dataHolderBrandId": "5c2e8067-d2de-eb11-a824-000d3a884a20",
+      "brandName": "Horizon Bank",
+      "brandGroup": null,
+      "abn": "66087650173",
+      "industries": [
+        "banking"
+      ]
+    }
+  ],
+  "list": {
+    "ok": true,
+    "status": 200,
+    "version": "5",
+    "totalPages": 1,
+    "pagesFetched": 1,
+    "productCount": 61,
+    "categoryCounts": {
+      "TRANS_AND_SAVINGS_ACCOUNTS": 17,
+      "PERS_LOANS": 8,
+      "RESIDENTIAL_MORTGAGES": 24,
+      "TERM_DEPOSITS": 1,
+      "BUSINESS_LOANS": 9,
+      "CRED_AND_CHRG_CARDS": 1,
+      "OVERDRAFTS": 1
+    }
+  },
+  "products": [
+    {
+      "productId": "I50_I500001",
+      "productCategory": "TERM_DEPOSITS",
+      "detail": {
+        "features": [
+          {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": "Internet Banking and Mobile Banking App."
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "MIN_BALANCE",
+            "additionalValue": "1000.00"
+          }
+        ],
+        "fees": [
+          {
+            "name": "ACCESS_&_EARLY_REDEMPTIONS",
+            "feeType": "WITHDRAWAL",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "25.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Withdrawals prior to the maturity date are permitted, however money withdrawn early from a term deposit will be paid at an adjusted rate of interest. The adjusted rate is based on the percentage of the original term remaining."
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.02",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "tiers": [
+              {
+                "name": "Term Deposit_Tier",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "9999999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit_Tier",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "1",
+                "maximumValue": "1",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P1M",
+            "additionalInfoUri": "https://horizonbank.com.au/savings/term-deposits/term-deposits/"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.02",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "tiers": [
+              {
+                "name": "Term Deposit_Tier",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "9999999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit_Tier",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "2",
+                "maximumValue": "2",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P2M",
+            "additionalInfoUri": "https://horizonbank.com.au/savings/term-deposits/term-deposits/"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.048",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "tiers": [
+              {
+                "name": "Term Deposit_Tier",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "9999999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit_Tier",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "3",
+                "maximumValue": "3",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P3M",
+            "additionalInfoUri": "https://horizonbank.com.au/savings/term-deposits/term-deposits/"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.049",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "tiers": [
+              {
+                "name": "Term Deposit_Tier",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "9999999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit_Tier",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "4",
+                "maximumValue": "4",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P4M",
+            "additionalInfoUri": "https://horizonbank.com.au/savings/term-deposits/term-deposits/"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.051",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "tiers": [
+              {
+                "name": "Term Deposit_Tier",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "9999999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit_Tier",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "6",
+                "maximumValue": "6",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P6M",
+            "additionalInfoUri": "https://horizonbank.com.au/savings/term-deposits/term-deposits/"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.05",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "tiers": [
+              {
+                "name": "Term Deposit_Tier",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "9999999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit_Tier",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "9",
+                "maximumValue": "9",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P9M",
+            "additionalInfoUri": "https://horizonbank.com.au/savings/term-deposits/term-deposits/"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.053",
+            "calculationFrequency": "P1D",
+            "applicationType": "MATURITY",
+            "tiers": [
+              {
+                "name": "Term Deposit_Tier",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "9999999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit_Tier",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "12",
+                "maximumValue": "12",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P12M",
+            "additionalInfoUri": "https://horizonbank.com.au/savings/term-deposits/term-deposits/"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.049",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P365D",
+            "tiers": [
+              {
+                "name": "Term Deposit_Tier",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "9999999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit_Tier",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "24",
+                "maximumValue": "24",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P24M",
+            "additionalInfoUri": "https://horizonbank.com.au/savings/term-deposits/term-deposits/"
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.045",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P365D",
+            "tiers": [
+              {
+                "name": "Term Deposit_Tier",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "maximumValue": "9999999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              },
+              {
+                "name": "Term Deposit_Tier",
+                "unitOfMeasure": "MONTH",
+                "minimumValue": "36",
+                "maximumValue": "36",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalValue": "P36M",
+            "additionalInfoUri": "https://horizonbank.com.au/savings/term-deposits/term-deposits/"
+          }
+        ],
+        "productCategory": "TERM_DEPOSITS",
+        "productId": "I50_I500001",
+        "effectiveFrom": "2020-10-01T00:00:00.000+10:00",
+        "lastUpdated": "2026-11-16T16:59:46.000+11:00",
+        "name": "Term Deposit",
+        "description": "Lock away your money with confidence knowing how much you'll earn. Choose from one of our flexible terms on offer, the minimum investment is $1000.",
+        "brand": "HORIZON BANK",
+        "brandName": "HORIZON BANK",
+        "applicationUri": "https://horizonbank.com.au/forms/savings-account-or-term-deposit-application/",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://horizonbank.com.au/savings/term-deposits/term-deposits/",
+          "termsUri": "https://horizonbank.com.au/more/important-info/disclosure-documents/",
+          "feesAndPricingUri": "https://horizonbank.com.au/more/important-info/fees-and-charges/"
+        }
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "S1_S1001",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "features": [
+          {
+            "featureType": "CARD_ACCESS",
+            "additionalValue": "Visa Debit"
+          },
+          {
+            "featureType": "OVERDRAFT",
+            "additionalInfo": "Available to eligible members on application. Lending criteria, terms and conditions, fees and charges apply."
+          },
+          {
+            "featureType": "DIGITAL_WALLET",
+            "additionalValue": "Apple Pay, Samsung Pay and Google Pay"
+          },
+          {
+            "featureType": "NPP_PAYID",
+            "additionalInfo": "Create a PayID through Horizon Bank   s Internet Banking or Mobile Banking App to receive Osko payments with a unique identifier, such as your mobile number or email address, enabling you to receive and send money securely without the need to remember complex banking details."
+          },
+          {
+            "featureType": "NPP_ENABLED",
+            "additionalInfo": "This account type is enabled for Osko payments, via the New Payments Platform (NPP). Osko is the faster way to pay or receive money from friends, family and businesses. No more waiting days for money to change hands. Now you can pay and be paid in a matter of seconds"
+          },
+          {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": "Internet Banking and Mobile Banking App."
+          },
+          {
+            "featureType": "BILL_PAYMENT",
+            "additionalValue": "BPAY",
+            "additionalInfo": "BPAY  is an electronic bill payment service, providing a convenient access point for the payment and receipt of consumer bills."
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Manage payments from your bank account using PayTo."
+          },
+          {
+            "featureType": "UNLIMITED_TXNS",
+            "additionalInfo": "No transaction fees apply although fees may apply for large cash withdrawals or deposits."
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "NATURAL_PERSON"
+          }
+        ],
+        "fees": [
+          {
+            "name": "TOTAL_CASH_WITHDRAWAL_ABOVE_4000_PER_DAY",
+            "feeType": "WITHDRAWAL",
+            "feeMethodUType": "rateBased",
+            "rateBased": {
+              "rateType": "TRANSACTION",
+              "rate": "0.0025"
+            },
+            "currency": "AUD",
+            "additionalInfo": "A fee of 0.25% of total cash withdrawals is charged for total cash withdrawals over $4000 in a day."
+          },
+          {
+            "name": "BULK_COIN_COUNTAGE",
+            "feeType": "DEPOSIT",
+            "feeMethodUType": "rateBased",
+            "rateBased": {
+              "rateType": "TRANSACTION",
+              "rate": "0.02"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Up to 2% for bulk coin counting above $300. Fee excludes money boxes & community"
+          },
+          {
+            "name": "DIRECT_DEBIT_DISHONOUR",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "9.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "FOREIGN_CHEQUE_DEPOSIT",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "11.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "FOREIGN_CASH_WITHDRAWAL_FROM_VISA_DEBIT_CARD",
+            "feeType": "WITHDRAWAL",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "3.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "VISA_CARD_INTERNATIONAL_TRANSACTION_FEE",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "rateBased",
+            "rateBased": {
+              "rateType": "TRANSACTION",
+              "rate": "0.03"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "STATEMENT_COPY",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "2.50"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "OVERDRAWN_SAVINGS_ACCOUNT",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "20.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "per occurence"
+          },
+          {
+            "name": "VISA_CARD_REPLACEMENT",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "9.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Australia only"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0001",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "additionalInfoUri": "https://horizonbank.com.au/savings/everyday-accounts/redisavings/"
+          }
+        ],
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "productId": "S1_S1001",
+        "effectiveFrom": "2020-10-01T00:00:00.000+10:00",
+        "lastUpdated": "2026-11-04T10:49:31.000+11:00",
+        "name": "REDISAVINGS",
+        "description": "Redisavings is our most popular everyday bank account for adults with a range of access options",
+        "brand": "HORIZON BANK",
+        "brandName": "HORIZON BANK",
+        "applicationUri": "https://horizonbank.com.au/forms/savings-account-or-term-deposit-application/",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://horizonbank.com.au/savings/everyday-accounts/redisavings/",
+          "termsUri": "https://horizonbank.com.au/more/important-info/disclosure-documents/",
+          "feesAndPricingUri": "https://horizonbank.com.au/more/important-info/fees-and-charges/"
+        }
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "S10_S100001",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "features": [
+          {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": "Internet Banking and Mobile Banking App."
+          },
+          {
+            "featureType": "NPP_ENABLED",
+            "additionalInfo": "This account type is enabled for Osko payments, via the New Payments Platform (NPP). Osko is the faster way to pay or receive money from friends, family and businesses. No more waiting days for money to change hands. Now you can pay and be paid in a matter of seconds"
+          },
+          {
+            "featureType": "NPP_PAYID",
+            "additionalInfo": "Create a PayID through Horizon Bank s Internet Banking or Mobile Banking App to receive Osko payments with a unique identifier, such as your mobile number or email address, enabling you to receive and send money securely without the need to remember complex banking details."
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "anage payments from your bank account using PayTo."
+          },
+          {
+            "featureType": "BILL_PAYMENT",
+            "additionalValue": "BPAY",
+            "additionalInfo": "BPAY is an electronic bill payment service, providing a convenient access point for the payment and receipt of consumer bills."
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "NATURAL_PERSON"
+          }
+        ],
+        "fees": [
+          {
+            "name": "DIRECT_DEBIT_DISHONOUR",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "9.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "FOREIGN_CHEQUE_DEPOSIT",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "11.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "OVERDRAWN_SAVINGS_ACCOUNT",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "20.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "per occurence"
+          },
+          {
+            "name": "STATEMENT_COPY",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "2.50"
+            },
+            "currency": "AUD"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0375",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M"
+          }
+        ],
+        "lendingRates": [
+          {
+            "lendingRateType": "VARIABLE",
+            "rate": "0.1495",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "repaymentType": "OTHER",
+            "loanPurpose": "OTHER"
+          }
+        ],
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "productId": "S10_S100001",
+        "effectiveFrom": "2020-10-01T00:00:00.000+10:00",
+        "lastUpdated": "2026-11-17T09:06:19.000+11:00",
+        "name": "HORIZON DIRECT",
+        "description": "Horizon Direct is our online savings account that attracts a higher interest rate than a normal savings account, because you manage it online without branch assistance or branch access.",
+        "brand": "HORIZON BANK",
+        "brandName": "HORIZON BANK",
+        "applicationUri": "https://horizonbank.com.au/forms/savings-account-or-term-deposit-application/",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://horizonbank.com.au/savings/savings-accounts/popular-savings-accounts/",
+          "termsUri": "https://horizonbank.com.au/more/important-info/disclosure-documents/",
+          "eligibilityUri": "https://horizonbank.com.au/more/important-info/disclosure-documents/",
+          "feesAndPricingUri": "https://horizonbank.com.au/more/important-info/fees-and-charges/"
+        }
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "S11_S110001",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "features": [
+          {
+            "featureType": "CARD_ACCESS",
+            "additionalValue": "Visa Debit"
+          },
+          {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": "Internet Banking and Mobile Banking App."
+          },
+          {
+            "featureType": "DIGITAL_WALLET",
+            "additionalValue": "Apple Pay, Samsung Pay and Google Pay"
+          },
+          {
+            "featureType": "OVERDRAFT",
+            "additionalInfo": "Available to eligible members on application. Lending criteria, terms and conditions, fees and charges apply."
+          },
+          {
+            "featureType": "NPP_PAYID",
+            "additionalInfo": "Create a PayID through Horizon Bank s Internet Banking or Mobile Banking App to receive Osko payments with a unique identifier, such as your mobile number or email address, enabling you to receive and send money securely without the need to remember complex banking details."
+          },
+          {
+            "featureType": "NPP_ENABLED",
+            "additionalInfo": "This account type is enabled for Osko payments, via the New Payments Platform (NPP). Osko is the faster way to pay or receive money from friends, family and businesses. No more waiting days for money to change hands. Now you can pay and be paid in a matter of seconds"
+          },
+          {
+            "featureType": "BILL_PAYMENT",
+            "additionalValue": "BPAY",
+            "additionalInfo": "BPAY is an electronic bill payment service, providing a convenient access point for the payment and receipt of consumer bills."
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Manage payments from your bank account using PayTo."
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "BUSINESS"
+          }
+        ],
+        "fees": [
+          {
+            "name": "10_MONTHLY_FEE",
+            "feeType": "PERIODIC",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "10.00"
+            },
+            "currency": "AUD",
+            "additionalValue": "P1M"
+          },
+          {
+            "name": "BULK_COIN_COUNTAGE",
+            "feeType": "DEPOSIT",
+            "feeMethodUType": "rateBased",
+            "rateBased": {
+              "rateType": "TRANSACTION",
+              "rate": "0.02"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Up to 2% for bulk coin counting above $300. Fee excludes money boxes & community"
+          },
+          {
+            "name": "DIRECT_DEBIT_DISHONOUR",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "9.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "FOREIGN_CASH_WITHDRAWAL_FROM_VISA_DEBIT_CARD",
+            "feeType": "WITHDRAWAL",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "3.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "FOREIGN_CHEQUE_DEPOSIT",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "11.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "OVERDRAWN_SAVINGS_ACCOUNT",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "20.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "per occurence"
+          },
+          {
+            "name": "STATEMENT_COPY",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "2.50"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "TOTAL_CASH_WITHDRAWAL_ABOVE_4000_PER_DAY",
+            "feeType": "WITHDRAWAL",
+            "feeMethodUType": "rateBased",
+            "rateBased": {
+              "rateType": "TRANSACTION",
+              "rate": "0.0025"
+            },
+            "currency": "AUD",
+            "additionalInfo": "A fee of 0.25% of total cash withdrawals is charged for total cash withdrawals over $4000 in a day."
+          },
+          {
+            "name": "VISA_CARD_INTERNATIONAL_TRANSACTION_FEE",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "rateBased",
+            "rateBased": {
+              "rateType": "TRANSACTION",
+              "rate": "0.03"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "VISA_CARD_REPLACEMENT",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "9.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Australia only"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0001",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "additionalInfoUri": "https://horizonbank.com.au/savings/everyday-accounts/business-savings/"
+          }
+        ],
+        "lendingRates": [
+          {
+            "lendingRateType": "VARIABLE",
+            "rate": "0.1495",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "repaymentType": "OTHER",
+            "loanPurpose": "OTHER"
+          }
+        ],
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "productId": "S11_S110001",
+        "effectiveFrom": "2020-10-01T00:00:00.000+10:00",
+        "lastUpdated": "2026-11-06T11:46:53.000+11:00",
+        "name": "BUSINESS SAVINGS",
+        "description": "Our Business Savings is ideal for small to medium business owners looking to manage cash flow.Take advantage of the wide range of access options available and added benefit of online business banking.",
+        "brand": "HORIZON BANK",
+        "brandName": "HORIZON BANK",
+        "applicationUri": "https://horizonbank.com.au/forms/savings-account-or-term-deposit-application/",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://horizonbank.com.au/more/business-banking/",
+          "termsUri": "https://horizonbank.com.au/more/important-info/disclosure-documents/",
+          "eligibilityUri": "https://horizonbank.com.au/more/important-info/disclosure-documents/",
+          "feesAndPricingUri": "https://horizonbank.com.au/more/important-info/fees-and-charges/"
+        }
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "S12_S120001",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "features": [
+          {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": "Internet Banking and Mobile Banking App."
+          },
+          {
+            "featureType": "NPP_PAYID",
+            "additionalInfo": "Create a PayID through Horizon Banks Internet Banking or Mobile Banking App to receive Osko payments with a unique identifier, such as your mobile number or email address, enabling you to receive and send money securely without the need to remember complex banking details."
+          },
+          {
+            "featureType": "NPP_ENABLED",
+            "additionalInfo": "This account type is enabled for Osko payments, via the New Payments Platform (NPP). Osko is the faster way to pay or receive money from friends, family and businesses. No more waiting days for money to change hands. Now you can pay and be paid in a matter of seconds"
+          },
+          {
+            "featureType": "BILL_PAYMENT",
+            "additionalInfo": "BPAY is an electronic bill payment service, providing a convenient access point for the payment and receipt of consumer bills."
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "BUSINESS"
+          }
+        ],
+        "fees": [
+          {
+            "name": "BULK_COIN_COUNTAGE",
+            "feeType": "DEPOSIT",
+            "feeMethodUType": "rateBased",
+            "rateBased": {
+              "rateType": "TRANSACTION",
+              "rate": "0.02"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Up to 2% for bulk coin counting above $300. Fee excludes money boxes & community"
+          },
+          {
+            "name": "DIRECT_DEBIT_DISHONOUR",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "9.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "FOREIGN_CHEQUE_DEPOSIT",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "11.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "OVERDRAWN_SAVINGS_ACCOUNT",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "20.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "per occurence"
+          },
+          {
+            "name": "STATEMENT_COPY",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "2.50"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "TOTAL_CASH_WITHDRAWAL_ABOVE_4000_PER_DAY",
+            "feeType": "WITHDRAWAL",
+            "feeMethodUType": "rateBased",
+            "rateBased": {
+              "rateType": "TRANSACTION",
+              "rate": "0.0025"
+            },
+            "currency": "AUD",
+            "additionalInfo": "A fee of 0.25% of total cash withdrawals is charged for total cash withdrawals over $4000 in a day."
+          }
+        ],
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "productId": "S12_S120001",
+        "lastUpdated": "2026-11-17T09:15:03.000+11:00",
+        "name": "COMMERCIAL SPECIAL PUR",
+        "description": "COMMERCIAL SPECIAL PUR",
+        "brand": "HORIZON BANK",
+        "brandName": "HORIZON BANK",
+        "applicationUri": "https://horizonbank.com.au/forms/savings-account-or-term-deposit-application/",
+        "isTailored": false,
+        "additionalInformation": {
+          "termsUri": "https://horizonbank.com.au/more/important-info/disclosure-documents/",
+          "feesAndPricingUri": "https://horizonbank.com.au/more/important-info/fees-and-charges/"
+        }
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "S15_S150001",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "features": [
+          {
+            "featureType": "UNLIMITED_TXNS",
+            "additionalInfo": "Free unlimited every day transactions"
+          },
+          {
+            "featureType": "NPP_ENABLED",
+            "additionalInfo": "This account type is enabled for Osko payments, via the New Payments Platform (NPP). Osko is the faster way to pay or receive money from friends, family and businesses. No more waiting days for money to change hands. Now you can pay and be paid in a matter of seconds"
+          },
+          {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": "Internet Banking and Mobile Banking App"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Earn bonus interest when a total of $2 or more is deposited and no withdrawals are made in each calendar month."
+          },
+          {
+            "featureType": "BILL_PAYMENT",
+            "additionalValue": "BPAY",
+            "additionalInfo": "BPAY is an electronic bill payment service, providing a convenient access point for the payment and receipt of consumer bills."
+          },
+          {
+            "featureType": "NPP_PAYID",
+            "additionalInfo": "Create a PayID through Horizon Banks Internet Banking or Mobile Banking App to receive Osko payments with a unique identifier, such as your mobile number or email address, enabling you to receive and send money securely without the need to remember complex banking details."
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "MAX_AGE",
+            "additionalValue": "12"
+          },
+          {
+            "eligibilityType": "NATURAL_PERSON"
+          }
+        ],
+        "fees": [
+          {
+            "name": "BULK_COIN_COUNTAGE",
+            "feeType": "DEPOSIT",
+            "feeMethodUType": "rateBased",
+            "rateBased": {
+              "rateType": "TRANSACTION",
+              "rate": "0.02"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Up to 2% for bulk coin counting above $300. Fee excludes money boxes & community"
+          },
+          {
+            "name": "DIRECT_DEBIT_DISHONOUR",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "9.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "FOREIGN_CHEQUE_DEPOSIT",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "11.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "OVERDRAWN_SAVINGS_ACCOUNT",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "20.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "per occurence"
+          },
+          {
+            "name": "STATEMENT_COPY",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "2.50"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "TOTAL_CASH_WITHDRAWAL_ABOVE_4000_PER_DAY",
+            "feeType": "WITHDRAWAL",
+            "feeMethodUType": "rateBased",
+            "rateBased": {
+              "rateType": "TRANSACTION",
+              "rate": "0.0025"
+            },
+            "currency": "AUD",
+            "additionalInfo": "A fee of 0.25% of total cash withdrawals is charged for total cash withdrawals over $4000 in a day."
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.025",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M"
+          },
+          {
+            "depositRateType": "BONUS",
+            "rate": "0.03",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M"
+          }
+        ],
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "productId": "S15_S150001",
+        "effectiveFrom": "2020-10-01T00:00:00.000+10:00",
+        "lastUpdated": "2026-11-04T10:51:11.000+11:00",
+        "name": "SUPER SAVERS",
+        "description": "An everyday account for children aged 0-12 years. The Super Saver account is a great start to teach your child the value of money and instil good savings habits from an early age.",
+        "brand": "HORIZON BANK",
+        "brandName": "HORIZON BANK",
+        "applicationUri": "https://horizonbank.com.au/forms/savings-account-or-term-deposit-application/",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://horizonbank.com.au/savings/youth-accounts/super-saver/",
+          "termsUri": "https://horizonbank.com.au/more/important-info/disclosure-documents/",
+          "eligibilityUri": "https://horizonbank.com.au/more/important-info/disclosure-documents/",
+          "feesAndPricingUri": "https://horizonbank.com.au/more/important-info/fees-and-charges/"
+        }
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "S17_S170001",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "features": [
+          {
+            "featureType": "BONUS_REWARDS",
+            "additionalInfo": "Bonus interest if deposit >$10/Mth and no withdrawals"
+          },
+          {
+            "featureType": "NPP_ENABLED",
+            "additionalInfo": "This account type is enabled for Osko payments, via the New Payments Platform (NPP). Osko is the faster way to pay or receive money from friends, family and businesses. No more waiting days for money to change hands. Now you can pay and be paid in a matter of seconds"
+          },
+          {
+            "featureType": "NPP_PAYID",
+            "additionalInfo": "Create a PayID through Horizon Banks Internet Banking or Mobile Banking App to receive Osko payments with a unique identifier, such as your mobile number or email address, enabling you to receive and send money securely without the need to remember complex banking details."
+          },
+          {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": "Internet Banking and Mobile Banking App"
+          },
+          {
+            "featureType": "BILL_PAYMENT",
+            "additionalValue": "BPAY",
+            "additionalInfo": "BPAY is an electronic bill payment service, providing a convenient access point for the payment and receipt of consumer bills."
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "13"
+          },
+          {
+            "eligibilityType": "MAX_AGE",
+            "additionalValue": "17"
+          },
+          {
+            "eligibilityType": "NATURAL_PERSON"
+          }
+        ],
+        "fees": [
+          {
+            "name": "BULK_COIN_COUNTAGE",
+            "feeType": "DEPOSIT",
+            "feeMethodUType": "rateBased",
+            "rateBased": {
+              "rateType": "TRANSACTION",
+              "rate": "0.02"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Up to 2% for bulk coin counting above $300. Fee excludes money boxes & community"
+          },
+          {
+            "name": "DIRECT_DEBIT_DISHONOUR",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "9.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "FOREIGN_CHEQUE_DEPOSIT",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "11.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "OVERDRAWN_SAVINGS_ACCOUNT",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "20.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "per occurence"
+          },
+          {
+            "name": "STATEMENT_COPY",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "2.50"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "TOTAL_CASH_WITHDRAWAL_ABOVE_4000_PER_DAY",
+            "feeType": "WITHDRAWAL",
+            "feeMethodUType": "rateBased",
+            "rateBased": {
+              "rateType": "TRANSACTION",
+              "rate": "0.0025"
+            },
+            "currency": "AUD",
+            "additionalInfo": "A fee of 0.25% of total cash withdrawals is charged for total cash withdrawals over $4000 in a day."
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.025",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M"
+          },
+          {
+            "depositRateType": "BONUS",
+            "rate": "0.03",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M"
+          }
+        ],
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "productId": "S17_S170001",
+        "effectiveFrom": "2020-10-01T00:00:00.000+10:00",
+        "lastUpdated": "2026-11-04T10:51:36.000+11:00",
+        "name": "YOUTH REWARD SAVER",
+        "description": "High interest savings account for youths aged 13-17 years. Earn an interest reward when a total of $10 or more is deposited and no withdrawals are made in each calendar month",
+        "brand": "HORIZON BANK",
+        "brandName": "HORIZON BANK",
+        "applicationUri": "https://horizonbank.com.au/forms/savings-account-or-term-deposit-application/",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://horizonbank.com.au/savings/youth-accounts/youth-reward-saver/",
+          "termsUri": "https://horizonbank.com.au/more/important-info/disclosure-documents/",
+          "eligibilityUri": "https://horizonbank.com.au/savings/youth-accounts/youth-reward-saver/",
+          "feesAndPricingUri": "https://horizonbank.com.au/more/important-info/fees-and-charges/"
+        }
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "S18_S180001",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "features": [
+          {
+            "featureType": "CARD_ACCESS",
+            "additionalValue": "Visa Debit"
+          },
+          {
+            "featureType": "UNLIMITED_TXNS",
+            "additionalInfo": "Free unlimited every day transactions"
+          },
+          {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": "Internet Banking and Mobile Banking App."
+          },
+          {
+            "featureType": "DIGITAL_WALLET",
+            "additionalValue": "Apple Pay, Samsung Pay and Google Pay"
+          },
+          {
+            "featureType": "NPP_PAYID",
+            "additionalInfo": "Create a PayID through Horizon Banks Internet Banking or Mobile Banking App to receive Osko payments with a unique identifier, such as your mobile number or email address, enabling you to receive and send money securely without the need to remember complex banking details."
+          },
+          {
+            "featureType": "NPP_ENABLED",
+            "additionalInfo": "This account type is enabled for Osko payments, via the New Payments Platform (NPP). Osko is the faster way to pay or receive money from friends, family and businesses. No more waiting days for money to change hands. Now you can pay and be paid in a matter of seconds"
+          },
+          {
+            "featureType": "BILL_PAYMENT",
+            "additionalValue": "BPAY",
+            "additionalInfo": "BPAY is an electronic bill payment service, providing a convenient access point for the payment and receipt of consumer bills."
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "13"
+          },
+          {
+            "eligibilityType": "MAX_AGE",
+            "additionalValue": "18"
+          },
+          {
+            "eligibilityType": "NATURAL_PERSON"
+          }
+        ],
+        "fees": [
+          {
+            "name": "BULK_COIN_COUNTAGE",
+            "feeType": "DEPOSIT",
+            "feeMethodUType": "rateBased",
+            "rateBased": {
+              "rateType": "TRANSACTION",
+              "rate": "0.02"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Up to 2% for bulk coin counting above $300. Fee excludes money boxes & community"
+          },
+          {
+            "name": "DIRECT_DEBIT_DISHONOUR",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "9.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "FOREIGN_CASH_WITHDRAWAL_FROM_VISA_DEBIT_CARD",
+            "feeType": "WITHDRAWAL",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "3.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "FOREIGN_CHEQUE_DEPOSIT",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "11.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "OVERDRAWN_SAVINGS_ACCOUNT",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "20.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "per occurence"
+          },
+          {
+            "name": "STATEMENT_COPY",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "2.50"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "TOTAL_CASH_WITHDRAWAL_ABOVE_4000_PER_DAY",
+            "feeType": "WITHDRAWAL",
+            "feeMethodUType": "rateBased",
+            "rateBased": {
+              "rateType": "TRANSACTION",
+              "rate": "0.0025"
+            },
+            "currency": "AUD",
+            "additionalInfo": "A fee of 0.25% of total cash withdrawals is charged for total cash withdrawals over $4000 in a day."
+          },
+          {
+            "name": "VISA_CARD_INTERNATIONAL_TRANSACTION_FEE",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "rateBased",
+            "rateBased": {
+              "rateType": "TRANSACTION",
+              "rate": "0.03"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "VISA_CARD_REPLACEMENT",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "9.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Australia only"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.045",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M"
+          }
+        ],
+        "lendingRates": [
+          {
+            "lendingRateType": "VARIABLE",
+            "rate": "0.1495",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "repaymentType": "OTHER",
+            "loanPurpose": "OTHER"
+          }
+        ],
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "productId": "S18_S180001",
+        "effectiveFrom": "2020-10-01T00:00:00.000+10:00",
+        "lastUpdated": "2026-11-17T09:06:31.000+11:00",
+        "name": "TEEN ACCOUNT",
+        "description": "A flexible everyday account for teenagers aged 13-17 years that   s easily managed with no transaction fees.",
+        "brand": "HORIZON BANK",
+        "brandName": "HORIZON BANK",
+        "applicationUri": "https://horizonbank.com.au/forms/savings-account-or-term-deposit-application/",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://horizonbank.com.au/savings/youth-accounts/teen-saver/",
+          "termsUri": "https://horizonbank.com.au/more/important-info/disclosure-documents/",
+          "eligibilityUri": "https://horizonbank.com.au/savings/youth-accounts/teen-saver/",
+          "feesAndPricingUri": "https://horizonbank.com.au/more/important-info/fees-and-charges/"
+        }
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "S2_S2_S20001",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "features": [
+          {
+            "featureType": "CARD_ACCESS",
+            "additionalValue": "Visa Debit"
+          },
+          {
+            "featureType": "OVERDRAFT",
+            "additionalInfo": "Available to eligible members on application. Lending criteria, terms and conditions, fees and charges apply."
+          },
+          {
+            "featureType": "DIGITAL_WALLET",
+            "additionalValue": "Apple Pay, Samsung Pay and Google Pay"
+          },
+          {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": "Internet Banking and Mobile Banking App"
+          },
+          {
+            "featureType": "NPP_PAYID",
+            "additionalInfo": "Create a PayID through Horizon Bank s Internet Banking or Mobile Banking App to receive Osko payments with a unique identifier, such as your mobile number or email address, enabling you to receive and send money securely without the need to remember complex banking details."
+          },
+          {
+            "featureType": "NPP_ENABLED",
+            "additionalInfo": "his account type is enabled for Osko payments, via the New Payments Platform (NPP). Osko is the faster way to pay or receive money from friends, family and businesses. No more waiting days for money to change hands. Now you can pay and be paid in a matter of seconds"
+          },
+          {
+            "featureType": "UNLIMITED_TXNS",
+            "additionalInfo": "No transaction fees apply although fees may apply for large cash withdrawals or deposits."
+          },
+          {
+            "featureType": "BILL_PAYMENT",
+            "additionalValue": "BPAY",
+            "additionalInfo": "BPAY is an electronic bill payment service, providing a convenient access point for the payment and receipt of consumer bills."
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Manage payments from your bank account using PayTo."
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "NATURAL_PERSON"
+          }
+        ],
+        "fees": [
+          {
+            "name": "BULK_COIN_COUNTAGE",
+            "feeType": "DEPOSIT",
+            "feeMethodUType": "rateBased",
+            "rateBased": {
+              "rateType": "TRANSACTION",
+              "rate": "0.02"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Up to 2% for bulk coin counting above $300. Fee excludes money boxes & community"
+          },
+          {
+            "name": "DIRECT_DEBIT_DISHONOUR",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "9.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "FOREIGN_CASH_WITHDRAWAL_FROM_VISA_DEBIT_CARD",
+            "feeType": "WITHDRAWAL",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "3.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "FOREIGN_CHEQUE_DEPOSIT",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "11.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "OVERDRAWN_SAVINGS_ACCOUNT",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "20.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "per occurence"
+          },
+          {
+            "name": "STATEMENT_COPY",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "2.50"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "TOTAL_CASH_WITHDRAWAL_ABOVE_4000_PER_DAY",
+            "feeType": "WITHDRAWAL",
+            "feeMethodUType": "rateBased",
+            "rateBased": {
+              "rateType": "TRANSACTION",
+              "rate": "0.0025"
+            },
+            "currency": "AUD",
+            "additionalInfo": "A fee of 0.25% of total cash withdrawals is charged for total cash withdrawals over $4000 in a day."
+          },
+          {
+            "name": "VISA_CARD_INTERNATIONAL_TRANSACTION_FEE",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "rateBased",
+            "rateBased": {
+              "rateType": "TRANSACTION",
+              "rate": "0.03"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "VISA_CARD_REPLACEMENT",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "9.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Australia only"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0001",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "additionalInfoUri": "https://horizonbank.com.au/savings/everyday-accounts/special-purpose-savings/"
+          }
+        ],
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "productId": "S2_S2_S20001",
+        "effectiveFrom": "2020-10-01T00:00:00.000+10:00",
+        "lastUpdated": "2026-11-04T10:49:23.000+11:00",
+        "name": "CALL SAVINGS",
+        "description": "CALL SAVINGS",
+        "brand": "HORIZON BANK",
+        "brandName": "HORIZON BANK",
+        "applicationUri": "https://horizonbank.com.au/forms/savings-account-or-term-deposit-application/",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://horizonbank.com.au/savings/everyday-accounts/special-purpose-savings/",
+          "termsUri": "https://horizonbank.com.au/more/important-info/disclosure-documents/",
+          "feesAndPricingUri": "https://horizonbank.com.au/more/important-info/fees-and-charges/"
+        }
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "S4_S4_S40001",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "features": [
+          {
+            "featureType": "CARD_ACCESS",
+            "additionalValue": "Visa Debit"
+          },
+          {
+            "featureType": "UNLIMITED_TXNS",
+            "additionalInfo": "No transaction fees apply although fees may apply for large cash withdrawals or deposits."
+          },
+          {
+            "featureType": "DIGITAL_WALLET",
+            "additionalValue": "Apple Pay, Samsung Pay and Google Pay"
+          },
+          {
+            "featureType": "NPP_PAYID",
+            "additionalInfo": "Create a PayID through Horizon Bank s Internet Banking or Mobile Banking App to receive Osko payments with a unique identifier, such as your mobile number or email address, enabling you to receive and send money securely without the need to remember complex banking details."
+          },
+          {
+            "featureType": "NPP_ENABLED",
+            "additionalInfo": "This account type is enabled for Osko payments, via the New Payments Platform (NPP). Osko is the faster way to pay or receive money from friends, family and businesses. No more waiting days for money to change hands. Now you can pay and be paid in a matter of seconds"
+          },
+          {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": "Internet Banking and Mobile Banking App"
+          },
+          {
+            "featureType": "BILL_PAYMENT",
+            "additionalValue": "BPAY",
+            "additionalInfo": "BPAY is an electronic bill payment service, providing a convenient access point for the payment and receipt of consumer bills."
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "NATURAL_PERSON"
+          }
+        ],
+        "fees": [
+          {
+            "name": "BULK_COIN_COUNTAGE",
+            "feeType": "DEPOSIT",
+            "feeMethodUType": "rateBased",
+            "rateBased": {
+              "rateType": "TRANSACTION",
+              "rate": "0.02"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Up to 2% for bulk coin counting above $300. Fee excludes money boxes & community"
+          },
+          {
+            "name": "DIRECT_DEBIT_DISHONOUR",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "9.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "FOREIGN_CASH_WITHDRAWAL_FROM_VISA_DEBIT_CARD",
+            "feeType": "WITHDRAWAL",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "3.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "FOREIGN_CHEQUE_DEPOSIT",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "11.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "OVERDRAWN_SAVINGS_ACCOUNT",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "20.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "per occurence"
+          },
+          {
+            "name": "STATEMENT_COPY",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "2.50"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "TOTAL_CASH_WITHDRAWAL_ABOVE_4000_PER_DAY",
+            "feeType": "WITHDRAWAL",
+            "feeMethodUType": "rateBased",
+            "rateBased": {
+              "rateType": "TRANSACTION",
+              "rate": "0.0025"
+            },
+            "currency": "AUD",
+            "additionalInfo": "A fee of 0.25% of total cash withdrawals is charged for total cash withdrawals over $4000 in a day."
+          },
+          {
+            "name": "VISA_CARD_INTERNATIONAL_TRANSACTION_FEE",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "rateBased",
+            "rateBased": {
+              "rateType": "TRANSACTION",
+              "rate": "0.03"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "VISA_CARD_REPLACEMENT",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "9.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Australia only"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0001",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "additionalInfoUri": "https://horizonbank.com.au/savings/everyday-accounts/special-purpose-savings/"
+          }
+        ],
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "productId": "S4_S4_S40001",
+        "effectiveFrom": "2020-10-01T00:00:00.000+10:00",
+        "lastUpdated": "2026-11-04T10:49:51.000+11:00",
+        "name": "CALL SAVINGS",
+        "description": "CALL SAVINGS",
+        "brand": "HORIZON BANK",
+        "brandName": "HORIZON BANK",
+        "applicationUri": "https://horizonbank.com.au/forms/savings-account-or-term-deposit-application/",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://horizonbank.com.au/savings/everyday-accounts/special-purpose-savings/",
+          "termsUri": "https://horizonbank.com.au/more/important-info/disclosure-documents/",
+          "feesAndPricingUri": "https://horizonbank.com.au/more/important-info/fees-and-charges/"
+        }
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "S5_S5_S50001",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "features": [
+          {
+            "featureType": "CARD_ACCESS",
+            "additionalValue": "Visa Debit"
+          },
+          {
+            "featureType": "UNLIMITED_TXNS",
+            "additionalInfo": "No transaction fees apply although fees may apply for large cash withdrawals or deposits."
+          },
+          {
+            "featureType": "DIGITAL_WALLET",
+            "additionalValue": "Apple Pay, Samsung Pay and Google Pay"
+          },
+          {
+            "featureType": "NPP_PAYID",
+            "additionalInfo": "Create a PayID through Horizon Bank s Internet Banking or Mobile Banking App to receive Osko payments with a unique identifier, such as your mobile number or email address, enabling you to receive and send money securely without the need to remember complex banking details."
+          },
+          {
+            "featureType": "NPP_ENABLED",
+            "additionalInfo": "This account type is enabled for Osko payments, via the New Payments Platform (NPP). Osko is the faster way to pay or receive money from friends, family and businesses. No more waiting days for money to change hands. Now you can pay and be paid in a matter of seconds"
+          },
+          {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": "Internet Banking and Mobile Banking App"
+          },
+          {
+            "featureType": "BILL_PAYMENT",
+            "additionalValue": "BPAY",
+            "additionalInfo": "BPAY is an electronic bill payment service, providing a convenient access point for the payment and receipt of consumer bills."
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "NATURAL_PERSON"
+          }
+        ],
+        "fees": [
+          {
+            "name": "BULK_COIN_COUNTAGE",
+            "feeType": "DEPOSIT",
+            "feeMethodUType": "rateBased",
+            "rateBased": {
+              "rateType": "TRANSACTION",
+              "rate": "0.02"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Up to 2% for bulk coin counting above $300. Fee excludes money boxes & community"
+          },
+          {
+            "name": "DIRECT_DEBIT_DISHONOUR",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "9.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "FOREIGN_CASH_WITHDRAWAL_FROM_VISA_DEBIT_CARD",
+            "feeType": "WITHDRAWAL",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "3.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "FOREIGN_CHEQUE_DEPOSIT",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "11.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "OVERDRAWN_SAVINGS_ACCOUNT",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "20.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "per occurence"
+          },
+          {
+            "name": "STATEMENT_COPY",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "2.50"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "TOTAL_CASH_WITHDRAWAL_ABOVE_4000_PER_DAY",
+            "feeType": "WITHDRAWAL",
+            "feeMethodUType": "rateBased",
+            "rateBased": {
+              "rateType": "TRANSACTION",
+              "rate": "0.0025"
+            },
+            "currency": "AUD",
+            "additionalInfo": "A fee of 0.25% of total cash withdrawals is charged for total cash withdrawals over $4000 in a day."
+          },
+          {
+            "name": "VISA_CARD_INTERNATIONAL_TRANSACTION_FEE",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "rateBased",
+            "rateBased": {
+              "rateType": "TRANSACTION",
+              "rate": "0.03"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "VISA_CARD_REPLACEMENT",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "9.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Australia only"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0001",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "additionalInfoUri": "https://horizonbank.com.au/savings/everyday-accounts/special-purpose-savings/"
+          }
+        ],
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "productId": "S5_S5_S50001",
+        "effectiveFrom": "2020-10-01T00:00:00.000+10:00",
+        "lastUpdated": "2026-11-04T10:50:01.000+11:00",
+        "name": "INSURANCE SAVINGS",
+        "description": "INSURANCE SAVINGS",
+        "brand": "HORIZON BANK",
+        "brandName": "HORIZON BANK",
+        "applicationUri": "https://horizonbank.com.au/forms/savings-account-or-term-deposit-application/",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://horizonbank.com.au/savings/everyday-accounts/special-purpose-savings/",
+          "termsUri": "https://horizonbank.com.au/more/important-info/disclosure-documents/",
+          "feesAndPricingUri": "https://horizonbank.com.au/more/important-info/fees-and-charges/"
+        }
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "S55_S550001",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "features": [
+          {
+            "featureType": "CARD_ACCESS",
+            "additionalValue": "Visa Debit"
+          },
+          {
+            "featureType": "UNLIMITED_TXNS",
+            "additionalInfo": "No transaction fees apply although fees may apply for large cash withdrawals or deposits."
+          },
+          {
+            "featureType": "DIGITAL_WALLET",
+            "additionalValue": "Apple Pay, Samsung Pay and Google Pay"
+          },
+          {
+            "featureType": "NPP_PAYID",
+            "additionalInfo": "Create a PayID through Horizon Bank s Internet Banking or Mobile Banking App to receive Osko payments with a unique identifier, such as your mobile number or email address, enabling you to receive and send money securely without the need to remember complex banking details."
+          },
+          {
+            "featureType": "NPP_ENABLED",
+            "additionalInfo": "This account type is enabled for Osko payments, via the New Payments Platform (NPP). Osko is the faster way to pay or receive money from friends, family and businesses. No more waiting days for money to change hands. Now you can pay and be paid in a matter of seconds"
+          },
+          {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": "Internet Banking and Mobile Banking App."
+          },
+          {
+            "featureType": "BILL_PAYMENT",
+            "additionalValue": "BPAY",
+            "additionalInfo": "BPAY is an electronic bill payment service, providing a convenient access point for the payment and receipt of consumer bills."
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Manage payments from your bank account using PayTo."
+          },
+          {
+            "featureType": "OVERDRAFT",
+            "additionalInfo": "Available to eligible members on application. Lending criteria, terms and conditions, fees and charges apply."
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "55"
+          }
+        ],
+        "fees": [
+          {
+            "name": "BULK_COIN_COUNTAGE",
+            "feeType": "DEPOSIT",
+            "feeMethodUType": "rateBased",
+            "rateBased": {
+              "rateType": "TRANSACTION",
+              "rate": "0.02"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Up to 2% for bulk coin counting above $300. Fee excludes money boxes & community"
+          },
+          {
+            "name": "DIRECT_DEBIT_DISHONOUR",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "9.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "FOREIGN_CASH_WITHDRAWAL_FROM_VISA_DEBIT_CARD",
+            "feeType": "WITHDRAWAL",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "3.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "FOREIGN_CHEQUE_DEPOSIT",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "11.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "OVERDRAWN_SAVINGS_ACCOUNT",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "20.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "per occurence"
+          },
+          {
+            "name": "STATEMENT_COPY",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "2.50"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "TOTAL_CASH_WITHDRAWAL_ABOVE_4000_PER_DAY",
+            "feeType": "WITHDRAWAL",
+            "feeMethodUType": "rateBased",
+            "rateBased": {
+              "rateType": "TRANSACTION",
+              "rate": "0.0025"
+            },
+            "currency": "AUD",
+            "additionalInfo": "A fee of 0.25% of total cash withdrawals is charged for total cash withdrawals over $4000 in a day."
+          },
+          {
+            "name": "VISA_CARD_INTERNATIONAL_TRANSACTION_FEE",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "rateBased",
+            "rateBased": {
+              "rateType": "TRANSACTION",
+              "rate": "0.03"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "VISA_CARD_REPLACEMENT",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "9.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Australia only"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0001",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "ADVANTAGE 55_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "0.00",
+                "maximumValue": "9999.99",
+                "rateApplicationMethod": "PER_TIER"
+              }
+            ],
+            "additionalInfoUri": "https://horizonbank.com.au/savings/everyday-accounts/advantage-55/"
+          },
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.02",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "ADVANTAGE 55_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "10000.00",
+                "maximumValue": "49999.99",
+                "rateApplicationMethod": "PER_TIER"
+              }
+            ],
+            "additionalInfoUri": "https://horizonbank.com.au/savings/everyday-accounts/advantage-55/"
+          },
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0225",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "ADVANTAGE 55_Tier_3",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "50000.00",
+                "maximumValue": "249999.99",
+                "rateApplicationMethod": "PER_TIER"
+              }
+            ],
+            "additionalInfoUri": "https://horizonbank.com.au/savings/everyday-accounts/advantage-55/"
+          },
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0275",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "ADVANTAGE 55_Tier_4",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "250000.00",
+                "rateApplicationMethod": "PER_TIER"
+              }
+            ],
+            "additionalInfoUri": "https://horizonbank.com.au/savings/everyday-accounts/advantage-55/"
+          }
+        ],
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "productId": "S55_S550001",
+        "effectiveFrom": "2020-10-01T00:00:00.000+10:00",
+        "lastUpdated": "2026-11-17T09:06:54.000+11:00",
+        "name": "ADVANTAGE 55",
+        "description": "Our most popular everyday transaction account for customers aged 55 and over, featuring a wide range of account access options.",
+        "brand": "HORIZON BANK",
+        "brandName": "HORIZON BANK",
+        "applicationUri": "https://horizonbank.com.au/forms/savings-account-or-term-deposit-application/",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://horizonbank.com.au/savings/everyday-accounts/advantage-55/",
+          "termsUri": "https://horizonbank.com.au/more/important-info/disclosure-documents/",
+          "feesAndPricingUri": "https://horizonbank.com.au/more/important-info/fees-and-charges/"
+        }
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "S6_S60001",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "features": [
+          {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": "Internet Banking and Mobile Banking App."
+          },
+          {
+            "featureType": "NPP_ENABLED",
+            "additionalInfo": "This account type is enabled for Osko payments, via the New Payments Platform (NPP). Osko is the faster way to pay or receive money from friends, family and businesses. No more waiting days for money to change hands. Now you can pay and be paid in a matter of seconds"
+          },
+          {
+            "featureType": "NPP_PAYID",
+            "additionalInfo": "Create a PayID through Horizon Bank s Internet Banking or Mobile Banking App to receive Osko payments with a unique identifier, such as your mobile number or email address, enabling you to receive and send money securely without the need to remember complex banking details."
+          },
+          {
+            "featureType": "BILL_PAYMENT",
+            "additionalValue": "BPAY",
+            "additionalInfo": "BPAY is an electronic bill payment service, providing a convenient access point for the payment and receipt of consumer bills."
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Manage payments from your bank account using PayTo."
+          }
+        ],
+        "fees": [
+          {
+            "name": "BULK_COIN_COUNTAGE",
+            "feeType": "DEPOSIT",
+            "feeMethodUType": "rateBased",
+            "rateBased": {
+              "rateType": "TRANSACTION",
+              "rate": "0.02"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Up to 2% for bulk coin counting above $300. Fee excludes money boxes & community"
+          },
+          {
+            "name": "DIRECT_DEBIT_DISHONOUR",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "9.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "FOREIGN_CHEQUE_DEPOSIT",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "11.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "OVERDRAWN_SAVINGS_ACCOUNT",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "20.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "per occurence"
+          },
+          {
+            "name": "STATEMENT_COPY",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "2.50"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "TOTAL_CASH_WITHDRAWAL_ABOVE_4000_PER_DAY",
+            "feeType": "WITHDRAWAL",
+            "feeMethodUType": "rateBased",
+            "rateBased": {
+              "rateType": "TRANSACTION",
+              "rate": "0.0025"
+            },
+            "currency": "AUD",
+            "additionalInfo": "A fee of 0.25% of total cash withdrawals is charged for total cash withdrawals over $4000 in a day."
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0001",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "CASH MANAGEMENT_Tier_1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "0.00",
+                "maximumValue": "49999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalInfoUri": "https://horizonbank.com.au/savings/savings-accounts/cash-management/"
+          },
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.025",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "CASH MANAGEMENT_Tier_2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "50000.00",
+                "maximumValue": "249999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalInfoUri": "https://horizonbank.com.au/savings/savings-accounts/cash-management/"
+          },
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0375",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "CASH MANAGEMENT_Tier_3",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "250000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "additionalInfoUri": "https://horizonbank.com.au/savings/savings-accounts/cash-management/"
+          }
+        ],
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "productId": "S6_S60001",
+        "effectiveFrom": "2021-07-01T00:00:00.000+10:00",
+        "lastUpdated": "2026-11-17T09:07:18.000+11:00",
+        "name": "CASH MANAGEMENT",
+        "description": "Enjoy competitive interest rates without the need to lock your money away. The Cash Management account is used for flexible and quick access to large sums.",
+        "brand": "HORIZON BANK",
+        "brandName": "HORIZON BANK",
+        "applicationUri": "https://horizonbank.com.au/forms/savings-account-or-term-deposit-application/",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://horizonbank.com.au/savings/savings-accounts/cash-management/",
+          "termsUri": "https://horizonbank.com.au/more/important-info/disclosure-documents/",
+          "feesAndPricingUri": "https://horizonbank.com.au/more/important-info/fees-and-charges/"
+        }
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "S7_S7001",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "features": [
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Bonus Interest - To earn bonus interest account holder must make a minimum $50 deposit and no withdrawals per month."
+          },
+          {
+            "featureType": "NPP_ENABLED",
+            "additionalInfo": "This account type is enabled for Osko payments, via the New Payments Platform (NPP). Osko is the faster way to pay or receive money from friends, family and businesses. No more waiting days for money to change hands. Now you can pay and be paid in a matter of seconds"
+          },
+          {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": "Internet Banking and Mobile Banking App"
+          },
+          {
+            "featureType": "NPP_PAYID",
+            "additionalInfo": "Create a PayID through Horizon Bank s Internet Banking or Mobile Banking App to receive Osko payments with a unique identifier, such as your mobile number or email address, enabling you to receive and send money securely without the need to remember complex banking details."
+          },
+          {
+            "featureType": "BILL_PAYMENT",
+            "additionalValue": "BPAY",
+            "additionalInfo": "BPAY is an electronic bill payment service, providing a convenient access point for the payment and receipt of consumer bills."
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": " 3 month introductory bonus rate is available for new Reward Saver accounts"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "18"
+          }
+        ],
+        "fees": [
+          {
+            "name": "BULK_COIN_COUNTAGE",
+            "feeType": "DEPOSIT",
+            "feeMethodUType": "rateBased",
+            "rateBased": {
+              "rateType": "TRANSACTION",
+              "rate": "0.02"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Up to 2% for bulk coin counting above $300. Fee excludes money boxes & community"
+          },
+          {
+            "name": "DIRECT_DEBIT_DISHONOUR",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "9.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "FOREIGN_CHEQUE_DEPOSIT",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "11.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "OVERDRAWN_SAVINGS_ACCOUNT",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "20.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "per occurence"
+          },
+          {
+            "name": "STATEMENT_COPY",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "2.50"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "TOTAL_CASH_WITHDRAWAL_ABOVE_4000_PER_DAY",
+            "feeType": "WITHDRAWAL",
+            "feeMethodUType": "rateBased",
+            "rateBased": {
+              "rateType": "TRANSACTION",
+              "rate": "0.0025"
+            },
+            "currency": "AUD",
+            "additionalInfo": "A fee of 0.25% of total cash withdrawals is charged for total cash withdrawals over $4000 in a day."
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "INTRODUCTORY",
+            "rate": "0.005",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "additionalValue": "P3M",
+            "additionalInfoUri": "https://horizonbank.com.au/savings/savings-accounts/reward-saver/"
+          },
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "additionalInfoUri": "https://horizonbank.com.au/savings/savings-accounts/reward-saver/"
+          }
+        ],
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "productId": "S7_S7001",
+        "effectiveFrom": "2020-10-01T00:00:00.000+10:00",
+        "lastUpdated": "2026-11-18T16:38:20.000+11:00",
+        "name": "REWARD SAVER",
+        "description": "The Reward Saver account rewards you for saving. Deposit just $50 per month and make no withdrawals to earn the reward rate.",
+        "brand": "HORIZON BANK",
+        "brandName": "HORIZON BANK",
+        "applicationUri": "https://horizonbank.com.au/forms/savings-account-or-term-deposit-application/",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://horizonbank.com.au/savings/savings-accounts/reward-saver/",
+          "termsUri": "https://horizonbank.com.au/more/important-info/disclosure-documents/",
+          "feesAndPricingUri": "https://horizonbank.com.au/more/important-info/fees-and-charges/"
+        }
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "S75_S750001",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "features": [
+          {
+            "featureType": "CARD_ACCESS",
+            "additionalValue": "Visa Debit"
+          },
+          {
+            "featureType": "OFFSET"
+          },
+          {
+            "featureType": "DIGITAL_WALLET",
+            "additionalValue": "Apple Pay, Samsung Pay and Google Pay"
+          },
+          {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": "Internet Banking and Mobile Banking App."
+          },
+          {
+            "featureType": "NPP_PAYID",
+            "additionalInfo": "Create a PayID through Horizon Bank s Internet Banking or Mobile Banking App to receive Osko payments with a unique identifier, such as your mobile number or email address, enabling you to receive and send money securely without the need to remember complex banking details."
+          },
+          {
+            "featureType": "NPP_ENABLED",
+            "additionalInfo": "This account type is enabled for Osko payments, via the New Payments Platform (NPP). Osko is the faster way to pay or receive money from friends, family and businesses. No more waiting days for money to change hands. Now you can pay and be paid in a matter of seconds"
+          },
+          {
+            "featureType": "BILL_PAYMENT",
+            "additionalValue": "BPAY",
+            "additionalInfo": "BPAY is an electronic bill payment service, providing a convenient access point for the payment and receipt of consumer bills."
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Manage payments from your bank account using PayTo."
+          }
+        ],
+        "fees": [
+          {
+            "name": "BULK_COIN_COUNTAGE",
+            "feeType": "DEPOSIT",
+            "feeMethodUType": "rateBased",
+            "rateBased": {
+              "rateType": "TRANSACTION",
+              "rate": "0.02"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Up to 2% for bulk coin counting above $300. Fee excludes money boxes & community"
+          },
+          {
+            "name": "DIRECT_DEBIT_DISHONOUR",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "9.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "FOREIGN_CASH_WITHDRAWAL_FROM_VISA_DEBIT_CARD",
+            "feeType": "WITHDRAWAL",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "3.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "FOREIGN_CHEQUE_DEPOSIT",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "11.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "STATEMENT_COPY",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "2.50"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "TOTAL_CASH_WITHDRAWAL_ABOVE_4000_PER_DAY",
+            "feeType": "WITHDRAWAL",
+            "feeMethodUType": "rateBased",
+            "rateBased": {
+              "rateType": "TRANSACTION",
+              "rate": "0.0025"
+            },
+            "currency": "AUD",
+            "additionalInfo": "A fee of 0.25% of total cash withdrawals is charged for total cash withdrawals over $4000 in a day."
+          },
+          {
+            "name": "VISA_CARD_INTERNATIONAL_TRANSACTION_FEE",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "rateBased",
+            "rateBased": {
+              "rateType": "TRANSACTION",
+              "rate": "0.03"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "VISA_CARD_REPLACEMENT",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "9.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Australia only"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M"
+          }
+        ],
+        "lendingRates": [
+          {
+            "lendingRateType": "VARIABLE",
+            "rate": "0.0",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "repaymentType": "OTHER",
+            "loanPurpose": "OTHER"
+          }
+        ],
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "productId": "S75_S750001",
+        "effectiveFrom": "2020-10-01T00:00:00.000+10:00",
+        "lastUpdated": "2026-11-04T10:52:48.000+11:00",
+        "name": "OFFSET SAVINGS",
+        "description": "OFFSET SAVINGS",
+        "brand": "HORIZON BANK",
+        "brandName": "HORIZON BANK",
+        "applicationUri": "https://horizonbank.com.au/forms/savings-account-or-term-deposit-application/",
+        "isTailored": false,
+        "additionalInformation": {
+          "termsUri": "https://horizonbank.com.au/more/important-info/disclosure-documents/",
+          "feesAndPricingUri": "https://horizonbank.com.au/more/important-info/fees-and-charges/"
+        }
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "S76_S760001",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "features": [
+          {
+            "featureType": "CARD_ACCESS",
+            "additionalValue": "Visa Debit"
+          },
+          {
+            "featureType": "DIGITAL_WALLET",
+            "additionalValue": "Apple Pay, Samsung Pay and Google Pay"
+          },
+          {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": "Internet Banking and Mobile Banking App."
+          },
+          {
+            "featureType": "NPP_PAYID",
+            "additionalInfo": "Create a PayID through Horizon Bank s Internet Banking or Mobile Banking App to receive Osko payments with a unique identifier, such as your mobile number or email address, enabling you to receive and send money securely without the need to remember complex banking details."
+          },
+          {
+            "featureType": "NPP_ENABLED",
+            "additionalInfo": "This account type is enabled for Osko payments, via the New Payments Platform (NPP). Osko is the faster way to pay or receive money from friends, family and businesses. No more waiting days for money to change hands. Now you can pay and be paid in a matter of seconds"
+          },
+          {
+            "featureType": "BILL_PAYMENT",
+            "additionalValue": "BPAY",
+            "additionalInfo": "BPAY is an electronic bill payment service, providing a convenient access point for the payment and receipt of consumer bills."
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Manage payments from your bank account using PayTo."
+          }
+        ],
+        "fees": [
+          {
+            "name": "BULK_COIN_COUNTAGE",
+            "feeType": "DEPOSIT",
+            "feeMethodUType": "rateBased",
+            "rateBased": {
+              "rateType": "TRANSACTION",
+              "rate": "0.02"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Up to 2% for bulk coin counting above $300. Fee excludes money boxes & community"
+          },
+          {
+            "name": "DIRECT_DEBIT_DISHONOUR",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "9.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "FOREIGN_CASH_WITHDRAWAL_FROM_VISA_DEBIT_CARD",
+            "feeType": "WITHDRAWAL",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "3.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "FOREIGN_CHEQUE_DEPOSIT",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "11.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "OVERDRAWN_SAVINGS_ACCOUNT",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "20.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "per occurence"
+          },
+          {
+            "name": "STATEMENT_COPY",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "2.50"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "TOTAL_CASH_WITHDRAWAL_ABOVE_4000_PER_DAY",
+            "feeType": "WITHDRAWAL",
+            "feeMethodUType": "rateBased",
+            "rateBased": {
+              "rateType": "TRANSACTION",
+              "rate": "0.0025"
+            },
+            "currency": "AUD",
+            "additionalInfo": "A fee of 0.25% of total cash withdrawals is charged for total cash withdrawals over $4000 in a day."
+          },
+          {
+            "name": "VISA_CARD_INTERNATIONAL_TRANSACTION_FEE",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "rateBased",
+            "rateBased": {
+              "rateType": "TRANSACTION",
+              "rate": "0.03"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "VISA_CARD_REPLACEMENT",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "9.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Australia only"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M"
+          }
+        ],
+        "lendingRates": [
+          {
+            "lendingRateType": "VARIABLE",
+            "rate": "0.0",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "repaymentType": "OTHER",
+            "loanPurpose": "OTHER"
+          }
+        ],
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "productId": "S76_S760001",
+        "effectiveFrom": "2021-02-01T00:00:00.000+11:00",
+        "lastUpdated": "2026-11-04T10:52:57.000+11:00",
+        "name": "OFFSET SAVINGS",
+        "description": "OFFSET SAVINGS",
+        "brand": "HORIZON BANK",
+        "brandName": "HORIZON BANK",
+        "isTailored": false,
+        "additionalInformation": {
+          "termsUri": "https://horizonbank.com.au/more/important-info/disclosure-documents/",
+          "feesAndPricingUri": "https://horizonbank.com.au/more/important-info/fees-and-charges/"
+        }
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "S77_S770001",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "features": [
+          {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": "Internet Banking and Mobile Banking App."
+          },
+          {
+            "featureType": "NPP_PAYID",
+            "additionalInfo": "Create a PayID through Horizon Bank s Internet Banking or Mobile Banking App to receive Osko payments with a unique identifier, such as your mobile number or email address, enabling you to receive and send money securely without the need to remember complex banking details."
+          },
+          {
+            "featureType": "NPP_ENABLED",
+            "additionalInfo": "This account type is enabled for Osko payments, via the New Payments Platform (NPP). Osko is the faster way to pay or receive money from friends, family and businesses. No more waiting days for money to change hands. Now you can pay and be paid in a matter of seconds"
+          },
+          {
+            "featureType": "BILL_PAYMENT",
+            "additionalValue": "BPAY",
+            "additionalInfo": "BPAY is an electronic bill payment service, providing a convenient access point for the payment and receipt of consumer bills."
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Manage payments from your bank account using PayTo."
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "OTHER",
+            "additionalInfo": "Super Fund"
+          }
+        ],
+        "fees": [
+          {
+            "name": "BULK_COIN_COUNTAGE",
+            "feeType": "DEPOSIT",
+            "feeMethodUType": "rateBased",
+            "rateBased": {
+              "rateType": "TRANSACTION",
+              "rate": "0.02"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Up to 2% for bulk coin counting above $300. Fee excludes money boxes & community"
+          },
+          {
+            "name": "DIRECT_DEBIT_DISHONOUR",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "9.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "FOREIGN_CHEQUE_DEPOSIT",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "11.00"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "OVERDRAWN_SAVINGS_ACCOUNT",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "20.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "per occurence"
+          },
+          {
+            "name": "STATEMENT_COPY",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "2.50"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "TOTAL_CASH_WITHDRAWAL_ABOVE_4000_PER_DAY",
+            "feeType": "WITHDRAWAL",
+            "feeMethodUType": "rateBased",
+            "rateBased": {
+              "rateType": "TRANSACTION",
+              "rate": "0.0025"
+            },
+            "currency": "AUD",
+            "additionalInfo": "A fee of 0.25% of total cash withdrawals is charged for total cash withdrawals over $4000 in a day."
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.035",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "additionalInfoUri": "https://horizonbank.com.au/savings/savings-accounts/self-managed-super-fund-saver/"
+          }
+        ],
+        "lendingRates": [
+          {
+            "lendingRateType": "VARIABLE",
+            "rate": "0.1495",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "repaymentType": "OTHER",
+            "loanPurpose": "OTHER"
+          }
+        ],
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "productId": "S77_S770001",
+        "effectiveFrom": "2020-10-01T00:00:00.000+10:00",
+        "lastUpdated": "2026-11-17T09:06:06.000+11:00",
+        "name": "SMSF SAVER",
+        "description": "The SMSF Saver is a savings account for registered self-managed super funds.",
+        "brand": "HORIZON BANK",
+        "brandName": "HORIZON BANK",
+        "applicationUri": "https://horizonbank.com.au/forms/savings-account-or-term-deposit-application/",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://horizonbank.com.au/savings/savings-accounts/self-managed-super-fund-saver/",
+          "termsUri": "https://horizonbank.com.au/more/important-info/disclosure-documents/",
+          "feesAndPricingUri": "https://horizonbank.com.au/more/important-info/fees-and-charges/"
+        }
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "S8_S80001",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "features": [
+          {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": "Internet Banking and Mobile Banking App."
+          },
+          {
+            "featureType": "BILL_PAYMENT",
+            "additionalValue": "BPAY",
+            "additionalInfo": "BPAY is an electronic bill payment service, providing a convenient access point for the payment and receipt of consumer bills."
+          },
+          {
+            "featureType": "NPP_ENABLED",
+            "additionalInfo": "This account type is enabled for Osko payments, via the New Payments Platform (NPP). Osko is the faster way to pay or receive money from friends, family and businesses. No more waiting days for money to change hands. Now you can pay and be paid in a matter of seconds."
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Funds are available for withdrawal from 1 November to 31 January each year."
+          }
+        ],
+        "fees": [
+          {
+            "name": "BULK_COIN_COUNTAGE",
+            "feeType": "DEPOSIT",
+            "feeMethodUType": "rateBased",
+            "rateBased": {
+              "rateType": "TRANSACTION",
+              "rate": "0.02"
+            },
+            "currency": "AUD",
+            "additionalInfo": "Up to 2% for bulk coin counting above $300. Fee excludes money boxes & community"
+          },
+          {
+            "name": "STATEMENT_COPY",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "2.50"
+            },
+            "currency": "AUD"
+          },
+          {
+            "name": "OVERDRAWN_SAVINGS_ACCOUNT",
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "20.00"
+            },
+            "currency": "AUD",
+            "additionalInfo": "per occurence"
+          },
+          {
+            "name": "TOTAL_CASH_WITHDRAWAL_ABOVE_4000_PER_DAY",
+            "feeType": "WITHDRAWAL",
+            "feeMethodUType": "rateBased",
+            "rateBased": {
+              "rateType": "TRANSACTION",
+              "rate": "0.0025"
+            },
+            "currency": "AUD",
+            "additionalInfo": "A fee of 0.25% of total cash withdrawals is charged for total cash withdrawals over $4000 in a day."
+          },
+          {
+            "name": "FOREIGN_CHEQUE_DEPOSIT",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "11.00"
+            },
+            "currency": "AUD"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.025",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "additionalInfoUri": "https://horizonbank.com.au/savings/savings-accounts/christmas-club/"
+          }
+        ],
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "productId": "S8_S80001",
+        "effectiveFrom": "2020-10-01T00:00:00.000+10:00",
+        "lastUpdated": "2026-11-17T09:05:54.000+11:00",
+        "name": "CHRISTMAS CLUB",
+        "description": "Christmas is an expensive time of year. Start budgeting early and be prepared with a Christmas Club account. Funds are available for withdrawal from 1 November to 31 January each year.",
+        "brand": "HORIZON BANK",
+        "brandName": "HORIZON BANK",
+        "applicationUri": "https://horizonbank.com.au/forms/savings-account-or-term-deposit-application/",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://horizonbank.com.au/savings/savings-accounts/christmas-club/",
+          "termsUri": "https://horizonbank.com.au/more/important-info/disclosure-documents/",
+          "feesAndPricingUri": "https://horizonbank.com.au/more/important-info/fees-and-charges/"
+        }
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    }
+  ]
+}

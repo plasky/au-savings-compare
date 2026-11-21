@@ -1,0 +1,29 @@
+{
+  "endpoint": "https://api.cds.boqfinance.com.au/cds-au/v1/banking/products",
+  "slug": "boq-finance-f492f2",
+  "brands": [
+    {
+      "dataHolderBrandId": "a9cdbc98-d4d7-f111-bda1-000d3a79ee49",
+      "brandName": "BOQ Finance",
+      "brandGroup": null,
+      "abn": "32009656740",
+      "industries": [
+        "non-bank-lending"
+      ]
+    }
+  ],
+  "list": {
+    "ok": true,
+    "status": 200,
+    "version": "5",
+    "totalPages": 1,
+    "pagesFetched": 1,
+    "productCount": 12,
+    "categoryCounts": {
+      "PERS_LOANS": 2,
+      "BUSINESS_LOANS": 6,
+      "LEASES": 4
+    }
+  },
+  "products": []
+}

@@ -1,0 +1,357 @@
+{
+  "endpoint": "https://public.cdr-api.86400.com.au/cds-au/v1/banking/products",
+  "slug": "ubank-f381eb",
+  "brands": [
+    {
+      "dataHolderBrandId": "307dbf74-8bbe-eb11-a823-000d3a884a20",
+      "brandName": "UBank",
+      "brandGroup": null,
+      "abn": "12004044937",
+      "industries": [
+        "banking"
+      ]
+    }
+  ],
+  "list": {
+    "ok": true,
+    "status": 200,
+    "version": "5",
+    "totalPages": 1,
+    "pagesFetched": 1,
+    "productCount": 14,
+    "categoryCounts": {
+      "RESIDENTIAL_MORTGAGES": 11,
+      "TRANS_AND_SAVINGS_ACCOUNTS": 3
+    }
+  },
+  "products": [
+    {
+      "productId": "1",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "productId": "1",
+        "effectiveFrom": "2017-11-30T13:30:00.0000000Z",
+        "lastUpdated": "2026-11-09T22:00:34.1139192Z",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "name": "Save account",
+        "description": "Save account",
+        "brand": "ubank",
+        "applicationUri": "https://www.ubank.com.au",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.ubank.com.au/banking/savings-account",
+          "termsUri": "https://www.ubank.com.au/general-terms",
+          "feesAndPricingUri": "https://www.ubank.com.au/feesandlimits"
+        },
+        "features": [
+          {
+            "featureType": "DIGITAL_BANKING"
+          },
+          {
+            "featureType": "FRAUD_PROTECTION"
+          },
+          {
+            "featureType": "NOTIFICATIONS",
+            "additionalValue": "Customers can configure notifications for incoming and outgoing payments, services disruptions and updates, bonus interest reminders, low balance alerts and account access."
+          },
+          {
+            "featureType": "NPP_ENABLED"
+          },
+          {
+            "featureType": "NPP_PAYID"
+          },
+          {
+            "featureType": "UNLIMITED_TXNS"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "16"
+          },
+          {
+            "eligibilityType": "NATURAL_PERSON"
+          },
+          {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalValue": "an Australian citizen or permanent resident with an Australian residential address"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "BONUS",
+            "rate": "0.056",
+            "calculationFrequency": "P1M",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "Bonus Balance Tier 1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "0.00",
+                "maximumValue": "100000.00",
+                "rateApplicationMethod": "PER_TIER"
+              }
+            ],
+            "additionalValue": "Customer must grow their total Save account balances by at least $1 each month, excluding interest credits. Does not include accounts that are linked as offsets at the end of the month.",
+            "additionalInfo": "Everyday Bonus Rate"
+          },
+          {
+            "depositRateType": "BONUS",
+            "rate": "0.056",
+            "calculationFrequency": "P1M",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "Bonus Balance Tier 2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "100000.01",
+                "maximumValue": "250000.00",
+                "rateApplicationMethod": "PER_TIER"
+              }
+            ],
+            "additionalValue": "Customer must grow their total Save account balances by at least $1 each month, excluding interest credits. Does not include accounts that are linked as offsets at the end of the month.",
+            "additionalInfo": "Everyday Bonus Rate"
+          },
+          {
+            "depositRateType": "BONUS",
+            "rate": "0.056",
+            "calculationFrequency": "P1M",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "Bonus Balance Tier 3",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "250000.01",
+                "maximumValue": "1000000.00",
+                "rateApplicationMethod": "PER_TIER"
+              }
+            ],
+            "additionalValue": "Customer must grow their total Save account balances by at least $1 each month, excluding interest credits. Does not include accounts that are linked as offsets at the end of the month.",
+            "additionalInfo": "Everyday Bonus Rate"
+          },
+          {
+            "depositRateType": "BONUS",
+            "rate": "0.0",
+            "calculationFrequency": "P1M",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "Bonus Balance Tier 4",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000000.01",
+                "rateApplicationMethod": "PER_TIER"
+              }
+            ],
+            "additionalValue": "Customer must grow their total Save account balances by at least $1 each month, excluding interest credits. Does not include accounts that are linked as offsets at the end of the month.",
+            "additionalInfo": "Everyday Bonus Rate"
+          },
+          {
+            "depositRateType": "INTRODUCTORY",
+            "rate": "0.009",
+            "calculationFrequency": "P1M",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "Welcome Bonus Tier 1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "0.00",
+                "maximumValue": "100000.00",
+                "rateApplicationMethod": "PER_TIER"
+              }
+            ],
+            "additionalValue": "P4M",
+            "additionalInfo": "Welcome Bonus for eligible new customers. Only paid when Bonus Interest criteria is met. Rates on Shared accounts may be different."
+          },
+          {
+            "depositRateType": "INTRODUCTORY",
+            "rate": "0.009",
+            "calculationFrequency": "P1M",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "Welcome Bonus Tier 2",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "100000.01",
+                "maximumValue": "250000.00",
+                "rateApplicationMethod": "PER_TIER"
+              }
+            ],
+            "additionalValue": "P4M",
+            "additionalInfo": "Welcome Bonus for eligible new customers. Only paid when Bonus Interest criteria is met. Rates on Shared accounts may be different."
+          },
+          {
+            "depositRateType": "INTRODUCTORY",
+            "rate": "0.009",
+            "calculationFrequency": "P1M",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "Welcome Bonus Tier 3",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "250000.01",
+                "maximumValue": "1000000.00",
+                "rateApplicationMethod": "PER_TIER"
+              }
+            ],
+            "additionalValue": "P4M",
+            "additionalInfo": "Welcome Bonus for eligible new customers. Only paid when Bonus Interest criteria is met. Rates on Shared accounts may be different."
+          },
+          {
+            "depositRateType": "INTRODUCTORY",
+            "rate": "0.0",
+            "calculationFrequency": "P1M",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "tiers": [
+              {
+                "name": "Welcome Bonus Tier 4",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000000.01",
+                "rateApplicationMethod": "PER_TIER"
+              }
+            ],
+            "additionalValue": "P4M",
+            "additionalInfo": "Welcome Bonus for eligible new customers. Only paid when Bonus Interest criteria is met. Rates on Shared accounts may be different."
+          }
+        ]
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "14",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "productId": "14",
+        "effectiveFrom": "2023-11-12T13:30:00.0000000Z",
+        "lastUpdated": "2025-11-13T06:00:34.2851844Z",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "name": "Bills account",
+        "description": "Bills account",
+        "brand": "ubank",
+        "applicationUri": "https://www.ubank.com.au",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.ubank.com.au/banking/bills-account",
+          "termsUri": "https://www.ubank.com.au/general-terms",
+          "feesAndPricingUri": "https://www.ubank.com.au/feesandlimits"
+        },
+        "features": [
+          {
+            "featureType": "BILL_PAYMENT",
+            "additionalInfo": "There is a BPAY limit of $20,000 per day."
+          },
+          {
+            "featureType": "DIGITAL_BANKING"
+          },
+          {
+            "featureType": "DIGITAL_WALLET",
+            "additionalValue": "Apple Pay, Google Pay, Samsung Pay and Garmin Pay"
+          },
+          {
+            "featureType": "FRAUD_PROTECTION"
+          },
+          {
+            "featureType": "NOTIFICATIONS",
+            "additionalValue": "Customers can configure notifications for incoming and outgoing payments, services disruptions and updates, bonus interest reminders, low balance alerts and account access."
+          },
+          {
+            "featureType": "NPP_ENABLED"
+          },
+          {
+            "featureType": "NPP_PAYID"
+          },
+          {
+            "featureType": "UNLIMITED_TXNS"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "16"
+          },
+          {
+            "eligibilityType": "NATURAL_PERSON"
+          },
+          {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalValue": "an Australian citizen or permanent resident with an Australian residential address"
+          }
+        ]
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "2",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "productId": "2",
+        "effectiveFrom": "2017-11-30T13:30:00.0000000Z",
+        "lastUpdated": "2025-11-13T06:00:34.2851844Z",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "name": "Spend account",
+        "description": "Spend account",
+        "brand": "ubank",
+        "applicationUri": "https://www.ubank.com.au",
+        "isTailored": false,
+        "additionalInformation": {
+          "overviewUri": "https://www.ubank.com.au/banking/transaction-account",
+          "termsUri": "https://www.ubank.com.au/general-terms",
+          "feesAndPricingUri": "https://www.ubank.com.au/feesandlimits"
+        },
+        "features": [
+          {
+            "featureType": "BILL_PAYMENT",
+            "additionalInfo": "There is a BPAY limit of $20,000 per day."
+          },
+          {
+            "featureType": "DIGITAL_BANKING"
+          },
+          {
+            "featureType": "DIGITAL_WALLET",
+            "additionalValue": "Apple Pay, Google Pay, Samsung Pay and Garmin Pay."
+          },
+          {
+            "featureType": "FRAUD_PROTECTION"
+          },
+          {
+            "featureType": "NOTIFICATIONS",
+            "additionalValue": "Customers can configure notifications for incoming and outgoing payments, services disruptions and updates, bonus interest reminders, low balance alerts and account access."
+          },
+          {
+            "featureType": "NPP_ENABLED"
+          },
+          {
+            "featureType": "NPP_PAYID"
+          },
+          {
+            "featureType": "UNLIMITED_TXNS"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "16"
+          },
+          {
+            "eligibilityType": "NATURAL_PERSON"
+          },
+          {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalValue": "an Australian citizen or permanent resident with an Australian residential address"
+          }
+        ]
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    }
+  ]
+}

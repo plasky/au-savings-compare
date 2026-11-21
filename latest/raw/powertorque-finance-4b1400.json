@@ -1,0 +1,28 @@
+{
+  "endpoint": "https://api.cdr.powertorquefinanceonline.com.au/cds-au/v1/banking/products",
+  "slug": "powertorque-finance-4b1400",
+  "brands": [
+    {
+      "dataHolderBrandId": "ec73a25c-d936-f111-9a91-000d3ae0db82",
+      "brandName": "PowerTorque Finance",
+      "brandGroup": null,
+      "abn": "48002435181",
+      "industries": [
+        "non-bank-lending"
+      ]
+    }
+  ],
+  "list": {
+    "ok": true,
+    "status": 200,
+    "version": "5",
+    "totalPages": 1,
+    "pagesFetched": 1,
+    "productCount": 2,
+    "categoryCounts": {
+      "BUSINESS_LOANS": 1,
+      "PERS_LOANS": 1
+    }
+  },
+  "products": []
+}

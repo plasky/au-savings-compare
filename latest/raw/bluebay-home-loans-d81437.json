@@ -1,0 +1,27 @@
+{
+  "endpoint": "https://public.bluebay.cdr.colcap.com.au/cds-au/v1/banking/products",
+  "slug": "bluebay-home-loans-d81437",
+  "brands": [
+    {
+      "dataHolderBrandId": "8918bb2f-d5ba-f111-81be-000d3a799057",
+      "brandName": "Bluebay Home Loans",
+      "brandGroup": null,
+      "abn": "51119531252",
+      "industries": [
+        "non-bank-lending"
+      ]
+    }
+  ],
+  "list": {
+    "ok": true,
+    "status": 200,
+    "version": "5",
+    "totalPages": 1,
+    "pagesFetched": 1,
+    "productCount": 13,
+    "categoryCounts": {
+      "RESIDENTIAL_MORTGAGES": 13
+    }
+  },
+  "products": []
+}

@@ -1,0 +1,243 @@
+{
+  "endpoint": "https://public.cdr.tyro.com/cds-au/v1/banking/products",
+  "slug": "tyro-payments-fed011",
+  "brands": [
+    {
+      "dataHolderBrandId": "0bd792ee-49b4-eb11-a822-000d3a884a20",
+      "brandName": "Tyro Payments",
+      "brandGroup": null,
+      "abn": "49103575042",
+      "industries": [
+        "banking"
+      ]
+    }
+  ],
+  "list": {
+    "ok": true,
+    "status": 200,
+    "version": "3",
+    "totalPages": 1,
+    "pagesFetched": 1,
+    "productCount": 3,
+    "categoryCounts": {
+      "BUSINESS_LOANS": 1,
+      "TRANS_AND_SAVINGS_ACCOUNTS": 1,
+      "TERM_DEPOSITS": 1
+    }
+  },
+  "products": [
+    {
+      "productId": "93efba95-f852-4455-a965-807c0de3812c",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "brand": "Tyro Payments",
+        "description": "A fee-free, interest earning business bank account that provides the flexibility to move money using the Tyro App.",
+        "isTailored": false,
+        "lastUpdated": "2026-02-15T00:23:55.934059Z",
+        "name": "Tyro Bank Account",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "productId": "93efba95-f852-4455-a965-807c0de3812c",
+        "additionalInformation": {
+          "overviewUri": "https://www.tyro.com/solutions/bank-account",
+          "termsUri": "https://www.tyro.com/terms-and-conditions/",
+          "eligibilityUri": null,
+          "feesAndPricingUri": null,
+          "bundleUri": null,
+          "additionalOverviewUris": null,
+          "additionalTermsUris": null,
+          "additionalEligibilityUris": null,
+          "additionalFeesAndPricingUris": null,
+          "additionalBundleUris": null
+        },
+        "applicationUri": "https://www.tyro.com/get-started",
+        "brandName": "Tyro Prod",
+        "cardArt": [],
+        "effectiveFrom": "2015-10-28T13:00:00Z",
+        "effectiveTo": null,
+        "bundles": [],
+        "constraints": [],
+        "depositRates": [
+          {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0050000000000000",
+            "additionalInfo": "Rate earned on funds in the account up to 30 days.",
+            "additionalInfoUri": "https://www.tyro.com/solutions/bank-account",
+            "additionalValue": null,
+            "applicationFrequency": "P1M",
+            "calculationFrequency": "P1D",
+            "tiers": []
+          },
+          {
+            "depositRateType": "BONUS",
+            "rate": "0.0065000000000000",
+            "additionalInfo": "Bonus rate earned on funds in the account greater than 30 days.",
+            "additionalInfoUri": "https://www.tyro.com/solutions/bank-account",
+            "additionalValue": "LONGER THAN 30 DAYS",
+            "applicationFrequency": "P1M",
+            "calculationFrequency": "P1D",
+            "tiers": []
+          },
+          {
+            "depositRateType": "BONUS",
+            "rate": "0.0080000000000000",
+            "additionalInfo": "Bonus rate earned on funds in the account greater than 60 days.",
+            "additionalInfoUri": "https://www.tyro.com/solutions/bank-account",
+            "additionalValue": "LONGER THAN 60 DAYS",
+            "applicationFrequency": "P1M",
+            "calculationFrequency": "P1D",
+            "tiers": []
+          },
+          {
+            "depositRateType": "BONUS",
+            "rate": "0.0095000000000000",
+            "additionalInfo": "Bonus rate earned on funds in the account greater than 90 days.",
+            "additionalInfoUri": "https://www.tyro.com/solutions/bank-account",
+            "additionalValue": "LONGER THAN 90 DAYS",
+            "applicationFrequency": "P1M",
+            "calculationFrequency": "P1D",
+            "tiers": []
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "BUSINESS",
+            "additionalInfo": "You must have an active ABN.",
+            "additionalInfoUri": null,
+            "additionalValue": null
+          },
+          {
+            "eligibilityType": "OTHER",
+            "additionalInfo": "You must be a Tyro EFTPOS/eCommerce customer.",
+            "additionalInfoUri": null,
+            "additionalValue": null
+          }
+        ],
+        "features": [
+          {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": "The Tyro App lets you access 24/7 mobile banking so you can stay on top of your business from anywhere plus intelligent notifications, bank transfer, BPAY® and direct debits.",
+            "additionalInfoUri": "https://www.tyro.com/solutions/bank-account",
+            "additionalValue": null
+          },
+          {
+            "featureType": "NOTIFICATIONS",
+            "additionalInfo": "Just-in-time reminders will let you know if funds are low, so you can reschedule bill payments.",
+            "additionalInfoUri": "https://www.tyro.com/solutions/bank-account",
+            "additionalValue": "Just-in-time reminders"
+          },
+          {
+            "featureType": "UNLIMITED_TXNS",
+            "additionalInfo": "No account keeping fees, no transaction fees and no penalties for accessing your funds.",
+            "additionalInfoUri": null,
+            "additionalValue": "Fee-free transfers"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Seamless reconciliation with integrated bank feeds to Xero. Schedule batch payments in Xero – including BPAY and bank transfers, and Xero Payroll.",
+            "additionalInfoUri": "https://www.tyro.com/solutions/bank-account/xero",
+            "additionalValue": "Xero integration"
+          }
+        ],
+        "fees": [],
+        "lendingRates": []
+      },
+      "detailStatus": 200,
+      "detailVersion": "5"
+    },
+    {
+      "productId": "a072f9d4-082b-4d23-8ddc-d9db7d88d417",
+      "productCategory": "TERM_DEPOSITS",
+      "detail": {
+        "brand": "Tyro Payments",
+        "description": "A fixed term investment for businesses at an agreed rate of interest.",
+        "isTailored": false,
+        "lastUpdated": "2026-02-15T00:23:55.933962Z",
+        "name": "30 Day Business Term Deposit",
+        "productCategory": "TERM_DEPOSITS",
+        "productId": "a072f9d4-082b-4d23-8ddc-d9db7d88d417",
+        "additionalInformation": {
+          "overviewUri": null,
+          "termsUri": "https://www.tyro.com/term-deposit-terms",
+          "eligibilityUri": null,
+          "feesAndPricingUri": null,
+          "bundleUri": null,
+          "additionalOverviewUris": null,
+          "additionalTermsUris": null,
+          "additionalEligibilityUris": null,
+          "additionalFeesAndPricingUris": null,
+          "additionalBundleUris": null
+        },
+        "applicationUri": null,
+        "brandName": "Tyro Prod",
+        "cardArt": [],
+        "effectiveFrom": "2019-12-09T13:00:00Z",
+        "effectiveTo": null,
+        "bundles": [],
+        "constraints": [
+          {
+            "constraintType": "MIN_BALANCE",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "1000.00"
+          },
+          {
+            "constraintType": "MAX_BALANCE",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "100000.00"
+          }
+        ],
+        "depositRates": [
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.035",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "P30D",
+            "applicationFrequency": "P30D",
+            "calculationFrequency": "P1D",
+            "tiers": []
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "BUSINESS",
+            "additionalInfo": "You must have an active ABN.",
+            "additionalInfoUri": null,
+            "additionalValue": null
+          },
+          {
+            "eligibilityType": "OTHER",
+            "additionalInfo": "You must be a Tyro EFTPOS/eCommerce with an active Tyro Bank Account to open a Tyro Business Term Deposit.",
+            "additionalInfoUri": null,
+            "additionalValue": null
+          }
+        ],
+        "features": [
+          {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": "The Tyro App lets you access 24/7 mobile banking so you can stay on top of your business from anywhere.",
+            "additionalInfoUri": null,
+            "additionalValue": null
+          },
+          {
+            "featureType": "NOTIFICATIONS",
+            "additionalInfo": "We'll notify you via email a week before your term deposit matures as well as the day before so you don't forget.",
+            "additionalInfoUri": null,
+            "additionalValue": "Maturity reminders"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "If you want to withdraw your Term Deposit before it matures you'll need to give us 31 days' notice. Your interest payment may be reduced.",
+            "additionalInfoUri": null,
+            "additionalValue": "Early Withdrawal"
+          }
+        ],
+        "fees": [],
+        "lendingRates": []
+      },
+      "detailStatus": 200,
+      "detailVersion": "5"
+    }
+  ]
+}

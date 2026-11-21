@@ -1,0 +1,29 @@
+{
+  "endpoint": "https://api.openbanking.prod.peppermoney.com.au/cds-au/v1/banking/products",
+  "slug": "pepper-money-b48576",
+  "brands": [
+    {
+      "dataHolderBrandId": "a67e5f63-c137-f111-9a91-000d3ae0db82",
+      "brandName": "Pepper Money",
+      "brandGroup": "PEPPER MONEY",
+      "abn": "55094317665",
+      "industries": [
+        "non-bank-lending"
+      ]
+    }
+  ],
+  "list": {
+    "ok": true,
+    "status": 200,
+    "version": "5",
+    "totalPages": 1,
+    "pagesFetched": 1,
+    "productCount": 21,
+    "categoryCounts": {
+      "RESIDENTIAL_MORTGAGES": 18,
+      "BUSINESS_LOANS": 1,
+      "PERS_LOANS": 2
+    }
+  },
+  "products": []
+}

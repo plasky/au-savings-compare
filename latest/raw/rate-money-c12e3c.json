@@ -1,0 +1,27 @@
+{
+  "endpoint": "https://api.ram.openbanking.prod.peppermoney.com.au/cds-au/v1/banking/products",
+  "slug": "rate-money-c12e3c",
+  "brands": [
+    {
+      "dataHolderBrandId": "001ae15f-7940-f111-9a91-000d3ae0db82",
+      "brandName": "Rate Money",
+      "brandGroup": null,
+      "abn": "55094317665",
+      "industries": [
+        "non-bank-lending"
+      ]
+    }
+  ],
+  "list": {
+    "ok": true,
+    "status": 200,
+    "version": "5",
+    "totalPages": 1,
+    "pagesFetched": 1,
+    "productCount": 4,
+    "categoryCounts": {
+      "RESIDENTIAL_MORTGAGES": 4
+    }
+  },
+  "products": []
+}

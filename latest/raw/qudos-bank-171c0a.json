@@ -1,0 +1,1707 @@
+{
+  "endpoint": "https://public.cdr.qudosbank.com.au/cds-au/v1/banking/products",
+  "slug": "qudos-bank-171c0a",
+  "brands": [
+    {
+      "dataHolderBrandId": "ac4892a0-44ad-eb11-a822-000d3a884a20",
+      "brandName": "Qudos Bank",
+      "brandGroup": null,
+      "abn": "21087651607",
+      "industries": [
+        "banking"
+      ]
+    }
+  ],
+  "list": {
+    "ok": true,
+    "status": 200,
+    "version": "5",
+    "totalPages": 1,
+    "pagesFetched": 1,
+    "productCount": 16,
+    "categoryCounts": {
+      "RESIDENTIAL_MORTGAGES": 4,
+      "TRANS_AND_SAVINGS_ACCOUNTS": 6,
+      "TERM_DEPOSITS": 1,
+      "CRED_AND_CHRG_CARDS": 3,
+      "PERS_LOANS": 2
+    }
+  },
+  "products": [
+    {
+      "productId": "0163af4a-b66d-4b8f-9742-5c6a8a844f55",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "additionalInformation": {
+          "eligibilityUri": "https://www.qudosbank.com.au/products/savings-accounts/qsaver",
+          "feesAndPricingUri": "https://www.qudosbank.com.au/products/savings-accounts/qsaver",
+          "overviewUri": "https://www.qudosbank.com.au/products/savings-accounts/qsaver",
+          "termsUri": "https://www.qudosbank.com.au/support/legal/new-to-bank-terms-and-conditions"
+        },
+        "applicationUri": "https://join.qudosbank.com.au/#/welcome?productcode=120",
+        "brand": "Qudos Bank",
+        "description": "Savings made simple. Take your savings to the next level, with Qudos Bank's QSaver.",
+        "effectiveFrom": "2005-08-22T14:30:00.000Z",
+        "isTailored": false,
+        "lastUpdated": "2026-11-18T21:00:22.735Z",
+        "name": "Qsaver",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "productId": "0163af4a-b66d-4b8f-9742-5c6a8a844f55",
+        "depositRates": [
+          {
+            "additionalInfoUri": "https://www.qudosbank.com.au/products/savings-accounts/qsaver",
+            "applicationFrequency": "P1M",
+            "applicationType": "PERIODIC",
+            "calculationFrequency": "P1D",
+            "depositRateType": "VARIABLE",
+            "rate": "0.0485",
+            "tiers": [
+              {
+                "maximumValue": "499999.99",
+                "minimumValue": "0.00",
+                "name": "$0 - $499,999.99",
+                "rateApplicationMethod": "PER_TIER",
+                "unitOfMeasure": "DOLLAR"
+              }
+            ]
+          },
+          {
+            "applicationFrequency": "P1M",
+            "applicationType": "PERIODIC",
+            "calculationFrequency": "P1D",
+            "depositRateType": "VARIABLE",
+            "rate": "0.0495",
+            "tiers": [
+              {
+                "maximumValue": "1999999.99",
+                "minimumValue": "500000.00",
+                "name": "$500,000 - $1,999,999.99",
+                "rateApplicationMethod": "PER_TIER",
+                "unitOfMeasure": "DOLLAR"
+              }
+            ]
+          },
+          {
+            "applicationFrequency": "P1M",
+            "applicationType": "PERIODIC",
+            "calculationFrequency": "P1D",
+            "depositRateType": "VARIABLE",
+            "rate": "0.0325",
+            "tiers": [
+              {
+                "minimumValue": "2000000.00",
+                "name": "$2,000,000+",
+                "rateApplicationMethod": "PER_TIER",
+                "unitOfMeasure": "DOLLAR"
+              }
+            ]
+          }
+        ],
+        "eligibility": [
+          {
+            "additionalInfo": "This product is only available to members who have a residential address in Australia.",
+            "additionalValue": "Australian Resident",
+            "eligibilityType": "RESIDENCY_STATUS"
+          }
+        ],
+        "features": [
+          {
+            "additionalInfo": "Instant funds transfer through Online Banking and App",
+            "additionalValue": "Instant funds transfer through Online Banking and App",
+            "featureType": "DIGITAL_BANKING"
+          },
+          {
+            "additionalInfo": "Grow your savings easily with no card access",
+            "featureType": "OTHER"
+          },
+          {
+            "additionalInfo": "Make external transfers to any Australian bank account",
+            "featureType": "OTHER"
+          },
+          {
+            "additionalInfo": "No minimum balance or fixed term",
+            "featureType": "OTHER"
+          },
+          {
+            "additionalValue": "BPAY",
+            "featureType": "BILL_PAYMENT"
+          },
+          {
+            "additionalInfo": "Set up direct debits and direct credits",
+            "featureType": "OTHER"
+          },
+          {
+            "featureType": "NPP_ENABLED"
+          },
+          {
+            "featureType": "NPP_PAYID"
+          }
+        ],
+        "fees": [
+          {
+            "additionalInfo": "This fee applies to each SMS Banking \nmessage sent to your mobile phone. \nThe fee will be debited to your main savings account (S0) at \nthe time the SMS is sent. Your telecommunications provider \nmay also charge you a fee for sending and receiving SMS.\nNote: This service is not to be mistaken with QSafe \nSMS Authentication – which is a free service.",
+            "feeMethodUType": "fixedAmount",
+            "feeType": "EVENT",
+            "fixedAmount": {
+              "amount": "0.25"
+            },
+            "name": "SMS Banking Requests"
+          },
+          {
+            "additionalInfo": "This fee applies to telegraphic transfers on behalf of Members, \narranged via Westpac. This fee will be charged at the time of \nthe transfer",
+            "additionalInfoUri": "https://www.qudosbank.com.au/documents/fees-charges",
+            "feeMethodUType": "fixedAmount",
+            "feeType": "EVENT",
+            "fixedAmount": {
+              "amount": "20.00"
+            },
+            "name": "Domestic Telegraphic Transfer"
+          },
+          {
+            "additionalInfo": "At the request of Members, we can \nprovide certain foreign exchange and \npayment services. We may receive a \ncommission for providing these services \nto you, refer to our FSG for details. ",
+            "feeMethodUType": "fixedAmount",
+            "feeType": "EVENT",
+            "fixedAmount": {
+              "amount": "10.00"
+            },
+            "name": "International telegraphic transfer online"
+          },
+          {
+            "feeMethodUType": "fixedAmount",
+            "feeType": "EVENT",
+            "fixedAmount": {
+              "amount": "30.00"
+            },
+            "name": "International telegraphic transfers phone or email assisted  (sent in foreign currency)"
+          },
+          {
+            "additionalInfo": "This fee applies to foreign cheques deposited on behalf of \nMembers, via Convera. This fee will be charged at the time \nof the deposit.",
+            "feeMethodUType": "fixedAmount",
+            "feeType": "EVENT",
+            "fixedAmount": {
+              "amount": "50.00"
+            },
+            "name": "Foreign Cheque Deposits AUD$5,000 and over"
+          },
+          {
+            "additionalInfo": "This fee applies to foreign cheques deposited on behalf of \nMembers, via Convera. This fee will be charged at the time \nof the deposit.",
+            "feeMethodUType": "fixedAmount",
+            "feeType": "EVENT",
+            "fixedAmount": {
+              "amount": "20.00"
+            },
+            "name": "Foreign Cheque Deposits under AUD$5000"
+          },
+          {
+            "feeMethodUType": "fixedAmount",
+            "feeType": "EVENT",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "name": "Electronic debit rejection fee"
+          },
+          {
+            "additionalInfo": "This fee is applied if one or more savings accounts under a member number have been classified as dormant. An account is classified as dormant if there have been no member-initiated transactions for 12 months and we have followed the procedures required by our Constitution. This fee is charged annually per member and is typically applied at the start of each calendar year.",
+            "additionalValue": "P1Y",
+            "feeMethodUType": "fixedAmount",
+            "feeType": "PERIODIC",
+            "fixedAmount": {
+              "amount": "10.00"
+            },
+            "name": "Dormant Accounts"
+          },
+          {
+            "additionalInfo": "No charge applies for copies of documents such as loan or withdrawal forms.",
+            "feeMethodUType": "fixedAmount",
+            "feeType": "EVENT",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "name": "Copies of documents other than statements"
+          },
+          {
+            "additionalInfo": "This fee is applied when a Member requests a copy of a statement \non an account for a period more than 3 months before the request. \nThere is no charge for copies of statements less than 3 months \nold. This fee will be charged at the time the copy is provided.",
+            "feeMethodUType": "fixedAmount",
+            "feeType": "EVENT",
+            "fixedAmount": {
+              "amount": "5.00"
+            },
+            "name": "Statement Copies"
+          },
+          {
+            "additionalValue": "P1Y",
+            "feeMethodUType": "fixedAmount",
+            "feeType": "PERIODIC",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "name": "Account Keeping Fee"
+          },
+          {
+            "additionalInfo": "This fee is applied for each cheque deposited to a Member's account which is subsequently rejected. This fee will be charged at the time of the rejection.",
+            "feeMethodUType": "fixedAmount",
+            "feeType": "DEPOSIT",
+            "fixedAmount": {
+              "amount": "15.00"
+            },
+            "name": "Inward cheque rejection fee"
+          }
+        ]
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "3f147739-6090-4a17-9690-05284e62a820",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "additionalInformation": {
+          "eligibilityUri": "https://www.qudosbank.com.au/products/savings-accounts/bonus-saver",
+          "feesAndPricingUri": "https://www.qudosbank.com.au/products/savings-accounts/bonus-saver",
+          "overviewUri": "https://www.qudosbank.com.au/products/savings-accounts/bonus-saver",
+          "termsUri": "https://www.qudosbank.com.au/support/legal/new-to-bank-terms-and-conditions"
+        },
+        "applicationUri": "https://join.qudosbank.com.au/#/welcome?productcode=121",
+        "brand": "Qudos Bank",
+        "description": "Boost your savings when you make no withdrawals in a calendar month. Start building a strong financial future with no minimum deposit.",
+        "effectiveFrom": "2009-09-22T14:30:00.000Z",
+        "isTailored": false,
+        "lastUpdated": "2026-11-18T21:00:23.437Z",
+        "name": "Bonus Saver",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "productId": "3f147739-6090-4a17-9690-05284e62a820",
+        "depositRates": [
+          {
+            "additionalInfo": "Earn a base rate on all balances, plus if you deposit at least $100 and make no withdrawals in a calendar month you'll receive the bonus rate on your savings.",
+            "additionalInfoUri": "https://www.qudosbank.com.au/products/savings-accounts/bonus-saver",
+            "applicationFrequency": "P1M",
+            "applicationType": "PERIODIC",
+            "calculationFrequency": "P1D",
+            "depositRateType": "VARIABLE",
+            "rate": "0.001"
+          },
+          {
+            "additionalInfo": "Deposit at least $100 and make no withdrawals in a calendar month to receive the bonus rate on your savings.",
+            "additionalInfoUri": "https://www.qudosbank.com.au/products/savings-accounts/bonus-saver",
+            "additionalValue": "Deposit at least $100 and make no withdrawals in a calendar month to receive the bonus rate on your savings.",
+            "applicabilityConditions": [
+              {
+                "additionalInfo": "Bonus interest when you deposit at least $100 in a calendar month.",
+                "additionalValue": "100.00",
+                "rateApplicabilityType": "MIN_DEPOSIT_AMOUNT"
+              },
+              {
+                "additionalInfo": "Bonus interest when you make no withdrawals in a calendar month.",
+                "additionalValue": "0.00",
+                "rateApplicabilityType": "MAX_WITHDRAWAL_AMOUNT"
+              }
+            ],
+            "applicationFrequency": "P1M",
+            "applicationType": "PERIODIC",
+            "calculationFrequency": "P1M",
+            "depositRateType": "BONUS",
+            "rate": "0.055",
+            "tiers": [
+              {
+                "maximumValue": "100000.00",
+                "minimumValue": "0.00",
+                "name": "$0 - $100,000",
+                "rateApplicationMethod": "PER_TIER",
+                "unitOfMeasure": "DOLLAR"
+              }
+            ]
+          },
+          {
+            "additionalInfo": "Deposit at least $100 and make no withdrawals in a calendar month to receive the bonus rate on your savings.",
+            "additionalValue": "Deposit at least $100 and make no withdrawals in a calendar month to receive the bonus rate on your savings.",
+            "applicabilityConditions": [
+              {
+                "additionalInfo": "Bonus interest when you deposit at least $100 in a calendar month.",
+                "additionalValue": "100.00",
+                "rateApplicabilityType": "MIN_DEPOSIT_AMOUNT"
+              },
+              {
+                "additionalInfo": "Bonus interest when you make no withdrawals in a calendar month.",
+                "additionalValue": "0.00",
+                "rateApplicabilityType": "MAX_WITHDRAWAL_AMOUNT"
+              }
+            ],
+            "applicationFrequency": "P1M",
+            "applicationType": "PERIODIC",
+            "calculationFrequency": "P1M",
+            "depositRateType": "BONUS",
+            "rate": "0.0515",
+            "tiers": [
+              {
+                "maximumValue": "1999999.99",
+                "minimumValue": "100000.01",
+                "name": "$100,000.01 - $1,999,999.99",
+                "rateApplicationMethod": "PER_TIER",
+                "unitOfMeasure": "DOLLAR"
+              }
+            ]
+          },
+          {
+            "additionalInfo": "Deposit at least $100 and make no withdrawals in a calendar month to receive the bonus rate on your savings.",
+            "additionalValue": "Deposit at least $100 and make no withdrawals in a calendar month to receive the bonus rate on your savings.",
+            "applicabilityConditions": [
+              {
+                "additionalInfo": "Bonus interest when you deposit at least $100 in a calendar month.",
+                "additionalValue": "100.00",
+                "rateApplicabilityType": "MIN_DEPOSIT_AMOUNT"
+              },
+              {
+                "additionalInfo": "Bonus interest when you make no withdrawals in a calendar month.",
+                "additionalValue": "0.00",
+                "rateApplicabilityType": "MAX_WITHDRAWAL_AMOUNT"
+              }
+            ],
+            "applicationFrequency": "P1M",
+            "applicationType": "PERIODIC",
+            "calculationFrequency": "P1M",
+            "depositRateType": "BONUS",
+            "rate": "0.0315",
+            "tiers": [
+              {
+                "minimumValue": "2000000.00",
+                "name": "$2000000+",
+                "rateApplicationMethod": "PER_TIER",
+                "unitOfMeasure": "DOLLAR"
+              }
+            ]
+          }
+        ],
+        "eligibility": [
+          {
+            "additionalInfo": "One personal account or one personal joint account per person can be applied",
+            "eligibilityType": "OTHER"
+          },
+          {
+            "additionalInfo": "This product is only available to members who have a residential address in Australia.",
+            "additionalValue": "Australian Resident",
+            "eligibilityType": "RESIDENCY_STATUS"
+          }
+        ],
+        "features": [
+          {
+            "additionalValue": "Pay your bills via BPAY®",
+            "featureType": "BILL_PAYMENT"
+          },
+          {
+            "additionalValue": "Access your funds through Online Banking and App, and by visiting your nearest branch",
+            "featureType": "DIGITAL_BANKING"
+          },
+          {
+            "additionalInfo": "Set up direct credits and direct debits",
+            "featureType": "OTHER"
+          },
+          {
+            "additionalInfo": "Interest calculated daily and credited to your account on the last day of the calendar month",
+            "featureType": "OTHER"
+          },
+          {
+            "featureType": "NPP_ENABLED"
+          },
+          {
+            "featureType": "NPP_PAYID"
+          }
+        ],
+        "fees": [
+          {
+            "additionalInfo": "This fee applies to each SMS Banking \nmessage sent to your mobile phone. \nThe fee will be debited to your main savings account (S0) at \nthe time the SMS is sent. Your telecommunications provider \nmay also charge you a fee for sending and receiving SMS.\nNote: This service is not to be mistaken with QSafe \nSMS Authentication – which is a free service.",
+            "feeMethodUType": "fixedAmount",
+            "feeType": "EVENT",
+            "fixedAmount": {
+              "amount": "0.25"
+            },
+            "name": "SMS Banking Requests"
+          },
+          {
+            "additionalInfo": "This fee applies to telegraphic transfers on behalf of Members, \narranged via Westpac. This fee will be charged at the time of \nthe transfer",
+            "additionalInfoUri": "https://www.qudosbank.com.au/documents/fees-charges",
+            "feeMethodUType": "fixedAmount",
+            "feeType": "EVENT",
+            "fixedAmount": {
+              "amount": "20.00"
+            },
+            "name": "Domestic Telegraphic Transfer"
+          },
+          {
+            "additionalInfo": "At the request of Members, we can \nprovide certain foreign exchange and \npayment services. We may receive a \ncommission for providing these services \nto you, refer to our FSG for details. ",
+            "feeMethodUType": "fixedAmount",
+            "feeType": "EVENT",
+            "fixedAmount": {
+              "amount": "10.00"
+            },
+            "name": "International telegraphic transfer online"
+          },
+          {
+            "feeMethodUType": "fixedAmount",
+            "feeType": "EVENT",
+            "fixedAmount": {
+              "amount": "30.00"
+            },
+            "name": "International telegraphic transfers phone or email assisted  (sent in foreign currency)"
+          },
+          {
+            "additionalInfo": "This fee applies to foreign cheques deposited on behalf of \nMembers, via Convera. This fee will be charged at the time \nof the deposit.",
+            "feeMethodUType": "fixedAmount",
+            "feeType": "EVENT",
+            "fixedAmount": {
+              "amount": "50.00"
+            },
+            "name": "Foreign Cheque Deposits AUD$5,000 and over"
+          },
+          {
+            "additionalInfo": "This fee applies to foreign cheques deposited on behalf of \nMembers, via Convera. This fee will be charged at the time \nof the deposit.",
+            "feeMethodUType": "fixedAmount",
+            "feeType": "EVENT",
+            "fixedAmount": {
+              "amount": "20.00"
+            },
+            "name": "Foreign Cheque Deposits under AUD$5000"
+          },
+          {
+            "additionalInfo": "This fee is applied for each cheque deposited to a Member's account which is subsequently rejected. This fee will be charged at the time of the rejection.",
+            "feeMethodUType": "fixedAmount",
+            "feeType": "DEPOSIT",
+            "fixedAmount": {
+              "amount": "15.00"
+            },
+            "name": "Inward cheque rejection fee"
+          },
+          {
+            "feeMethodUType": "fixedAmount",
+            "feeType": "EVENT",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "name": "Electronic debit rejection fee"
+          },
+          {
+            "additionalInfo": "This fee is applied if one or more savings accounts under a member number have been classified as dormant. An account is classified as dormant if there have been no member-initiated transactions for 12 months and we have followed the procedures required by our Constitution. This fee is charged annually per member and is typically applied at the start of each calendar year.",
+            "additionalValue": "P1Y",
+            "feeMethodUType": "fixedAmount",
+            "feeType": "PERIODIC",
+            "fixedAmount": {
+              "amount": "10.00"
+            },
+            "name": "Dormant Accounts"
+          },
+          {
+            "additionalInfo": "This fee is applied when a Member requests a copy of a statement \non an account for a period more than 3 months before the request. \nThere is no charge for copies of statements less than 3 months \nold. This fee will be charged at the time the copy is provided.",
+            "feeMethodUType": "fixedAmount",
+            "feeType": "EVENT",
+            "fixedAmount": {
+              "amount": "5.00"
+            },
+            "name": "Statement Copies"
+          },
+          {
+            "additionalInfo": "No charge applies for copies of documents such as loan or withdrawal forms.",
+            "feeMethodUType": "fixedAmount",
+            "feeType": "EVENT",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "name": "Copies of documents other than statements"
+          },
+          {
+            "additionalValue": "P1Y",
+            "feeMethodUType": "fixedAmount",
+            "feeType": "PERIODIC",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "name": "Account Keeping Fee"
+          }
+        ]
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "9fd443e8-0e52-466c-af81-3cdbe2c6030a",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "additionalInformation": {
+          "eligibilityUri": "https://www.qudosbank.com.au/products/savings-accounts/general-savings-account",
+          "feesAndPricingUri": "https://www.qudosbank.com.au/products/savings-accounts/general-savings-account",
+          "overviewUri": "https://www.qudosbank.com.au/products/savings-accounts/general-savings-account",
+          "termsUri": "https://www.qudosbank.com.au/support/legal/new-to-bank-terms-and-conditions"
+        },
+        "applicationUri": "https://join.qudosbank.com.au/#/welcome?productcode=100",
+        "brand": "Qudos Bank",
+        "cardArt": [
+          {
+            "imageUri": "https://cdn.prod.website-files.com/686c54fd8bf32f902b5a3c61/68759dc4b70aeb80d077f636_42_QudosBank_CreditCard_Debit_730x460.png",
+            "title": "VISA Debit Card",
+            "cardType": "DEBIT",
+            "cardScheme": "VISA"
+          }
+        ],
+        "description": "Your everyday account, and a gateway to easy banking.",
+        "effectiveFrom": "2001-07-02T14:30:00.000Z",
+        "isTailored": false,
+        "lastUpdated": "2026-04-29T23:00:25.019Z",
+        "name": "General Savings Account",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "productId": "9fd443e8-0e52-466c-af81-3cdbe2c6030a",
+        "fees": [
+          {
+            "name": "Inward cheque rejection fee",
+            "additionalInfo": "This fee is applied for each cheque deposited to a Member's account which is subsequently rejected. This fee will be charged at the time of the rejection.",
+            "fixedAmount": {
+              "amount": "15.00"
+            },
+            "feeType": "DEPOSIT",
+            "feeMethodUType": "fixedAmount"
+          },
+          {
+            "name": "ATM Transactions",
+            "additionalInfo": "A fee may apply to use ATMs in \nAustralia or overseas. This fee may be \ncharged by the owner of the ATM at \nthe time of the withdrawal. \nMembers should be advised by the ATM owner of the amount \nof the fee prior to the transaction and be asked to accept the \nfee to continue with the transaction.\n",
+            "variable": {
+              "feeMinimum": "0.00",
+              "feeMaximum": "0.00"
+            },
+            "feeType": "OTHER",
+            "feeMethodUType": "variable"
+          },
+          {
+            "rateBased": {
+              "rateType": "TRANSACTION",
+              "rate": "0.03"
+            },
+            "name": "Overseas Card Transactions",
+            "additionalInfo": "This fee applies to foreign currency transactions made using \na Visa Card, and includes a currency conversion assessment \nof 1% by Visa International. For example, if the value of the \ntransaction is $100, the fee would be $3.00 (including a currency \nconversion assessment of $1.00).\nPlease note that some online merchants may display a price \nin Australian dollars but process the transaction in a \nforeign currency.",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "rateBased"
+          },
+          {
+            "name": "SMS Banking Requests",
+            "additionalInfo": "This fee applies to each SMS Banking \nmessage sent to your mobile phone. \nThe fee will be debited to your main savings account (S0) at \nthe time the SMS is sent. Your telecommunications provider \nmay also charge you a fee for sending and receiving SMS.\nNote: This service is not to be mistaken with QSafe \nSMS Authentication – which is a free service.",
+            "fixedAmount": {
+              "amount": "0.25"
+            },
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount"
+          },
+          {
+            "additionalInfoUri": "https://www.qudosbank.com.au/documents/fees-charges",
+            "name": "Domestic Telegraphic Transfer",
+            "additionalInfo": "This fee applies to telegraphic transfers on behalf of Members, \narranged via Westpac. This fee will be charged at the time of \nthe transfer",
+            "fixedAmount": {
+              "amount": "20.00"
+            },
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount"
+          },
+          {
+            "name": "International telegraphic transfer online",
+            "additionalInfo": "At the request of Members, we can \nprovide certain foreign exchange and \npayment services. We may receive a \ncommission for providing these services \nto you, refer to our FSG for details. ",
+            "fixedAmount": {
+              "amount": "10.00"
+            },
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount"
+          },
+          {
+            "name": "International telegraphic transfers phone or email assisted  (sent in foreign currency)",
+            "fixedAmount": {
+              "amount": "30.00"
+            },
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount"
+          },
+          {
+            "name": "Foreign Cheque Deposits under AUD$5000",
+            "additionalInfo": "This fee applies to foreign cheques deposited on behalf of \nMembers, via Convera. This fee will be charged at the time \nof the deposit.",
+            "fixedAmount": {
+              "amount": "20.00"
+            },
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount"
+          },
+          {
+            "name": "Foreign Cheque Deposits AUD$5,000 and over",
+            "additionalInfo": "This fee applies to foreign cheques deposited on behalf of \nMembers, via Convera. This fee will be charged at the time \nof the deposit.",
+            "fixedAmount": {
+              "amount": "50.00"
+            },
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount"
+          },
+          {
+            "name": "Replacement Cards",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount"
+          },
+          {
+            "name": "Electronic debit rejection fee",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount"
+          },
+          {
+            "name": "Emergency Overseas Visa Cash Advance",
+            "additionalInfo": "Visa International can arrange for a cash advance to be issued \nif your card is lost, stolen or damaged whilst you are overseas. \nIt should be noted that this fee can be avoided by obtaining \ncash from any bank displaying the Visa logo after an emergency \ncard has been issued by Visa International.\nImportant: If you apply for an emergency replacement card \nand an emergency cash advance from Visa International, \nyour Qudos Bank account will be debited with both fees \namounting to US$350.00.",
+            "currency": "USD",
+            "fixedAmount": {
+              "amount": "175.00"
+            },
+            "feeType": "REPLACEMENT",
+            "feeMethodUType": "fixedAmount"
+          },
+          {
+            "name": "Emergency Overseas Visa Replacement Card",
+            "additionalInfo": "Visa International can arrange for the issue of an emergency \nreplacement card if your card is lost, stolen or damaged whilst \nyou are overseas. Visa International bills this charge to your \nQudos Bank account",
+            "currency": "USD",
+            "fixedAmount": {
+              "amount": "175.00"
+            },
+            "feeType": "REPLACEMENT",
+            "feeMethodUType": "fixedAmount"
+          },
+          {
+            "name": "Dormant Accounts",
+            "additionalInfo": "This fee is applied if one or more savings accounts under a member number have been classified as dormant. An account is classified as dormant if there have been no member-initiated transactions for 12 months and we have followed the procedures required by our Constitution. This fee is charged annually per member and is typically applied at the start of each calendar year.",
+            "additionalValue": "P1Y",
+            "fixedAmount": {
+              "amount": "10.00"
+            },
+            "feeType": "PERIODIC",
+            "feeMethodUType": "fixedAmount"
+          },
+          {
+            "name": "Copies of documents other than statements",
+            "additionalInfo": "No charge applies for copies of documents such as loan or withdrawal forms.",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount"
+          },
+          {
+            "name": "Statement Copies",
+            "additionalInfo": "This fee is applied when a Member requests a copy of a statement \non an account for a period more than 3 months before the request. \nThere is no charge for copies of statements less than 3 months \nold. This fee will be charged at the time the copy is provided.",
+            "fixedAmount": {
+              "amount": "5.00"
+            },
+            "feeType": "EVENT",
+            "feeMethodUType": "fixedAmount"
+          },
+          {
+            "name": "Account Keeping Fee",
+            "additionalValue": "P1Y",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "feeType": "PERIODIC",
+            "feeMethodUType": "fixedAmount"
+          }
+        ],
+        "eligibility": [
+          {
+            "additionalInfo": "This product is only available to members who have a residential address in Australia.",
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalValue": "Australian Resident"
+          }
+        ],
+        "depositRates": [
+          {
+            "applicationType": "PERIODIC",
+            "tiers": [
+              {
+                "name": "$0 - $49,999.99",
+                "minimumValue": "0.00",
+                "unitOfMeasure": "DOLLAR",
+                "maximumValue": "49999.99",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "rate": "0",
+            "additionalInfoUri": "https://www.qudosbank.com.au/products/savings-accounts/general-savings-account#rates",
+            "applicationFrequency": "P1M",
+            "depositRateType": "VARIABLE",
+            "calculationFrequency": "P1D"
+          },
+          {
+            "applicationType": "PERIODIC",
+            "tiers": [
+              {
+                "name": "$50,000+",
+                "minimumValue": "50000.00",
+                "unitOfMeasure": "DOLLAR",
+                "rateApplicationMethod": "WHOLE_BALANCE"
+              }
+            ],
+            "rate": "0.0005",
+            "additionalInfoUri": "https://www.qudosbank.com.au/products/savings-accounts/general-savings-account#rates",
+            "applicationFrequency": "P1M",
+            "depositRateType": "VARIABLE",
+            "calculationFrequency": "P1D"
+          }
+        ],
+        "features": [
+          {
+            "featureType": "CARD_ACCESS",
+            "additionalInfo": "Optional Visa Debit card linked with a General Savings Account",
+            "additionalValue": "Visa"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Interest calculated daily and paid monthly"
+          },
+          {
+            "featureType": "BILL_PAYMENT",
+            "additionalValue": "BPAY"
+          },
+          {
+            "featureType": "DIGITAL_BANKING",
+            "additionalValue": "Online Banking & App"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Bank at Post using your access card"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Auto transfers set up on your account"
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Direct debits & credits"
+          },
+          {
+            "featureType": "NPP_ENABLED"
+          },
+          {
+            "featureType": "NPP_PAYID"
+          },
+          {
+            "featureType": "DIGITAL_WALLET",
+            "additionalValue": "Apple Pay, Google Pay, FitBit"
+          }
+        ]
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "a2261eee-2403-47b8-ad65-09f6f81d03a0",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "additionalInformation": {
+          "eligibilityUri": "https://www.qudosbank.com.au/products/super-investing/diy-super-saver",
+          "feesAndPricingUri": "https://www.qudosbank.com.au/products/super-investing/diy-super-saver",
+          "overviewUri": "https://www.qudosbank.com.au/products/super-investing/diy-super-saver",
+          "termsUri": "https://www.qudosbank.com.au/support/legal/new-to-bank-terms-and-conditions"
+        },
+        "applicationUri": "https://www.qudosbank.com.au/products/super-investing/diy-super-saver",
+        "brand": "Qudos Bank",
+        "description": "Give your Self-Managed Super Fund a boost.\nSecure a great rate with our DIY Super Saver account.\nEnjoy easy access to manage your DIY Super Saver online when you need it, or simply park your investment and watch it grow.\n\nYou must have a Self Managed Super Fund (SMSF) in order to acquire this product.",
+        "effectiveFrom": "2011-08-15T14:30:00.000Z",
+        "isTailored": false,
+        "lastUpdated": "2026-11-18T21:00:24.116Z",
+        "name": "DIY Super",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "productId": "a2261eee-2403-47b8-ad65-09f6f81d03a0",
+        "depositRates": [
+          {
+            "additionalInfoUri": "https://www.qudosbank.com.au/products/super-investing/diy-super-saver",
+            "applicationFrequency": "P1M",
+            "applicationType": "PERIODIC",
+            "calculationFrequency": "P1D",
+            "depositRateType": "VARIABLE",
+            "rate": "0.0035"
+          },
+          {
+            "additionalInfoUri": "https://www.qudosbank.com.au/products/super-investing/diy-super-saver",
+            "additionalValue": "Bonus Rate applied if no withdrawals are made during the month.",
+            "applicationFrequency": "P1M",
+            "applicationType": "PERIODIC",
+            "calculationFrequency": "P1D",
+            "depositRateType": "BONUS",
+            "rate": "0",
+            "tiers": [
+              {
+                "maximumValue": "9999.99",
+                "minimumValue": "0.00",
+                "name": "Below $10,000",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "unitOfMeasure": "DOLLAR"
+              }
+            ]
+          },
+          {
+            "additionalValue": "Bonus Rate applied if no withdrawals are made during the month.",
+            "applicabilityConditions": [
+              {
+                "additionalInfo": "Bonus interest when you make no withdrawals in a calendar month",
+                "rateApplicabilityType": "OTHER"
+              }
+            ],
+            "applicationFrequency": "P1M",
+            "applicationType": "PERIODIC",
+            "calculationFrequency": "P1M",
+            "depositRateType": "BONUS",
+            "rate": "0.0485",
+            "tiers": [
+              {
+                "minimumValue": "10000.00",
+                "name": "$10,000 & over",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "unitOfMeasure": "DOLLAR"
+              }
+            ]
+          }
+        ],
+        "eligibility": [
+          {
+            "additionalInfo": "Only available to ATO approved self managed super funds",
+            "eligibilityType": "BUSINESS"
+          },
+          {
+            "additionalInfo": "This product is only available to members who have a residential address in Australia.",
+            "additionalValue": "Australian Resident",
+            "eligibilityType": "RESIDENCY_STATUS"
+          }
+        ],
+        "features": [
+          {
+            "additionalInfo": "No fixed term. Instant access to your cash when you want it!",
+            "featureType": "OTHER"
+          },
+          {
+            "additionalInfo": "Interest calculated daily and credited to your account at the end of the month",
+            "featureType": "OTHER"
+          },
+          {
+            "additionalInfo": "Covered under the Financial Claims Scheme",
+            "featureType": "OTHER"
+          },
+          {
+            "additionalInfo": "Earn a bonus rate when your balance is $10,000 or more and you make no withdrawals in a month.",
+            "featureType": "OTHER"
+          },
+          {
+            "additionalValue": "BPAY",
+            "featureType": "BILL_PAYMENT"
+          },
+          {
+            "additionalInfo": "Access via Online Banking or App",
+            "featureType": "DIGITAL_BANKING"
+          },
+          {
+            "additionalInfo": "Set up direct debits or direct credits",
+            "featureType": "OTHER"
+          },
+          {
+            "featureType": "NPP_ENABLED"
+          },
+          {
+            "featureType": "NPP_PAYID"
+          }
+        ],
+        "fees": [
+          {
+            "additionalInfo": "This fee applies to foreign cheques deposited on behalf of \nMembers, via Convera. This fee will be charged at the time \nof the deposit.",
+            "feeMethodUType": "fixedAmount",
+            "feeType": "EVENT",
+            "fixedAmount": {
+              "amount": "20.00"
+            },
+            "name": "Foreign Cheque Deposits under AUD$5000"
+          },
+          {
+            "additionalInfo": "This fee is applied if one or more savings accounts under a member number have been classified as dormant. An account is classified as dormant if there have been no member-initiated transactions for 12 months and we have followed the procedures required by our Constitution. This fee is charged annually per member and is typically applied at the start of each calendar year.",
+            "additionalValue": "P1Y",
+            "feeMethodUType": "fixedAmount",
+            "feeType": "PERIODIC",
+            "fixedAmount": {
+              "amount": "10.00"
+            },
+            "name": "Dormant Accounts"
+          },
+          {
+            "additionalInfo": "No charge applies for copies of documents such as loan or withdrawal forms.",
+            "feeMethodUType": "fixedAmount",
+            "feeType": "EVENT",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "name": "Copies of documents other than statements"
+          },
+          {
+            "feeMethodUType": "fixedAmount",
+            "feeType": "EVENT",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "name": "Electronic debit rejection fee"
+          },
+          {
+            "additionalInfo": "This fee applies to foreign cheques deposited on behalf of \nMembers, via Convera. This fee will be charged at the time \nof the deposit.",
+            "feeMethodUType": "fixedAmount",
+            "feeType": "EVENT",
+            "fixedAmount": {
+              "amount": "50.00"
+            },
+            "name": "Foreign Cheque Deposits AUD$5,000 and over"
+          },
+          {
+            "additionalInfo": "This fee is applied for each cheque deposited to a Member's account which is subsequently rejected. This fee will be charged at the time of the rejection.",
+            "feeMethodUType": "fixedAmount",
+            "feeType": "DEPOSIT",
+            "fixedAmount": {
+              "amount": "15.00"
+            },
+            "name": "Inward cheque rejection fee"
+          },
+          {
+            "feeMethodUType": "fixedAmount",
+            "feeType": "EVENT",
+            "fixedAmount": {
+              "amount": "30.00"
+            },
+            "name": "International telegraphic transfers phone or email assisted  (sent in foreign currency)"
+          },
+          {
+            "additionalInfo": "This fee applies to telegraphic transfers on behalf of Members, \narranged via Westpac. This fee will be charged at the time of \nthe transfer",
+            "additionalInfoUri": "https://www.qudosbank.com.au/documents/fees-charges",
+            "feeMethodUType": "fixedAmount",
+            "feeType": "EVENT",
+            "fixedAmount": {
+              "amount": "20.00"
+            },
+            "name": "Domestic Telegraphic Transfer"
+          },
+          {
+            "additionalInfo": "At the request of Members, we can \nprovide certain foreign exchange and \npayment services. We may receive a \ncommission for providing these services \nto you, refer to our FSG for details. ",
+            "feeMethodUType": "fixedAmount",
+            "feeType": "EVENT",
+            "fixedAmount": {
+              "amount": "10.00"
+            },
+            "name": "International telegraphic transfer online"
+          },
+          {
+            "additionalInfo": "This fee applies to each SMS Banking \nmessage sent to your mobile phone. \nThe fee will be debited to your main savings account (S0) at \nthe time the SMS is sent. Your telecommunications provider \nmay also charge you a fee for sending and receiving SMS.\nNote: This service is not to be mistaken with QSafe \nSMS Authentication – which is a free service.",
+            "feeMethodUType": "fixedAmount",
+            "feeType": "EVENT",
+            "fixedAmount": {
+              "amount": "0.25"
+            },
+            "name": "SMS Banking Requests"
+          },
+          {
+            "additionalValue": "P1Y",
+            "feeMethodUType": "fixedAmount",
+            "feeType": "PERIODIC",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "name": "Account Keeping Fee"
+          }
+        ]
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "d1b7df1e-f639-4fbd-872b-6d76ce0b39a9",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "additionalInformation": {
+          "eligibilityUri": "https://www.qudosbank.com.au/products/savings-accounts/qantas-points-saver",
+          "feesAndPricingUri": "https://www.qudosbank.com.au/products/savings-accounts/qantas-points-saver",
+          "overviewUri": "https://www.qudosbank.com.au/products/savings-accounts/qantas-points-saver",
+          "termsUri": "https://www.qudosbank.com.au/support/legal/new-to-bank-terms-and-conditions"
+        },
+        "applicationUri": "https://join.qudosbank.com.au/#/welcome?productcode=126",
+        "brand": "Qudos Bank",
+        "description": "Saving has never been more rewarding. Earn more than just interest, plus get a complimentary Qantas Frequent Flyer membership*.",
+        "effectiveFrom": "2013-01-21T13:30:00.000Z",
+        "isTailored": false,
+        "lastUpdated": "2026-11-18T21:00:24.796Z",
+        "name": "Qantas Points Saver",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "productId": "d1b7df1e-f639-4fbd-872b-6d76ce0b39a9",
+        "depositRates": [
+          {
+            "additionalInfoUri": "https://www.qudosbank.com.au/products/savings-accounts/qantas-points-saver",
+            "applicationFrequency": "P1M",
+            "applicationType": "PERIODIC",
+            "calculationFrequency": "P1D",
+            "depositRateType": "VARIABLE",
+            "rate": "0.047"
+          }
+        ],
+        "eligibility": [
+          {
+            "additionalInfo": "Qantas Point Saver is only available to personal members",
+            "eligibilityType": "NATURAL_PERSON"
+          },
+          {
+            "additionalInfo": "One personal account or one personal joint account per person can be applied",
+            "additionalInfoUri": "https://www.qudosbank.com.au/products/savings-accounts/qantas-points-saver",
+            "eligibilityType": "OTHER"
+          },
+          {
+            "additionalInfo": "This product is only available to members who have a residential address in Australia.",
+            "additionalValue": "Australian Resident",
+            "eligibilityType": "RESIDENCY_STATUS"
+          }
+        ],
+        "features": [
+          {
+            "additionalInfo": "Receive a complimentary Qantas Frequent Flyer membership",
+            "additionalValue": "Qantas Frequent Flyer",
+            "featureType": "LOYALTY_PROGRAM"
+          },
+          {
+            "additionalInfo": "No penalties for withdrawing funds",
+            "featureType": "OTHER"
+          },
+          {
+            "additionalInfo": "Qantas Points can be earned on balances up to $1,000,000",
+            "featureType": "OTHER"
+          },
+          {
+            "additionalInfo": "Earn 400 Qantas Points* per annum for every $1000 of your balance, credited monthly",
+            "featureType": "OTHER"
+          },
+          {
+            "additionalValue": "BPAY",
+            "featureType": "BILL_PAYMENT"
+          },
+          {
+            "additionalInfo": "Access via Online Banking or App",
+            "featureType": "DIGITAL_BANKING"
+          },
+          {
+            "additionalInfo": "Set up direct debits and direct credits",
+            "featureType": "OTHER"
+          },
+          {
+            "featureType": "NPP_ENABLED"
+          },
+          {
+            "featureType": "NPP_PAYID"
+          }
+        ],
+        "fees": [
+          {
+            "feeMethodUType": "fixedAmount",
+            "feeType": "UPFRONT",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "name": "Application Fee"
+          },
+          {
+            "additionalInfo": "This fee applies to each SMS Banking \nmessage sent to your mobile phone. \nThe fee will be debited to your main savings account (S0) at \nthe time the SMS is sent. Your telecommunications provider \nmay also charge you a fee for sending and receiving SMS.\nNote: This service is not to be mistaken with QSafe \nSMS Authentication – which is a free service.",
+            "feeMethodUType": "fixedAmount",
+            "feeType": "EVENT",
+            "fixedAmount": {
+              "amount": "0.25"
+            },
+            "name": "SMS Banking Requests"
+          },
+          {
+            "additionalInfo": "This fee applies to telegraphic transfers on behalf of Members, \narranged via Westpac. This fee will be charged at the time of \nthe transfer",
+            "additionalInfoUri": "https://www.qudosbank.com.au/documents/fees-charges",
+            "feeMethodUType": "fixedAmount",
+            "feeType": "EVENT",
+            "fixedAmount": {
+              "amount": "20.00"
+            },
+            "name": "Domestic Telegraphic Transfer"
+          },
+          {
+            "additionalInfo": "At the request of Members, we can \nprovide certain foreign exchange and \npayment services. We may receive a \ncommission for providing these services \nto you, refer to our FSG for details. ",
+            "feeMethodUType": "fixedAmount",
+            "feeType": "EVENT",
+            "fixedAmount": {
+              "amount": "10.00"
+            },
+            "name": "International telegraphic transfer online"
+          },
+          {
+            "feeMethodUType": "fixedAmount",
+            "feeType": "EVENT",
+            "fixedAmount": {
+              "amount": "30.00"
+            },
+            "name": "International telegraphic transfers phone or email assisted  (sent in foreign currency)"
+          },
+          {
+            "additionalInfo": "This fee is applied for each cheque deposited to a Member's account which is subsequently rejected. This fee will be charged at the time of the rejection.",
+            "feeMethodUType": "fixedAmount",
+            "feeType": "DEPOSIT",
+            "fixedAmount": {
+              "amount": "15.00"
+            },
+            "name": "Inward cheque rejection fee"
+          },
+          {
+            "feeMethodUType": "fixedAmount",
+            "feeType": "EVENT",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "name": "Electronic debit rejection fee"
+          },
+          {
+            "additionalInfo": "This fee is applied if one or more savings accounts under a member number have been classified as dormant. An account is classified as dormant if there have been no member-initiated transactions for 12 months and we have followed the procedures required by our Constitution. This fee is charged annually per member and is typically applied at the start of each calendar year.",
+            "additionalValue": "P1Y",
+            "feeMethodUType": "fixedAmount",
+            "feeType": "PERIODIC",
+            "fixedAmount": {
+              "amount": "10.00"
+            },
+            "name": "Dormant Accounts"
+          },
+          {
+            "additionalInfo": "This fee is applied when a Member requests a copy of a statement \non an account for a period more than 3 months before the request. \nThere is no charge for copies of statements less than 3 months \nold. This fee will be charged at the time the copy is provided.",
+            "feeMethodUType": "fixedAmount",
+            "feeType": "EVENT",
+            "fixedAmount": {
+              "amount": "5.00"
+            },
+            "name": "Statement Copies"
+          },
+          {
+            "additionalInfo": "No charge applies for copies of documents such as loan or withdrawal forms.",
+            "feeMethodUType": "fixedAmount",
+            "feeType": "EVENT",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "name": "Copies of documents other than statements"
+          },
+          {
+            "additionalInfo": "This fee applies to foreign cheques deposited on behalf of \nMembers, via Convera. This fee will be charged at the time \nof the deposit.",
+            "feeMethodUType": "fixedAmount",
+            "feeType": "EVENT",
+            "fixedAmount": {
+              "amount": "50.00"
+            },
+            "name": "Foreign Cheque Deposits AUD$5,000 and over"
+          },
+          {
+            "additionalInfo": "This fee applies to foreign cheques deposited on behalf of \nMembers, via Convera. This fee will be charged at the time \nof the deposit.",
+            "feeMethodUType": "fixedAmount",
+            "feeType": "EVENT",
+            "fixedAmount": {
+              "amount": "20.00"
+            },
+            "name": "Foreign Cheque Deposits under AUD$5000"
+          },
+          {
+            "additionalValue": "P1Y",
+            "feeMethodUType": "fixedAmount",
+            "feeType": "PERIODIC",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "name": "Account Keeping Fee"
+          }
+        ]
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "d702289f-02a7-4d4a-a781-5bab566c0721",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "additionalInformation": {
+          "eligibilityUri": "https://www.qudosbank.com.au/products/savings-accounts/cash-management-account",
+          "feesAndPricingUri": "https://www.qudosbank.com.au/products/savings-accounts/cash-management-account",
+          "overviewUri": "https://www.qudosbank.com.au/products/savings-accounts/cash-management-account",
+          "termsUri": "https://www.qudosbank.com.au/support/legal/new-to-bank-terms-and-conditions"
+        },
+        "applicationUri": "https://www.qudosbank.com.au/products/savings-accounts/cash-management-account",
+        "brand": "Qudos Bank",
+        "description": "A savings account with easy access to funds",
+        "effectiveFrom": "2013-11-04T13:30:00.000Z",
+        "isTailored": false,
+        "lastUpdated": "2026-11-18T23:06:42.344Z",
+        "name": "Cash Management Account",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "productId": "d702289f-02a7-4d4a-a781-5bab566c0721",
+        "depositRates": [
+          {
+            "applicationFrequency": "P1M",
+            "applicationType": "PERIODIC",
+            "calculationFrequency": "P1D",
+            "depositRateType": "VARIABLE",
+            "rate": "0.04"
+          }
+        ],
+        "eligibility": [
+          {
+            "additionalInfo": "This product is only available to members who have a residential address in Australia.",
+            "additionalValue": "Australian Resident",
+            "eligibilityType": "RESIDENCY_STATUS"
+          }
+        ],
+        "features": [
+          {
+            "additionalInfo": "You can use BPAY to pay bills bearing the BPAY logo from those accounts that have the BPAY facility.",
+            "additionalValue": "BPAY",
+            "featureType": "BILL_PAYMENT"
+          },
+          {
+            "additionalInfo": "Access your funds through Online Banking and App, and by dropping into your nearest branch",
+            "additionalInfoUri": "https://www.qudosbank.com.au/about-us/ways-to-bank/digital-banking",
+            "featureType": "DIGITAL_BANKING"
+          },
+          {
+            "additionalInfo": "Set up direct credits and direct debits",
+            "featureType": "OTHER"
+          },
+          {
+            "additionalInfo": "Make external transfers to any Australian bank account",
+            "featureType": "OTHER"
+          },
+          {
+            "featureType": "NPP_ENABLED"
+          },
+          {
+            "featureType": "NPP_PAYID"
+          }
+        ],
+        "fees": [
+          {
+            "additionalInfo": "This fee applies to each SMS Banking \nmessage sent to your mobile phone. \nThe fee will be debited to your main savings account (S0) at \nthe time the SMS is sent. Your telecommunications provider \nmay also charge you a fee for sending and receiving SMS.\nNote: This service is not to be mistaken with QSafe \nSMS Authentication – which is a free service.",
+            "feeMethodUType": "fixedAmount",
+            "feeType": "EVENT",
+            "fixedAmount": {
+              "amount": "0.25"
+            },
+            "name": "SMS Banking Requests"
+          },
+          {
+            "additionalInfo": "This fee applies to telegraphic transfers on behalf of Members, \narranged via Westpac. This fee will be charged at the time of \nthe transfer",
+            "additionalInfoUri": "https://www.qudosbank.com.au/documents/fees-charges",
+            "feeMethodUType": "fixedAmount",
+            "feeType": "EVENT",
+            "fixedAmount": {
+              "amount": "20.00"
+            },
+            "name": "Domestic Telegraphic Transfer"
+          },
+          {
+            "additionalInfo": "At the request of Members, we can \nprovide certain foreign exchange and \npayment services. We may receive a \ncommission for providing these services \nto you, refer to our FSG for details. ",
+            "feeMethodUType": "fixedAmount",
+            "feeType": "EVENT",
+            "fixedAmount": {
+              "amount": "10.00"
+            },
+            "name": "International telegraphic transfer online"
+          },
+          {
+            "feeMethodUType": "fixedAmount",
+            "feeType": "EVENT",
+            "fixedAmount": {
+              "amount": "30.00"
+            },
+            "name": "International telegraphic transfers phone or email assisted  (sent in foreign currency)"
+          },
+          {
+            "additionalInfo": "This fee applies to foreign cheques deposited on behalf of \nMembers, via Convera. This fee will be charged at the time \nof the deposit.",
+            "feeMethodUType": "fixedAmount",
+            "feeType": "EVENT",
+            "fixedAmount": {
+              "amount": "50.00"
+            },
+            "name": "Foreign Cheque Deposits AUD$5,000 and over"
+          },
+          {
+            "additionalInfo": "This fee applies to foreign cheques deposited on behalf of \nMembers, via Convera. This fee will be charged at the time \nof the deposit.",
+            "feeMethodUType": "fixedAmount",
+            "feeType": "EVENT",
+            "fixedAmount": {
+              "amount": "20.00"
+            },
+            "name": "Foreign Cheque Deposits under AUD$5000"
+          },
+          {
+            "additionalInfo": "This fee is applied for each cheque deposited to a Member's account which is subsequently rejected. This fee will be charged at the time of the rejection.",
+            "feeMethodUType": "fixedAmount",
+            "feeType": "DEPOSIT",
+            "fixedAmount": {
+              "amount": "15.00"
+            },
+            "name": "Inward cheque rejection fee"
+          },
+          {
+            "feeMethodUType": "fixedAmount",
+            "feeType": "EVENT",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "name": "Electronic debit rejection fee"
+          },
+          {
+            "additionalInfo": "This fee is applied if one or more savings accounts under a member number have been classified as dormant. An account is classified as dormant if there have been no member-initiated transactions for 12 months and we have followed the procedures required by our Constitution. This fee is charged annually per member and is typically applied at the start of each calendar year.",
+            "additionalValue": "P1Y",
+            "feeMethodUType": "fixedAmount",
+            "feeType": "PERIODIC",
+            "fixedAmount": {
+              "amount": "10.00"
+            },
+            "name": "Dormant Accounts"
+          },
+          {
+            "additionalInfo": "This fee is applied when a Member requests a copy of a statement \non an account for a period more than 3 months before the request. \nThere is no charge for copies of statements less than 3 months \nold. This fee will be charged at the time the copy is provided.",
+            "feeMethodUType": "fixedAmount",
+            "feeType": "EVENT",
+            "fixedAmount": {
+              "amount": "5.00"
+            },
+            "name": "Statement Copies"
+          },
+          {
+            "additionalInfo": "No charge applies for copies of documents such as loan or withdrawal forms.",
+            "feeMethodUType": "fixedAmount",
+            "feeType": "EVENT",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "name": "Copies of documents other than statements"
+          },
+          {
+            "additionalValue": "P1Y",
+            "feeMethodUType": "fixedAmount",
+            "feeType": "PERIODIC",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "name": "Account Keeping Fee"
+          }
+        ]
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "f435abef-eaed-4d9f-a535-5c2925645472",
+      "productCategory": "TERM_DEPOSITS",
+      "detail": {
+        "additionalInformation": {
+          "eligibilityUri": "https://www.qudosbank.com.au/products/savings-accounts/term-deposit",
+          "feesAndPricingUri": "https://www.qudosbank.com.au/products/savings-accounts/term-deposit",
+          "overviewUri": "https://www.qudosbank.com.au/products/savings-accounts/term-deposit",
+          "termsUri": "https://www.qudosbank.com.au/support/legal/new-to-bank-terms-and-conditions"
+        },
+        "applicationUri": "https://www.qudosbank.com.au/products/savings-accounts/term-deposit",
+        "brand": "Qudos Bank",
+        "description": "Choose from some of our most popular interest rates below, or call our team to discuss term deposit options up to 36 months. Once you have selected your term, your funds are invested for the time you have chosen.",
+        "effectiveFrom": "2001-07-02T14:30:00.000Z",
+        "isTailored": false,
+        "lastUpdated": "2026-11-16T21:00:26.339Z",
+        "name": "Term Deposits",
+        "productCategory": "TERM_DEPOSITS",
+        "productId": "f435abef-eaed-4d9f-a535-5c2925645472",
+        "constraints": [
+          {
+            "additionalInfo": "The minimum term deposit for standard term deposit products except for 3 month terms.\n",
+            "additionalValue": "5000.00",
+            "constraintType": "MIN_BALANCE"
+          },
+          {
+            "additionalInfo": "The minimum balance for 3 month standard term deposit product only",
+            "additionalValue": "2000.00",
+            "constraintType": "MIN_BALANCE"
+          },
+          {
+            "additionalInfo": "The minimum balance for special term deposits products only",
+            "additionalValue": "10000.00",
+            "constraintType": "MIN_BALANCE"
+          }
+        ],
+        "depositRates": [
+          {
+            "additionalInfo": "Interest paid at Maturity. Interest rates expressed as annual percentage rates. The interest rates shown are for an amount of $500 to $3,000,000 for personal customers. For commercial customers the interest rates shown are for an amount of $500 to $1,000,000.",
+            "additionalValue": "P3M",
+            "applicationFrequency": "P3M",
+            "applicationType": "MATURITY",
+            "calculationFrequency": "P1D",
+            "depositRateType": "FIXED",
+            "rate": "0.052",
+            "tiers": [
+              {
+                "minimumValue": "500.00",
+                "name": "3 Months Interest Paid At Maturity",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "unitOfMeasure": "DOLLAR"
+              },
+              {
+                "minimumValue": "3",
+                "name": "3 Months Interest Paid At Maturity",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "unitOfMeasure": "MONTH"
+              }
+            ]
+          },
+          {
+            "additionalInfo": "Interest Paid At Maturity. Interest rates expressed as annual percentage rates. The interest rates shown are for an amount of $500 to $3,000,000 for personal customers. For commercial customers the interest rates shown are for an amount of $500 to $1,000,000.",
+            "additionalValue": "P6M",
+            "applicationFrequency": "P6M",
+            "applicationType": "MATURITY",
+            "calculationFrequency": "P1D",
+            "depositRateType": "FIXED",
+            "rate": "0.054",
+            "tiers": [
+              {
+                "minimumValue": "500.00",
+                "name": "6 Months Interest Paid At Maturity",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "unitOfMeasure": "DOLLAR"
+              },
+              {
+                "minimumValue": "6",
+                "name": "6 Months Interest Paid At Maturity",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "unitOfMeasure": "MONTH"
+              }
+            ]
+          },
+          {
+            "additionalInfo": "6 Months Interest Paid Monthly.  Interest rates expressed as annual percentage rates. The interest rates shown are for an amount of $500 to $3,000,000 for personal customers. For commercial customers the interest rates shown are for an amount of $500 to $1,000,000.",
+            "additionalValue": "P6M",
+            "applicationFrequency": "P1M",
+            "applicationType": "PERIODIC",
+            "calculationFrequency": "P1D",
+            "depositRateType": "FIXED",
+            "rate": "0.053",
+            "tiers": [
+              {
+                "minimumValue": "500.00",
+                "name": "6 Months Interest Paid Monthly",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "unitOfMeasure": "DOLLAR"
+              },
+              {
+                "minimumValue": "6",
+                "name": "6 Months Interest Paid Monthly",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "unitOfMeasure": "MONTH"
+              }
+            ]
+          },
+          {
+            "additionalInfo": "9 Months Interest Paid At Maturity.  Interest rates expressed as annual percentage rates. The interest rates shown are for an amount of $500 to $3,000,000 for personal customers. For commercial customers the interest rates shown are for an amount of $500 to $1,000,000.",
+            "additionalValue": "P9M",
+            "applicationFrequency": "P9M",
+            "applicationType": "MATURITY",
+            "calculationFrequency": "P1D",
+            "depositRateType": "FIXED",
+            "rate": "0.053",
+            "tiers": [
+              {
+                "minimumValue": "500.00",
+                "name": "9 Months Interest Paid At Maturity",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "unitOfMeasure": "DOLLAR"
+              },
+              {
+                "minimumValue": "9",
+                "name": "9 Months Interest Paid At Maturity",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "unitOfMeasure": "MONTH"
+              }
+            ]
+          },
+          {
+            "additionalInfo": "12 Months Interest Paid At Maturity.  Interest rates expressed as annual percentage rates. The interest rates shown are for an amount of $500 to $3,000,000 for personal customers. For commercial customers the interest rates shown are for an amount of $500 to $1,000,000.",
+            "additionalValue": "P1Y",
+            "applicationFrequency": "P1Y",
+            "applicationType": "MATURITY",
+            "calculationFrequency": "P1D",
+            "depositRateType": "FIXED",
+            "rate": "0.0555",
+            "tiers": [
+              {
+                "minimumValue": "500.00",
+                "name": "12 Months Interest Paid At Maturity",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "unitOfMeasure": "DOLLAR"
+              },
+              {
+                "minimumValue": "12",
+                "name": "12 Months Interest Paid At Maturity",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "unitOfMeasure": "MONTH"
+              }
+            ]
+          },
+          {
+            "additionalInfo": "12 Months Interest Paid Monthly.  Interest rates expressed as annual percentage rates. The interest rates shown are for an amount of $500 to $3,000,000 for personal customers. For commercial customers the interest rates shown are for an amount of $500 to $1,000,000.",
+            "additionalValue": "P1Y",
+            "applicationFrequency": "P1M",
+            "applicationType": "PERIODIC",
+            "calculationFrequency": "P1D",
+            "depositRateType": "FIXED",
+            "rate": "0.0545",
+            "tiers": [
+              {
+                "minimumValue": "500.00",
+                "name": "12 Months Interest Paid Monthly",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "unitOfMeasure": "DOLLAR"
+              },
+              {
+                "minimumValue": "12",
+                "name": "12 Months Interest Paid Monthly",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "unitOfMeasure": "MONTH"
+              }
+            ]
+          },
+          {
+            "additionalInfo": "24 Months Interest Paid Monthly.  Interest rates expressed as annual percentage rates. The interest rates shown are for an amount of $500 to $3,000,000 for personal customers. For commercial customers the interest rates shown are for an amount of $500 to $1,000,000.",
+            "additionalValue": "P2Y",
+            "applicationFrequency": "P1M",
+            "applicationType": "PERIODIC",
+            "calculationFrequency": "P1D",
+            "depositRateType": "FIXED",
+            "rate": "0.051",
+            "tiers": [
+              {
+                "minimumValue": "500.00",
+                "name": "24 Months Interest Paid Monthly",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "unitOfMeasure": "DOLLAR"
+              },
+              {
+                "minimumValue": "24",
+                "name": "24 Months Interest Paid Monthly",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "unitOfMeasure": "MONTH"
+              }
+            ]
+          },
+          {
+            "additionalInfo": "24 Months Interest Paid Annually.  Interest rates expressed as annual percentage rates. The interest rates shown are for an amount of $500 to $3,000,000 for personal customers. For commercial customers the interest rates shown are for an amount of $500 to $1,000,000.",
+            "additionalValue": "P2Y",
+            "applicationFrequency": "P1Y",
+            "applicationType": "PERIODIC",
+            "calculationFrequency": "P1D",
+            "depositRateType": "FIXED",
+            "rate": "0.052",
+            "tiers": [
+              {
+                "minimumValue": "500.00",
+                "name": "24 Months Interest Paid Annually",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "unitOfMeasure": "DOLLAR"
+              },
+              {
+                "minimumValue": "24",
+                "name": "24 Months Interest Paid Annually",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "unitOfMeasure": "MONTH"
+              }
+            ]
+          },
+          {
+            "additionalInfo": "36 Months Interest Paid Monthly.  Interest rates expressed as annual percentage rates. The interest rates shown are for an amount of $500 to $3,000,000 for personal customers. For commercial customers the interest rates shown are for an amount of $500 to $1,000,000.",
+            "additionalValue": "P3Y",
+            "applicationFrequency": "P1M",
+            "applicationType": "PERIODIC",
+            "calculationFrequency": "P1D",
+            "depositRateType": "FIXED",
+            "rate": "0.051",
+            "tiers": [
+              {
+                "minimumValue": "500.00",
+                "name": "36 Months Interest Paid Monthly",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "unitOfMeasure": "DOLLAR"
+              },
+              {
+                "minimumValue": "36",
+                "name": "36 Months Interest Paid Monthly",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "unitOfMeasure": "MONTH"
+              }
+            ]
+          },
+          {
+            "additionalInfo": "36 Months Interest Paid Annually.  Interest rates expressed as annual percentage rates. The interest rates shown are for an amount of $500 to $3,000,000 for personal customers. For commercial customers the interest rates shown are for an amount of $500 to $1,000,000.",
+            "additionalValue": "P3Y",
+            "applicationFrequency": "P1Y",
+            "applicationType": "PERIODIC",
+            "calculationFrequency": "P1D",
+            "depositRateType": "FIXED",
+            "rate": "0.052",
+            "tiers": [
+              {
+                "minimumValue": "500.00",
+                "name": "36 Months Interest Paid Annually",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "unitOfMeasure": "DOLLAR"
+              },
+              {
+                "minimumValue": "36",
+                "name": "36 Months Interest Paid Annually",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "unitOfMeasure": "MONTH"
+              }
+            ]
+          }
+        ],
+        "eligibility": [
+          {
+            "additionalInfo": "This product is only available to members who have a residential address in Australia.\r\n",
+            "additionalValue": "Australian Resident",
+            "eligibilityType": "RESIDENCY_STATUS"
+          }
+        ],
+        "features": [
+          {
+            "additionalInfo": "Our secure Online Banking & Mobile App services mean access to your accounts 24 hours a day, seven days a week. \r\n",
+            "additionalInfoUri": "https://www.qudosbank.com.au/about-us/ways-to-bank/digital-banking",
+            "featureType": "DIGITAL_BANKING"
+          },
+          {
+            "additionalValue": "Term Deposit certificates issued at opening and renewal dates. Maturity letters issued one month prior to maturity date with avaliable options.",
+            "featureType": "NOTIFICATIONS"
+          }
+        ],
+        "fees": [
+          {
+            "additionalValue": "P1Y",
+            "feeMethodUType": "fixedAmount",
+            "feeType": "PERIODIC",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "name": "Account Keeping Fee"
+          },
+          {
+            "additionalInfo": "You may withdraw the balance of your term deposit early by giving us 31 days notice. However if you do, we will reduce the interest on the term deposit from the date it was opened until the date of withdrawal by 2% per annum, or the term deposit rate ifit is less an 2%. We have the discretion to delay the withdrawal or transfer until the end of the notice period (but not beyond the maturity date).",
+            "feeMethodUType": "rateBased",
+            "feeType": "WITHDRAWAL",
+            "name": "Early Withdrawal Fee (FTD)",
+            "rateBased": {
+              "rate": "0.02",
+              "rateType": "TRANSACTION"
+            }
+          }
+        ]
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    }
+  ]
+}

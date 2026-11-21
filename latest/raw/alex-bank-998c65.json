@@ -1,0 +1,1051 @@
+{
+  "endpoint": "https://public.cdr.alex.com.au/cds-au/v1/banking/products",
+  "slug": "alex-bank-998c65",
+  "brands": [
+    {
+      "dataHolderBrandId": "ceca4dce-3f8f-ef11-95f6-000d3a79c46e",
+      "brandName": "Alex.Bank",
+      "brandGroup": null,
+      "abn": "13627244848",
+      "industries": [
+        "banking"
+      ]
+    }
+  ],
+  "list": {
+    "ok": true,
+    "status": 200,
+    "version": "5",
+    "totalPages": 1,
+    "pagesFetched": 1,
+    "productCount": 6,
+    "categoryCounts": {
+      "TERM_DEPOSITS": 3,
+      "PERS_LOANS": 2,
+      "TRANS_AND_SAVINGS_ACCOUNTS": 1
+    }
+  },
+  "products": [
+    {
+      "productId": "086e30f2-dbbb-4252-a3a6-73848456b2cb",
+      "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "detail": {
+        "additionalInformation": {
+          "eligibilityUri": "https://www.alex.bank/legal/savings-account-target-market-determination/",
+          "feesAndPricingUri": "https://www.alex.com.au/legal/savings-rate-fee-guide/",
+          "overviewUri": "https://www.alex.bank/save/",
+          "termsUri": "https://www.alex.com.au/legal/terms-conditions-savings/"
+        },
+        "brand": "Alex Bank",
+        "brandName": "Alex Bank",
+        "constraints": [
+          {
+            "additionalValue": "250000.00",
+            "constraintType": "MAX_BALANCE"
+          }
+        ],
+        "depositRates": [
+          {
+            "additionalInfoUri": "https://www.alex.bank/legal/savings-rate-and-fee-guide/",
+            "applicationFrequency": "P1M",
+            "applicationType": "PERIODIC",
+            "depositRateType": "VARIABLE",
+            "rate": "0.045"
+          }
+        ],
+        "description": "Alex gets you a fee free, high yield savings account. ",
+        "eligibility": [
+          {
+            "additionalValue": "Not available for joint applicants or non-individual applicants",
+            "eligibilityType": "NATURAL_PERSON"
+          },
+          {
+            "additionalValue": "Individuals must be an Australian Citizen or Permanent Resident",
+            "eligibilityType": "RESIDENCY_STATUS"
+          },
+          {
+            "additionalValue": "18",
+            "eligibilityType": "MIN_AGE"
+          },
+          {
+            "additionalValue": "Applicants must hold valid Australian Photo ID (Drivers Licence or Passport)",
+            "eligibilityType": "RESIDENCY_STATUS"
+          }
+        ],
+        "features": [
+          {
+            "additionalInfo": "Pay Anyone (Direct Entry)",
+            "featureType": "OTHER"
+          },
+          {
+            "additionalInfo": "Unlimited electronic transactions via Alex Online (Internet Banking)",
+            "featureType": "UNLIMITED_TXNS"
+          },
+          {
+            "additionalInfo": "Mobile App",
+            "featureType": "DIGITAL_BANKING"
+          },
+          {
+            "additionalInfo": "Internet Banking",
+            "featureType": "DIGITAL_BANKING"
+          }
+        ],
+        "fees": [
+          {
+            "additionalValue": "month",
+            "feeMethodUType": "fixedAmount",
+            "feeType": "PERIODIC",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "name": "Account Keeping Fee"
+          }
+        ],
+        "isTailored": false,
+        "lastUpdated": "2026-05-12T14:01:10Z",
+        "name": "Savings",
+        "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "productId": "086e30f2-dbbb-4252-a3a6-73848456b2cb"
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "6c6f08e9-0d60-44c4-8fc9-79b146366ef9",
+      "productCategory": "TERM_DEPOSITS",
+      "detail": {
+        "additionalInformation": {
+          "eligibilityUri": "https://www.alex.com.au/legal/term-deposit-tmd/",
+          "termsUri": "https://www.alex.com.au/legal/term-deposit-t&cs/"
+        },
+        "brand": "Alex Bank",
+        "brandName": "Alex.Bank",
+        "constraints": [
+          {
+            "additionalValue": "5000.00",
+            "constraintType": "MIN_BALANCE"
+          },
+          {
+            "additionalValue": "250000.00",
+            "constraintType": "MAX_BALANCE"
+          }
+        ],
+        "depositRates": [
+          {
+            "additionalInfo": "Interest at Maturity",
+            "additionalValue": "P1Y",
+            "applicationFrequency": "P1Y",
+            "applicationType": "PERIODIC",
+            "depositRateType": "FIXED",
+            "rate": "0.053",
+            "tiers": [
+              {
+                "maximumValue": "250000.00",
+                "minimumValue": "5000.00",
+                "name": "Amount",
+                "unitOfMeasure": "DOLLAR"
+              }
+            ]
+          },
+          {
+            "additionalInfo": "Interest Paid Monthly",
+            "additionalValue": "P1Y",
+            "applicationFrequency": "P1M",
+            "applicationType": "MATURITY",
+            "depositRateType": "FIXED",
+            "rate": "0.052",
+            "tiers": [
+              {
+                "maximumValue": "250000.00",
+                "minimumValue": "5000.00",
+                "name": "Amount",
+                "unitOfMeasure": "DOLLAR"
+              }
+            ]
+          },
+          {
+            "additionalInfo": "Interest Paid Monthly",
+            "additionalValue": "P2Y",
+            "applicationFrequency": "P1M",
+            "applicationType": "PERIODIC",
+            "depositRateType": "FIXED",
+            "rate": "0.049",
+            "tiers": [
+              {
+                "maximumValue": "250000.00",
+                "minimumValue": "5000.00",
+                "name": "Amount",
+                "unitOfMeasure": "DOLLAR"
+              }
+            ]
+          },
+          {
+            "additionalInfo": "Interest Paid Annually",
+            "additionalValue": "P2Y",
+            "applicationFrequency": "P1Y",
+            "applicationType": "PERIODIC",
+            "depositRateType": "FIXED",
+            "rate": "0.05",
+            "tiers": [
+              {
+                "maximumValue": "250000.00",
+                "minimumValue": "5000.00",
+                "name": "Amount",
+                "unitOfMeasure": "DOLLAR"
+              }
+            ]
+          },
+          {
+            "additionalInfo": "Interest Paid Monthly",
+            "additionalValue": "P3Y",
+            "applicationFrequency": "P1M",
+            "applicationType": "PERIODIC",
+            "depositRateType": "FIXED",
+            "rate": "0.049",
+            "tiers": [
+              {
+                "maximumValue": "250000.00",
+                "minimumValue": "5000.00",
+                "name": "Amount",
+                "unitOfMeasure": "DOLLAR"
+              }
+            ]
+          },
+          {
+            "additionalInfo": "Interest Paid Annually",
+            "additionalValue": "P3Y",
+            "applicationFrequency": "P1Y",
+            "applicationType": "PERIODIC",
+            "depositRateType": "FIXED",
+            "rate": "0.05",
+            "tiers": [
+              {
+                "maximumValue": "250000.00",
+                "minimumValue": "5000.00",
+                "name": "Amount",
+                "unitOfMeasure": "DOLLAR"
+              }
+            ]
+          },
+          {
+            "additionalInfo": "Interest Paid Monthly",
+            "additionalValue": "P1Y6M",
+            "applicationFrequency": "P1M",
+            "applicationType": "PERIODIC",
+            "depositRateType": "FIXED",
+            "rate": "0.049",
+            "tiers": [
+              {
+                "maximumValue": "250000.00",
+                "minimumValue": "5000.00",
+                "name": "Amount",
+                "unitOfMeasure": "DOLLAR"
+              }
+            ]
+          },
+          {
+            "additionalInfo": "Interest Paid Annually",
+            "additionalValue": "P1Y6M",
+            "applicationFrequency": "P1Y",
+            "applicationType": "PERIODIC",
+            "depositRateType": "FIXED",
+            "rate": "0.05",
+            "tiers": [
+              {
+                "maximumValue": "250000.00",
+                "minimumValue": "5000.00",
+                "name": "Amount",
+                "unitOfMeasure": "DOLLAR"
+              }
+            ]
+          },
+          {
+            "additionalInfo": "Interest Paid Monthly",
+            "additionalValue": "P4Y",
+            "applicationFrequency": "P1M",
+            "applicationType": "PERIODIC",
+            "depositRateType": "FIXED",
+            "rate": "0.049",
+            "tiers": [
+              {
+                "maximumValue": "250000.00",
+                "minimumValue": "5000.00",
+                "name": "Amount",
+                "unitOfMeasure": "DOLLAR"
+              }
+            ]
+          },
+          {
+            "additionalInfo": "Interest Paid Annually",
+            "additionalValue": "P4Y",
+            "applicationFrequency": "P1Y",
+            "applicationType": "PERIODIC",
+            "depositRateType": "FIXED",
+            "rate": "0.05",
+            "tiers": [
+              {
+                "maximumValue": "250000.00",
+                "minimumValue": "5000.00",
+                "name": "Amount",
+                "unitOfMeasure": "DOLLAR"
+              }
+            ]
+          },
+          {
+            "additionalInfo": "Interest Paid Monthly",
+            "additionalValue": "P5Y",
+            "applicationFrequency": "P1M",
+            "applicationType": "PERIODIC",
+            "depositRateType": "FIXED",
+            "rate": "0.049",
+            "tiers": [
+              {
+                "maximumValue": "250000.00",
+                "minimumValue": "5000.00",
+                "name": "Amount",
+                "unitOfMeasure": "DOLLAR"
+              }
+            ]
+          },
+          {
+            "additionalInfo": "Interest Paid Annually",
+            "additionalValue": "P5Y",
+            "applicationFrequency": "P1Y",
+            "applicationType": "PERIODIC",
+            "depositRateType": "FIXED",
+            "rate": "0.05",
+            "tiers": [
+              {
+                "maximumValue": "250000.00",
+                "minimumValue": "5000.00",
+                "name": "Amount",
+                "unitOfMeasure": "DOLLAR"
+              }
+            ]
+          },
+          {
+            "additionalInfo": "Interest Paid at Maturity",
+            "additionalValue": "P9M",
+            "applicationFrequency": "P9M",
+            "applicationType": "MATURITY",
+            "depositRateType": "FIXED",
+            "rate": "0.0475",
+            "tiers": [
+              {
+                "maximumValue": "250000.00",
+                "minimumValue": "5000.00",
+                "name": "Amount",
+                "unitOfMeasure": "DOLLAR"
+              }
+            ]
+          },
+          {
+            "additionalInfo": "Interest Paid at Maturity",
+            "additionalValue": "P6M",
+            "applicationFrequency": "P6M",
+            "applicationType": "MATURITY",
+            "depositRateType": "FIXED",
+            "rate": "0.051",
+            "tiers": [
+              {
+                "maximumValue": "250000.00",
+                "minimumValue": "5000.00",
+                "name": "Amount",
+                "unitOfMeasure": "DOLLAR"
+              }
+            ]
+          }
+        ],
+        "description": "Alex gets you a competitive interest rate on your term deposit. Origination via invite only.",
+        "eligibility": [
+          {
+            "additionalInfo": "Individual, Joint (max of 2 individuals), Sole Trader, Trust (max 1 company trustee and/or up to 4 individual trustees), Self-Managed Superannuation Fund, Australian Registered Company ",
+            "additionalValue": "Eligible Customers",
+            "eligibilityType": "OTHER"
+          },
+          {
+            "additionalValue": "Individuals must be an Australian Citizen or Permanent Resident.",
+            "eligibilityType": "RESIDENCY_STATUS"
+          },
+          {
+            "additionalValue": "18",
+            "eligibilityType": "MIN_AGE"
+          },
+          {
+            "additionalInfo": "Origination via accredited invite only. ",
+            "additionalValue": "Channel",
+            "eligibilityType": "OTHER"
+          }
+        ],
+        "features": [
+          {
+            "additionalInfo": "Reinvest Principal and Interest, Reinvest Principal and Payout Interest, Payout Principal and Interest.",
+            "additionalValue": "Maturity Options",
+            "featureType": "OTHER"
+          },
+          {
+            "additionalInfo": "At Maturity, Annually, Monthly.",
+            "additionalValue": "Interest Payment Options",
+            "featureType": "OTHER"
+          },
+          {
+            "additionalInfo": "7 calendar days from the date of reinvestment.",
+            "additionalValue": "Grace Period",
+            "featureType": "OTHER"
+          },
+          {
+            "additionalInfo": "31 calendar days' advance notice in writing unless financial hardship applies. An interest or principal adjustment may be applicable.",
+            "additionalValue": "Early Withdrawal",
+            "featureType": "OTHER"
+          }
+        ],
+        "fees": [
+          {
+            "additionalValue": "month",
+            "feeMethodUType": "fixedAmount",
+            "feeType": "PERIODIC",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "name": "Account Keeping Fee"
+          }
+        ],
+        "isTailored": false,
+        "lastUpdated": "2026-10-29T13:01:10Z",
+        "name": "Term Deposit - Direct",
+        "productCategory": "TERM_DEPOSITS",
+        "productId": "6c6f08e9-0d60-44c4-8fc9-79b146366ef9"
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "7a857ad5-1dc8-4968-b9db-a9bb9808b84c",
+      "productCategory": "TERM_DEPOSITS",
+      "detail": {
+        "additionalInformation": {
+          "eligibilityUri": "https://www.alex.com.au/legal/term-deposit-tmd/",
+          "termsUri": "https://www.alex.com.au/legal/term-deposit-t&cs/"
+        },
+        "brand": "Alex Bank",
+        "brandName": "Alex.Bank",
+        "constraints": [
+          {
+            "additionalValue": "10000.00",
+            "constraintType": "MIN_BALANCE"
+          }
+        ],
+        "depositRates": [
+          {
+            "additionalInfo": "Interest Paid at Maturity",
+            "additionalValue": "P1Y",
+            "applicationFrequency": "P1Y",
+            "applicationType": "MATURITY",
+            "depositRateType": "FIXED",
+            "rate": "0.053",
+            "tiers": [
+              {
+                "maximumValue": "250000.00",
+                "minimumValue": "10000.00",
+                "name": "Amount",
+                "unitOfMeasure": "DOLLAR"
+              }
+            ]
+          },
+          {
+            "additionalInfo": "Interest Paid Monthly",
+            "additionalValue": "P1Y",
+            "applicationFrequency": "P1M",
+            "applicationType": "PERIODIC",
+            "depositRateType": "FIXED",
+            "rate": "0.052",
+            "tiers": [
+              {
+                "maximumValue": "250000.00",
+                "minimumValue": "10000.00",
+                "name": "Amount",
+                "unitOfMeasure": "DOLLAR"
+              }
+            ]
+          },
+          {
+            "additionalInfo": "Interest Paid Monthly",
+            "additionalValue": "P2Y",
+            "applicationFrequency": "P1M",
+            "applicationType": "PERIODIC",
+            "depositRateType": "FIXED",
+            "rate": "0.049",
+            "tiers": [
+              {
+                "maximumValue": "250000.00",
+                "minimumValue": "10000.00",
+                "name": "Amount",
+                "unitOfMeasure": "DOLLAR"
+              }
+            ]
+          },
+          {
+            "additionalInfo": "Interest Paid Annually",
+            "additionalValue": "P2Y",
+            "applicationFrequency": "P1Y",
+            "applicationType": "PERIODIC",
+            "depositRateType": "FIXED",
+            "rate": "0.05",
+            "tiers": [
+              {
+                "maximumValue": "250000.00",
+                "minimumValue": "10000.00",
+                "name": "Amount",
+                "unitOfMeasure": "DOLLAR"
+              }
+            ]
+          },
+          {
+            "additionalInfo": "Interest Paid Monthly",
+            "additionalValue": "P3Y",
+            "applicationFrequency": "P1M",
+            "applicationType": "PERIODIC",
+            "depositRateType": "FIXED",
+            "rate": "0.049",
+            "tiers": [
+              {
+                "maximumValue": "250000.00",
+                "minimumValue": "10000.00",
+                "name": "Amount",
+                "unitOfMeasure": "DOLLAR"
+              }
+            ]
+          },
+          {
+            "additionalInfo": "Interest Paid Annually",
+            "additionalValue": "P3Y",
+            "applicationFrequency": "P1Y",
+            "applicationType": "PERIODIC",
+            "depositRateType": "FIXED",
+            "rate": "0.05",
+            "tiers": [
+              {
+                "maximumValue": "250000.00",
+                "minimumValue": "10000.00",
+                "name": "Amount",
+                "unitOfMeasure": "DOLLAR"
+              }
+            ]
+          },
+          {
+            "additionalInfo": "Interest Paid Monthly",
+            "additionalValue": "P1Y6M",
+            "applicationFrequency": "P1M",
+            "applicationType": "PERIODIC",
+            "depositRateType": "FIXED",
+            "rate": "0.049",
+            "tiers": [
+              {
+                "maximumValue": "250000.00",
+                "minimumValue": "10000.00",
+                "name": "Amount",
+                "unitOfMeasure": "DOLLAR"
+              }
+            ]
+          },
+          {
+            "additionalInfo": "Interest Paid Annually",
+            "additionalValue": "P1Y6M",
+            "applicationFrequency": "P1Y",
+            "applicationType": "PERIODIC",
+            "depositRateType": "FIXED",
+            "rate": "0.05",
+            "tiers": [
+              {
+                "maximumValue": "250000.00",
+                "minimumValue": "10000.00",
+                "name": "Amount",
+                "unitOfMeasure": "DOLLAR"
+              }
+            ]
+          },
+          {
+            "additionalInfo": "Interest Paid Annually",
+            "additionalValue": "P4Y",
+            "applicationFrequency": "P1Y",
+            "applicationType": "PERIODIC",
+            "depositRateType": "FIXED",
+            "rate": "0.05",
+            "tiers": [
+              {
+                "maximumValue": "250000.00",
+                "minimumValue": "10000.00",
+                "name": "Amount",
+                "unitOfMeasure": "DOLLAR"
+              }
+            ]
+          },
+          {
+            "additionalInfo": "Interest Paid Monthly",
+            "additionalValue": "P4Y",
+            "applicationFrequency": "P1M",
+            "applicationType": "PERIODIC",
+            "depositRateType": "FIXED",
+            "rate": "0.049",
+            "tiers": [
+              {
+                "maximumValue": "250000.00",
+                "minimumValue": "10000.00",
+                "name": "Amount",
+                "unitOfMeasure": "DOLLAR"
+              }
+            ]
+          },
+          {
+            "additionalInfo": "Interest Paid Annually",
+            "additionalValue": "P5Y",
+            "applicationFrequency": "P1Y",
+            "applicationType": "PERIODIC",
+            "depositRateType": "FIXED",
+            "rate": "0.05",
+            "tiers": [
+              {
+                "maximumValue": "250000.00",
+                "minimumValue": "10000.00",
+                "name": "Amount",
+                "unitOfMeasure": "DOLLAR"
+              }
+            ]
+          },
+          {
+            "additionalInfo": "Interest Paid Monthly",
+            "additionalValue": "P5Y",
+            "applicationFrequency": "P1M",
+            "applicationType": "PERIODIC",
+            "depositRateType": "FIXED",
+            "rate": "0.049",
+            "tiers": [
+              {
+                "maximumValue": "250000.00",
+                "minimumValue": "10000.00",
+                "name": "Amount",
+                "unitOfMeasure": "DOLLAR"
+              }
+            ]
+          },
+          {
+            "additionalInfo": "Interest Paid at Maturity",
+            "additionalValue": "P9M",
+            "applicationFrequency": "P9M",
+            "applicationType": "MATURITY",
+            "depositRateType": "FIXED",
+            "rate": "0.0475",
+            "tiers": [
+              {
+                "maximumValue": "250000.00",
+                "minimumValue": "10000.00",
+                "name": "Amount",
+                "unitOfMeasure": "DOLLAR"
+              }
+            ]
+          },
+          {
+            "additionalInfo": "Interest Paid at Maturity",
+            "additionalValue": "P6M",
+            "applicationFrequency": "P6M",
+            "applicationType": "MATURITY",
+            "depositRateType": "FIXED",
+            "rate": "0.051",
+            "tiers": [
+              {
+                "maximumValue": "250000.00",
+                "minimumValue": "10000.00",
+                "name": "Amount",
+                "unitOfMeasure": "DOLLAR"
+              }
+            ]
+          }
+        ],
+        "description": "Alex gets you a competitive interest rate on your term deposit. Origination via accredited deposit intermediaries only.",
+        "effectiveFrom": "2024-04-03T13:00:00Z",
+        "eligibility": [
+          {
+            "additionalInfo": "Individual, Joint (max of 2 individuals), Sole Trader, Trust (max 1 company trustee and/or up to 4 individual trustees), Self-Managed Superannuation Fund, Australian Registered Company",
+            "additionalValue": "Eligible Customers",
+            "eligibilityType": "OTHER"
+          },
+          {
+            "additionalValue": "Individuals must be an Australian Citizen or Permanent Resident.",
+            "eligibilityType": "RESIDENCY_STATUS"
+          },
+          {
+            "additionalValue": "18",
+            "eligibilityType": "MIN_AGE"
+          },
+          {
+            "additionalInfo": "Origination via accredited deposit intermediaries only.",
+            "additionalValue": "Channel",
+            "eligibilityType": "OTHER"
+          }
+        ],
+        "features": [
+          {
+            "additionalInfo": "Reinvest Principal and Interest, Reinvest Principal and Payout Interest, Payout Principal and Interest.",
+            "additionalValue": "Maturity Options",
+            "featureType": "OTHER"
+          },
+          {
+            "additionalInfo": "At Maturity, Annually, Monthly.",
+            "additionalValue": "Interest Payment Options",
+            "featureType": "OTHER"
+          },
+          {
+            "additionalInfo": "7 calendar days from the date of reinvestment.",
+            "additionalValue": "Grace Period",
+            "featureType": "OTHER"
+          },
+          {
+            "additionalInfo": "31 calendar days' advance notice in writing unless financial hardship applies. An interest or principal adjustment may be applicable.",
+            "additionalValue": "Early Withdrawal",
+            "featureType": "OTHER"
+          }
+        ],
+        "fees": [
+          {
+            "additionalValue": "month",
+            "feeMethodUType": "fixedAmount",
+            "feeType": "PERIODIC",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "name": "Account Keeping Fee"
+          }
+        ],
+        "isTailored": false,
+        "lastUpdated": "2026-10-29T13:01:10Z",
+        "name": "Term Deposit - Partners",
+        "productCategory": "TERM_DEPOSITS",
+        "productId": "7a857ad5-1dc8-4968-b9db-a9bb9808b84c"
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    },
+    {
+      "productId": "7aa47c12-436d-4927-af7a-1b9ea7e1e7a3",
+      "productCategory": "TERM_DEPOSITS",
+      "detail": {
+        "additionalInformation": {
+          "eligibilityUri": "https://www.alex.com.au/legal/term-deposit-tmd/",
+          "termsUri": "https://www.alex.com.au/legal/term-deposit-t&cs/"
+        },
+        "brand": "Alex Bank",
+        "brandName": "Alex.Bank",
+        "constraints": [
+          {
+            "additionalValue": "10000.00",
+            "constraintType": "MIN_BALANCE"
+          }
+        ],
+        "depositRates": [
+          {
+            "additionalInfo": "Interest Paid at Maturity",
+            "additionalValue": "P6M",
+            "applicationFrequency": "P6M",
+            "applicationType": "MATURITY",
+            "depositRateType": "FIXED",
+            "rate": "0.05",
+            "tiers": [
+              {
+                "maximumValue": "500000.00",
+                "minimumValue": "10000.00",
+                "name": "Amount",
+                "unitOfMeasure": "DOLLAR"
+              }
+            ]
+          },
+          {
+            "additionalInfo": "Interest Paid at Maturity",
+            "additionalValue": "P1Y",
+            "applicationFrequency": "P1Y",
+            "applicationType": "MATURITY",
+            "depositRateType": "FIXED",
+            "rate": "0.055",
+            "tiers": [
+              {
+                "maximumValue": "500000.00",
+                "minimumValue": "10000.00",
+                "name": "Amount",
+                "unitOfMeasure": "DOLLAR"
+              }
+            ]
+          },
+          {
+            "additionalInfo": "Interest Paid Monthly",
+            "additionalValue": "P1Y",
+            "applicationFrequency": "P1M",
+            "applicationType": "PERIODIC",
+            "depositRateType": "FIXED",
+            "rate": "0.054",
+            "tiers": [
+              {
+                "maximumValue": "500000.00",
+                "minimumValue": "10000.00",
+                "name": "Amount",
+                "unitOfMeasure": "DOLLAR"
+              }
+            ]
+          },
+          {
+            "additionalInfo": "Interest Paid Monthly",
+            "additionalValue": "P2Y",
+            "applicationFrequency": "P1M",
+            "applicationType": "PERIODIC",
+            "depositRateType": "FIXED",
+            "rate": "0.052",
+            "tiers": [
+              {
+                "maximumValue": "500000.00",
+                "minimumValue": "10000.00",
+                "name": "Amount",
+                "unitOfMeasure": "DOLLAR"
+              }
+            ]
+          },
+          {
+            "additionalInfo": "Interest Paid Annually",
+            "additionalValue": "P2Y",
+            "applicationFrequency": "P1Y",
+            "applicationType": "PERIODIC",
+            "depositRateType": "FIXED",
+            "rate": "0.053",
+            "tiers": [
+              {
+                "maximumValue": "500000.00",
+                "minimumValue": "10000.00",
+                "name": "Amount",
+                "unitOfMeasure": "DOLLAR"
+              }
+            ]
+          },
+          {
+            "additionalInfo": "Interest Paid Monthly",
+            "additionalValue": "P3Y",
+            "applicationFrequency": "P1M",
+            "applicationType": "PERIODIC",
+            "depositRateType": "FIXED",
+            "rate": "0.05",
+            "tiers": [
+              {
+                "maximumValue": "500000.00",
+                "minimumValue": "10000.00",
+                "name": "Amount",
+                "unitOfMeasure": "DOLLAR"
+              }
+            ]
+          },
+          {
+            "additionalInfo": "Interest Paid Annually",
+            "additionalValue": "P3Y",
+            "applicationFrequency": "P1Y",
+            "applicationType": "PERIODIC",
+            "depositRateType": "FIXED",
+            "rate": "0.051",
+            "tiers": [
+              {
+                "maximumValue": "500000.00",
+                "minimumValue": "10000.00",
+                "name": "Amount",
+                "unitOfMeasure": "DOLLAR"
+              }
+            ]
+          },
+          {
+            "additionalInfo": "Interest Paid At Maturity",
+            "additionalValue": "P9M",
+            "applicationFrequency": "P9M",
+            "applicationType": "MATURITY",
+            "depositRateType": "FIXED",
+            "rate": "0.053",
+            "tiers": [
+              {
+                "maximumValue": "500000.00",
+                "minimumValue": "10000.00",
+                "name": "Amount",
+                "unitOfMeasure": "DOLLAR"
+              }
+            ]
+          },
+          {
+            "additionalInfo": "Interest Paid Annually",
+            "additionalValue": "P1Y6M",
+            "applicationFrequency": "P1Y",
+            "applicationType": "PERIODIC",
+            "depositRateType": "FIXED",
+            "rate": "0.0535",
+            "tiers": [
+              {
+                "maximumValue": "500000.00",
+                "minimumValue": "10000.00",
+                "name": "Amount",
+                "unitOfMeasure": "DOLLAR"
+              }
+            ]
+          },
+          {
+            "additionalInfo": "Interest Paid Monthly",
+            "additionalValue": "P1Y6M",
+            "applicationFrequency": "P1M",
+            "applicationType": "PERIODIC",
+            "depositRateType": "FIXED",
+            "rate": "0.0525",
+            "tiers": [
+              {
+                "maximumValue": "500000.00",
+                "minimumValue": "10000.00",
+                "name": "Amount",
+                "unitOfMeasure": "DOLLAR"
+              }
+            ]
+          },
+          {
+            "additionalInfo": "Interest Paid Monthly",
+            "additionalValue": "P4Y",
+            "applicationFrequency": "P1M",
+            "applicationType": "PERIODIC",
+            "calculationFrequency": "P0D",
+            "depositRateType": "FIXED",
+            "rate": "0.05",
+            "tiers": [
+              {
+                "maximumValue": "500000.00",
+                "minimumValue": "10000.00",
+                "name": "Amount",
+                "unitOfMeasure": "DOLLAR"
+              }
+            ]
+          },
+          {
+            "additionalInfo": "Interest Paid Annually",
+            "additionalValue": "P4Y",
+            "applicationFrequency": "P1Y",
+            "applicationType": "PERIODIC",
+            "depositRateType": "FIXED",
+            "rate": "0.051",
+            "tiers": [
+              {
+                "maximumValue": "500000.00",
+                "minimumValue": "10000.00",
+                "name": "Amount",
+                "unitOfMeasure": "DOLLAR"
+              }
+            ]
+          },
+          {
+            "additionalInfo": "Interest Paid Monthly",
+            "additionalValue": "P5Y",
+            "applicationFrequency": "P1M",
+            "applicationType": "PERIODIC",
+            "depositRateType": "FIXED",
+            "rate": "0.053",
+            "tiers": [
+              {
+                "maximumValue": "500000.00",
+                "minimumValue": "10000.00",
+                "name": "Amount",
+                "unitOfMeasure": "DOLLAR"
+              }
+            ]
+          },
+          {
+            "additionalInfo": "Interest Paid Annually",
+            "additionalValue": "P5Y",
+            "applicationFrequency": "P1Y",
+            "applicationType": "PERIODIC",
+            "depositRateType": "FIXED",
+            "rate": "0.054",
+            "tiers": [
+              {
+                "maximumValue": "500000.00",
+                "minimumValue": "10000.00",
+                "name": "Amount",
+                "unitOfMeasure": "DOLLAR"
+              }
+            ]
+          },
+          {
+            "additionalInfo": "Interest Paid at Maturity",
+            "additionalValue": "P3M",
+            "applicationFrequency": "P3M",
+            "applicationType": "MATURITY",
+            "depositRateType": "FIXED",
+            "rate": "0.0535",
+            "tiers": [
+              {
+                "maximumValue": "500000.00",
+                "minimumValue": "10000.00",
+                "name": "Amount",
+                "unitOfMeasure": "DOLLAR"
+              }
+            ]
+          }
+        ],
+        "description": "Alex gets you a competitive interest rate on your term deposit. Origination via accredited deposit intermediaries only.",
+        "eligibility": [
+          {
+            "additionalInfo": "Individual, Joint (max of 2 individuals), Sole Trader, Trust (max 1 company trustee and/or up to 4 individual trustees), Self-Managed Superannuation Fund ",
+            "additionalValue": "Eligible Customers",
+            "eligibilityType": "OTHER"
+          },
+          {
+            "additionalValue": "Individuals must be an Australian Citizen or Permanent Resident.",
+            "eligibilityType": "RESIDENCY_STATUS"
+          },
+          {
+            "additionalValue": "18",
+            "eligibilityType": "MIN_AGE"
+          },
+          {
+            "additionalInfo": "Origination via accredited deposit intermediaries only.",
+            "additionalValue": "Channel",
+            "eligibilityType": "OTHER"
+          }
+        ],
+        "features": [
+          {
+            "additionalInfo": "Reinvest Principal and Interest, Reinvest Principal and Payout Interest, Payout Principal and Interest.",
+            "additionalValue": "Maturity Options",
+            "featureType": "OTHER"
+          },
+          {
+            "additionalInfo": "At Maturity, Annually, Monthly.",
+            "additionalValue": "Interest Payment Options",
+            "featureType": "OTHER"
+          },
+          {
+            "additionalInfo": "7 calendar days from the date of reinvestment.",
+            "additionalValue": "Grace Period",
+            "featureType": "OTHER"
+          },
+          {
+            "additionalInfo": "31 calendar days' advance notice in writing unless financial hardship applies. An interest or principal adjustment may be applicable.",
+            "additionalValue": "Early Withdrawal",
+            "featureType": "OTHER"
+          }
+        ],
+        "fees": [
+          {
+            "additionalValue": "month",
+            "feeMethodUType": "fixedAmount",
+            "feeType": "PERIODIC",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "name": "Account Keeping Fee"
+          }
+        ],
+        "isTailored": false,
+        "lastUpdated": "2026-11-11T13:01:10Z",
+        "name": "Term Deposit - Intermediary",
+        "productCategory": "TERM_DEPOSITS",
+        "productId": "7aa47c12-436d-4927-af7a-1b9ea7e1e7a3"
+      },
+      "detailStatus": 200,
+      "detailVersion": "7"
+    }
+  ]
+}

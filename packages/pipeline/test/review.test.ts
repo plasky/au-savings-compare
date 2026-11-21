@@ -1,6 +1,7 @@
 import { describe, expect, it } from 'vitest';
 import { termFromText, termRangesMonths } from '../src/rates.js';
 import {
+  alignReview,
   applyAnswers,
   buildCandidates,
   buildQueue,
@@ -9,11 +10,12 @@ import {
   normalisedRate,
   renderBatch,
   reviewKeyFor,
+  rowSignature,
   stableStringify,
   type ProductReview,
   type RowReview,
 } from '../src/review/review.js';
-import type { ProductDetail } from '../src/types.js';
+import type { ProductDetail, RateCondition } from '../src/types.js';
 import { boostSaver, introSaver, quirky, rawFile, tdNoTerm, termDeposit } from './fixtures/products.js';
 
 const plainSaver: ProductDetail = {
@@ -73,9 +75,9 @@ describe('candidates and queue', () => {
   it('applies the threshold and skips products already reviewed with the same key', () => {
     const reviews = emptyReviews();
     const boost = candidates.find((c) => c.productId === 'boost-saver')!;
-    reviews.entries[boost.key] = { reviewKey: boost.reviewKey, reviewedAt: 'x', review: {} as ProductReview };
+    reviews.entries[boost.key] = { reviewKey: boost.reviewKey, reviewedAt: 'x', rowSignatures: [], review: {} as ProductReview };
     const intro = candidates.find((c) => c.productId === 'intro-saver')!;
-    reviews.entries[intro.key] = { reviewKey: 'old', reviewedAt: 'x', review: {} as ProductReview };
+    reviews.entries[intro.key] = { reviewKey: 'old', reviewedAt: 'x', rowSignatures: [], review: {} as ProductReview };
     const { queue, stats } = buildQueue(raws, reviews, 0.03);
     expect(queue.map((c) => c.productId)).toEqual(['quirky', 'intro-saver', 'td-noterm']);
     expect(stats).toMatchObject({ candidates: 5, reviewed: 1, stale: 1, queued: 3, belowThreshold: 1 });
@@ -86,6 +88,32 @@ describe('candidates and queue', () => {
     const reordered = { ...boostSaver, depositRates: boostSaver.depositRates!.map((r) => Object.fromEntries(Object.entries(r).reverse())) };
     expect(reviewKeyFor(reordered as ProductDetail)).toBe(reviewKeyFor(boostSaver));
     expect(reviewKeyFor({ ...boostSaver, description: 'changed marketing text' })).toBe(reviewKeyFor(boostSaver));
+  });
+
+  it('ignores holders reordering rows or conditions, and realigns reviews by row content', () => {
+    const shuffled: ProductDetail = {
+      ...boostSaver,
+      depositRates: [
+        { ...boostSaver.depositRates![1]!, applicabilityConditions: [...(boostSaver.depositRates![1]!.applicabilityConditions as RateCondition[])].reverse() },
+        boostSaver.depositRates![0]!,
+      ],
+    };
+    expect(reviewKeyFor(shuffled)).toBe(reviewKeyFor(boostSaver));
+    expect(rowSignature(shuffled.depositRates![0]!)).toBe(rowSignature(boostSaver.depositRates![1]!));
+
+    const boost = candidates.find((c) => c.productId === 'boost-saver')!;
+    const reviews = emptyReviews();
+    applyAnswers(
+      { reviews: [{ key: boost.key, reviewKey: boost.reviewKey, rows: [{ index: 0, role: 'BASE' }, { index: 1, role: 'BONUS' }] }] },
+      candidates,
+      reviews,
+    );
+    const aligned = alignReview(reviews.entries[boost.key]!, shuffled)!;
+    expect(aligned.map((r) => [r.index, r.role])).toEqual([
+      [0, 'BONUS'],
+      [1, 'BASE'],
+    ]);
+    expect(alignReview(reviews.entries[boost.key]!, { ...shuffled, depositRates: [{ depositRateType: 'VARIABLE', rate: '0.09' }] })).toBeNull();
   });
 
   it('renders a compact batch', () => {

@@ -24,7 +24,7 @@ import {
 import type { DepositRate, ProductDetail, RawEndpointFile } from '../types.js';
 import { parseRate, pct, sha256, truncate } from '../util.js';
 
-export const REVIEW_VERSION = 'review-v1';
+export const REVIEW_VERSION = 'review-v2';
 export const DEFAULT_THRESHOLD = 0.03;
 const CATEGORIES = new Set(['TRANS_AND_SAVINGS_ACCOUNTS', 'TERM_DEPOSITS']);
 const ADJUSTMENTS = new Set(['BONUS', 'BUNDLE_BONUS', 'INTRODUCTORY']);
@@ -94,6 +94,8 @@ export type RowReview = z.infer<typeof RowReviewSchema>;
 export interface ReviewEntry {
   reviewKey: string;
   reviewedAt: string;
+  /** rowSignature of each depositRates row at review time, by index — lets reviews survive row reordering. */
+  rowSignatures: string[];
   review: ProductReview;
 }
 
@@ -128,10 +130,50 @@ export function stableStringify(value: unknown): string {
   return JSON.stringify(value);
 }
 
+function sortByContent<T>(items: T[]): T[] {
+  return [...items].sort((a, b) => stableStringify(a).localeCompare(stableStringify(b)));
+}
+
+/** A rate row with order-insensitive parts (conditions, tiers) sorted, so holders reshuffling arrays don't matter. */
+function canonicalRate(r: DepositRate): unknown {
+  const conds = (c: unknown) => (Array.isArray(c) ? sortByContent(c) : c);
+  return {
+    ...r,
+    applicabilityConditions: conds(r.applicabilityConditions),
+    tiers: r.tiers ? sortByContent(r.tiers.map((t) => ({ ...t, applicabilityConditions: conds(t.applicabilityConditions) }))) : undefined,
+  };
+}
+
+/** Content signature of one rate row, independent of its position and of array ordering inside it. */
+export function rowSignature(r: DepositRate): string {
+  return sha256(stableStringify(canonicalRate(r))).slice(0, 16);
+}
+
+/** Order-insensitive key over a product's name, rate rows and eligibility. */
 export function reviewKeyFor(d: ProductDetail): string {
-  return sha256(
-    `${REVIEW_VERSION}|${stableStringify({ name: d.name ?? null, depositRates: d.depositRates ?? [], eligibility: d.eligibility ?? [] })}`,
-  );
+  const rows = (d.depositRates ?? []).map(rowSignature).sort();
+  const eligibility = (d.eligibility ?? []).map(stableStringify).sort();
+  return sha256(`${REVIEW_VERSION}|${stableStringify({ name: d.name ?? null, rows, eligibility })}`);
+}
+
+/**
+ * Map a stored review onto the product's *current* row order by row
+ * signature (holders sometimes reorder depositRates). Returns null if any
+ * current row has no reviewed counterpart.
+ */
+export function alignReview(entry: ReviewEntry, detail: ProductDetail): RowReview[] | null {
+  const pool = new Map<string, RowReview[]>();
+  entry.rowSignatures.forEach((sig, i) => {
+    const rr = entry.review.rows.find((r) => r.index === i);
+    if (rr) pool.set(sig, [...(pool.get(sig) ?? []), rr]);
+  });
+  const out: RowReview[] = [];
+  for (const [i, r] of (detail.depositRates ?? []).entries()) {
+    const rr = pool.get(rowSignature(r))?.shift();
+    if (!rr) return null;
+    out.push({ ...rr, index: i });
+  }
+  return out;
 }
 
 export interface Candidate {
@@ -370,7 +412,12 @@ export function applyAnswers(
         result.warnings.push(`${label}: composed ${pct(composed)} ≠ stated ${pct(review.statedHeadline)}`);
       }
     }
-    reviews.entries[review.key] = { reviewKey: review.reviewKey, reviewedAt: now.toISOString(), review };
+    reviews.entries[review.key] = {
+      reviewKey: review.reviewKey,
+      reviewedAt: now.toISOString(),
+      rowSignatures: rates.map(rowSignature),
+      review,
+    };
     result.applied.push(label);
   }
   return result;

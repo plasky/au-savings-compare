@@ -1,12 +1,23 @@
 {
-  "version": "review-v1",
+  "version": "review-v2",
   "entries": {
     "revolut-0420b3:550e8400-e29b-41d4-a716-446655440003": {
-      "reviewKey": "cbc6f14859278450ed9d9b0e260a2c5bee7064fad3d60dd3e5afb2589863a235",
+      "reviewKey": "ef2da6d2051e41907ae0d70d16fec50e00edcf8a9941176934c8d120341ff27b",
       "reviewedAt": "2026-11-21T22:55:33.516Z",
+      "rowSignatures": [
+        "1335581fe7e01168",
+        "66974017e3c2218e",
+        "0a1e013991881616",
+        "b11001a67f487bfd",
+        "764827a20faac0b9",
+        "7d8ad9634e25944e",
+        "4d36cbf212e38a22",
+        "0b4e5f2a73e7f7b3",
+        "528fff63c81d659d"
+      ],
       "review": {
         "key": "revolut-0420b3:550e8400-e29b-41d4-a716-446655440003",
-        "reviewKey": "cbc6f14859278450ed9d9b0e260a2c5bee7064fad3d60dd3e5afb2589863a235",
+        "reviewKey": "ef2da6d2051e41907ae0d70d16fec50e00edcf8a9941176934c8d120341ff27b",
         "rows": [
           {
             "index": 0,
@@ -133,11 +144,18 @@
       }
     },
     "newcastle-permanent-8ac556:AC_smartsaveryouth": {
-      "reviewKey": "e8e1ace9a6f6492ebf93d34f250981553412f5b2552f5018e5bf46c3265bb902",
+      "reviewKey": "7090601953d357082585f404339d5f5a3ec85d92a3da3a33efa460b95727ca68",
       "reviewedAt": "2026-11-21T22:55:33.516Z",
+      "rowSignatures": [
+        "bc31ad510da26d41",
+        "3ce7c5592451632d",
+        "726f12a1fb24175a",
+        "99f01ae414fdc5b6",
+        "83f9924065c7b480"
+      ],
       "review": {
         "key": "newcastle-permanent-8ac556:AC_smartsaveryouth",
-        "reviewKey": "e8e1ace9a6f6492ebf93d34f250981553412f5b2552f5018e5bf46c3265bb902",
+        "reviewKey": "7090601953d357082585f404339d5f5a3ec85d92a3da3a33efa460b95727ca68",
         "rows": [
           {
             "index": 0,
@@ -209,11 +227,26 @@
       }
     },
     "bankwest-c032c0:d10438974ab8417bab388149da5053bb": {
-      "reviewKey": "034b1fe0acea6d7be171baa919d31eb8c662d6e630351d04158904e69fdefa3f",
+      "reviewKey": "86ed5993841ab6fef718bc6b1ba4bcb1cce1d4f72a25c2f8dc2a650cc98ac075",
       "reviewedAt": "2026-11-21T22:55:33.516Z",
+      "rowSignatures": [
+        "bc871089255fe1e3",
+        "4c98261a61105e84",
+        "fc7c797483147f66",
+        "54674fd15e5ab96d",
+        "3fdc0f454714a535",
+        "609703405acb499f",
+        "eef1ca3a866bc336",
+        "0a44de5e2fd2eab6",
+        "d51e0feab83fe4b8",
+        "c299244e7fbbce58",
+        "e213de914d007c00",
+        "4e1ef7886a7a619d",
+        "144d42b2fc4f648b"
+      ],
       "review": {
         "key": "bankwest-c032c0:d10438974ab8417bab388149da5053bb",
-        "reviewKey": "034b1fe0acea6d7be171baa919d31eb8c662d6e630351d04158904e69fdefa3f",
+        "reviewKey": "86ed5993841ab6fef718bc6b1ba4bcb1cce1d4f72a25c2f8dc2a650cc98ac075",
         "rows": [
           {
             "index": 0,
@@ -417,11 +450,15 @@
       }
     },
     "mystate-bank-132fb8:f2c94853-abb7-4c8e-ae43-66427d186380": {
-      "reviewKey": "49665b0bf2fee165467f4d69d5890bb144922337fb1ac41a86a3a001daadb8b3",
+      "reviewKey": "e3ecb6590ba04f6e77eafb812d4f152ccfe7835cc8835086845aa0a21edf9053",
       "reviewedAt": "2026-11-21T22:55:33.516Z",
+      "rowSignatures": [
+        "0102c43dbc083bfa",
+        "e4ad60bfeb1bb205"
+      ],
       "review": {
         "key": "mystate-bank-132fb8:f2c94853-abb7-4c8e-ae43-66427d186380",
-        "reviewKey": "49665b0bf2fee165467f4d69d5890bb144922337fb1ac41a86a3a001daadb8b3",
+        "reviewKey": "e3ecb6590ba04f6e77eafb812d4f152ccfe7835cc8835086845aa0a21edf9053",
         "rows": [
           {
             "index": 0,
@@ -522,11 +559,19 @@
       }
     },
     "rabobank-b18b21:c84e2ce6-f927-4783-aa0d-84073bc090f7": {
-      "reviewKey": "0d11696ba740ed4a12ec317534166c1cedcd6be89bce8973b874853dfb9d9d00",
+      "reviewKey": "5c4f5ed4b6d69d83802ac38b8539e5d088e547bd08a8d3ce4acb15a579fd5c26",
       "reviewedAt": "2026-11-21T22:55:33.516Z",
+      "rowSignatures": [
+        "0ad7eb04b4a38ac7",
+        "daaa5cb6921254e8",
+        "8369c9be39b4861c",
+        "ab83163d8311031a",
+        "4c2327b7ffb64982",
+        "748cfecf9d821b8d"
+      ],
       "review": {
         "key": "rabobank-b18b21:c84e2ce6-f927-4783-aa0d-84073bc090f7",
-        "reviewKey": "0d11696ba740ed4a12ec317534166c1cedcd6be89bce8973b874853dfb9d9d00",
+        "reviewKey": "5c4f5ed4b6d69d83802ac38b8539e5d088e547bd08a8d3ce4acb15a579fd5c26",
         "rows": [
           {
             "index": 0,
@@ -620,11 +665,18 @@
       }
     },
     "newcastle-permanent-8ac556:AC_smartsaver": {
-      "reviewKey": "600bcc63374be9802cb92d02668f30565bd56b225d622bc1967c9c7c5ccf10e7",
+      "reviewKey": "16add975a7e518af8b3e7e4ff56505862888e446e1111e1e67f6588123a07620",
       "reviewedAt": "2026-11-21T22:55:33.516Z",
+      "rowSignatures": [
+        "1201baf9e3f8dd6c",
+        "87959d7a6863f869",
+        "fc069f9e004fe93f",
+        "abc62372dd7adae3",
+        "83f9924065c7b480"
+      ],
       "review": {
         "key": "newcastle-permanent-8ac556:AC_smartsaver",
-        "reviewKey": "600bcc63374be9802cb92d02668f30565bd56b225d622bc1967c9c7c5ccf10e7",
+        "reviewKey": "16add975a7e518af8b3e7e4ff56505862888e446e1111e1e67f6588123a07620",
         "rows": [
           {
             "index": 0,
@@ -696,11 +748,15 @@
       }
     },
     "defence-bank-3d0eb5:119": {
-      "reviewKey": "967a9f139c4b7e58bac9ed89c02a6aaa435116a276500d4332dcc48dfac277e7",
+      "reviewKey": "96cada5a376c33e7441f5cb49da8344dcdb199e822841dd66de07008a43c22ca",
       "reviewedAt": "2026-11-21T22:55:33.516Z",
+      "rowSignatures": [
+        "e934bd33d90c4b96",
+        "e83c8891e45f7a67"
+      ],
       "review": {
         "key": "defence-bank-3d0eb5:119",
-        "reviewKey": "967a9f139c4b7e58bac9ed89c02a6aaa435116a276500d4332dcc48dfac277e7",
+        "reviewKey": "96cada5a376c33e7441f5cb49da8344dcdb199e822841dd66de07008a43c22ca",
         "rows": [
           {
             "index": 0,
@@ -760,11 +816,16 @@
       }
     },
     "bendigo-bank-c7851b:cb6f3716-4e76-4e5b-b79d-0720756a21ac": {
-      "reviewKey": "6ebacb025ce30937c9473317358bc04ebeb2de465d89668a975351c9f796c0d1",
+      "reviewKey": "7e914002e88ab606d1089e90c64daa81bcc3f52d20104665f47bcf58b63c39f8",
       "reviewedAt": "2026-11-21T22:55:33.516Z",
+      "rowSignatures": [
+        "5fb6cb70b2277be6",
+        "d576669d611abe33",
+        "a17847540f0b10aa"
+      ],
       "review": {
         "key": "bendigo-bank-c7851b:cb6f3716-4e76-4e5b-b79d-0720756a21ac",
-        "reviewKey": "6ebacb025ce30937c9473317358bc04ebeb2de465d89668a975351c9f796c0d1",
+        "reviewKey": "7e914002e88ab606d1089e90c64daa81bcc3f52d20104665f47bcf58b63c39f8",
         "rows": [
           {
             "index": 0,
@@ -856,11 +917,17 @@
       }
     },
     "ing-bank-australia-ltd-2efdf8:68a5c23f-36d8-42fe-b55b-a4849b815448": {
-      "reviewKey": "d8c35c2b494f6f5d4b678b5f6ee0205c2ca6428825fd27430852f3ef7fcfffd6",
+      "reviewKey": "2d34c867bf999b4549b8ab8b3f69f9c8b9639fe06d698d5b46bf6343d437afb6",
       "reviewedAt": "2026-11-21T22:55:33.516Z",
+      "rowSignatures": [
+        "270978c0619665a0",
+        "359e769e8694a0d4",
+        "286b08db5ca5a2b1",
+        "7c7569cece626fd6"
+      ],
       "review": {
         "key": "ing-bank-australia-ltd-2efdf8:68a5c23f-36d8-42fe-b55b-a4849b815448",
-        "reviewKey": "d8c35c2b494f6f5d4b678b5f6ee0205c2ca6428825fd27430852f3ef7fcfffd6",
+        "reviewKey": "2d34c867bf999b4549b8ab8b3f69f9c8b9639fe06d698d5b46bf6343d437afb6",
         "rows": [
           {
             "index": 0,
@@ -943,11 +1010,21 @@
       }
     },
     "ubank-f381eb:1": {
-      "reviewKey": "54c962445d858f296e4ad19b4f95122601f5af8d4e6ace231ecc2278cba9006b",
+      "reviewKey": "36eb15e1a272853dd2a9140f1eed24778e0d827aec0ec0496dd1332f2bb4fd1d",
       "reviewedAt": "2026-11-21T22:55:33.516Z",
+      "rowSignatures": [
+        "c980fa52b289bf36",
+        "415a3ce80e89feae",
+        "ed9d2b716b42b08b",
+        "229a8758a195bc31",
+        "442825935f5170a6",
+        "fdf4cfe184cb6aa3",
+        "f5868866e39448b2",
+        "0c91879e79690bcb"
+      ],
       "review": {
         "key": "ubank-f381eb:1",
-        "reviewKey": "54c962445d858f296e4ad19b4f95122601f5af8d4e6ace231ecc2278cba9006b",
+        "reviewKey": "36eb15e1a272853dd2a9140f1eed24778e0d827aec0ec0496dd1332f2bb4fd1d",
         "rows": [
           {
             "index": 0,
@@ -1148,11 +1225,15 @@
       }
     },
     "summerland-bank-e79678:3": {
-      "reviewKey": "2f3763fe9204e5118de9cf3601754ef39ae790d884dff3f93389ffcf5b7f2a76",
+      "reviewKey": "2e58edfd33e24716ad8f30044d7b7cfb84e97e7ae286f11acb5bfdb815bd1de8",
       "reviewedAt": "2026-11-21T22:55:33.516Z",
+      "rowSignatures": [
+        "6e16d9257071c6af",
+        "b786228bdc825d31"
+      ],
       "review": {
         "key": "summerland-bank-e79678:3",
-        "reviewKey": "2f3763fe9204e5118de9cf3601754ef39ae790d884dff3f93389ffcf5b7f2a76",
+        "reviewKey": "2e58edfd33e24716ad8f30044d7b7cfb84e97e7ae286f11acb5bfdb815bd1de8",
         "rows": [
           {
             "index": 0,
@@ -1202,11 +1283,16 @@
       }
     },
     "virgin-money-7bedfe:36906e88-5c03-ee11-8f6e-00224814d330": {
-      "reviewKey": "f1c590b2882ce18025083757b22deeeb89d0884d7312864cfbf018ba846f3a3f",
+      "reviewKey": "2221e839aeafbd7c541b2533cbc013511fb7043fb0bc46152f55e310ec64b455",
       "reviewedAt": "2026-11-21T22:55:33.516Z",
+      "rowSignatures": [
+        "0ca50be21a2a2aad",
+        "b52ff72f5422a694",
+        "58417393d8c30a37"
+      ],
       "review": {
         "key": "virgin-money-7bedfe:36906e88-5c03-ee11-8f6e-00224814d330",
-        "reviewKey": "f1c590b2882ce18025083757b22deeeb89d0884d7312864cfbf018ba846f3a3f",
+        "reviewKey": "2221e839aeafbd7c541b2533cbc013511fb7043fb0bc46152f55e310ec64b455",
         "rows": [
           {
             "index": 0,
@@ -1298,11 +1384,17 @@
       }
     },
     "westpac-1ef9e7:SavESaver": {
-      "reviewKey": "c8fce537743e2bc98b288da205264aee4964907b082a43a9fa77f5343e5d7b10",
+      "reviewKey": "c34ea6e1efbc4f3e4280ee2271355dd271bf477c30f0449618e9c4915a3111ed",
       "reviewedAt": "2026-11-21T22:55:33.516Z",
+      "rowSignatures": [
+        "047ebac51ea2336b",
+        "f1b104d07e5ca923",
+        "3b104895eb1ed96a",
+        "af268c2018bd99e8"
+      ],
       "review": {
         "key": "westpac-1ef9e7:SavESaver",
-        "reviewKey": "c8fce537743e2bc98b288da205264aee4964907b082a43a9fa77f5343e5d7b10",
+        "reviewKey": "c34ea6e1efbc4f3e4280ee2271355dd271bf477c30f0449618e9c4915a3111ed",
         "rows": [
           {
             "index": 0,
@@ -1385,11 +1477,16 @@
       }
     },
     "bank-of-queensland-limited-1f8da9:1c906e88-5c03-ee11-8f6e-00224814d330": {
-      "reviewKey": "003710e16c0bc95982b5a425f04164a1a7d09e9d53a904011992234caeb93340",
+      "reviewKey": "7de7bf7d7cc5ac8c27c98633d5a513a8ac1236e2c1cc05634b94790d8a29fd73",
       "reviewedAt": "2026-11-21T22:55:33.516Z",
+      "rowSignatures": [
+        "6bcc89522e547808",
+        "3bbdf3a111954291",
+        "e775358188267cb7"
+      ],
       "review": {
         "key": "bank-of-queensland-limited-1f8da9:1c906e88-5c03-ee11-8f6e-00224814d330",
-        "reviewKey": "003710e16c0bc95982b5a425f04164a1a7d09e9d53a904011992234caeb93340",
+        "reviewKey": "7de7bf7d7cc5ac8c27c98633d5a513a8ac1236e2c1cc05634b94790d8a29fd73",
         "rows": [
           {
             "index": 0,
@@ -1481,11 +1578,16 @@
       }
     },
     "westpac-1ef9e7:SavLife": {
-      "reviewKey": "7eb57b77c6614220c80f25fd795bf07799a1ebf23ddc7ef956d6628aec8ce0d8",
+      "reviewKey": "1ac8bd54042d644549e2f840c689d2e85aa80c1fc70bac4307c8a57df2c6f4b4",
       "reviewedAt": "2026-11-21T22:55:33.516Z",
+      "rowSignatures": [
+        "b2082e84020b1ff8",
+        "f704a9703d13c5f9",
+        "23bd0e4a6a1e9317"
+      ],
       "review": {
         "key": "westpac-1ef9e7:SavLife",
-        "reviewKey": "7eb57b77c6614220c80f25fd795bf07799a1ebf23ddc7ef956d6628aec8ce0d8",
+        "reviewKey": "1ac8bd54042d644549e2f840c689d2e85aa80c1fc70bac4307c8a57df2c6f4b4",
         "rows": [
           {
             "index": 0,
@@ -1607,11 +1709,18 @@
       }
     },
     "bank-australia-b0ab59:49f8431a-85a3-4867-845f-dd620d13fd7b": {
-      "reviewKey": "da4fe020f3ff0c4242e5a3b14e40b15ff6e05842886ff6442d1cd6fa34e146ac",
+      "reviewKey": "27b5755b91650a5c607ff2b102f68a2a768b535177ee8a2254d861fbc06628ac",
       "reviewedAt": "2026-11-21T22:55:33.516Z",
+      "rowSignatures": [
+        "f28a5fc24a9c6a12",
+        "bf2d18a1255a2336",
+        "b032ea38e1750418",
+        "990fed6650f450ec",
+        "7cc2540ea6249509"
+      ],
       "review": {
         "key": "bank-australia-b0ab59:49f8431a-85a3-4867-845f-dd620d13fd7b",
-        "reviewKey": "da4fe020f3ff0c4242e5a3b14e40b15ff6e05842886ff6442d1cd6fa34e146ac",
+        "reviewKey": "27b5755b91650a5c607ff2b102f68a2a768b535177ee8a2254d861fbc06628ac",
         "rows": [
           {
             "index": 0,
@@ -1757,11 +1866,15 @@
       }
     },
     "defence-bank-3d0eb5:117": {
-      "reviewKey": "fd62687aeeda80ad6f1ea379ec28da4f7936feaf0f9a4fda4acdbc015956c911",
+      "reviewKey": "c01889fc2ce77f5afe621f6b853be4b6430e3852a3b3cf9e4e697d5cde835a11",
       "reviewedAt": "2026-11-21T22:55:33.516Z",
+      "rowSignatures": [
+        "4b03c74600f943c1",
+        "13d4936d6bce7c13"
+      ],
       "review": {
         "key": "defence-bank-3d0eb5:117",
-        "reviewKey": "fd62687aeeda80ad6f1ea379ec28da4f7936feaf0f9a4fda4acdbc015956c911",
+        "reviewKey": "c01889fc2ce77f5afe621f6b853be4b6430e3852a3b3cf9e4e697d5cde835a11",
         "rows": [
           {
             "index": 0,
@@ -1821,11 +1934,17 @@
       }
     },
     "royal-automobile-club-of-queensland-racq-772781:404": {
-      "reviewKey": "c25f0bad08f57ee89878b0eceb0cfc0d2ff17c9c2a80dbe83c99bf5bf424e937",
+      "reviewKey": "f4b20ba41afb7123d9e930f510655f6b1c45dd803c68b4ade4f35a88357bc159",
       "reviewedAt": "2026-11-21T22:55:33.516Z",
+      "rowSignatures": [
+        "1b4c2a273c31dd8b",
+        "93905123e8f7885c",
+        "37ff1a801c2e354f",
+        "b314fdf854e7bc95"
+      ],
       "review": {
         "key": "royal-automobile-club-of-queensland-racq-772781:404",
-        "reviewKey": "c25f0bad08f57ee89878b0eceb0cfc0d2ff17c9c2a80dbe83c99bf5bf424e937",
+        "reviewKey": "f4b20ba41afb7123d9e930f510655f6b1c45dd803c68b4ade4f35a88357bc159",
         "rows": [
           {
             "index": 0,
@@ -1928,11 +2047,15 @@
       }
     },
     "ing-bank-australia-ltd-2efdf8:b7bb9da4-3913-484c-8d2d-3fc99b9b4a72": {
-      "reviewKey": "6c452d7a66b6f66b2657429973ede60f6ec497865fa26dae3d61ff35927df44a",
+      "reviewKey": "bd526291dad6c7b2806a343f49639f7227d8f6bbc7a0e51be146d57963f17498",
       "reviewedAt": "2026-11-21T22:55:33.516Z",
+      "rowSignatures": [
+        "0de33b293af7d35e",
+        "f71ff3a93ec698e3"
+      ],
       "review": {
         "key": "ing-bank-australia-ltd-2efdf8:b7bb9da4-3913-484c-8d2d-3fc99b9b4a72",
-        "reviewKey": "6c452d7a66b6f66b2657429973ede60f6ec497865fa26dae3d61ff35927df44a",
+        "reviewKey": "bd526291dad6c7b2806a343f49639f7227d8f6bbc7a0e51be146d57963f17498",
         "rows": [
           {
             "index": 0,
@@ -2022,11 +2145,23 @@
       }
     },
     "rabobank-b18b21:f5079e11-c89f-43bf-bd15-91df6602699d": {
-      "reviewKey": "8fe8afee147e8cef3198520de3c281d82684981211e2dcee257d5d30ae4d28f8",
+      "reviewKey": "f2996c08d4f3ee81f26f167507defee1fd7acb56089b72ceb96efa81c78a4691",
       "reviewedAt": "2026-11-21T22:55:33.516Z",
+      "rowSignatures": [
+        "97a46bb1872f7def",
+        "3371cef576d328e5",
+        "dfde1e9da9f9193b",
+        "1ab2d50ee21f956b",
+        "b1c03153407d21cb",
+        "c54da53166e3ab21",
+        "5b58ed0889e1914f",
+        "629f757669e067ed",
+        "70896bbd84538fc2",
+        "242b8dc032c57c2f"
+      ],
       "review": {
         "key": "rabobank-b18b21:f5079e11-c89f-43bf-bd15-91df6602699d",
-        "reviewKey": "8fe8afee147e8cef3198520de3c281d82684981211e2dcee257d5d30ae4d28f8",
+        "reviewKey": "f2996c08d4f3ee81f26f167507defee1fd7acb56089b72ceb96efa81c78a4691",
         "rows": [
           {
             "index": 0,
@@ -2208,11 +2343,19 @@
       }
     },
     "bank-of-melbourne-1859a2:BOMSavMaxiSaver": {
-      "reviewKey": "d2d69985098468209e6da2523e0d76fc0b42b4c007f1faf24b1ae241e937aad5",
+      "reviewKey": "014d57b6cecc224743870710aafdd0bc4ac11dc143bbe40c2290773af401f9d4",
       "reviewedAt": "2026-11-21T22:55:33.516Z",
+      "rowSignatures": [
+        "bbda1194d2cbf67a",
+        "2a604aa963490d40",
+        "b7f4a1f73e318a20",
+        "66c59fe7f01150f1",
+        "73cb4dccc9ecceab",
+        "f8b74c8cf7d590bf"
+      ],
       "review": {
         "key": "bank-of-melbourne-1859a2:BOMSavMaxiSaver",
-        "reviewKey": "d2d69985098468209e6da2523e0d76fc0b42b4c007f1faf24b1ae241e937aad5",
+        "reviewKey": "014d57b6cecc224743870710aafdd0bc4ac11dc143bbe40c2290773af401f9d4",
         "rows": [
           {
             "index": 0,
@@ -2359,11 +2502,15 @@
       }
     },
     "bank-of-queensland-limited-1f8da9:19906e88-5c03-ee11-8f6e-00224814d330": {
-      "reviewKey": "1235d5b17a331e3f452b143ea8a6ea40aec349dd2141264a49595b2f901006b8",
+      "reviewKey": "80e0978a0df5f00210765d12f9912a454bfd827b04ef6a6c93e7c6205151afeb",
       "reviewedAt": "2026-11-21T22:55:33.516Z",
+      "rowSignatures": [
+        "3d977c0a5e7724f0",
+        "f6e1a444b7d8ffbb"
+      ],
       "review": {
         "key": "bank-of-queensland-limited-1f8da9:19906e88-5c03-ee11-8f6e-00224814d330",
-        "reviewKey": "1235d5b17a331e3f452b143ea8a6ea40aec349dd2141264a49595b2f901006b8",
+        "reviewKey": "80e0978a0df5f00210765d12f9912a454bfd827b04ef6a6c93e7c6205151afeb",
         "rows": [
           {
             "index": 0,
@@ -2423,11 +2570,19 @@
       }
     },
     "banksa-e6aef2:BSASavMaxiSaver": {
-      "reviewKey": "930780374a912b1727b6b65c8de27ee3137147e40a22c3072550b2bbbc2511cd",
+      "reviewKey": "ba5e27cd869cdd0aa5a86e505669c931c56c06aa9c7bf2302b10e6878b9ddd6c",
       "reviewedAt": "2026-11-21T22:55:33.516Z",
+      "rowSignatures": [
+        "bbda1194d2cbf67a",
+        "2a604aa963490d40",
+        "b7f4a1f73e318a20",
+        "66c59fe7f01150f1",
+        "73cb4dccc9ecceab",
+        "f8b74c8cf7d590bf"
+      ],
       "review": {
         "key": "banksa-e6aef2:BSASavMaxiSaver",
-        "reviewKey": "930780374a912b1727b6b65c8de27ee3137147e40a22c3072550b2bbbc2511cd",
+        "reviewKey": "ba5e27cd869cdd0aa5a86e505669c931c56c06aa9c7bf2302b10e6878b9ddd6c",
         "rows": [
           {
             "index": 0,
@@ -2574,11 +2729,16 @@
       }
     },
     "bcu-bank-a9a2f3:278": {
-      "reviewKey": "7adf5fc0e69c28c27b55ae18f9cb74abaccde662ad1959b21cca210914ad2e14",
+      "reviewKey": "d7cd390c84c5f4acd518369ad7b5da4758ea1c69ee6c1a5d09da99e4633ab713",
       "reviewedAt": "2026-11-21T22:55:33.516Z",
+      "rowSignatures": [
+        "7782bbd260f84446",
+        "83987ec3d3f93485",
+        "584a4f6f3e325d1f"
+      ],
       "review": {
         "key": "bcu-bank-a9a2f3:278",
-        "reviewKey": "7adf5fc0e69c28c27b55ae18f9cb74abaccde662ad1959b21cca210914ad2e14",
+        "reviewKey": "d7cd390c84c5f4acd518369ad7b5da4758ea1c69ee6c1a5d09da99e4633ab713",
         "rows": [
           {
             "index": 0,
@@ -2628,11 +2788,16 @@
       }
     },
     "me-bank-me-go-7fe1c0:98f3781e-102c-ee11-9966-002248e1d7d5": {
-      "reviewKey": "eef1490cbd3a97bef76a70db59e7cdc3dbbc048e137294740dd297bd59131732",
+      "reviewKey": "a75803a0f5768b511c8533f89028eb5dd7e774abb5a73ded83035d73a48c6715",
       "reviewedAt": "2026-11-21T22:57:35.499Z",
+      "rowSignatures": [
+        "fa9249126c5786c3",
+        "a6c5b310c4583f10",
+        "ee3d49a8689a303c"
+      ],
       "review": {
         "key": "me-bank-me-go-7fe1c0:98f3781e-102c-ee11-9966-002248e1d7d5",
-        "reviewKey": "eef1490cbd3a97bef76a70db59e7cdc3dbbc048e137294740dd297bd59131732",
+        "reviewKey": "a75803a0f5768b511c8533f89028eb5dd7e774abb5a73ded83035d73a48c6715",
         "rows": [
           {
             "index": 0,
@@ -2724,11 +2889,16 @@
       }
     },
     "p-n-bank-4f1953:37": {
-      "reviewKey": "eeec64028d940888973f83b13e735aa8132949a1570d21d6de8614b291a4ead1",
+      "reviewKey": "cc956fdf2021014535eb68bd12e0c3e099d62ac1a54b904e0c02a645d4d17d82",
       "reviewedAt": "2026-11-21T22:57:35.499Z",
+      "rowSignatures": [
+        "591535a7c8c1752e",
+        "9254b0a0c4d98933",
+        "f90a0b4dfe921be0"
+      ],
       "review": {
         "key": "p-n-bank-4f1953:37",
-        "reviewKey": "eeec64028d940888973f83b13e735aa8132949a1570d21d6de8614b291a4ead1",
+        "reviewKey": "cc956fdf2021014535eb68bd12e0c3e099d62ac1a54b904e0c02a645d4d17d82",
         "rows": [
           {
             "index": 0,
@@ -2778,11 +2948,19 @@
       }
     },
     "st-george-bank-66f3a8:STGSavMaxiSaver": {
-      "reviewKey": "208a13795b8751980e7e845bcb54e475758ff3c3fd7f90932082d0513ba74553",
+      "reviewKey": "891e3ac3e4dea43914d2a50f34a856fb9f095ee70838b19d16475bd32a61fb74",
       "reviewedAt": "2026-11-21T22:57:35.499Z",
+      "rowSignatures": [
+        "bbda1194d2cbf67a",
+        "2a604aa963490d40",
+        "b7f4a1f73e318a20",
+        "66c59fe7f01150f1",
+        "73cb4dccc9ecceab",
+        "f8b74c8cf7d590bf"
+      ],
       "review": {
         "key": "st-george-bank-66f3a8:STGSavMaxiSaver",
-        "reviewKey": "208a13795b8751980e7e845bcb54e475758ff3c3fd7f90932082d0513ba74553",
+        "reviewKey": "891e3ac3e4dea43914d2a50f34a856fb9f095ee70838b19d16475bd32a61fb74",
         "rows": [
           {
             "index": 0,
@@ -2929,11 +3107,18 @@
       }
     },
     "imb-bank-198820:TSA-22-1": {
-      "reviewKey": "9a1889ba06d028e4d119121b314b511c7040dd99d433c1b9129d062cbe49b8a5",
+      "reviewKey": "85eb8cf8e2758cba07dcfdbbbb7613b29524fa4d768f153ac55cba0fb9b397ff",
       "reviewedAt": "2026-11-21T22:57:35.499Z",
+      "rowSignatures": [
+        "393fb8db76992c7d",
+        "5b60b17e8344d46f",
+        "5e137c544e6f2994",
+        "bf8fca3d34cea7d4",
+        "33bf6e18b14b551c"
+      ],
       "review": {
         "key": "imb-bank-198820:TSA-22-1",
-        "reviewKey": "9a1889ba06d028e4d119121b314b511c7040dd99d433c1b9129d062cbe49b8a5",
+        "reviewKey": "85eb8cf8e2758cba07dcfdbbbb7613b29524fa4d768f153ac55cba0fb9b397ff",
         "rows": [
           {
             "index": 0,
@@ -3057,11 +3242,18 @@
       }
     },
     "imb-bank-198820:TSA-22-2": {
-      "reviewKey": "22a2d442a01e1d973c6cd19c1614470eb73bc4e74405908e05b1e957953a4cd8",
+      "reviewKey": "8a44fa5e661a96b05c09afe35b14e8f771a2b773614e2fb2dcbff0e6aeeeb9a7",
       "reviewedAt": "2026-11-21T22:57:35.499Z",
+      "rowSignatures": [
+        "aecdf1e91c7144f0",
+        "1ea481249b0367ab",
+        "1631180129d260d4",
+        "5b60b17e8344d46f",
+        "5e137c544e6f2994"
+      ],
       "review": {
         "key": "imb-bank-198820:TSA-22-2",
-        "reviewKey": "22a2d442a01e1d973c6cd19c1614470eb73bc4e74405908e05b1e957953a4cd8",
+        "reviewKey": "8a44fa5e661a96b05c09afe35b14e8f771a2b773614e2fb2dcbff0e6aeeeb9a7",
         "rows": [
           {
             "index": 0,
@@ -3175,11 +3367,17 @@
       }
     },
     "up-548b16:up-saver": {
-      "reviewKey": "ea61cb0875ca153f6cbdb9a11d14e900ef29b4d3214b3f6c4f12a97a0bed141e",
+      "reviewKey": "96eac79fac800ca4bbff69696ac7f84beef0feae3544638d7accf6543ea04d04",
       "reviewedAt": "2026-11-21T22:57:35.499Z",
+      "rowSignatures": [
+        "eb0c5a307b643cfb",
+        "b332c26717960677",
+        "e719978b4797f1b7",
+        "0efa6aee922ebb94"
+      ],
       "review": {
         "key": "up-548b16:up-saver",
-        "reviewKey": "ea61cb0875ca153f6cbdb9a11d14e900ef29b4d3214b3f6c4f12a97a0bed141e",
+        "reviewKey": "96eac79fac800ca4bbff69696ac7f84beef0feae3544638d7accf6543ea04d04",
         "rows": [
           {
             "index": 0,
@@ -3272,11 +3470,17 @@
       }
     },
     "first-option-bank-adb052:KIDS_BONUS_SAVER": {
-      "reviewKey": "d76cfee0993ae2c5eeb4345f46d13e8c59334f400514c35d7f4ac90c2c41906d",
+      "reviewKey": "15ddd0f6d20e72d34a711c6b9fc6a10fa4b3ce96bdd4de15536545465bd091ed",
       "reviewedAt": "2026-11-21T22:57:35.499Z",
+      "rowSignatures": [
+        "e3652f353443eb65",
+        "dfdf9d95a42acfa1",
+        "960445d996697e2d",
+        "0f87c55c8682acf4"
+      ],
       "review": {
         "key": "first-option-bank-adb052:KIDS_BONUS_SAVER",
-        "reviewKey": "d76cfee0993ae2c5eeb4345f46d13e8c59334f400514c35d7f4ac90c2c41906d",
+        "reviewKey": "15ddd0f6d20e72d34a711c6b9fc6a10fa4b3ce96bdd4de15536545465bd091ed",
         "rows": [
           {
             "index": 0,
@@ -3337,11 +3541,16 @@
       }
     },
     "mystate-bank-132fb8:13002307": {
-      "reviewKey": "ba27fdfef76ff332974b6d1c957dd9945f576c9f24fb450b26843850e318a1db",
+      "reviewKey": "190f7d7e362d4c9e08de9e79b3c39d1b687a414bccb4d8585a23075e282c29da",
       "reviewedAt": "2026-11-21T22:57:35.499Z",
+      "rowSignatures": [
+        "b98ecae8015341d9",
+        "aa5f0f8142ddba6e",
+        "f91771c9153d005c"
+      ],
       "review": {
         "key": "mystate-bank-132fb8:13002307",
-        "reviewKey": "ba27fdfef76ff332974b6d1c957dd9945f576c9f24fb450b26843850e318a1db",
+        "reviewKey": "190f7d7e362d4c9e08de9e79b3c39d1b687a414bccb4d8585a23075e282c29da",
         "rows": [
           {
             "index": 0,
@@ -3402,11 +3611,18 @@
       }
     },
     "commbank-5b7d50:ad22b1f0967349e8a5d586afe7f0d845": {
-      "reviewKey": "c632772f7240906604b49462b2ef1408fb81eed6d0b8645e114ab0e3f6fb5b4f",
+      "reviewKey": "136b0de797164ada613be356c6bf8764e3b2ea42f75fcdb48ddd47bd21847563",
       "reviewedAt": "2026-11-21T22:57:35.499Z",
+      "rowSignatures": [
+        "572d0bfbea5e320b",
+        "af7dab7ce7296eff",
+        "635b21e3e00479bb",
+        "bc213ea48b3a1137",
+        "c5255fd4c542d44b"
+      ],
       "review": {
         "key": "commbank-5b7d50:ad22b1f0967349e8a5d586afe7f0d845",
-        "reviewKey": "c632772f7240906604b49462b2ef1408fb81eed6d0b8645e114ab0e3f6fb5b4f",
+        "reviewKey": "136b0de797164ada613be356c6bf8764e3b2ea42f75fcdb48ddd47bd21847563",
         "rows": [
           {
             "index": 0,
@@ -3489,11 +3705,17 @@
       }
     },
     "judo-bank-e4317d:63e5a9e5-f73c-434a-9221-f6f1574e4554": {
-      "reviewKey": "b1a489887caed408c9ebe19971b6199eb394b65c5b90f9997a3c741d755f54b6",
+      "reviewKey": "34ac7d4d6d2dd78aa8e9b6f99fdaa196939c15a546665e1a5c7a993716c29bc6",
       "reviewedAt": "2026-11-21T22:57:35.499Z",
+      "rowSignatures": [
+        "fc062b274ce1b235",
+        "25c5d4ad5af8ac78",
+        "e2836f01ef72cbb7",
+        "4a3b7bb158273b83"
+      ],
       "review": {
         "key": "judo-bank-e4317d:63e5a9e5-f73c-434a-9221-f6f1574e4554",
-        "reviewKey": "b1a489887caed408c9ebe19971b6199eb394b65c5b90f9997a3c741d755f54b6",
+        "reviewKey": "34ac7d4d6d2dd78aa8e9b6f99fdaa196939c15a546665e1a5c7a993716c29bc6",
         "rows": [
           {
             "index": 0,
@@ -3576,11 +3798,15 @@
       }
     },
     "movebank-2f3c1b:ff2bc097-6390-4e1d-b97a-a3ebc42df30c": {
-      "reviewKey": "ed4140655f262366fefad94c99e791de2eb0f47f97144758b7ae48c8061c71c5",
+      "reviewKey": "b3f2bc97e4d35e10cb6dcda7b0a8b9e2d622e1b35cc8e0d214d73f17be382a92",
       "reviewedAt": "2026-11-21T22:57:35.499Z",
+      "rowSignatures": [
+        "21e7f0d68769c716",
+        "8163d1905dad6c97"
+      ],
       "review": {
         "key": "movebank-2f3c1b:ff2bc097-6390-4e1d-b97a-a3ebc42df30c",
-        "reviewKey": "ed4140655f262366fefad94c99e791de2eb0f47f97144758b7ae48c8061c71c5",
+        "reviewKey": "b3f2bc97e4d35e10cb6dcda7b0a8b9e2d622e1b35cc8e0d214d73f17be382a92",
         "rows": [
           {
             "index": 0,
@@ -3640,11 +3866,16 @@
       }
     },
     "virgin-money-7bedfe:d4176288-5c03-ee11-8f6e-00224814dce7": {
-      "reviewKey": "88498689225bcc379245a1c2d927a09334246f543169dc9a40849a2ea2b62d53",
+      "reviewKey": "20a1b43a151b79ac1af0aec2425940ad5bfe41821a0a6884072906ad0f4b9ad6",
       "reviewedAt": "2026-11-21T22:57:35.499Z",
+      "rowSignatures": [
+        "3d7478d0b8be5245",
+        "6ebb0816fe7ae020",
+        "f3d4e253aa827304"
+      ],
       "review": {
         "key": "virgin-money-7bedfe:d4176288-5c03-ee11-8f6e-00224814dce7",
-        "reviewKey": "88498689225bcc379245a1c2d927a09334246f543169dc9a40849a2ea2b62d53",
+        "reviewKey": "20a1b43a151b79ac1af0aec2425940ad5bfe41821a0a6884072906ad0f4b9ad6",
         "rows": [
           {
             "index": 0,
@@ -3726,11 +3957,16 @@
       }
     },
     "bank-of-queensland-limited-1f8da9:1a906e88-5c03-ee11-8f6e-00224814d330": {
-      "reviewKey": "15caa475f62b3b116d96c4953835a8d0d547758b040ab0ccd503366bae424f7a",
+      "reviewKey": "b861498ff63db5816e3000f1f4f5f3d59bf4cda99cca76cdde9794b95cf2c761",
       "reviewedAt": "2026-11-21T22:57:35.499Z",
+      "rowSignatures": [
+        "f697da635c21b0ba",
+        "fd1cf8ca5f93b3f8",
+        "7c990360e0ff343a"
+      ],
       "review": {
         "key": "bank-of-queensland-limited-1f8da9:1a906e88-5c03-ee11-8f6e-00224814d330",
-        "reviewKey": "15caa475f62b3b116d96c4953835a8d0d547758b040ab0ccd503366bae424f7a",
+        "reviewKey": "b861498ff63db5816e3000f1f4f5f3d59bf4cda99cca76cdde9794b95cf2c761",
         "rows": [
           {
             "index": 0,
@@ -3791,11 +4027,15 @@
       }
     },
     "national-australia-bank-26678c:a97fad3e-9d44-4b4e-8279-3722edefae52": {
-      "reviewKey": "84aa8c093bb75c3679b47c1045b29780f3adc29024ff2181e8d1581c65f87ee6",
+      "reviewKey": "4ccead1c987e0a61a7030a8ed13386d0dc63b93c78a208ac6b6404031e198514",
       "reviewedAt": "2026-11-21T22:57:35.499Z",
+      "rowSignatures": [
+        "a7f0ed183353e2cc",
+        "f5b282300835f343"
+      ],
       "review": {
         "key": "national-australia-bank-26678c:a97fad3e-9d44-4b4e-8279-3722edefae52",
-        "reviewKey": "84aa8c093bb75c3679b47c1045b29780f3adc29024ff2181e8d1581c65f87ee6",
+        "reviewKey": "4ccead1c987e0a61a7030a8ed13386d0dc63b93c78a208ac6b6404031e198514",
         "rows": [
           {
             "index": 0,
@@ -3845,11 +4085,15 @@
       }
     },
     "regional-australia-bank-9ebcdc:8fa9fb51-9f4d-4d3f-b586-f9b48c25287d": {
-      "reviewKey": "d278601b796e59e994f6c4d220a82c5dfdb6c13c9642c43e1386e49c720ccd5a",
+      "reviewKey": "5b145dec138140ee2e0aeebd51b3f7a753400996ebc39ea4f06bac729a54e06e",
       "reviewedAt": "2026-11-21T22:57:35.499Z",
+      "rowSignatures": [
+        "2be9d88474bfc21a",
+        "138769cab04cc7f2"
+      ],
       "review": {
         "key": "regional-australia-bank-9ebcdc:8fa9fb51-9f4d-4d3f-b586-f9b48c25287d",
-        "reviewKey": "d278601b796e59e994f6c4d220a82c5dfdb6c13c9642c43e1386e49c720ccd5a",
+        "reviewKey": "5b145dec138140ee2e0aeebd51b3f7a753400996ebc39ea4f06bac729a54e06e",
         "rows": [
           {
             "index": 0,
@@ -3899,11 +4143,25 @@
       }
     },
     "bank-of-melbourne-1859a2:BOMSavIncentiveSaver": {
-      "reviewKey": "da884ea5a84b8559c8759615299f79886cba24d1302e6271181fddbf9c6cb68e",
+      "reviewKey": "cfa1484a6ea7ccf860b547834f54085f23bc72100f02c4d93347428f1aaa1b99",
       "reviewedAt": "2026-11-21T22:57:35.499Z",
+      "rowSignatures": [
+        "3105e394a31889ee",
+        "c57e63f27b1377be",
+        "8fc1a7385ec70914",
+        "c847264210dafd8c",
+        "d0ea77fb40b4dfc7",
+        "b29dffded72243f2",
+        "6dbc9e10f0c31b65",
+        "2c4e949f0dc93f4d",
+        "f00c8303c127773a",
+        "157bb7895b64e342",
+        "a6afbbbe9ceafd32",
+        "b49244e1fc9f8331"
+      ],
       "review": {
         "key": "bank-of-melbourne-1859a2:BOMSavIncentiveSaver",
-        "reviewKey": "da884ea5a84b8559c8759615299f79886cba24d1302e6271181fddbf9c6cb68e",
+        "reviewKey": "cfa1484a6ea7ccf860b547834f54085f23bc72100f02c4d93347428f1aaa1b99",
         "rows": [
           {
             "index": 0,
@@ -4178,11 +4436,25 @@
       }
     },
     "banksa-e6aef2:BSASavIncentiveSaver": {
-      "reviewKey": "da884ea5a84b8559c8759615299f79886cba24d1302e6271181fddbf9c6cb68e",
+      "reviewKey": "cfa1484a6ea7ccf860b547834f54085f23bc72100f02c4d93347428f1aaa1b99",
       "reviewedAt": "2026-11-21T22:57:35.499Z",
+      "rowSignatures": [
+        "3105e394a31889ee",
+        "c57e63f27b1377be",
+        "8fc1a7385ec70914",
+        "c847264210dafd8c",
+        "d0ea77fb40b4dfc7",
+        "b29dffded72243f2",
+        "6dbc9e10f0c31b65",
+        "2c4e949f0dc93f4d",
+        "f00c8303c127773a",
+        "157bb7895b64e342",
+        "a6afbbbe9ceafd32",
+        "b49244e1fc9f8331"
+      ],
       "review": {
         "key": "banksa-e6aef2:BSASavIncentiveSaver",
-        "reviewKey": "da884ea5a84b8559c8759615299f79886cba24d1302e6271181fddbf9c6cb68e",
+        "reviewKey": "cfa1484a6ea7ccf860b547834f54085f23bc72100f02c4d93347428f1aaa1b99",
         "rows": [
           {
             "index": 0,
@@ -4457,11 +4729,25 @@
       }
     },
     "st-george-bank-66f3a8:STGSavIncentiveSaver": {
-      "reviewKey": "da884ea5a84b8559c8759615299f79886cba24d1302e6271181fddbf9c6cb68e",
+      "reviewKey": "cfa1484a6ea7ccf860b547834f54085f23bc72100f02c4d93347428f1aaa1b99",
       "reviewedAt": "2026-11-21T22:57:35.499Z",
+      "rowSignatures": [
+        "3105e394a31889ee",
+        "c57e63f27b1377be",
+        "8fc1a7385ec70914",
+        "c847264210dafd8c",
+        "d0ea77fb40b4dfc7",
+        "b29dffded72243f2",
+        "6dbc9e10f0c31b65",
+        "2c4e949f0dc93f4d",
+        "f00c8303c127773a",
+        "157bb7895b64e342",
+        "a6afbbbe9ceafd32",
+        "b49244e1fc9f8331"
+      ],
       "review": {
         "key": "st-george-bank-66f3a8:STGSavIncentiveSaver",
-        "reviewKey": "da884ea5a84b8559c8759615299f79886cba24d1302e6271181fddbf9c6cb68e",
+        "reviewKey": "cfa1484a6ea7ccf860b547834f54085f23bc72100f02c4d93347428f1aaa1b99",
         "rows": [
           {
             "index": 0,
@@ -4736,11 +5022,15 @@
       }
     },
     "credit-union-sa-cbc123:CREDITUNIONSA_SAV_142": {
-      "reviewKey": "4f9b0ddedc3e796e55ba1e8534777efc46b669acc693df268f08b550dfb9abf8",
+      "reviewKey": "6e15720611a2e2b2d9cf30fdc08ed1ba37be8e6730be7c0f32c89fd884d2e7e8",
       "reviewedAt": "2026-11-21T22:57:35.499Z",
+      "rowSignatures": [
+        "baaa1fd4897b6b2f",
+        "36f4c5cc598d38b2"
+      ],
       "review": {
         "key": "credit-union-sa-cbc123:CREDITUNIONSA_SAV_142",
-        "reviewKey": "4f9b0ddedc3e796e55ba1e8534777efc46b669acc693df268f08b550dfb9abf8",
+        "reviewKey": "6e15720611a2e2b2d9cf30fdc08ed1ba37be8e6730be7c0f32c89fd884d2e7e8",
         "rows": [
           {
             "index": 0,
@@ -4790,11 +5080,15 @@
       }
     },
     "anz-plus-ea74bb:SAVING01": {
-      "reviewKey": "d09e07e131a9ca30bf054cb054dd27ea9b703be05a8d4ae2388514bcedc2627e",
+      "reviewKey": "1cdc714d304c08a4863d06fec0cf6d4a3b4b2fd5fdad74bbd8438b37d394da48",
       "reviewedAt": "2026-11-21T22:57:35.499Z",
+      "rowSignatures": [
+        "2380f4996a2a73f9",
+        "862fced71e9da2b1"
+      ],
       "review": {
         "key": "anz-plus-ea74bb:SAVING01",
-        "reviewKey": "d09e07e131a9ca30bf054cb054dd27ea9b703be05a8d4ae2388514bcedc2627e",
+        "reviewKey": "1cdc714d304c08a4863d06fec0cf6d4a3b4b2fd5fdad74bbd8438b37d394da48",
         "rows": [
           {
             "index": 0,
@@ -4844,11 +5138,16 @@
       }
     },
     "bank-australia-b0ab59:a87013b2-5589-4f32-a410-2c3c1d661137": {
-      "reviewKey": "28fbcbc4ebe82b0feba8030f7758b9acf6479b3dc110973b8542d5fd0b55ad02",
+      "reviewKey": "b46c10d81912650ad695554dde995ac865f89fe12661740ba766a0d638ab0832",
       "reviewedAt": "2026-11-21T22:57:35.499Z",
+      "rowSignatures": [
+        "3704664fda25cc92",
+        "7c96a7dd69bc10c2",
+        "70e538f6fd87df22"
+      ],
       "review": {
         "key": "bank-australia-b0ab59:a87013b2-5589-4f32-a410-2c3c1d661137",
-        "reviewKey": "28fbcbc4ebe82b0feba8030f7758b9acf6479b3dc110973b8542d5fd0b55ad02",
+        "reviewKey": "b46c10d81912650ad695554dde995ac865f89fe12661740ba766a0d638ab0832",
         "rows": [
           {
             "index": 0,
@@ -4940,11 +5239,16 @@
       }
     },
     "bank-of-china-475b2b:55940656": {
-      "reviewKey": "f8baeedcca057fc8552496c3670edaccd599cbf35055e8d22883c93990812ade",
+      "reviewKey": "ea9c7fb0894036a76ae641fbb541664b041438d8151cd1f8687c15213d910393",
       "reviewedAt": "2026-11-21T22:57:35.499Z",
+      "rowSignatures": [
+        "fd608292e1881b52",
+        "5f21f15f24c1274e",
+        "6bef2905058cfa6f"
+      ],
       "review": {
         "key": "bank-of-china-475b2b:55940656",
-        "reviewKey": "f8baeedcca057fc8552496c3670edaccd599cbf35055e8d22883c93990812ade",
+        "reviewKey": "ea9c7fb0894036a76ae641fbb541664b041438d8151cd1f8687c15213d910393",
         "rows": [
           {
             "index": 0,
@@ -5025,11 +5329,16 @@
       }
     },
     "dnister-7791e6:31": {
-      "reviewKey": "9b7b3e78096ce0b96e59c8c147fd8c76f4afaa53c92e729dad22196c624284c8",
+      "reviewKey": "273f093019df7f79ca9126e9d95082e8ee4e62a9ee7cb997cc7b10e404a2fcfd",
       "reviewedAt": "2026-11-21T22:57:35.499Z",
+      "rowSignatures": [
+        "5c2b87869407a884",
+        "a752860e88793bfa",
+        "59d7d0c8c6027e07"
+      ],
       "review": {
         "key": "dnister-7791e6:31",
-        "reviewKey": "9b7b3e78096ce0b96e59c8c147fd8c76f4afaa53c92e729dad22196c624284c8",
+        "reviewKey": "273f093019df7f79ca9126e9d95082e8ee4e62a9ee7cb997cc7b10e404a2fcfd",
         "rows": [
           {
             "index": 0,
@@ -5121,11 +5430,17 @@
       }
     },
     "qudos-bank-171c0a:3f147739-6090-4a17-9690-05284e62a820": {
-      "reviewKey": "fb9a67ca5ac0ea6299d1419e6671f24237d508ad7dcc3475e476fc26a0cb1a30",
+      "reviewKey": "9a47f7fd1582193ef90f25a463cd64e431351f4b10ed02bba3f3aeb07478cd95",
       "reviewedAt": "2026-11-21T22:57:35.499Z",
+      "rowSignatures": [
+        "2874afa4329a2f6a",
+        "da7c03212cbaa41c",
+        "2a860d608fbdf785",
+        "413dc13bbbf675ed"
+      ],
       "review": {
         "key": "qudos-bank-171c0a:3f147739-6090-4a17-9690-05284e62a820",
-        "reviewKey": "fb9a67ca5ac0ea6299d1419e6671f24237d508ad7dcc3475e476fc26a0cb1a30",
+        "reviewKey": "9a47f7fd1582193ef90f25a463cd64e431351f4b10ed02bba3f3aeb07478cd95",
         "rows": [
           {
             "index": 0,
@@ -5249,11 +5564,15 @@
       }
     },
     "suncorp-bank-58debb:GS": {
-      "reviewKey": "68a38144878e6a4073af16c815b28e2967d3c382585c4719feb2478eea8199fa",
+      "reviewKey": "b85a6925fac46b187911d790e3414c8dbe75a7c7b0f81b858bb8720211fdca01",
       "reviewedAt": "2026-11-21T22:57:35.499Z",
+      "rowSignatures": [
+        "374b4c098b4e0506",
+        "0f8afdbafce677d8"
+      ],
       "review": {
         "key": "suncorp-bank-58debb:GS",
-        "reviewKey": "68a38144878e6a4073af16c815b28e2967d3c382585c4719feb2478eea8199fa",
+        "reviewKey": "b85a6925fac46b187911d790e3414c8dbe75a7c7b0f81b858bb8720211fdca01",
         "rows": [
           {
             "index": 0,
@@ -5313,11 +5632,15 @@
       }
     },
     "great-southern-bank-886d8a:2000-3200": {
-      "reviewKey": "123d4fd6e7e2f1fac3afc5a70274a390a02d844655c0494fb6398dfe13dacfa7",
+      "reviewKey": "345926bf6108723cd2f19cf56ca4d4903e31a30aa407507f1c91ff84564db165",
       "reviewedAt": "2026-11-21T22:59:23.736Z",
+      "rowSignatures": [
+        "9e1c3bf8d6912ba3",
+        "3f1050802117d6b3"
+      ],
       "review": {
         "key": "great-southern-bank-886d8a:2000-3200",
-        "reviewKey": "123d4fd6e7e2f1fac3afc5a70274a390a02d844655c0494fb6398dfe13dacfa7",
+        "reviewKey": "345926bf6108723cd2f19cf56ca4d4903e31a30aa407507f1c91ff84564db165",
         "defaultRole": null,
         "rows": [
           {
@@ -5388,11 +5711,15 @@
       }
     },
     "defence-bank-3d0eb5:110": {
-      "reviewKey": "49d328c1dfce6881f914e5969e5d0e93c22e05c7410ca37d1dbb1ce3eb3f583b",
+      "reviewKey": "9a0273e3a4236887b29a0f9f73d44b3a1744308de3fc198e6f20fe5cff6f90d4",
       "reviewedAt": "2026-11-21T22:59:23.736Z",
+      "rowSignatures": [
+        "f02df44f9333acd8",
+        "fa007697fd06c407"
+      ],
       "review": {
         "key": "defence-bank-3d0eb5:110",
-        "reviewKey": "49d328c1dfce6881f914e5969e5d0e93c22e05c7410ca37d1dbb1ce3eb3f583b",
+        "reviewKey": "9a0273e3a4236887b29a0f9f73d44b3a1744308de3fc198e6f20fe5cff6f90d4",
         "defaultRole": null,
         "rows": [
           {
@@ -5453,11 +5780,16 @@
       }
     },
     "people-first-and-heritage-bank-652172:d9772ff5-78d8-46c4-b489-caa0f05d4c98": {
-      "reviewKey": "79077cfa014e2167ed541367ed7b1e4682c3ff4d4deee82d40944e7b27047993",
+      "reviewKey": "197031c03285f6d3f7d7a440c5ea72243ddfb8283b5e342fd0232526217e2066",
       "reviewedAt": "2026-11-21T22:59:23.736Z",
+      "rowSignatures": [
+        "970fba9f8c142234",
+        "6e9eee9b1a1a3b1e",
+        "c11e9be4ba19039a"
+      ],
       "review": {
         "key": "people-first-and-heritage-bank-652172:d9772ff5-78d8-46c4-b489-caa0f05d4c98",
-        "reviewKey": "79077cfa014e2167ed541367ed7b1e4682c3ff4d4deee82d40944e7b27047993",
+        "reviewKey": "197031c03285f6d3f7d7a440c5ea72243ddfb8283b5e342fd0232526217e2066",
         "defaultRole": null,
         "rows": [
           {
@@ -5530,11 +5862,18 @@
       }
     },
     "revolut-0420b3:b3ad3f63-c3e5-4a92-ad48-e83edf32325e": {
-      "reviewKey": "8c5adfc3881ebf84ddb4588f1e9f4d7333d41437aaa6f954cd318b908f117841",
+      "reviewKey": "e81c4dd2f59915c804b90f681861c3996231a0dd10ce499581291c57b79e14cf",
       "reviewedAt": "2026-11-21T22:59:23.736Z",
+      "rowSignatures": [
+        "23d674e5d7d0ffd7",
+        "568bc91fe6e9c41b",
+        "9dd718ad02c798e0",
+        "6114d5dc42ca9840",
+        "7ee9291fc5a5ba3c"
+      ],
       "review": {
         "key": "revolut-0420b3:b3ad3f63-c3e5-4a92-ad48-e83edf32325e",
-        "reviewKey": "8c5adfc3881ebf84ddb4588f1e9f4d7333d41437aaa6f954cd318b908f117841",
+        "reviewKey": "e81c4dd2f59915c804b90f681861c3996231a0dd10ce499581291c57b79e14cf",
         "defaultRole": null,
         "rows": [
           {
@@ -5607,11 +5946,15 @@
       }
     },
     "westpac-1ef9e7:SavBump": {
-      "reviewKey": "0824f7ec77caea66cc6f874caa6db26f0118c9ed8bc8dde6c0ec60acf0a30faa",
+      "reviewKey": "21678b57bb922dd2d3bade8fe5ca80d37cb21104c6bbb098412c97d2fe5e0d9c",
       "reviewedAt": "2026-11-21T22:59:23.736Z",
+      "rowSignatures": [
+        "fada4d812e47f946",
+        "0865c914167cd9d4"
+      ],
       "review": {
         "key": "westpac-1ef9e7:SavBump",
-        "reviewKey": "0824f7ec77caea66cc6f874caa6db26f0118c9ed8bc8dde6c0ec60acf0a30faa",
+        "reviewKey": "21678b57bb922dd2d3bade8fe5ca80d37cb21104c6bbb098412c97d2fe5e0d9c",
         "defaultRole": null,
         "rows": [
           {
@@ -5682,11 +6025,16 @@
       }
     },
     "commbank-5b7d50:7aff9e0e85e6450eb052d4ff2e953223": {
-      "reviewKey": "fc814a0922f746bc48f6ebc0b39bd965bd85ea5d53aef4a72770f819b512a2fb",
+      "reviewKey": "e938cd48efa0d861dd8dff7d464be0a473d63186c058cd29231dc14af9754756",
       "reviewedAt": "2026-11-21T22:59:23.736Z",
+      "rowSignatures": [
+        "433dab9a2db72efb",
+        "78b856989698ea8d",
+        "9a1aea9fb5d32546"
+      ],
       "review": {
         "key": "commbank-5b7d50:7aff9e0e85e6450eb052d4ff2e953223",
-        "reviewKey": "fc814a0922f746bc48f6ebc0b39bd965bd85ea5d53aef4a72770f819b512a2fb",
+        "reviewKey": "e938cd48efa0d861dd8dff7d464be0a473d63186c058cd29231dc14af9754756",
         "defaultRole": null,
         "rows": [
           {
@@ -5758,11 +6106,19 @@
       }
     },
     "bank-of-us-7217b2:SpringLoad": {
-      "reviewKey": "ba0ff1cf6408c2abdac71d8a5c5dec25775cbb704cbad4564ca8c9189a5337a6",
+      "reviewKey": "5799d00aa7c2c6a362df05aa09d0603373b4031096bee4d1f8b9dfa0ce907b3e",
       "reviewedAt": "2026-11-21T22:59:23.736Z",
+      "rowSignatures": [
+        "3edf1ad64104558c",
+        "032d3598542a10bf",
+        "a74a70854bfb75cf",
+        "35007262fc80324e",
+        "39214d3d7f9e25b8",
+        "aace9e2c6db990dd"
+      ],
       "review": {
         "key": "bank-of-us-7217b2:SpringLoad",
-        "reviewKey": "ba0ff1cf6408c2abdac71d8a5c5dec25775cbb704cbad4564ca8c9189a5337a6",
+        "reviewKey": "5799d00aa7c2c6a362df05aa09d0603373b4031096bee4d1f8b9dfa0ce907b3e",
         "defaultRole": null,
         "rows": [
           {
@@ -5846,11 +6202,19 @@
       }
     },
     "bankwest-c032c0:b7c55febbeab43e1b0969f28c617f780": {
-      "reviewKey": "5b891af4117263bc09a202fac6ecc53ee3b09791a925347251c23e4024baaa4c",
+      "reviewKey": "0f0a8ecb8647321c6ca0c8469c983ec9139c3947ff050f18144eb1c7d65199c0",
       "reviewedAt": "2026-11-21T22:59:23.736Z",
+      "rowSignatures": [
+        "865a4465ca1de15b",
+        "1c7b48b5db60ec3f",
+        "bf2b650323320a9f",
+        "d76b2cea390b4e97",
+        "59ced17732950b50",
+        "5cd8405b24e3145b"
+      ],
       "review": {
         "key": "bankwest-c032c0:b7c55febbeab43e1b0969f28c617f780",
-        "reviewKey": "5b891af4117263bc09a202fac6ecc53ee3b09791a925347251c23e4024baaa4c",
+        "reviewKey": "0f0a8ecb8647321c6ca0c8469c983ec9139c3947ff050f18144eb1c7d65199c0",
         "defaultRole": null,
         "rows": [
           {
@@ -5945,11 +6309,16 @@
       }
     },
     "bcu-bank-a9a2f3:281": {
-      "reviewKey": "6671cbbbbc7effe3e4ff76ca8c65d159709ecb81df4053455a2af91dc8a31a90",
+      "reviewKey": "02d356658e021409fda3fc1e63ff8ffc177e0af7d4e22e0402a44eb2b6565293",
       "reviewedAt": "2026-11-21T22:59:23.736Z",
+      "rowSignatures": [
+        "81afb55cd7b25cef",
+        "f5dfa0e6f2fb242c",
+        "5472deb92db2bcba"
+      ],
       "review": {
         "key": "bcu-bank-a9a2f3:281",
-        "reviewKey": "6671cbbbbc7effe3e4ff76ca8c65d159709ecb81df4053455a2af91dc8a31a90",
+        "reviewKey": "02d356658e021409fda3fc1e63ff8ffc177e0af7d4e22e0402a44eb2b6565293",
         "defaultRole": null,
         "rows": [
           {
@@ -6041,11 +6410,18 @@
       }
     },
     "commbank-5b7d50:72f214498c7f47a98fe59b794e7c01ab": {
-      "reviewKey": "a2cb215a33b6d52992623e79954e8e6c90d4afbedaadde31e1f1d5f0b6097b47",
+      "reviewKey": "bbaa4823115873ca6edcdb393e01e7326f6f2e392593f8af8d00a5dd3a2b1672",
       "reviewedAt": "2026-11-21T22:59:23.736Z",
+      "rowSignatures": [
+        "1e71662e9cb54d34",
+        "57045dd3b90ce550",
+        "9b023634ada7da8b",
+        "d7eb3239cd991507",
+        "acaee4114faa0a07"
+      ],
       "review": {
         "key": "commbank-5b7d50:72f214498c7f47a98fe59b794e7c01ab",
-        "reviewKey": "a2cb215a33b6d52992623e79954e8e6c90d4afbedaadde31e1f1d5f0b6097b47",
+        "reviewKey": "bbaa4823115873ca6edcdb393e01e7326f6f2e392593f8af8d00a5dd3a2b1672",
         "defaultRole": null,
         "rows": [
           {
@@ -6202,11 +6578,14 @@
       }
     },
     "gateway-bank-b98426:10": {
-      "reviewKey": "ee070b9e432f2dcc16fb058310576d331f5ecbf9d4b234ba5aa413365ebf5f4a",
+      "reviewKey": "205a78ddc354bcf472290489a7be1365944e6b7450a848cb2a9be8051f695ef0",
       "reviewedAt": "2026-11-21T22:59:23.736Z",
+      "rowSignatures": [
+        "7a5d3eb691773432"
+      ],
       "review": {
         "key": "gateway-bank-b98426:10",
-        "reviewKey": "ee070b9e432f2dcc16fb058310576d331f5ecbf9d4b234ba5aa413365ebf5f4a",
+        "reviewKey": "205a78ddc354bcf472290489a7be1365944e6b7450a848cb2a9be8051f695ef0",
         "defaultRole": null,
         "rows": [
           {
@@ -6246,11 +6625,15 @@
       }
     },
     "great-southern-bank-886d8a:2000-3100": {
-      "reviewKey": "cce51df62a1e95195eb66341e0a27f6a298fd35c3d311b0c4541d27e02e54810",
+      "reviewKey": "cc1cff3ca1e8df299a65bf88920a09021068d30d7735c19d9dd6b4a19d6e0c62",
       "reviewedAt": "2026-11-21T22:59:23.736Z",
+      "rowSignatures": [
+        "2a3b319c4b627a73",
+        "3f1050802117d6b3"
+      ],
       "review": {
         "key": "great-southern-bank-886d8a:2000-3100",
-        "reviewKey": "cce51df62a1e95195eb66341e0a27f6a298fd35c3d311b0c4541d27e02e54810",
+        "reviewKey": "cc1cff3ca1e8df299a65bf88920a09021068d30d7735c19d9dd6b4a19d6e0c62",
         "defaultRole": null,
         "rows": [
           {
@@ -6321,11 +6704,15 @@
       }
     },
     "horizon-bank-8f3129:S15_S150001": {
-      "reviewKey": "227fe94bc6f3c99d4860d387eeb55b3a32be8d595e95ce870ec3e7f9df04f4b4",
+      "reviewKey": "ec7b32b17e7933aa59a62e7a1d438bc1d781cafae57d92dd175c94638b9dd159",
       "reviewedAt": "2026-11-21T22:59:23.736Z",
+      "rowSignatures": [
+        "3373f8fd3b182fe6",
+        "cbb85eea9b2ae262"
+      ],
       "review": {
         "key": "horizon-bank-8f3129:S15_S150001",
-        "reviewKey": "227fe94bc6f3c99d4860d387eeb55b3a32be8d595e95ce870ec3e7f9df04f4b4",
+        "reviewKey": "ec7b32b17e7933aa59a62e7a1d438bc1d781cafae57d92dd175c94638b9dd159",
         "defaultRole": null,
         "rows": [
           {
@@ -6365,11 +6752,15 @@
       }
     },
     "horizon-bank-8f3129:S17_S170001": {
-      "reviewKey": "9cc79059ff3f6bd57d5fe366479fa4cc8fa287664cfc1f3b9032809efb50f16c",
+      "reviewKey": "c1347b76eafd985fd6fbd8356d13fd4869d1bbcdea88093dda8b877d1f9dded4",
       "reviewedAt": "2026-11-21T22:59:23.736Z",
+      "rowSignatures": [
+        "3373f8fd3b182fe6",
+        "cbb85eea9b2ae262"
+      ],
       "review": {
         "key": "horizon-bank-8f3129:S17_S170001",
-        "reviewKey": "9cc79059ff3f6bd57d5fe366479fa4cc8fa287664cfc1f3b9032809efb50f16c",
+        "reviewKey": "c1347b76eafd985fd6fbd8356d13fd4869d1bbcdea88093dda8b877d1f9dded4",
         "defaultRole": null,
         "rows": [
           {
@@ -6430,11 +6821,15 @@
       }
     },
     "national-australia-bank-26678c:2d188a0a-4e27-4c0f-9a6c-2eccdf534f91": {
-      "reviewKey": "a1276ed0f29a49853ff819d58c9ccf418ab5551c45203f108c940aecf98632d5",
+      "reviewKey": "58c01a446a0d6b516d1b3e025c0386ca174f51d3382ea489771a7dcca724a7aa",
       "reviewedAt": "2026-11-21T22:59:23.736Z",
+      "rowSignatures": [
+        "aabbeea9d5e01b17",
+        "d3a55c07cc18f8a8"
+      ],
       "review": {
         "key": "national-australia-bank-26678c:2d188a0a-4e27-4c0f-9a6c-2eccdf534f91",
-        "reviewKey": "a1276ed0f29a49853ff819d58c9ccf418ab5551c45203f108c940aecf98632d5",
+        "reviewKey": "58c01a446a0d6b516d1b3e025c0386ca174f51d3382ea489771a7dcca724a7aa",
         "defaultRole": null,
         "rows": [
           {
@@ -6495,11 +6890,15 @@
       }
     },
     "newcastle-permanent-8ac556:AC_onlinesavings": {
-      "reviewKey": "13af7256f25552f95b09c45fcb56e5af42db408506218121a74d129f49ee17de",
+      "reviewKey": "692ea6f3d478ca58b129abac37540209b8a4f1a13a19cf42dcf3173660db25e3",
       "reviewedAt": "2026-11-21T22:59:23.736Z",
+      "rowSignatures": [
+        "716b42a534c04309",
+        "b52df29b9a8ec4e1"
+      ],
       "review": {
         "key": "newcastle-permanent-8ac556:AC_onlinesavings",
-        "reviewKey": "13af7256f25552f95b09c45fcb56e5af42db408506218121a74d129f49ee17de",
+        "reviewKey": "692ea6f3d478ca58b129abac37540209b8a4f1a13a19cf42dcf3173660db25e3",
         "defaultRole": null,
         "rows": [
           {
@@ -6550,11 +6949,16 @@
       }
     },
     "p-n-bank-4f1953:280": {
-      "reviewKey": "6364df261b72200cc520e89d89fbbe4f6bfb78b232b1cd7125517cc94e1fb5df",
+      "reviewKey": "d7f597ed51a3e0e9bf9ec20dbc498b3a9ecdc614bb4fddaa1ca9726a4e2307bb",
       "reviewedAt": "2026-11-21T22:59:23.736Z",
+      "rowSignatures": [
+        "8d47570227415b1e",
+        "8cf5c9ee7eb523af",
+        "43b6f1c0717b5643"
+      ],
       "review": {
         "key": "p-n-bank-4f1953:280",
-        "reviewKey": "6364df261b72200cc520e89d89fbbe4f6bfb78b232b1cd7125517cc94e1fb5df",
+        "reviewKey": "d7f597ed51a3e0e9bf9ec20dbc498b3a9ecdc614bb4fddaa1ca9726a4e2307bb",
         "defaultRole": null,
         "rows": [
           {
@@ -6646,11 +7050,14 @@
       }
     },
     "gateway-bank-b98426:13": {
-      "reviewKey": "134a13e484155ed7deca47c9290dd649bcb566997243ed51267d1c8c468eb275",
+      "reviewKey": "da09d3f60384ba51695f26d33f0dbb1c5ddea6afec06c610cd7ea7ba7c7d4d5a",
       "reviewedAt": "2026-11-21T22:59:23.736Z",
+      "rowSignatures": [
+        "bb86b1648e656ff8"
+      ],
       "review": {
         "key": "gateway-bank-b98426:13",
-        "reviewKey": "134a13e484155ed7deca47c9290dd649bcb566997243ed51267d1c8c468eb275",
+        "reviewKey": "da09d3f60384ba51695f26d33f0dbb1c5ddea6afec06c610cd7ea7ba7c7d4d5a",
         "defaultRole": null,
         "rows": [
           {
@@ -6690,11 +7097,15 @@
       }
     },
     "movebank-2f3c1b:4bb8798f-6059-4dea-89f9-db5015a30c89": {
-      "reviewKey": "2f2de77e9d32f37a6ed1e20a8a4b6514680a480246d9ed706c88f096a9c48558",
+      "reviewKey": "52897853115ce65d9b66cc73c31844deeba479b6d28b90aeafb16a9a5e4475b9",
       "reviewedAt": "2026-11-21T22:59:23.736Z",
+      "rowSignatures": [
+        "8163d1905dad6c97",
+        "f5d4587f0f0223a7"
+      ],
       "review": {
         "key": "movebank-2f3c1b:4bb8798f-6059-4dea-89f9-db5015a30c89",
-        "reviewKey": "2f2de77e9d32f37a6ed1e20a8a4b6514680a480246d9ed706c88f096a9c48558",
+        "reviewKey": "52897853115ce65d9b66cc73c31844deeba479b6d28b90aeafb16a9a5e4475b9",
         "defaultRole": null,
         "rows": [
           {
@@ -6755,11 +7166,17 @@
       }
     },
     "southern-cross-credit-union-d61f76:LITTLE_STAR_SAVER": {
-      "reviewKey": "7f9075f3b39befc3526cb1a05a0d6d9107b5e4e6784c2dc5e23f3040f25f4660",
+      "reviewKey": "8f7742318c8df85d3f058e042c378390aaab3d46314ead15af9feeeefcfc7201",
       "reviewedAt": "2026-11-21T22:59:23.736Z",
+      "rowSignatures": [
+        "a68f230977b53fe8",
+        "11a6c551c938177d",
+        "0bee585c8a7838de",
+        "aac2c74ae36f4928"
+      ],
       "review": {
         "key": "southern-cross-credit-union-d61f76:LITTLE_STAR_SAVER",
-        "reviewKey": "7f9075f3b39befc3526cb1a05a0d6d9107b5e4e6784c2dc5e23f3040f25f4660",
+        "reviewKey": "8f7742318c8df85d3f058e042c378390aaab3d46314ead15af9feeeefcfc7201",
         "defaultRole": null,
         "rows": [
           {
@@ -6832,11 +7249,15 @@
       }
     },
     "southern-cross-credit-union-d61f76:STAR_SAVER": {
-      "reviewKey": "f5616704b463f3ce204ca7f905f51a4c2ad616f0566a610686bf56e19d52971f",
+      "reviewKey": "156e9fc885759ca5fe6bf8a41b96353d8c8f9fb7485b8146b38dd81e8526cda3",
       "reviewedAt": "2026-11-21T22:59:23.736Z",
+      "rowSignatures": [
+        "234aa4d019d755c9",
+        "2bd4f3b89b2eaf87"
+      ],
       "review": {
         "key": "southern-cross-credit-union-d61f76:STAR_SAVER",
-        "reviewKey": "f5616704b463f3ce204ca7f905f51a4c2ad616f0566a610686bf56e19d52971f",
+        "reviewKey": "156e9fc885759ca5fe6bf8a41b96353d8c8f9fb7485b8146b38dd81e8526cda3",
         "defaultRole": null,
         "rows": [
           {
@@ -6887,11 +7308,49 @@
       }
     },
     "bank-of-melbourne-1859a2:BOMTDTermDeposit": {
-      "reviewKey": "beb9b9e3d626305c146eb6f01a0d9cb8300788ac693c15478d4198b4f72a0fd5",
+      "reviewKey": "7443bb6a3f39ac472fa8acaeb7286fdaaa6716582b87cbf4023af153daca0a4d",
       "reviewedAt": "2026-11-21T22:59:23.736Z",
+      "rowSignatures": [
+        "9ae0d425ca529b1b",
+        "11f2537d4fb3c5f4",
+        "083d41075c7874d6",
+        "2b9ddeb4ee4a6ae4",
+        "9f18115adb8dbe41",
+        "868c3d8b6fae5e5c",
+        "9e63671f05246a91",
+        "848ba064e68c5c7a",
+        "818980c1a8aa3fe6",
+        "33129d4033ab5eb5",
+        "e1d1a6e6eeba7cdf",
+        "c953385154bf4e7e",
+        "d556f5de171a7283",
+        "43f399566198060d",
+        "c2bf767d637040d6",
+        "76c2b0393bbfcb4c",
+        "454bef545fee815a",
+        "97a6de45d1b9c2c9",
+        "9b2ff84eb1b3c56b",
+        "fc201601cba04def",
+        "8afdf7adea7365f5",
+        "1a8775039f2699f0",
+        "4e52fb3b3f3b8df1",
+        "a5dbbb2ed273c4c0",
+        "3b2af47b47e04f49",
+        "b429826d61739c48",
+        "e2128e3f82d2d0b8",
+        "834242bf4a7f571b",
+        "2c4420c3444d4d64",
+        "be2d7468085d67c0",
+        "dbffa389d3be070c",
+        "00f262aa7e126fcf",
+        "4aa55de95687a5a0",
+        "6ddbf84db95dd5c2",
+        "2ec2e87ea1665dbc",
+        "97b6a2408c3ca52a"
+      ],
       "review": {
         "key": "bank-of-melbourne-1859a2:BOMTDTermDeposit",
-        "reviewKey": "beb9b9e3d626305c146eb6f01a0d9cb8300788ac693c15478d4198b4f72a0fd5",
+        "reviewKey": "7443bb6a3f39ac472fa8acaeb7286fdaaa6716582b87cbf4023af153daca0a4d",
         "defaultRole": "BASE",
         "rows": [
           {
@@ -7337,11 +7796,49 @@
       }
     },
     "banksa-e6aef2:BSATDTermDeposit": {
-      "reviewKey": "095c9041e2175065d250896f2ce47b7bf732dcf1e579190cce9ee69e9195b599",
+      "reviewKey": "ccca436313cdf2167c0f84a0f0428658c4cbe39cead471450b9ca37f20d47833",
       "reviewedAt": "2026-11-21T22:59:23.736Z",
+      "rowSignatures": [
+        "9ae0d425ca529b1b",
+        "11f2537d4fb3c5f4",
+        "083d41075c7874d6",
+        "2b9ddeb4ee4a6ae4",
+        "9f18115adb8dbe41",
+        "868c3d8b6fae5e5c",
+        "9e63671f05246a91",
+        "848ba064e68c5c7a",
+        "818980c1a8aa3fe6",
+        "33129d4033ab5eb5",
+        "e1d1a6e6eeba7cdf",
+        "c953385154bf4e7e",
+        "d556f5de171a7283",
+        "43f399566198060d",
+        "c2bf767d637040d6",
+        "76c2b0393bbfcb4c",
+        "454bef545fee815a",
+        "97a6de45d1b9c2c9",
+        "9b2ff84eb1b3c56b",
+        "fc201601cba04def",
+        "8afdf7adea7365f5",
+        "1a8775039f2699f0",
+        "4e52fb3b3f3b8df1",
+        "a5dbbb2ed273c4c0",
+        "3b2af47b47e04f49",
+        "b429826d61739c48",
+        "e2128e3f82d2d0b8",
+        "834242bf4a7f571b",
+        "2c4420c3444d4d64",
+        "be2d7468085d67c0",
+        "dbffa389d3be070c",
+        "00f262aa7e126fcf",
+        "4aa55de95687a5a0",
+        "6ddbf84db95dd5c2",
+        "813b3af698799806",
+        "97b6a2408c3ca52a"
+      ],
       "review": {
         "key": "banksa-e6aef2:BSATDTermDeposit",
-        "reviewKey": "095c9041e2175065d250896f2ce47b7bf732dcf1e579190cce9ee69e9195b599",
+        "reviewKey": "ccca436313cdf2167c0f84a0f0428658c4cbe39cead471450b9ca37f20d47833",
         "defaultRole": "BASE",
         "rows": [
           {
@@ -7787,11 +8284,15 @@
       }
     },
     "dnister-7791e6:18": {
-      "reviewKey": "c8464ea6a435f5e59b26c70baa4ab2c1d969f2511fc212572f7a7e73e8373788",
+      "reviewKey": "66e462b7a6b12814fce56e31ac87ec5ba164c9c19f673d3879c12c09a9bf35d4",
       "reviewedAt": "2026-11-21T22:59:23.736Z",
+      "rowSignatures": [
+        "1977e91823c14fad",
+        "74a8a30dac9ebffd"
+      ],
       "review": {
         "key": "dnister-7791e6:18",
-        "reviewKey": "c8464ea6a435f5e59b26c70baa4ab2c1d969f2511fc212572f7a7e73e8373788",
+        "reviewKey": "66e462b7a6b12814fce56e31ac87ec5ba164c9c19f673d3879c12c09a9bf35d4",
         "defaultRole": null,
         "rows": [
           {
@@ -7852,11 +8353,49 @@
       }
     },
     "st-george-bank-66f3a8:STGTDTermDeposit": {
-      "reviewKey": "2248fa1b3e58e9db828cad805c2d37a39a488663d1e7bb16c75f369460f02291",
+      "reviewKey": "8334ff85e99817c0103f36eff996e208cc2ff088f02ac93357ad299e7f127964",
       "reviewedAt": "2026-11-21T23:01:39.778Z",
+      "rowSignatures": [
+        "9ae0d425ca529b1b",
+        "11f2537d4fb3c5f4",
+        "083d41075c7874d6",
+        "2b9ddeb4ee4a6ae4",
+        "9f18115adb8dbe41",
+        "868c3d8b6fae5e5c",
+        "9e63671f05246a91",
+        "848ba064e68c5c7a",
+        "818980c1a8aa3fe6",
+        "33129d4033ab5eb5",
+        "e1d1a6e6eeba7cdf",
+        "c953385154bf4e7e",
+        "d556f5de171a7283",
+        "43f399566198060d",
+        "c2bf767d637040d6",
+        "76c2b0393bbfcb4c",
+        "454bef545fee815a",
+        "97a6de45d1b9c2c9",
+        "9b2ff84eb1b3c56b",
+        "fc201601cba04def",
+        "8afdf7adea7365f5",
+        "1a8775039f2699f0",
+        "4e52fb3b3f3b8df1",
+        "a5dbbb2ed273c4c0",
+        "3b2af47b47e04f49",
+        "b429826d61739c48",
+        "e2128e3f82d2d0b8",
+        "834242bf4a7f571b",
+        "2c4420c3444d4d64",
+        "be2d7468085d67c0",
+        "dbffa389d3be070c",
+        "00f262aa7e126fcf",
+        "4aa55de95687a5a0",
+        "6ddbf84db95dd5c2",
+        "086532bb48f58f57",
+        "97b6a2408c3ca52a"
+      ],
       "review": {
         "key": "st-george-bank-66f3a8:STGTDTermDeposit",
-        "reviewKey": "2248fa1b3e58e9db828cad805c2d37a39a488663d1e7bb16c75f369460f02291",
+        "reviewKey": "8334ff85e99817c0103f36eff996e208cc2ff088f02ac93357ad299e7f127964",
         "defaultRole": "BASE",
         "rows": [
           {
@@ -8302,11 +8841,22 @@
       }
     },
     "westpac-1ef9e7:WestpacNoticeSaver": {
-      "reviewKey": "81c1de600909e986a0cedad84818cc59c8743856ec6003c09bcc79e1ed0722f7",
+      "reviewKey": "0bb5d11ac9d3fac296d4192fd177d0082bc6a5d0c13239eb9a5a3eb3858c4c07",
       "reviewedAt": "2026-11-21T23:01:39.778Z",
+      "rowSignatures": [
+        "09f7d8e7caf763da",
+        "696114e1b9985ed9",
+        "0fc6336de8b41f11",
+        "af802b66f4da270a",
+        "8287e86a8c0dc94a",
+        "4f34389f462b9c07",
+        "744d84e6889e162d",
+        "f949b844a6dedab8",
+        "c86e9197a85a6ce2"
+      ],
       "review": {
         "key": "westpac-1ef9e7:WestpacNoticeSaver",
-        "reviewKey": "81c1de600909e986a0cedad84818cc59c8743856ec6003c09bcc79e1ed0722f7",
+        "reviewKey": "0bb5d11ac9d3fac296d4192fd177d0082bc6a5d0c13239eb9a5a3eb3858c4c07",
         "defaultRole": null,
         "rows": [
           {
@@ -8456,11 +9006,21 @@
       }
     },
     "australian-mutual-bank-ltd-493c15:56cc9200-1e84-11f1-a63e-325096b39f47": {
-      "reviewKey": "46e93f8bb892914976972c674cf6b1cb4772d24537f360d810914aacf460fb37",
+      "reviewKey": "0b2d16ebb2ed8c9b5904bfeb7beea41c55d8649905369cfc6bad69e9e7e7cd99",
       "reviewedAt": "2026-11-21T23:01:39.778Z",
+      "rowSignatures": [
+        "5d2fa5e5136a8807",
+        "f1d6cf81fdd3d8ba",
+        "81c98b1fdf1093de",
+        "d111ae00a7286592",
+        "503bf095d407a163",
+        "a69524c8d573f434",
+        "9406b169675e9488",
+        "1863080eb8c7d6fa"
+      ],
       "review": {
         "key": "australian-mutual-bank-ltd-493c15:56cc9200-1e84-11f1-a63e-325096b39f47",
-        "reviewKey": "46e93f8bb892914976972c674cf6b1cb4772d24537f360d810914aacf460fb37",
+        "reviewKey": "0b2d16ebb2ed8c9b5904bfeb7beea41c55d8649905369cfc6bad69e9e7e7cd99",
         "defaultRole": null,
         "rows": [
           {
@@ -8650,11 +9210,17 @@
       }
     },
     "bankvic-0380b8:S8_Savings_Bonus": {
-      "reviewKey": "9d33a89863c9e2e3f1ee3d1a8ccb536d6cf1bb04495e3346a2f7fa00f552ea77",
+      "reviewKey": "cade08b59ae7b7a032a5d6f978172ad52401ca9df8d92196efaecdbd5f163528",
       "reviewedAt": "2026-11-21T23:01:39.778Z",
+      "rowSignatures": [
+        "b62df9b5f0dd62f7",
+        "9ed082834f2a7351",
+        "70f30492aa17a1d4",
+        "17d562ca8e369ba7"
+      ],
       "review": {
         "key": "bankvic-0380b8:S8_Savings_Bonus",
-        "reviewKey": "9d33a89863c9e2e3f1ee3d1a8ccb536d6cf1bb04495e3346a2f7fa00f552ea77",
+        "reviewKey": "cade08b59ae7b7a032a5d6f978172ad52401ca9df8d92196efaecdbd5f163528",
         "defaultRole": null,
         "rows": [
           {
@@ -8758,11 +9324,15 @@
       }
     },
     "bcu-bank-a9a2f3:292": {
-      "reviewKey": "2c1d6c0e38247d13c093f7fcc2b4d06dea739d90988019a0fbef3b7e56e9d6af",
+      "reviewKey": "a686b555327b08a1afb23b07e2f9628d53efc0617578f110518a8034d3c4f6ad",
       "reviewedAt": "2026-11-21T23:01:39.778Z",
+      "rowSignatures": [
+        "2b6f63ede251361f",
+        "79910f84187f4049"
+      ],
       "review": {
         "key": "bcu-bank-a9a2f3:292",
-        "reviewKey": "2c1d6c0e38247d13c093f7fcc2b4d06dea739d90988019a0fbef3b7e56e9d6af",
+        "reviewKey": "a686b555327b08a1afb23b07e2f9628d53efc0617578f110518a8034d3c4f6ad",
         "defaultRole": null,
         "rows": [
           {
@@ -8823,11 +9393,21 @@
       }
     },
     "firefighters-mutual-bank-c2ac3e:505df462-6b43-11f0-b446-325096b39f47": {
-      "reviewKey": "eca25812719cd366edc6d38c9d53330ef2f49df704c0fd2abdb3c1d09d102622",
+      "reviewKey": "5dae5e5d2b2859230fedd1b31852187a436355eb939fa7f98938dfbec6efef9e",
       "reviewedAt": "2026-11-21T23:01:39.778Z",
+      "rowSignatures": [
+        "575e912ce9f23b6d",
+        "29b22cdcee748d7f",
+        "cdaf574a5aa1e7b1",
+        "f4ba94d8285035d8",
+        "2c8a49a0242decbd",
+        "918980a40f436c06",
+        "9dad78bd9ce043bd",
+        "c3d27b46d1f142d5"
+      ],
       "review": {
         "key": "firefighters-mutual-bank-c2ac3e:505df462-6b43-11f0-b446-325096b39f47",
-        "reviewKey": "eca25812719cd366edc6d38c9d53330ef2f49df704c0fd2abdb3c1d09d102622",
+        "reviewKey": "5dae5e5d2b2859230fedd1b31852187a436355eb939fa7f98938dfbec6efef9e",
         "defaultRole": null,
         "rows": [
           {
@@ -9017,11 +9597,21 @@
       }
     },
     "health-professionals-bank-e54229:ba995be0-6c0c-11f0-91fb-325096b39f47": {
-      "reviewKey": "1ffbfc695119a02d5057cd281dfe0b8cd53f062a4225efd5a8cd368fd6da1831",
+      "reviewKey": "5ebc25547da448928040326a5698f55db6d7eca708cf05d1064a43d63413e1be",
       "reviewedAt": "2026-11-21T23:01:39.778Z",
+      "rowSignatures": [
+        "575e912ce9f23b6d",
+        "29b22cdcee748d7f",
+        "cdaf574a5aa1e7b1",
+        "f4ba94d8285035d8",
+        "2c8a49a0242decbd",
+        "918980a40f436c06",
+        "9dad78bd9ce043bd",
+        "c3d27b46d1f142d5"
+      ],
       "review": {
         "key": "health-professionals-bank-e54229:ba995be0-6c0c-11f0-91fb-325096b39f47",
-        "reviewKey": "1ffbfc695119a02d5057cd281dfe0b8cd53f062a4225efd5a8cd368fd6da1831",
+        "reviewKey": "5ebc25547da448928040326a5698f55db6d7eca708cf05d1064a43d63413e1be",
         "defaultRole": null,
         "rows": [
           {
@@ -9211,11 +9801,26 @@
       }
     },
     "movebank-2f3c1b:0b61e81c-a7f6-4845-ae64-f9dd29169030": {
-      "reviewKey": "8e3e81990898f86ae141abcd452c60ba0e53d0445c93f5e168fef7f16162d5b5",
+      "reviewKey": "f475dc97f789ed1b5c95f4488fa66a9b0156e998ce48c56d2337bbff4f1d875c",
       "reviewedAt": "2026-11-21T23:01:39.778Z",
+      "rowSignatures": [
+        "2e160e21d97348a0",
+        "955defb1c19bb37d",
+        "4cd4f44db89eea2e",
+        "5873327d9c22a767",
+        "2e5008b4846b4107",
+        "517c07c16651f30e",
+        "373ce71335f7d526",
+        "1eaee12865cc48b2",
+        "5454c93a793bbe54",
+        "9002d169e5581860",
+        "1bea7c12fca669b2",
+        "458ebffdde278086",
+        "9ce61f0015cae415"
+      ],
       "review": {
         "key": "movebank-2f3c1b:0b61e81c-a7f6-4845-ae64-f9dd29169030",
-        "reviewKey": "8e3e81990898f86ae141abcd452c60ba0e53d0445c93f5e168fef7f16162d5b5",
+        "reviewKey": "f475dc97f789ed1b5c95f4488fa66a9b0156e998ce48c56d2337bbff4f1d875c",
         "defaultRole": "BASE",
         "rows": [
           {
@@ -9376,11 +9981,15 @@
       }
     },
     "p-n-bank-4f1953:293": {
-      "reviewKey": "2dbaaa4dbc998cde3926eab09635a47c2d860d1f5ca1bd18976c93f68fc95521",
+      "reviewKey": "bec5df6324dfdd1064b34673b24ed4a446400b9a6f8ce821ec8a2d822e5542be",
       "reviewedAt": "2026-11-21T23:01:39.778Z",
+      "rowSignatures": [
+        "2b301541777de134",
+        "fd3d1d60c51fabb4"
+      ],
       "review": {
         "key": "p-n-bank-4f1953:293",
-        "reviewKey": "2dbaaa4dbc998cde3926eab09635a47c2d860d1f5ca1bd18976c93f68fc95521",
+        "reviewKey": "bec5df6324dfdd1064b34673b24ed4a446400b9a6f8ce821ec8a2d822e5542be",
         "defaultRole": null,
         "rows": [
           {
@@ -9441,11 +10050,17 @@
       }
     },
     "police-credit-union-ltd-9741cb:Focus_Saver_Account": {
-      "reviewKey": "981947d9e3bc9834d0f262ff85c6c4d7f336c8809a9d4a4f98ea99403540acb5",
+      "reviewKey": "02fb4af75f84ef854cbfb8f9a086c8cdf052bc278b833d7148b2eeafdc3d428f",
       "reviewedAt": "2026-11-21T23:01:39.778Z",
+      "rowSignatures": [
+        "6012e08330640cb4",
+        "5750ed69d2f802ab",
+        "78c584deaa7b3c31",
+        "59f92c94f4fca662"
+      ],
       "review": {
         "key": "police-credit-union-ltd-9741cb:Focus_Saver_Account",
-        "reviewKey": "981947d9e3bc9834d0f262ff85c6c4d7f336c8809a9d4a4f98ea99403540acb5",
+        "reviewKey": "02fb4af75f84ef854cbfb8f9a086c8cdf052bc278b833d7148b2eeafdc3d428f",
         "defaultRole": null,
         "rows": [
           {
@@ -9507,11 +10122,21 @@
       }
     },
     "teachers-mutual-bank-937447:bf4d1da2-6c0c-11f0-ad11-325096b39f47": {
-      "reviewKey": "435be3bdde578329e9271c341cb5ef331c93829188912e48319c8cdd07ccac3e",
+      "reviewKey": "fb2f7737196ddde4f49b88ac1da1d1bb55a9585c4b6b89ecbc73ca4baf08cc69",
       "reviewedAt": "2026-11-21T23:01:39.778Z",
+      "rowSignatures": [
+        "575e912ce9f23b6d",
+        "29b22cdcee748d7f",
+        "cdaf574a5aa1e7b1",
+        "f4ba94d8285035d8",
+        "2c8a49a0242decbd",
+        "918980a40f436c06",
+        "9dad78bd9ce043bd",
+        "c3d27b46d1f142d5"
+      ],
       "review": {
         "key": "teachers-mutual-bank-937447:bf4d1da2-6c0c-11f0-ad11-325096b39f47",
-        "reviewKey": "435be3bdde578329e9271c341cb5ef331c93829188912e48319c8cdd07ccac3e",
+        "reviewKey": "fb2f7737196ddde4f49b88ac1da1d1bb55a9585c4b6b89ecbc73ca4baf08cc69",
         "defaultRole": null,
         "rows": [
           {
@@ -9701,11 +10326,21 @@
       }
     },
     "unibank-cc3047:c2901370-6c0c-11f0-85f0-325096b39f47": {
-      "reviewKey": "b3e8c2a65f84fc1033c129da633065b91c45dc0b8924b092604b6eb42305ddeb",
+      "reviewKey": "ac676d55b0ff50940f0442bdd04f3974157d511efcdf1d7ec06fd95bac6fcf51",
       "reviewedAt": "2026-11-21T23:01:39.778Z",
+      "rowSignatures": [
+        "575e912ce9f23b6d",
+        "29b22cdcee748d7f",
+        "cdaf574a5aa1e7b1",
+        "f4ba94d8285035d8",
+        "2c8a49a0242decbd",
+        "918980a40f436c06",
+        "9dad78bd9ce043bd",
+        "c3d27b46d1f142d5"
+      ],
       "review": {
         "key": "unibank-cc3047:c2901370-6c0c-11f0-85f0-325096b39f47",
-        "reviewKey": "b3e8c2a65f84fc1033c129da633065b91c45dc0b8924b092604b6eb42305ddeb",
+        "reviewKey": "ac676d55b0ff50940f0442bdd04f3974157d511efcdf1d7ec06fd95bac6fcf51",
         "defaultRole": null,
         "rows": [
           {
@@ -9895,11 +10530,15 @@
       }
     },
     "bank-of-us-7217b2:Save_up": {
-      "reviewKey": "17161d576d2f56f5917495a068aecd29c1580cbe068edfd3226c23483abdb79c",
+      "reviewKey": "454da552e77b183d00060a864496ec7dd0a84749a2a6dcbe6e7ed74372d0c7a3",
       "reviewedAt": "2026-11-21T23:01:39.778Z",
+      "rowSignatures": [
+        "4765041595ad957f",
+        "dd0a6bf335b01b22"
+      ],
       "review": {
         "key": "bank-of-us-7217b2:Save_up",
-        "reviewKey": "17161d576d2f56f5917495a068aecd29c1580cbe068edfd3226c23483abdb79c",
+        "reviewKey": "454da552e77b183d00060a864496ec7dd0a84749a2a6dcbe6e7ed74372d0c7a3",
         "defaultRole": null,
         "rows": [
           {
@@ -9950,11 +10589,15 @@
       }
     },
     "hume-bank-d0e40f:S15V1": {
-      "reviewKey": "ee15cb6ad0de968feea25b1b57b790faa7734d2b0e14600d87f401fc02a40ba0",
+      "reviewKey": "197fe10c9ef137e5013b512e4df0b95b33ccf468f6755bb09c6107711ff8ae5f",
       "reviewedAt": "2026-11-21T23:01:39.778Z",
+      "rowSignatures": [
+        "9c2846b7e8213b4f",
+        "1a3c7c149c7e7d18"
+      ],
       "review": {
         "key": "hume-bank-d0e40f:S15V1",
-        "reviewKey": "ee15cb6ad0de968feea25b1b57b790faa7734d2b0e14600d87f401fc02a40ba0",
+        "reviewKey": "197fe10c9ef137e5013b512e4df0b95b33ccf468f6755bb09c6107711ff8ae5f",
         "defaultRole": null,
         "rows": [
           {
@@ -10015,11 +10658,15 @@
       }
     },
     "hume-bank-d0e40f:S2V1": {
-      "reviewKey": "b9fecfa5978859a98041a3ce3060a37c108845b7455f2ed6a151895c70a8cfbd",
+      "reviewKey": "37dfeefa1d53f6fac5abc53601e75e3ba06fafec345301d93c9b41ea60bbcb0e",
       "reviewedAt": "2026-11-21T23:01:39.778Z",
+      "rowSignatures": [
+        "9c2846b7e8213b4f",
+        "1a3c7c149c7e7d18"
+      ],
       "review": {
         "key": "hume-bank-d0e40f:S2V1",
-        "reviewKey": "b9fecfa5978859a98041a3ce3060a37c108845b7455f2ed6a151895c70a8cfbd",
+        "reviewKey": "37dfeefa1d53f6fac5abc53601e75e3ba06fafec345301d93c9b41ea60bbcb0e",
         "defaultRole": null,
         "rows": [
           {
@@ -10070,11 +10717,15 @@
       }
     },
     "bank-first-79ae5f:6512a9e8-baef-49b8-b8b2-ee2ee97ee50e": {
-      "reviewKey": "e924879e6d38b79f4ddbf0c7027ff4c8bb730340339075966a61d66db2cbfefb",
+      "reviewKey": "dc3af96e11747ab4850d33ab93fbff32f35d9843d869473e0d4da200835aea50",
       "reviewedAt": "2026-11-21T23:01:39.778Z",
+      "rowSignatures": [
+        "8afd94c622557966",
+        "fe1b8e99f1d66f53"
+      ],
       "review": {
         "key": "bank-first-79ae5f:6512a9e8-baef-49b8-b8b2-ee2ee97ee50e",
-        "reviewKey": "e924879e6d38b79f4ddbf0c7027ff4c8bb730340339075966a61d66db2cbfefb",
+        "reviewKey": "dc3af96e11747ab4850d33ab93fbff32f35d9843d869473e0d4da200835aea50",
         "defaultRole": null,
         "rows": [
           {
@@ -10135,11 +10786,17 @@
       }
     },
     "bank-first-79ae5f:7001a0c9-b435-4dae-b386-f1cabd79229f": {
-      "reviewKey": "535aeab119afb05a1e4243ee4039a17d781859bbff35769d8e2817b747518c4a",
+      "reviewKey": "713d3729f12b4615f019f93ca9b41776f4dda997e23725dc1c90d864b674d8f5",
       "reviewedAt": "2026-11-21T23:01:39.778Z",
+      "rowSignatures": [
+        "30ad4c1d518afe5d",
+        "e46c0000bc33968d",
+        "c617079e824f6b15",
+        "ba8ee4790b8ec276"
+      ],
       "review": {
         "key": "bank-first-79ae5f:7001a0c9-b435-4dae-b386-f1cabd79229f",
-        "reviewKey": "535aeab119afb05a1e4243ee4039a17d781859bbff35769d8e2817b747518c4a",
+        "reviewKey": "713d3729f12b4615f019f93ca9b41776f4dda997e23725dc1c90d864b674d8f5",
         "defaultRole": null,
         "rows": [
           {
@@ -10243,11 +10900,17 @@
       }
     },
     "first-option-bank-adb052:SAVINGSPLUSBONUS": {
-      "reviewKey": "33ba149c72bf22d36979ace3096da3d87370e49b2f7e6d136b9ca6d87d49b7a4",
+      "reviewKey": "a0a491ee72eaf6fce737d28463c0b066e7e07fa6ac4c2fe1c953845c985b2804",
       "reviewedAt": "2026-11-21T23:01:39.778Z",
+      "rowSignatures": [
+        "a954f147ff3d85f8",
+        "f45efe6015a98c82",
+        "6e4f3e49f2908c0b",
+        "a023ae05e27d738b"
+      ],
       "review": {
         "key": "first-option-bank-adb052:SAVINGSPLUSBONUS",
-        "reviewKey": "33ba149c72bf22d36979ace3096da3d87370e49b2f7e6d136b9ca6d87d49b7a4",
+        "reviewKey": "a0a491ee72eaf6fce737d28463c0b066e7e07fa6ac4c2fe1c953845c985b2804",
         "defaultRole": null,
         "rows": [
           {
@@ -10351,11 +11014,17 @@
       }
     },
     "police-credit-union-ltd-9741cb:Beans_Savings_Account": {
-      "reviewKey": "9e84b87ea94540856a05f7eea40bd66dad344113a01a7e528f145ea46fa14d23",
+      "reviewKey": "674b29d7cb0a62e9e7fcd75db0eee7214c6c0e8cf35f59598868aa95f1be5e5f",
       "reviewedAt": "2026-11-21T23:01:39.778Z",
+      "rowSignatures": [
+        "4caeb844478dfb63",
+        "71b4c1506d564317",
+        "6a8cc299f8fd585e",
+        "497e30315af2b479"
+      ],
       "review": {
         "key": "police-credit-union-ltd-9741cb:Beans_Savings_Account",
-        "reviewKey": "9e84b87ea94540856a05f7eea40bd66dad344113a01a7e528f145ea46fa14d23",
+        "reviewKey": "674b29d7cb0a62e9e7fcd75db0eee7214c6c0e8cf35f59598868aa95f1be5e5f",
         "defaultRole": null,
         "rows": [
           {
@@ -10417,11 +11086,55 @@
       }
     },
     "commbank-5b7d50:71865ffd1ab249df9baa4b29c7751824": {
-      "reviewKey": "b45e053e037213db1078a91f0c8c7edb38140429091fc289a0937d32e64caaf3",
+      "reviewKey": "a49b7adf80913713d86f0b8bb49ea31614041e5c0abcdfbb02724a2667465fec",
       "reviewedAt": "2026-11-21T23:01:39.778Z",
+      "rowSignatures": [
+        "6cf99a3dcf58bf16",
+        "75b485bfb0539a04",
+        "5aeccb719c21eed1",
+        "c763ad8fc5849815",
+        "e6540bd66defb2bf",
+        "f18607a7533bc180",
+        "4835175daf25bc3b",
+        "a70fedbfb573514a",
+        "cbc056f07e51ea9c",
+        "93e4b857b549148f",
+        "344a6f678e4dc989",
+        "54fbe0095b0ad6ed",
+        "fff983810f63579a",
+        "b3b49c8273651ccb",
+        "9f630bd626a1dc78",
+        "2a16de3f4d12aff4",
+        "82c1752e808879de",
+        "cc72936125f40aba",
+        "1b0c872b5c806134",
+        "e941bda303749fe2",
+        "50a79766cc98fffb",
+        "ff41464a06146fac",
+        "10443c016075e475",
+        "de81cbd8f3734900",
+        "715ad6af2203df22",
+        "f229446659540c7d",
+        "448ebff532bbaa49",
+        "02a5e1dbd31c5c27",
+        "6de56c1182eb1f9c",
+        "b1d40e0b01999707",
+        "5b667f1f487d85be",
+        "fe7e464471b8ea52",
+        "9b9bcfdbfdf5cdaa",
+        "852e131820941e69",
+        "1d4e1450d124c94b",
+        "2523bfe2a2aa7aca",
+        "9d753993235c0d6b",
+        "f7b3409420fb4906",
+        "54f34537b7cdb987",
+        "ed490b8cb7e3395c",
+        "f7b93ab9187dfc55",
+        "7945bc46764fa766"
+      ],
       "review": {
         "key": "commbank-5b7d50:71865ffd1ab249df9baa4b29c7751824",
-        "reviewKey": "b45e053e037213db1078a91f0c8c7edb38140429091fc289a0937d32e64caaf3",
+        "reviewKey": "a49b7adf80913713d86f0b8bb49ea31614041e5c0abcdfbb02724a2667465fec",
         "defaultRole": "EXCLUDE",
         "rows": [
           {
@@ -10901,11 +11614,14 @@
       }
     },
     "gateway-bank-b98426:7": {
-      "reviewKey": "32ad9c3adb3a11a5e44ffac5a0f99468d445031f46e8107e5a5bb3f694ef9820",
+      "reviewKey": "2d0adfa765ac8f9e372dde2e184dc104083b779202cec53130d862a22dabb50f",
       "reviewedAt": "2026-11-21T23:01:39.778Z",
+      "rowSignatures": [
+        "465958b9f799ef06"
+      ],
       "review": {
         "key": "gateway-bank-b98426:7",
-        "reviewKey": "32ad9c3adb3a11a5e44ffac5a0f99468d445031f46e8107e5a5bb3f694ef9820",
+        "reviewKey": "2d0adfa765ac8f9e372dde2e184dc104083b779202cec53130d862a22dabb50f",
         "defaultRole": null,
         "rows": [
           {
@@ -10945,11 +11661,15 @@
       }
     },
     "regional-australia-bank-9ebcdc:26fbc357-1a90-433a-87ea-f968ec09da06": {
-      "reviewKey": "684dcd72961b2aefa687058a181412efc9d4e2bc62c961806cdad077e0bb07b6",
+      "reviewKey": "f2e160f7e692f44096d47cb875531c25dd8d2c6f4845a592d203018ff5266f45",
       "reviewedAt": "2026-11-21T23:01:39.778Z",
+      "rowSignatures": [
+        "7846d4100500585d",
+        "ea0119e762fea927"
+      ],
       "review": {
         "key": "regional-australia-bank-9ebcdc:26fbc357-1a90-433a-87ea-f968ec09da06",
-        "reviewKey": "684dcd72961b2aefa687058a181412efc9d4e2bc62c961806cdad077e0bb07b6",
+        "reviewKey": "f2e160f7e692f44096d47cb875531c25dd8d2c6f4845a592d203018ff5266f45",
         "defaultRole": null,
         "rows": [
           {
@@ -11010,11 +11730,17 @@
       }
     },
     "qbank-a01288:S70_Bonus": {
-      "reviewKey": "590e303dd4ba8efa5ac1b64818d4bfda3490f596d0006562e93999990c46a23d",
+      "reviewKey": "b2c5aeb8dadba3bf4595016afbe01a218fe7bee77cdbdbe0f0051b52433b7286",
       "reviewedAt": "2026-11-21T23:01:39.778Z",
+      "rowSignatures": [
+        "dc4ce53485f4d743",
+        "de2e9d91fbe48e77",
+        "8fcb8b7939616fce",
+        "e0bca420a2f6d49e"
+      ],
       "review": {
         "key": "qbank-a01288:S70_Bonus",
-        "reviewKey": "590e303dd4ba8efa5ac1b64818d4bfda3490f596d0006562e93999990c46a23d",
+        "reviewKey": "b2c5aeb8dadba3bf4595016afbe01a218fe7bee77cdbdbe0f0051b52433b7286",
         "defaultRole": null,
         "rows": [
           {
@@ -11076,11 +11802,15 @@
       }
     },
     "bankwaw-c66e9a:WAW_Bonus_Saver": {
-      "reviewKey": "e0e9dd019f9c70dd997df7c07ad1fe0c99e1c513a2da872d1b083601287ac638",
+      "reviewKey": "eb5181b94ed9750122060d16328288ce4902b8c05924f18c2cad7dd5948e1b1d",
       "reviewedAt": "2026-11-21T23:01:39.778Z",
+      "rowSignatures": [
+        "767c96f9145ebe93",
+        "b248dca18cf4dfcd"
+      ],
       "review": {
         "key": "bankwaw-c66e9a:WAW_Bonus_Saver",
-        "reviewKey": "e0e9dd019f9c70dd997df7c07ad1fe0c99e1c513a2da872d1b083601287ac638",
+        "reviewKey": "eb5181b94ed9750122060d16328288ce4902b8c05924f18c2cad7dd5948e1b1d",
         "defaultRole": null,
         "rows": [
           {
@@ -11120,11 +11850,55 @@
       }
     },
     "westpac-1ef9e7:TDTermDeposit": {
-      "reviewKey": "bfc1730256796f9918aa10e43936320b1e6c9e5fe618f0763b97ac8ced1acb4d",
+      "reviewKey": "35150a1eace5c1c90d4ebec9927d4b175b1186773897ed6c4146e7e9bea9a855",
       "reviewedAt": "2026-11-21T23:01:39.778Z",
+      "rowSignatures": [
+        "30727a8cddd4b2de",
+        "ee3f23171a53d295",
+        "b9cbb97010e9e018",
+        "b0ee45f566e329ee",
+        "3927a125f391ff93",
+        "12f058364d7c897f",
+        "d32d08300218fb3a",
+        "650581756a8092d0",
+        "05f0c14ff42f070d",
+        "004588ee503ac063",
+        "b7b3b8ed5b17e5a1",
+        "d8e2aefdfa6edc59",
+        "a14a2b7e89483d18",
+        "ac5651619b6902d8",
+        "37954476fa7b6f3d",
+        "4d21c83dee026266",
+        "6770495b13a34983",
+        "917e1c4e6dcd4971",
+        "783185f47de254d7",
+        "4ce82a96ee49d059",
+        "557b9011b945a69e",
+        "023939a69f57dc98",
+        "3c20a74295533e65",
+        "19f47d8440ccacc1",
+        "bed1b420ebb3ee75",
+        "7e8776e3b93cce29",
+        "af620c665ae0ba26",
+        "fa26f1ca2e933fc6",
+        "96b5aba348abaebb",
+        "754c4d7f14195ed7",
+        "2fd19d44c7834a4f",
+        "d6288b1407242c87",
+        "a56a04645d3b52c8",
+        "4d92c242e216a074",
+        "aecc1b85d453906e",
+        "09b9bdcdb17205da",
+        "8567039ee839f2c4",
+        "2b8c309a0c9da79a",
+        "2ede66e13384dcf4",
+        "da4fd0345a22ff25",
+        "2013e818c7776365",
+        "f5d1fd15653a228d"
+      ],
       "review": {
         "key": "westpac-1ef9e7:TDTermDeposit",
-        "reviewKey": "bfc1730256796f9918aa10e43936320b1e6c9e5fe618f0763b97ac8ced1acb4d",
+        "reviewKey": "35150a1eace5c1c90d4ebec9927d4b175b1186773897ed6c4146e7e9bea9a855",
         "defaultRole": "BASE",
         "rows": [
           {
@@ -11626,11 +12400,16 @@
       }
     },
     "beyond-bank-australia-79e425:32": {
-      "reviewKey": "20dc1bba454250479181b1c174daf7c0d1b0a03ff4d6ee7056c99c8c469c53dd",
+      "reviewKey": "f4389a5199ea809adfffe3568c362dd9909f20519fb64c402beabb4dfca288c8",
       "reviewedAt": "2026-11-21T23:01:39.778Z",
+      "rowSignatures": [
+        "b5d23f96dc0eacf2",
+        "f7d191483afc6d73",
+        "ca989ae85637e149"
+      ],
       "review": {
         "key": "beyond-bank-australia-79e425:32",
-        "reviewKey": "20dc1bba454250479181b1c174daf7c0d1b0a03ff4d6ee7056c99c8c469c53dd",
+        "reviewKey": "f4389a5199ea809adfffe3568c362dd9909f20519fb64c402beabb4dfca288c8",
         "defaultRole": null,
         "rows": [
           {
@@ -11702,11 +12481,15 @@
       }
     },
     "australian-military-bank-ee4681:9d1888b8-097d-4c21-849f-730bfaace6c3": {
-      "reviewKey": "9b885a679fd55c5505524811a9374d3b23d851eabf438387c3d247eb2c2f6309",
+      "reviewKey": "ac3ab2c480e60967fccc925f09362053093393a1ca38d070700509427500fafc",
       "reviewedAt": "2026-11-21T23:01:39.778Z",
+      "rowSignatures": [
+        "f4549dcd55d862dd",
+        "060996464e20efab"
+      ],
       "review": {
         "key": "australian-military-bank-ee4681:9d1888b8-097d-4c21-849f-730bfaace6c3",
-        "reviewKey": "9b885a679fd55c5505524811a9374d3b23d851eabf438387c3d247eb2c2f6309",
+        "reviewKey": "ac3ab2c480e60967fccc925f09362053093393a1ca38d070700509427500fafc",
         "defaultRole": null,
         "rows": [
           {
@@ -11757,11 +12540,16 @@
       }
     },
     "great-southern-bank-886d8a:2000-3400": {
-      "reviewKey": "f992ac17fd5ec4bd421da11d80b6322a92a93b5866c2cfdf0da0bb6d29c1363e",
+      "reviewKey": "75bb3100f3dcab066b9ab31b241ad30338978d0be558a06629d76d7c70c8ea06",
       "reviewedAt": "2026-11-21T23:01:39.778Z",
+      "rowSignatures": [
+        "b96f471ce7bcd6a2",
+        "ccc061ef7ec6b27a",
+        "b55681382a1b0598"
+      ],
       "review": {
         "key": "great-southern-bank-886d8a:2000-3400",
-        "reviewKey": "f992ac17fd5ec4bd421da11d80b6322a92a93b5866c2cfdf0da0bb6d29c1363e",
+        "reviewKey": "75bb3100f3dcab066b9ab31b241ad30338978d0be558a06629d76d7c70c8ea06",
         "defaultRole": null,
         "rows": [
           {
@@ -11834,11 +12622,15 @@
       }
     },
     "bankwaw-c66e9a:WAW_Star_Saver": {
-      "reviewKey": "e78d95e7bc6487cac6609acae0b253bb6297393c22be55b800dee409321226d2",
+      "reviewKey": "bf48650f7c2bd532abddb291377f2f4f06be10ae8991b68b61be168662f1a21a",
       "reviewedAt": "2026-11-21T23:01:39.778Z",
+      "rowSignatures": [
+        "9df5c121bb391882",
+        "e0bd8c12f46116ed"
+      ],
       "review": {
         "key": "bankwaw-c66e9a:WAW_Star_Saver",
-        "reviewKey": "e78d95e7bc6487cac6609acae0b253bb6297393c22be55b800dee409321226d2",
+        "reviewKey": "bf48650f7c2bd532abddb291377f2f4f06be10ae8991b68b61be168662f1a21a",
         "defaultRole": null,
         "rows": [
           {
@@ -11878,11 +12670,15 @@
       }
     },
     "bankwaw-c66e9a:WAW_Youth_Saver": {
-      "reviewKey": "ac0aeff3443f104a224f16ea3c02ac85bf947e5c72a3e6bf86ffbdd1d40b2370",
+      "reviewKey": "350fed7434369051eb13053f075c4b770029e9b2ae37c012c9f24aa4829bcf6c",
       "reviewedAt": "2026-11-21T23:01:39.778Z",
+      "rowSignatures": [
+        "9df5c121bb391882",
+        "e0bd8c12f46116ed"
+      ],
       "review": {
         "key": "bankwaw-c66e9a:WAW_Youth_Saver",
-        "reviewKey": "ac0aeff3443f104a224f16ea3c02ac85bf947e5c72a3e6bf86ffbdd1d40b2370",
+        "reviewKey": "350fed7434369051eb13053f075c4b770029e9b2ae37c012c9f24aa4829bcf6c",
         "defaultRole": null,
         "rows": [
           {
@@ -11922,11 +12718,15 @@
       }
     },
     "the-capricornian-a71117:57f2a9d4-5498-490f-82ea-61dff8720cS3": {
-      "reviewKey": "7f268f9b8058996176526471831465dfc221ec6e5c171370b08f158ba97872cb",
+      "reviewKey": "6ed030a6c4f666cf0b5cf603bf2edcb1c0709c868057362b77121db93cdbb976",
       "reviewedAt": "2026-11-21T23:03:15.858Z",
+      "rowSignatures": [
+        "d5ae66c7ae14b0e4",
+        "236a349bf102b836"
+      ],
       "review": {
         "key": "the-capricornian-a71117:57f2a9d4-5498-490f-82ea-61dff8720cS3",
-        "reviewKey": "7f268f9b8058996176526471831465dfc221ec6e5c171370b08f158ba97872cb",
+        "reviewKey": "6ed030a6c4f666cf0b5cf603bf2edcb1c0709c868057362b77121db93cdbb976",
         "defaultRole": null,
         "rows": [
           {
@@ -11997,11 +12797,15 @@
       }
     },
     "boq-specialist-79c765:0c186288-5c03-ee11-8f6e-00224814dce7": {
-      "reviewKey": "11b3adb9f65fac1cdab013d489bcdc11d8700701b730d99480a82374dd06f29d",
+      "reviewKey": "72e6b05027aa3f363dc9e126ed7c25d24f66db7a4ba71f6f209a77bb99c1f1ef",
       "reviewedAt": "2026-11-21T23:03:15.858Z",
+      "rowSignatures": [
+        "9db9def6685acfc9",
+        "874590b67c2ffd73"
+      ],
       "review": {
         "key": "boq-specialist-79c765:0c186288-5c03-ee11-8f6e-00224814dce7",
-        "reviewKey": "11b3adb9f65fac1cdab013d489bcdc11d8700701b730d99480a82374dd06f29d",
+        "reviewKey": "72e6b05027aa3f363dc9e126ed7c25d24f66db7a4ba71f6f209a77bb99c1f1ef",
         "defaultRole": null,
         "rows": [
           {
@@ -12063,11 +12867,15 @@
       }
     },
     "maitland-mutual-limited-057bdf:Mighty_Mutual": {
-      "reviewKey": "3c7aff003a8a918f46de16979ad2beeb92793795b36fa7e07957430e920c52ee",
+      "reviewKey": "029d1cf41cd7c4f4405aaf7b1537e1f821e46c3587d2cc0c40b9df15812d3066",
       "reviewedAt": "2026-11-21T23:03:15.858Z",
+      "rowSignatures": [
+        "db4a40888d6196b1",
+        "86acbbf787ed973d"
+      ],
       "review": {
         "key": "maitland-mutual-limited-057bdf:Mighty_Mutual",
-        "reviewKey": "3c7aff003a8a918f46de16979ad2beeb92793795b36fa7e07957430e920c52ee",
+        "reviewKey": "029d1cf41cd7c4f4405aaf7b1537e1f821e46c3587d2cc0c40b9df15812d3066",
         "defaultRole": null,
         "rows": [
           {
@@ -12118,11 +12926,17 @@
       }
     },
     "woolworths-team-bank-33fd08:S26": {
-      "reviewKey": "2e5ad2e52dc6563684a769cefa0a4870485c787f074e5a3c3362151d88f1e8f0",
+      "reviewKey": "7bfc89d76ac47e21a1b14a7913ada4193dd2f9e526df6b3efbeb364896683d6f",
       "reviewedAt": "2026-11-21T23:03:15.858Z",
+      "rowSignatures": [
+        "052debb45a53e41b",
+        "0d41d9069309cc27",
+        "28cc632674580419",
+        "0c86074ce031f791"
+      ],
       "review": {
         "key": "woolworths-team-bank-33fd08:S26",
-        "reviewKey": "2e5ad2e52dc6563684a769cefa0a4870485c787f074e5a3c3362151d88f1e8f0",
+        "reviewKey": "7bfc89d76ac47e21a1b14a7913ada4193dd2f9e526df6b3efbeb364896683d6f",
         "defaultRole": null,
         "rows": [
           {
@@ -12184,11 +12998,15 @@
       }
     },
     "credit-union-sa-cbc123:CREDITUNIONSA_SAV_134": {
-      "reviewKey": "52f5543926aede7ac7d92d7c1d3067a425a7ac8b0d62fa8e1c11a561ef180a57",
+      "reviewKey": "6db90df4f6af7e0b8b8919c7f2d33280e3238c26260fa4c7a9434c45715dd972",
       "reviewedAt": "2026-11-21T23:03:15.858Z",
+      "rowSignatures": [
+        "5a6fe32973395480",
+        "ad0ff7a3522214e7"
+      ],
       "review": {
         "key": "credit-union-sa-cbc123:CREDITUNIONSA_SAV_134",
-        "reviewKey": "52f5543926aede7ac7d92d7c1d3067a425a7ac8b0d62fa8e1c11a561ef180a57",
+        "reviewKey": "6db90df4f6af7e0b8b8919c7f2d33280e3238c26260fa4c7a9434c45715dd972",
         "defaultRole": null,
         "rows": [
           {
@@ -12259,11 +13077,15 @@
       }
     },
     "gateway-bank-b98426:199": {
-      "reviewKey": "564bf3367620da984004db95d615896268c49517d5fc4960ebaabbdcde15323b",
+      "reviewKey": "4fc8ce3faec55e635d916742098833df66c144148f21790a43aed049db92381a",
       "reviewedAt": "2026-11-21T23:03:15.858Z",
+      "rowSignatures": [
+        "7a9aec6c12c338a6",
+        "8163d1905dad6c97"
+      ],
       "review": {
         "key": "gateway-bank-b98426:199",
-        "reviewKey": "564bf3367620da984004db95d615896268c49517d5fc4960ebaabbdcde15323b",
+        "reviewKey": "4fc8ce3faec55e635d916742098833df66c144148f21790a43aed049db92381a",
         "defaultRole": null,
         "rows": [
           {
@@ -12314,11 +13136,15 @@
       }
     },
     "me-bank-me-go-7fe1c0:99f3781e-102c-ee11-9966-002248e1d7d5": {
-      "reviewKey": "5b8b1dd6d40088d32dc88bc10271c7d384b7331b4b6c22202dfb96bc7116c634",
+      "reviewKey": "39e7ce1d026c4dd7c42008420622919bb0b70577b6739f40b28c8084f9f047f4",
       "reviewedAt": "2026-11-21T23:03:15.858Z",
+      "rowSignatures": [
+        "70c0e61a08a74029",
+        "2bf61627e145f93f"
+      ],
       "review": {
         "key": "me-bank-me-go-7fe1c0:99f3781e-102c-ee11-9966-002248e1d7d5",
-        "reviewKey": "5b8b1dd6d40088d32dc88bc10271c7d384b7331b4b6c22202dfb96bc7116c634",
+        "reviewKey": "39e7ce1d026c4dd7c42008420622919bb0b70577b6739f40b28c8084f9f047f4",
         "defaultRole": null,
         "rows": [
           {
@@ -12379,11 +13205,15 @@
       }
     },
     "people-first-and-heritage-bank-652172:02901be8-7e53-49c8-ae99-097c55c11074": {
-      "reviewKey": "223ab7e0791c523f43122a9d043a4bd44f46936f05dfbb2666326f1dac034698",
+      "reviewKey": "0aaaffa7eb7d97910cbf3145963ccd42aef3fcfc369e7103c248d11de3fdfa87",
       "reviewedAt": "2026-11-21T23:03:15.858Z",
+      "rowSignatures": [
+        "469541bc3b7925bc",
+        "f6815b5bbe5d237c"
+      ],
       "review": {
         "key": "people-first-and-heritage-bank-652172:02901be8-7e53-49c8-ae99-097c55c11074",
-        "reviewKey": "223ab7e0791c523f43122a9d043a4bd44f46936f05dfbb2666326f1dac034698",
+        "reviewKey": "0aaaffa7eb7d97910cbf3145963ccd42aef3fcfc369e7103c248d11de3fdfa87",
         "defaultRole": null,
         "rows": [
           {
@@ -12434,11 +13264,15 @@
       }
     },
     "unity-bank-dc705d:S13_BONUS_SAVER_ACCOUNT": {
-      "reviewKey": "764b267cb99f42ddb9596506fa3823def8d6b599e97603fa870c7514cca6b0ab",
+      "reviewKey": "99112faf96547d80969f03830acec1dfbe0c8e0d071d1d78c2577f23b96c5b94",
       "reviewedAt": "2026-11-21T23:03:15.858Z",
+      "rowSignatures": [
+        "013c3a2dc48200e8",
+        "085d686791ffdc7e"
+      ],
       "review": {
         "key": "unity-bank-dc705d:S13_BONUS_SAVER_ACCOUNT",
-        "reviewKey": "764b267cb99f42ddb9596506fa3823def8d6b599e97603fa870c7514cca6b0ab",
+        "reviewKey": "99112faf96547d80969f03830acec1dfbe0c8e0d071d1d78c2577f23b96c5b94",
         "defaultRole": null,
         "rows": [
           {
@@ -12499,11 +13333,17 @@
       }
     },
     "border-bank-a0ec91:2f774fe3-962f-4120-bd75-7f2996e6127f": {
-      "reviewKey": "e7d9c0bd51dd715d35759c98af0336a73f02394fbf41f80331832d3cb84572b2",
+      "reviewKey": "c7550167f64472b6f023835cf3207316acd31ffa94457b1c392831a073ab11e0",
       "reviewedAt": "2026-11-21T23:03:15.858Z",
+      "rowSignatures": [
+        "55875ae888071b53",
+        "2977bd6443225384",
+        "f79e8f41ada29c8d",
+        "eae58b1ed875f127"
+      ],
       "review": {
         "key": "border-bank-a0ec91:2f774fe3-962f-4120-bd75-7f2996e6127f",
-        "reviewKey": "e7d9c0bd51dd715d35759c98af0336a73f02394fbf41f80331832d3cb84572b2",
+        "reviewKey": "c7550167f64472b6f023835cf3207316acd31ffa94457b1c392831a073ab11e0",
         "defaultRole": null,
         "rows": [
           {
@@ -12586,11 +13426,17 @@
       }
     },
     "gmcu-3164aa:Advantage_Saver": {
-      "reviewKey": "baebd07c76f5e0ef31f20958923b7e49732e90dfda41bd0fa41348d10f458ab0",
+      "reviewKey": "07c2676732ccc3cc40e029200fd363944319b6926a981344d860cd24060262d3",
       "reviewedAt": "2026-11-21T23:03:15.858Z",
+      "rowSignatures": [
+        "10b6d8f5c04e65b1",
+        "0e7fb1e33617a716",
+        "50fccdb52977ce9d",
+        "d60e46ccaa2cc599"
+      ],
       "review": {
         "key": "gmcu-3164aa:Advantage_Saver",
-        "reviewKey": "baebd07c76f5e0ef31f20958923b7e49732e90dfda41bd0fa41348d10f458ab0",
+        "reviewKey": "07c2676732ccc3cc40e029200fd363944319b6926a981344d860cd24060262d3",
         "defaultRole": null,
         "rows": [
           {
@@ -12694,11 +13540,17 @@
       }
     },
     "police-bank-d51dc6:0d555012-2f96-4f16-b5a8-6e12aa15f9fa": {
-      "reviewKey": "8eb5c2d44d4eb58497bd3c8bef6513c5a5484b05d9e2eae88b46723249b59b0a",
+      "reviewKey": "d353809d94489bacdd01e39c33b844b033cccc6983119670d0a7d0bd1c77ccd0",
       "reviewedAt": "2026-11-21T23:03:15.858Z",
+      "rowSignatures": [
+        "107550b9ee41793a",
+        "0b2d905b194f01f5",
+        "9d9d8a758f0a7c65",
+        "db01b036217d882f"
+      ],
       "review": {
         "key": "police-bank-d51dc6:0d555012-2f96-4f16-b5a8-6e12aa15f9fa",
-        "reviewKey": "8eb5c2d44d4eb58497bd3c8bef6513c5a5484b05d9e2eae88b46723249b59b0a",
+        "reviewKey": "d353809d94489bacdd01e39c33b844b033cccc6983119670d0a7d0bd1c77ccd0",
         "defaultRole": null,
         "rows": [
           {
@@ -12781,11 +13633,15 @@
       }
     },
     "queensland-country-bank-0fa967:10": {
-      "reviewKey": "148212b0cdd5b1f1a69e130c6687261a0e0db0aea3d7511181424d95d7d3860a",
+      "reviewKey": "49fa6804cc17e6fb0369166d1d50928e114cbe6316a3914a92c698399ea16b34",
       "reviewedAt": "2026-11-21T23:03:15.858Z",
+      "rowSignatures": [
+        "98314b1c41576806",
+        "d74309865a15d537"
+      ],
       "review": {
         "key": "queensland-country-bank-0fa967:10",
-        "reviewKey": "148212b0cdd5b1f1a69e130c6687261a0e0db0aea3d7511181424d95d7d3860a",
+        "reviewKey": "49fa6804cc17e6fb0369166d1d50928e114cbe6316a3914a92c698399ea16b34",
         "defaultRole": null,
         "rows": [
           {
@@ -12846,11 +13702,15 @@
       }
     },
     "queensland-country-bank-0fa967:7": {
-      "reviewKey": "2723a7f65d49b9a15787b72bad9f65251beaddee14943ad60b21a808c8a06ab1",
+      "reviewKey": "28b4dd7be546527ac3f4123fd83df0918bb177fb1f4dcd585d1825f2b3115f72",
       "reviewedAt": "2026-11-21T23:03:15.858Z",
+      "rowSignatures": [
+        "68e844201cbb6f2f",
+        "d74309865a15d537"
+      ],
       "review": {
         "key": "queensland-country-bank-0fa967:7",
-        "reviewKey": "2723a7f65d49b9a15787b72bad9f65251beaddee14943ad60b21a808c8a06ab1",
+        "reviewKey": "28b4dd7be546527ac3f4123fd83df0918bb177fb1f4dcd585d1825f2b3115f72",
         "defaultRole": null,
         "rows": [
           {
@@ -12911,11 +13771,15 @@
       }
     },
     "queensland-country-bank-0fa967:9": {
-      "reviewKey": "5836daa8fb3acd73a7066a22837ea88cb57930d59fea1803c366ff4f59388526",
+      "reviewKey": "f53857150cbdf60619903f16b6a3104a23827d080aa8857bb54291fafbce124c",
       "reviewedAt": "2026-11-21T23:03:15.858Z",
+      "rowSignatures": [
+        "98314b1c41576806",
+        "d74309865a15d537"
+      ],
       "review": {
         "key": "queensland-country-bank-0fa967:9",
-        "reviewKey": "5836daa8fb3acd73a7066a22837ea88cb57930d59fea1803c366ff4f59388526",
+        "reviewKey": "f53857150cbdf60619903f16b6a3104a23827d080aa8857bb54291fafbce124c",
         "defaultRole": null,
         "rows": [
           {
@@ -12976,11 +13840,15 @@
       }
     },
     "suncorp-bank-58debb:KS": {
-      "reviewKey": "0ed3eac7a28ba18adc985cdb2f8aafcdd05d0120b26889cd37ced5b4d708c34e",
+      "reviewKey": "3de821721ad69352bb29ce0692a1a5db4c28134f90266f9c603c5a492c6ddb9e",
       "reviewedAt": "2026-11-21T23:03:15.858Z",
+      "rowSignatures": [
+        "b951808e4a1a82b5",
+        "fe74701cc75be249"
+      ],
       "review": {
         "key": "suncorp-bank-58debb:KS",
-        "reviewKey": "0ed3eac7a28ba18adc985cdb2f8aafcdd05d0120b26889cd37ced5b4d708c34e",
+        "reviewKey": "3de821721ad69352bb29ce0692a1a5db4c28134f90266f9c603c5a492c6ddb9e",
         "defaultRole": null,
         "rows": [
           {
@@ -13041,11 +13909,15 @@
       }
     },
     "imb-bank-198820:TSA-29-1": {
-      "reviewKey": "033e58d89266aa44e9159fc2e4f7deaf2dc0af8ab4c5afc88cfe0159ab9a553d",
+      "reviewKey": "57342dd708f3e34869e90f8a740902117894e6e8f6dd8388f7d9883b9b2a5c2f",
       "reviewedAt": "2026-11-21T23:03:15.858Z",
+      "rowSignatures": [
+        "aae58844988da7d0",
+        "f1111edf08fd5a26"
+      ],
       "review": {
         "key": "imb-bank-198820:TSA-29-1",
-        "reviewKey": "033e58d89266aa44e9159fc2e4f7deaf2dc0af8ab4c5afc88cfe0159ab9a553d",
+        "reviewKey": "57342dd708f3e34869e90f8a740902117894e6e8f6dd8388f7d9883b9b2a5c2f",
         "defaultRole": null,
         "rows": [
           {
@@ -13106,11 +13978,14 @@
       }
     },
     "summerland-bank-e79678:2": {
-      "reviewKey": "3c68633c17082e110d470f63a5c84aef7286a203ccebe83cea5e76ca42208d24",
+      "reviewKey": "07b4b0380aef5a28141a3423690b5e704644de6a891ebbbc9bb822bd2af658f2",
       "reviewedAt": "2026-11-21T23:03:15.858Z",
+      "rowSignatures": [
+        "50d210e5c079c36c"
+      ],
       "review": {
         "key": "summerland-bank-e79678:2",
-        "reviewKey": "3c68633c17082e110d470f63a5c84aef7286a203ccebe83cea5e76ca42208d24",
+        "reviewKey": "07b4b0380aef5a28141a3423690b5e704644de6a891ebbbc9bb822bd2af658f2",
         "defaultRole": null,
         "rows": [
           {
@@ -13160,11 +14035,17 @@
       }
     },
     "commfcu-afb5c8:S29-GS": {
-      "reviewKey": "26870d2423599cd1e3c6cf995b174acf2c4adfbdd7c0bb1ef8a1ac6a358426f3",
+      "reviewKey": "d44375bb8e2e4c321cfe241aeca340d001027812a068b75ba6c31512ec831125",
       "reviewedAt": "2026-11-21T23:03:15.858Z",
+      "rowSignatures": [
+        "89d756fcd797fc1a",
+        "aa35cbcf455a9076",
+        "13bfbfbfba6f1374",
+        "c50814348a92ebf4"
+      ],
       "review": {
         "key": "commfcu-afb5c8:S29-GS",
-        "reviewKey": "26870d2423599cd1e3c6cf995b174acf2c4adfbdd7c0bb1ef8a1ac6a358426f3",
+        "reviewKey": "d44375bb8e2e4c321cfe241aeca340d001027812a068b75ba6c31512ec831125",
         "defaultRole": null,
         "rows": [
           {
@@ -13257,11 +14138,15 @@
       }
     },
     "people-first-and-heritage-bank-652172:1e57e54b-8df8-4f03-9f61-20ce1ad5b471": {
-      "reviewKey": "38802bf65cd24e1e6389aecabf6bfbfdf72cfc73affc1ff5b00c2c643adac8ec",
+      "reviewKey": "7f9842c29df6836f1cf438a70e25980ad0324c985dea833df87c2823a2cf6f3b",
       "reviewedAt": "2026-11-21T23:03:15.858Z",
+      "rowSignatures": [
+        "53ac660ae1366ddc",
+        "1fe9f74c43b8518a"
+      ],
       "review": {
         "key": "people-first-and-heritage-bank-652172:1e57e54b-8df8-4f03-9f61-20ce1ad5b471",
-        "reviewKey": "38802bf65cd24e1e6389aecabf6bfbfdf72cfc73affc1ff5b00c2c643adac8ec",
+        "reviewKey": "7f9842c29df6836f1cf438a70e25980ad0324c985dea833df87c2823a2cf6f3b",
         "defaultRole": null,
         "rows": [
           {
@@ -13322,11 +14207,15 @@
       }
     },
     "people-first-and-heritage-bank-652172:683e6ac4-7cb6-4d1f-a5ae-bddf379a39a5": {
-      "reviewKey": "1a4d74353a2dedaced98a9cd84399d8126b8e3e1b3bdf05146fd99b826a9ae81",
+      "reviewKey": "9b9ddcd50d3552e65df7f0eab0b93e8464b1254dec3dd3edd51981072f4f6960",
       "reviewedAt": "2026-11-21T23:03:15.858Z",
+      "rowSignatures": [
+        "53ac660ae1366ddc",
+        "f80ee83a0cd38bdc"
+      ],
       "review": {
         "key": "people-first-and-heritage-bank-652172:683e6ac4-7cb6-4d1f-a5ae-bddf379a39a5",
-        "reviewKey": "1a4d74353a2dedaced98a9cd84399d8126b8e3e1b3bdf05146fd99b826a9ae81",
+        "reviewKey": "9b9ddcd50d3552e65df7f0eab0b93e8464b1254dec3dd3edd51981072f4f6960",
         "defaultRole": null,
         "rows": [
           {
@@ -13387,11 +14276,21 @@
       }
     },
     "northern-inland-credit-union-limited-9fcbd4:NICUS12": {
-      "reviewKey": "e857c2fcdcbcbec5c126dc64fe296b5c1635303825f38445bf2430cffc4efaf7",
+      "reviewKey": "1fdccac3cdf19665ab90292e5ffd27bd4a0d50d86fbc57346af2d90bb7d45174",
       "reviewedAt": "2026-11-21T23:03:15.858Z",
+      "rowSignatures": [
+        "b7034a6435914d7c",
+        "7e6d54dbd3022868",
+        "d79752531fa27b42",
+        "652ad576a422f8f1",
+        "627908672e737bb6",
+        "bfe2e462276082a4",
+        "42ac2f969c5e53bc",
+        "9b4d5c2329654081"
+      ],
       "review": {
         "key": "northern-inland-credit-union-limited-9fcbd4:NICUS12",
-        "reviewKey": "e857c2fcdcbcbec5c126dc64fe296b5c1635303825f38445bf2430cffc4efaf7",
+        "reviewKey": "1fdccac3cdf19665ab90292e5ffd27bd4a0d50d86fbc57346af2d90bb7d45174",
         "defaultRole": null,
         "rows": [
           {
@@ -13581,11 +14480,21 @@
       }
     },
     "laboratories-credit-union-01ca21:S34_SAVVY_SAVER_ACCOUNT": {
-      "reviewKey": "23fbc0be82ba44006279d85efd537847349d0dc664e519333d63e76fb651383e",
+      "reviewKey": "b1da3ae7e0fa15721e75f89c08588af3b9c2a6edf7ba753399d7af5085b4737a",
       "reviewedAt": "2026-11-21T23:03:15.858Z",
+      "rowSignatures": [
+        "061fbc2edfd80a2c",
+        "14bf95a2c433209a",
+        "2eeb2a1e247816aa",
+        "373df0b11d94b636",
+        "e75d2783ba2a87d5",
+        "5f3ddab0137f8c0b",
+        "fda998b41b0278fa",
+        "8d0bebeb2621c4a6"
+      ],
       "review": {
         "key": "laboratories-credit-union-01ca21:S34_SAVVY_SAVER_ACCOUNT",
-        "reviewKey": "23fbc0be82ba44006279d85efd537847349d0dc664e519333d63e76fb651383e",
+        "reviewKey": "b1da3ae7e0fa15721e75f89c08588af3b9c2a6edf7ba753399d7af5085b4737a",
         "defaultRole": null,
         "rows": [
           {
@@ -13775,11 +14684,15 @@
       }
     },
     "bank-of-queensland-limited-1f8da9:b2176288-5c03-ee11-8f6e-00224814dce7": {
-      "reviewKey": "078224e556e6fdc95501d5de65fca8a92a445f9e7ae1e810b186cba3146be030",
+      "reviewKey": "8cb3504f9e5c9882a60481e97753d9d5b2be1ef88bfe944a79264fedab8bed09",
       "reviewedAt": "2026-11-21T23:03:15.858Z",
+      "rowSignatures": [
+        "26d6089535b67188",
+        "e08cb27320a492e3"
+      ],
       "review": {
         "key": "bank-of-queensland-limited-1f8da9:b2176288-5c03-ee11-8f6e-00224814dce7",
-        "reviewKey": "078224e556e6fdc95501d5de65fca8a92a445f9e7ae1e810b186cba3146be030",
+        "reviewKey": "8cb3504f9e5c9882a60481e97753d9d5b2be1ef88bfe944a79264fedab8bed09",
         "defaultRole": null,
         "rows": [
           {
@@ -13840,11 +14753,15 @@
       }
     },
     "anz-20d614:e9a3b4fe-240c-388e-2282-42db8f570e63": {
-      "reviewKey": "fab6826b0e78fffc269bc49fcc15139dad6641af6bebad807593610cb9fc0c7f",
+      "reviewKey": "472476f4fa7921a767d6e3dc52fbdd18f0e80032d5b73777e7101d23d9f580d7",
       "reviewedAt": "2026-11-21T23:03:15.858Z",
+      "rowSignatures": [
+        "f7e65249d773d19a",
+        "784af54d605f9857"
+      ],
       "review": {
         "key": "anz-20d614:e9a3b4fe-240c-388e-2282-42db8f570e63",
-        "reviewKey": "fab6826b0e78fffc269bc49fcc15139dad6641af6bebad807593610cb9fc0c7f",
+        "reviewKey": "472476f4fa7921a767d6e3dc52fbdd18f0e80032d5b73777e7101d23d9f580d7",
         "defaultRole": null,
         "rows": [
           {
@@ -13905,11 +14822,15 @@
       }
     },
     "bank-of-china-475b2b:55090506": {
-      "reviewKey": "f5dfb9dd998676b095729ed0b54f73b4c15ed7b0e0935471fc5ccb5d5b7398bf",
+      "reviewKey": "5244ef24ef4f84b17747aaf935b782c700748f04a6eacd8c9e69b0a3b1cb9699",
       "reviewedAt": "2026-11-21T23:03:15.858Z",
+      "rowSignatures": [
+        "d4384995069ef285",
+        "01ee44c828285eac"
+      ],
       "review": {
         "key": "bank-of-china-475b2b:55090506",
-        "reviewKey": "f5dfb9dd998676b095729ed0b54f73b4c15ed7b0e0935471fc5ccb5d5b7398bf",
+        "reviewKey": "5244ef24ef4f84b17747aaf935b782c700748f04a6eacd8c9e69b0a3b1cb9699",
         "defaultRole": null,
         "rows": [
           {
@@ -13960,11 +14881,15 @@
       }
     },
     "maitland-mutual-limited-057bdf:Bonus_Saver": {
-      "reviewKey": "797122c395ec674f136214245629b1b01b7bacd6fc9b811975c4b85a9c343aaf",
+      "reviewKey": "24b65c2ce47577b551c5bebff5144ed9841e7ba1d5a9bd90fcd752b59cc828fc",
       "reviewedAt": "2026-11-21T23:03:15.858Z",
+      "rowSignatures": [
+        "eb0c5a307b643cfb",
+        "1bd144bf8afc990e"
+      ],
       "review": {
         "key": "maitland-mutual-limited-057bdf:Bonus_Saver",
-        "reviewKey": "797122c395ec674f136214245629b1b01b7bacd6fc9b811975c4b85a9c343aaf",
+        "reviewKey": "24b65c2ce47577b551c5bebff5144ed9841e7ba1d5a9bd90fcd752b59cc828fc",
         "defaultRole": null,
         "rows": [
           {
@@ -14025,11 +14950,15 @@
       }
     },
     "bank-of-china-475b2b:55090851": {
-      "reviewKey": "ec05d1a9ebd6a758ba649eaef683131b4180056e63684b03027a47564662ee8d",
+      "reviewKey": "a3883ebb056b5eeb744ad32b9664b300d0dbe8594d4df294a475794ebbb1a4dc",
       "reviewedAt": "2026-11-21T23:03:15.858Z",
+      "rowSignatures": [
+        "e47822dff92cfe67",
+        "cb17a8e934ef99ee"
+      ],
       "review": {
         "key": "bank-of-china-475b2b:55090851",
-        "reviewKey": "ec05d1a9ebd6a758ba649eaef683131b4180056e63684b03027a47564662ee8d",
+        "reviewKey": "a3883ebb056b5eeb744ad32b9664b300d0dbe8594d4df294a475794ebbb1a4dc",
         "defaultRole": null,
         "rows": [
           {
@@ -14069,11 +14998,15 @@
       }
     },
     "credit-union-sa-cbc123:CREDITUNIONSA_SAV_109": {
-      "reviewKey": "e2b06bc42f6dd7482717a7d9fa758c5caa74ead404293e4f72847a4158a8b5ff",
+      "reviewKey": "13e438dc609376da7669bf1ebd296d6cc3fc33340b93b376c72e421f106cfd7f",
       "reviewedAt": "2026-11-21T23:03:15.858Z",
+      "rowSignatures": [
+        "93ff591995d2e74a",
+        "9fe6a24bfb56112a"
+      ],
       "review": {
         "key": "credit-union-sa-cbc123:CREDITUNIONSA_SAV_109",
-        "reviewKey": "e2b06bc42f6dd7482717a7d9fa758c5caa74ead404293e4f72847a4158a8b5ff",
+        "reviewKey": "13e438dc609376da7669bf1ebd296d6cc3fc33340b93b376c72e421f106cfd7f",
         "defaultRole": null,
         "rows": [
           {
@@ -14134,11 +15067,15 @@
       }
     },
     "northern-inland-credit-union-limited-9fcbd4:NICUS15": {
-      "reviewKey": "81c7be785cb9c7dfe4a0b35a2b4de98598c1ca352c8cd0f0fb0fd67ee986bebc",
+      "reviewKey": "9253670df51e13223f6e249ea378a9fb2bc70548ee48e6dfed129fa25c00d25a",
       "reviewedAt": "2026-11-21T23:03:15.858Z",
+      "rowSignatures": [
+        "0de7b9581adf8257",
+        "acba94cf3111e642"
+      ],
       "review": {
         "key": "northern-inland-credit-union-limited-9fcbd4:NICUS15",
-        "reviewKey": "81c7be785cb9c7dfe4a0b35a2b4de98598c1ca352c8cd0f0fb0fd67ee986bebc",
+        "reviewKey": "9253670df51e13223f6e249ea378a9fb2bc70548ee48e6dfed129fa25c00d25a",
         "defaultRole": null,
         "rows": [
           {
@@ -14189,11 +15126,14 @@
       }
     },
     "hsbc-bank-australia-limited-wholesale-ba-6acb78:TMD_GLCM": {
-      "reviewKey": "66f30a4a88590993d171152e0968c6108507624ac8776752bb032bdec20e33c1",
+      "reviewKey": "3968236075f83a9e32d55b7ae886a808e03e2986edfc7e65f0e0a5d4e7f91dee",
       "reviewedAt": "2026-11-21T23:03:15.858Z",
+      "rowSignatures": [
+        "e7a3767b836ebd09"
+      ],
       "review": {
         "key": "hsbc-bank-australia-limited-wholesale-ba-6acb78:TMD_GLCM",
-        "reviewKey": "66f30a4a88590993d171152e0968c6108507624ac8776752bb032bdec20e33c1",
+        "reviewKey": "3968236075f83a9e32d55b7ae886a808e03e2986edfc7e65f0e0a5d4e7f91dee",
         "defaultRole": null,
         "rows": [
           {
@@ -14222,11 +15162,17 @@
       }
     },
     "auswide-bank-ltd-5d516b:516f4dc2-271b-4812-91ce-fdb9a6eb6c04": {
-      "reviewKey": "7a6a871e470f422dc602c75f24d4e0c9ddd351735bbcf3126cccacaff598f988",
+      "reviewKey": "729d0c60e6015a24678f07ddda868cc9cf816865ceecc4fe8e9aa497bb23cb02",
       "reviewedAt": "2026-11-21T23:03:15.858Z",
+      "rowSignatures": [
+        "e27db3625ec00fe8",
+        "0ff726f1db300578",
+        "591d7ccac02ce0ed",
+        "eb57dfdb5f886420"
+      ],
       "review": {
         "key": "auswide-bank-ltd-5d516b:516f4dc2-271b-4812-91ce-fdb9a6eb6c04",
-        "reviewKey": "7a6a871e470f422dc602c75f24d4e0c9ddd351735bbcf3126cccacaff598f988",
+        "reviewKey": "729d0c60e6015a24678f07ddda868cc9cf816865ceecc4fe8e9aa497bb23cb02",
         "defaultRole": null,
         "rows": [
           {
@@ -14330,11 +15276,15 @@
       }
     },
     "orange-credit-union-ltd-e0e024:BONUS_SAVER": {
-      "reviewKey": "6b49786803d1243c5eb1c0d41f3f068495e4917e712c6eda2df9e2f25168263a",
+      "reviewKey": "d158dc54b19f949168f162dca1c05991b3adad58dabacfaedb86c28fdaa4795b",
       "reviewedAt": "2026-11-21T23:04:36.640Z",
+      "rowSignatures": [
+        "52df0d85427f0938",
+        "a85cece3729cc69a"
+      ],
       "review": {
         "key": "orange-credit-union-ltd-e0e024:BONUS_SAVER",
-        "reviewKey": "6b49786803d1243c5eb1c0d41f3f068495e4917e712c6eda2df9e2f25168263a",
+        "reviewKey": "d158dc54b19f949168f162dca1c05991b3adad58dabacfaedb86c28fdaa4795b",
         "defaultRole": null,
         "rows": [
           {
@@ -14374,11 +15324,17 @@
       }
     },
     "auswide-bank-ltd-5d516b:4a276227-7f7a-4cac-a018-88138b099a8e": {
-      "reviewKey": "b393db710df02ef36608f0e3aa314c5cea7c1331a4b8f42529e9851d70cf62ac",
+      "reviewKey": "2a9346cdbcd5d7e10e804d57cde039517422bbb63234562e27586150421e3f5d",
       "reviewedAt": "2026-11-21T23:04:36.640Z",
+      "rowSignatures": [
+        "7dce572c9840c39d",
+        "394d60cebb2c830e",
+        "96a0e040937cc0e1",
+        "a4ff5548eb9a7d79"
+      ],
       "review": {
         "key": "auswide-bank-ltd-5d516b:4a276227-7f7a-4cac-a018-88138b099a8e",
-        "reviewKey": "b393db710df02ef36608f0e3aa314c5cea7c1331a4b8f42529e9851d70cf62ac",
+        "reviewKey": "2a9346cdbcd5d7e10e804d57cde039517422bbb63234562e27586150421e3f5d",
         "defaultRole": null,
         "rows": [
           {
@@ -14482,11 +15438,17 @@
       }
     },
     "first-option-bank-adb052:BONUS_SAVER": {
-      "reviewKey": "d0f6a36cf64de5f412049520c033b70cb6156fa895fded14ffa4df8758e8293a",
+      "reviewKey": "7727910e600af5e25b2b0cd5658a20ebd610169334cd350b9b49815dffe0d2b0",
       "reviewedAt": "2026-11-21T23:04:36.640Z",
+      "rowSignatures": [
+        "6c9e1adb97115362",
+        "ecc384e296781a33",
+        "3dda2da2b7be2676",
+        "f8a1c0d39a39e113"
+      ],
       "review": {
         "key": "first-option-bank-adb052:BONUS_SAVER",
-        "reviewKey": "d0f6a36cf64de5f412049520c033b70cb6156fa895fded14ffa4df8758e8293a",
+        "reviewKey": "7727910e600af5e25b2b0cd5658a20ebd610169334cd350b9b49815dffe0d2b0",
         "defaultRole": null,
         "rows": [
           {
@@ -14548,11 +15510,15 @@
       }
     },
     "geelong-bank-1a2306:S50": {
-      "reviewKey": "e26a51e28b01dae3ffe8d7b379cb25a23a6e7fc96c764442ddcaf16c30a3a382",
+      "reviewKey": "73522a12a95f5b66bf3813c26744823c5884af2112fb772e9c7392dd517f3e02",
       "reviewedAt": "2026-11-21T23:04:36.640Z",
+      "rowSignatures": [
+        "283ba1637135f05f",
+        "5a712128c36ab0c1"
+      ],
       "review": {
         "key": "geelong-bank-1a2306:S50",
-        "reviewKey": "e26a51e28b01dae3ffe8d7b379cb25a23a6e7fc96c764442ddcaf16c30a3a382",
+        "reviewKey": "73522a12a95f5b66bf3813c26744823c5884af2112fb772e9c7392dd517f3e02",
         "defaultRole": null,
         "rows": [
           {
@@ -14592,11 +15558,14 @@
       }
     },
     "dnister-7791e6:17": {
-      "reviewKey": "652b57ed29dfc3d5be7aee87644b8b64a94900cb5387169859881729216de772",
+      "reviewKey": "d86495e3050904d7d875fd5a35412d938e13db32a6c6519d71542876212f08cf",
       "reviewedAt": "2026-11-21T23:04:36.640Z",
+      "rowSignatures": [
+        "3ce204e53f57f000"
+      ],
       "review": {
         "key": "dnister-7791e6:17",
-        "reviewKey": "652b57ed29dfc3d5be7aee87644b8b64a94900cb5387169859881729216de772",
+        "reviewKey": "d86495e3050904d7d875fd5a35412d938e13db32a6c6519d71542876212f08cf",
         "defaultRole": null,
         "rows": [
           {
@@ -14636,11 +15605,17 @@
       }
     },
     "bank-of-us-7217b2:Stash_n_Splash": {
-      "reviewKey": "cd86efa6e72956f4416059ca4e7b915fe326e1f2912e774ba01786d7f9b64bed",
+      "reviewKey": "78bad04d2f67a4a8db890380956387900ee64725e873397baa249bcee9adcd96",
       "reviewedAt": "2026-11-21T23:04:36.640Z",
+      "rowSignatures": [
+        "e131d2e615109abb",
+        "47a0e1c5f131730e",
+        "e91231eef17fdcae",
+        "3936fdf26553fdd9"
+      ],
       "review": {
         "key": "bank-of-us-7217b2:Stash_n_Splash",
-        "reviewKey": "cd86efa6e72956f4416059ca4e7b915fe326e1f2912e774ba01786d7f9b64bed",
+        "reviewKey": "78bad04d2f67a4a8db890380956387900ee64725e873397baa249bcee9adcd96",
         "defaultRole": null,
         "rows": [
           {
@@ -14702,11 +15677,21 @@
       }
     },
     "commbank-5b7d50:da527ba1942246edac4d5da36dbc1da8": {
-      "reviewKey": "9156f16f908a9efae59b91a89dfc5765c45029756d0125bb7e033045d7227152",
+      "reviewKey": "f9dda2e1f1bbf60b558eb007a38c886482e500250459f9039a59b24658786264",
       "reviewedAt": "2026-11-21T23:04:36.640Z",
+      "rowSignatures": [
+        "2e95ac6fdff09425",
+        "3278ddb0328e626b",
+        "38987f801484f54e",
+        "88dd4b4841cd489e",
+        "f3e77250a69fd252",
+        "5599354b892b2338",
+        "5ee804a3bb5f48f2",
+        "9496d886999a22cb"
+      ],
       "review": {
         "key": "commbank-5b7d50:da527ba1942246edac4d5da36dbc1da8",
-        "reviewKey": "9156f16f908a9efae59b91a89dfc5765c45029756d0125bb7e033045d7227152",
+        "reviewKey": "f9dda2e1f1bbf60b558eb007a38c886482e500250459f9039a59b24658786264",
         "defaultRole": null,
         "rows": [
           {
@@ -14812,11 +15797,17 @@
       }
     },
     "bank-of-melbourne-1859a2:BOMTrRetirementAccess": {
-      "reviewKey": "02e0baca2d6658852680a2e858ceb80959cfbb6ba6b596d11e3a92abbe58b144",
+      "reviewKey": "9b3cc5115ab62081a936478b3d51e21a6444f09223f4d03ad1a804e330abe1ea",
       "reviewedAt": "2026-11-21T23:04:36.640Z",
+      "rowSignatures": [
+        "00ead3231b26d486",
+        "f38ad54acdee4753",
+        "8d72d69ceba0555a",
+        "ad30a59eee046728"
+      ],
       "review": {
         "key": "bank-of-melbourne-1859a2:BOMTrRetirementAccess",
-        "reviewKey": "02e0baca2d6658852680a2e858ceb80959cfbb6ba6b596d11e3a92abbe58b144",
+        "reviewKey": "9b3cc5115ab62081a936478b3d51e21a6444f09223f4d03ad1a804e330abe1ea",
         "defaultRole": "BASE",
         "rows": [
           {
@@ -14878,11 +15869,17 @@
       }
     },
     "banksa-e6aef2:BSATrRetirementAccess": {
-      "reviewKey": "49bdb5b1325847f8791d0d7abc1a4253daa965bc48c3bd39af88a232efcdd640",
+      "reviewKey": "4af02b4c3724f9f64cc426e1798bdd1a4aa8888dc2a6b6dd656b5041d171ad37",
       "reviewedAt": "2026-11-21T23:04:36.640Z",
+      "rowSignatures": [
+        "00ead3231b26d486",
+        "f38ad54acdee4753",
+        "8d72d69ceba0555a",
+        "ad30a59eee046728"
+      ],
       "review": {
         "key": "banksa-e6aef2:BSATrRetirementAccess",
-        "reviewKey": "49bdb5b1325847f8791d0d7abc1a4253daa965bc48c3bd39af88a232efcdd640",
+        "reviewKey": "4af02b4c3724f9f64cc426e1798bdd1a4aa8888dc2a6b6dd656b5041d171ad37",
         "defaultRole": "BASE",
         "rows": [
           {
@@ -14944,11 +15941,17 @@
       }
     },
     "st-george-bank-66f3a8:STGTrRetirementAccess": {
-      "reviewKey": "61721b8084f7ab494c365bf032ab433813ebb1af4328ef323969459f39255114",
+      "reviewKey": "fd4730574c33887173690d284b93f8bfdcbf5a2d454166b9745ff1e157e4ff6f",
       "reviewedAt": "2026-11-21T23:04:36.640Z",
+      "rowSignatures": [
+        "00ead3231b26d486",
+        "f38ad54acdee4753",
+        "8d72d69ceba0555a",
+        "ad30a59eee046728"
+      ],
       "review": {
         "key": "st-george-bank-66f3a8:STGTrRetirementAccess",
-        "reviewKey": "61721b8084f7ab494c365bf032ab433813ebb1af4328ef323969459f39255114",
+        "reviewKey": "fd4730574c33887173690d284b93f8bfdcbf5a2d454166b9745ff1e157e4ff6f",
         "defaultRole": "BASE",
         "rows": [
           {
@@ -15010,11 +16013,17 @@
       }
     },
     "geelong-bank-1a2306:S80": {
-      "reviewKey": "bc0ed5018d398b7395bdbbfe4b70589a0ec11fec2ff4ede431b6f6fc9d2aac08",
+      "reviewKey": "db4f3deae837eede09d3d6413f495326b517d64b23652aa86fc5af72dac8c666",
       "reviewedAt": "2026-11-21T23:04:36.640Z",
+      "rowSignatures": [
+        "d3753b49fabb0d77",
+        "4dae7afdd86ff5e9",
+        "686f774b56b9fc87",
+        "d9a5598af255f870"
+      ],
       "review": {
         "key": "geelong-bank-1a2306:S80",
-        "reviewKey": "bc0ed5018d398b7395bdbbfe4b70589a0ec11fec2ff4ede431b6f6fc9d2aac08",
+        "reviewKey": "db4f3deae837eede09d3d6413f495326b517d64b23652aa86fc5af72dac8c666",
         "defaultRole": null,
         "rows": [
           {
@@ -15087,11 +16096,19 @@
       }
     },
     "geelong-bank-1a2306:S55": {
-      "reviewKey": "f57934923853e38bd4a4b2ae884ec4247ba8689440ab7bdcc1ad41ce0e02fd18",
+      "reviewKey": "b08a0efc779f64cd422b138073885acc0d8ee7bb112530fdf71ae8facc526622",
       "reviewedAt": "2026-11-21T23:04:36.640Z",
+      "rowSignatures": [
+        "afb717695e04be01",
+        "fb65ebfcb3c19bfc",
+        "051c098f2b9439d9",
+        "7db6226894bffce7",
+        "17bda22bff8f9a0e",
+        "7bcbe1cd070b260b"
+      ],
       "review": {
         "key": "geelong-bank-1a2306:S55",
-        "reviewKey": "f57934923853e38bd4a4b2ae884ec4247ba8689440ab7bdcc1ad41ce0e02fd18",
+        "reviewKey": "b08a0efc779f64cd422b138073885acc0d8ee7bb112530fdf71ae8facc526622",
         "defaultRole": null,
         "rows": [
           {
@@ -15217,11 +16234,16 @@
       }
     },
     "border-bank-a0ec91:5c91aaf2-d9fa-4d4e-8f86-f7ee573f1900": {
-      "reviewKey": "18c5b06d6884155970552346609f266706011e91a6c37afb817338888a20de11",
+      "reviewKey": "ec6bbd76595852f8312adb8d47206960ece86fc5a08d7a92b66fcc0f2e36f36c",
       "reviewedAt": "2026-11-21T23:04:36.640Z",
+      "rowSignatures": [
+        "fc5a22f94218b95e",
+        "ff4f6b5d57f08338",
+        "8065714133525486"
+      ],
       "review": {
         "key": "border-bank-a0ec91:5c91aaf2-d9fa-4d4e-8f86-f7ee573f1900",
-        "reviewKey": "18c5b06d6884155970552346609f266706011e91a6c37afb817338888a20de11",
+        "reviewKey": "ec6bbd76595852f8312adb8d47206960ece86fc5a08d7a92b66fcc0f2e36f36c",
         "defaultRole": null,
         "rows": [
           {
@@ -15303,11 +16325,16 @@
       }
     },
     "police-bank-d51dc6:2d24914e-144d-46be-bb8b-ae9e2c8207e7": {
-      "reviewKey": "d450a54a3864fb7067153dacec292e999253d5d4462d814dc596188323246534",
+      "reviewKey": "2f2050deed8fb53c94adf558ad1f7c1ae5aa993a99cb94553e3805b893470045",
       "reviewedAt": "2026-11-21T23:04:36.640Z",
+      "rowSignatures": [
+        "6c2e257e11b6ae85",
+        "5792d88b2a3cfbfd",
+        "ed6a8ea3580d4e03"
+      ],
       "review": {
         "key": "police-bank-d51dc6:2d24914e-144d-46be-bb8b-ae9e2c8207e7",
-        "reviewKey": "d450a54a3864fb7067153dacec292e999253d5d4462d814dc596188323246534",
+        "reviewKey": "2f2050deed8fb53c94adf558ad1f7c1ae5aa993a99cb94553e3805b893470045",
         "defaultRole": null,
         "rows": [
           {
@@ -15389,11 +16416,16 @@
       }
     },
     "credit-union-sa-cbc123:CREDITUNIONSA_SAV_112": {
-      "reviewKey": "984821f87c6a6ff04b26a8a19351f2f92df7a99975d0c7fbfcd5396e57350361",
+      "reviewKey": "23a7196f856c06454a16e91bc215b4592e62dec30fd4fe658546fbe9d4afd8e2",
       "reviewedAt": "2026-11-21T23:04:36.640Z",
+      "rowSignatures": [
+        "e767e9dd6800df4b",
+        "94da12270db60425",
+        "220c49e20b868413"
+      ],
       "review": {
         "key": "credit-union-sa-cbc123:CREDITUNIONSA_SAV_112",
-        "reviewKey": "984821f87c6a6ff04b26a8a19351f2f92df7a99975d0c7fbfcd5396e57350361",
+        "reviewKey": "23a7196f856c06454a16e91bc215b4592e62dec30fd4fe658546fbe9d4afd8e2",
         "defaultRole": "BASE",
         "rows": [
           {
@@ -15444,11 +16476,15 @@
       }
     },
     "bank-of-china-475b2b:55940657": {
-      "reviewKey": "146661e16e27a2c6a496500e7b5da8005709fec44990e28f99e982bbc7fd4fc7",
+      "reviewKey": "c314044c985f80d151c09a5f2cff43ac8a2f5cd02832c4e45a1297d966aca996",
       "reviewedAt": "2026-11-21T23:04:36.640Z",
+      "rowSignatures": [
+        "89c67e03c93ddae7",
+        "1fd8986004bdde28"
+      ],
       "review": {
         "key": "bank-of-china-475b2b:55940657",
-        "reviewKey": "146661e16e27a2c6a496500e7b5da8005709fec44990e28f99e982bbc7fd4fc7",
+        "reviewKey": "c314044c985f80d151c09a5f2cff43ac8a2f5cd02832c4e45a1297d966aca996",
         "defaultRole": null,
         "rows": [
           {
@@ -15488,11 +16524,17 @@
       }
     },
     "newcastle-permanent-8ac556:AC_specialmonthlyinterest": {
-      "reviewKey": "ff23d1ceaa3b0c49536cad55e5f3bfd0aa6493e32f4b2980211d70e227972048",
+      "reviewKey": "0552c0a23d4b98d2c0734c9c2afe5ab3e6c43d4cfda7a4f23c91aeeaee4dce6a",
       "reviewedAt": "2026-11-21T23:04:36.640Z",
+      "rowSignatures": [
+        "c429cf6a6277fc12",
+        "05eedc83bbec3555",
+        "45821a2c7caa45df",
+        "04553f44624710a2"
+      ],
       "review": {
         "key": "newcastle-permanent-8ac556:AC_specialmonthlyinterest",
-        "reviewKey": "ff23d1ceaa3b0c49536cad55e5f3bfd0aa6493e32f4b2980211d70e227972048",
+        "reviewKey": "0552c0a23d4b98d2c0734c9c2afe5ab3e6c43d4cfda7a4f23c91aeeaee4dce6a",
         "defaultRole": "BASE",
         "rows": [
           {
@@ -15554,11 +16596,16 @@
       }
     },
     "hsbc-bank-australia-limited-wholesale-ba-6acb78:CUA": {
-      "reviewKey": "a7f646885fd28586157e9cfe4a11289af0eabbdd14b751d7b000540f38976907",
+      "reviewKey": "9c7be6efd3414e1c5b64e088074d053427e058b8195144b6e5bdd3e01e23f33c",
       "reviewedAt": "2026-11-21T23:04:36.640Z",
+      "rowSignatures": [
+        "8f6da0c755da3497",
+        "dfd3e6d913cf1b0f",
+        "09a79ed63aee967e"
+      ],
       "review": {
         "key": "hsbc-bank-australia-limited-wholesale-ba-6acb78:CUA",
-        "reviewKey": "a7f646885fd28586157e9cfe4a11289af0eabbdd14b751d7b000540f38976907",
+        "reviewKey": "9c7be6efd3414e1c5b64e088074d053427e058b8195144b6e5bdd3e01e23f33c",
         "defaultRole": "EXCLUDE",
         "rows": [
           {
@@ -15609,11 +16656,17 @@
       }
     },
     "bank-of-queensland-limited-1f8da9:b5176288-5c03-ee11-8f6e-00224814dce7": {
-      "reviewKey": "8ba701003256827c5b8dd8bb5cf5c7ce43e29c2392d0f35dc2dd7eac1e652426",
+      "reviewKey": "63fd8db5134cef9a6dd0a860cd65aea9c56dfaf7fc049c52579d940a80d33b85",
       "reviewedAt": "2026-11-21T23:04:36.640Z",
+      "rowSignatures": [
+        "71b2a4d11b256d83",
+        "9041da945153bc76",
+        "252c833a430b1d42",
+        "352e9073e6fee029"
+      ],
       "review": {
         "key": "bank-of-queensland-limited-1f8da9:b5176288-5c03-ee11-8f6e-00224814dce7",
-        "reviewKey": "8ba701003256827c5b8dd8bb5cf5c7ce43e29c2392d0f35dc2dd7eac1e652426",
+        "reviewKey": "63fd8db5134cef9a6dd0a860cd65aea9c56dfaf7fc049c52579d940a80d33b85",
         "defaultRole": null,
         "rows": [
           {
@@ -15708,11 +16761,14 @@
       }
     },
     "gateway-bank-b98426:11": {
-      "reviewKey": "a4398271f94f2d0b83c0f0378b2f5d173c95c7f83c3501e24bbbe6074f86c540",
+      "reviewKey": "016a935306259e2ba2bf66d376469ecb9d5c1162a5baca13a9b5c78621820639",
       "reviewedAt": "2026-11-21T23:04:36.640Z",
+      "rowSignatures": [
+        "3c4ea7b1a541ceb5"
+      ],
       "review": {
         "key": "gateway-bank-b98426:11",
-        "reviewKey": "a4398271f94f2d0b83c0f0378b2f5d173c95c7f83c3501e24bbbe6074f86c540",
+        "reviewKey": "016a935306259e2ba2bf66d376469ecb9d5c1162a5baca13a9b5c78621820639",
         "defaultRole": null,
         "rows": [
           {
@@ -15752,11 +16808,14 @@
       }
     },
     "gateway-bank-b98426:14": {
-      "reviewKey": "95601cb165fa8c1e1a9f06709750deda3856bc78e06f09edc6d70e2595632756",
+      "reviewKey": "2bfabb9094868f3e73ed5c06b81117d0c8fca52cb8746a7dae01dac33b7d4a01",
       "reviewedAt": "2026-11-21T23:04:36.640Z",
+      "rowSignatures": [
+        "95b46b15933ad0da"
+      ],
       "review": {
         "key": "gateway-bank-b98426:14",
-        "reviewKey": "95601cb165fa8c1e1a9f06709750deda3856bc78e06f09edc6d70e2595632756",
+        "reviewKey": "2bfabb9094868f3e73ed5c06b81117d0c8fca52cb8746a7dae01dac33b7d4a01",
         "defaultRole": null,
         "rows": [
           {
@@ -15796,11 +16855,14 @@
       }
     },
     "gateway-bank-b98426:15": {
-      "reviewKey": "4edaa511fa230d6c3925b66fa339b98f40deffacf447457ce94827c20c7a900a",
+      "reviewKey": "611670fd536e683188e42555583a0cf0aace40fa228510e6c964c405a85f92a7",
       "reviewedAt": "2026-11-21T23:04:36.640Z",
+      "rowSignatures": [
+        "98c10baaddb1f476"
+      ],
       "review": {
         "key": "gateway-bank-b98426:15",
-        "reviewKey": "4edaa511fa230d6c3925b66fa339b98f40deffacf447457ce94827c20c7a900a",
+        "reviewKey": "611670fd536e683188e42555583a0cf0aace40fa228510e6c964c405a85f92a7",
         "defaultRole": null,
         "rows": [
           {
@@ -15840,11 +16902,14 @@
       }
     },
     "gateway-bank-b98426:12": {
-      "reviewKey": "52fc274f47332890fc373c78fa3715db64bcf92c164f8def59959208030dc620",
+      "reviewKey": "06361fd9e43a81c3aafc7f3079f7e565607d543cc510fcef0f832fe61305bbb2",
       "reviewedAt": "2026-11-21T23:04:36.640Z",
+      "rowSignatures": [
+        "1fded652bef53d82"
+      ],
       "review": {
         "key": "gateway-bank-b98426:12",
-        "reviewKey": "52fc274f47332890fc373c78fa3715db64bcf92c164f8def59959208030dc620",
+        "reviewKey": "06361fd9e43a81c3aafc7f3079f7e565607d543cc510fcef0f832fe61305bbb2",
         "defaultRole": null,
         "rows": [
           {
@@ -15884,11 +16949,14 @@
       }
     },
     "gateway-bank-b98426:8": {
-      "reviewKey": "247a53ae61a0b01057d6e66e250e76591ca2d6cf7d479fa1849f4c3519c753f9",
+      "reviewKey": "79f44a8c27179832dfba01b780cb1c2d9cb5a97c5e5fe68f804f0bf5e38ba0b3",
       "reviewedAt": "2026-11-21T23:04:36.640Z",
+      "rowSignatures": [
+        "7dd4f10d62d207c6"
+      ],
       "review": {
         "key": "gateway-bank-b98426:8",
-        "reviewKey": "247a53ae61a0b01057d6e66e250e76591ca2d6cf7d479fa1849f4c3519c753f9",
+        "reviewKey": "79f44a8c27179832dfba01b780cb1c2d9cb5a97c5e5fe68f804f0bf5e38ba0b3",
         "defaultRole": null,
         "rows": [
           {
@@ -15928,11 +16996,14 @@
       }
     },
     "gateway-bank-b98426:9": {
-      "reviewKey": "b05734b8e74b4ac76587330b2e5484ba1a1594ca6f34a595c6c65c5c630812b4",
+      "reviewKey": "fcfe876258c8bf557201e0dca3728d7d511d30ab46403b418169817dca1520f7",
       "reviewedAt": "2026-11-21T23:04:36.640Z",
+      "rowSignatures": [
+        "5fe209a4ecf1f057"
+      ],
       "review": {
         "key": "gateway-bank-b98426:9",
-        "reviewKey": "b05734b8e74b4ac76587330b2e5484ba1a1594ca6f34a595c6c65c5c630812b4",
+        "reviewKey": "fcfe876258c8bf557201e0dca3728d7d511d30ab46403b418169817dca1520f7",
         "defaultRole": null,
         "rows": [
           {
@@ -15972,11 +17043,15 @@
       }
     },
     "horizon-bank-8f3129:S7_S7001": {
-      "reviewKey": "fed6f72451984dde05a4ffdacbe43295c29e1f1549857cd936de1e46170872af",
+      "reviewKey": "acb92ce48f0d8bc671d5d4cf47c1bb7d2be700cc167fceca641c87010eae5d97",
       "reviewedAt": "2026-11-21T23:04:36.640Z",
+      "rowSignatures": [
+        "fc42f99a6e226816",
+        "6322e2fa58e22891"
+      ],
       "review": {
         "key": "horizon-bank-8f3129:S7_S7001",
-        "reviewKey": "fed6f72451984dde05a4ffdacbe43295c29e1f1549857cd936de1e46170872af",
+        "reviewKey": "acb92ce48f0d8bc671d5d4cf47c1bb7d2be700cc167fceca641c87010eae5d97",
         "defaultRole": null,
         "rows": [
           {
@@ -16027,11 +17102,15 @@
       }
     },
     "bank-of-china-475b2b:55020656": {
-      "reviewKey": "4a49d8d19685af21195e222f60285a02d67ec0c38f8efb01ca83d66d185f7a79",
+      "reviewKey": "0c3fda7abf4b31d91de917599f21ebc563c04574f90871facfe97afae24b4238",
       "reviewedAt": "2026-11-21T23:04:36.640Z",
+      "rowSignatures": [
+        "5a631f9162aa10ee",
+        "41f247ee66fce961"
+      ],
       "review": {
         "key": "bank-of-china-475b2b:55020656",
-        "reviewKey": "4a49d8d19685af21195e222f60285a02d67ec0c38f8efb01ca83d66d185f7a79",
+        "reviewKey": "0c3fda7abf4b31d91de917599f21ebc563c04574f90871facfe97afae24b4238",
         "defaultRole": null,
         "rows": [
           {
@@ -16071,11 +17150,15 @@
       }
     },
     "bank-of-china-475b2b:55020657": {
-      "reviewKey": "42ea2caf3d5c3bb882ed08868b4306bddee70d6d3e3434136437ad6585dc94c5",
+      "reviewKey": "b7201b6b8e762a7fe7d0d9a33d864d0a65bff3447500b9f1202af1074d8db8d1",
       "reviewedAt": "2026-11-21T23:04:36.640Z",
+      "rowSignatures": [
+        "5a631f9162aa10ee",
+        "41f247ee66fce961"
+      ],
       "review": {
         "key": "bank-of-china-475b2b:55020657",
-        "reviewKey": "42ea2caf3d5c3bb882ed08868b4306bddee70d6d3e3434136437ad6585dc94c5",
+        "reviewKey": "b7201b6b8e762a7fe7d0d9a33d864d0a65bff3447500b9f1202af1074d8db8d1",
         "defaultRole": null,
         "rows": [
           {
@@ -16115,11 +17198,15 @@
       }
     },
     "bank-of-china-475b2b:55920656": {
-      "reviewKey": "e3636cbd2be73b3d853b645dd9d29e31a4aaa35a8b9ab0a8ddac9cc29285ee47",
+      "reviewKey": "efa1816f86b4110cc138b5542df2b1700adeb57cd60558339713a6fbb4f68037",
       "reviewedAt": "2026-11-21T23:04:36.640Z",
+      "rowSignatures": [
+        "bd0d870faa09851d",
+        "6b74d88e62fb1ed9"
+      ],
       "review": {
         "key": "bank-of-china-475b2b:55920656",
-        "reviewKey": "e3636cbd2be73b3d853b645dd9d29e31a4aaa35a8b9ab0a8ddac9cc29285ee47",
+        "reviewKey": "efa1816f86b4110cc138b5542df2b1700adeb57cd60558339713a6fbb4f68037",
         "defaultRole": null,
         "rows": [
           {
@@ -16159,11 +17246,15 @@
       }
     },
     "bank-of-china-475b2b:55920657": {
-      "reviewKey": "4326aae47d5b7aa3e5f64fd9ec0506e382d84bac7946c9b70fd4c8db521d6af7",
+      "reviewKey": "c969dd3854e3040aa7c1f22396575a71dda9e13eb8538c6db1eeec30d8d76e63",
       "reviewedAt": "2026-11-21T23:04:36.640Z",
+      "rowSignatures": [
+        "bd0d870faa09851d",
+        "6b74d88e62fb1ed9"
+      ],
       "review": {
         "key": "bank-of-china-475b2b:55920657",
-        "reviewKey": "4326aae47d5b7aa3e5f64fd9ec0506e382d84bac7946c9b70fd4c8db521d6af7",
+        "reviewKey": "c969dd3854e3040aa7c1f22396575a71dda9e13eb8538c6db1eeec30d8d76e63",
         "defaultRole": null,
         "rows": [
           {
@@ -16203,11 +17294,14 @@
       }
     },
     "bank-of-china-475b2b:55160605": {
-      "reviewKey": "89aa6db62883da8ceb16507e462ed4e7b194685a936bff78e2c4061821bf3e59",
+      "reviewKey": "413c3040c84a320a82585cd76ad2bc6e816619c406f1ef1ba82f1195d0ac9c28",
       "reviewedAt": "2026-11-21T23:04:36.640Z",
+      "rowSignatures": [
+        "aa7b50b5b32f0395"
+      ],
       "review": {
         "key": "bank-of-china-475b2b:55160605",
-        "reviewKey": "89aa6db62883da8ceb16507e462ed4e7b194685a936bff78e2c4061821bf3e59",
+        "reviewKey": "413c3040c84a320a82585cd76ad2bc6e816619c406f1ef1ba82f1195d0ac9c28",
         "defaultRole": null,
         "rows": [
           {
@@ -16236,11 +17330,14 @@
       }
     },
     "traditional-credit-union-40a4f0:TCU0030": {
-      "reviewKey": "c0c7344d372b6892805927ad6cb3d5627a68b980c823435796e3316079da101f",
+      "reviewKey": "a4a7e6e509729e5cafd5e808942852b1740f4698d11b9b53f1265741adcb8f26",
       "reviewedAt": "2026-11-21T23:04:36.640Z",
+      "rowSignatures": [
+        "d5b11bc62e20faac"
+      ],
       "review": {
         "key": "traditional-credit-union-40a4f0:TCU0030",
-        "reviewKey": "c0c7344d372b6892805927ad6cb3d5627a68b980c823435796e3316079da101f",
+        "reviewKey": "a4a7e6e509729e5cafd5e808942852b1740f4698d11b9b53f1265741adcb8f26",
         "defaultRole": null,
         "rows": [
           {

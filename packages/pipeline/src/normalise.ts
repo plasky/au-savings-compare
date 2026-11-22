@@ -6,9 +6,9 @@
  */
 import type { Condition, ConditionType, Product, RateRow, Tier } from '@asc/engine';
 import { isBaseType, isForeignCurrency, isNonPersonal, rateConditions, freeTextParts, restrictionFromName, termRangesMonths } from './rates.js';
-import { alignReview, normalisedRate, reviewKeyFor, rowSignature, type ReviewsFile, type RowReview } from './review/review.js';
+import { alignReview, reviewKeyFor, rowSignature, type ReviewsFile, type RowReview } from './review/review.js';
 import type { DepositRate, ProductDetail, RawEndpointFile, RawProduct } from './types.js';
-import { durationToMonths, isIsoDuration, parseAmount, truncate } from './util.js';
+import { durationToMonths, isIsoDuration, parseAmount, parseRate, truncate } from './util.js';
 
 const CDR_TO_ENGINE: Record<string, ConditionType> = {
   MIN_DEPOSIT_AMOUNT: 'MIN_DEPOSIT_AMOUNT',
@@ -127,9 +127,16 @@ export function normaliseProduct(
   const d = raw.detail;
   const category = raw.productCategory ?? d?.productCategory ?? '';
   if (!d || !['TRANS_AND_SAVINGS_ACCOUNTS', 'TERM_DEPOSITS'].includes(category)) return null;
-  if (isForeignCurrency(d.name, d.description) || isNonPersonal(d.name, d.eligibility)) return null;
+  if (isForeignCurrency(d.name, d.description) || isNonPersonal(d.name, d.eligibility, d.description)) return null;
   const rates = d.depositRates ?? [];
   if (!rates.length) return null;
+  // Some banks publish percentages ("2.25" for 2.25%). No deposit rate is 25% or more,
+  // so one such value means the whole product is in percent, small values (".25") included.
+  const percent = rates.some((r) => (parseRate(r.rate) ?? 0) >= 0.25);
+  const rateOf = (r: DepositRate) => {
+    const v = parseRate(r.rate);
+    return v === null ? null : percent ? v / 100 : v;
+  };
 
   const key = `${file.slug}:${raw.productId}`;
   const entry = reviews.entries[key];
@@ -142,7 +149,7 @@ export function normaliseProduct(
   const labels = new Map<string, string>();
   const nameForTerms = category === 'TERM_DEPOSITS' ? d.name : undefined;
   rates.forEach((r, i) => {
-    const value = normalisedRate(r.rate);
+    const value = rateOf(r);
     if (value === null) return;
     const rr = aligned?.[i];
     if (rr?.role === 'EXCLUDE') return;

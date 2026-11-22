@@ -228,7 +228,7 @@ export function analyse(raws: RawEndpointFile[], status: CrawlStatus | null, ext
 
       const brand = d.brandName ?? file.brands[0]?.brandName ?? file.slug;
       const foreign = isForeignCurrency(d.name, d.description);
-      const nonPersonal = isNonPersonal(d.name, d.eligibility);
+      const nonPersonal = isNonPersonal(d.name, d.eligibility, d.description);
       if (foreign) flags.add('NON_AUD_PRODUCT', where);
       if (nonPersonal) flags.add('NON_PERSONAL_PRODUCT', where);
       const percentFormatted = rates.some((r) => (parseRate(r.rate) ?? 0) > PERCENT_FORMATTED);

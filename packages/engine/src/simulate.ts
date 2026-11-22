@@ -2,13 +2,14 @@ import {
   compose,
   conditionMet,
   dailyInterest,
-  describeCondition,
   holderAges,
+  markCappedBands,
   resolveAlternatives,
   rowsActiveInMonth,
   shiftApplies,
   type MonthActivity,
 } from './rates.js';
+import { explainCondition } from './explain.js';
 import { fyOf, fyStartYear, incrementalTax, rulesFor, TAX_RULES } from './tax.js';
 import {
   DEFAULT_BEHAVIOUR,
@@ -24,6 +25,16 @@ import {
 } from './types.js';
 
 const round2 = (x: number) => Math.round(x * 100) / 100;
+
+const cappedCache = new WeakMap<RateRow[], RateRow[]>();
+function savingsRows(rows: RateRow[]): RateRow[] {
+  let out = cappedCache.get(rows);
+  if (!out) {
+    out = markCappedBands(rows);
+    cappedCache.set(rows, out);
+  }
+  return out;
+}
 
 function monthStart(start: Date, offset: number): Date {
   return new Date(Date.UTC(start.getUTCFullYear(), start.getUTCMonth() + offset, 1));
@@ -51,7 +62,7 @@ function stepSavings(
   const b = { ...DEFAULT_BEHAVIOUR, ...plan.behaviour };
   const newCustomer = plan.newCustomer ?? true;
   const joint = Object.keys(plan.owners).length > 1;
-  const rows = rowsActiveInMonth(plan.product.rows, m, newCustomer);
+  const rows = rowsActiveInMonth(savingsRows(plan.product.rows), m, newCustomer);
   const accrued = new Map<string, number>(rows.map((r) => [r.id, 0]));
   const shift = rateShift(m);
   const activity: MonthActivity = {
@@ -91,7 +102,7 @@ function stepSavings(
   let bonusMet = true;
   const met = rows.filter((r) => {
     const failed = r.conditions.filter((c) => !conditionMet(c, activity, ctx));
-    if (failed.length && r.role !== 'BASE') unmet.push(...failed.map(describeCondition));
+    if (failed.length && r.role !== 'BASE') unmet.push(...failed.map(explainCondition));
     if (failed.length && r.role === 'BONUS') bonusMet = false;
     return failed.length === 0;
   });
@@ -145,14 +156,19 @@ export function tdRate(plan: TermDepositPlan, principal: number, warnings: strin
       if (c.type === 'EXISTING_CUSTOMER') return !newCustomer || okConditions;
       return okConditions;
     }) && (r.tiers.length === 0 || r.tiers.some((t) => principal >= t.min && (t.max === null || principal <= t.max)));
-  const bases = plan.product.rows.filter((r) => r.role === 'BASE' && termMatches(r, plan.termMonths) && usable(r));
+  const forTerm = plan.product.rows.filter((r) => r.role === 'BASE' && termMatches(r, plan.termMonths));
+  const bases = forTerm.filter(usable);
   let candidates = bases.filter((r) => paymentMatches(r, plan.payment, plan.termMonths));
   if (!candidates.length && bases.length) {
     warnings.push(`${label}: no rate for the chosen payment frequency; using the best rate for the term`);
     candidates = bases;
   }
   if (!candidates.length) {
-    warnings.push(`${label}: no rate published for a ${plan.termMonths}-month term`);
+    warnings.push(
+      forTerm.length
+        ? `${label}: $${Math.round(principal).toLocaleString('en-AU')} is outside the amounts accepted for a ${plan.termMonths}-month term`
+        : `${label}: no rate published for a ${plan.termMonths}-month term`,
+    );
     return 0;
   }
   const base = Math.max(...candidates.map((r) => r.rate));

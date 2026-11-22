@@ -1,0 +1,72 @@
+name: Deploy site
+
+# Builds the web app with the latest products.json from the data branch and
+# publishes it to GitHub Pages. Runs after every successful nightly crawl, on
+# pushes that change the app or engine, and on demand.
+# One-time setup: repo Settings -> Pages -> Source: GitHub Actions.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'apps/web/**'
+      - 'packages/engine/src/**'
+      - 'pnpm-lock.yaml'
+      - '.github/workflows/deploy.yml'
+  workflow_run:
+    workflows: ['Crawl CDR product data']
+    types: [completed]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: pnpm/action-setup@v6
+
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 22
+          cache: pnpm
+
+      - run: pnpm install --frozen-lockfile
+
+      - name: Fetch products.json from the data branch
+        run: |
+          git fetch --depth=1 origin data
+          mkdir -p apps/web/public/data
+          git show FETCH_HEAD:latest/products.json > apps/web/public/data/products.json
+          node -e "const c=require('./apps/web/public/data/products.json'); console.log(c.version, c.crawledAt, c.counts)"
+
+      - name: Build
+        env:
+          BASE_PATH: /${{ github.event.repository.name }}/
+        run: pnpm --filter @asc/web build
+
+      - uses: actions/upload-pages-artifact@v5
+        with:
+          path: apps/web/dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v5

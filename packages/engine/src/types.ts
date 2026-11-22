@@ -62,6 +62,8 @@ export interface RateRow {
   term: { min: number; max: number | null } | null;
   /** How interest is paid (term deposits). */
   payment: { type: 'MATURITY' | 'PERIODIC' | 'UPFRONT'; everyMonths: number | null } | null;
+  /** Above its top band the rate still applies to the amount up to that band (see markCappedBands). */
+  capped?: boolean;
 }
 
 export interface Product {

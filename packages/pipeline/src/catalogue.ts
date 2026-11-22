@@ -8,6 +8,8 @@ import type { ReviewsFile } from './review/review.js';
 import type { ProductDetail, RawEndpointFile } from './types.js';
 import { truncate } from './util.js';
 
+export const MAX_PLAUSIBLE_RATE = 0.15;
+
 const httpUrl = (v: unknown): string | null =>
   typeof v === 'string' && /^https?:\/\/\S+$/i.test(v.trim()) ? v.trim() : null;
 
@@ -53,6 +55,7 @@ export function buildCatalogue({ raws, reviews, brandRestrictions = {}, displayN
   const products: CatalogueProduct[] = [];
   const groups = new Map<string, InstitutionGroup>();
   let zeroRate = 0;
+  let implausible = 0;
   for (const file of raws) {
     const group = groupId(file);
     for (const raw of file.products) {
@@ -60,6 +63,11 @@ export function buildCatalogue({ raws, reviews, brandRestrictions = {}, displayN
       if (!p) continue;
       if (p.rows.every((r) => r.rate <= 0)) {
         zeroRate++;
+        continue;
+      }
+      // A row above 15% is a data error (or an unreviewed prize rate); leave the product out until reviewed.
+      if (p.rows.some((r) => r.rate > MAX_PLAUSIBLE_RATE)) {
+        implausible++;
         continue;
       }
       const d = raw.detail!;
@@ -91,6 +99,7 @@ export function buildCatalogue({ raws, reviews, brandRestrictions = {}, displayN
       restricted: products.filter((p) => p.eligibility.restrictedTo).length,
       groups: groupList.length,
       zeroRate,
+      implausible,
     },
     groups: groupList,
     products,
@@ -103,7 +112,7 @@ export function renderCatalogueSummary(c: Catalogue): string {
     '## App catalogue (products.json)',
     '',
     `- ${c.counts.savings} savings and ${c.counts.termDeposits} term-deposit products (${c.counts.reviewed} with a curated review, ${c.counts.restricted} restricted to particular customers)`,
-    `- ${c.counts.zeroRate} products left out because every published rate is 0%`,
+    `- ${c.counts.zeroRate} products left out because every published rate is 0%, and ${c.counts.implausible} because a rate above 15% looks like a data error`,
     `- ${c.counts.groups} institutions for the $250k Financial Claims Scheme check; ${multi.length} cover more than one brand`,
   ];
   if (multi.length) {

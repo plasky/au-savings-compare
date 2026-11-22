@@ -22,7 +22,7 @@ describe('catalogue', () => {
 
     expect(cat.version).toBe('catalogue-v1');
     expect(cat.crawledAt).toBe('2026-11-21T23:08:11Z');
-    expect(cat.counts).toMatchObject({ savings: 3, termDeposits: 0, zeroRate: 1, groups: 2 });
+    expect(cat.counts).toMatchObject({ savings: 3, termDeposits: 0, zeroRate: 1, implausible: 0, groups: 2 });
     expect(cat.groups).toEqual([
       { id: 'abn:11000000000', abn: '11000000000', brands: ['Alpha Bank', 'Beta'] },
       { id: 'abn:22000000000', abn: '22000000000', brands: ['Gamma'] },
@@ -32,6 +32,27 @@ describe('catalogue', () => {
     expect(alpha.url).toBe('https://alpha.example/saver');
     expect(alpha.lastUpdated).toBe('2026-11-10T00:00:00Z');
     expect(renderCatalogueSummary(cat)).toContain('| 11000000000 | Alpha Bank, Beta |');
+  });
+
+  it('reads a product in percent consistently and drops implausible rates', () => {
+    const percentTiers: ProductDetail = {
+      ...boostSaver,
+      productId: 's28',
+      name: 'Tiered Saver',
+      depositRates: [
+        { depositRateType: 'VARIABLE', rate: '2.25', tiers: [{ name: 'hi', unitOfMeasure: 'DOLLAR', minimumValue: 50000, rateApplicationMethod: 'WHOLE_BALANCE' }] },
+        { depositRateType: 'VARIABLE', rate: '.25', tiers: [{ name: 'lo', unitOfMeasure: 'DOLLAR', minimumValue: 0, maximumValue: 49999.99, rateApplicationMethod: 'WHOLE_BALANCE' }] },
+      ],
+    };
+    const prize: ProductDetail = { ...boostSaver, productId: 'prize', depositRates: [{ depositRateType: 'FIXED', rate: '0.20' }] };
+    const cat = buildCatalogue({ raws: [rawFile('t', [percentTiers, prize])], reviews: emptyReviews() });
+    expect(cat.products.map((p) => p.rows.map((r) => r.rate).sort())).toEqual([[0.0025, 0.0225]]);
+    expect(cat.counts.implausible).toBe(1);
+  });
+
+  it('leaves out accounts for organisations and super funds', () => {
+    const charity: ProductDetail = { ...boostSaver, productId: 'c', name: 'Benevolent Account', description: "Account for charitable and 'not for profit' organisations" };
+    expect(buildCatalogue({ raws: [rawFile('t', [charity])], reviews: emptyReviews() }).products).toEqual([]);
   });
 
   it('falls back to the endpoint when no ABN is published', () => {

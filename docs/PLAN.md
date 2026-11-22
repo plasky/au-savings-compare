@@ -75,12 +75,12 @@ Last updated 22 Nov 2026.
 ## Phases
 
 0. ✅ **Data trial run**: crawler, Claude review, quality report, nightly workflow.
-1. Engine core: savings, TDs, household tax, tests.
-2. Pipeline v1: normalised snapshot, overrides, ADI grouping, history.
-3. Web v1: explorer, allocation sliders, projections, toggles.
-4. Questionnaire, eligibility, bonus checklist, cash flows and goals, "My accounts".
-5. Optimiser and the mode switch.
-6. Cash ETFs.
+1. ✅ Engine core: savings, TDs, household tax, tests.
+2. ✅ Pipeline v1: normalised snapshot, overrides, ADI grouping, history.
+3. ✅ Web v1: explorer, allocation sliders, projections, toggles (plus an early optimiser and indicative cash ETF, pulled forward from phases 5 and 6).
+4. Questionnaire, bonus checklist, cash flows and goals, "My accounts".
+5. Optimiser v2: shadow prices, hassle cost, switching plan.
+6. Cash ETFs from live yields.
 7. Rate scenarios and Monte Carlo, rate history, alerts.
 8. Public mode (only if ever needed).
 
@@ -157,9 +157,23 @@ Last updated 22 Nov 2026.
 
 Results match published rates, e.g. Virgin Boost 6.30%, ING Maximiser 6.00%, RACQ 6.00%, BOQ Smart Saver 5.85%, and 12-month TDs from Unity 5.80%, Suncorp 5.75% and AMP GO 5.70%.
 
-**Next:**
-- Phase 2: publish a nightly `products.json` (normalised) and ADI grouping for the FCS.
-- Phase 3: the web app (explorer, allocation sliders, projections).
+## Phases 2 and 3 status (22 Nov 2026): catalogue and web app
+
+**`products.json`** (the `catalogue` command, run nightly after the crawl and published to the data branch):
+- Normalised engine products plus the bank's page link, last-updated date and a short description.
+- Brands grouped by ABN for the Financial Claims Scheme (e.g. CommBank + Bankwest; Westpac + St.George + BankSA + Bank of Melbourne; BOQ + ME + Virgin Money; NAB + UBank; ANZ + ANZ Plus).
+- Brand names tidied (`curation/brands.json` `displayNames`), products with only 0% rates dropped, and any product with a rate above 15% left out as a data error.
+- Rates are read per product: if any value is published as a percentage, the whole product is (fixes Traditional CU's ".25" meaning 0.25%). Accounts for charities, not-for-profits and SMSFs are excluded by description.
+
+**Engine additions:** eligibility with reasons, `rankSavings`/`rankTermDeposits`, plain-English condition text, the FCS exposure check (per holder per ABN, joint split equally), and an optimiser (greedy allocation in steps with jumps to tier edges, then swap and move passes; respects account count, the lock-away amount and term, and the FCS cap; splits the monthly deposit so each bonus gets what it needs). The top band of a bonus ladder is capped rather than cut off ("bonus on balances up to $250k" pays on the first $250k of a larger balance).
+
+**`apps/web`** (React 19 + Vite 8, zustand persisted to localStorage, hand-drawn SVG charts; no other runtime dependencies):
+- The household written as a sentence with editable fields (balance, monthly deposit, card purchases, withdrawals, amount and term that can be locked away), a log-scale balance slider, and a one-line verdict.
+- **Compare:** savings ranked by simulated first-year interest; term deposits by rate for a chosen term; search, hand-checked filter, ineligible accounts with reasons; each row expands to its rate table in plain English, notes, and a link to the bank.
+- **Your plan:** manual (amount sliders, per-account deposits, locks, withdrawal account) or automatic (optimiser in a web worker, "Keep this plan"); allocation bar; FCS check per institution.
+- **Projection:** 1–10 years, stacked balances by account, interest and tax by financial year, future vs today's dollars, a variable-rate shift from a chosen month, tables view.
+- Household dialog: joint or single, ages and taxable incomes (with the marginal rate shown), new-customer and condition assumptions, restricted products, cash ETF yield (default 4.65% = RBA cash rate 4.85% less ~0.20% fees), inflation (default 3%).
+- Deployed to GitHub Pages by `deploy.yml` after each successful crawl and on app changes.
 
 ## Known constraints
 

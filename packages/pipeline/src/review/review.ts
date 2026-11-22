@@ -227,7 +227,7 @@ export function buildCandidates(raws: RawEndpointFile[]): Candidate[] {
       const category = p.productCategory ?? d?.productCategory ?? '';
       if (!d || !CATEGORIES.has(category)) continue;
       if (!(d.depositRates ?? []).length) continue;
-      if (isForeignCurrency(d.name, d.description) || isNonPersonal(d.name, d.eligibility)) continue;
+      if (isForeignCurrency(d.name, d.description) || isNonPersonal(d.name, d.eligibility, d.description)) continue;
       const reasons = reviewReasons(d, category);
       if (!reasons.length) continue;
       out.push({

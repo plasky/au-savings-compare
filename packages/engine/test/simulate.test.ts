@@ -68,7 +68,7 @@ describe('savings simulation (hand-calculated)', () => {
     });
     expect(missed.months[0]!.accounts.acc!.interest).toBe(simple(11_000, 0.001, 31));
     expect(missed.months[0]!.accounts.acc!.bonusMet).toBe(false);
-    expect(missed.months[0]!.accounts.acc!.unmet[0]).toContain('MIN_PURCHASES');
+    expect(missed.months[0]!.accounts.acc!.unmet[0]).toContain('card purchases');
   });
 
   it('internal deposits do not satisfy an external-only deposit condition', () => {

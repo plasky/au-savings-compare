@@ -16,11 +16,36 @@ export function applicableBalance(row: RateRow, balance: number): number {
       const top = Math.min(balance, t.max ?? Number.POSITIVE_INFINITY);
       return sum + Math.max(0, top - t.min);
     }, 0);
+  } else if (row.tiers.some((t) => balance >= t.min - EPS && (t.max === null || balance <= t.max + EPS))) {
+    amount = balance;
+  } else if (row.capped) {
+    // Above the top band of a bonus: paid on the amount up to the band's limit.
+    const top = Math.max(...row.tiers.map((t) => t.max ?? Number.POSITIVE_INFINITY));
+    amount = balance > top ? top : 0;
   } else {
-    amount = row.tiers.some((t) => balance >= t.min - EPS && (t.max === null || balance <= t.max + EPS)) ? balance : 0;
+    amount = 0;
   }
   const cap = row.conditions.find((c) => c.type === 'BALANCE_CAP' && c.amount !== null);
   return cap ? Math.min(amount, cap.amount!) : amount;
+}
+
+/**
+ * Mark the top balance band of each bonus or intro "ladder" as capped. Banks
+ * publish "bonus on balances up to $250,000" as a WHOLE_BALANCE band of
+ * $0–$250,000, but pay it on the first $250,000 of a larger balance rather
+ * than dropping it. A band is the top of its ladder when no other row of the
+ * same role covers balances above it (ME's $0–100k and $100k–1M bands: only
+ * the $1M band is capped).
+ */
+export function markCappedBands(rows: RateRow[]): RateRow[] {
+  const top = (r: RateRow) => Math.max(...r.tiers.map((t) => t.max ?? Number.POSITIVE_INFINITY));
+  return rows.map((r) => {
+    if (r.role === 'BASE' || r.method !== 'WHOLE_BALANCE' || !r.tiers.length || r.capped !== undefined) return r;
+    const limit = top(r);
+    if (!Number.isFinite(limit)) return r;
+    const coveredAbove = rows.some((o) => o !== r && o.role === r.role && o.tiers.length > 0 && top(o) > limit + 1);
+    return coveredAbove ? r : { ...r, capped: true };
+  });
 }
 
 /** One day's interest from a row at an annual rate (simple daily accrual on a 365-day year). */

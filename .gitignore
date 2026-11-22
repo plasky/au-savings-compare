@@ -8,3 +8,5 @@ cache/
 .env.*
 coverage/
 dist/
+apps/web/public/data/
+apps/web/dist/

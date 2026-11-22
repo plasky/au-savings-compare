@@ -37,6 +37,8 @@ export interface Catalogue {
     groups: number;
     /** Products dropped because every published rate is zero (e.g. everyday accounts). */
     zeroRate: number;
+    /** Products dropped because a rate is implausibly high (data error or unreviewed prize rate). */
+    implausible: number;
   };
   groups: InstitutionGroup[];
   products: CatalogueProduct[];

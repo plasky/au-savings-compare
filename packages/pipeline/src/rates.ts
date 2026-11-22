@@ -187,12 +187,17 @@ export function isForeignCurrency(name: string | undefined, description?: string
 /** Product looks aimed at businesses, SMSFs, trusts or organisations rather than individuals. */
 const SUPER_RE = /\b(superannuation|super fund|guaranteed super|pension account)\b/i;
 
+/** Description wording that marks an account as for organisations or super funds rather than people. */
+const ORGANISATION_RE =
+  /\b(not[- ]for[- ]profit|charit(?:y|ies|able)|community organisations?|(?:for|to) (?:businesses|organisations|clubs|associations|body corporates?)|incorporated associations?|self[- ]managed super)\b/i;
+
 export function isNonPersonal(
   name: string | undefined,
   eligibility?: Array<{ eligibilityType?: string }>,
+  description?: string,
 ): boolean {
   if ((eligibility ?? []).some((e) => e.eligibilityType === 'BUSINESS')) return true;
-  return BUSINESS_RE.test(name ?? '') || SUPER_RE.test(name ?? '');
+  return BUSINESS_RE.test(name ?? '') || SUPER_RE.test(name ?? '') || ORGANISATION_RE.test(description ?? '');
 }
 
 const RESTRICTED_NAME_RE = /\b(kids?|junior|youth|teens?|child(?:ren)?(?:'s)?|students?|pensioners?|seniors?|retire(?:e|es|ment)|over\s?55|55\s?\+|staff|broker|long service leave)\b/i;

@@ -31,6 +31,12 @@ export interface OptimiseInput {
   step?: number;
   /** Candidates kept per shortlist (default 10). */
   shortlist?: number;
+  /**
+   * Savings accounts already held, by product key, with months since each was
+   * opened: they're always candidates, keep any intro rate only for what's left
+   * of it, and cost nothing to keep (see optimiseWithCost).
+   */
+  existing?: Record<string, number>;
 }
 
 export interface Allocation {
@@ -106,7 +112,12 @@ export function optimise(input: OptimiseInput): OptimiseResult {
       }
     }
   }
+  for (const key of Object.keys(input.existing ?? {})) {
+    const p = input.products.find((x) => x.key === key);
+    if (p && p.kind === 'savings' && !pick.has(key)) pick.set(key, { id: key, product: p, termMonths: null, needs: depositNeed(p) });
+  }
   const candidates = [...pick.values()];
+  const held = input.existing ?? {};
 
   let evaluations = 0;
   const memo = new Map<string, number>();
@@ -123,7 +134,16 @@ export function optimise(input: OptimiseInput): OptimiseResult {
       rateShift: s.rateShift,
       accounts: [
         c.termMonths === null
-          ? { kind: 'savings', id: 'a', product: c.product, owners: s.owners, openingBalance: amount, newCustomer: s.newCustomer, behaviour: { ...savingsScenario.behaviour, monthlyDeposit: deposit } }
+          ? {
+              kind: 'savings',
+              id: 'a',
+              product: c.product,
+              owners: s.owners,
+              openingBalance: amount,
+              newCustomer: c.id in held ? true : s.newCustomer,
+              introElapsedMonths: held[c.id] ?? 0,
+              behaviour: { ...savingsScenario.behaviour, monthlyDeposit: deposit },
+            }
           : { kind: 'term_deposit', id: 'a', product: c.product, owners: s.owners, principal: amount, termMonths: c.termMonths, payment: 'MATURITY', rollover: true, newCustomer: s.newCustomer },
       ],
     });
@@ -265,14 +285,79 @@ export function optimise(input: OptimiseInput): OptimiseResult {
  */
 export function optimiseWithCost(input: OptimiseInput, accountCost: number): OptimiseResult {
   if (accountCost <= 0 || input.maxAccounts <= 1) return optimise(input);
+  const held = new Set(Object.keys(input.existing ?? {}));
+  // Accounts already held cost nothing to keep; with none held, the first account is free.
+  const cost = (r: OptimiseResult) => {
+    const opened = r.allocations.filter((a) => !held.has(a.product.key) || a.termMonths !== null).length;
+    return accountCost * Math.max(0, opened - (held.size === 0 ? 1 : 0));
+  };
   let best: { r: OptimiseResult; score: number } | null = null;
   let evaluations = 0;
   for (let k = 1; k <= input.maxAccounts; k++) {
     const r = optimise({ ...input, maxAccounts: k });
     evaluations += r.evaluations;
-    const score = r.interest - accountCost * Math.max(0, r.allocations.length - 1);
+    const score = r.interest - cost(r);
     if (!best || score > best.score + 0.5) best = { r, score };
     if (r.allocations.length < k) break; // more accounts didn't help, so larger k won't either
   }
   return { ...best!.r, evaluations };
+}
+
+export interface ConstraintValue {
+  id: 'more-accounts' | 'any-gain' | 'fcs' | 'lock-more' | 'lock-longer' | 'purchases' | 'linked';
+  label: string;
+  /** Extra first-year interest (before tax) if this limit were relaxed. */
+  gain: number;
+}
+
+const money = (v: number) => `$${Math.round(v).toLocaleString('en-AU')}`;
+const termWords = (m: number) => (m % 12 === 0 ? (m === 12 ? 'a year' : `${m / 12} years`) : `${m} months`);
+
+/**
+ * What each limit on the plan is costing: re-run the optimiser with one limit
+ * relaxed at a time and report the extra first-year interest. Limits that
+ * cost less than `minGain` are left out.
+ */
+export function constraintValues(input: OptimiseInput, accountCost: number, base?: OptimiseResult, minGain = 50): ConstraintValue[] {
+  const b = base ?? optimiseWithCost(input, accountCost);
+  const s = input.scenario;
+  const variants: Array<{ id: ConstraintValue['id']; label: string; input: OptimiseInput; cost?: number }> = [];
+  if (input.maxAccounts < 6 && b.allocations.length >= input.maxAccounts) {
+    variants.push({ id: 'more-accounts', label: `Allowing ${input.maxAccounts + 1} accounts`, input: { ...input, maxAccounts: input.maxAccounts + 1 } });
+  }
+  if (accountCost > 0 && input.maxAccounts > 1) variants.push({ id: 'any-gain', label: 'Opening another account for any gain', input, cost: 0 });
+  if (input.fcsLimit !== null) variants.push({ id: 'fcs', label: 'Going over the $250k guarantee at a bank', input: { ...input, fcsLimit: null } });
+  if (input.lockable < input.balance) {
+    const step = Math.max(25_000, Math.round((input.balance * 0.25) / 5000) * 5000);
+    const lockable = Math.min(input.balance, input.lockable + step);
+    const lockMonths = Math.max(input.lockMonths, 12);
+    variants.push({
+      id: 'lock-more',
+      label: `Locking away ${money(lockable)}${lockMonths !== input.lockMonths || input.lockable === 0 ? ` for ${termWords(lockMonths)}` : ''}`,
+      input: { ...input, lockable, lockMonths },
+    });
+  }
+  const longer = TERMS.find((t) => t > input.lockMonths);
+  if (input.lockable > 0 && longer) variants.push({ id: 'lock-longer', label: `Locking it away for ${termWords(longer)}`, input: { ...input, lockMonths: longer } });
+  if ((s.behaviour.cardPurchasesPerMonth ?? 0) < 5) {
+    variants.push({
+      id: 'purchases',
+      label: 'Making 5 card purchases a month at each bank',
+      input: { ...input, scenario: { ...s, behaviour: { ...s.behaviour, cardPurchasesPerMonth: 5 } } },
+    });
+  }
+  if (s.behaviour.linkedAccounts === false) {
+    variants.push({
+      id: 'linked',
+      label: 'Opening an everyday account where a bonus needs one',
+      input: { ...input, scenario: { ...s, behaviour: { ...s.behaviour, linkedAccounts: true } } },
+    });
+  }
+  const out: ConstraintValue[] = [];
+  for (const v of variants) {
+    const r = optimiseWithCost(v.input, v.cost ?? accountCost);
+    const gain = r.interest - b.interest;
+    if (gain >= minGain) out.push({ id: v.id, label: v.label, gain });
+  }
+  return out.sort((x, y) => y.gain - x.gain);
 }

@@ -1,20 +1,35 @@
 import { rankSavings } from '@asc/engine';
-import { useDeferredValue, useMemo, useState } from 'react';
+import { useCallback, useDeferredValue, useMemo, useState } from 'react';
 import { Band, type Verdict } from './components/Band';
 import { Compare } from './components/Compare';
 import { Segmented } from './components/fields';
 import { Household } from './components/Household';
+import { MyAccounts } from './components/MyAccounts';
 import { Plan } from './components/Plan';
-import { Projection } from './components/Projection';
+import { Projection, type ProjectedAccount, type Runner } from './components/Projection';
+import { Setup } from './components/Setup';
 import { useCatalogue } from './data';
 import { dateLabel } from './format';
-import { runPlan, scenarioOf, startDate, withExtras } from './model';
+import {
+  customProduct,
+  heldForSwitching,
+  heldSavingsMain,
+  isCustomKey,
+  runHeld,
+  runPlan,
+  scenarioOf,
+  startDate,
+  withdrawalAccount,
+  withExtras,
+  withHeldProducts,
+} from './model';
 import { useApp, type PlanAccount, type Tab } from './store';
-import { useAutoPlan } from './useAutoPlan';
+import { useAutoPlan, useHeldAdvice } from './useAutoPlan';
 
 const TABS: Array<{ id: Tab; label: string }> = [
   { id: 'compare', label: 'Compare accounts' },
   { id: 'plan', label: 'Your plan' },
+  { id: 'held', label: 'My accounts' },
   { id: 'projection', label: 'Projection' },
 ];
 
@@ -22,6 +37,7 @@ export function App() {
   const s = useApp();
   const cat = useCatalogue();
   const [household, setHousehold] = useState(false);
+  const [setup, setSetup] = useState(() => !useApp.getState().setupDone);
   const catalogue = cat.status === 'ready' ? cat.catalogue : null;
 
   const products = useMemo(() => (catalogue ? withExtras(catalogue.products, s) : []), [catalogue, s.cashEtf.enabled, s.cashEtf.yield]); // eslint-disable-line react-hooks/exhaustive-deps
@@ -39,7 +55,7 @@ export function App() {
   );
   const best = savings.find((r) => r.eligibility.ok) ?? null;
 
-  const auto = useAutoPlan(s.planMode === 'auto', products, {
+  const planSettings = {
     scenario: deferredScenario,
     balance: s.balance,
     lockable: s.lockable,
@@ -47,7 +63,16 @@ export function App() {
     maxAccounts: s.maxAccounts,
     fcsCap: s.fcsCap,
     accountCost: s.accountCost,
-  });
+  };
+  const auto = useAutoPlan(s.planMode === 'auto', products, planSettings);
+
+  // Accounts already held (including hand-entered ones).
+  const heldKey = JSON.stringify(s.held);
+  const extraProducts = useMemo(() => s.held.filter((h) => isCustomKey(h.key)).map(customProduct), [heldKey]); // eslint-disable-line react-hooks/exhaustive-deps
+  const allByKey = useMemo(() => withHeldProducts(byKey, s.held), [byKey, heldKey]); // eslint-disable-line react-hooks/exhaustive-deps
+  const holdings = useMemo(() => heldForSwitching(s.held, allByKey, start), [allByKey, heldKey, start]); // eslint-disable-line react-hooks/exhaustive-deps
+  const advice = useHeldAdvice(products, extraProducts, holdings, planSettings);
+  const heldResult = allByKey.size ? runHeld(s, s.held, allByKey, 12, start) : null;
   const autoResult = auto.status === 'done' ? auto.result : auto.status === 'working' ? auto.last : null;
   const autoAccounts: PlanAccount[] = useMemo(
     () =>
@@ -69,7 +94,28 @@ export function App() {
     ? [{ id: 'best', key: best.product.key, amount: s.balance, deposit: s.monthlyDeposit, termMonths: null, locked: false, slot: 0 }]
     : [];
   const projectionAccounts = accounts.length ? accounts : fallbackAccounts;
-  const projection = byKey.size ? runPlan(s, projectionAccounts, byKey, s.horizonYears * 12, start) : null;
+  const heldBasis = s.projectionBasis === 'held' && s.held.length > 0;
+  const projected: ProjectedAccount[] = heldBasis ? s.held : projectionAccounts;
+  const run: Runner = useCallback(
+    (months: number, extra: number) => {
+      if (heldBasis) {
+        const main = heldSavingsMain(s.held, allByKey);
+        return runHeld(s, s.held.map((h) => (h.id === main ? { ...h, deposit: h.deposit + extra } : h)), allByKey, months, start);
+      }
+      const main = withdrawalAccount(projectionAccounts, byKey, s.withdrawFrom);
+      return runPlan(s, projectionAccounts.map((a) => (a.id === main ? { ...a, deposit: a.deposit + extra } : a)), byKey, months, start);
+    },
+    [s, heldBasis, allByKey, byKey, projectionAccounts, start],
+  );
+  const projection = byKey.size ? run(s.horizonYears * 12, 0) : null;
+  const mainId = heldBasis ? heldSavingsMain(s.held, allByKey) : withdrawalAccount(projectionAccounts, byKey, s.withdrawFrom);
+  const mainKey = (heldBasis ? s.held.find((h) => h.id === mainId)?.key : projectionAccounts.find((a) => a.id === mainId)?.key) ?? null;
+  const mainProduct = mainKey ? allByKey.get(mainKey) : undefined;
+  const mainName = mainProduct ? `${mainProduct.brand} ${mainProduct.name}`.trim() : null;
+  const opening = heldBasis ? s.held.reduce((t, h) => t + h.amount, 0) : projectionAccounts.reduce((t, a) => t + a.amount, 0);
+  const monthlyIn = heldBasis
+    ? s.held.reduce((t, h) => t + (h.termMonths === null ? h.deposit : 0), 0)
+    : projectionAccounts.reduce((t, a) => t + (a.termMonths === null ? a.deposit : 0), 0);
 
   const verdict: Verdict = {
     best: best
@@ -101,6 +147,7 @@ export function App() {
               >
                 {t.label}
                 {t.id === 'plan' && accounts.length > 0 ? ` (${accounts.length})` : ''}
+                {t.id === 'held' && s.held.length > 0 ? ` (${s.held.length})` : ''}
               </button>
             ))}
           </div>
@@ -127,8 +174,19 @@ export function App() {
           )}
           {catalogue && s.tab === 'compare' && <Compare savings={savings} products={products} scenario={deferredScenario} balance={s.balance} />}
           {catalogue && s.tab === 'plan' && <Plan accounts={accounts} byKey={byKey} result={plan} auto={auto} catalogue={catalogue} />}
+          {catalogue && s.tab === 'held' && <MyAccounts products={products} byKey={allByKey} result={heldResult} advice={advice} plan={accounts} />}
           {catalogue && s.tab === 'projection' && (
-            <Projection accounts={projectionAccounts} byKey={byKey} result={projection} fallback={accounts.length ? null : best ? `${best.product.brand}’s ${best.product.name}` : null} />
+            <Projection
+              accounts={projected}
+              byKey={allByKey}
+              result={projection}
+              fallback={accounts.length ? null : best ? `${best.product.brand}’s ${best.product.name}` : null}
+              hasHeld={s.held.length > 0}
+              run={run}
+              mainName={mainName}
+              opening={opening}
+              monthlyIn={monthlyIn}
+            />
           )}
         </div>
       </main>
@@ -144,7 +202,15 @@ export function App() {
           </p>
         </div>
       </footer>
-      <Household open={household} onClose={() => setHousehold(false)} />
+      <Household
+        open={household}
+        onClose={() => setHousehold(false)}
+        onSetup={() => {
+          setHousehold(false);
+          setSetup(true);
+        }}
+      />
+      <Setup open={setup} onClose={() => setSetup(false)} />
     </>
   );
 }

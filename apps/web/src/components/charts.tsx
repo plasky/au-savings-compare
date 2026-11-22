@@ -27,11 +27,15 @@ function useWidth<T extends HTMLElement>(): [RefObject<T | null>, number] {
   return [ref, w];
 }
 
-function niceMax(v: number): number {
-  if (v <= 0) return 1;
-  const p = 10 ** Math.floor(Math.log10(v));
-  for (const m of [1, 1.25, 1.5, 2, 2.5, 3, 4, 5, 6, 8, 10]) if (m * p >= v) return m * p;
-  return 10 * p;
+/** Axis top and ticks: about four steps of 1, 2, 2.5 or 5 times a power of ten. */
+function niceTicks(v: number): number[] {
+  const raw = Math.max(v, 1) / 4;
+  const p = 10 ** Math.floor(Math.log10(raw));
+  const step = ([1, 2, 2.5, 5, 10].find((m) => m * p >= raw) ?? 10) * p;
+  const top = step * Math.max(1, Math.ceil(Math.max(v, 1) / step - 1e-9));
+  const ticks: number[] = [];
+  for (let t = 0; t <= top + step / 2; t += step) ticks.push(t);
+  return ticks;
 }
 
 function Legend({ series, kind }: { series: Series[]; kind: 'rect' | 'line' }) {
@@ -82,17 +86,30 @@ function Rows({ series, i, total }: { series: Series[]; i: number; total?: strin
 const M = { top: 12, right: 12, bottom: 28, left: 56 };
 
 /** Stacked balances over time, one layer per account. */
-export function StackedArea({ series, dates, height = 260, label }: { series: Series[]; dates: string[]; height?: number; label: string }) {
+export function StackedArea({
+  series,
+  dates,
+  height = 260,
+  label,
+  goal,
+}: {
+  series: Series[];
+  dates: string[];
+  height?: number;
+  label: string;
+  /** A target balance, marked across the chart, with a dot at its month if that month is shown. */
+  goal?: { value: number; index: number | null; label: string };
+}) {
   const [ref, width] = useWidth<HTMLDivElement>();
   const [hover, setHover] = useState<number | null>(null);
   const n = dates.length;
   const totals = dates.map((_, i) => series.reduce((s, x) => s + (x.values[i] ?? 0), 0));
-  const yMax = niceMax(Math.max(...totals, 1));
+  const ticks = niceTicks(Math.max(...totals, goal?.value ?? 0, 1));
+  const yMax = ticks.at(-1)!;
   const iw = Math.max(10, width - M.left - M.right);
   const ih = height - M.top - M.bottom;
   const x = (i: number) => M.left + (n <= 1 ? 0 : (i / (n - 1)) * iw);
   const y = (v: number) => M.top + ih - (v / yMax) * ih;
-  const ticks = [0, 0.25, 0.5, 0.75, 1].map((f) => f * yMax);
 
   const cum = series.map((_, k) => dates.map((__, i) => series.slice(0, k + 1).reduce((s, x) => s + (x.values[i] ?? 0), 0)));
   const areas = series.map((s, k) => {
@@ -134,6 +151,17 @@ export function StackedArea({ series, dates, height = 260, label }: { series: Se
         {areas.map(({ s, line }) => (
           <path key={`${s.id}-edge`} d={line} fill="none" stroke="var(--paper)" strokeWidth={2} strokeLinejoin="round" />
         ))}
+        {goal && (
+          <g aria-hidden="true">
+            <line x1={M.left} x2={M.left + iw} y1={y(goal.value)} y2={y(goal.value)} stroke="var(--ink-2)" strokeWidth={1} />
+            <text x={M.left + iw} y={y(goal.value) - 6} textAnchor="end" style={{ fill: 'var(--ink-2)' }}>
+              {goal.label}
+            </text>
+            {goal.index !== null && goal.index >= 0 && goal.index < n && (
+              <circle cx={x(goal.index)} cy={y(goal.value)} r={5} fill="var(--ink)" stroke="var(--paper)" strokeWidth={2} />
+            )}
+          </g>
+        )}
         {hover !== null && (
           <>
             <line x1={x(hover)} x2={x(hover)} y1={M.top} y2={M.top + ih} stroke="var(--ink-3)" strokeWidth={1} />
@@ -180,13 +208,13 @@ export function Columns({ series, categories, height = 240, label }: { series: S
   const [hover, setHover] = useState<number | null>(null);
   const n = categories.length;
   const totals = categories.map((_, i) => series.reduce((s, x) => s + (x.values[i] ?? 0), 0));
-  const yMax = niceMax(Math.max(...totals, 1) * 1.08);
+  const ticks = niceTicks(Math.max(...totals, 1) * 1.08);
+  const yMax = ticks.at(-1)!;
   const iw = Math.max(10, width - M.left - M.right);
   const ih = height - M.top - M.bottom;
   const band = iw / Math.max(1, n);
   const bw = Math.min(24, band * 0.6);
   const y = (v: number) => M.top + ih - (v / yMax) * ih;
-  const ticks = [0, 0.25, 0.5, 0.75, 1].map((f) => f * yMax);
   const labelAll = n <= 12;
 
   return (

@@ -78,8 +78,8 @@ Last updated 22 Nov 2026.
 1. ✅ Engine core: savings, TDs, household tax, tests.
 2. ✅ Pipeline v1: normalised snapshot, overrides, ADI grouping, history.
 3. ✅ Web v1: explorer, allocation sliders, projections, toggles (plus an early optimiser and indicative cash ETF, pulled forward from phases 5 and 6).
-4. Questionnaire, bonus checklist, cash flows and goals, "My accounts".
-5. Optimiser v2: shadow prices, hassle cost, switching plan.
+4. ✅ Questionnaire, bonus checklist, cash flows and goals, "My accounts".
+5. ✅ Optimiser v2: what each limit costs, hassle cost, switching timeline.
 6. Cash ETFs from live yields.
 7. Rate scenarios and Monte Carlo, rate history, alerts.
 8. Public mode (only if ever needed).
@@ -174,6 +174,23 @@ Results match published rates, e.g. Virgin Boost 6.30%, ING Maximiser 6.00%, RAC
 - **Projection:** 1–10 years, stacked balances by account, interest and tax by financial year, future vs today's dollars, a variable-rate shift from a chosen month, tables view.
 - Household dialog: joint or single, ages and taxable incomes (with the marginal rate shown), new-customer and condition assumptions, restricted products, cash ETF yield (default 4.65% = RBA cash rate 4.85% less ~0.20% fees), inflation (default 3%).
 - Deployed to GitHub Pages by `deploy.yml` after each successful crawl and on app changes.
+
+## Phases 4 and 5 status (22 Nov 2026)
+
+**Engine:**
+- Held accounts: savings carry months since opening (an intro rate ends on time); term deposits carry their locked-in rate and months into the term, including interest built up before today.
+- One-off deposits and withdrawals by month (a withdrawal breaks a no-withdrawal bonus that month).
+- `monthlyTasks`: each bonus's recurring conditions merged into a short to-do list; `introLength`.
+- Optimiser: accounts already held are always candidates, keep what's left of their intro, and cost nothing to keep; `optimiseWithCost` makes each extra account earn its keep (default $250 a year) and tries 1..N accounts, which also beats the single greedy pass.
+- `constraintValues`: re-runs the plan with one limit relaxed at a time (one more account, any gain, the guarantee, locking more away or for longer, 5 card purchases, linked accounts).
+- `switchingPlan`: steps through intro-rate ends and term-deposit maturities over two years, re-optimises the money free to move, and keeps a move only if it beats staying put by the hassle threshold. `describeMoves` turns two sets of balances into transfers.
+
+**Web app:**
+- First-visit setup questions (who, money, locking away, effort), rerunnable from Household and tax.
+- **My accounts** tab: add accounts you hold from the bank data (word-start search) or by hand with a rate; balance, deposit, opened month; term deposits with term, locked rate and maturity. Shows first-year earnings, whether switching now is worth it (with the moves), the timeline of later moves, and this month's checklist with ticks and an `.ics` export (a monthly reminder plus intro-end and maturity dates). "I've opened my plan's accounts" copies the plan across.
+- **Plan:** "What's holding the plan back" (after-tax value of each relaxed limit), a threshold for opening another account.
+- **Projection:** project the plan or the accounts you hold; a savings goal with on-track status or the extra monthly deposit needed; one-off money in or out.
+- All of it runs in the browser; held accounts, goals and ticks stay in localStorage.
 
 ## Known constraints
 

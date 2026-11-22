@@ -62,7 +62,8 @@ function stepSavings(
   const b = { ...DEFAULT_BEHAVIOUR, ...plan.behaviour };
   const newCustomer = plan.newCustomer ?? true;
   const joint = Object.keys(plan.owners).length > 1;
-  const rows = rowsActiveInMonth(savingsRows(plan.product.rows), m, newCustomer);
+  const rows = rowsActiveInMonth(savingsRows(plan.product.rows), m + (plan.introElapsedMonths ?? 0), newCustomer);
+  const oneOff = (plan.events ?? []).filter((e) => e.month === m).reduce((sum, e) => sum + e.amount, 0);
   const accrued = new Map<string, number>(rows.map((r) => [r.id, 0]));
   const shift = rateShift(m);
   const activity: MonthActivity = {
@@ -86,11 +87,23 @@ function stepSavings(
       if (b.externalDeposits) activity.externalDepositsTotal += b.monthlyDeposit;
       activity.depositsCount += Math.max(1, b.depositsPerMonth);
     }
+    if (day === depositDay && oneOff > 0) {
+      state.balance += oneOff;
+      activity.depositsTotal += oneOff;
+      activity.externalDepositsTotal += oneOff;
+      activity.depositsCount += 1;
+    }
     if (day === withdrawalDay && b.monthlyWithdrawal > 0) {
       const amount = Math.min(state.balance, b.monthlyWithdrawal);
       state.balance -= amount;
       activity.withdrawalsTotal += amount;
       activity.withdrawalsCount += Math.max(1, b.withdrawalsPerMonth);
+    }
+    if (day === withdrawalDay && oneOff < 0) {
+      const amount = Math.min(state.balance, -oneOff);
+      state.balance -= amount;
+      activity.withdrawalsTotal += amount;
+      activity.withdrawalsCount += 1;
     }
     for (const r of rows) accrued.set(r.id, accrued.get(r.id)! + dailyInterest(r, state.balance, shiftApplies(r) ? shift : 0));
     balanceDays += state.balance;
@@ -239,7 +252,13 @@ export function simulate(input: SimulationInput): SimulationResult {
   const tdState = new Map<string, TdState>();
   for (const a of input.accounts) {
     if (a.kind === 'savings') savingsState.set(a.id, { balance: a.openingBalance });
-    else tdState.set(a.id, { principal: a.principal, rate: tdRate(a, a.principal, warnings) + rateShift(0), termStart: 0, accruedSincePayment: 0 });
+    else {
+      const rate = a.fixedRate ?? tdRate(a, a.principal, warnings) + rateShift(0);
+      const elapsed = Math.max(0, Math.min(a.elapsedMonths ?? 0, a.termMonths - 1));
+      // A deposit already part-way through its term has interest built up since the last payment.
+      const sincePayment = a.payment === 'MATURITY' ? elapsed : elapsed % a.payment.everyMonths;
+      tdState.set(a.id, { principal: a.principal, rate, termStart: -elapsed, accruedSincePayment: (a.principal * rate * sincePayment) / 12 });
+    }
   }
 
   const months: MonthResult[] = [];

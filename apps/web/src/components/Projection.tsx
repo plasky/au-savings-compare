@@ -1,9 +1,88 @@
 import type { CatalogueProduct, SimulationResult } from '@asc/engine';
-import { useState } from 'react';
+import { useMemo, useState } from 'react';
 import { money, pct, signedPct } from '../format';
-import { useApp, type PlanAccount } from '../store';
+import { monthKey, monthLabel, monthsBetween, startDate } from '../model';
+import { useApp } from '../store';
 import { Columns, DataTable, StackedArea, type Series } from './charts';
-import { Segmented } from './fields';
+import { MoneyInput, Segmented } from './fields';
+
+export interface ProjectedAccount {
+  id: string;
+  key: string;
+  slot: number;
+}
+
+/** Runs the projection for a number of months with an extra monthly deposit into the main account. */
+export type Runner = (months: number, extraMonthly: number) => SimulationResult | null;
+
+function GoalStatus({ run, mainName }: { run: Runner; mainName: string | null }) {
+  const s = useApp();
+  const goal = s.goal!;
+  const months = monthsBetween(startDate(), goal.month) + 1;
+  const status = useMemo(() => {
+    if (months < 1) return { kind: 'past' as const };
+    const at = (extra: number) => run(months, extra)?.months.at(-1)?.totalBalance ?? 0;
+    const have = at(0);
+    if (have >= goal.amount) return { kind: 'ok' as const, have };
+    let lo = 0;
+    let hi = Math.max(100, goal.amount / months);
+    while (at(hi) < goal.amount && hi < goal.amount) hi *= 2;
+    for (let i = 0; i < 22; i++) {
+      const mid = (lo + hi) / 2;
+      if (at(mid) >= goal.amount) hi = mid;
+      else lo = mid;
+    }
+    return { kind: 'short' as const, have, extra: Math.ceil(hi / 10) * 10 };
+  }, [run, months, goal.amount]);
+
+  if (status.kind === 'past') return <p className="note flag-warn">That date has passed. Pick a month from next month on.</p>;
+  return status.kind === 'ok' ? (
+    <div className="callout ok">
+      <span>
+        On track: about {money(status.have)} by {monthLabel(goal.month)}, {money(status.have - goal.amount)} more than your goal.
+      </span>
+    </div>
+  ) : (
+    <div className="callout">
+      <span>
+        About {money(status.have)} by {monthLabel(goal.month)}, {money(goal.amount - status.have)} short. Adding about <strong>{money(status.extra)} a month</strong>
+        {mainName ? ` to ${mainName}` : ''} would get you there.
+      </span>
+    </div>
+  );
+}
+
+function CashFlows({ mainName }: { mainName: string | null }) {
+  const s = useApp();
+  const next = monthKey(new Date(new Date().getFullYear(), new Date().getMonth() + 1, 1));
+  const update = (id: string, patch: Partial<(typeof s.cashEvents)[number]>) => s.set({ cashEvents: s.cashEvents.map((e) => (e.id === id ? { ...e, ...patch } : e)) });
+  return (
+    <div className="cash-flows">
+      {s.cashEvents.map((e) => (
+        <div className="cash-row" key={e.id}>
+          <input className="text-input" type="month" value={e.month} min={next} onChange={(ev) => update(e.id, { month: ev.target.value || e.month })} aria-label="Month" />
+          <select className="select" value={e.amount < 0 ? 'out' : 'in'} onChange={(ev) => update(e.id, { amount: Math.abs(e.amount) * (ev.target.value === 'out' ? -1 : 1) })} aria-label="Money in or out">
+            <option value="in">Money in</option>
+            <option value="out">Money out</option>
+          </select>
+          <MoneyInput value={Math.abs(e.amount)} onChange={(v) => update(e.id, { amount: e.amount < 0 ? -v : v })} label="Amount" max={50_000_000} />
+          <input className="text-input" value={e.label} placeholder="What for (optional)" onChange={(ev) => update(e.id, { label: ev.target.value })} aria-label="What it's for" />
+          <button type="button" className="icon-button" onClick={() => s.set({ cashEvents: s.cashEvents.filter((x) => x.id !== e.id) })}>
+            Remove
+          </button>
+        </div>
+      ))}
+      <button
+        type="button"
+        className="button"
+        onClick={() => s.set({ cashEvents: [...s.cashEvents, { id: Math.random().toString(36).slice(2, 9), month: next, amount: -10_000, label: '' }] })}
+      >
+        Add money in or out
+      </button>
+      {s.cashEvents.length > 0 && mainName && <p className="hint">Paid into or taken from {mainName}, the account your regular withdrawals come from.</p>}
+    </div>
+  );
+}
 
 const color = (slot: number) => `var(--s${(slot % 8) + 1})`;
 
@@ -12,19 +91,49 @@ export function Projection({
   byKey,
   result,
   fallback,
+  hasHeld,
+  run,
+  mainName,
+  opening,
+  monthlyIn,
 }: {
-  accounts: PlanAccount[];
+  accounts: ProjectedAccount[];
   byKey: Map<string, CatalogueProduct>;
   result: SimulationResult | null;
   /** Shown when the plan is empty: we project the best single account instead. */
   fallback: string | null;
+  hasHeld: boolean;
+  run: Runner;
+  /** The account one-off cash flows and extra deposits go through. */
+  mainName: string | null;
+  /** Money in the accounts at the start, and paid in each month. */
+  opening: number;
+  monthlyIn: number;
 }) {
   const s = useApp();
   const [tables, setTables] = useState(false);
   const after = s.taxView === 'after';
+  const basis = s.projectionBasis === 'held' && hasHeld ? 'held' : 'plan';
+
+  const basisPicker = hasHeld && (
+    <Segmented
+      label="What to project"
+      value={basis}
+      options={[
+        { value: 'plan', label: 'Your plan' },
+        { value: 'held', label: 'Accounts you hold' },
+      ]}
+      onChange={(v) => s.set({ projectionBasis: v })}
+    />
+  );
 
   if (!result) {
-    return <p className="empty">Nothing to project yet. Add accounts to your plan, or check your settings in the band above.</p>;
+    return (
+      <>
+        {basisPicker}
+        <p className="empty">Nothing to project yet. Add accounts to your plan, or check your settings in the band above.</p>
+      </>
+    );
   }
 
   const months = result.months;
@@ -58,12 +167,16 @@ export function Projection({
 
   const sum = result.summary;
   const endBalance = s.realTerms ? sum.endBalanceReal : sum.endBalance;
-  const contributed = s.balance + s.monthlyDeposit * months.length - s.withdrawal * months.length;
+  const start = startDate();
+  const oneOffs = s.cashEvents.filter((e) => monthsBetween(start, e.month) >= 0 && monthsBetween(start, e.month) < months.length).reduce((t, e) => t + e.amount, 0);
+  const putIn = opening + monthlyIn * months.length - s.withdrawal * months.length + oneOffs;
+  const goalIndex = s.goal ? monthsBetween(start, s.goal.month) : null;
   const horizon = s.horizonYears;
 
   return (
     <section aria-label="Projection">
       <div className="scenario-row">
+        {basisPicker}
         <Segmented
           label="How far ahead"
           value={horizon}
@@ -103,7 +216,7 @@ export function Projection({
         </span>
       </div>
 
-      {fallback && <p className="note">Your plan is empty, so this shows the best single account, {fallback}, holding all {money(s.balance)}.</p>}
+      {fallback && basis === 'plan' && <p className="note">Your plan is empty, so this shows the best single account, {fallback}, holding all {money(s.balance)}.</p>}
 
       <div className="stats">
         <div className="stat">
@@ -114,7 +227,7 @@ export function Projection({
         <div className="stat">
           <div className="label">Balance at the end</div>
           <div className="value">{money(endBalance)}</div>
-          <div className="sub">{s.realTerms ? `in today’s dollars, at ${pct(s.cpi, 1)} inflation` : `from ${money(contributed)} put in`}</div>
+          <div className="sub">{s.realTerms ? `in today’s dollars, at ${pct(s.cpi, 1)} inflation` : `from ${money(putIn)} put in`}</div>
         </div>
         <div className="stat">
           <div className="label">Rate in the first year</div>
@@ -130,7 +243,12 @@ export function Projection({
             {tables ? 'Hide tables' : 'Show as tables'}
           </button>
         </div>
-        <StackedArea series={balanceSeries} dates={months.map((m) => m.date)} label="Balance over time by account" />
+        <StackedArea
+          series={balanceSeries}
+          dates={months.map((m) => m.date)}
+          label="Balance over time by account"
+          goal={s.goal ? { value: s.realTerms ? s.goal.amount / (1 + s.cpi) ** (((goalIndex ?? 0) + 1) / 12) : s.goal.amount, index: goalIndex, label: `Goal ${money(s.goal.amount)}` } : undefined}
+        />
         {tables && (
           <DataTable
             caption="Balance at the end of each year"
@@ -159,6 +277,45 @@ export function Projection({
             rows={years.map((y, i) => [yearCats[i]!, y.interest, y.tax, y.afterTax])}
           />
         )}
+      </div>
+
+      <div className="two-col">
+        <div>
+          <h3 className="sub-title">A savings goal</h3>
+          {s.goal ? (
+            <>
+              <div className="controls">
+                <label className="check">
+                  Reach
+                  <MoneyInput value={s.goal.amount} onChange={(v) => s.set({ goal: { ...s.goal!, amount: v } })} label="Goal amount" max={100_000_000} />
+                </label>
+                <label className="check">
+                  by
+                  <input className="text-input" type="month" value={s.goal.month} onChange={(e) => e.target.value && s.set({ goal: { ...s.goal!, month: e.target.value } })} aria-label="Goal month" />
+                </label>
+                <button type="button" className="icon-button" onClick={() => s.set({ goal: null })}>
+                  Remove
+                </button>
+              </div>
+              <GoalStatus run={run} mainName={mainName} />
+            </>
+          ) : (
+            <button
+              type="button"
+              className="button"
+              onClick={() => {
+                const d = new Date();
+                s.set({ goal: { amount: Math.round((s.balance * 1.25) / 10_000) * 10_000, month: monthKey(new Date(d.getFullYear() + 3, d.getMonth(), 1)) } });
+              }}
+            >
+              Set a goal
+            </button>
+          )}
+        </div>
+        <div>
+          <h3 className="sub-title">One-off money in or out</h3>
+          <CashFlows mainName={mainName} />
+        </div>
       </div>
 
       <p className="note">

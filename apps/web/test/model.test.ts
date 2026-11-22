@@ -54,3 +54,28 @@ describe('model', () => {
     expect(suggestDeposits(accounts, byKey, 500, need)).toEqual([500, 0, 0]);
   });
 });
+
+describe('held accounts and calendar', () => {
+  it('works out how far into a term a held deposit is', async () => {
+    const { heldTdElapsed, heldAge, monthsBetween } = await import('../src/model');
+    const td = { id: 't', key: 'k', custom: null, amount: 1, deposit: 0, termMonths: 12, opened: null, tdRate: 0.05, maturity: '2027-03', slot: 0 };
+    expect(monthsBetween('2026-12-01', '2027-03')).toBe(3);
+    expect(heldTdElapsed(td, '2026-12-01')).toBe(9);
+    expect(heldAge({ ...td, termMonths: null, opened: '2026-10' }, '2026-12-01')).toBe(2);
+    expect(heldAge({ ...td, termMonths: null, opened: null }, '2026-12-01')).toBe(999);
+  });
+
+  it('writes a valid, folded iCalendar file', async () => {
+    const { buildIcs } = await import('../src/calendar');
+    const ics = buildIcs(
+      [{ uid: 'x', date: '2026-12-20', monthly: true, summary: 'Savings bonus check', description: `ING Savings Maximiser:\n- Deposit at least $1,000; ${'long '.repeat(30)}` }],
+      new Date('2026-11-22T00:00:00Z'),
+    );
+    const lines = ics.split('\r\n');
+    expect(lines[0]).toBe('BEGIN:VCALENDAR');
+    expect(lines).toContain('DTSTART;VALUE=DATE:20261220');
+    expect(lines).toContain('RRULE:FREQ=MONTHLY');
+    expect(ics.replace(/\r\n /g, '')).toContain(String.raw`Deposit at least $1\,000\;`);
+    expect(lines.every((l) => new TextEncoder().encode(l).length <= 75)).toBe(true);
+  });
+});

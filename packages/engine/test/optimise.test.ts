@@ -141,3 +141,122 @@ describe('optimiseWithCost', () => {
     expect(optimiseWithCost(base, 5000).allocations).toHaveLength(1);
   });
 });
+
+describe('monthlyTasks', () => {
+  it('turns recurring bonus conditions into one task per kind, strictest first', async () => {
+    const { monthlyTasks, introLength } = await import('../src/explain.js');
+    const p = product([
+      row({ role: 'BASE', rate: 0.01 }),
+      row({ role: 'BONUS', rate: 0.03, conditions: [cond('MIN_DEPOSIT_AMOUNT', { amount: 500 }), cond('MAX_WITHDRAWALS', { count: 1 })] }),
+      row({ role: 'BONUS', rate: 0.01, conditions: [cond('MIN_DEPOSIT_AMOUNT', { amount: 1000, externalOnly: true }), cond('MAX_WITHDRAWALS', { count: 0 })] }),
+      row({ role: 'INTRO', rate: 0.01, introMonths: 4, conditions: [cond('NEW_CUSTOMER', { period: 'ONCE' }), cond('MIN_PURCHASES', { count: 5 })] }),
+    ]);
+    expect(monthlyTasks(p).map((t) => t.text)).toEqual([
+      'Deposit at least $1,000 from another bank or your pay',
+      'Make 5 or more purchases with the card',
+      'Don’t withdraw anything',
+    ]);
+    expect(introLength(p)).toBe(4);
+  });
+});
+
+describe('held accounts and one-off cash flows', () => {
+  it('ends an intro rate on time for an account opened earlier', async () => {
+    const { simulate } = await import('../src/simulate.js');
+    const p = product([row({ role: 'BASE', rate: 0.01 }), row({ role: 'INTRO', rate: 0.03, introMonths: 4 })]);
+    const run = (elapsed: number) =>
+      simulate({ startDate: '2026-12-01', months: 4, people, accounts: [{ kind: 'savings', id: 'a', product: p, owners: { p1: 1 }, openingBalance: 100_000, introElapsedMonths: elapsed }] })
+        .months.map((m) => m.accounts.a!.intro > 0);
+    expect(run(0)).toEqual([true, true, true, true]);
+    expect(run(2)).toEqual([true, true, false, false]);
+  });
+
+  it('applies one-off deposits and withdrawals, and a withdrawal breaks a no-withdrawal bonus that month', async () => {
+    const { simulate } = await import('../src/simulate.js');
+    const p = product([row({ role: 'BASE', rate: 0.01 }), row({ role: 'BONUS', rate: 0.04, conditions: [cond('MAX_WITHDRAWALS', { count: 0 })] })]);
+    const r = simulate({
+      startDate: '2026-12-01',
+      months: 3,
+      people,
+      accounts: [{ kind: 'savings', id: 'a', product: p, owners: { p1: 1 }, openingBalance: 50_000, events: [{ month: 0, amount: 10_000 }, { month: 1, amount: -20_000 }] }],
+    });
+    const m = r.months.map((x) => x.accounts.a!);
+    expect(m.map((x) => x.bonusMet)).toEqual([true, false, true]);
+    expect(m[0]!.avgBalance).toBeCloseTo(60_000, 0);
+    expect(Math.round(m[2]!.avgBalance / 1000)).toBe(40);
+  });
+
+  it('keeps a held term deposit at its locked-in rate until it matures, then rolls over at today’s rate', async () => {
+    const { simulate } = await import('../src/simulate.js');
+    const r = simulate({
+      startDate: '2026-12-01',
+      months: 4,
+      people,
+      accounts: [{ kind: 'term_deposit', id: 't', product: td, owners: { p1: 1 }, principal: 100_000, termMonths: 12, payment: 'MATURITY', fixedRate: 0.04, elapsedMonths: 10 }],
+    });
+    const interest = r.months.map((m) => m.accounts.t!.interest);
+    expect(interest[0]).toBe(0);
+    expect(interest[1]).toBeGreaterThan(3000); // matures at the end of month 2: ~a year at 4%
+    expect(interest[1]).toBeLessThan(4100);
+    expect(r.months[2]!.accounts.t!.balance).toBeGreaterThan(103_000);
+  });
+});
+
+describe('switchingPlan', () => {
+  it('moves money when an intro rate ends and a better account is available', async () => {
+    const { switchingPlan } = await import('../src/switching.js');
+    const introSaver = product([row({ role: 'BASE', rate: 0.02 }), row({ role: 'INTRO', rate: 0.04, introMonths: 4 })], { key: 'i:intro', name: 'Intro Saver' });
+    const steps = switchingPlan({
+      base: { scenario: scenario(), lockable: 0, lockMonths: 0, products: [introSaver, flat], maxAccounts: 2, fcsLimit: null, groupOf },
+      holdings: [{ id: 'h1', product: introSaver, amount: 100_000, deposit: 0, termMonths: null, elapsedMonths: 0 }],
+      horizonMonths: 24,
+      accountCost: 250,
+    });
+    expect(steps).toHaveLength(1);
+    expect(steps[0]!.month).toBe(4);
+    expect(steps[0]!.reasons[0]).toContain('intro rate ends');
+    expect(steps[0]!.moves[0]).toMatchObject({ fromKey: 'i:intro', toKey: 'b:flat' });
+    expect(steps[0]!.gain).toBeGreaterThan(1500); // 4.5% vs 2% on ~$101k
+  });
+
+  it('stays put when nothing beats the current account by enough', async () => {
+    const { switchingPlan } = await import('../src/switching.js');
+    const steps = switchingPlan({
+      base: { scenario: scenario(), lockable: 0, lockMonths: 0, products: [capped, flat], maxAccounts: 1, fcsLimit: null, groupOf },
+      holdings: [{ id: 'h1', product: flat, amount: 100_000, deposit: 0, termMonths: null, elapsedMonths: 999 }],
+      horizonMonths: 24,
+      accountCost: 250,
+    });
+    expect(steps).toEqual([]);
+  });
+
+  it('reinvests a maturing term deposit and leaves locked money alone until then', async () => {
+    const { switchingPlan } = await import('../src/switching.js');
+    const steps = switchingPlan({
+      base: { scenario: scenario(), lockable: 0, lockMonths: 0, products: [flat, td], maxAccounts: 2, fcsLimit: null, groupOf },
+      holdings: [
+        { id: 't1', product: td, amount: 50_000, deposit: 0, termMonths: 12, elapsedMonths: 9, fixedRate: 0.03 },
+        { id: 's1', product: flat, amount: 50_000, deposit: 0, termMonths: null, elapsedMonths: 999 },
+      ],
+      horizonMonths: 24,
+      accountCost: 0,
+      minGain: 50,
+    });
+    // At maturity (month 3) the deposit can't be relocked (lockable 0), so it moves to the 4.5% saver.
+    expect(steps[0]?.month).toBe(3);
+    expect(steps[0]?.moves.some((mv) => mv.fromKey === 'c:td' && mv.toKey === 'b:flat')).toBe(true);
+  });
+});
+
+describe('constraintValues', () => {
+  it('prices the limits that hold the plan back', async () => {
+    const { constraintValues } = await import('../src/optimise.js');
+    const input = { scenario: scenario(), balance: 100_000, lockable: 0, lockMonths: 0, products: [capped, flat, td], maxAccounts: 1, fcsLimit: 250_000, groupOf };
+    expect(constraintValues(input, 0).map((x) => x.id)).toContain('more-accounts');
+    const two = constraintValues({ ...input, maxAccounts: 3 }, 0);
+    const lock = two.find((x) => x.id === 'lock-more')!;
+    expect(lock.label).toBe('Locking away $25,000 for a year');
+    expect(lock.gain).toBeGreaterThan(50); // 5% TD vs 4.5% saver on $25k
+    expect(two.every((x) => x.gain >= 50)).toBe(true);
+  });
+});

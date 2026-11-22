@@ -8,7 +8,7 @@ See [docs/PLAN.md](docs/PLAN.md) for the full plan.
 
 ## Status
 
-**Phases 0–3 done.** Nightly data pipeline, calculation engine, `products.json` catalogue, and the web app (compare, plan with an optimiser, projections). Next: phase 4 (bonus checklist, cash flows and goals, "My accounts").
+**Phases 0–5 done.** Nightly data pipeline, calculation engine, `products.json` catalogue, and the web app: compare, a plan (by hand or automatic, with what each limit costs), the accounts you hold (switching advice, a timeline of moves, a monthly bonus checklist with calendar reminders), and projections with goals and one-off cash flows. Next: phase 6 (cash ETF yields from the funds) and phase 7 (rate scenarios, rate history, alerts).
 
 ## Layout
 

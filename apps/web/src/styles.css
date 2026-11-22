@@ -443,7 +443,8 @@ input[type='range']::-moz-range-thumb {
   color: var(--ink-2);
 }
 
-.check input {
+.check input[type='checkbox'],
+.check input[type='radio'] {
   accent-color: var(--accent);
   width: 16px;
   height: 16px;
@@ -994,6 +995,230 @@ input[type='range']::-moz-range-thumb {
   width: 10rem;
 }
 
+/* ---------- My accounts ---------- */
+
+.add-account {
+  position: relative;
+  flex: 1 1 22rem;
+  max-width: 30rem;
+}
+
+.add-account .text-input {
+  width: 100%;
+}
+
+.picker {
+  position: absolute;
+  z-index: 3;
+  left: 0;
+  right: 0;
+  top: calc(100% + 4px);
+  list-style: none;
+  margin: 0;
+  padding: 4px;
+  background: var(--sheet);
+  border: 1px solid var(--rule-strong);
+  border-radius: var(--radius);
+  box-shadow: 0 8px 24px color-mix(in srgb, var(--ink) 14%, transparent);
+  max-height: 22rem;
+  overflow: auto;
+}
+
+.picker button {
+  display: block;
+  width: 100%;
+  text-align: left;
+  background: none;
+  border: 0;
+  border-radius: 4px;
+  padding: 8px 10px;
+  cursor: pointer;
+}
+
+.picker button:hover,
+.picker button:focus-visible {
+  background: var(--accent-wash);
+}
+
+.held-list {
+  list-style: none;
+  margin: 8px 0 0;
+  padding: 0;
+  border-top: 1px solid var(--rule);
+}
+
+.held-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1.4fr) 10rem minmax(0, 1.6fr) 8rem auto;
+  gap: 8px 16px;
+  align-items: end;
+  padding: 14px 0;
+  border-bottom: 1px solid var(--rule);
+}
+
+.held-name {
+  align-self: center;
+}
+
+.custom-fields {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+}
+
+.held-details {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 12px;
+}
+
+.held-details .text-input[type='month'] {
+  width: 10.5em;
+}
+
+.held-result {
+  text-align: right;
+  align-self: center;
+}
+
+.held-result .sub {
+  display: block;
+  font-size: 13px;
+  color: var(--ink-3);
+}
+
+.held-total {
+  margin: 14px 0 0;
+  max-width: var(--measure);
+}
+
+.moves {
+  margin: 8px 0 0;
+  padding-left: 1.2em;
+  max-width: var(--measure);
+}
+
+.moves li {
+  margin: 4px 0;
+}
+
+.timeline {
+  list-style: none;
+  margin: 8px 0 0;
+  padding: 0;
+  max-width: var(--measure);
+}
+
+.timeline > li {
+  display: grid;
+  grid-template-columns: 9rem minmax(0, 1fr);
+  gap: 4px 16px;
+  padding: 12px 0;
+  border-bottom: 1px solid var(--rule);
+}
+
+.timeline .when,
+.upcoming .when {
+  font-weight: 600;
+}
+
+.sub-title {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 24px 0 8px;
+}
+
+.checklist {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
+  gap: 8px 32px;
+}
+
+.checklist h3 {
+  font-size: 15px;
+  font-weight: 600;
+  margin: 8px 0 6px;
+}
+
+.checklist ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.checklist li {
+  padding: 4px 0;
+}
+
+.checklist .check {
+  align-items: flex-start;
+  color: var(--ink);
+}
+
+.checklist .check input {
+  margin-top: 3px;
+  flex: none;
+}
+
+.checklist .check input:checked + span {
+  color: var(--ink-3);
+  text-decoration: line-through;
+}
+
+.upcoming {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  max-width: var(--measure);
+}
+
+.upcoming li {
+  padding: 4px 0;
+}
+
+.whatif {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  max-width: var(--measure);
+  border-top: 1px solid var(--rule);
+}
+
+.whatif li {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 10px 0;
+  border-bottom: 1px solid var(--rule);
+}
+
+/* ---------- Goal and cash flows ---------- */
+
+.two-col {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
+  gap: 8px 48px;
+  margin-bottom: 24px;
+}
+
+.cash-flows {
+  display: grid;
+  gap: 8px;
+  justify-items: start;
+}
+
+.cash-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+}
+
+.cash-row .text-input[type='month'] {
+  width: 10.5em;
+}
+
 /* ---------- Household dialog ---------- */
 
 dialog.sheet {
@@ -1146,6 +1371,23 @@ dialog.sheet::backdrop {
   }
 
   .fcs-list li {
+    grid-template-columns: 1fr;
+  }
+
+  .held-row {
+    grid-template-columns: minmax(0, 1fr) auto;
+  }
+
+  .held-row .held-name,
+  .held-row .held-details {
+    grid-column: 1 / -1;
+  }
+
+  .held-result {
+    text-align: left;
+  }
+
+  .timeline > li {
     grid-template-columns: 1fr;
   }
 

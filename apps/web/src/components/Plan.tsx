@@ -1,7 +1,7 @@
 import { depositNeed, fcsExposure, FCS_LIMIT, type Catalogue, type CatalogueProduct, type SimulationResult } from '@asc/engine';
 import { CASH_ETF_GROUP } from '../data';
 import { money, pct, termLabel } from '../format';
-import { displayName, hasNoWithdrawalRule, suggestDeposits, withdrawalAccount } from '../model';
+import { afterTaxFactor, displayName, hasNoWithdrawalRule, suggestDeposits, withdrawalAccount } from '../model';
 import { useApp, type PlanAccount } from '../store';
 import type { AutoPlanState } from '../useAutoPlan';
 import { Check, MoneyInput, Segmented } from './fields';
@@ -40,6 +40,7 @@ export function Plan({
   const first = result?.summary.perAccountFirstYear ?? {};
   const totalInterest = result?.summary.firstYearInterest ?? 0;
   const totalAfter = result?.summary.firstYearAfterTax ?? 0;
+  const whatIf = auto.status === 'idle' ? null : auto.whatIf;
 
   const holdings = accounts
     .map((a) => ({ a, p: byKey.get(a.key) }))
@@ -322,6 +323,29 @@ export function Plan({
                 <span>{w}</span>
               </div>
             ))}
+
+          {!manual && (
+            <>
+              <h2 className="section-title">What&rsquo;s holding the plan back</h2>
+              {whatIf === null ? (
+                <p className="note">Checking what each of your limits costs…</p>
+              ) : whatIf.length ? (
+                <>
+                  <p className="note">Each line re-runs the plan with one limit relaxed. Amounts are extra interest in the first year, roughly after tax.</p>
+                  <ul className="whatif">
+                    {whatIf.map((v) => (
+                      <li key={v.id}>
+                        <span>{v.label}</span>
+                        <strong className="num">+{money(v.gain * afterTaxFactor(s))} a year</strong>
+                      </li>
+                    ))}
+                  </ul>
+                </>
+              ) : (
+                <p className="note">None of your limits (number of accounts, the guarantee, how much you lock away, card purchases) is costing you more than $50 a year.</p>
+              )}
+            </>
+          )}
 
           <h2 className="section-title">Government guarantee</h2>
           <p className="note">

@@ -28,7 +28,36 @@ export interface PlanAccount {
   slot: number;
 }
 
-export type Tab = 'compare' | 'plan' | 'projection';
+/** An account the household already holds. */
+export interface HeldInput {
+  id: string;
+  /** CatalogueProduct.key, or custom:<id> for an account not in the bank data. */
+  key: string;
+  /** For a custom account: its name and flat rate. */
+  custom: { name: string; rate: number } | null;
+  amount: number;
+  deposit: number;
+  /** Term deposits: term length. Null for savings. */
+  termMonths: number | null;
+  /** Month opened, YYYY-MM; null = more than a year ago (no intro rate left). */
+  opened: string | null;
+  /** Term deposits: the rate locked in for this term. */
+  tdRate: number | null;
+  /** Term deposits: maturity month, YYYY-MM. */
+  maturity: string | null;
+  slot: number;
+}
+
+export interface CashEventInput {
+  id: string;
+  /** YYYY-MM */
+  month: string;
+  /** Positive money in, negative money out. */
+  amount: number;
+  label: string;
+}
+
+export type Tab = 'compare' | 'plan' | 'held' | 'projection';
 
 export interface AppState {
   people: [PersonInput, PersonInput];
@@ -69,6 +98,16 @@ export interface AppState {
   accounts: PlanAccount[];
   withdrawFrom: string | null;
 
+  setupDone: boolean;
+  held: HeldInput[];
+  cashEvents: CashEventInput[];
+  goal: { amount: number; month: string } | null;
+  /** Ticked checklist items by month (YYYY-MM): "<account id>|<task id>". */
+  checks: Record<string, string[]>;
+  projectionBasis: 'plan' | 'held';
+  /** Day of the month for calendar reminders. */
+  reminderDay: number;
+
   set: (patch: Partial<AppState>) => void;
   setPerson: (id: PersonInput['id'], patch: Partial<PersonInput>) => void;
   /** Change the total; unlocked plan accounts absorb the difference in proportion. */
@@ -77,6 +116,10 @@ export interface AppState {
   updateAccount: (id: string, patch: Partial<PlanAccount>) => void;
   removeAccount: (id: string) => void;
   replaceAccounts: (accounts: Array<Omit<PlanAccount, 'id' | 'slot' | 'locked'>>) => void;
+  addHeld: (a: Omit<HeldInput, 'id' | 'slot'>) => void;
+  updateHeld: (id: string, patch: Partial<HeldInput>) => void;
+  removeHeld: (id: string) => void;
+  toggleCheck: (month: string, item: string) => void;
   reset: () => void;
 }
 
@@ -118,11 +161,18 @@ const defaults = {
   fcsCap: true,
   accounts: [] as PlanAccount[],
   withdrawFrom: null as string | null,
+  setupDone: false,
+  held: [] as HeldInput[],
+  cashEvents: [] as CashEventInput[],
+  goal: null as AppState['goal'],
+  checks: {} as Record<string, string[]>,
+  projectionBasis: 'plan' as const,
+  reminderDay: 20,
 };
 
 const newId = () => Math.random().toString(36).slice(2, 10);
 
-function freeSlot(accounts: PlanAccount[]): number {
+function freeSlot(accounts: Array<{ slot: number }>): number {
   const used = new Set(accounts.map((a) => a.slot));
   for (let i = 0; i < 8; i++) if (!used.has(i)) return i;
   return accounts.length % 8;
@@ -165,13 +215,45 @@ export const useApp = create<AppState>()(
         for (const a of list) accounts.push({ ...a, id: newId(), slot: freeSlot(accounts), locked: false });
         set({ accounts, withdrawFrom: null });
       },
+      addHeld: (a) => {
+        const held = get().held;
+        set({ held: [...held, { ...a, id: newId(), slot: freeSlot(held) }] });
+      },
+      updateHeld: (id, patch) => set({ held: get().held.map((a) => (a.id === id ? { ...a, ...patch } : a)) }),
+      removeHeld: (id) => set({ held: get().held.filter((a) => a.id !== id) }),
+      toggleCheck: (month, item) => {
+        const checks = { ...get().checks };
+        const list = new Set(checks[month] ?? []);
+        if (list.has(item)) list.delete(item);
+        else list.add(item);
+        checks[month] = [...list];
+        // Keep only the last few months of ticks.
+        for (const k of Object.keys(checks).sort().slice(0, -6)) delete checks[k];
+        set({ checks });
+      },
       reset: () => set({ ...defaults }),
     }),
     {
       name: 'asc:state',
-      version: 1,
+      version: 2,
       storage: createJSONStorage(() => localStorage),
-      partialize: ({ set: _s, setPerson: _p, setBalance: _b, addAccount: _a, updateAccount: _u, removeAccount: _r, replaceAccounts: _ra, reset: _x, ...rest }) => rest,
+      // v1 -> v2 only added fields, which take their defaults.
+      migrate: (persisted) => persisted as AppState,
+      partialize: ({
+        set: _s,
+        setPerson: _p,
+        setBalance: _b,
+        addAccount: _a,
+        updateAccount: _u,
+        removeAccount: _r,
+        replaceAccounts: _ra,
+        addHeld: _ah,
+        updateHeld: _uh,
+        removeHeld: _rh,
+        toggleCheck: _tc,
+        reset: _x,
+        ...rest
+      }) => rest,
     },
   ),
 );

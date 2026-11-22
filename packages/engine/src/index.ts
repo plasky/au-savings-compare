@@ -6,3 +6,4 @@ export * from './catalogue.js';
 export * from './explain.js';
 export * from './rank.js';
 export * from './optimise.js';
+export * from './switching.js';

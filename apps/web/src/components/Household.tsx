@@ -28,7 +28,7 @@ function PersonRow({ p, title }: { p: PersonInput; title: string }) {
   );
 }
 
-export function Household({ open, onClose }: { open: boolean; onClose: () => void }) {
+export function Household({ open, onClose, onSetup }: { open: boolean; onClose: () => void; onSetup: () => void }) {
   const ref = useRef<HTMLDialogElement>(null);
   const s = useApp();
 
@@ -122,9 +122,14 @@ export function Household({ open, onClose }: { open: boolean; onClose: () => voi
         >
           Clear all settings
         </button>
-        <button type="button" className="button primary" onClick={onClose}>
-          Done
-        </button>
+        <span style={{ display: 'flex', gap: 8 }}>
+          <button type="button" className="button" onClick={onSetup}>
+            Answer the setup questions
+          </button>
+          <button type="button" className="button primary" onClick={onClose}>
+            Done
+          </button>
+        </span>
       </div>
     </dialog>
   );

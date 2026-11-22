@@ -142,6 +142,16 @@ export interface SavingsPlan {
   choices?: Record<string, string>;
   /** New to this bank (intro rates, NEW_CUSTOMER conditions). Default true. */
   newCustomer?: boolean;
+  /** Months since the account was opened, so an intro rate that started earlier ends on time. Default 0. */
+  introElapsedMonths?: number;
+  /** One-off deposits (positive) or withdrawals (negative) by month index. */
+  events?: CashEvent[];
+}
+
+export interface CashEvent {
+  /** Month index from the simulation start. */
+  month: number;
+  amount: number;
 }
 
 export interface TermDepositPlan {
@@ -158,6 +168,10 @@ export interface TermDepositPlan {
   newCustomer?: boolean;
   /** Assume online/existing-customer style conditions on bonus rows are met. Default true. */
   conditionsMet?: boolean;
+  /** Rate locked in for the current term (a deposit already held); later terms use today's rate. */
+  fixedRate?: number;
+  /** Months of the current term already elapsed at the start. Default 0. */
+  elapsedMonths?: number;
 }
 
 export type AccountPlan = SavingsPlan | TermDepositPlan;

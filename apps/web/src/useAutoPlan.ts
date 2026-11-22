@@ -9,6 +9,7 @@ export interface AutoPlanInput {
   lockMonths: number;
   maxAccounts: number;
   fcsCap: boolean;
+  accountCost: number;
 }
 
 export type AutoPlanState = { status: 'idle' } | { status: 'working'; last: WorkerResponse | null } | { status: 'done'; result: WorkerResponse };
@@ -44,6 +45,7 @@ export function useAutoPlan(enabled: boolean, products: CatalogueProduct[], inpu
           lockMonths: parsed.lockMonths,
           maxAccounts: parsed.maxAccounts,
           fcsLimit: parsed.fcsCap ? FCS_LIMIT : null,
+          accountCost: parsed.accountCost,
         },
       };
       if (sentProducts.current !== products) {

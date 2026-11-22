@@ -46,6 +46,7 @@ export function App() {
     lockMonths: s.lockMonths,
     maxAccounts: s.maxAccounts,
     fcsCap: s.fcsCap,
+    accountCost: s.accountCost,
   });
   const autoResult = auto.status === 'done' ? auto.result : auto.status === 'working' ? auto.last : null;
   const autoAccounts: PlanAccount[] = useMemo(

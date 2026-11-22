@@ -63,6 +63,8 @@ export interface AppState {
 
   planMode: 'manual' | 'auto';
   maxAccounts: number;
+  /** An extra account must add at least this much interest a year (automatic plans). */
+  accountCost: number;
   fcsCap: boolean;
   accounts: PlanAccount[];
   withdrawFrom: string | null;
@@ -112,6 +114,7 @@ const defaults = {
   showIneligible: false,
   planMode: 'manual' as const,
   maxAccounts: 3,
+  accountCost: 250,
   fcsCap: true,
   accounts: [] as PlanAccount[],
   withdrawFrom: null as string | null,

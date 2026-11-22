@@ -1,5 +1,5 @@
 /// <reference lib="webworker" />
-import { optimise, type CatalogueProduct, type Product, type Scenario } from '@asc/engine';
+import { optimiseWithCost, type CatalogueProduct, type Product, type Scenario } from '@asc/engine';
 
 export interface WorkerRequest {
   id: number;
@@ -11,6 +11,7 @@ export interface WorkerRequest {
     lockMonths: number;
     maxAccounts: number;
     fcsLimit: number | null;
+    accountCost: number;
   };
 }
 
@@ -30,7 +31,8 @@ self.onmessage = (e: MessageEvent<WorkerRequest>) => {
   if (e.data.products) products = e.data.products;
   const t = performance.now();
   try {
-    const r = optimise({ ...input, products, groupOf: (p: Product) => (p as CatalogueProduct).group ?? p.key });
+    const { accountCost, ...rest } = input;
+    const r = optimiseWithCost({ ...rest, products, groupOf: (p: Product) => (p as CatalogueProduct).group ?? p.key }, accountCost);
     const res: WorkerResponse = {
       id,
       allocations: r.allocations.map((a) => ({ key: a.product.key, amount: Math.round(a.amount), monthlyDeposit: Math.round(a.monthlyDeposit), termMonths: a.termMonths, interest: a.interest })),

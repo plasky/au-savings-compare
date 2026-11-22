@@ -82,6 +82,16 @@ export function Plan({
                 ))}
               </select>
             </label>
+            <label className="check">
+              Open another account for
+              <select className="select" value={s.accountCost} onChange={(e) => s.set({ accountCost: Number(e.target.value) })}>
+                {[0, 100, 250, 500, 1000].map((v) => (
+                  <option key={v} value={v}>
+                    {v === 0 ? 'any gain' : `${money(v)}+ a year`}
+                  </option>
+                ))}
+              </select>
+            </label>
             <Check checked={s.fcsCap} onChange={(v) => s.set({ fcsCap: v })}>
               Stay within the {money(FCS_LIMIT)} guarantee at each bank
             </Check>
@@ -96,7 +106,7 @@ export function Plan({
         <p className="note" style={{ marginTop: -8 }}>
           {auto.status === 'working'
             ? 'Working out the best split…'
-            : `Tries the best ${s.lockable > 0 ? 'savings accounts and term deposits' : 'savings accounts'} for your settings and splits your money and monthly deposit to earn the most in the first year. Keep the plan to fine-tune it by hand.`}
+            : `Tries the best ${s.lockable > 0 ? 'savings accounts and term deposits' : 'savings accounts'} for your settings and splits your money and monthly deposit to earn the most in the first year, adding an account only when it earns ${s.accountCost > 0 ? `at least ${money(s.accountCost)} more a year before tax` : 'anything extra'}. Keep the plan to fine-tune it by hand.`}
           {s.lockable > 0 ? ` Term deposits are limited to the ${money(s.lockable)} you can lock away, for up to ${termLabel(s.lockMonths)}.` : ''}
         </p>
       )}

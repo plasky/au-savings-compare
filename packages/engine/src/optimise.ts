@@ -257,3 +257,22 @@ export function optimise(input: OptimiseInput): OptimiseResult {
   );
   return { allocations, interest: allocations.reduce((sum, a) => sum + a.interest, 0), singleBest, evaluations };
 }
+
+/**
+ * Like `optimise`, but an extra account has to earn its keep: each account
+ * beyond the first must add at least `accountCost` a year (before tax), so the
+ * plan with the best interest-minus-hassle wins.
+ */
+export function optimiseWithCost(input: OptimiseInput, accountCost: number): OptimiseResult {
+  if (accountCost <= 0 || input.maxAccounts <= 1) return optimise(input);
+  let best: { r: OptimiseResult; score: number } | null = null;
+  let evaluations = 0;
+  for (let k = 1; k <= input.maxAccounts; k++) {
+    const r = optimise({ ...input, maxAccounts: k });
+    evaluations += r.evaluations;
+    const score = r.interest - accountCost * Math.max(0, r.allocations.length - 1);
+    if (!best || score > best.score + 0.5) best = { r, score };
+    if (r.allocations.length < k) break; // more accounts didn't help, so larger k won't either
+  }
+  return { ...best!.r, evaluations };
+}

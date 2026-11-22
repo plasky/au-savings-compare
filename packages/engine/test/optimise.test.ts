@@ -131,3 +131,13 @@ describe('bonus bands', () => {
     expect(applicableBalance(high!, 1_200_000)).toBe(1_000_000);
   });
 });
+
+describe('optimiseWithCost', () => {
+  it('drops an extra account that adds less than it is worth to the household', async () => {
+    const { optimiseWithCost } = await import('../src/optimise.js');
+    const base = { scenario: scenario(), balance: 100_000, lockable: 0, lockMonths: 0, products: [capped, flat], maxAccounts: 2, fcsLimit: 250_000, groupOf };
+    // Splitting gains about 0.5% x $50k = ~$250-500 a year over Flat Saver alone.
+    expect(optimiseWithCost(base, 0).allocations).toHaveLength(2);
+    expect(optimiseWithCost(base, 5000).allocations).toHaveLength(1);
+  });
+});

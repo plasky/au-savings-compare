@@ -1,6 +1,6 @@
 # CDR product data — crawl report
 
-Crawled 2026-11-22T00:03:59.421Z · report 2026-11-22T00:04:00.770Z
+Crawled 2026-11-22T21:58:22.194Z · report 2026-11-22T21:58:24.054Z
 
 ## Coverage
 
@@ -14,7 +14,7 @@ Crawled 2026-11-22T00:03:59.421Z · report 2026-11-22T00:04:00.770Z
 | Product details fetched | 1545 ok, 1 failed |
 | Products with deposit rates | TRANS_AND_SAVINGS_ACCOUNTS: 758, TERM_DEPOSITS: 646 |
 | List endpoint versions (x-v) | 5: 255, 3: 2, 4: 2 |
-| Detail endpoint versions (x-v) | 7: 1477, 6: 38, 5: 16, 4: 13, : 1 |
+| Detail endpoint versions (x-v) | 7: 1477, 6: 38, 5: 16, 4: 13, none: 1 |
 | Browser-callable (CORS ok with x-v) | 242 / 259 |
 
 ### Endpoints that failed
@@ -90,7 +90,11 @@ Structured condition types: MIN_DEPOSIT_AMOUNT: 97, DEPOSIT_BALANCE_INCREASED: 5
 
 | Needing judgement | Reviewed | Changed since review | Queued (≥3.0%) | Below threshold |
 | --- | --- | --- | --- | --- |
-| 166 | 166 | 0 | 0 | 0 |
+| 166 | 165 | 1 | 1 | 0 |
+
+| Brand | Product | Headline | Why |
+| --- | --- | --- | --- |
+| Bendigo Bank | Bendigo Reward Saver | 10.40% | bonus/intro rows |
 
 ## Data-quality flags
 
@@ -211,7 +215,7 @@ Structured condition types: MIN_DEPOSIT_AMOUNT: 97, DEPOSIT_BALANCE_INCREASED: 5
 
 <details><summary>HEADLINE_IMPLAUSIBLE — examples</summary>
 
-- Bendigo Bank — Bendigo Reward Saver: base 0.10% + bonus 9.80%
+- Bendigo Bank — Bendigo Reward Saver: base 0.10% + bonus 10.30%
 - Defence Bank Limited — Salute Account: base 4.25% + bonus 6.00%
 - My State PM Production — Bonus Saver: base — + bonus 10.95%
 - Traditional Credit Union — S1 Everyday Account: base 200.00% + bonus —
@@ -273,8 +277,8 @@ Headline = base + stacked bonuses (+ intro where present), assuming all conditio
 | Revolut | Revolut Instant Access Savings | 5.55% | — | 6.50% | 12.05% | 4 base alternatives; intro may be total |
 | My State PM Production | Bonus Saver | — | 10.95% | — | 10.95% | 2 bonuses stacked |
 | Rabobank | High Interest Savings Account | 4.30% | — | 6.40% | 10.70% | intro may be total |
+| Bendigo Bank | Bendigo Reward Saver | 0.10% | 10.30% | — | 10.40% | 2 bonuses stacked |
 | Defence Bank Limited | Salute Account | 4.25% | 6.00% | — | 10.25% |  |
-| Bendigo Bank | Bendigo Reward Saver | 0.10% | 9.80% | — | 9.90% | 2 bonuses stacked |
 | ING BANK (Australia) Ltd | Savings Booster | 2.75% | 3.15% | 0.60% | 6.50% |  |
 | UBank | Save account | — | 5.60% | 0.90% | 6.50% |  |
 | Bankwest | Bankwest Easy Saver | 5.50% | 0.10% | 0.75% | 6.35% |  |

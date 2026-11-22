@@ -20,11 +20,11 @@
     "pagesFetched": 1,
     "productCount": 43,
     "categoryCounts": {
+      "TERM_DEPOSITS": 8,
       "OVERDRAFTS": 2,
       "TRANS_AND_SAVINGS_ACCOUNTS": 13,
       "BUSINESS_LOANS": 5,
       "RESIDENTIAL_MORTGAGES": 10,
-      "TERM_DEPOSITS": 8,
       "PERS_LOANS": 5
     }
   },
@@ -1102,7 +1102,7 @@
         "depositRates": [
           {
             "depositRateType": "FIXED",
-            "rate": "0.0285",
+            "rate": "0.03",
             "calculationFrequency": "P1D",
             "applicationType": "MATURITY",
             "tiers": [
@@ -1125,7 +1125,7 @@
           },
           {
             "depositRateType": "FIXED",
-            "rate": "0.0285",
+            "rate": "0.03",
             "calculationFrequency": "P1D",
             "applicationType": "MATURITY",
             "tiers": [
@@ -1150,7 +1150,7 @@
         "productCategory": "TERM_DEPOSITS",
         "productId": "I1_Fixed_Term_Deposit",
         "effectiveFrom": "2021-03-25T00:00:00.000+11:00",
-        "lastUpdated": "2026-10-07T16:39:31.000+11:00",
+        "lastUpdated": "2026-11-22T05:16:46.000+11:00",
         "name": "500+ (6m to <12m) I1",
         "description": "A fixed term deposit lets you earn a competitive interest rate on your money, over a set period of time.",
         "brand": "CENTRAL WEST CREDIT UNION LTD",
@@ -1213,7 +1213,7 @@
         "depositRates": [
           {
             "depositRateType": "FIXED",
-            "rate": "0.049",
+            "rate": "0.05",
             "calculationFrequency": "P1D",
             "applicationType": "MATURITY",
             "tiers": [
@@ -1236,7 +1236,7 @@
           },
           {
             "depositRateType": "FIXED",
-            "rate": "0.049",
+            "rate": "0.05",
             "calculationFrequency": "P1D",
             "applicationType": "MATURITY",
             "tiers": [
@@ -1259,7 +1259,7 @@
           },
           {
             "depositRateType": "FIXED",
-            "rate": "0.049",
+            "rate": "0.05",
             "calculationFrequency": "P1D",
             "applicationType": "PERIODIC",
             "applicationFrequency": "P14D",
@@ -1283,7 +1283,7 @@
           },
           {
             "depositRateType": "FIXED",
-            "rate": "0.049",
+            "rate": "0.05",
             "calculationFrequency": "P1D",
             "applicationType": "PERIODIC",
             "applicationFrequency": "P1M",
@@ -1307,7 +1307,7 @@
           },
           {
             "depositRateType": "FIXED",
-            "rate": "0.049",
+            "rate": "0.05",
             "calculationFrequency": "P1D",
             "applicationType": "PERIODIC",
             "applicationFrequency": "P3M",
@@ -1331,7 +1331,7 @@
           },
           {
             "depositRateType": "FIXED",
-            "rate": "0.049",
+            "rate": "0.05",
             "calculationFrequency": "P1D",
             "applicationType": "PERIODIC",
             "applicationFrequency": "P6M",
@@ -1355,7 +1355,7 @@
           },
           {
             "depositRateType": "FIXED",
-            "rate": "0.049",
+            "rate": "0.05",
             "calculationFrequency": "P1D",
             "applicationType": "PERIODIC",
             "applicationFrequency": "P12M",
@@ -1379,7 +1379,7 @@
           },
           {
             "depositRateType": "FIXED",
-            "rate": "0.049",
+            "rate": "0.05",
             "calculationFrequency": "P1D",
             "applicationType": "MATURITY",
             "tiers": [
@@ -1402,7 +1402,7 @@
           },
           {
             "depositRateType": "FIXED",
-            "rate": "0.049",
+            "rate": "0.05",
             "calculationFrequency": "P1D",
             "applicationType": "PERIODIC",
             "applicationFrequency": "P14D",
@@ -1426,7 +1426,7 @@
           },
           {
             "depositRateType": "FIXED",
-            "rate": "0.049",
+            "rate": "0.05",
             "calculationFrequency": "P1D",
             "applicationType": "PERIODIC",
             "applicationFrequency": "P1M",
@@ -1450,7 +1450,7 @@
           },
           {
             "depositRateType": "FIXED",
-            "rate": "0.049",
+            "rate": "0.05",
             "calculationFrequency": "P1D",
             "applicationType": "PERIODIC",
             "applicationFrequency": "P3M",
@@ -1474,7 +1474,7 @@
           },
           {
             "depositRateType": "FIXED",
-            "rate": "0.049",
+            "rate": "0.05",
             "calculationFrequency": "P1D",
             "applicationType": "PERIODIC",
             "applicationFrequency": "P6M",
@@ -1500,7 +1500,7 @@
         "productCategory": "TERM_DEPOSITS",
         "productId": "I15_Fixed_Term_Deposit",
         "effectiveFrom": "2021-03-25T00:00:00.000+11:00",
-        "lastUpdated": "2026-10-07T16:48:04.000+11:00",
+        "lastUpdated": "2026-11-22T05:27:28.000+11:00",
         "name": "$5000+ (12m - 24m) I15",
         "description": "A fixed term deposit lets you earn a competitive interest rate on your money, over a set period of time.",
         "brand": "CENTRAL WEST CREDIT UNION LTD",
@@ -1563,7 +1563,7 @@
         "depositRates": [
           {
             "depositRateType": "FIXED",
-            "rate": "0.049",
+            "rate": "0.05",
             "calculationFrequency": "P1D",
             "applicationType": "MATURITY",
             "tiers": [
@@ -1586,7 +1586,7 @@
           },
           {
             "depositRateType": "FIXED",
-            "rate": "0.049",
+            "rate": "0.05",
             "calculationFrequency": "P1D",
             "applicationType": "PERIODIC",
             "applicationFrequency": "P14D",
@@ -1610,7 +1610,7 @@
           },
           {
             "depositRateType": "FIXED",
-            "rate": "0.049",
+            "rate": "0.05",
             "calculationFrequency": "P1D",
             "applicationType": "PERIODIC",
             "applicationFrequency": "P1M",
@@ -1634,7 +1634,7 @@
           },
           {
             "depositRateType": "FIXED",
-            "rate": "0.049",
+            "rate": "0.05",
             "calculationFrequency": "P1D",
             "applicationType": "PERIODIC",
             "applicationFrequency": "P3M",
@@ -1658,7 +1658,7 @@
           },
           {
             "depositRateType": "FIXED",
-            "rate": "0.049",
+            "rate": "0.05",
             "calculationFrequency": "P1D",
             "applicationType": "PERIODIC",
             "applicationFrequency": "P6M",
@@ -1682,7 +1682,7 @@
           },
           {
             "depositRateType": "FIXED",
-            "rate": "0.049",
+            "rate": "0.05",
             "calculationFrequency": "P1D",
             "applicationType": "PERIODIC",
             "applicationFrequency": "P12M",
@@ -1706,7 +1706,7 @@
           },
           {
             "depositRateType": "FIXED",
-            "rate": "0.049",
+            "rate": "0.05",
             "calculationFrequency": "P1D",
             "applicationType": "MATURITY",
             "tiers": [
@@ -1729,7 +1729,7 @@
           },
           {
             "depositRateType": "FIXED",
-            "rate": "0.049",
+            "rate": "0.05",
             "calculationFrequency": "P1D",
             "applicationType": "PERIODIC",
             "applicationFrequency": "P14D",
@@ -1753,7 +1753,7 @@
           },
           {
             "depositRateType": "FIXED",
-            "rate": "0.049",
+            "rate": "0.05",
             "calculationFrequency": "P1D",
             "applicationType": "PERIODIC",
             "applicationFrequency": "P1M",
@@ -1777,7 +1777,7 @@
           },
           {
             "depositRateType": "FIXED",
-            "rate": "0.049",
+            "rate": "0.05",
             "calculationFrequency": "P1D",
             "applicationType": "PERIODIC",
             "applicationFrequency": "P3M",
@@ -1801,7 +1801,7 @@
           },
           {
             "depositRateType": "FIXED",
-            "rate": "0.049",
+            "rate": "0.05",
             "calculationFrequency": "P1D",
             "applicationType": "PERIODIC",
             "applicationFrequency": "P6M",
@@ -1825,7 +1825,7 @@
           },
           {
             "depositRateType": "FIXED",
-            "rate": "0.049",
+            "rate": "0.05",
             "calculationFrequency": "P1D",
             "applicationType": "PERIODIC",
             "applicationFrequency": "P12M",
@@ -1851,7 +1851,7 @@
         "productCategory": "TERM_DEPOSITS",
         "productId": "I17_Fixed_Term_Deposit",
         "effectiveFrom": "2021-03-25T00:00:00.000+11:00",
-        "lastUpdated": "2026-10-07T16:57:00.000+11:00",
+        "lastUpdated": "2026-11-22T05:30:43.000+11:00",
         "name": "$5000+ (18m - 24m) I17",
         "description": "A fixed term deposit lets you earn a competitive interest rate on your money, over a set period of time.",
         "brand": "CENTRAL WEST CREDIT UNION LTD",
@@ -1894,7 +1894,7 @@
         "depositRates": [
           {
             "depositRateType": "FIXED",
-            "rate": "0.034",
+            "rate": "0.035",
             "calculationFrequency": "P1D",
             "applicationType": "MATURITY",
             "tiers": [
@@ -1917,7 +1917,7 @@
           },
           {
             "depositRateType": "FIXED",
-            "rate": "0.034",
+            "rate": "0.035",
             "calculationFrequency": "P1D",
             "applicationType": "MATURITY",
             "tiers": [
@@ -1940,7 +1940,7 @@
           },
           {
             "depositRateType": "FIXED",
-            "rate": "0.034",
+            "rate": "0.035",
             "calculationFrequency": "P1D",
             "applicationType": "MATURITY",
             "tiers": [
@@ -1963,7 +1963,7 @@
           },
           {
             "depositRateType": "FIXED",
-            "rate": "0.034",
+            "rate": "0.035",
             "calculationFrequency": "P1D",
             "applicationType": "MATURITY",
             "tiers": [
@@ -1987,7 +1987,7 @@
         ],
         "productCategory": "TERM_DEPOSITS",
         "productId": "I3_Fixed_Term_Deposit",
-        "lastUpdated": "2026-04-30T16:40:29.000+10:00",
+        "lastUpdated": "2026-11-22T05:21:18.000+11:00",
         "name": "$5000+ (6m to <12m) I3",
         "description": "A fixed term deposit lets you earn a competitive interest rate on your money, over a set period of time.",
         "brand": "CENTRAL WEST CREDIT UNION LTD",
@@ -2034,7 +2034,7 @@
         "depositRates": [
           {
             "depositRateType": "FIXED",
-            "rate": "0.05",
+            "rate": "0.051",
             "calculationFrequency": "P1D",
             "applicationType": "MATURITY",
             "tiers": [
@@ -2057,7 +2057,7 @@
           },
           {
             "depositRateType": "FIXED",
-            "rate": "0.05",
+            "rate": "0.051",
             "calculationFrequency": "P1D",
             "applicationType": "PERIODIC",
             "applicationFrequency": "P1M",
@@ -2081,7 +2081,7 @@
           },
           {
             "depositRateType": "FIXED",
-            "rate": "0.05",
+            "rate": "0.051",
             "calculationFrequency": "P1D",
             "applicationType": "MATURITY",
             "tiers": [
@@ -2104,7 +2104,7 @@
           },
           {
             "depositRateType": "FIXED",
-            "rate": "0.05",
+            "rate": "0.051",
             "calculationFrequency": "P1D",
             "applicationType": "PERIODIC",
             "applicationFrequency": "P1M",
@@ -2128,7 +2128,7 @@
           },
           {
             "depositRateType": "FIXED",
-            "rate": "0.05",
+            "rate": "0.051",
             "calculationFrequency": "P1D",
             "applicationType": "MATURITY",
             "tiers": [
@@ -2151,7 +2151,7 @@
           },
           {
             "depositRateType": "FIXED",
-            "rate": "0.05",
+            "rate": "0.051",
             "calculationFrequency": "P1D",
             "applicationType": "PERIODIC",
             "applicationFrequency": "P1M",
@@ -2175,7 +2175,7 @@
           },
           {
             "depositRateType": "FIXED",
-            "rate": "0.05",
+            "rate": "0.051",
             "calculationFrequency": "P1D",
             "applicationType": "MATURITY",
             "tiers": [
@@ -2198,7 +2198,7 @@
           },
           {
             "depositRateType": "FIXED",
-            "rate": "0.05",
+            "rate": "0.051",
             "calculationFrequency": "P1D",
             "applicationType": "PERIODIC",
             "applicationFrequency": "P1M",
@@ -2224,7 +2224,7 @@
         "productCategory": "TERM_DEPOSITS",
         "productId": "I4_Fixed_Term_Deposit",
         "effectiveFrom": "2021-03-25T00:00:00.000+11:00",
-        "lastUpdated": "2026-10-07T16:44:51.000+11:00",
+        "lastUpdated": "2026-11-22T05:24:32.000+11:00",
         "name": "$5000+ (12m - 24m) I4",
         "description": "A fixed term deposit lets you earn a competitive interest rate on your money, over a set period of time.",
         "brand": "CENTRAL WEST CREDIT UNION LTD",
@@ -2278,7 +2278,7 @@
         "depositRates": [
           {
             "depositRateType": "FIXED",
-            "rate": "0.0285",
+            "rate": "0.03",
             "calculationFrequency": "P1D",
             "applicationType": "MATURITY",
             "tiers": [
@@ -2301,7 +2301,7 @@
           },
           {
             "depositRateType": "FIXED",
-            "rate": "0.0285",
+            "rate": "0.03",
             "calculationFrequency": "P1D",
             "applicationType": "MATURITY",
             "tiers": [
@@ -2324,7 +2324,7 @@
           },
           {
             "depositRateType": "FIXED",
-            "rate": "0.0285",
+            "rate": "0.03",
             "calculationFrequency": "P1D",
             "applicationType": "MATURITY",
             "tiers": [
@@ -2347,7 +2347,7 @@
           },
           {
             "depositRateType": "FIXED",
-            "rate": "0.0285",
+            "rate": "0.03",
             "calculationFrequency": "P1D",
             "applicationType": "MATURITY",
             "tiers": [
@@ -2372,7 +2372,7 @@
         "productCategory": "TERM_DEPOSITS",
         "productId": "I5_Fixed_Term_Deposit",
         "effectiveFrom": "2021-03-25T00:00:00.000+11:00",
-        "lastUpdated": "2026-10-07T16:40:36.000+11:00",
+        "lastUpdated": "2026-11-22T05:18:07.000+11:00",
         "name": "$500+ (12m to 24m) I5",
         "description": "A fixed term deposit lets you earn a competitive interest rate on your money, over a set period of time.",
         "brand": "CENTRAL WEST CREDIT UNION LTD",
@@ -2415,7 +2415,7 @@
         "depositRates": [
           {
             "depositRateType": "FIXED",
-            "rate": "0.0325",
+            "rate": "0.0335",
             "calculationFrequency": "P1D",
             "applicationType": "MATURITY",
             "tiers": [
@@ -2438,7 +2438,7 @@
           },
           {
             "depositRateType": "FIXED",
-            "rate": "0.0325",
+            "rate": "0.0335",
             "calculationFrequency": "P1D",
             "applicationType": "MATURITY",
             "tiers": [
@@ -2461,7 +2461,7 @@
           },
           {
             "depositRateType": "FIXED",
-            "rate": "0.0325",
+            "rate": "0.0335",
             "calculationFrequency": "P1D",
             "applicationType": "MATURITY",
             "tiers": [
@@ -2484,7 +2484,7 @@
           },
           {
             "depositRateType": "FIXED",
-            "rate": "0.0325",
+            "rate": "0.0335",
             "calculationFrequency": "P1D",
             "applicationType": "MATURITY",
             "tiers": [
@@ -2509,7 +2509,7 @@
         "productCategory": "TERM_DEPOSITS",
         "productId": "I6_Fixed_Term_Deposit",
         "effectiveFrom": "2021-03-25T00:00:00.000+11:00",
-        "lastUpdated": "2026-04-30T16:39:16.000+10:00",
+        "lastUpdated": "2026-11-22T05:19:31.000+11:00",
         "name": "$5000+ (3m to <6m) I6",
         "description": "A fixed term deposit lets you earn a competitive interest rate on your money, over a set period of time.",
         "brand": "CENTRAL WEST CREDIT UNION LTD",
@@ -2556,7 +2556,7 @@
         "depositRates": [
           {
             "depositRateType": "FIXED",
-            "rate": "0.0285",
+            "rate": "0.03",
             "calculationFrequency": "P1D",
             "applicationType": "MATURITY",
             "tiers": [
@@ -2579,7 +2579,7 @@
           },
           {
             "depositRateType": "FIXED",
-            "rate": "0.0285",
+            "rate": "0.03",
             "calculationFrequency": "P1D",
             "applicationType": "MATURITY",
             "tiers": [
@@ -2604,7 +2604,7 @@
         "productCategory": "TERM_DEPOSITS",
         "productId": "I8_Fixed_Term_Deposit",
         "effectiveFrom": "2021-03-25T00:00:00.000+11:00",
-        "lastUpdated": "2026-10-07T16:38:33.000+11:00",
+        "lastUpdated": "2026-11-22T05:16:00.000+11:00",
         "name": "$500+ (3m to <6m) I8",
         "description": "A fixed term deposit lets you earn a competitive interest rate on your money, over a set period of time.",
         "brand": "CENTRAL WEST CREDIT UNION LTD",

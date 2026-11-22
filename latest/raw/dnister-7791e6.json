@@ -34,7 +34,7 @@
       "detail": {
         "productId": "1",
         "effectiveFrom": "2005-06-30T14:30:00.0000000Z",
-        "lastUpdated": "2026-11-22T00:00:40.1458365Z",
+        "lastUpdated": "2026-11-22T20:00:39.7286769Z",
         "productCategory": "TERM_DEPOSITS",
         "name": "Term Deposit - 1 Month",
         "description": "Make the most of your savings and invest with our 1 month Term Deposit.",
@@ -154,7 +154,7 @@
       "detail": {
         "productId": "10",
         "effectiveFrom": "2005-06-30T14:30:00.0000000Z",
-        "lastUpdated": "2026-11-22T00:00:40.1458365Z",
+        "lastUpdated": "2026-11-22T20:00:39.7286769Z",
         "productCategory": "TERM_DEPOSITS",
         "name": "Term Deposit - 10 Months",
         "description": "Make the most of your savings and invest with our 10 month Term Deposit.",
@@ -274,7 +274,7 @@
       "detail": {
         "productId": "11",
         "effectiveFrom": "2005-06-30T14:30:00.0000000Z",
-        "lastUpdated": "2026-11-22T00:00:40.1458365Z",
+        "lastUpdated": "2026-11-22T20:00:39.7286769Z",
         "productCategory": "TERM_DEPOSITS",
         "name": "Term Deposit - 11 Months",
         "description": "Make the most of your savings and invest with our 11 month Term Deposit.",
@@ -394,7 +394,7 @@
       "detail": {
         "productId": "12",
         "effectiveFrom": "2005-06-30T14:30:00.0000000Z",
-        "lastUpdated": "2026-11-22T00:00:40.1458365Z",
+        "lastUpdated": "2026-11-22T20:00:39.7286769Z",
         "productCategory": "TERM_DEPOSITS",
         "name": "Term Deposit - 12 Months",
         "description": "Make the most of your savings and invest with our 12 month Term Deposit.",
@@ -514,7 +514,7 @@
       "detail": {
         "productId": "13",
         "effectiveFrom": "2005-06-30T14:30:00.0000000Z",
-        "lastUpdated": "2026-11-22T00:00:40.1458365Z",
+        "lastUpdated": "2026-11-22T20:00:39.7286769Z",
         "productCategory": "TERM_DEPOSITS",
         "name": "Term Deposit - 18 Months",
         "description": "Make the most of your savings and invest with our 18  month Term Deposit.",
@@ -634,7 +634,7 @@
       "detail": {
         "productId": "14",
         "effectiveFrom": "2005-06-30T14:30:00.0000000Z",
-        "lastUpdated": "2026-11-22T00:00:40.1458365Z",
+        "lastUpdated": "2026-11-22T20:00:39.7286769Z",
         "productCategory": "TERM_DEPOSITS",
         "name": "Term Deposit - 24 Months",
         "description": "Make the most of your savings and invest with our 24 month Term Deposit.",
@@ -754,7 +754,7 @@
       "detail": {
         "productId": "15",
         "effectiveFrom": "2013-04-28T14:30:00.0000000Z",
-        "lastUpdated": "2026-11-22T00:00:40.1458365Z",
+        "lastUpdated": "2026-11-22T20:00:39.7286769Z",
         "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
         "name": "My Community Saver",
         "description": "A great, high interest earning savings account that has been designed with our community conscious members in mind.",
@@ -1145,7 +1145,7 @@
       "detail": {
         "productId": "17",
         "effectiveFrom": "2005-06-30T14:30:00.0000000Z",
-        "lastUpdated": "2026-11-22T00:00:40.1458365Z",
+        "lastUpdated": "2026-11-22T20:00:39.7286769Z",
         "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
         "name": "iSaver",
         "description": "Enjoy the freedom of online banking to save at a higher rate of return even if you spend.",
@@ -1437,7 +1437,7 @@
       "detail": {
         "productId": "18",
         "effectiveFrom": "2007-03-22T13:30:00.0000000Z",
-        "lastUpdated": "2026-11-22T00:00:40.1458365Z",
+        "lastUpdated": "2026-11-22T20:00:39.7286769Z",
         "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
         "name": "Bonus Saver",
         "description": "Be rewarded for saving!",
@@ -1688,7 +1688,7 @@
       "detail": {
         "productId": "19",
         "effectiveFrom": "2005-06-30T14:30:00.0000000Z",
-        "lastUpdated": "2026-11-22T00:00:40.1458365Z",
+        "lastUpdated": "2026-11-22T20:00:39.7286769Z",
         "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
         "name": "Everyday Access",
         "description": "24/7 daily account.",
@@ -1958,7 +1958,7 @@
       "detail": {
         "productId": "2",
         "effectiveFrom": "2005-06-30T14:30:00.0000000Z",
-        "lastUpdated": "2026-11-22T00:00:40.1458365Z",
+        "lastUpdated": "2026-11-22T20:00:39.7286769Z",
         "productCategory": "TERM_DEPOSITS",
         "name": "Term Deposit - 2 Months",
         "description": "Make the most of your savings and invest with our 2 month Term Deposit.",
@@ -2078,7 +2078,7 @@
       "detail": {
         "productId": "3",
         "effectiveFrom": "2005-06-30T14:30:00.0000000Z",
-        "lastUpdated": "2026-11-22T00:00:40.1458365Z",
+        "lastUpdated": "2026-11-22T20:00:39.7286769Z",
         "productCategory": "TERM_DEPOSITS",
         "name": "Term Deposit - 3 Months",
         "description": "Make the most of your savings and invest with our 3 month Term Deposit.",
@@ -2198,7 +2198,7 @@
       "detail": {
         "productId": "30",
         "effectiveFrom": "2005-06-30T14:30:00.0000000Z",
-        "lastUpdated": "2026-11-22T00:00:40.1458365Z",
+        "lastUpdated": "2026-11-22T20:00:39.7286769Z",
         "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
         "name": "Pensioner Savings",
         "description": "Everyday account tailored for Seniors.",
@@ -2547,7 +2547,7 @@
       "detail": {
         "productId": "31",
         "effectiveFrom": "2005-06-30T14:30:00.0000000Z",
-        "lastUpdated": "2026-11-22T00:00:40.1458365Z",
+        "lastUpdated": "2026-11-22T20:00:39.7286769Z",
         "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
         "name": "Max Saver",
         "description": "Maximise your savings!",
@@ -2825,7 +2825,7 @@
       "detail": {
         "productId": "33",
         "effectiveFrom": "2006-09-26T14:30:00.0000000Z",
-        "lastUpdated": "2026-11-22T00:00:40.1458365Z",
+        "lastUpdated": "2026-11-22T20:00:39.7286769Z",
         "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
         "name": "Offset Account",
         "description": "Offset Account",
@@ -3124,7 +3124,7 @@
       "detail": {
         "productId": "36",
         "effectiveFrom": "2005-06-30T14:30:00.0000000Z",
-        "lastUpdated": "2026-11-22T00:00:40.1458365Z",
+        "lastUpdated": "2026-11-22T20:00:39.7286769Z",
         "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
         "name": "Everyday Access.",
         "description": "Everyday Access.",
@@ -3381,7 +3381,7 @@
       "detail": {
         "productId": "4",
         "effectiveFrom": "2005-06-30T14:30:00.0000000Z",
-        "lastUpdated": "2026-11-22T00:00:40.1458365Z",
+        "lastUpdated": "2026-11-22T20:00:39.7286769Z",
         "productCategory": "TERM_DEPOSITS",
         "name": "Term Deposit - 4 Months",
         "description": "Make the most of your savings and invest with our 4 month Term Deposit.",
@@ -3501,7 +3501,7 @@
       "detail": {
         "productId": "5",
         "effectiveFrom": "2005-06-30T14:30:00.0000000Z",
-        "lastUpdated": "2026-11-22T00:00:40.1458365Z",
+        "lastUpdated": "2026-11-22T20:00:39.7286769Z",
         "productCategory": "TERM_DEPOSITS",
         "name": "Term Deposit - 5 Months",
         "description": "Make the most of your savings and invest with our 5 month Term Deposit.",
@@ -3621,7 +3621,7 @@
       "detail": {
         "productId": "6",
         "effectiveFrom": "2005-06-30T14:30:00.0000000Z",
-        "lastUpdated": "2026-11-22T00:00:40.1458365Z",
+        "lastUpdated": "2026-11-22T20:00:39.7286769Z",
         "productCategory": "TERM_DEPOSITS",
         "name": "Term Deposit - 6 Months",
         "description": "Make the most of your savings and invest with our 6 month Term Deposit.",
@@ -3741,7 +3741,7 @@
       "detail": {
         "productId": "7",
         "effectiveFrom": "2005-06-30T14:30:00.0000000Z",
-        "lastUpdated": "2026-11-22T00:00:40.1458365Z",
+        "lastUpdated": "2026-11-22T20:00:39.7286769Z",
         "productCategory": "TERM_DEPOSITS",
         "name": "Term Deposit - 7 Months",
         "description": "Make the most of your savings and invest with our 7 month Term Deposit.",
@@ -3861,7 +3861,7 @@
       "detail": {
         "productId": "8",
         "effectiveFrom": "2005-06-30T14:30:00.0000000Z",
-        "lastUpdated": "2026-11-22T00:00:40.1458365Z",
+        "lastUpdated": "2026-11-22T20:00:39.7286769Z",
         "productCategory": "TERM_DEPOSITS",
         "name": "Term Deposit - 8 Months",
         "description": "Make the most of your savings and invest with our 8 month Term Deposit.",
@@ -3981,7 +3981,7 @@
       "detail": {
         "productId": "9",
         "effectiveFrom": "2005-06-30T14:30:00.0000000Z",
-        "lastUpdated": "2026-11-22T00:00:40.1458365Z",
+        "lastUpdated": "2026-11-22T20:00:39.7286769Z",
         "productCategory": "TERM_DEPOSITS",
         "name": "Term Deposit - 9 Months",
         "description": "Make the most of your savings and invest with our 9 month Term Deposit.",

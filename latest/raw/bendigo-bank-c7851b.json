@@ -20,11 +20,11 @@
     "pagesFetched": 1,
     "productCount": 50,
     "categoryCounts": {
-      "RESIDENTIAL_MORTGAGES": 9,
       "TRANS_AND_SAVINGS_ACCOUNTS": 13,
+      "CRED_AND_CHRG_CARDS": 6,
+      "RESIDENTIAL_MORTGAGES": 9,
       "BUSINESS_LOANS": 5,
       "REGULATED_TRUST_ACCOUNTS": 4,
-      "CRED_AND_CHRG_CARDS": 6,
       "TERM_DEPOSITS": 5,
       "PERS_LOANS": 6,
       "OVERDRAFTS": 1,
@@ -36,7 +36,7 @@
       "productId": "127b2ef2-a72c-4d51-bb46-cafe5f9bef42",
       "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
       "detail": {
-        "lastUpdated": "2026-10-18T13:32:22.814Z",
+        "lastUpdated": "2026-11-22T13:32:22.817Z",
         "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
         "name": "Bendigo Easy Retirement Account",
         "description": "A transaction account designed to make life easier for retirees and pensioners.",
@@ -232,7 +232,7 @@
           },
           {
             "depositRateType": "VARIABLE",
-            "rate": "0.0195000000000000",
+            "rate": "0.0220000000000000",
             "calculationFrequency": "P1D",
             "applicationFrequency": "P1M",
             "applicationType": "PERIODIC",
@@ -248,7 +248,7 @@
           },
           {
             "depositRateType": "VARIABLE",
-            "rate": "0.0245000000000000",
+            "rate": "0.0270000000000000",
             "calculationFrequency": "P1D",
             "applicationFrequency": "P1M",
             "applicationType": "PERIODIC",
@@ -264,7 +264,7 @@
           },
           {
             "depositRateType": "VARIABLE",
-            "rate": "0.0275000000000000",
+            "rate": "0.0300000000000000",
             "calculationFrequency": "P1D",
             "applicationFrequency": "P1M",
             "applicationType": "PERIODIC",
@@ -595,7 +595,6 @@
             "additionalInfo": "*Existing customers only "
           }
         ],
-        "eligibility": [],
         "constraints": [
           {
             "constraintType": "OPENING_BALANCE",
@@ -608,7 +607,7 @@
             "additionalValue": "1.00"
           }
         ],
-        "lendingRates": [],
+        "eligibility": [],
         "fees": [
           {
             "name": "Bank Cheque Withdrawal",
@@ -629,6 +628,7 @@
             }
           }
         ],
+        "lendingRates": [],
         "depositRates": [
           {
             "depositRateType": "FIXED",
@@ -763,7 +763,6 @@
         "brandName": "Bendigo Bank",
         "isTailored": false,
         "bundles": [],
-        "cardArt": [],
         "features": [
           {
             "featureType": "OTHER",
@@ -807,6 +806,7 @@
             "featureType": "NPP_PAYID"
           }
         ],
+        "cardArt": [],
         "constraints": [
           {
             "constraintType": "OPENING_BALANCE",
@@ -934,7 +934,6 @@
         "isTailored": false,
         "bundles": [],
         "cardArt": [],
-        "lendingRates": [],
         "features": [
           {
             "featureType": "OTHER",
@@ -999,6 +998,7 @@
             }
           }
         ],
+        "lendingRates": [],
         "depositRates": [
           {
             "depositRateType": "VARIABLE",
@@ -1063,7 +1063,7 @@
       "productId": "6d6b4d2d-55b4-48ef-afeb-b5d4a6d0cae4",
       "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
       "detail": {
-        "lastUpdated": "2026-10-18T13:32:24.574Z",
+        "lastUpdated": "2026-11-22T13:32:25.796Z",
         "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
         "name": "Bendigo Business EasySaver",
         "description": "This account offers a single interest rate on the entire balance of the account, and includes free e-banking transactions.",
@@ -1180,7 +1180,7 @@
         "depositRates": [
           {
             "depositRateType": "VARIABLE",
-            "rate": "0.0150000000000000",
+            "rate": "0.0170000000000000",
             "calculationFrequency": "P1D",
             "applicationFrequency": "P1M",
             "applicationType": "PERIODIC"
@@ -2226,7 +2226,6 @@
             "additionalInfo": "Existing customers only"
           }
         ],
-        "eligibility": [],
         "constraints": [
           {
             "constraintType": "OPENING_BALANCE",
@@ -2239,7 +2238,7 @@
             "additionalValue": "1.00"
           }
         ],
-        "lendingRates": [],
+        "eligibility": [],
         "fees": [
           {
             "name": "Bank Cheque Withdrawal",
@@ -2260,6 +2259,7 @@
             }
           }
         ],
+        "lendingRates": [],
         "depositRates": [
           {
             "depositRateType": "FIXED",
@@ -3476,7 +3476,7 @@
       "productId": "c2044188-1f73-46d9-95e6-5852f3fb4d92",
       "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
       "detail": {
-        "lastUpdated": "2026-10-18T13:32:24.134Z",
+        "lastUpdated": "2026-11-22T13:32:24.056Z",
         "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
         "name": "Bendigo EasySaver",
         "description": "Earn an attractive interest rate no matter how much you save or how much you transact.",
@@ -3485,6 +3485,7 @@
         "applicationUri": "https://applynow.bendigobank.com.au/apply/#/apply/new/depositAccounts/productSelection?productCode=SAV-V5-CME",
         "isTailored": false,
         "bundles": [],
+        "cardArt": [],
         "features": [
           {
             "featureType": "NPP_ENABLED"
@@ -3503,7 +3504,6 @@
             "additionalValue": "2"
           }
         ],
-        "cardArt": [],
         "constraints": [],
         "eligibility": [],
         "fees": [
@@ -3549,7 +3549,7 @@
         "depositRates": [
           {
             "depositRateType": "VARIABLE",
-            "rate": "0.0380000000000000",
+            "rate": "0.0405000000000000",
             "calculationFrequency": "P1D",
             "applicationFrequency": "P1M",
             "applicationType": "PERIODIC"
@@ -3571,7 +3571,7 @@
       "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
       "detail": {
         "effectiveFrom": "2021-03-09T13:00:00.000Z",
-        "lastUpdated": "2026-10-18T13:32:23.694Z",
+        "lastUpdated": "2026-11-22T13:33:22.636Z",
         "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
         "name": "Bendigo Reward Saver",
         "description": "A savings account that helps you save for your goals - with a Bonus Rate to get you there faster.",
@@ -3617,7 +3617,7 @@
           },
           {
             "depositRateType": "BONUS",
-            "rate": "0.0490000000000000",
+            "rate": "0.0515000000000000",
             "calculationFrequency": "P1D",
             "applicationFrequency": "P1M",
             "additionalInfo": "Bonus Rate in addition to variable (Base) rate where criteria is met\nWhen you grow your balance every month*\nWatch your savings grow without worrying about monthly service fees",
@@ -3633,7 +3633,7 @@
           },
           {
             "depositRateType": "BONUS",
-            "rate": "0.0490000000000000",
+            "rate": "0.0515000000000000",
             "calculationFrequency": "P1D",
             "applicationFrequency": "P1M",
             "additionalInfo": "Bonus Rate in addition to variable (Base) rate where criteria is met.\nWhen you grow your balance every month*\nWatch your savings grow without worrying about monthly service fees ",
@@ -4261,7 +4261,7 @@
       "productId": "e7e9fe9a-f9e9-4316-a78f-8f00a1850daf",
       "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
       "detail": {
-        "lastUpdated": "2026-10-18T13:32:23.333Z",
+        "lastUpdated": "2026-11-22T13:32:23.595Z",
         "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
         "name": "Bendigo PiggySaver",
         "description": "Designed for kids under 12. Fun and rewarding way to introduce them to saving.",
@@ -4295,7 +4295,7 @@
         "depositRates": [
           {
             "depositRateType": "VARIABLE",
-            "rate": "0.0380000000000000",
+            "rate": "0.0405000000000000",
             "calculationFrequency": "P1D",
             "applicationFrequency": "P1M",
             "applicationType": "PERIODIC"

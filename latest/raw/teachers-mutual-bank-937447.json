@@ -20,10 +20,10 @@
     "pagesFetched": 1,
     "productCount": 30,
     "categoryCounts": {
+      "TERM_DEPOSITS": 3,
       "PERS_LOANS": 4,
       "RESIDENTIAL_MORTGAGES": 16,
       "TRANS_AND_SAVINGS_ACCOUNTS": 6,
-      "TERM_DEPOSITS": 3,
       "CRED_AND_CHRG_CARDS": 1
     }
   },
@@ -2350,7 +2350,7 @@
       "productCategory": "TERM_DEPOSITS",
       "detail": {
         "productId": "c13e1dc4-1d01-41f1-8c39-ad5b389c46f2",
-        "lastUpdated": "2026-11-11T23:59:28.000+11:00",
+        "lastUpdated": "2026-11-23T08:56:33.000+11:00",
         "productCategory": "TERM_DEPOSITS",
         "name": "Term Deposit",
         "description": "Take advantage of great returns on our term deposits.",
@@ -3724,7 +3724,7 @@
         ]
       },
       "detailStatus": 200,
-      "detailVersion": ""
+      "detailVersion": "7"
     },
     {
       "productId": "e556280d-1d2b-4fb1-b22f-151e8050bdda",

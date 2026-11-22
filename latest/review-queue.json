@@ -1,12 +1,23 @@
 {
-  "generatedAt": "2026-11-22T00:04:00.113Z",
+  "generatedAt": "2026-11-22T21:58:23.166Z",
   "stats": {
     "candidates": 166,
-    "reviewed": 166,
-    "stale": 0,
-    "queued": 0,
+    "reviewed": 165,
+    "stale": 1,
+    "queued": 1,
     "belowThreshold": 0,
     "threshold": 0.03
   },
-  "items": []
+  "items": [
+    {
+      "key": "bendigo-bank-c7851b:cb6f3716-4e76-4e5b-b79d-0720756a21ac",
+      "brand": "Bendigo Bank",
+      "name": "Bendigo Reward Saver",
+      "category": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "headline": 0.104,
+      "reasons": [
+        "bonus/intro rows"
+      ]
+    }
+  ]
 }

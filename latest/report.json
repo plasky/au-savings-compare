@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-22T00:04:00.770Z",
+  "generatedAt": "2026-11-22T21:58:24.054Z",
   "crawl": {
-    "crawledAt": "2026-11-22T00:03:59.421Z",
+    "crawledAt": "2026-11-22T21:58:22.194Z",
     "registerOk": true,
     "brandsTotal": 390,
     "brandsInScope": 306,
@@ -299,7 +299,7 @@
       "5": 16,
       "6": 38,
       "7": 1477,
-      "": 1
+      "none": 1
     },
     "cors": {
       "browserReady": 242,
@@ -509,7 +509,7 @@
       "description": "Base + stacked bonuses at $10k above 9% — likely a \"total rate\" bonus double-counted, or bad data",
       "count": 9,
       "examples": [
-        "Bendigo Bank — Bendigo Reward Saver: base 0.10% + bonus 9.80%",
+        "Bendigo Bank — Bendigo Reward Saver: base 0.10% + bonus 10.30%",
         "Defence Bank Limited — Salute Account: base 4.25% + bonus 6.00%",
         "My State PM Production — Bonus Saver: base — + bonus 10.95%",
         "Traditional Credit Union — S1 Everyday Account: base 200.00% + bonus —",
@@ -602,6 +602,16 @@
       "note": "intro may be total"
     },
     {
+      "brand": "Bendigo Bank",
+      "product": "Bendigo Reward Saver",
+      "productId": "cb6f3716-4e76-4e5b-b79d-0720756a21ac",
+      "base": 0.001,
+      "bonus": 0.103,
+      "intro": null,
+      "headline": 0.104,
+      "note": "2 bonuses stacked"
+    },
+    {
       "brand": "Defence Bank Limited",
       "product": "Salute Account",
       "productId": "119",
@@ -610,16 +620,6 @@
       "intro": null,
       "headline": 0.10250000000000001,
       "note": ""
-    },
-    {
-      "brand": "Bendigo Bank",
-      "product": "Bendigo Reward Saver",
-      "productId": "cb6f3716-4e76-4e5b-b79d-0720756a21ac",
-      "base": 0.001,
-      "bonus": 0.098,
-      "intro": null,
-      "headline": 0.099,
-      "note": "2 bonuses stacked"
     },
     {
       "brand": "ING BANK (Australia) Ltd",
@@ -981,12 +981,23 @@
   "review": {
     "stats": {
       "candidates": 166,
-      "reviewed": 166,
-      "stale": 0,
-      "queued": 0,
+      "reviewed": 165,
+      "stale": 1,
+      "queued": 1,
       "belowThreshold": 0,
       "threshold": 0.03
     },
-    "top": []
+    "top": [
+      {
+        "key": "bendigo-bank-c7851b:cb6f3716-4e76-4e5b-b79d-0720756a21ac",
+        "brand": "Bendigo Bank",
+        "name": "Bendigo Reward Saver",
+        "category": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "headline": 0.104,
+        "reasons": [
+          "bonus/intro rows"
+        ]
+      }
+    ]
   }
 }

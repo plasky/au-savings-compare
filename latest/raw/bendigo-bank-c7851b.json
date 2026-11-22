@@ -595,6 +595,7 @@
             "additionalInfo": "*Existing customers only "
           }
         ],
+        "eligibility": [],
         "constraints": [
           {
             "constraintType": "OPENING_BALANCE",
@@ -607,7 +608,7 @@
             "additionalValue": "1.00"
           }
         ],
-        "eligibility": [],
+        "lendingRates": [],
         "fees": [
           {
             "name": "Bank Cheque Withdrawal",
@@ -628,7 +629,6 @@
             }
           }
         ],
-        "lendingRates": [],
         "depositRates": [
           {
             "depositRateType": "FIXED",
@@ -738,8 +738,8 @@
             }
           }
         ],
-        "lendingRates": [],
         "depositRates": [],
+        "lendingRates": [],
         "additionalInformation": {
           "overviewUri": "https://www.bendigobank.com.au/business/manage-fx/",
           "termsUri": "https://www.bendigobank.com.au/disclosure-documents/",
@@ -934,6 +934,7 @@
         "isTailored": false,
         "bundles": [],
         "cardArt": [],
+        "lendingRates": [],
         "features": [
           {
             "featureType": "OTHER",
@@ -998,7 +999,6 @@
             }
           }
         ],
-        "lendingRates": [],
         "depositRates": [
           {
             "depositRateType": "VARIABLE",
@@ -2226,6 +2226,7 @@
             "additionalInfo": "Existing customers only"
           }
         ],
+        "eligibility": [],
         "constraints": [
           {
             "constraintType": "OPENING_BALANCE",
@@ -2238,7 +2239,7 @@
             "additionalValue": "1.00"
           }
         ],
-        "eligibility": [],
+        "lendingRates": [],
         "fees": [
           {
             "name": "Bank Cheque Withdrawal",
@@ -2259,7 +2260,6 @@
             }
           }
         ],
-        "lendingRates": [],
         "depositRates": [
           {
             "depositRateType": "FIXED",
@@ -3485,7 +3485,6 @@
         "applicationUri": "https://applynow.bendigobank.com.au/apply/#/apply/new/depositAccounts/productSelection?productCode=SAV-V5-CME",
         "isTailored": false,
         "bundles": [],
-        "cardArt": [],
         "features": [
           {
             "featureType": "NPP_ENABLED"
@@ -3504,6 +3503,7 @@
             "additionalValue": "2"
           }
         ],
+        "cardArt": [],
         "constraints": [],
         "eligibility": [],
         "fees": [

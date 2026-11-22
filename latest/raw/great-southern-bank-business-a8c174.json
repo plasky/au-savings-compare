@@ -50,6 +50,22 @@
         "effectiveFrom": "2025-10-23T06:00:00Z",
         "eligibility": [
           {
+            "additionalInfo": "To open an account, you must have an Australian Address.",
+            "eligibilityType": "OTHER"
+          },
+          {
+            "additionalValue": "18",
+            "eligibilityType": "MIN_AGE"
+          },
+          {
+            "additionalInfo": "You must have an Australian mobile number and a valid email address.",
+            "eligibilityType": "OTHER"
+          },
+          {
+            "additionalInfo": "To open an account, you must have an ABN.",
+            "eligibilityType": "BUSINESS"
+          },
+          {
             "additionalInfo": "To open an account, you must meet our ID verification requirements.",
             "eligibilityType": "OTHER"
           },
@@ -58,28 +74,12 @@
             "eligibilityType": "OTHER"
           },
           {
-            "additionalValue": "You must be an Australian tax resident.",
-            "eligibilityType": "RESIDENCY_STATUS"
-          },
-          {
-            "additionalInfo": "To open an account, you must have an ABN.",
-            "eligibilityType": "BUSINESS"
-          },
-          {
-            "additionalInfo": "You must have an Australian mobile number and a valid email address.",
-            "eligibilityType": "OTHER"
-          },
-          {
-            "additionalValue": "18",
-            "eligibilityType": "MIN_AGE"
-          },
-          {
-            "additionalInfo": "To open an account, you must have an Australian Address.",
-            "eligibilityType": "OTHER"
-          },
-          {
             "additionalInfo": "To open an account, you will need to download, register and activate your Great Southern Bank Business app.",
             "eligibilityType": "OTHER"
+          },
+          {
+            "additionalValue": "You must be an Australian tax resident.",
+            "eligibilityType": "RESIDENCY_STATUS"
           }
         ],
         "features": [
@@ -126,8 +126,8 @@
         "effectiveFrom": "2025-10-23T06:00:00Z",
         "eligibility": [
           {
-            "additionalValue": " 18",
-            "eligibilityType": "MIN_AGE"
+            "additionalInfo": "To open an account, you must have an ABN.",
+            "eligibilityType": "BUSINESS"
           },
           {
             "additionalInfo": "To open an account, you must have an Australian Address.",
@@ -138,24 +138,24 @@
             "eligibilityType": "OTHER"
           },
           {
-            "additionalInfo": "To open an account, you will need to download, register and activate your Great Southern Bank Business app.",
-            "eligibilityType": "OTHER"
-          },
-          {
-            "additionalValue": "You must be an Australian tax resident.",
-            "eligibilityType": "RESIDENCY_STATUS"
-          },
-          {
-            "additionalInfo": "To open an account, you must have an ABN.",
-            "eligibilityType": "BUSINESS"
+            "additionalValue": " 18",
+            "eligibilityType": "MIN_AGE"
           },
           {
             "additionalInfo": "To open an account, you must meet our ID verification requirements.",
             "eligibilityType": "OTHER"
           },
           {
+            "additionalInfo": "To open an account, you will need to download, register and activate your Great Southern Bank Business app.",
+            "eligibilityType": "OTHER"
+          },
+          {
             "additionalInfo": "To open an account with this product, you must have an Business Transaction Account.",
             "eligibilityType": "OTHER"
+          },
+          {
+            "additionalValue": "You must be an Australian tax resident.",
+            "eligibilityType": "RESIDENCY_STATUS"
           }
         ],
         "features": [
@@ -202,27 +202,19 @@
         "effectiveFrom": "2025-10-23T06:00:00Z",
         "eligibility": [
           {
-            "additionalInfo": "You must have an Australian mobile number and a valid email address.",
-            "eligibilityType": "OTHER"
-          },
-          {
-            "additionalValue": "You must be an Australian tax resident.",
-            "eligibilityType": "RESIDENCY_STATUS"
-          },
-          {
-            "additionalInfo": "To open an account, you will need to download, register and activate your Great Southern Bank Business app.",
-            "eligibilityType": "OTHER"
-          },
-          {
             "additionalInfo": "To open an account, you must have an ABN.",
             "eligibilityType": "BUSINESS"
+          },
+          {
+            "additionalInfo": "To open an account, you must meet our ID verification requirements",
+            "eligibilityType": "OTHER"
           },
           {
             "additionalInfo": "To open an account, you must have an Australian Address.",
             "eligibilityType": "OTHER"
           },
           {
-            "additionalInfo": "To open an account, you must meet our ID verification requirements",
+            "additionalInfo": "To open an account with this product, you must have an Business Transaction Account",
             "eligibilityType": "OTHER"
           },
           {
@@ -230,7 +222,15 @@
             "eligibilityType": "MIN_AGE"
           },
           {
-            "additionalInfo": "To open an account with this product, you must have an Business Transaction Account",
+            "additionalValue": "You must be an Australian tax resident.",
+            "eligibilityType": "RESIDENCY_STATUS"
+          },
+          {
+            "additionalInfo": "You must have an Australian mobile number and a valid email address.",
+            "eligibilityType": "OTHER"
+          },
+          {
+            "additionalInfo": "To open an account, you will need to download, register and activate your Great Southern Bank Business app.",
             "eligibilityType": "OTHER"
           }
         ],
@@ -282,18 +282,6 @@
             "eligibilityType": "OTHER"
           },
           {
-            "additionalInfo": "To open an account, you must meet our ID verification requirements.",
-            "eligibilityType": "OTHER"
-          },
-          {
-            "additionalValue": "18",
-            "eligibilityType": "MIN_AGE"
-          },
-          {
-            "additionalInfo": "To open an account with this product, you must have an Business Transaction Account.",
-            "eligibilityType": "OTHER"
-          },
-          {
             "additionalInfo": "To open an account, you must have an ABN.",
             "eligibilityType": "BUSINESS"
           },
@@ -302,12 +290,24 @@
             "eligibilityType": "OTHER"
           },
           {
+            "additionalValue": "You must be an Australian tax resident.",
+            "eligibilityType": "RESIDENCY_STATUS"
+          },
+          {
+            "additionalInfo": "To open an account, you must meet our ID verification requirements.",
+            "eligibilityType": "OTHER"
+          },
+          {
+            "additionalInfo": "To open an account with this product, you must have an Business Transaction Account.",
+            "eligibilityType": "OTHER"
+          },
+          {
             "additionalInfo": "You must have an Australian mobile number and a valid email address.",
             "eligibilityType": "OTHER"
           },
           {
-            "additionalValue": "You must be an Australian tax resident.",
-            "eligibilityType": "RESIDENCY_STATUS"
+            "additionalValue": "18",
+            "eligibilityType": "MIN_AGE"
           }
         ],
         "features": [
@@ -354,11 +354,19 @@
         "effectiveFrom": "2025-10-23T06:00:00Z",
         "eligibility": [
           {
+            "additionalInfo": "To open an account, you must have an ABN.",
+            "eligibilityType": "BUSINESS"
+          },
+          {
             "additionalInfo": "To open an account with this product, you must have an Business Transaction Account.",
             "eligibilityType": "OTHER"
           },
           {
-            "additionalInfo": "To open an account, you must have an Australian Address.",
+            "additionalValue": "18",
+            "eligibilityType": "MIN_AGE"
+          },
+          {
+            "additionalInfo": "To open an account, you must meet our ID verification requirements.",
             "eligibilityType": "OTHER"
           },
           {
@@ -366,24 +374,16 @@
             "eligibilityType": "OTHER"
           },
           {
-            "additionalInfo": "You must have an Australian mobile number and a valid email address.",
-            "eligibilityType": "OTHER"
-          },
-          {
-            "additionalInfo": "To open an account, you must have an ABN.",
-            "eligibilityType": "BUSINESS"
-          },
-          {
             "additionalValue": "You must be an Australian tax resident.",
             "eligibilityType": "RESIDENCY_STATUS"
           },
           {
-            "additionalInfo": "To open an account, you must meet our ID verification requirements.",
+            "additionalInfo": "You must have an Australian mobile number and a valid email address.",
             "eligibilityType": "OTHER"
           },
           {
-            "additionalValue": "18",
-            "eligibilityType": "MIN_AGE"
+            "additionalInfo": "To open an account, you must have an Australian Address.",
+            "eligibilityType": "OTHER"
           }
         ],
         "features": [
@@ -434,12 +434,24 @@
             "eligibilityType": "BUSINESS"
           },
           {
+            "additionalInfo": "To open an account, you will need to download, register and activate your Great Southern Bank Business app.",
+            "eligibilityType": "OTHER"
+          },
+          {
+            "additionalInfo": "\nTo open an account with this product, you must have an Business Transaction Account.",
+            "eligibilityType": "OTHER"
+          },
+          {
+            "additionalInfo": "To open an account, you must have an Australian Address.",
+            "eligibilityType": "OTHER"
+          },
+          {
             "additionalInfo": "You must have an Australian mobile number and a valid email address.",
             "eligibilityType": "OTHER"
           },
           {
-            "additionalInfo": "To open an account, you will need to download, register and activate your Great Southern Bank Business app.",
-            "eligibilityType": "OTHER"
+            "additionalValue": "18",
+            "eligibilityType": "MIN_AGE"
           },
           {
             "additionalInfo": "To open an account, you must meet our ID verification requirements.",
@@ -448,28 +460,16 @@
           {
             "additionalValue": "You must be an Australian tax resident.",
             "eligibilityType": "RESIDENCY_STATUS"
-          },
-          {
-            "additionalInfo": "\nTo open an account with this product, you must have an Business Transaction Account.",
-            "eligibilityType": "OTHER"
-          },
-          {
-            "additionalValue": "18",
-            "eligibilityType": "MIN_AGE"
-          },
-          {
-            "additionalInfo": "To open an account, you must have an Australian Address.",
-            "eligibilityType": "OTHER"
           }
         ],
         "features": [
           {
-            "additionalValue": "All statements, notices and other communication in connection with these terms and conditions and your account may be given electronically by Great Southern Bank by:\\\\n• email, text message, in app push notifications, in app prompts, or\\\\n• letting you know by email, text message or push notification that the information is available on the app or on a website.\\\\nYou should check your emails, text messages and push notifications regularly.",
-            "featureType": "NOTIFICATIONS"
-          },
-          {
             "additionalInfo": "You can access your Term Deposit on your mobile and online.",
             "featureType": "DIGITAL_BANKING"
+          },
+          {
+            "additionalValue": "All statements, notices and other communication in connection with these terms and conditions and your account may be given electronically by Great Southern Bank by:\\\\n• email, text message, in app push notifications, in app prompts, or\\\\n• letting you know by email, text message or push notification that the information is available on the app or on a website.\\\\nYou should check your emails, text messages and push notifications regularly.",
+            "featureType": "NOTIFICATIONS"
           }
         ],
         "isTailored": false,
@@ -506,24 +506,12 @@
         "effectiveFrom": "2025-10-23T06:00:00Z",
         "eligibility": [
           {
-            "additionalValue": "You must be an Australian tax resident.",
-            "eligibilityType": "RESIDENCY_STATUS"
-          },
-          {
-            "additionalInfo": "To open an account, you must have an ABN.",
-            "eligibilityType": "BUSINESS"
-          },
-          {
-            "additionalValue": "18",
-            "eligibilityType": "MIN_AGE"
-          },
-          {
             "additionalInfo": "To open an account, you will need to download, register and activate your Great Southern Bank Business app.",
             "eligibilityType": "OTHER"
           },
           {
-            "additionalInfo": "To open an account, you must meet our ID verification requirements.",
-            "eligibilityType": "OTHER"
+            "additionalInfo": "To open an account, you must have an ABN.",
+            "eligibilityType": "BUSINESS"
           },
           {
             "additionalInfo": "You must have an Australian mobile number and a valid email address.",
@@ -534,8 +522,20 @@
             "eligibilityType": "OTHER"
           },
           {
+            "additionalInfo": "To open an account, you must meet our ID verification requirements.",
+            "eligibilityType": "OTHER"
+          },
+          {
+            "additionalValue": "18",
+            "eligibilityType": "MIN_AGE"
+          },
+          {
             "additionalInfo": "\nTo open an account, you must have an Australian Address.",
             "eligibilityType": "OTHER"
+          },
+          {
+            "additionalValue": "You must be an Australian tax resident.",
+            "eligibilityType": "RESIDENCY_STATUS"
           }
         ],
         "features": [
@@ -582,14 +582,6 @@
         "effectiveFrom": "2025-10-23T06:00:00Z",
         "eligibility": [
           {
-            "additionalInfo": "To open an account with this product, you must have an Business Transaction Account.",
-            "eligibilityType": "OTHER"
-          },
-          {
-            "additionalInfo": "To open an account, you must have an ABN.",
-            "eligibilityType": "BUSINESS"
-          },
-          {
             "additionalValue": "You must be an Australian tax resident.",
             "eligibilityType": "RESIDENCY_STATUS"
           },
@@ -598,11 +590,7 @@
             "eligibilityType": "OTHER"
           },
           {
-            "additionalInfo": "To open an account, you must have an Australian Address.",
-            "eligibilityType": "OTHER"
-          },
-          {
-            "additionalInfo": "To open an account, you will need to download, register and activate your Great Southern Bank Business app.",
+            "additionalInfo": "\nYou must have an Australian mobile number and a valid email address.",
             "eligibilityType": "OTHER"
           },
           {
@@ -610,18 +598,30 @@
             "eligibilityType": "MIN_AGE"
           },
           {
-            "additionalInfo": "\nYou must have an Australian mobile number and a valid email address.",
+            "additionalInfo": "To open an account, you must have an ABN.",
+            "eligibilityType": "BUSINESS"
+          },
+          {
+            "additionalInfo": "To open an account, you must have an Australian Address.",
+            "eligibilityType": "OTHER"
+          },
+          {
+            "additionalInfo": "To open an account with this product, you must have an Business Transaction Account.",
+            "eligibilityType": "OTHER"
+          },
+          {
+            "additionalInfo": "To open an account, you will need to download, register and activate your Great Southern Bank Business app.",
             "eligibilityType": "OTHER"
           }
         ],
         "features": [
           {
-            "additionalInfo": "You can access your Term Deposit on your mobile and online.",
-            "featureType": "DIGITAL_BANKING"
-          },
-          {
             "additionalValue": "All statements, notices and other communication in connection with these terms and conditions and your account may be given electronically by Great Southern Bank by:\\\\n• email, text message, in app push notifications, in app prompts, or\\\\n• letting you know by email, text message or push notification that the information is available on the app or on a website.\\\\nYou should check your emails, text messages and push notifications regularly.",
             "featureType": "NOTIFICATIONS"
+          },
+          {
+            "additionalInfo": "You can access your Term Deposit on your mobile and online.",
+            "featureType": "DIGITAL_BANKING"
           }
         ],
         "isTailored": false,
@@ -665,63 +665,8 @@
         "brandName": "Great Southern Bank Business+",
         "constraints": [
           {
-            "additionalInfo": "Authorised overdraft maximum Credit Limit.",
-            "additionalValue": "50000.00",
-            "constraintType": "MAX_LIMIT"
-          },
-          {
-            "additionalInfo": "Maximum cumulative amount of transactions is $100,000 per day.",
-            "additionalValue": "100000.00",
-            "constraintType": "MAX_LIMIT"
-          },
-          {
-            "additionalInfo": "Offline transaction limit of $250.",
-            "additionalValue": "250.00",
-            "constraintType": "MAX_LIMIT"
-          },
-          {
-            "additionalInfo": "International single card transaction limit of $20,000.",
-            "additionalValue": "20000.00",
-            "constraintType": "MAX_LIMIT"
-          },
-          {
-            "additionalInfo": "Minimum single transaction limit of $0.01.",
-            "additionalValue": "0.01",
-            "constraintType": "MIN_LIMIT"
-          },
-          {
-            "additionalInfo": "Maximum single transaction limit of $30,000.",
-            "additionalValue": "30000.00",
-            "constraintType": "MAX_LIMIT"
-          },
-          {
-            "additionalInfo": "Daily domestic single card transaction limit of $20,000.",
-            "additionalValue": "20000.00",
-            "constraintType": "MAX_LIMIT"
-          },
-          {
             "additionalInfo": "Single cash ATM/POS withdrawal limit of $2,010.",
             "additionalValue": "2010.00",
-            "constraintType": "MAX_LIMIT"
-          },
-          {
-            "additionalInfo": "Transaction limit per card transaction of $20,000.",
-            "additionalValue": "20000.00",
-            "constraintType": "MAX_LIMIT"
-          },
-          {
-            "additionalInfo": "There is a maximum limit of 50 card transactions in a 24 hour period.",
-            "additionalValue": "50.00",
-            "constraintType": "MAX_LIMIT"
-          },
-          {
-            "additionalInfo": "Authorised overdraft minimum overdraft amount.",
-            "additionalValue": "10000.00",
-            "constraintType": "MIN_LIMIT"
-          },
-          {
-            "additionalInfo": "You can only hold a maximum of 10 accounts for this product.",
-            "additionalValue": "10.00",
             "constraintType": "MAX_LIMIT"
           },
           {
@@ -730,8 +675,63 @@
             "constraintType": "MAX_LIMIT"
           },
           {
+            "additionalInfo": "International single card transaction limit of $20,000.",
+            "additionalValue": "20000.00",
+            "constraintType": "MAX_LIMIT"
+          },
+          {
+            "additionalInfo": "Maximum single transaction limit of $30,000.",
+            "additionalValue": "30000.00",
+            "constraintType": "MAX_LIMIT"
+          },
+          {
+            "additionalInfo": "Authorised overdraft maximum Credit Limit.",
+            "additionalValue": "50000.00",
+            "constraintType": "MAX_LIMIT"
+          },
+          {
+            "additionalInfo": "You can only hold a maximum of 10 accounts for this product.",
+            "additionalValue": "10.00",
+            "constraintType": "MAX_LIMIT"
+          },
+          {
+            "additionalInfo": "Transaction limit per card transaction of $20,000.",
+            "additionalValue": "20000.00",
+            "constraintType": "MAX_LIMIT"
+          },
+          {
+            "additionalInfo": "Daily domestic single card transaction limit of $20,000.",
+            "additionalValue": "20000.00",
+            "constraintType": "MAX_LIMIT"
+          },
+          {
+            "additionalInfo": "Maximum cumulative amount of transactions is $100,000 per day.",
+            "additionalValue": "100000.00",
+            "constraintType": "MAX_LIMIT"
+          },
+          {
             "additionalInfo": "You can only hold a maximum of 99 cards for this product.",
             "additionalValue": "99.00",
+            "constraintType": "MAX_LIMIT"
+          },
+          {
+            "additionalInfo": "Minimum single transaction limit of $0.01.",
+            "additionalValue": "0.01",
+            "constraintType": "MIN_LIMIT"
+          },
+          {
+            "additionalInfo": "Offline transaction limit of $250.",
+            "additionalValue": "250.00",
+            "constraintType": "MAX_LIMIT"
+          },
+          {
+            "additionalInfo": "Authorised overdraft minimum overdraft amount.",
+            "additionalValue": "10000.00",
+            "constraintType": "MIN_LIMIT"
+          },
+          {
+            "additionalInfo": "There is a maximum limit of 50 card transactions in a 24 hour period.",
+            "additionalValue": "50.00",
             "constraintType": "MAX_LIMIT"
           }
         ],
@@ -749,8 +749,24 @@
         "effectiveFrom": "2024-09-13T01:55:00Z",
         "eligibility": [
           {
-            "additionalInfo": "To open an account, you must have an active ABN or ACN, and you must be registered as either a Sole Trader, Private Company, Partnership, Trust or a Self-Managed Super Fund (SMSF) with the Australian Business Register.",
-            "eligibilityType": "BUSINESS"
+            "additionalInfo": "To open an account, you will need to download, register and activate your Great Southern Bank Business app.",
+            "eligibilityType": "OTHER"
+          },
+          {
+            "additionalInfo": "To open an account, you must have an Australian Address.",
+            "eligibilityType": "OTHER"
+          },
+          {
+            "additionalValue": "18",
+            "eligibilityType": "MIN_AGE"
+          },
+          {
+            "additionalInfo": "In order to apply an overdraft on this product, you will be subject to additional criteria including but not limited to: your business must be registered for GST; and your business must be wholly or predominantly available for business purposes operating in Australia.",
+            "eligibilityType": "OTHER"
+          },
+          {
+            "additionalInfo": "You must have an Australian mobile number and a valid email address.",
+            "eligibilityType": "OTHER"
           },
           {
             "additionalInfo": "To open an account, you must meet our ID verification requirements.",
@@ -761,24 +777,8 @@
             "eligibilityType": "RESIDENCY_STATUS"
           },
           {
-            "additionalInfo": "In order to apply an overdraft on this product, you will be subject to additional criteria including but not limited to: your business must be registered for GST; and your business must be wholly or predominantly available for business purposes operating in Australia.",
-            "eligibilityType": "OTHER"
-          },
-          {
-            "additionalValue": "18",
-            "eligibilityType": "MIN_AGE"
-          },
-          {
-            "additionalInfo": "You must have an Australian mobile number and a valid email address.",
-            "eligibilityType": "OTHER"
-          },
-          {
-            "additionalInfo": "To open an account, you will need to download, register and activate your Great Southern Bank Business app.",
-            "eligibilityType": "OTHER"
-          },
-          {
-            "additionalInfo": "To open an account, you must have an Australian Address.",
-            "eligibilityType": "OTHER"
+            "additionalInfo": "To open an account, you must have an active ABN or ACN, and you must be registered as either a Sole Trader, Private Company, Partnership, Trust or a Self-Managed Super Fund (SMSF) with the Australian Business Register.",
+            "eligibilityType": "BUSINESS"
           }
         ],
         "features": [
@@ -787,28 +787,24 @@
             "featureType": "NOTIFICATIONS"
           },
           {
-            "additionalInfo": "An overdraft facility is available (subject to approval).",
-            "featureType": "OVERDRAFT"
-          },
-          {
-            "additionalInfo": "Make transfers and send payments in real time.",
-            "featureType": "NPP_ENABLED"
+            "additionalInfo": "Subject to terms and conditions, you may need to nominate a guarantor during the origination process for an overdraft.",
+            "featureType": "GUARANTOR"
           },
           {
             "additionalInfo": "Unlimited transfers between your savings and transaction accounts.",
             "featureType": "UNLIMITED_TXNS"
           },
           {
-            "additionalInfo": "Subject to terms and conditions, you may need to nominate a guarantor during the origination process for an overdraft.",
-            "featureType": "GUARANTOR"
+            "additionalValue": "Add your card to your digital wallet for quick and easy payments on the go.",
+            "featureType": "DIGITAL_WALLET"
+          },
+          {
+            "additionalInfo": "Make transfers and send payments in real time.",
+            "featureType": "NPP_ENABLED"
           },
           {
             "additionalInfo": "You can access your accounts on your mobile for all your online banking.",
             "featureType": "DIGITAL_BANKING"
-          },
-          {
-            "additionalValue": "Add your card to your digital wallet for quick and easy payments on the go.",
-            "featureType": "DIGITAL_WALLET"
           },
           {
             "additionalValue": "Link your transaction account to Mastercard® debit card.",
@@ -819,11 +815,34 @@
             "featureType": "NPP_PAYID"
           },
           {
+            "additionalInfo": "An overdraft facility is available (subject to approval).",
+            "featureType": "OVERDRAFT"
+          },
+          {
             "additionalInfo": "The product includes fraud protection functionality.",
             "featureType": "FRAUD_PROTECTION"
           }
         ],
         "fees": [
+          {
+            "currency": "AUD",
+            "feeMethodUType": "rateBased",
+            "feeType": "TRANSACTION",
+            "name": "Mastercard Debit - International",
+            "rateBased": {
+              "rate": "0.0295",
+              "rateType": "TRANSACTION"
+            }
+          },
+          {
+            "currency": "AUD",
+            "feeMethodUType": "fixedAmount",
+            "feeType": "TRANSACTION",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "name": "Electronic Fee"
+          },
           {
             "currency": "AUD",
             "feeMethodUType": "fixedAmount",
@@ -840,42 +859,12 @@
             "fixedAmount": {
               "amount": "0.00"
             },
-            "name": "Electronic Fee"
-          },
-          {
-            "currency": "AUD",
-            "feeMethodUType": "fixedAmount",
-            "feeType": "TRANSACTION",
-            "fixedAmount": {
-              "amount": "0.00"
-            },
             "name": "Mastercard Debit - Domestic"
-          },
-          {
-            "currency": "AUD",
-            "feeMethodUType": "rateBased",
-            "feeType": "TRANSACTION",
-            "name": "Mastercard Debit - International",
-            "rateBased": {
-              "rate": "0.0295",
-              "rateType": "TRANSACTION"
-            }
           }
         ],
         "isTailored": false,
         "lastUpdated": "2026-11-18T22:20:21.448968Z",
         "lendingRates": [
-          {
-            "additionalValue": "Only applicable to Unarranged Credit Limit. Applied every month to the portion of the overdraft which exceeds their Approved Credit Limit.",
-            "applicationFrequency": "P1M",
-            "applicationType": "PERIODIC",
-            "calculationFrequency": "P1D",
-            "interestPaymentDue": "IN_ARREARS",
-            "lendingRateType": "PENALTY",
-            "loanPurpose": "OTHER",
-            "rate": "0.2545",
-            "repaymentType": "OTHER"
-          },
           {
             "additionalInfo": "Only applicable to Authorised Overdraft. Customer margin may apply",
             "applicationFrequency": "P1M",
@@ -885,6 +874,17 @@
             "lendingRateType": "VARIABLE",
             "loanPurpose": "OTHER",
             "rate": "0.112",
+            "repaymentType": "OTHER"
+          },
+          {
+            "additionalValue": "Only applicable to Unarranged Credit Limit. Applied every month to the portion of the overdraft which exceeds their Approved Credit Limit.",
+            "applicationFrequency": "P1M",
+            "applicationType": "PERIODIC",
+            "calculationFrequency": "P1D",
+            "interestPaymentDue": "IN_ARREARS",
+            "lendingRateType": "PENALTY",
+            "loanPurpose": "OTHER",
+            "rate": "0.2545",
             "repaymentType": "OTHER"
           }
         ],
@@ -920,27 +920,19 @@
         "effectiveFrom": "2025-10-23T06:00:00Z",
         "eligibility": [
           {
-            "additionalValue": "18",
-            "eligibilityType": "MIN_AGE"
+            "additionalValue": "You must be an Australian tax resident.",
+            "eligibilityType": "RESIDENCY_STATUS"
           },
           {
             "additionalInfo": "To open an account, you must have an ABN.",
             "eligibilityType": "BUSINESS"
           },
           {
-            "additionalValue": "You must be an Australian tax resident.",
-            "eligibilityType": "RESIDENCY_STATUS"
-          },
-          {
-            "additionalInfo": "To open an account, you will need to download, register and activate your Great Southern Bank Business app.",
-            "eligibilityType": "OTHER"
-          },
-          {
-            "additionalInfo": "\nYou must have an Australian mobile number and a valid email address.",
-            "eligibilityType": "OTHER"
-          },
-          {
             "additionalInfo": "To open an account, you must have an Australian Address.",
+            "eligibilityType": "OTHER"
+          },
+          {
+            "additionalInfo": "To open an account, you must meet our ID verification requirements.",
             "eligibilityType": "OTHER"
           },
           {
@@ -948,18 +940,26 @@
             "eligibilityType": "OTHER"
           },
           {
-            "additionalInfo": "To open an account, you must meet our ID verification requirements.",
+            "additionalInfo": "\nYou must have an Australian mobile number and a valid email address.",
             "eligibilityType": "OTHER"
+          },
+          {
+            "additionalInfo": "To open an account, you will need to download, register and activate your Great Southern Bank Business app.",
+            "eligibilityType": "OTHER"
+          },
+          {
+            "additionalValue": "18",
+            "eligibilityType": "MIN_AGE"
           }
         ],
         "features": [
           {
-            "additionalValue": "All statements, notices and other communication in connection with these terms and conditions and your account may be given electronically by Great Southern Bank by:\\\\n• email, text message, in app push notifications, in app prompts, or\\\\n• letting you know by email, text message or push notification that the information is available on the app or on a website.\\\\nYou should check your emails, text messages and push notifications regularly.",
-            "featureType": "NOTIFICATIONS"
-          },
-          {
             "additionalInfo": "You can access your Term Deposit on your mobile and online.",
             "featureType": "DIGITAL_BANKING"
+          },
+          {
+            "additionalValue": "All statements, notices and other communication in connection with these terms and conditions and your account may be given electronically by Great Southern Bank by:\\\\n• email, text message, in app push notifications, in app prompts, or\\\\n• letting you know by email, text message or push notification that the information is available on the app or on a website.\\\\nYou should check your emails, text messages and push notifications regularly.",
+            "featureType": "NOTIFICATIONS"
           }
         ],
         "isTailored": false,
@@ -996,7 +996,7 @@
         "effectiveFrom": "2025-10-23T17:30:00.001Z",
         "eligibility": [
           {
-            "additionalInfo": "To open an account, you must meet our ID verification requirements.",
+            "additionalInfo": "To open an account, you must have an Australian Address.",
             "eligibilityType": "OTHER"
           },
           {
@@ -1004,28 +1004,28 @@
             "eligibilityType": "OTHER"
           },
           {
-            "additionalValue": "You must be an Australian tax resident.",
-            "eligibilityType": "RESIDENCY_STATUS"
-          },
-          {
             "additionalInfo": "You must have an Australian mobile number and a valid email address.",
             "eligibilityType": "OTHER"
-          },
-          {
-            "additionalValue": "18",
-            "eligibilityType": "MIN_AGE"
           },
           {
             "additionalInfo": "To open an account, you will need to download, register and activate your Great Southern Bank Business app.",
             "eligibilityType": "OTHER"
           },
           {
-            "additionalInfo": "To open an account, you must have an Australian Address.",
+            "additionalValue": "You must be an Australian tax resident.",
+            "eligibilityType": "RESIDENCY_STATUS"
+          },
+          {
+            "additionalInfo": "To open an account, you must meet our ID verification requirements.",
             "eligibilityType": "OTHER"
           },
           {
             "additionalInfo": "To open an account, you must have an ABN.",
             "eligibilityType": "BUSINESS"
+          },
+          {
+            "additionalValue": "18",
+            "eligibilityType": "MIN_AGE"
           }
         ],
         "features": [
@@ -1072,32 +1072,32 @@
         "effectiveFrom": "2025-10-23T06:00:00Z",
         "eligibility": [
           {
-            "additionalValue": "18",
-            "eligibilityType": "MIN_AGE"
-          },
-          {
             "additionalInfo": "To open an account, you must have an Australian Address.",
             "eligibilityType": "OTHER"
-          },
-          {
-            "additionalInfo": "To open an account, you must have an ABN.",
-            "eligibilityType": "BUSINESS"
           },
           {
             "additionalValue": "You must be an Australian tax resident.",
             "eligibilityType": "RESIDENCY_STATUS"
           },
           {
-            "additionalInfo": "To open an account, you must meet our ID verification requirements.\n",
+            "additionalInfo": "To open an account with this product, you must have an Business Transaction Account.",
             "eligibilityType": "OTHER"
           },
           {
-            "additionalInfo": "To open an account with this product, you must have an Business Transaction Account.",
+            "additionalValue": "18",
+            "eligibilityType": "MIN_AGE"
+          },
+          {
+            "additionalInfo": "To open an account, you must meet our ID verification requirements.\n",
             "eligibilityType": "OTHER"
           },
           {
             "additionalInfo": "You must have an Australian mobile number and a valid email address.",
             "eligibilityType": "OTHER"
+          },
+          {
+            "additionalInfo": "To open an account, you must have an ABN.",
+            "eligibilityType": "BUSINESS"
           },
           {
             "additionalInfo": "To open an account, you will need to download, register and activate your Great Southern Bank Business app.",
@@ -1189,28 +1189,8 @@
         "effectiveFrom": "2024-09-24T07:00:00Z",
         "eligibility": [
           {
-            "additionalInfo": "To open an account, you must have an active ABN or ACN, and you must be registered as either a Sole Trader, Private Company, Partnership, Trust or a Self-Managed Super Fund (SMSF) with the Australian Business Register.",
-            "eligibilityType": "BUSINESS"
-          },
-          {
-            "additionalInfo": "To open an account, you must have an Australian Address.",
-            "eligibilityType": "OTHER"
-          },
-          {
-            "additionalInfo": "To open an account, you will need to download, register and activate your Great Southern Bank Business app.",
-            "eligibilityType": "OTHER"
-          },
-          {
-            "additionalInfo": "You must have an Australian mobile number and a valid email address.",
-            "eligibilityType": "OTHER"
-          },
-          {
             "additionalInfo": "To open an account, you must meet our ID verification requirements.",
             "eligibilityType": "OTHER"
-          },
-          {
-            "additionalValue": "You must be an Australian tax resident.",
-            "eligibilityType": "RESIDENCY_STATUS"
           },
           {
             "additionalValue": "18",
@@ -1219,24 +1199,44 @@
           {
             "additionalInfo": "To open an account with this product, you must have an Business Transaction Account.",
             "eligibilityType": "OTHER"
+          },
+          {
+            "additionalInfo": "To open an account, you will need to download, register and activate your Great Southern Bank Business app.",
+            "eligibilityType": "OTHER"
+          },
+          {
+            "additionalInfo": "To open an account, you must have an active ABN or ACN, and you must be registered as either a Sole Trader, Private Company, Partnership, Trust or a Self-Managed Super Fund (SMSF) with the Australian Business Register.",
+            "eligibilityType": "BUSINESS"
+          },
+          {
+            "additionalValue": "You must be an Australian tax resident.",
+            "eligibilityType": "RESIDENCY_STATUS"
+          },
+          {
+            "additionalInfo": "To open an account, you must have an Australian Address.",
+            "eligibilityType": "OTHER"
+          },
+          {
+            "additionalInfo": "You must have an Australian mobile number and a valid email address.",
+            "eligibilityType": "OTHER"
           }
         ],
         "features": [
           {
-            "additionalInfo": "Funds can only be withdrawn by transferring to a transaction account.",
-            "featureType": "OTHER"
+            "additionalInfo": "You can access your accounts on your mobile for all your online banking.",
+            "featureType": "DIGITAL_BANKING"
           },
           {
-            "additionalValue": "All statements, notices and other communication in connection with these terms and conditions and your account may be given electronically by Great Southern Bank by: email, text message, in app push notifications, in app prompts, or letting you know by email, text message or push notification that the information is available on the app or on a website. You should check your emails, text messages and push notifications regularly.",
-            "featureType": "NOTIFICATIONS"
+            "additionalInfo": "Funds can only be withdrawn by transferring to a transaction account.",
+            "featureType": "OTHER"
           },
           {
             "additionalInfo": "Unlimited transfers between your savings and transaction accounts.",
             "featureType": "UNLIMITED_TXNS"
           },
           {
-            "additionalInfo": "You can access your accounts on your mobile for all your online banking.",
-            "featureType": "DIGITAL_BANKING"
+            "additionalValue": "All statements, notices and other communication in connection with these terms and conditions and your account may be given electronically by Great Southern Bank by: email, text message, in app push notifications, in app prompts, or letting you know by email, text message or push notification that the information is available on the app or on a website. You should check your emails, text messages and push notifications regularly.",
+            "featureType": "NOTIFICATIONS"
           }
         ],
         "isTailored": false,
@@ -1277,19 +1277,19 @@
             "eligibilityType": "OTHER"
           },
           {
-            "additionalInfo": "To open an account, you must have an Australian Address.",
+            "additionalInfo": "You must have an Australian mobile number and a valid email address.",
             "eligibilityType": "OTHER"
+          },
+          {
+            "additionalValue": "You must be an Australian tax resident.",
+            "eligibilityType": "RESIDENCY_STATUS"
           },
           {
             "additionalValue": "18",
             "eligibilityType": "MIN_AGE"
           },
           {
-            "additionalInfo": "You must have an Australian mobile number and a valid email address.",
-            "eligibilityType": "OTHER"
-          },
-          {
-            "additionalInfo": "To open an account, you will need to download, register and activate your Great Southern Bank Business app.",
+            "additionalInfo": "To open an account, you must have an Australian Address.",
             "eligibilityType": "OTHER"
           },
           {
@@ -1297,8 +1297,8 @@
             "eligibilityType": "BUSINESS"
           },
           {
-            "additionalValue": "You must be an Australian tax resident.",
-            "eligibilityType": "RESIDENCY_STATUS"
+            "additionalInfo": "To open an account, you will need to download, register and activate your Great Southern Bank Business app.",
+            "eligibilityType": "OTHER"
           },
           {
             "additionalInfo": "To open an account, you must meet our ID verification requirements.",
@@ -1307,12 +1307,12 @@
         ],
         "features": [
           {
-            "additionalInfo": "\nYou can access your Term Deposit on your mobile and online.",
-            "featureType": "DIGITAL_BANKING"
-          },
-          {
             "additionalValue": "All statements, notices and other communication in connection with these terms and conditions and your account may be given electronically by Great Southern Bank by:\\\\n• email, text message, in app push notifications, in app prompts, or\\\\n• letting you know by email, text message or push notification that the information is available on the app or on a website.\\\\nYou should check your emails, text messages and push notifications regularly.",
             "featureType": "NOTIFICATIONS"
+          },
+          {
+            "additionalInfo": "\nYou can access your Term Deposit on your mobile and online.",
+            "featureType": "DIGITAL_BANKING"
           }
         ],
         "isTailored": false,

@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-11-21T23:41:05.451Z",
+  "generatedAt": "2026-11-22T00:04:00.770Z",
   "crawl": {
-    "crawledAt": "2026-11-21T23:41:04.036Z",
+    "crawledAt": "2026-11-22T00:03:59.421Z",
     "registerOk": true,
     "brandsTotal": 390,
     "brandsInScope": 306,
     "endpoints": 306,
-    "endpointsOk": 255,
+    "endpointsOk": 259,
     "endpointsFailed": [
       {
         "brands": "AAA Mortgage Finance",
@@ -43,11 +43,6 @@
         "status": 400,
         "error": "http-400",
         "detail": "urn:au-cds:error:cds-all:Field/Invalid | Invalid Field | Invalid Field"
-      },
-      {
-        "brands": "Australian Mutual Bank LTD",
-        "status": 0,
-        "error": "timeout"
       },
       {
         "brands": "Axis Lending",
@@ -110,11 +105,6 @@
         "detail": "urn:au-cds:error:cds-all:Field/Invalid | Invalid Field | Invalid Field"
       },
       {
-        "brands": "Firefighters Mutual Bank",
-        "status": 0,
-        "error": "timeout"
-      },
-      {
         "brands": "Folio Mortgage & Finance (AL&M)",
         "status": 400,
         "error": "http-400",
@@ -137,11 +127,6 @@
         "status": 400,
         "error": "http-400",
         "detail": "urn:au-cds:error:cds-all:Field/Invalid | Invalid Field | Invalid Field"
-      },
-      {
-        "brands": "Health Professionals Bank",
-        "status": 0,
-        "error": "timeout"
       },
       {
         "brands": "Ijarah Finance",
@@ -257,11 +242,6 @@
         "detail": "urn:au-cds:error:cds-all:Field/Invalid | Invalid Field | Invalid Field"
       },
       {
-        "brands": "Teachers Mutual Bank",
-        "status": 0,
-        "error": "timeout"
-      },
-      {
         "brands": "The Sydney Home Loan Centre",
         "status": 400,
         "error": "http-400",
@@ -312,44 +292,45 @@
     "listVersions": {
       "3": 2,
       "4": 2,
-      "5": 251
+      "5": 255
     },
     "detailVersions": {
       "4": 13,
       "5": 16,
       "6": 38,
-      "7": 1440
+      "7": 1477,
+      "": 1
     },
     "cors": {
-      "browserReady": 239,
-      "preflightOk": 241,
+      "browserReady": 242,
+      "preflightOk": 244,
       "exposesXv": 108,
-      "checked": 255
+      "checked": 259
     }
   },
   "products": {
     "byCategory": {
-      "TRANS_AND_SAVINGS_ACCOUNTS": 866,
-      "TERM_DEPOSITS": 642
+      "TRANS_AND_SAVINGS_ACCOUNTS": 892,
+      "TERM_DEPOSITS": 654
     },
-    "detailsOk": 1507,
+    "detailsOk": 1545,
     "detailsMissing": 1,
     "withDepositRates": {
-      "TRANS_AND_SAVINGS_ACCOUNTS": 732,
-      "TERM_DEPOSITS": 634
+      "TRANS_AND_SAVINGS_ACCOUNTS": 758,
+      "TERM_DEPOSITS": 646
     }
   },
   "rates": {
     "rowsByType": {
       "TRANS_AND_SAVINGS_ACCOUNTS": {
-        "VARIABLE": 1694,
+        "VARIABLE": 1796,
         "FIXED": 102,
-        "BONUS": 235,
+        "BONUS": 251,
         "INTRODUCTORY": 41,
         "BUNDLE_BONUS": 3
       },
       "TERM_DEPOSITS": {
-        "FIXED": 5675,
+        "FIXED": 6323,
         "BONUS": 10,
         "INTRODUCTORY": 33,
         "MARKET_LINKED": 1,
@@ -357,19 +338,19 @@
       }
     },
     "tierMethods": {
-      "WHOLE_BALANCE": 8782,
-      "PER_TIER": 959
+      "WHOLE_BALANCE": 10128,
+      "PER_TIER": 1027
     }
   },
   "bonus": {
-    "rows": 248,
-    "withStructured": 151,
+    "rows": 264,
+    "withStructured": 167,
     "freeTextOnly": 53,
     "structuredOnly": 0,
     "neither": 44,
     "conditionTypes": {
-      "MAX_WITHDRAWALS": 35,
-      "MIN_DEPOSIT_AMOUNT": 81,
+      "MAX_WITHDRAWALS": 51,
+      "MIN_DEPOSIT_AMOUNT": 97,
       "DEPOSIT_BALANCE_INCREASED": 55,
       "MAX_WITHDRAWAL_AMOUNT": 9,
       "ONLINE_ONLY": 9,
@@ -578,7 +559,7 @@
     {
       "code": "NON_PERSONAL_PRODUCT",
       "description": "Business / SMSF / trust / organisation product (to exclude for a household)",
-      "count": 366,
+      "count": 376,
       "examples": [
         "AMP Bank GO — AMP Bank GO 12 Month Business Term Deposit",
         "AMP Bank GO — AMP Bank GO 6 Month Business Term Deposit",
@@ -973,34 +954,34 @@
       "note": "at maturity; Amount: $10,000–$500,000"
     },
     {
-      "brand": "FIRST OPTION BANK",
-      "product": "12 Month Regular Income Term Deposit",
-      "productId": "12MTH_REGULAR_INCOME",
+      "brand": "Australian Mutual Bank",
+      "product": "Term Deposit for Edvest Members",
+      "productId": "74073f50-1e84-11f1-b37a-325096b39f47",
       "base": 0.055,
       "bonus": null,
       "intro": null,
       "headline": 0.055,
-      "note": "P1M; 12 Month Regular Income Term Deposit_Tier: $25,000–$9,999,999 (WHOLE_BALANCE); 12 Month Regular Income Term Deposit_Tier: 12 month–12 month (WHOLE_BALANCE)"
+      "note": "P12M; Term Deposit for Edvest Members_Tier_1: $1,000–$4,999.99 (WHOLE_BALANCE); Term Deposit for Edvest Members_Tier_1: 12 month–12 month (WHOLE_BALANCE)"
     },
     {
-      "brand": "Greater Bank",
-      "product": "Term Investment - Interest @ Maturity",
-      "productId": "3000",
+      "brand": "Firefighters Mutual Bank",
+      "product": "Term Deposit for Edvest Members",
+      "productId": "aa76cccb-0cf7-4330-8eb6-e2756aefce0e",
       "base": 0.055,
       "bonus": null,
       "intro": null,
       "headline": 0.055,
-      "note": "at maturity; Amount: $5,000–$49,999.99 (WHOLE_BALANCE); Term: 12 month–12 month (WHOLE_BALANCE)"
+      "note": "P12M; Term Deposit for Edvest Members_Tier_1: $1,000–$4,999.99 (WHOLE_BALANCE); Term Deposit for Edvest Members_Tier_1: 12 month–12 month (WHOLE_BALANCE)"
     }
   ],
   "td12Coverage": {
-    "products": 441,
-    "with12m": 128
+    "products": 453,
+    "with12m": 140
   },
   "review": {
     "stats": {
-      "candidates": 162,
-      "reviewed": 162,
+      "candidates": 166,
+      "reviewed": 166,
       "stale": 0,
       "queued": 0,
       "belowThreshold": 0,

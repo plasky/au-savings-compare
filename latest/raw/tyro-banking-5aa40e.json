@@ -47,18 +47,8 @@
         "brandName": "Tyro Banking",
         "constraints": [
           {
-            "additionalInfo": "You can hold a maximum of 10 accounts for this product.",
-            "additionalValue": "10.00",
-            "constraintType": "MAX_LIMIT"
-          },
-          {
             "additionalInfo": "Daily domestic single card transaction limit of $20,000.",
             "additionalValue": "20000.00",
-            "constraintType": "MAX_LIMIT"
-          },
-          {
-            "additionalInfo": "Maximum cumulative value of transactions is $100,000 per day.",
-            "additionalValue": "100000.00",
             "constraintType": "MAX_LIMIT"
           },
           {
@@ -67,7 +57,27 @@
             "constraintType": "MAX_LIMIT"
           },
           {
-            "additionalInfo": "Maximum single transaction limit of $20,000.",
+            "additionalInfo": "Maximum number of transactions per day is 50.",
+            "additionalValue": "50.00",
+            "constraintType": "MAX_LIMIT"
+          },
+          {
+            "additionalInfo": "Maximum cumulative value of transactions is $100,000 per day.",
+            "additionalValue": "100000.00",
+            "constraintType": "MAX_LIMIT"
+          },
+          {
+            "additionalInfo": "You can hold a maximum of 10 accounts for this product.",
+            "additionalValue": "10.00",
+            "constraintType": "MAX_LIMIT"
+          },
+          {
+            "additionalInfo": "Single cash ATM/POS withdrawal limit of $2,009.99.",
+            "additionalValue": "2009.99",
+            "constraintType": "MAX_LIMIT"
+          },
+          {
+            "additionalInfo": "International single card transaction limit of $20,000.",
             "additionalValue": "20000.00",
             "constraintType": "MAX_LIMIT"
           },
@@ -77,23 +87,13 @@
             "constraintType": "MAX_LIMIT"
           },
           {
-            "additionalInfo": "International single card transaction limit of $20,000.",
-            "additionalValue": "20000.00",
-            "constraintType": "MAX_LIMIT"
-          },
-          {
             "additionalInfo": "Minimum single transaction limit of $0.01.",
             "additionalValue": "0.01",
             "constraintType": "MIN_LIMIT"
           },
           {
-            "additionalInfo": "Single cash ATM/POS withdrawal limit of $2,009.99.",
-            "additionalValue": "2009.99",
-            "constraintType": "MAX_LIMIT"
-          },
-          {
-            "additionalInfo": "Maximum number of transactions per day is 50.",
-            "additionalValue": "50.00",
+            "additionalInfo": "Maximum single transaction limit of $20,000.",
+            "additionalValue": "20000.00",
             "constraintType": "MAX_LIMIT"
           }
         ],
@@ -102,12 +102,12 @@
         "effectiveTo": "2027-11-05T23:59:00.001Z",
         "eligibility": [
           {
-            "additionalInfo": "To open an account, you must have an active ABN or ACN, and you must be registered as a Sole Trader, Private Company, Trust, Self-Managed Super Fund (SMSF), Partnership or Association with the Australian Business Register.",
-            "eligibilityType": "BUSINESS"
-          },
-          {
             "additionalInfo": "You must have an Australian mobile number and a valid email address.",
             "eligibilityType": "OTHER"
+          },
+          {
+            "additionalInfo": "To open an account, you must have an active ABN or ACN, and you must be registered as a Sole Trader, Private Company, Trust, Self-Managed Super Fund (SMSF), Partnership or Association with the Australian Business Register.",
+            "eligibilityType": "BUSINESS"
           }
         ],
         "features": [
@@ -116,24 +116,24 @@
             "featureType": "NPP_PAYID"
           },
           {
-            "additionalInfo": "You can access your accounts on your mobile for all your online banking.",
-            "featureType": "DIGITAL_BANKING"
-          },
-          {
-            "additionalValue": "All statements, notices and other communication in connection with these terms and conditions and your account may be given electronically by: email, text message, in app push notifications, in app prompts, or letting you know by email, text message or push notification that the information is available on the app or on a website. You should check your emails, text messages and push notifications regularly.",
-            "featureType": "NOTIFICATIONS"
-          },
-          {
-            "additionalInfo": "Make transfers and send payments in real time.",
-            "featureType": "NPP_ENABLED"
+            "additionalInfo": "The product includes fraud protection functionality.",
+            "featureType": "FRAUD_PROTECTION"
           },
           {
             "additionalValue": "Link your transaction account to VISA® debit card.",
             "featureType": "CARD_ACCESS"
           },
           {
-            "additionalInfo": "The product includes fraud protection functionality.",
-            "featureType": "FRAUD_PROTECTION"
+            "additionalInfo": "Make transfers and send payments in real time.",
+            "featureType": "NPP_ENABLED"
+          },
+          {
+            "additionalInfo": "You can access your accounts on your mobile for all your online banking.",
+            "featureType": "DIGITAL_BANKING"
+          },
+          {
+            "additionalValue": "All statements, notices and other communication in connection with these terms and conditions and your account may be given electronically by: email, text message, in app push notifications, in app prompts, or letting you know by email, text message or push notification that the information is available on the app or on a website. You should check your emails, text messages and push notifications regularly.",
+            "featureType": "NOTIFICATIONS"
           }
         ],
         "isTailored": false,

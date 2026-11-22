@@ -64,7 +64,7 @@ Last updated 22 Nov 2026.
 
 ## Web app (phases 3–4)
 
-- **Setup questionnaire:** incomes, ages, access needs, appetite for conditions, horizon.
+- **Household controls on the front page:** incomes, ages, access needs, appetite for conditions (sliders and buttons; no questionnaire).
 - **Dashboard:** total slider, headline after-tax interest, FCS warnings, this month's bonus checklist.
 - **Explorer:** every product, sortable by *your* effective rate; rate history; link to the bank's page.
 - **Allocation:** per-account sliders with locks; Manual / Optimised / Compare.
@@ -186,7 +186,7 @@ Results match published rates, e.g. Virgin Boost 6.30%, ING Maximiser 6.00%, RAC
 - `switchingPlan`: steps through intro-rate ends and term-deposit maturities over two years, re-optimises the money free to move, and keeps a move only if it beats staying put by the hassle threshold. `describeMoves` turns two sets of balances into transfers.
 
 **Web app:**
-- First-visit setup questions (who, money, locking away, effort), rerunnable from Household and tax.
+- Every household setting is on the front page as sliders and buttons (your money, locking money away, household, effort); less common assumptions sit under More settings. (The first-visit questionnaire was replaced by these controls on 23 Nov 2026.)
 - **My accounts** tab: add accounts you hold from the bank data (word-start search) or by hand with a rate; balance, deposit, opened month; term deposits with term, locked rate and maturity. Shows first-year earnings, whether switching now is worth it (with the moves), the timeline of later moves, and this month's checklist with ticks and an `.ics` export (a monthly reminder plus intro-end and maturity dates). "I've opened my plan's accounts" copies the plan across.
 - **Plan:** "What's holding the plan back" (after-tax value of each relaxed limit), a threshold for opening another account.
 - **Projection:** project the plan or the accounts you hold; a savings goal with on-track status or the extra monthly deposit needed; one-off money in or out.

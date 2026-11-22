@@ -47,50 +47,6 @@ function useNumberText({ value, onChange, step, min = 0, max = Number.POSITIVE_I
   };
 }
 
-/** A number written into the band's sentence, underlined in wattle. */
-export function InlineNumber(props: NumberFieldProps) {
-  const { shown, props: input } = useNumberText(props);
-  return (
-    <span className="field">
-      {props.money && <span className="unit" aria-hidden="true">$</span>}
-      <span className="autosize" data-value={shown || ' '}>
-        <input {...input} aria-label={props.label} size={1} />
-      </span>
-    </span>
-  );
-}
-
-export function InlineSelect<T extends string | number>({
-  value,
-  options,
-  onChange,
-  label,
-}: {
-  value: T;
-  options: Array<{ value: T; label: string }>;
-  onChange: (v: T) => void;
-  label: string;
-}) {
-  const current = options.find((o) => o.value === value)?.label ?? String(value);
-  return (
-    <span className="field">
-      <span className="autosize for-select" data-value={current}>
-      <select
-        aria-label={label}
-        value={String(value)}
-        onChange={(e) => onChange(options.find((o) => String(o.value) === e.target.value)!.value)}
-      >
-        {options.map((o) => (
-          <option key={String(o.value)} value={String(o.value)}>
-            {o.label}
-          </option>
-        ))}
-      </select>
-      </span>
-    </span>
-  );
-}
-
 /** A plain money input for forms and tables. */
 export function MoneyInput(props: NumberFieldProps & { className?: string }) {
   const { props: input } = useNumberText({ ...props, money: true });
@@ -142,4 +98,52 @@ export function posToBalance(p: number): number {
   const v = LO * (HI / LO) ** (p / 1000);
   const s = stepFor(v);
   return Math.round(v / s) * s;
+}
+
+interface SliderFieldProps {
+  label: string;
+  value: number;
+  onChange: (v: number) => void;
+  min: number;
+  max: number;
+  step?: number;
+  /** Log-scale balance slider ($1k–$2M) instead of a linear one. */
+  log?: boolean;
+  money?: boolean;
+  /** Largest value that can be typed (defaults to max). */
+  inputMax?: number;
+  suffix?: string;
+  hint?: ReactNode;
+}
+
+/** A labelled slider with its value as a typed field, for the band. */
+export function SliderField({ label, value, onChange, min, max, step = 1, log, money: isMoney, inputMax, suffix, hint }: SliderFieldProps) {
+  const id = useId();
+  const { shown, props: input } = useNumberText({ value, onChange, label, min, max: inputMax ?? max, money: isMoney, step: isMoney ? undefined : step });
+  const pos = log ? balanceToPos(value) : Math.min(max, Math.max(min, value));
+  return (
+    <div className="ctl">
+      <div className="ctl-head">
+        <label htmlFor={id}>{label}</label>
+        <span className="ctl-value">
+          {isMoney && <span aria-hidden="true">$</span>}
+          <span className="autosize" data-value={shown || ' '}>
+            <input {...input} aria-label={`${label}, typed`} size={1} />
+          </span>
+          {suffix && <span className="ctl-suffix">{suffix}</span>}
+        </span>
+      </div>
+      <input
+        id={id}
+        type="range"
+        min={log ? 0 : min}
+        max={log ? 1000 : max}
+        step={log ? 1 : step}
+        value={pos}
+        onChange={(e) => onChange(log ? posToBalance(Number(e.target.value)) : Number(e.target.value))}
+        aria-valuetext={isMoney ? `$${value.toLocaleString('en-AU')}` : `${value}${suffix ? ` ${suffix}` : ''}`}
+      />
+      {hint && <div className="ctl-hint">{hint}</div>}
+    </div>
+  );
 }

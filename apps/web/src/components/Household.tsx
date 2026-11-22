@@ -1,34 +1,9 @@
-import { marginalRate, rulesFor, fyOf } from '@asc/engine';
 import { useEffect, useRef } from 'react';
 import { pct } from '../format';
-import { DEFAULT_CASH_ETF_YIELD, useApp, type PersonInput } from '../store';
-import { Check, MoneyInput, NumberInput, Segmented } from './fields';
+import { DEFAULT_CASH_ETF_YIELD, useApp } from '../store';
+import { Check, NumberInput } from './fields';
 
-function PersonRow({ p, title }: { p: PersonInput; title: string }) {
-  const setPerson = useApp((s) => s.setPerson);
-  const rules = rulesFor(fyOf(new Date()));
-  return (
-    <div className="person-grid">
-      <label>
-        {title}
-        <input className="text-input" value={p.name} placeholder={p.id === 'p1' ? 'You' : 'Partner'} onChange={(e) => setPerson(p.id, { name: e.target.value })} />
-      </label>
-      <label>
-        Age
-        <NumberInput value={p.age} onChange={(v) => setPerson(p.id, { age: Math.round(v) })} label={`${title} age`} max={120} width="100%" />
-      </label>
-      <label>
-        Taxable income
-        <MoneyInput value={p.income} onChange={(v) => setPerson(p.id, { income: v })} label={`${title} taxable income`} max={100_000_000} className="" />
-      </label>
-      <span className="hint" style={{ gridColumn: '1 / -1', marginTop: -2 }}>
-        Interest is taxed at {pct(marginalRate(p.income, rules), 0)} on top of this income, including the Medicare levy ({rules.fy} rates).
-      </span>
-    </div>
-  );
-}
-
-export function Household({ open, onClose, onSetup }: { open: boolean; onClose: () => void; onSetup: () => void }) {
+export function Household({ open, onClose }: { open: boolean; onClose: () => void }) {
   const ref = useRef<HTMLDialogElement>(null);
   const s = useApp();
 
@@ -42,23 +17,18 @@ export function Household({ open, onClose, onSetup }: { open: boolean; onClose: 
   return (
     <dialog ref={ref} className="sheet" onClose={onClose} aria-labelledby="household-title">
       <div className="sheet-body">
-        <h2 id="household-title">Household and tax</h2>
+        <h2 id="household-title">More settings</h2>
         <p className="hint">These settings stay in this browser. Nothing you enter is sent anywhere.</p>
 
         <fieldset>
-          <legend>Who holds the accounts</legend>
-          <Segmented
-            label="Who holds the accounts"
-            value={s.partner ? 'joint' : 'solo'}
-            options={[
-              { value: 'solo', label: 'Just me' },
-              { value: 'joint', label: 'Me and my partner, jointly' },
-            ]}
-            onChange={(v) => s.set({ partner: v === 'joint' })}
-          />
-          <p className="hint">Joint accounts are split equally for tax, and each holder is covered by the government guarantee up to $250,000 per bank.</p>
-          <PersonRow p={s.people[0]} title={s.partner ? 'First holder' : 'Name'} />
-          {s.partner && <PersonRow p={s.people[1]} title="Second holder" />}
+          <legend>Names</legend>
+          <p className="hint" style={{ marginTop: 0 }}>Optional, used in the guarantee check.</p>
+          <div className="stack">
+            <input className="text-input" value={s.people[0].name} placeholder="You" aria-label="Your name" onChange={(e) => s.setPerson('p1', { name: e.target.value })} />
+            {s.partner && (
+              <input className="text-input" value={s.people[1].name} placeholder="Partner" aria-label="Partner's name" onChange={(e) => s.setPerson('p2', { name: e.target.value })} />
+            )}
+          </div>
         </fieldset>
 
         <fieldset>
@@ -66,9 +36,6 @@ export function Household({ open, onClose, onSetup }: { open: boolean; onClose: 
           <div className="stack">
             <Check checked={s.newCustomer} onChange={(v) => s.set({ newCustomer: v })}>
               We&rsquo;re new to each bank, so introductory rates apply
-            </Check>
-            <Check checked={s.linkedAccounts} onChange={(v) => s.set({ linkedAccounts: v })}>
-              Happy to open an everyday account where a bonus needs one
             </Check>
             <Check checked={s.otherConditionsMet} onChange={(v) => s.set({ otherConditionsMet: v })}>
               Assume we can meet conditions the bank only describes in words
@@ -122,14 +89,9 @@ export function Household({ open, onClose, onSetup }: { open: boolean; onClose: 
         >
           Clear all settings
         </button>
-        <span style={{ display: 'flex', gap: 8 }}>
-          <button type="button" className="button" onClick={onSetup}>
-            Answer the setup questions
-          </button>
-          <button type="button" className="button primary" onClick={onClose}>
-            Done
-          </button>
-        </span>
+        <button type="button" className="button primary" onClick={onClose}>
+          Done
+        </button>
       </div>
     </dialog>
   );

@@ -98,7 +98,6 @@ export interface AppState {
   accounts: PlanAccount[];
   withdrawFrom: string | null;
 
-  setupDone: boolean;
   held: HeldInput[];
   cashEvents: CashEventInput[];
   goal: { amount: number; month: string } | null;
@@ -161,7 +160,6 @@ const defaults = {
   fcsCap: true,
   accounts: [] as PlanAccount[],
   withdrawFrom: null as string | null,
-  setupDone: false,
   held: [] as HeldInput[],
   cashEvents: [] as CashEventInput[],
   goal: null as AppState['goal'],

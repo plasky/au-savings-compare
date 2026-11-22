@@ -7,7 +7,6 @@ import { Household } from './components/Household';
 import { MyAccounts } from './components/MyAccounts';
 import { Plan } from './components/Plan';
 import { Projection, type ProjectedAccount, type Runner } from './components/Projection';
-import { Setup } from './components/Setup';
 import { useCatalogue } from './data';
 import { dateLabel } from './format';
 import {
@@ -37,7 +36,6 @@ export function App() {
   const s = useApp();
   const cat = useCatalogue();
   const [household, setHousehold] = useState(false);
-  const [setup, setSetup] = useState(() => !useApp.getState().setupDone);
   const catalogue = cat.status === 'ready' ? cat.catalogue : null;
 
   const products = useMemo(() => (catalogue ? withExtras(catalogue.products, s) : []), [catalogue, s.cashEtf.enabled, s.cashEtf.yield]); // eslint-disable-line react-hooks/exhaustive-deps
@@ -202,15 +200,7 @@ export function App() {
           </p>
         </div>
       </footer>
-      <Household
-        open={household}
-        onClose={() => setHousehold(false)}
-        onSetup={() => {
-          setHousehold(false);
-          setSetup(true);
-        }}
-      />
-      <Setup open={setup} onClose={() => setSetup(false)} />
+      <Household open={household} onClose={() => setHousehold(false)} />
     </>
   );
 }

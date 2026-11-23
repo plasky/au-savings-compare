@@ -111,14 +111,26 @@ function stepSavings(
   activity.closingBalanceExInterest = state.balance;
 
   const ctx = { joint, holderAges: holderAges(plan.owners, people, m), newCustomer, behaviour: b };
+  const failedBy = new Map(rows.map((r) => [r, r.conditions.filter((c) => !conditionMet(c, activity, ctx))]));
+  // In a set of alternatives (e.g. one bonus split by age) only one option has to qualify.
+  const options = new Map<string, Map<string, boolean>>();
+  for (const r of rows) {
+    if (!r.alternativeSet) continue;
+    const opts = options.get(r.alternativeSet) ?? new Map<string, boolean>();
+    const label = r.option ?? r.id;
+    opts.set(label, (opts.get(label) ?? true) && failedBy.get(r)!.length === 0);
+    options.set(r.alternativeSet, opts);
+  }
+  const setOk = (set: string) => [...(options.get(set)?.values() ?? [])].some(Boolean);
   const unmet: string[] = [];
   let bonusMet = true;
-  const met = rows.filter((r) => {
-    const failed = r.conditions.filter((c) => !conditionMet(c, activity, ctx));
-    if (failed.length && r.role !== 'BASE') unmet.push(...failed.map(explainCondition));
-    if (failed.length && r.role === 'BONUS') bonusMet = false;
-    return failed.length === 0;
-  });
+  for (const r of rows) {
+    const failed = failedBy.get(r)!;
+    if (!failed.length || r.role === 'BASE' || (r.alternativeSet && setOk(r.alternativeSet))) continue;
+    unmet.push(...failed.map(explainCondition));
+    if (r.role === 'BONUS') bonusMet = false;
+  }
+  const met = rows.filter((r) => failedBy.get(r)!.length === 0);
   const kept = resolveAlternatives(met, accrued, plan.choices);
   const c = compose(kept, accrued);
   const interest = round2(c.interest);

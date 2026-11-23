@@ -260,3 +260,18 @@ describe('constraintValues', () => {
     expect(two.every((x) => x.gain >= 50)).toBe(true);
   });
 });
+
+describe('bonus split into alternatives', () => {
+  it('counts the bonus as met when the option that fits the holder qualifies', async () => {
+    const { simulate } = await import('../src/simulate.js');
+    const p = product([
+      row({ role: 'BASE', rate: 0.001 }),
+      row({ role: 'BONUS', rate: 0.0515, alternativeSet: 'age', option: '31+', conditions: [cond('AGE_RANGE', { minAge: 31, period: 'ONCE' })] }),
+      row({ role: 'BONUS', rate: 0.0515, alternativeSet: 'age', option: '30 or under', conditions: [cond('AGE_RANGE', { maxAge: 30, period: 'ONCE' })] }),
+    ]);
+    const m = simulate({ startDate: '2026-12-01', months: 1, people, accounts: [{ kind: 'savings', id: 'a', product: p, owners: { p1: 1 }, openingBalance: 10_000 }] }).months[0]!.accounts.a!;
+    expect(m.bonusMet).toBe(true);
+    expect(m.unmet).toEqual([]);
+    expect(m.bonus).toBeGreaterThan(0);
+  });
+});

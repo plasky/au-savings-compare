@@ -1,9 +1,10 @@
 {
-  "generatedAt": "2026-11-23T03:37:29.249Z",
+  "generatedAt": "2026-11-23T03:57:10.140Z",
   "stats": {
     "candidates": 165,
     "reviewed": 164,
     "rateOnly": 1,
+    "reworded": 1,
     "stale": 1,
     "queued": 1,
     "belowThreshold": 0,

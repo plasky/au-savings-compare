@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-23T03:37:30.023Z",
+  "generatedAt": "2026-11-23T03:57:10.909Z",
   "crawl": {
-    "crawledAt": "2026-11-23T03:37:28.411Z",
+    "crawledAt": "2026-11-23T03:57:09.323Z",
     "registerOk": true,
     "brandsTotal": 390,
     "brandsInScope": 306,
@@ -303,8 +303,8 @@
       "4": 13,
       "5": 16,
       "6": 38,
-      "7": 1468,
-      "none": 3
+      "7": 1470,
+      "none": 1
     },
     "cors": {
       "browserReady": 241,
@@ -983,6 +983,7 @@
       "candidates": 165,
       "reviewed": 164,
       "rateOnly": 1,
+      "reworded": 1,
       "stale": 1,
       "queued": 1,
       "belowThreshold": 0,

@@ -595,7 +595,6 @@
             "additionalInfo": "*Existing customers only "
           }
         ],
-        "eligibility": [],
         "constraints": [
           {
             "constraintType": "OPENING_BALANCE",
@@ -608,6 +607,7 @@
             "additionalValue": "1.00"
           }
         ],
+        "eligibility": [],
         "fees": [
           {
             "name": "Bank Cheque Withdrawal",
@@ -713,8 +713,6 @@
             "additionalInfo": "This product is only available to retail clients who meet the anti-money laundering and counter terrorism financing legislation requirements and hold an existing Australian dollar account in the same name / title."
           }
         ],
-        "depositRates": [],
-        "lendingRates": [],
         "fees": [
           {
             "name": "Telegraphic transfers",
@@ -740,6 +738,8 @@
             }
           }
         ],
+        "lendingRates": [],
+        "depositRates": [],
         "additionalInformation": {
           "overviewUri": "https://www.bendigobank.com.au/business/manage-fx/",
           "termsUri": "https://www.bendigobank.com.au/disclosure-documents/",
@@ -1072,6 +1072,12 @@
         "isTailored": false,
         "bundles": [],
         "cardArt": [],
+        "constraints": [
+          {
+            "constraintType": "MIN_BALANCE",
+            "additionalValue": "1.00"
+          }
+        ],
         "features": [
           {
             "featureType": "UNLIMITED_TXNS",
@@ -1102,12 +1108,6 @@
           },
           {
             "featureType": "NPP_PAYID"
-          }
-        ],
-        "constraints": [
-          {
-            "constraintType": "MIN_BALANCE",
-            "additionalValue": "1.00"
           }
         ],
         "eligibility": [
@@ -1483,6 +1483,7 @@
             "additionalValue": "A card is available for the product to access funds"
           }
         ],
+        "constraints": [],
         "eligibility": [
           {
             "eligibilityType": "PENSION_RECIPIENT",
@@ -1499,7 +1500,6 @@
             "additionalValue": "You need to be an Australian citizen or resident"
           }
         ],
-        "constraints": [],
         "fees": [
           {
             "name": "International ATM Withdrawal",
@@ -2047,8 +2047,8 @@
             "additionalValue": "A card is available for the product to access funds"
           }
         ],
-        "constraints": [],
         "eligibility": [],
+        "constraints": [],
         "fees": [
           {
             "name": "Staff Assisted Transaction In Branch Fee",
@@ -3486,7 +3486,6 @@
         "isTailored": false,
         "bundles": [],
         "cardArt": [],
-        "lendingRates": [],
         "features": [
           {
             "featureType": "NPP_ENABLED"
@@ -3546,6 +3545,7 @@
             }
           }
         ],
+        "lendingRates": [],
         "depositRates": [
           {
             "depositRateType": "VARIABLE",
@@ -3580,7 +3580,6 @@
         "isTailored": false,
         "bundles": [],
         "cardArt": [],
-        "constraints": [],
         "features": [
           {
             "featureType": "OTHER",
@@ -3599,6 +3598,7 @@
             "additionalInfo": "Ability for existing customers to open an account in e-banking"
           }
         ],
+        "constraints": [],
         "eligibility": [
           {
             "eligibilityType": "OTHER",
@@ -3672,6 +3672,7 @@
         "brandName": "Bendigo Bank",
         "isTailored": false,
         "bundles": [],
+        "lendingRates": [],
         "cardArt": [],
         "features": [
           {
@@ -3729,20 +3730,6 @@
             "additionalInfo": "Subject to farm management deposit scheme eligibility guidelines."
           }
         ],
-        "fees": [
-          {
-            "name": "Bank Cheque Fee",
-            "feeType": "TRANSACTION",
-            "feeMethodUType": "fixedAmount",
-            "currency": "AUD",
-            "additionalInfo": "Applies per bank cheque you request. This fee will not be debited to your FMD.",
-            "discounts": [],
-            "fixedAmount": {
-              "amount": "10.000000"
-            }
-          }
-        ],
-        "lendingRates": [],
         "depositRates": [
           {
             "depositRateType": "FIXED",
@@ -4075,6 +4062,19 @@
             ]
           }
         ],
+        "fees": [
+          {
+            "name": "Bank Cheque Fee",
+            "feeType": "TRANSACTION",
+            "feeMethodUType": "fixedAmount",
+            "currency": "AUD",
+            "additionalInfo": "Applies per bank cheque you request. This fee will not be debited to your FMD.",
+            "discounts": [],
+            "fixedAmount": {
+              "amount": "10.000000"
+            }
+          }
+        ],
         "additionalInformation": {
           "overviewUri": "https://www.bendigobank.com.au/business/accounts/farm-management-deposit/",
           "termsUri": "https://www.bendigobank.com.au/globalassets/documents/disclosures/bendigo-business-accounts-and-facilities.pdf",
@@ -4099,6 +4099,8 @@
         "isTailored": false,
         "bundles": [],
         "cardArt": [],
+        "eligibility": [],
+        "lendingRates": [],
         "features": [
           {
             "featureType": "BILL_PAYMENT",
@@ -4110,13 +4112,6 @@
           },
           {
             "featureType": "DIGITAL_BANKING"
-          }
-        ],
-        "eligibility": [],
-        "constraints": [
-          {
-            "constraintType": "MIN_BALANCE",
-            "additionalValue": "1000.00"
           }
         ],
         "fees": [
@@ -4241,7 +4236,12 @@
             }
           }
         ],
-        "lendingRates": [],
+        "constraints": [
+          {
+            "constraintType": "MIN_BALANCE",
+            "additionalValue": "1000.00"
+          }
+        ],
         "depositRates": [
           {
             "depositRateType": "VARIABLE",

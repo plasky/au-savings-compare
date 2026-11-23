@@ -1,6 +1,6 @@
 # CDR product data — crawl report
 
-Crawled 2026-11-23T03:37:28.411Z · report 2026-11-23T03:37:30.023Z
+Crawled 2026-11-23T03:57:09.323Z · report 2026-11-23T03:57:10.909Z
 
 ## Coverage
 
@@ -14,7 +14,7 @@ Crawled 2026-11-23T03:37:28.411Z · report 2026-11-23T03:37:30.023Z
 | Product details fetched | 1538 ok, 1 failed |
 | Products with deposit rates | TRANS_AND_SAVINGS_ACCOUNTS: 753, TERM_DEPOSITS: 645 |
 | List endpoint versions (x-v) | 5: 254, 3: 2, 4: 2 |
-| Detail endpoint versions (x-v) | 7: 1468, 6: 38, 5: 16, 4: 13, none: 3 |
+| Detail endpoint versions (x-v) | 7: 1470, 6: 38, 5: 16, 4: 13, none: 1 |
 | Browser-callable (CORS ok with x-v) | 241 / 258 |
 
 ### Endpoints that failed

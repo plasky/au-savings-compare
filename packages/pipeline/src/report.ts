@@ -77,7 +77,7 @@ export interface Report {
   topTd12: TopRow[];
   td12Coverage: { products: number; with12m: number };
   review?: {
-    stats: { candidates: number; reviewed: number; stale: number; queued: number; belowThreshold: number; threshold: number };
+    stats: { candidates: number; reviewed: number; rateOnly?: number; stale: number; queued: number; belowThreshold: number; threshold: number };
     top: Array<{ brand: string; name: string; headline: number; reasons: string[] }>;
   };
   extraction?: {
@@ -443,8 +443,8 @@ export function renderMarkdown(r: Report): string {
     out.push(`## Claude review queue (weekly, in chat)`);
     out.push(
       table(
-        ['Needing judgement', 'Reviewed', 'Changed since review', `Queued (≥${(s.threshold * 100).toFixed(1)}%)`, 'Below threshold'],
-        [[s.candidates, s.reviewed, s.stale, s.queued, s.belowThreshold]],
+        ['Needing judgement', 'Reviewed', 'Rates changed only (review kept)', 'Changed since review', `Queued (≥${(s.threshold * 100).toFixed(1)}%)`, 'Below threshold'],
+        [[s.candidates, s.reviewed, s.rateOnly ?? 0, s.stale, s.queued, s.belowThreshold]],
       ),
     );
     if (r.review.top.length) {

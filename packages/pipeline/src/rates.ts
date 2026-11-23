@@ -207,3 +207,26 @@ export function restrictionFromName(name: string | undefined): string | null {
   const m = RESTRICTED_NAME_RE.exec(name ?? '');
   return m ? `Name suggests a restricted audience ("${m[1]}")` : null;
 }
+
+/**
+ * An age band stated in a rate row's text ("For customers 31 years old or
+ * older", "aged 18 to 29", "under the age of 30"). Only phrases that clearly
+ * talk about age count, so "12 months or more" never matches.
+ */
+export function ageRangeFromText(text: string | undefined | null): { minAge: number | null; maxAge: number | null } | null {
+  if (!text) return null;
+  const t = text.replace(/\s+/g, ' ');
+  let m = /\b(?:aged?|ages)\s+(\d{1,2})\s*(?:-|–|to)\s*(\d{1,2})\b/i.exec(t) ?? /\bbetween (?:the )?ages? (?:of )?(\d{1,2}) and (\d{1,2})\b/i.exec(t);
+  if (m) return { minAge: Number(m[1]), maxAge: Number(m[2]) };
+  let minAge: number | null = null;
+  let maxAge: number | null = null;
+  m = /\b(\d{1,2}) ?(?:years?|yrs?)(?: of age| old)? (?:or|and) (?:older|over|above)\b/i.exec(t) ?? /\b(?:aged|age) (\d{1,2}) ?\+/i.exec(t) ?? /\b(\d{1,2}) ?\+ ?(?:years|yrs)\b/i.exec(t);
+  if (m) minAge = Number(m[1]);
+  m = /\b(?:aged |age )?(\d{1,2}) ?(?:years?|yrs?)(?: of age| old)? (?:or|and) (?:younger|under|below)\b/i.exec(t);
+  if (m) maxAge = Number(m[1]);
+  m = /\bunder (?:the )?age (?:of )?(\d{1,2})\b/i.exec(t) ?? /\b(?:aged |age )?under (\d{1,2}) ?(?:years?|yrs?)(?: of age| old)?\b/i.exec(t);
+  if (m && maxAge === null) maxAge = Number(m[1]) - 1;
+  m = /\bover (?:the )?age (?:of )?(\d{1,2})\b/i.exec(t) ?? /\b(?:aged |age )?over (\d{1,2}) ?(?:years?|yrs?)(?: of age| old)?\b/i.exec(t);
+  if (m && minAge === null) minAge = Number(m[1]);
+  return minAge === null && maxAge === null ? null : { minAge, maxAge };
+}

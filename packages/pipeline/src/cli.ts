@@ -148,7 +148,7 @@ async function cmdReviewQueue() {
     items: queue.map((c) => ({ key: c.key, brand: c.brand, name: c.name, category: c.category, headline: c.headline, reasons: c.reasons })),
   });
   log(
-    `review queue: ${stats.queued} to review (≥${(threshold * 100).toFixed(1)}%), ${stats.reviewed} already reviewed, ` +
+    `review queue: ${stats.queued} to review (≥${(threshold * 100).toFixed(1)}%), ${stats.reviewed} already reviewed (${stats.rateOnly} with rate-only changes), ` +
       `${stats.stale} changed since review, ${stats.belowThreshold} below threshold, ${stats.candidates} candidates`,
   );
 }

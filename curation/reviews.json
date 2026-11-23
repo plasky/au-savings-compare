@@ -141,7 +141,19 @@
         "statedHeadline": null,
         "confidence": "high",
         "notes": "Base rows are plan alternatives; the 6.50% promo is a total rate replacing the plan rate for 3 months."
-      }
+      },
+      "rowShapes": [
+        "612df685eb127971",
+        "5877906ee394c575",
+        "81b8a34596df5b73",
+        "6fe1033ce7b5cd49",
+        "16be4169f4dd1d53",
+        "1130708a30ddea7d",
+        "16c5b6335e800809",
+        "2c605d9d2926175d",
+        "31b4e8fd7a54d289"
+      ],
+      "shapeKey": "a27d7947e1fe2ee7"
     },
     "newcastle-permanent-8ac556:AC_smartsaveryouth": {
       "reviewKey": "7090601953d357082585f404339d5f5a3ec85d92a3da3a33efa460b95727ca68",
@@ -224,7 +236,15 @@
         "statedHeadline": null,
         "confidence": "medium",
         "notes": "Bonus conditions are not published in the CDR data; check the bank's site. Base applies regardless, so bonus is additive."
-      }
+      },
+      "rowShapes": [
+        "d7dfe5fbfa19a0ac",
+        "6e6c69f0c16b5866",
+        "68ad1eab861923b2",
+        "cbd2757281bda762",
+        "519145843ad17d97"
+      ],
+      "shapeKey": "a6565a543363f5a6"
     },
     "bankwest-c032c0:d10438974ab8417bab388149da5053bb": {
       "reviewKey": "86ed5993841ab6fef718bc6b1ba4bcb1cce1d4f72a25c2f8dc2a650cc98ac075",
@@ -447,7 +467,23 @@
         "statedHeadline": null,
         "confidence": "high",
         "notes": "No ongoing conditions. The 11.5% fixed row is a competition prize and the small bonuses are discretionary."
-      }
+      },
+      "rowShapes": [
+        "8c40e4b1d1203811",
+        "a5a5c98a78e616ed",
+        "b9bc71c85a33ed51",
+        "be4e6de5de2f7284",
+        "08fccb8cb2dfda90",
+        "a9e01a1e6c24f4db",
+        "597ca212f27dedc3",
+        "b8ca02e6a6c645f4",
+        "58caa8aad3f4fac9",
+        "99b6df1d449c4ed6",
+        "e334bf7478150ecc",
+        "6d53cb55e250de4e",
+        "aa5a0786d61d7440"
+      ],
+      "shapeKey": "1429fa9b911b5774"
     },
     "mystate-bank-132fb8:f2c94853-abb7-4c8e-ae43-66427d186380": {
       "reviewKey": "e3ecb6590ba04f6e77eafb812d4f152ccfe7835cc8835086845aa0a21edf9053",
@@ -556,7 +592,12 @@
         "statedHeadline": null,
         "confidence": "medium",
         "notes": "The two bonus rows are alternatives by linked account type (5.50% with Glide/Basic). No base row published; the bundle row's PERCENT tiers look malformed."
-      }
+      },
+      "rowShapes": [
+        "c4ef1a7dc8e8a50f",
+        "d6b9f8a98be9caf5"
+      ],
+      "shapeKey": "07f8ec39c251f7d2"
     },
     "rabobank-b18b21:c84e2ce6-f927-4783-aa0d-84073bc090f7": {
       "reviewKey": "5c4f5ed4b6d69d83802ac38b8539e5d088e547bd08a8d3ce4acb15a579fd5c26",
@@ -662,7 +703,16 @@
         "statedHeadline": null,
         "confidence": "high",
         "notes": "Introductory Variable Rate is a total rate for 4 months, then reverts to the standard variable rate. No ongoing conditions."
-      }
+      },
+      "rowShapes": [
+        "576da2d91db7564c",
+        "ba29bb61d261c18f",
+        "896b7e5499f23457",
+        "6ba983da954cebea",
+        "571893d265f4b165",
+        "91b1e04316eca399"
+      ],
+      "shapeKey": "58c8b85f32355809"
     },
     "newcastle-permanent-8ac556:AC_smartsaver": {
       "reviewKey": "16add975a7e518af8b3e7e4ff56505862888e446e1111e1e67f6588123a07620",
@@ -745,7 +795,15 @@
         "statedHeadline": null,
         "confidence": "medium",
         "notes": "Bonus conditions are not published in the CDR data; check the bank's site."
-      }
+      },
+      "rowShapes": [
+        "68ad1eab861923b2",
+        "d7dfe5fbfa19a0ac",
+        "6e6c69f0c16b5866",
+        "cbd2757281bda762",
+        "519145843ad17d97"
+      ],
+      "shapeKey": "f434f077d843cf58"
     },
     "defence-bank-3d0eb5:119": {
       "reviewKey": "96cada5a376c33e7441f5cb49da8344dcdb199e822841dd66de07008a43c22ca",
@@ -813,7 +871,12 @@
         "statedHeadline": null,
         "confidence": "high",
         "notes": "6.00% is the total rate for the first 12 months."
-      }
+      },
+      "rowShapes": [
+        "830ba66df813eca8",
+        "51d2f671fd928ebf"
+      ],
+      "shapeKey": "1d4f12371898a5c6"
     },
     "bendigo-bank-c7851b:cb6f3716-4e76-4e5b-b79d-0720756a21ac": {
       "reviewKey": "7e914002e88ab606d1089e90c64daa81bcc3f52d20104665f47bcf58b63c39f8",
@@ -914,7 +977,13 @@
         "statedHeadline": null,
         "confidence": "high",
         "notes": "The two bonus rows are the same rate split by age, not stacking."
-      }
+      },
+      "rowShapes": [
+        "57a2ec163f0f1577",
+        "b832bf5870aeac90",
+        "36bbb688f6f0eb60"
+      ],
+      "shapeKey": "ffe5b5698813e3af"
     },
     "ing-bank-australia-ltd-2efdf8:68a5c23f-36d8-42fe-b55b-a4849b815448": {
       "reviewKey": "2d34c867bf999b4549b8ab8b3f69f9c8b9639fe06d698d5b46bf6343d437afb6",
@@ -1007,7 +1076,14 @@
         "statedHeadline": null,
         "confidence": "high",
         "notes": "Welcome rate explicitly adds to base and boost: 2.75 + 3.15 + 0.60 = 6.50% for 4 months, then 5.90%."
-      }
+      },
+      "rowShapes": [
+        "7696fe9d164f6e5f",
+        "bc268c5df048b34e",
+        "d418bb598e4e85e9",
+        "e152349dd0dfe964"
+      ],
+      "shapeKey": "2859bd7386e4fe22"
     },
     "ubank-f381eb:1": {
       "reviewKey": "36eb15e1a272853dd2a9140f1eed24778e0d827aec0ec0496dd1332f2bb4fd1d",
@@ -1222,7 +1298,18 @@
         "statedHeadline": null,
         "confidence": "high",
         "notes": "No base row; bonus applies by balance tier. Welcome bonus only paid when the bonus criteria are met."
-      }
+      },
+      "rowShapes": [
+        "cbddda2c31bf22f9",
+        "14e90627f2d0b58a",
+        "78357b71394a6f7b",
+        "1b3f32cb2764b52d",
+        "cded8f37b66a5a54",
+        "cb90d7d7460049ca",
+        "aff9d9543c1e1c4e",
+        "5c69c783ea526864"
+      ],
+      "shapeKey": "a1367e1da695c228"
     },
     "summerland-bank-e79678:3": {
       "reviewKey": "2e58edfd33e24716ad8f30044d7b7cfb84e97e7ae286f11acb5bfdb815bd1de8",
@@ -1280,7 +1367,12 @@
         "statedHeadline": null,
         "confidence": "medium",
         "notes": "Promo is the rate for 90 days, then converts to iSave Online. Only the first base tier ($0–$1,999.99) is published."
-      }
+      },
+      "rowShapes": [
+        "4c39117dad2c787f",
+        "b9943fa898305796"
+      ],
+      "shapeKey": "8336b1b1db4d2379"
     },
     "virgin-money-7bedfe:36906e88-5c03-ee11-8f6e-00224814d330": {
       "reviewKey": "2221e839aeafbd7c541b2533cbc013511fb7043fb0bc46152f55e310ec64b455",
@@ -1381,7 +1473,13 @@
         "statedHeadline": null,
         "confidence": "medium",
         "notes": "Bonuses stack: 0.05 + 0.50 (Lock Saver) + 5.75 = 6.30%. The 5.75% row's info repeats the Lock Saver text, which looks like a copy-paste error."
-      }
+      },
+      "rowShapes": [
+        "fc0442624808b6bc",
+        "bcdf7a36fee43ac3",
+        "49fec3bea6692b14"
+      ],
+      "shapeKey": "e9861e64dcd14cb9"
     },
     "westpac-1ef9e7:SavESaver": {
       "reviewKey": "c34ea6e1efbc4f3e4280ee2271355dd271bf477c30f0449618e9c4915a3111ed",
@@ -1474,7 +1572,14 @@
         "statedHeadline": null,
         "confidence": "low",
         "notes": "Treated the 4.05% intro as additive per the standard (1.25 + 4.05 + 0.45 = 5.75% for 5 months); the text doesn't say whether it is a total."
-      }
+      },
+      "rowShapes": [
+        "e02f6352bd8b5291",
+        "98e82a12d54bbea5",
+        "6d7d5505beee3415",
+        "d5fc4993df652c36"
+      ],
+      "shapeKey": "9ded43be2fdbfb38"
     },
     "bank-of-queensland-limited-1f8da9:1c906e88-5c03-ee11-8f6e-00224814d330": {
       "reviewKey": "7de7bf7d7cc5ac8c27c98633d5a513a8ac1236e2c1cc05634b94790d8a29fd73",
@@ -1575,7 +1680,13 @@
         "statedHeadline": null,
         "confidence": "high",
         "notes": ""
-      }
+      },
+      "rowShapes": [
+        "2b096300884860bc",
+        "188d796fd201956f",
+        "3ec3b691285ab1b2"
+      ],
+      "shapeKey": "b681f1673a64250c"
     },
     "westpac-1ef9e7:SavLife": {
       "reviewKey": "1ac8bd54042d644549e2f840c689d2e85aa80c1fc70bac4307c8a57df2c6f4b4",
@@ -1706,7 +1817,13 @@
         "statedHeadline": null,
         "confidence": "high",
         "notes": "Bonuses stack to 6.20%, but the 0.70% Spend&Save bonus is age 18–40 and not available on joint accounts, so 5.50% applies for a joint account."
-      }
+      },
+      "rowShapes": [
+        "c85d3518822f9140",
+        "b328b22a9d93cd68",
+        "73adada6bdaf5ae6"
+      ],
+      "shapeKey": "33f7bf3baa105792"
     },
     "bank-australia-b0ab59:49f8431a-85a3-4867-845f-dd620d13fd7b": {
       "reviewKey": "27b5755b91650a5c607ff2b102f68a2a768b535177ee8a2254d861fbc06628ac",
@@ -1863,7 +1980,15 @@
         "statedHeadline": null,
         "confidence": "high",
         "notes": ""
-      }
+      },
+      "rowShapes": [
+        "8034d597893121a4",
+        "7ee2ee20fe6e39c4",
+        "3724d83811897ca5",
+        "d829183f46243e83",
+        "45aeb9b130ba241b"
+      ],
+      "shapeKey": "76758cb20a29d530"
     },
     "defence-bank-3d0eb5:117": {
       "reviewKey": "c01889fc2ce77f5afe621f6b853be4b6430e3852a3b3cf9e4e697d5cde835a11",
@@ -1931,7 +2056,12 @@
         "statedHeadline": null,
         "confidence": "medium",
         "notes": "The 5.60% 'bonus' is a 6-month intro on new accounts up to $250k; no ongoing bonus."
-      }
+      },
+      "rowShapes": [
+        "a2010347578c3ded",
+        "c07a8594c7392d8f"
+      ],
+      "shapeKey": "f55e1f1cfbd47720"
     },
     "royal-automobile-club-of-queensland-racq-772781:404": {
       "reviewKey": "f4b20ba41afb7123d9e930f510655f6b1c45dd803c68b4ade4f35a88357bc159",
@@ -2044,7 +2174,14 @@
         "statedHeadline": null,
         "confidence": "high",
         "notes": "Bonus rate quoted includes base."
-      }
+      },
+      "rowShapes": [
+        "d7824deb298c6d0b",
+        "b31d743e27dc9198",
+        "3888e8e9e5ac8348",
+        "78ec7fa46a1be3ea"
+      ],
+      "shapeKey": "a3c1ddf9874b1b3d"
     },
     "ing-bank-australia-ltd-2efdf8:b7bb9da4-3913-484c-8d2d-3fc99b9b4a72": {
       "reviewKey": "bd526291dad6c7b2806a343f49639f7227d8f6bbc7a0e51be146d57963f17498",
@@ -2142,7 +2279,12 @@
         "statedHeadline": null,
         "confidence": "high",
         "notes": "Bonus applies the month after criteria are met, on one account, balances up to $100k."
-      }
+      },
+      "rowShapes": [
+        "57a2ec163f0f1577",
+        "05ffbdfea94ca8e4"
+      ],
+      "shapeKey": "77f820ebb55b810f"
     },
     "rabobank-b18b21:f5079e11-c89f-43bf-bd15-91df6602699d": {
       "reviewKey": "f2996c08d4f3ee81f26f167507defee1fd7acb56089b72ceb96efa81c78a4691",
@@ -2340,7 +2482,20 @@
         "statedHeadline": null,
         "confidence": "medium",
         "notes": "Bonus and minimum rates are alternatives: 5.00% if the balance grows by $200 in the month, otherwise 0.90%."
-      }
+      },
+      "rowShapes": [
+        "0686b976163678ed",
+        "7f13f71128f7e6e5",
+        "9bb11b0ac0a7555f",
+        "a8e8ac614552b8f9",
+        "adade04470958358",
+        "4cc6b138a0d47c25",
+        "96bd6508c2ec958f",
+        "aad15271dac3e095",
+        "fc2c8285200de004",
+        "ade3d0625015e580"
+      ],
+      "shapeKey": "7f96f7e0b83f8dc8"
     },
     "bank-of-melbourne-1859a2:BOMSavMaxiSaver": {
       "reviewKey": "014d57b6cecc224743870710aafdd0bc4ac11dc143bbe40c2290773af401f9d4",
@@ -2499,7 +2654,16 @@
         "statedHeadline": null,
         "confidence": "medium",
         "notes": "Intro described as a 'bonus rate', treated as additive: 1.25 + 4.15 + 0.45 = 5.85% for 3 months, then 1.25%."
-      }
+      },
+      "rowShapes": [
+        "78b41d218434e8ba",
+        "4fa990b307bd04b9",
+        "70fa77dc5459b3e2",
+        "20351ea5036b6fc9",
+        "90be0a723d98ffc2",
+        "e928d7231495bb8c"
+      ],
+      "shapeKey": "31b22aa3dea3af4c"
     },
     "bank-of-queensland-limited-1f8da9:19906e88-5c03-ee11-8f6e-00224814d330": {
       "reviewKey": "80e0978a0df5f00210765d12f9912a454bfd827b04ef6a6c93e7c6205151afeb",
@@ -2567,7 +2731,12 @@
         "statedHeadline": null,
         "confidence": "high",
         "notes": ""
-      }
+      },
+      "rowShapes": [
+        "8a86b5855b4968de",
+        "a8b34099ac96da0a"
+      ],
+      "shapeKey": "efbd84a7a263dcf3"
     },
     "banksa-e6aef2:BSASavMaxiSaver": {
       "reviewKey": "ba5e27cd869cdd0aa5a86e505669c931c56c06aa9c7bf2302b10e6878b9ddd6c",
@@ -2726,7 +2895,16 @@
         "statedHeadline": null,
         "confidence": "medium",
         "notes": "Same structure as Bank of Melbourne Maxi Saver; intro treated as additive."
-      }
+      },
+      "rowShapes": [
+        "78b41d218434e8ba",
+        "4fa990b307bd04b9",
+        "70fa77dc5459b3e2",
+        "20351ea5036b6fc9",
+        "90be0a723d98ffc2",
+        "e928d7231495bb8c"
+      ],
+      "shapeKey": "cd94a26db6b48960"
     },
     "bcu-bank-a9a2f3:278": {
       "reviewKey": "d7cd390c84c5f4acd518369ad7b5da4758ea1c69ee6c1a5d09da99e4633ab713",
@@ -2785,7 +2963,13 @@
         "statedHeadline": null,
         "confidence": "high",
         "notes": "Honeymoon account: 5.80% total for 4 months, then just 0.05%. Open to new and existing customers."
-      }
+      },
+      "rowShapes": [
+        "403bf3ab7de1d297",
+        "c676a626efc829b6",
+        "9b86dba66e502489"
+      ],
+      "shapeKey": "19b3206c27be3138"
     },
     "me-bank-me-go-7fe1c0:98f3781e-102c-ee11-9966-002248e1d7d5": {
       "reviewKey": "a75803a0f5768b511c8533f89028eb5dd7e774abb5a73ded83035d73a48c6715",
@@ -2886,7 +3070,13 @@
         "statedHeadline": null,
         "confidence": "high",
         "notes": ""
-      }
+      },
+      "rowShapes": [
+        "766b5fb47e1faa89",
+        "9b3e75805bddad63",
+        "dfa151d262ae6dc5"
+      ],
+      "shapeKey": "e775bcbd2ba2c271"
     },
     "p-n-bank-4f1953:37": {
       "reviewKey": "cc956fdf2021014535eb68bd12e0c3e099d62ac1a54b904e0c02a645d4d17d82",
@@ -2945,7 +3135,13 @@
         "statedHeadline": null,
         "confidence": "high",
         "notes": "Honeymoon account: 5.80% total for 4 months, then 0.05%."
-      }
+      },
+      "rowShapes": [
+        "d79a352308b2a7c3",
+        "61d7bfdc625b70db",
+        "861ac9f71344966a"
+      ],
+      "shapeKey": "77abf24a813fb99d"
     },
     "st-george-bank-66f3a8:STGSavMaxiSaver": {
       "reviewKey": "891e3ac3e4dea43914d2a50f34a856fb9f095ee70838b19d16475bd32a61fb74",
@@ -3104,7 +3300,16 @@
         "statedHeadline": null,
         "confidence": "medium",
         "notes": "Same structure as Bank of Melbourne Maxi Saver; intro treated as additive."
-      }
+      },
+      "rowShapes": [
+        "78b41d218434e8ba",
+        "4fa990b307bd04b9",
+        "70fa77dc5459b3e2",
+        "20351ea5036b6fc9",
+        "90be0a723d98ffc2",
+        "e928d7231495bb8c"
+      ],
+      "shapeKey": "b0cb6288c9aef167"
     },
     "imb-bank-198820:TSA-22-1": {
       "reviewKey": "85eb8cf8e2758cba07dcfdbbbb7613b29524fa4d768f153ac55cba0fb9b397ff",
@@ -3239,7 +3444,15 @@
         "statedHeadline": null,
         "confidence": "medium",
         "notes": "No base rate (0%). Intro bonus stacks on the standard bonus and both need the monthly criteria. A PENSION_RECIPIENT eligibility tag looks spurious."
-      }
+      },
+      "rowShapes": [
+        "c64fb4fdb31e0936",
+        "dd52e99c1a15ee43",
+        "a19eecef2e0000b6",
+        "948abb82c2934d17",
+        "671eabe5772c98bc"
+      ],
+      "shapeKey": "89ced47a3ed8788c"
     },
     "imb-bank-198820:TSA-22-2": {
       "reviewKey": "8a44fa5e661a96b05c09afe35b14e8f771a2b773614e2fb2dcbff0e6aeeeb9a7",
@@ -3364,7 +3577,15 @@
         "statedHeadline": null,
         "confidence": "medium",
         "notes": "Kick Start bonus (2.15% to $100k) stacks on the standard 3.70% bonus; both need a $20 deposit and no withdrawals."
-      }
+      },
+      "rowShapes": [
+        "4c19e5445447ee52",
+        "0a339f380d385d74",
+        "94dff7549f0b9b31",
+        "dd52e99c1a15ee43",
+        "a19eecef2e0000b6"
+      ],
+      "shapeKey": "f95b1ab81820c5bf"
     },
     "up-548b16:up-saver": {
       "reviewKey": "96eac79fac800ca4bbff69696ac7f84beef0feae3544638d7accf6543ea04d04",
@@ -3467,7 +3688,14 @@
         "statedHeadline": 0.0585,
         "confidence": "medium",
         "notes": "2.00% with 5 purchases, plus 3.85% on the first $250k combined if no withdrawals from that Saver (total 5.85%). The >$250k row duplicates the 2.00% purchase rate."
-      }
+      },
+      "rowShapes": [
+        "57a2ec163f0f1577",
+        "831f12da393a5dd0",
+        "1346b3b7f84a3b5f",
+        "a0b3612c45a00a90"
+      ],
+      "shapeKey": "5111739a08ca7ed6"
     },
     "first-option-bank-adb052:KIDS_BONUS_SAVER": {
       "reviewKey": "15ddd0f6d20e72d34a711c6b9fc6a10fa4b3ce96bdd4de15536545465bd091ed",
@@ -3538,7 +3766,14 @@
         "statedHeadline": null,
         "confidence": "medium",
         "notes": "Bonus conditions not published in the CDR data."
-      }
+      },
+      "rowShapes": [
+        "3c11cce26780a418",
+        "9131e068f767d8f3",
+        "09408895d2f1d0ba",
+        "73193f866d65cd12"
+      ],
+      "shapeKey": "62a0e8745304d3d5"
     },
     "mystate-bank-132fb8:13002307": {
       "reviewKey": "190f7d7e362d4c9e08de9e79b3c39d1b687a414bccb4d8585a23075e282c29da",
@@ -3608,7 +3843,13 @@
         "statedHeadline": null,
         "confidence": "high",
         "notes": "No conditions at all: 5.50% to $500k (3.25% above), plus 0.30% welcome rate for 4 months for new customers."
-      }
+      },
+      "rowShapes": [
+        "f06daccc68b907c5",
+        "2c081b19c345a976",
+        "42372a078f1e3056"
+      ],
+      "shapeKey": "1cfb3507338448ea"
     },
     "commbank-5b7d50:ad22b1f0967349e8a5d586afe7f0d845": {
       "reviewKey": "136b0de797164ada613be356c6bf8764e3b2ea42f75fcdb48ddd47bd21847563",
@@ -3702,7 +3943,15 @@
         "statedHeadline": null,
         "confidence": "high",
         "notes": "Intro is a bonus margin: 2.50 + 3.25 = 5.75% for 5 months on your first NetBank Saver (joint qualifies if first for either holder)."
-      }
+      },
+      "rowShapes": [
+        "0c32bf82eb00a2f2",
+        "0efccd9dc18968c0",
+        "dc3a8a631178beeb",
+        "8a32ef1aabb49b52",
+        "087832ec258ebdbb"
+      ],
+      "shapeKey": "c8752ee2279c027c"
     },
     "judo-bank-e4317d:63e5a9e5-f73c-434a-9221-f6f1574e4554": {
       "reviewKey": "34ac7d4d6d2dd78aa8e9b6f99fdaa196939c15a546665e1a5c7a993716c29bc6",
@@ -3795,7 +4044,14 @@
         "statedHeadline": null,
         "confidence": "high",
         "notes": ""
-      }
+      },
+      "rowShapes": [
+        "aef170e4423557ec",
+        "04cc6859bd5880f6",
+        "c6cddaf374816a65",
+        "3b09f77fe2d8eecd"
+      ],
+      "shapeKey": "28c7d3b60f5f4d54"
     },
     "movebank-2f3c1b:ff2bc097-6390-4e1d-b97a-a3ebc42df30c": {
       "reviewKey": "b3f2bc97e4d35e10cb6dcda7b0a8b9e2d622e1b35cc8e0d214d73f17be382a92",
@@ -3863,7 +4119,12 @@
         "statedHeadline": null,
         "confidence": "high",
         "notes": "Bonus only on balances up to $25k; above that only 0.10%."
-      }
+      },
+      "rowShapes": [
+        "e78cb542eff799b4",
+        "57a2ec163f0f1577"
+      ],
+      "shapeKey": "d904234cea531e5b"
     },
     "virgin-money-7bedfe:d4176288-5c03-ee11-8f6e-00224814dce7": {
       "reviewKey": "20a1b43a151b79ac1af0aec2425940ad5bfe41821a0a6884072906ad0f4b9ad6",
@@ -3954,7 +4215,13 @@
         "statedHeadline": null,
         "confidence": "medium",
         "notes": "Bonuses stack: 0.05 + 2.20 (Lock Saver) + 3.50 = 5.75%."
-      }
+      },
+      "rowShapes": [
+        "bb3e5fd2522d0939",
+        "9b99f2ac0937dfdd",
+        "40825b3f99ff5606"
+      ],
+      "shapeKey": "4e7567d783d5ef1c"
     },
     "bank-of-queensland-limited-1f8da9:1a906e88-5c03-ee11-8f6e-00224814d330": {
       "reviewKey": "b861498ff63db5816e3000f1f4f5f3d59bf4cda99cca76cdde9794b95cf2c761",
@@ -4024,7 +4291,13 @@
         "statedHeadline": null,
         "confidence": "high",
         "notes": "No conditions: 5.20% ongoing, plus 0.55% for the first 4 months on new accounts."
-      }
+      },
+      "rowShapes": [
+        "200126c11412aeb1",
+        "1425a678f70a7770",
+        "54d92abce1f7a93c"
+      ],
+      "shapeKey": "ca37caf6603184f1"
     },
     "national-australia-bank-26678c:a97fad3e-9d44-4b4e-8279-3722edefae52": {
       "reviewKey": "4ccead1c987e0a61a7030a8ed13386d0dc63b93c78a208ac6b6404031e198514",
@@ -4082,7 +4355,12 @@
         "statedHeadline": null,
         "confidence": "high",
         "notes": "1.85% ongoing, plus a 3.90% intro margin for 4 months if no iSaver held in the last 12 months."
-      }
+      },
+      "rowShapes": [
+        "ce36ec2c57d72a28",
+        "1d929e2734d219b6"
+      ],
+      "shapeKey": "6ab83c8e9ab25da0"
     },
     "regional-australia-bank-9ebcdc:8fa9fb51-9f4d-4d3f-b586-f9b48c25287d": {
       "reviewKey": "5b145dec138140ee2e0aeebd51b3f7a753400996ebc39ea4f06bac729a54e06e",
@@ -4140,7 +4418,12 @@
         "statedHeadline": null,
         "confidence": "medium",
         "notes": "3.50% ongoing with no conditions; intro adds 2.20% for 90 days."
-      }
+      },
+      "rowShapes": [
+        "42280296b0a0dd71",
+        "537456749f7b066d"
+      ],
+      "shapeKey": "aa7b12a435c0b0af"
     },
     "bank-of-melbourne-1859a2:BOMSavIncentiveSaver": {
       "reviewKey": "cfa1484a6ea7ccf860b547834f54085f23bc72100f02c4d93347428f1aaa1b99",
@@ -4433,7 +4716,22 @@
         "statedHeadline": null,
         "confidence": "high",
         "notes": "Same bonus at all balances. Adults must grow the balance by $50/month (under 21: $0.01) and keep it above $0."
-      }
+      },
+      "rowShapes": [
+        "ff90661f3b7748b3",
+        "efcceadf98beb95d",
+        "486b0efe5c4cbb63",
+        "097359989a1afd9b",
+        "c0ba2e6ac1b05387",
+        "c11d015593225262",
+        "99b70f2ed35c86a6",
+        "2d8e9f219e75efbb",
+        "bac8f0ea82d99834",
+        "a3736e68eb0f1e2a",
+        "dd9b462faa513646",
+        "517f5a21cebefea1"
+      ],
+      "shapeKey": "151572d248756f37"
     },
     "banksa-e6aef2:BSASavIncentiveSaver": {
       "reviewKey": "cfa1484a6ea7ccf860b547834f54085f23bc72100f02c4d93347428f1aaa1b99",
@@ -4726,7 +5024,22 @@
         "statedHeadline": null,
         "confidence": "high",
         "notes": "Same structure as Bank of Melbourne Incentive Saver."
-      }
+      },
+      "rowShapes": [
+        "ff90661f3b7748b3",
+        "efcceadf98beb95d",
+        "486b0efe5c4cbb63",
+        "097359989a1afd9b",
+        "c0ba2e6ac1b05387",
+        "c11d015593225262",
+        "99b70f2ed35c86a6",
+        "2d8e9f219e75efbb",
+        "bac8f0ea82d99834",
+        "a3736e68eb0f1e2a",
+        "dd9b462faa513646",
+        "517f5a21cebefea1"
+      ],
+      "shapeKey": "151572d248756f37"
     },
     "st-george-bank-66f3a8:STGSavIncentiveSaver": {
       "reviewKey": "cfa1484a6ea7ccf860b547834f54085f23bc72100f02c4d93347428f1aaa1b99",
@@ -5019,7 +5332,22 @@
         "statedHeadline": null,
         "confidence": "high",
         "notes": "Same structure as Bank of Melbourne Incentive Saver."
-      }
+      },
+      "rowShapes": [
+        "ff90661f3b7748b3",
+        "efcceadf98beb95d",
+        "486b0efe5c4cbb63",
+        "097359989a1afd9b",
+        "c0ba2e6ac1b05387",
+        "c11d015593225262",
+        "99b70f2ed35c86a6",
+        "2d8e9f219e75efbb",
+        "bac8f0ea82d99834",
+        "a3736e68eb0f1e2a",
+        "dd9b462faa513646",
+        "517f5a21cebefea1"
+      ],
+      "shapeKey": "151572d248756f37"
     },
     "credit-union-sa-cbc123:CREDITUNIONSA_SAV_142": {
       "reviewKey": "6e15720611a2e2b2d9cf30fdc08ed1ba37be8e6730be7c0f32c89fd884d2e7e8",
@@ -5077,7 +5405,12 @@
         "statedHeadline": null,
         "confidence": "high",
         "notes": "Intro is paid on top of base for 4 months (description says so); then 1.25% only."
-      }
+      },
+      "rowShapes": [
+        "a0958f830ed7cded",
+        "6c10dd70d02e27e6"
+      ],
+      "shapeKey": "bd09d8a2c29093f6"
     },
     "anz-plus-ea74bb:SAVING01": {
       "reviewKey": "1cdc714d304c08a4863d06fec0cf6d4a3b4b2fd5fdad74bbd8438b37d394da48",
@@ -5135,7 +5468,12 @@
         "statedHeadline": null,
         "confidence": "high",
         "notes": ""
-      }
+      },
+      "rowShapes": [
+        "fc1cfcf21e8c1059",
+        "be3a49e315f34755"
+      ],
+      "shapeKey": "c9cb23a49b963397"
     },
     "bank-australia-b0ab59:a87013b2-5589-4f32-a410-2c3c1d661137": {
       "reviewKey": "b46c10d81912650ad695554dde995ac865f89fe12661740ba766a0d638ab0832",
@@ -5236,7 +5574,13 @@
         "statedHeadline": null,
         "confidence": "high",
         "notes": ""
-      }
+      },
+      "rowShapes": [
+        "71eaaad786371208",
+        "6275a92f53e4ffd7",
+        "918264e0dc8169ae"
+      ],
+      "shapeKey": "48f26411a713c11a"
     },
     "bank-of-china-475b2b:55940656": {
       "reviewKey": "ea9c7fb0894036a76ae641fbb541664b041438d8151cd1f8687c15213d910393",
@@ -5326,7 +5670,13 @@
         "statedHeadline": null,
         "confidence": "medium",
         "notes": "Base bands are described in text, not tiers: 2.35% for $3,000–$4,999,999.99, else 0.05%. New-customer bonus adds 3.25% for 4 months on $3,000–$499,999.99."
-      }
+      },
+      "rowShapes": [
+        "d9658cd3ecd64598",
+        "c1dd45091fc0e78f",
+        "d775ab7035cf8498"
+      ],
+      "shapeKey": "b4151fdf3fe9d6b5"
     },
     "dnister-7791e6:31": {
       "reviewKey": "273f093019df7f79ca9126e9d95082e8ee4e62a9ee7cb997cc7b10e404a2fcfd",
@@ -5427,7 +5777,13 @@
         "statedHeadline": null,
         "confidence": "medium",
         "notes": ""
-      }
+      },
+      "rowShapes": [
+        "dbe515e51dcebfce",
+        "3e22e92a11972fe2",
+        "a991a69adb84d3e4"
+      ],
+      "shapeKey": "6de3b9f64daea430"
     },
     "qudos-bank-171c0a:3f147739-6090-4a17-9690-05284e62a820": {
       "reviewKey": "9a47f7fd1582193ef90f25a463cd64e431351f4b10ed02bba3f3aeb07478cd95",
@@ -5561,7 +5917,14 @@
         "statedHeadline": null,
         "confidence": "high",
         "notes": ""
-      }
+      },
+      "rowShapes": [
+        "32a67fdc62043943",
+        "0744fbb0ea5307cf",
+        "bdc52e90d5965019",
+        "a2fc9a6d02a8ccb4"
+      ],
+      "shapeKey": "705566210bc83ded"
     },
     "suncorp-bank-58debb:GS": {
       "reviewKey": "b85a6925fac46b187911d790e3414c8dbe75a7c7b0f81b858bb8720211fdca01",
@@ -5629,7 +5992,12 @@
         "statedHeadline": null,
         "confidence": "high",
         "notes": ""
-      }
+      },
+      "rowShapes": [
+        "a0221df5794ab811",
+        "d728171d8f5b79d0"
+      ],
+      "shapeKey": "6cf576469c4d4ff7"
     },
     "great-southern-bank-886d8a:2000-3200": {
       "reviewKey": "345926bf6108723cd2f19cf56ca4d4903e31a30aa407507f1c91ff84564db165",
@@ -5708,7 +6076,12 @@
         "statedHeadline": null,
         "confidence": "high",
         "notes": ""
-      }
+      },
+      "rowShapes": [
+        "634075b931ca86e8",
+        "34edb24269f13f59"
+      ],
+      "shapeKey": "26d8114954265cd6"
     },
     "defence-bank-3d0eb5:110": {
       "reviewKey": "9a0273e3a4236887b29a0f9f73d44b3a1744308de3fc198e6f20fe5cff6f90d4",
@@ -5777,7 +6150,12 @@
         "statedHeadline": null,
         "confidence": "high",
         "notes": ""
-      }
+      },
+      "rowShapes": [
+        "3b8ffd1de1fee867",
+        "bc4dae7558043f3e"
+      ],
+      "shapeKey": "9bd28c28fd2a4339"
     },
     "people-first-and-heritage-bank-652172:d9772ff5-78d8-46c4-b489-caa0f05d4c98": {
       "reviewKey": "197031c03285f6d3f7d7a440c5ea72243ddfb8283b5e342fd0232526217e2066",
@@ -5859,7 +6237,13 @@
         "statedHeadline": null,
         "confidence": "high",
         "notes": ""
-      }
+      },
+      "rowShapes": [
+        "c583a28495500d2e",
+        "6df3bc9ac926bec9",
+        "43e200858efc0004"
+      ],
+      "shapeKey": "b93eb4bad0a4da6f"
     },
     "revolut-0420b3:b3ad3f63-c3e5-4a92-ad48-e83edf32325e": {
       "reviewKey": "e81c4dd2f59915c804b90f681861c3996231a0dd10ce499581291c57b79e14cf",
@@ -5943,7 +6327,15 @@
         "statedHeadline": null,
         "confidence": "high",
         "notes": ""
-      }
+      },
+      "rowShapes": [
+        "f0f73dbc4f2c3f37",
+        "36eba22afdc28f09",
+        "8ae676269be44abe",
+        "39e1a1d45ea8e538",
+        "46412d05379be47d"
+      ],
+      "shapeKey": "32fa5dbe6bafcdc5"
     },
     "westpac-1ef9e7:SavBump": {
       "reviewKey": "21678b57bb922dd2d3bade8fe5ca80d37cb21104c6bbb098412c97d2fe5e0d9c",
@@ -6022,7 +6414,12 @@
         "statedHeadline": null,
         "confidence": "high",
         "notes": ""
-      }
+      },
+      "rowShapes": [
+        "65e47365e737cb19",
+        "b53ddd8688630b9e"
+      ],
+      "shapeKey": "d803b6a75d9e5e66"
     },
     "commbank-5b7d50:7aff9e0e85e6450eb052d4ff2e953223": {
       "reviewKey": "e938cd48efa0d861dd8dff7d464be0a473d63186c058cd29231dc14af9754756",
@@ -6103,7 +6500,13 @@
         "statedHeadline": null,
         "confidence": "high",
         "notes": ""
-      }
+      },
+      "rowShapes": [
+        "63fb77b2399ea112",
+        "e688dc1dbe4e84e0",
+        "c1b23e985dacd478"
+      ],
+      "shapeKey": "c9fd47bfecf9887f"
     },
     "bank-of-us-7217b2:SpringLoad": {
       "reviewKey": "5799d00aa7c2c6a362df05aa09d0603373b4031096bee4d1f8b9dfa0ce907b3e",
@@ -6199,7 +6602,16 @@
         "statedHeadline": null,
         "confidence": "low",
         "notes": "Bonus conditions not published; base is 0%."
-      }
+      },
+      "rowShapes": [
+        "753435bb08c23839",
+        "f7b98deecfa574f0",
+        "c5826f127d3e31c6",
+        "b644640104c81797",
+        "d944d30a9b963812",
+        "4be2689afa0678d4"
+      ],
+      "shapeKey": "5d9ebac30b1fd327"
     },
     "bankwest-c032c0:b7c55febbeab43e1b0969f28c617f780": {
       "reviewKey": "0f0a8ecb8647321c6ca0c8469c983ec9139c3947ff050f18144eb1c7d65199c0",
@@ -6306,7 +6718,16 @@
         "statedHeadline": null,
         "confidence": "high",
         "notes": "Bonus when deposits exceed withdrawals in the month, on balances up to $250k."
-      }
+      },
+      "rowShapes": [
+        "92612e38b15d2d4b",
+        "10f2c01a67fe181b",
+        "8ccef92baafeb177",
+        "c4e6bc9975c4e8de",
+        "f43585a012271720",
+        "8dbdcc675910d05d"
+      ],
+      "shapeKey": "fdb0aad83bbf65e9"
     },
     "bcu-bank-a9a2f3:281": {
       "reviewKey": "02d356658e021409fda3fc1e63ff8ffc177e0af7d4e22e0402a44eb2b6565293",
@@ -6407,7 +6828,13 @@
         "statedHeadline": null,
         "confidence": "high",
         "notes": ""
-      }
+      },
+      "rowShapes": [
+        "a45a27a21b81518d",
+        "2a2a329f597cdb72",
+        "da475193706a8d0d"
+      ],
+      "shapeKey": "4e2880931e6efbde"
     },
     "commbank-5b7d50:72f214498c7f47a98fe59b794e7c01ab": {
       "reviewKey": "bbaa4823115873ca6edcdb393e01e7326f6f2e392593f8af8d00a5dd3a2b1672",
@@ -6575,7 +7002,15 @@
         "statedHeadline": null,
         "confidence": "high",
         "notes": ""
-      }
+      },
+      "rowShapes": [
+        "fa14466d5d8841b4",
+        "7209d9a1a0d5eee0",
+        "4d35c059428d8074",
+        "a44686084e5ea9c4",
+        "107a6fcb9baafbd4"
+      ],
+      "shapeKey": "5c57d3a6aa51d1a7"
     },
     "gateway-bank-b98426:10": {
       "reviewKey": "205a78ddc354bcf472290489a7be1365944e6b7450a848cb2a9be8051f695ef0",
@@ -6622,7 +7057,11 @@
         "statedHeadline": null,
         "confidence": "medium",
         "notes": "Labelled INTRODUCTORY but it is simply this term's rate (likely a special). A PENSION_RECIPIENT eligibility tag looks spurious."
-      }
+      },
+      "rowShapes": [
+        "0c181b6c48539cc8"
+      ],
+      "shapeKey": "2977204cfe271dfb"
     },
     "great-southern-bank-886d8a:2000-3100": {
       "reviewKey": "cc1cff3ca1e8df299a65bf88920a09021068d30d7735c19d9dd6b4a19d6e0c62",
@@ -6701,7 +7140,12 @@
         "statedHeadline": null,
         "confidence": "high",
         "notes": ""
-      }
+      },
+      "rowShapes": [
+        "e0eb179a6bd20745",
+        "34edb24269f13f59"
+      ],
+      "shapeKey": "cc4bf06c82d631db"
     },
     "horizon-bank-8f3129:S15_S150001": {
       "reviewKey": "ec7b32b17e7933aa59a62e7a1d438bc1d781cafae57d92dd175c94638b9dd159",
@@ -6749,7 +7193,12 @@
         "statedHeadline": null,
         "confidence": "medium",
         "notes": "Bonus conditions not published."
-      }
+      },
+      "rowShapes": [
+        "57a2ec163f0f1577",
+        "5d71408d14712721"
+      ],
+      "shapeKey": "3aaa3c3998e4eab5"
     },
     "horizon-bank-8f3129:S17_S170001": {
       "reviewKey": "c1347b76eafd985fd6fbd8356d13fd4869d1bbcdea88093dda8b877d1f9dded4",
@@ -6818,7 +7267,12 @@
         "statedHeadline": null,
         "confidence": "high",
         "notes": ""
-      }
+      },
+      "rowShapes": [
+        "57a2ec163f0f1577",
+        "5d71408d14712721"
+      ],
+      "shapeKey": "6e35dac3271c4348"
     },
     "national-australia-bank-26678c:2d188a0a-4e27-4c0f-9a6c-2eccdf534f91": {
       "reviewKey": "58c01a446a0d6b516d1b3e025c0386ca174f51d3382ea489771a7dcca724a7aa",
@@ -6887,7 +7341,12 @@
         "statedHeadline": null,
         "confidence": "high",
         "notes": ""
-      }
+      },
+      "rowShapes": [
+        "b66de59d314c8bf8",
+        "56c459cf7eb1d7ed"
+      ],
+      "shapeKey": "ecc5eeef3882d578"
     },
     "newcastle-permanent-8ac556:AC_onlinesavings": {
       "reviewKey": "692ea6f3d478ca58b129abac37540209b8a4f1a13a19cf42dcf3173660db25e3",
@@ -6946,7 +7405,12 @@
         "statedHeadline": null,
         "confidence": "low",
         "notes": "Unclear whether the 4.50% intro is a total or an add-on; treated as additive per the standard (5.50% for 3 months)."
-      }
+      },
+      "rowShapes": [
+        "1a7eb99421ea402a",
+        "fdc64204da3b2e00"
+      ],
+      "shapeKey": "5ea5555b55ca21cf"
     },
     "p-n-bank-4f1953:280": {
       "reviewKey": "d7f597ed51a3e0e9bf9ec20dbc498b3a9ecdc614bb4fddaa1ca9726a4e2307bb",
@@ -7047,7 +7511,13 @@
         "statedHeadline": null,
         "confidence": "high",
         "notes": ""
-      }
+      },
+      "rowShapes": [
+        "3ffd06ba237c74b8",
+        "e8183b31162367e3",
+        "fade971248367372"
+      ],
+      "shapeKey": "826a8b4380382c90"
     },
     "gateway-bank-b98426:13": {
       "reviewKey": "da09d3f60384ba51695f26d33f0dbb1c5ddea6afec06c610cd7ea7ba7c7d4d5a",
@@ -7094,7 +7564,11 @@
         "statedHeadline": null,
         "confidence": "medium",
         "notes": "Labelled INTRODUCTORY but it is simply this term's rate (likely a special)."
-      }
+      },
+      "rowShapes": [
+        "fb24c694650fe8bd"
+      ],
+      "shapeKey": "a7f14bd3d2fb1dac"
     },
     "movebank-2f3c1b:4bb8798f-6059-4dea-89f9-db5015a30c89": {
       "reviewKey": "52897853115ce65d9b66cc73c31844deeba479b6d28b90aeafb16a9a5e4475b9",
@@ -7163,7 +7637,12 @@
         "statedHeadline": null,
         "confidence": "high",
         "notes": ""
-      }
+      },
+      "rowShapes": [
+        "57a2ec163f0f1577",
+        "366124a5ce025cde"
+      ],
+      "shapeKey": "62cf99df1e124d0d"
     },
     "southern-cross-credit-union-d61f76:LITTLE_STAR_SAVER": {
       "reviewKey": "8f7742318c8df85d3f058e042c378390aaab3d46314ead15af9feeeefcfc7201",
@@ -7246,7 +7725,14 @@
         "statedHeadline": null,
         "confidence": "high",
         "notes": ""
-      }
+      },
+      "rowShapes": [
+        "947ac803d3b8a56f",
+        "b23509218043a2d3",
+        "1f8fffbca08c0252",
+        "c1272a4e6d81be4c"
+      ],
+      "shapeKey": "4700a9a6262b82be"
     },
     "southern-cross-credit-union-d61f76:STAR_SAVER": {
       "reviewKey": "156e9fc885759ca5fe6bf8a41b96353d8c8f9fb7485b8146b38dd81e8526cda3",
@@ -7305,7 +7791,12 @@
         "statedHeadline": null,
         "confidence": "medium",
         "notes": ""
-      }
+      },
+      "rowShapes": [
+        "1c5081592e5c7fc8",
+        "899a0251417a5087"
+      ],
+      "shapeKey": "c6b53176931b1e68"
     },
     "bank-of-melbourne-1859a2:BOMTDTermDeposit": {
       "reviewKey": "7443bb6a3f39ac472fa8acaeb7286fdaaa6716582b87cbf4023af153daca0a4d",
@@ -7793,7 +8284,46 @@
         "statedHeadline": null,
         "confidence": "high",
         "notes": "Standard term grid plus a limited 12-month 5.40% special for existing customers; online opening adds 0.10% to the 12-month special (5.50%)."
-      }
+      },
+      "rowShapes": [
+        "b7a487b14f508acf",
+        "32b0cc7ed09a323b",
+        "2a1ac24c52b06752",
+        "93b4e8c99b9a119e",
+        "38c892330e2e29d3",
+        "ced9a44cc273166e",
+        "e8bf0ca2841a2092",
+        "778d6ba522a20aee",
+        "cd8ec71bd5142963",
+        "e857c68eef4db364",
+        "0f1846a3a292269d",
+        "6d6b562ae6d2790d",
+        "618faa6c1caf85b9",
+        "aed309de02d23c9a",
+        "131fc62e8c42b514",
+        "6840dbcfc353b292",
+        "28355409f5cbb638",
+        "f2b32de0b14008a1",
+        "9bb799a80399ab84",
+        "3ad1526e2b956634",
+        "b5ce1676441627f1",
+        "c9e63150aca65cb3",
+        "b2a1c0d70c12316d",
+        "839e73c39b368064",
+        "ab8e60ebf298527e",
+        "159a0362adfaab83",
+        "5d25c9e58faa1f56",
+        "79df9060c890cdfb",
+        "ba482374002e798e",
+        "f8dc54eaec53f595",
+        "386f9e9a0ef72f09",
+        "480134075c87c835",
+        "054a84d5a1fef27b",
+        "fd175116c671aad1",
+        "a96370cefe53d076",
+        "1c0a14ac6f748dfb"
+      ],
+      "shapeKey": "a79a288f68197124"
     },
     "banksa-e6aef2:BSATDTermDeposit": {
       "reviewKey": "ccca436313cdf2167c0f84a0f0428658c4cbe39cead471450b9ca37f20d47833",
@@ -8281,7 +8811,46 @@
         "statedHeadline": null,
         "confidence": "high",
         "notes": "Same structure as Bank of Melbourne: 12-month 5.40% existing-customer special, +0.10% online."
-      }
+      },
+      "rowShapes": [
+        "b7a487b14f508acf",
+        "32b0cc7ed09a323b",
+        "2a1ac24c52b06752",
+        "93b4e8c99b9a119e",
+        "38c892330e2e29d3",
+        "ced9a44cc273166e",
+        "e8bf0ca2841a2092",
+        "778d6ba522a20aee",
+        "cd8ec71bd5142963",
+        "e857c68eef4db364",
+        "0f1846a3a292269d",
+        "6d6b562ae6d2790d",
+        "618faa6c1caf85b9",
+        "aed309de02d23c9a",
+        "131fc62e8c42b514",
+        "6840dbcfc353b292",
+        "28355409f5cbb638",
+        "f2b32de0b14008a1",
+        "9bb799a80399ab84",
+        "3ad1526e2b956634",
+        "b5ce1676441627f1",
+        "c9e63150aca65cb3",
+        "b2a1c0d70c12316d",
+        "839e73c39b368064",
+        "ab8e60ebf298527e",
+        "159a0362adfaab83",
+        "5d25c9e58faa1f56",
+        "79df9060c890cdfb",
+        "ba482374002e798e",
+        "f8dc54eaec53f595",
+        "386f9e9a0ef72f09",
+        "480134075c87c835",
+        "054a84d5a1fef27b",
+        "fd175116c671aad1",
+        "6df1f00ac1fb4a8b",
+        "1c0a14ac6f748dfb"
+      ],
+      "shapeKey": "436a42a80ca3f4c5"
     },
     "dnister-7791e6:18": {
       "reviewKey": "66e462b7a6b12814fce56e31ac87ec5ba164c9c19f673d3879c12c09a9bf35d4",
@@ -8350,7 +8919,12 @@
         "statedHeadline": null,
         "confidence": "high",
         "notes": ""
-      }
+      },
+      "rowShapes": [
+        "001af6406bb87c3e",
+        "52862411e14f3371"
+      ],
+      "shapeKey": "a10608716da36505"
     },
     "st-george-bank-66f3a8:STGTDTermDeposit": {
       "reviewKey": "8334ff85e99817c0103f36eff996e208cc2ff088f02ac93357ad299e7f127964",
@@ -8838,7 +9412,46 @@
         "statedHeadline": null,
         "confidence": "high",
         "notes": "Same structure as Bank of Melbourne: 12-month 5.40% existing-customer special, +0.10% online."
-      }
+      },
+      "rowShapes": [
+        "b7a487b14f508acf",
+        "32b0cc7ed09a323b",
+        "2a1ac24c52b06752",
+        "93b4e8c99b9a119e",
+        "38c892330e2e29d3",
+        "ced9a44cc273166e",
+        "e8bf0ca2841a2092",
+        "778d6ba522a20aee",
+        "cd8ec71bd5142963",
+        "e857c68eef4db364",
+        "0f1846a3a292269d",
+        "6d6b562ae6d2790d",
+        "618faa6c1caf85b9",
+        "aed309de02d23c9a",
+        "131fc62e8c42b514",
+        "6840dbcfc353b292",
+        "28355409f5cbb638",
+        "f2b32de0b14008a1",
+        "9bb799a80399ab84",
+        "3ad1526e2b956634",
+        "b5ce1676441627f1",
+        "c9e63150aca65cb3",
+        "b2a1c0d70c12316d",
+        "839e73c39b368064",
+        "ab8e60ebf298527e",
+        "159a0362adfaab83",
+        "5d25c9e58faa1f56",
+        "79df9060c890cdfb",
+        "ba482374002e798e",
+        "f8dc54eaec53f595",
+        "386f9e9a0ef72f09",
+        "480134075c87c835",
+        "054a84d5a1fef27b",
+        "fd175116c671aad1",
+        "d2dba2096d130929",
+        "1c0a14ac6f748dfb"
+      ],
+      "shapeKey": "70cb86938e7b12b8"
     },
     "westpac-1ef9e7:WestpacNoticeSaver": {
       "reviewKey": "0bb5d11ac9d3fac296d4192fd177d0082bc6a5d0c13239eb9a5a3eb3858c4c07",
@@ -9003,7 +9616,19 @@
         "statedHeadline": null,
         "confidence": "medium",
         "notes": "Rows assumed to be 31-, 60- and 90-day notice in order (on hold / on notice / at call)."
-      }
+      },
+      "rowShapes": [
+        "59c35b31c13f3397",
+        "5e1ef0ebb6ed270f",
+        "342df8ea413804ac",
+        "0f7bc6dfca65f02b",
+        "d451ebbcbf3d8a71",
+        "b3377640eeadbe6e",
+        "aae6c4f555b885d7",
+        "c7925a28f709e906",
+        "abf7bea5b3f64389"
+      ],
+      "shapeKey": "764e7ce48475d8fa"
     },
     "australian-mutual-bank-ltd-493c15:56cc9200-1e84-11f1-a63e-325096b39f47": {
       "reviewKey": "0b2d16ebb2ed8c9b5904bfeb7beea41c55d8649905369cfc6bad69e9e7e7cd99",
@@ -9207,7 +9832,18 @@
         "statedHeadline": null,
         "confidence": "high",
         "notes": ""
-      }
+      },
+      "rowShapes": [
+        "1785044b4193b195",
+        "9b43378ac920840a",
+        "6c587391118eaa0b",
+        "4c3c50c31c33eb97",
+        "9a4c3a2724f39b91",
+        "8702ad0fa352b4df",
+        "9200553c07a7a4e0",
+        "18839a93b5a00667"
+      ],
+      "shapeKey": "9cfdfff56d2d15b1"
     },
     "bankvic-0380b8:S8_Savings_Bonus": {
       "reviewKey": "cade08b59ae7b7a032a5d6f978172ad52401ca9df8d92196efaecdbd5f163528",
@@ -9321,7 +9957,14 @@
         "statedHeadline": null,
         "confidence": "high",
         "notes": ""
-      }
+      },
+      "rowShapes": [
+        "bc527727c2d47555",
+        "6f0e95b80f1bd687",
+        "d72a7df564dde449",
+        "4ee8cbbd041a09c2"
+      ],
+      "shapeKey": "7ca5c98ba5f9f0cd"
     },
     "bcu-bank-a9a2f3:292": {
       "reviewKey": "a686b555327b08a1afb23b07e2f9628d53efc0617578f110518a8034d3c4f6ad",
@@ -9390,7 +10033,12 @@
         "statedHeadline": null,
         "confidence": "high",
         "notes": ""
-      }
+      },
+      "rowShapes": [
+        "f4a5d5ee6987f95e",
+        "d39e1b54c4bea669"
+      ],
+      "shapeKey": "469e9112775ff63a"
     },
     "firefighters-mutual-bank-c2ac3e:505df462-6b43-11f0-b446-325096b39f47": {
       "reviewKey": "5dae5e5d2b2859230fedd1b31852187a436355eb939fa7f98938dfbec6efef9e",
@@ -9594,7 +10242,18 @@
         "statedHeadline": null,
         "confidence": "high",
         "notes": ""
-      }
+      },
+      "rowShapes": [
+        "dfa70081b2ea95e9",
+        "a4ea2bdda8f1aa57",
+        "3048f922d4dd500f",
+        "65aa02370c22f19f",
+        "0380dbdc5f78a640",
+        "46d6002d28647d5a",
+        "99eacf1b393ca06f",
+        "9c2d1ab74d073275"
+      ],
+      "shapeKey": "ee37b4d5f57c8d34"
     },
     "health-professionals-bank-e54229:ba995be0-6c0c-11f0-91fb-325096b39f47": {
       "reviewKey": "5ebc25547da448928040326a5698f55db6d7eca708cf05d1064a43d63413e1be",
@@ -9798,7 +10457,18 @@
         "statedHeadline": null,
         "confidence": "high",
         "notes": ""
-      }
+      },
+      "rowShapes": [
+        "dfa70081b2ea95e9",
+        "a4ea2bdda8f1aa57",
+        "3048f922d4dd500f",
+        "65aa02370c22f19f",
+        "0380dbdc5f78a640",
+        "46d6002d28647d5a",
+        "99eacf1b393ca06f",
+        "9c2d1ab74d073275"
+      ],
+      "shapeKey": "ec0b772acb8d25ac"
     },
     "movebank-2f3c1b:0b61e81c-a7f6-4845-ae64-f9dd29169030": {
       "reviewKey": "f475dc97f789ed1b5c95f4488fa66a9b0156e998ce48c56d2337bbff4f1d875c",
@@ -9978,7 +10648,23 @@
         "statedHeadline": null,
         "confidence": "high",
         "notes": "A term deposit published under the savings category; each row is one term and payment frequency."
-      }
+      },
+      "rowShapes": [
+        "bc61f6c1bde23f06",
+        "eeb93848857ac8fd",
+        "8a909e1977779330",
+        "302ddd250bb38cf6",
+        "9dc942f6abd0c84f",
+        "55d7407a8a395a67",
+        "ab8f1416fd8de072",
+        "d2f5279095ea4853",
+        "80050a74dff6c2c3",
+        "18103456009521b2",
+        "042e895f74af8d4c",
+        "5ed9a91892e5a839",
+        "77848196fc667334"
+      ],
+      "shapeKey": "0f9e4c75b208ad09"
     },
     "p-n-bank-4f1953:293": {
       "reviewKey": "bec5df6324dfdd1064b34673b24ed4a446400b9a6f8ce821ec8a2d822e5542be",
@@ -10047,7 +10733,12 @@
         "statedHeadline": null,
         "confidence": "high",
         "notes": ""
-      }
+      },
+      "rowShapes": [
+        "b61e73ff5c90cba4",
+        "9d1b9f60d092c73f"
+      ],
+      "shapeKey": "cac80ee3e3191ba6"
     },
     "police-credit-union-ltd-9741cb:Focus_Saver_Account": {
       "reviewKey": "02fb4af75f84ef854cbfb8f9a086c8cdf052bc278b833d7148b2eeafdc3d428f",
@@ -10119,7 +10810,14 @@
         "statedHeadline": null,
         "confidence": "low",
         "notes": "Bonus conditions not published; bonus only on balances of $200+."
-      }
+      },
+      "rowShapes": [
+        "195ccfbe98bf172d",
+        "8a1c064142a36b90",
+        "5a0cd69553860d96",
+        "a0fd1dde2d06c3ae"
+      ],
+      "shapeKey": "3158cc597b26afb0"
     },
     "teachers-mutual-bank-937447:bf4d1da2-6c0c-11f0-ad11-325096b39f47": {
       "reviewKey": "fb2f7737196ddde4f49b88ac1da1d1bb55a9585c4b6b89ecbc73ca4baf08cc69",
@@ -10323,7 +11021,18 @@
         "statedHeadline": null,
         "confidence": "high",
         "notes": ""
-      }
+      },
+      "rowShapes": [
+        "dfa70081b2ea95e9",
+        "a4ea2bdda8f1aa57",
+        "3048f922d4dd500f",
+        "65aa02370c22f19f",
+        "0380dbdc5f78a640",
+        "46d6002d28647d5a",
+        "99eacf1b393ca06f",
+        "9c2d1ab74d073275"
+      ],
+      "shapeKey": "08f624dd09a78286"
     },
     "unibank-cc3047:c2901370-6c0c-11f0-85f0-325096b39f47": {
       "reviewKey": "ac676d55b0ff50940f0442bdd04f3974157d511efcdf1d7ec06fd95bac6fcf51",
@@ -10527,7 +11236,18 @@
         "statedHeadline": null,
         "confidence": "high",
         "notes": ""
-      }
+      },
+      "rowShapes": [
+        "dfa70081b2ea95e9",
+        "a4ea2bdda8f1aa57",
+        "3048f922d4dd500f",
+        "65aa02370c22f19f",
+        "0380dbdc5f78a640",
+        "46d6002d28647d5a",
+        "99eacf1b393ca06f",
+        "9c2d1ab74d073275"
+      ],
+      "shapeKey": "5bf097f9d0ff30f5"
     },
     "bank-of-us-7217b2:Save_up": {
       "reviewKey": "454da552e77b183d00060a864496ec7dd0a84749a2a6dcbe6e7ed74372d0c7a3",
@@ -10586,7 +11306,12 @@
         "statedHeadline": null,
         "confidence": "medium",
         "notes": "Condition from the description (truncated): deposit at least $50 a month."
-      }
+      },
+      "rowShapes": [
+        "81cdd874be526858",
+        "4071d0d77f19c6e7"
+      ],
+      "shapeKey": "624ec8cbe8791520"
     },
     "hume-bank-d0e40f:S15V1": {
       "reviewKey": "197fe10c9ef137e5013b512e4df0b95b33ccf468f6755bb09c6107711ff8ae5f",
@@ -10655,7 +11380,12 @@
         "statedHeadline": null,
         "confidence": "high",
         "notes": ""
-      }
+      },
+      "rowShapes": [
+        "3bdfa5fe264a094d",
+        "3123df3e0c853ef5"
+      ],
+      "shapeKey": "7ce75b45bc7f31a0"
     },
     "hume-bank-d0e40f:S2V1": {
       "reviewKey": "37dfeefa1d53f6fac5abc53601e75e3ba06fafec345301d93c9b41ea60bbcb0e",
@@ -10714,7 +11444,12 @@
         "statedHeadline": null,
         "confidence": "high",
         "notes": ""
-      }
+      },
+      "rowShapes": [
+        "3bdfa5fe264a094d",
+        "3123df3e0c853ef5"
+      ],
+      "shapeKey": "505e38488e805c2a"
     },
     "bank-first-79ae5f:6512a9e8-baef-49b8-b8b2-ee2ee97ee50e": {
       "reviewKey": "dc3af96e11747ab4850d33ab93fbff32f35d9843d869473e0d4da200835aea50",
@@ -10783,7 +11518,12 @@
         "statedHeadline": null,
         "confidence": "high",
         "notes": ""
-      }
+      },
+      "rowShapes": [
+        "c2722d5645458e3c",
+        "0e4984d0910e9014"
+      ],
+      "shapeKey": "bfc75f62374ac890"
     },
     "bank-first-79ae5f:7001a0c9-b435-4dae-b386-f1cabd79229f": {
       "reviewKey": "713d3729f12b4615f019f93ca9b41776f4dda997e23725dc1c90d864b674d8f5",
@@ -10897,7 +11637,14 @@
         "statedHeadline": null,
         "confidence": "high",
         "notes": ""
-      }
+      },
+      "rowShapes": [
+        "13935e15f7fb996f",
+        "484ff8ff8b7f285f",
+        "6061cade8663d3eb",
+        "864c14c1e61d3aa6"
+      ],
+      "shapeKey": "2970914496f436b1"
     },
     "first-option-bank-adb052:SAVINGSPLUSBONUS": {
       "reviewKey": "a0a491ee72eaf6fce737d28463c0b066e7e07fa6ac4c2fe1c953845c985b2804",
@@ -11011,7 +11758,14 @@
         "statedHeadline": null,
         "confidence": "medium",
         "notes": ""
-      }
+      },
+      "rowShapes": [
+        "6d31c4fec58a4a82",
+        "0d3d27141878a2bc",
+        "d7bf554d3dc59a54",
+        "5be2b2360b7da957"
+      ],
+      "shapeKey": "f5a72f77c5d1f5a4"
     },
     "police-credit-union-ltd-9741cb:Beans_Savings_Account": {
       "reviewKey": "674b29d7cb0a62e9e7fcd75db0eee7214c6c0e8cf35f59598868aa95f1be5e5f",
@@ -11083,7 +11837,14 @@
         "statedHeadline": null,
         "confidence": "medium",
         "notes": "Bonus conditions not published."
-      }
+      },
+      "rowShapes": [
+        "4a4bc7c7ea189cac",
+        "9a176d2b5d84f4f1",
+        "aacdf38a098ca750",
+        "3d4bf44455996ae8"
+      ],
+      "shapeKey": "c9d67ec3e8ac5708"
     },
     "commbank-5b7d50:71865ffd1ab249df9baa4b29c7751824": {
       "reviewKey": "a49b7adf80913713d86f0b8bb49ea31614041e5c0abcdfbb02724a2667465fec",
@@ -11611,7 +12372,52 @@
         "statedHeadline": null,
         "confidence": "medium",
         "notes": "Individual/joint rows only (0–13); rows 14–41 are for financial institutions or SMSFs and are excluded."
-      }
+      },
+      "rowShapes": [
+        "5c2e9dfe45d35efd",
+        "37ca3567540e3f64",
+        "905f4280e601a566",
+        "5f85c3dfe5d72f1f",
+        "bf3f563bcf98c1ca",
+        "e21e63396dad664b",
+        "2c2272f34b7ee1d9",
+        "4f170dd947f5c012",
+        "49c18537e462158d",
+        "514529bc1a6fa369",
+        "e9537f63e4a5a16a",
+        "5760cd88e56fbfcb",
+        "1f1baba405c8611a",
+        "cd8bd6a360a83f9f",
+        "793613e48878361b",
+        "418eadb0bf1f870b",
+        "458b4d90c40ecbea",
+        "17ff5332ab3a0fcd",
+        "7e9404629c7f4275",
+        "694cb9bfc62d2ade",
+        "7029dc7c99398dd8",
+        "02f700b6a900cbd7",
+        "bce50c29a2e3818e",
+        "9ccb76103954932a",
+        "595dfcc8130c64d7",
+        "3c0e8ec11dae0f45",
+        "35555814cb2d5294",
+        "dae28b4a76af0cbf",
+        "5e007ad51be73053",
+        "c0da530d27585c86",
+        "194a796bbcbde8f6",
+        "e10a3b3f1dc0a633",
+        "606f3bcc77a4dd07",
+        "9181db90026719b4",
+        "77497a07e6dcfccc",
+        "abe8e2de8daef7d2",
+        "aa08ac0510646af0",
+        "9a8193ee136982ee",
+        "379029103b9a7e8b",
+        "f222cee4a8f4ab3c",
+        "1f0143c4913a0f52",
+        "f451c8d4ee69ed4b"
+      ],
+      "shapeKey": "83eaba3c527ee006"
     },
     "gateway-bank-b98426:7": {
       "reviewKey": "2d0adfa765ac8f9e372dde2e184dc104083b779202cec53130d862a22dabb50f",
@@ -11658,7 +12464,11 @@
         "statedHeadline": null,
         "confidence": "medium",
         "notes": "Labelled INTRODUCTORY but it is simply this term's rate (likely a special)."
-      }
+      },
+      "rowShapes": [
+        "e4c18455fe413efb"
+      ],
+      "shapeKey": "0d22275669080ba4"
     },
     "regional-australia-bank-9ebcdc:26fbc357-1a90-433a-87ea-f968ec09da06": {
       "reviewKey": "f2e160f7e692f44096d47cb875531c25dd8d2c6f4845a592d203018ff5266f45",
@@ -11727,7 +12537,12 @@
         "statedHeadline": null,
         "confidence": "high",
         "notes": ""
-      }
+      },
+      "rowShapes": [
+        "94251732e5da04c4",
+        "97de9aad25c21fdc"
+      ],
+      "shapeKey": "97e6bbdc78def36f"
     },
     "qbank-a01288:S70_Bonus": {
       "reviewKey": "b2c5aeb8dadba3bf4595016afbe01a218fe7bee77cdbdbe0f0051b52433b7286",
@@ -11799,7 +12614,14 @@
         "statedHeadline": null,
         "confidence": "medium",
         "notes": "Bonus conditions not published."
-      }
+      },
+      "rowShapes": [
+        "ae570854fd6831a8",
+        "ad494cc92fdc3cec",
+        "76b499afc8e862f0",
+        "9a957115b3585934"
+      ],
+      "shapeKey": "f50f559ca04be51d"
     },
     "bankwaw-c66e9a:WAW_Bonus_Saver": {
       "reviewKey": "eb5181b94ed9750122060d16328288ce4902b8c05924f18c2cad7dd5948e1b1d",
@@ -11847,7 +12669,12 @@
         "statedHeadline": null,
         "confidence": "medium",
         "notes": "Bonus conditions not published."
-      }
+      },
+      "rowShapes": [
+        "a204185205e9b89d",
+        "ecc6d1ca5961d90b"
+      ],
+      "shapeKey": "85d74975f059aaaa"
     },
     "westpac-1ef9e7:TDTermDeposit": {
       "reviewKey": "35150a1eace5c1c90d4ebec9927d4b175b1186773897ed6c4146e7e9bea9a855",
@@ -12397,7 +13224,52 @@
         "statedHeadline": null,
         "confidence": "high",
         "notes": "Standard grid plus a limited 12-month 5.20% special; the 0.10% online bonus applies to any rate and term when opened or renewed online."
-      }
+      },
+      "rowShapes": [
+        "9bb58a236d5e6949",
+        "d8967c564df082bd",
+        "4cf26f86cc21d72b",
+        "83580eb9f835a66f",
+        "703ecc211e109899",
+        "8702d6fd51752f5e",
+        "ac45de71d04f2a10",
+        "abe173452a226467",
+        "44fb73adfa81c90f",
+        "a9e2820942c29837",
+        "5d61de958492dc13",
+        "000839f5d51deee0",
+        "211d10152d0a652c",
+        "0f65003fbe07276c",
+        "999824ae1a79f762",
+        "ef92239a694422c2",
+        "5279258c5dfcd545",
+        "c6779664d7ac5b47",
+        "3a04db3a7bff4363",
+        "5d72ce8d7efb4e78",
+        "a396eaf22464770d",
+        "214b42f8f387e6e0",
+        "a7fb47e9bb70efd4",
+        "e5f0f2803d58de42",
+        "a6e8fe2ccca4c36c",
+        "7228305756d496f2",
+        "aa9bb86793e57955",
+        "dfe7a78805c07f31",
+        "642e8d65c392456b",
+        "f9d82ba64b8a89ef",
+        "85342937935b2209",
+        "7480f89a16504875",
+        "454079c31c08a9a5",
+        "22f11e681aca331a",
+        "38fb24311719570a",
+        "edecd96ea8f958b6",
+        "0788fdca91f1ba5c",
+        "e8d44426a297cb48",
+        "4492d85f3c7ef254",
+        "ebc7a0c09ad30b0c",
+        "db37305c5f7bf68e",
+        "e2be533de8958186"
+      ],
+      "shapeKey": "980fe42cbfbb5a45"
     },
     "beyond-bank-australia-79e425:32": {
       "reviewKey": "f4389a5199ea809adfffe3568c362dd9909f20519fb64c402beabb4dfca288c8",
@@ -12478,7 +13350,13 @@
         "statedHeadline": null,
         "confidence": "high",
         "notes": ""
-      }
+      },
+      "rowShapes": [
+        "0a95d788f5212ed8",
+        "bedecd581457c2c8",
+        "64c8f80315c33b5f"
+      ],
+      "shapeKey": "9b3bface6737cae5"
     },
     "australian-military-bank-ee4681:9d1888b8-097d-4c21-849f-730bfaace6c3": {
       "reviewKey": "ac3ab2c480e60967fccc925f09362053093393a1ca38d070700509427500fafc",
@@ -12537,7 +13415,12 @@
         "statedHeadline": null,
         "confidence": "high",
         "notes": ""
-      }
+      },
+      "rowShapes": [
+        "266d3a81ed42f302",
+        "9c6f5d3cf2391da6"
+      ],
+      "shapeKey": "27e8dd497022ad1b"
     },
     "great-southern-bank-886d8a:2000-3400": {
       "reviewKey": "75bb3100f3dcab066b9ab31b241ad30338978d0be558a06629d76d7c70c8ea06",
@@ -12619,7 +13502,13 @@
         "statedHeadline": null,
         "confidence": "high",
         "notes": ""
-      }
+      },
+      "rowShapes": [
+        "3c6622ba2048d27b",
+        "2e5f47dc2bdc3cf9",
+        "34edb24269f13f59"
+      ],
+      "shapeKey": "17fab20bfc309171"
     },
     "bankwaw-c66e9a:WAW_Star_Saver": {
       "reviewKey": "bf48650f7c2bd532abddb291377f2f4f06be10ae8991b68b61be168662f1a21a",
@@ -12667,7 +13556,12 @@
         "statedHeadline": null,
         "confidence": "medium",
         "notes": "Bonus conditions not published."
-      }
+      },
+      "rowShapes": [
+        "a204185205e9b89d",
+        "ecc6d1ca5961d90b"
+      ],
+      "shapeKey": "8322661af55ea500"
     },
     "bankwaw-c66e9a:WAW_Youth_Saver": {
       "reviewKey": "350fed7434369051eb13053f075c4b770029e9b2ae37c012c9f24aa4829bcf6c",
@@ -12715,7 +13609,12 @@
         "statedHeadline": null,
         "confidence": "medium",
         "notes": "Bonus conditions not published."
-      }
+      },
+      "rowShapes": [
+        "a204185205e9b89d",
+        "ecc6d1ca5961d90b"
+      ],
+      "shapeKey": "79b7324a0ef406a6"
     },
     "the-capricornian-a71117:57f2a9d4-5498-490f-82ea-61dff8720cS3": {
       "reviewKey": "6ed030a6c4f666cf0b5cf603bf2edcb1c0709c868057362b77121db93cdbb976",
@@ -12794,7 +13693,12 @@
         "statedHeadline": null,
         "confidence": "high",
         "notes": ""
-      }
+      },
+      "rowShapes": [
+        "7b08aaf6045128ba",
+        "1cb4441c9c440d14"
+      ],
+      "shapeKey": "ad5f751567b81628"
     },
     "boq-specialist-79c765:0c186288-5c03-ee11-8f6e-00224814dce7": {
       "reviewKey": "72e6b05027aa3f363dc9e126ed7c25d24f66db7a4ba71f6f209a77bb99c1f1ef",
@@ -12864,7 +13768,12 @@
         "statedHeadline": null,
         "confidence": "high",
         "notes": ""
-      }
+      },
+      "rowShapes": [
+        "67053708f44e27e6",
+        "fe7ea108ca477b43"
+      ],
+      "shapeKey": "8ebdfe33e7d51893"
     },
     "maitland-mutual-limited-057bdf:Mighty_Mutual": {
       "reviewKey": "029d1cf41cd7c4f4405aaf7b1537e1f821e46c3587d2cc0c40b9df15812d3066",
@@ -12923,7 +13832,12 @@
         "statedHeadline": null,
         "confidence": "high",
         "notes": ""
-      }
+      },
+      "rowShapes": [
+        "57a2ec163f0f1577",
+        "a48613ec51c22bdf"
+      ],
+      "shapeKey": "0c32c687be4af023"
     },
     "woolworths-team-bank-33fd08:S26": {
       "reviewKey": "7bfc89d76ac47e21a1b14a7913ada4193dd2f9e526df6b3efbeb364896683d6f",
@@ -12995,7 +13909,14 @@
         "statedHeadline": null,
         "confidence": "medium",
         "notes": "Bonus conditions not published."
-      }
+      },
+      "rowShapes": [
+        "f17f54ca7cc97506",
+        "180427740b1658f1",
+        "c619eb4eb77bd134",
+        "f361bbcbb0ddcd49"
+      ],
+      "shapeKey": "1b03029004082fab"
     },
     "credit-union-sa-cbc123:CREDITUNIONSA_SAV_134": {
       "reviewKey": "6db90df4f6af7e0b8b8919c7f2d33280e3238c26260fa4c7a9434c45715dd972",
@@ -13074,7 +13995,12 @@
         "statedHeadline": null,
         "confidence": "high",
         "notes": ""
-      }
+      },
+      "rowShapes": [
+        "a0958f830ed7cded",
+        "f90c95cad9154f72"
+      ],
+      "shapeKey": "2dced7fc2e0b4f07"
     },
     "gateway-bank-b98426:199": {
       "reviewKey": "4fc8ce3faec55e635d916742098833df66c144148f21790a43aed049db92381a",
@@ -13133,7 +14059,12 @@
         "statedHeadline": null,
         "confidence": "high",
         "notes": ""
-      }
+      },
+      "rowShapes": [
+        "9bbe87cd5f7e05db",
+        "57a2ec163f0f1577"
+      ],
+      "shapeKey": "e149d793e7458793"
     },
     "me-bank-me-go-7fe1c0:99f3781e-102c-ee11-9966-002248e1d7d5": {
       "reviewKey": "39e7ce1d026c4dd7c42008420622919bb0b70577b6739f40b28c8084f9f047f4",
@@ -13202,7 +14133,12 @@
         "statedHeadline": null,
         "confidence": "high",
         "notes": ""
-      }
+      },
+      "rowShapes": [
+        "296fe56287fd70eb",
+        "3db05dbf264c0ebf"
+      ],
+      "shapeKey": "c3cd410daff5c435"
     },
     "people-first-and-heritage-bank-652172:02901be8-7e53-49c8-ae99-097c55c11074": {
       "reviewKey": "0aaaffa7eb7d97910cbf3145963ccd42aef3fcfc369e7103c248d11de3fdfa87",
@@ -13261,7 +14197,12 @@
         "statedHeadline": null,
         "confidence": "high",
         "notes": "3.45% ongoing with no conditions; 4-month promo adds 1.40% on new accounts up to $100k."
-      }
+      },
+      "rowShapes": [
+        "10efaf110d84528f",
+        "d4127547a53ffa03"
+      ],
+      "shapeKey": "adfc0d4cf7a19011"
     },
     "unity-bank-dc705d:S13_BONUS_SAVER_ACCOUNT": {
       "reviewKey": "99112faf96547d80969f03830acec1dfbe0c8e0d071d1d78c2577f23b96c5b94",
@@ -13330,7 +14271,12 @@
         "statedHeadline": null,
         "confidence": "high",
         "notes": ""
-      }
+      },
+      "rowShapes": [
+        "71c50017e78c798e",
+        "400649065a865291"
+      ],
+      "shapeKey": "92eaaf9e95023050"
     },
     "border-bank-a0ec91:2f774fe3-962f-4120-bd75-7f2996e6127f": {
       "reviewKey": "c7550167f64472b6f023835cf3207316acd31ffa94457b1c392831a073ab11e0",
@@ -13423,7 +14369,14 @@
         "statedHeadline": null,
         "confidence": "high",
         "notes": ""
-      }
+      },
+      "rowShapes": [
+        "4aacd8ec1b9e9ef2",
+        "3f795ded3a8d243f",
+        "58a70f0c8ac7c2ae",
+        "556cb738714b2101"
+      ],
+      "shapeKey": "1ac1b64080be0ed6"
     },
     "gmcu-3164aa:Advantage_Saver": {
       "reviewKey": "07c2676732ccc3cc40e029200fd363944319b6926a981344d860cd24060262d3",
@@ -13537,7 +14490,14 @@
         "statedHeadline": null,
         "confidence": "high",
         "notes": ""
-      }
+      },
+      "rowShapes": [
+        "b3fed6b97fff298d",
+        "5e18499c254c3514",
+        "8b8fef8c9161c81a",
+        "f41e8dff62b86ffd"
+      ],
+      "shapeKey": "4d0d25a7091896c6"
     },
     "police-bank-d51dc6:0d555012-2f96-4f16-b5a8-6e12aa15f9fa": {
       "reviewKey": "d353809d94489bacdd01e39c33b844b033cccc6983119670d0a7d0bd1c77ccd0",
@@ -13630,7 +14590,14 @@
         "statedHeadline": null,
         "confidence": "high",
         "notes": ""
-      }
+      },
+      "rowShapes": [
+        "0aa2e3d2c72cb501",
+        "970e7b775ec7a559",
+        "fee9a66e0dc9e23a",
+        "db398918a9ff1d69"
+      ],
+      "shapeKey": "f5aae5ed63335384"
     },
     "queensland-country-bank-0fa967:10": {
       "reviewKey": "49fa6804cc17e6fb0369166d1d50928e114cbe6316a3914a92c698399ea16b34",
@@ -13699,7 +14666,12 @@
         "statedHeadline": null,
         "confidence": "high",
         "notes": ""
-      }
+      },
+      "rowShapes": [
+        "804677fb482dda03",
+        "57a2ec163f0f1577"
+      ],
+      "shapeKey": "bf3b7b686a67824f"
     },
     "queensland-country-bank-0fa967:7": {
       "reviewKey": "28b4dd7be546527ac3f4123fd83df0918bb177fb1f4dcd585d1825f2b3115f72",
@@ -13768,7 +14740,12 @@
         "statedHeadline": null,
         "confidence": "high",
         "notes": ""
-      }
+      },
+      "rowShapes": [
+        "4204f6063f7f5cd3",
+        "57a2ec163f0f1577"
+      ],
+      "shapeKey": "416ffe445d005fbe"
     },
     "queensland-country-bank-0fa967:9": {
       "reviewKey": "f53857150cbdf60619903f16b6a3104a23827d080aa8857bb54291fafbce124c",
@@ -13837,7 +14814,12 @@
         "statedHeadline": null,
         "confidence": "high",
         "notes": ""
-      }
+      },
+      "rowShapes": [
+        "804677fb482dda03",
+        "57a2ec163f0f1577"
+      ],
+      "shapeKey": "ce6e6f3adde6115a"
     },
     "suncorp-bank-58debb:KS": {
       "reviewKey": "3de821721ad69352bb29ce0692a1a5db4c28134f90266f9c603c5a492c6ddb9e",
@@ -13906,7 +14888,12 @@
         "statedHeadline": null,
         "confidence": "high",
         "notes": "The structured MIN_DEPOSITS=20 is really a $20 minimum deposit."
-      }
+      },
+      "rowShapes": [
+        "a0221df5794ab811",
+        "4bc9529a608ea78d"
+      ],
+      "shapeKey": "f5fc619f097de000"
     },
     "imb-bank-198820:TSA-29-1": {
       "reviewKey": "57342dd708f3e34869e90f8a740902117894e6e8f6dd8388f7d9883b9b2a5c2f",
@@ -13975,7 +14962,12 @@
         "statedHeadline": null,
         "confidence": "high",
         "notes": ""
-      }
+      },
+      "rowShapes": [
+        "3af226632ed1d500",
+        "80401645c44cd2ec"
+      ],
+      "shapeKey": "31b81a8a49eb06b9"
     },
     "summerland-bank-e79678:2": {
       "reviewKey": "07b4b0380aef5a28141a3423690b5e704644de6a891ebbbc9bb822bd2af658f2",
@@ -14032,7 +15024,11 @@
         "statedHeadline": null,
         "confidence": "high",
         "notes": "All-or-nothing: 4.75% if conditions met, otherwise 0%."
-      }
+      },
+      "rowShapes": [
+        "5507ed14faaf930c"
+      ],
+      "shapeKey": "f62ec40f15be261c"
     },
     "commfcu-afb5c8:S29-GS": {
       "reviewKey": "d44375bb8e2e4c321cfe241aeca340d001027812a068b75ba6c31512ec831125",
@@ -14135,7 +15131,14 @@
         "statedHeadline": null,
         "confidence": "high",
         "notes": ""
-      }
+      },
+      "rowShapes": [
+        "aa215ce163ad1900",
+        "636d6bc1cd9543f1",
+        "0d650dea71e66049",
+        "d1ddf3af8f0b6f76"
+      ],
+      "shapeKey": "b22f5a8a1b0a5c6c"
     },
     "people-first-and-heritage-bank-652172:1e57e54b-8df8-4f03-9f61-20ce1ad5b471": {
       "reviewKey": "7f9842c29df6836f1cf438a70e25980ad0324c985dea833df87c2823a2cf6f3b",
@@ -14204,7 +15207,12 @@
         "statedHeadline": null,
         "confidence": "high",
         "notes": "Bonus is calculated on the minimum monthly balance."
-      }
+      },
+      "rowShapes": [
+        "10efaf110d84528f",
+        "f1f387d1a7a33915"
+      ],
+      "shapeKey": "d19b32e94d6b4a86"
     },
     "people-first-and-heritage-bank-652172:683e6ac4-7cb6-4d1f-a5ae-bddf379a39a5": {
       "reviewKey": "9b9ddcd50d3552e65df7f0eab0b93e8464b1254dec3dd3edd51981072f4f6960",
@@ -14273,7 +15281,12 @@
         "statedHeadline": null,
         "confidence": "high",
         "notes": "Bonus is calculated on the minimum monthly balance."
-      }
+      },
+      "rowShapes": [
+        "10efaf110d84528f",
+        "9f9c8ad8c1865a6b"
+      ],
+      "shapeKey": "6c4a8b0a042422fe"
     },
     "northern-inland-credit-union-limited-9fcbd4:NICUS12": {
       "reviewKey": "1fdccac3cdf19665ab90292e5ffd27bd4a0d50d86fbc57346af2d90bb7d45174",
@@ -14477,7 +15490,18 @@
         "statedHeadline": null,
         "confidence": "high",
         "notes": ""
-      }
+      },
+      "rowShapes": [
+        "c28ac98662b012b9",
+        "6543e8424cf20d78",
+        "53c6935a393bd3c7",
+        "7529c4ec25763bd5",
+        "f789293d09ff2724",
+        "5ecff4461665e542",
+        "3abe023f3a4a4c93",
+        "354a086126fd801d"
+      ],
+      "shapeKey": "89aca731436e510a"
     },
     "laboratories-credit-union-01ca21:S34_SAVVY_SAVER_ACCOUNT": {
       "reviewKey": "b1da3ae7e0fa15721e75f89c08588af3b9c2a6edf7ba753399d7af5085b4737a",
@@ -14681,7 +15705,18 @@
         "statedHeadline": null,
         "confidence": "high",
         "notes": ""
-      }
+      },
+      "rowShapes": [
+        "0f00c6a0b5abbb25",
+        "b3b6797d18533790",
+        "b7faff19f7965fe3",
+        "61b112f55c9ca579",
+        "2fed979bbd250c89",
+        "6c309ef4b6eca220",
+        "c97da243128b50fa",
+        "af868a75b92b1643"
+      ],
+      "shapeKey": "07da75b8569abad3"
     },
     "bank-of-queensland-limited-1f8da9:b2176288-5c03-ee11-8f6e-00224814dce7": {
       "reviewKey": "8cb3504f9e5c9882a60481e97753d9d5b2be1ef88bfe944a79264fedab8bed09",
@@ -14750,7 +15785,12 @@
         "statedHeadline": null,
         "confidence": "high",
         "notes": "SMSF-only product that slipped past the name filter."
-      }
+      },
+      "rowShapes": [
+        "cca5c563753df213",
+        "56a4e7465cc7664c"
+      ],
+      "shapeKey": "357ad3cf3b7c8879"
     },
     "anz-20d614:e9a3b4fe-240c-388e-2282-42db8f570e63": {
       "reviewKey": "472476f4fa7921a767d6e3dc52fbdd18f0e80032d5b73777e7101d23d9f580d7",
@@ -14819,7 +15859,12 @@
         "statedHeadline": null,
         "confidence": "high",
         "notes": ""
-      }
+      },
+      "rowShapes": [
+        "522bda95f99db4f4",
+        "edc80f400e7a4b3a"
+      ],
+      "shapeKey": "743a53d09256dceb"
     },
     "bank-of-china-475b2b:55090506": {
       "reviewKey": "5244ef24ef4f84b17747aaf935b782c700748f04a6eacd8c9e69b0a3b1cb9699",
@@ -14878,7 +15923,12 @@
         "statedHeadline": null,
         "confidence": "medium",
         "notes": "1-month TD; the 1.15% bonus only applies when it auto-rolls over into a new term."
-      }
+      },
+      "rowShapes": [
+        "8d104888849f98de",
+        "5a5d3334566642e8"
+      ],
+      "shapeKey": "3f5f1c52b4ebf65e"
     },
     "maitland-mutual-limited-057bdf:Bonus_Saver": {
       "reviewKey": "24b65c2ce47577b551c5bebff5144ed9841e7ba1d5a9bd90fcd752b59cc828fc",
@@ -14947,7 +15997,12 @@
         "statedHeadline": null,
         "confidence": "high",
         "notes": "All-or-nothing: no interest if conditions are missed."
-      }
+      },
+      "rowShapes": [
+        "57a2ec163f0f1577",
+        "f1b64807dde6e605"
+      ],
+      "shapeKey": "362244d9f6ba0d0c"
     },
     "bank-of-china-475b2b:55090851": {
       "reviewKey": "a3883ebb056b5eeb744ad32b9664b300d0dbe8594d4df294a475794ebbb1a4dc",
@@ -14995,7 +16050,12 @@
         "statedHeadline": null,
         "confidence": "high",
         "notes": "Only 0.50% for ordinary customers; the 4.20% bonus is for overseas students."
-      }
+      },
+      "rowShapes": [
+        "71feeb2a6809378f",
+        "38bec1a9a6cedbde"
+      ],
+      "shapeKey": "8b0ccfda405a2c6f"
     },
     "credit-union-sa-cbc123:CREDITUNIONSA_SAV_109": {
       "reviewKey": "13e438dc609376da7669bf1ebd296d6cc3fc33340b93b376c72e421f106cfd7f",
@@ -15064,7 +16124,12 @@
         "statedHeadline": null,
         "confidence": "high",
         "notes": ""
-      }
+      },
+      "rowShapes": [
+        "a0958f830ed7cded",
+        "c50de3a8630b57ac"
+      ],
+      "shapeKey": "171878c2dca2d35d"
     },
     "northern-inland-credit-union-limited-9fcbd4:NICUS15": {
       "reviewKey": "9253670df51e13223f6e249ea378a9fb2bc70548ee48e6dfed129fa25c00d25a",
@@ -15123,7 +16188,12 @@
         "statedHeadline": null,
         "confidence": "medium",
         "notes": ""
-      }
+      },
+      "rowShapes": [
+        "7dc254a238b50351",
+        "9219cb68bb162dfd"
+      ],
+      "shapeKey": "af6f5b45f9b931c1"
     },
     "hsbc-bank-australia-limited-wholesale-ba-6acb78:TMD_GLCM": {
       "reviewKey": "3968236075f83a9e32d55b7ae886a808e03e2986edfc7e65f0e0a5d4e7f91dee",
@@ -15159,7 +16229,11 @@
         "statedHeadline": null,
         "confidence": "high",
         "notes": ""
-      }
+      },
+      "rowShapes": [
+        "043024b7af5d5f87"
+      ],
+      "shapeKey": "28de541558284e63"
     },
     "auswide-bank-ltd-5d516b:516f4dc2-271b-4812-91ce-fdb9a6eb6c04": {
       "reviewKey": "729d0c60e6015a24678f07ddda868cc9cf816865ceecc4fe8e9aa497bb23cb02",
@@ -15273,7 +16347,14 @@
         "statedHeadline": null,
         "confidence": "high",
         "notes": ""
-      }
+      },
+      "rowShapes": [
+        "5997808792c1af07",
+        "a1dc8bbeddbf638f",
+        "c57c7034691f493a",
+        "25fdb366538c2d9b"
+      ],
+      "shapeKey": "c9c117bbcc9a3494"
     },
     "orange-credit-union-ltd-e0e024:BONUS_SAVER": {
       "reviewKey": "d158dc54b19f949168f162dca1c05991b3adad58dabacfaedb86c28fdaa4795b",
@@ -15321,7 +16402,12 @@
         "statedHeadline": null,
         "confidence": "medium",
         "notes": "Bonus conditions not published."
-      }
+      },
+      "rowShapes": [
+        "f16ac2d1e9c2262a",
+        "a0f81df4442595c4"
+      ],
+      "shapeKey": "12c74b152a58a48f"
     },
     "auswide-bank-ltd-5d516b:4a276227-7f7a-4cac-a018-88138b099a8e": {
       "reviewKey": "2a9346cdbcd5d7e10e804d57cde039517422bbb63234562e27586150421e3f5d",
@@ -15435,7 +16521,14 @@
         "statedHeadline": null,
         "confidence": "high",
         "notes": ""
-      }
+      },
+      "rowShapes": [
+        "dc1bae16f0960c0d",
+        "33cb5f001ef3c46b",
+        "8e71eec7c82e338d",
+        "f27986e277cf317a"
+      ],
+      "shapeKey": "eb2a44f9120c97ca"
     },
     "first-option-bank-adb052:BONUS_SAVER": {
       "reviewKey": "7727910e600af5e25b2b0cd5658a20ebd610169334cd350b9b49815dffe0d2b0",
@@ -15507,7 +16600,14 @@
         "statedHeadline": null,
         "confidence": "medium",
         "notes": "Bonus conditions not published."
-      }
+      },
+      "rowShapes": [
+        "ef7cbdf87f8566d8",
+        "cc365d71a5edb692",
+        "d5aae45a8498764f",
+        "b4902d9903b6d265"
+      ],
+      "shapeKey": "7cfed3a4564ca32a"
     },
     "geelong-bank-1a2306:S50": {
       "reviewKey": "73522a12a95f5b66bf3813c26744823c5884af2112fb772e9c7392dd517f3e02",
@@ -15555,7 +16655,12 @@
         "statedHeadline": null,
         "confidence": "medium",
         "notes": "Bonus conditions not published."
-      }
+      },
+      "rowShapes": [
+        "57a2ec163f0f1577",
+        "5d71408d14712721"
+      ],
+      "shapeKey": "dc40d987a3a81668"
     },
     "dnister-7791e6:17": {
       "reviewKey": "d86495e3050904d7d875fd5a35412d938e13db32a6c6519d71542876212f08cf",
@@ -15602,7 +16707,11 @@
         "statedHeadline": null,
         "confidence": "low",
         "notes": "Only an intro rate is published (3 months per text; duration field says P2M); the ongoing rate is missing."
-      }
+      },
+      "rowShapes": [
+        "43583f39978f9c63"
+      ],
+      "shapeKey": "fca1ca62493d91a9"
     },
     "bank-of-us-7217b2:Stash_n_Splash": {
       "reviewKey": "78bad04d2f67a4a8db890380956387900ee64725e873397baa249bcee9adcd96",
@@ -15674,7 +16783,14 @@
         "statedHeadline": null,
         "confidence": "low",
         "notes": "Rates labelled BONUS with no stated conditions; may simply be the tiered rates."
-      }
+      },
+      "rowShapes": [
+        "f7f29a9250eaef0c",
+        "ab6cc322ff05fdfc",
+        "7cef556715d184fa",
+        "df7f8dafb08d5f8c"
+      ],
+      "shapeKey": "73090d8508d14017"
     },
     "commbank-5b7d50:da527ba1942246edac4d5da36dbc1da8": {
       "reviewKey": "f9dda2e1f1bbf60b558eb007a38c886482e500250459f9039a59b24658786264",
@@ -15794,7 +16910,18 @@
         "statedHeadline": null,
         "confidence": "high",
         "notes": ""
-      }
+      },
+      "rowShapes": [
+        "b43cae71c8c601ac",
+        "b5a1ca2ca6290627",
+        "075201e3911d27cf",
+        "3b07c56d652fc2c0",
+        "b51739b7f0bdc846",
+        "151348f5d8116405",
+        "a72e5343ed37c584",
+        "dae94e2481652a4b"
+      ],
+      "shapeKey": "5e46683cb123f086"
     },
     "bank-of-melbourne-1859a2:BOMTrRetirementAccess": {
       "reviewKey": "9b3cc5115ab62081a936478b3d51e21a6444f09223f4d03ad1a804e330abe1ea",
@@ -15866,7 +16993,14 @@
         "statedHeadline": null,
         "confidence": "high",
         "notes": "Banded rates; tier boundaries overlap by a dollar."
-      }
+      },
+      "rowShapes": [
+        "a1d292e37798b054",
+        "1e819214a78514bc",
+        "accb9d7a95fc1773",
+        "f540fd11289b0710"
+      ],
+      "shapeKey": "334f00630377c55c"
     },
     "banksa-e6aef2:BSATrRetirementAccess": {
       "reviewKey": "4af02b4c3724f9f64cc426e1798bdd1a4aa8888dc2a6b6dd656b5041d171ad37",
@@ -15938,7 +17072,14 @@
         "statedHeadline": null,
         "confidence": "high",
         "notes": ""
-      }
+      },
+      "rowShapes": [
+        "a1d292e37798b054",
+        "1e819214a78514bc",
+        "accb9d7a95fc1773",
+        "f540fd11289b0710"
+      ],
+      "shapeKey": "3efe2af1db9cf303"
     },
     "st-george-bank-66f3a8:STGTrRetirementAccess": {
       "reviewKey": "fd4730574c33887173690d284b93f8bfdcbf5a2d454166b9745ff1e157e4ff6f",
@@ -16010,7 +17151,14 @@
         "statedHeadline": null,
         "confidence": "high",
         "notes": ""
-      }
+      },
+      "rowShapes": [
+        "a1d292e37798b054",
+        "1e819214a78514bc",
+        "accb9d7a95fc1773",
+        "f540fd11289b0710"
+      ],
+      "shapeKey": "5edddb8af7df0d1a"
     },
     "geelong-bank-1a2306:S80": {
       "reviewKey": "db4f3deae837eede09d3d6413f495326b517d64b23652aa86fc5af72dac8c666",
@@ -16093,7 +17241,14 @@
         "statedHeadline": null,
         "confidence": "high",
         "notes": ""
-      }
+      },
+      "rowShapes": [
+        "10984ba6dccd0d15",
+        "72076656ad68a952",
+        "423478840a80e17f",
+        "7df46685bfb4dbf6"
+      ],
+      "shapeKey": "ab621f6007e17378"
     },
     "geelong-bank-1a2306:S55": {
       "reviewKey": "b08a0efc779f64cd422b138073885acc0d8ee7bb112530fdf71ae8facc526622",
@@ -16231,7 +17386,16 @@
         "statedHeadline": null,
         "confidence": "high",
         "notes": ""
-      }
+      },
+      "rowShapes": [
+        "9d1fdba66689cff7",
+        "6eaa038e000518c2",
+        "a4b0b17383cfa9d7",
+        "3071d376ff118d72",
+        "2898a7f2b6466d0f",
+        "23da640229d16436"
+      ],
+      "shapeKey": "65fb76a0c8b8eca7"
     },
     "border-bank-a0ec91:5c91aaf2-d9fa-4d4e-8f86-f7ee573f1900": {
       "reviewKey": "ec6bbd76595852f8312adb8d47206960ece86fc5a08d7a92b66fcc0f2e36f36c",
@@ -16322,7 +17486,13 @@
         "statedHeadline": null,
         "confidence": "high",
         "notes": ""
-      }
+      },
+      "rowShapes": [
+        "9549f4f42e4f6240",
+        "867758deb221a58e",
+        "85c77e25f7ffcc6c"
+      ],
+      "shapeKey": "3d810551b2fb87d1"
     },
     "police-bank-d51dc6:2d24914e-144d-46be-bb8b-ae9e2c8207e7": {
       "reviewKey": "2f2050deed8fb53c94adf558ad1f7c1ae5aa993a99cb94553e3805b893470045",
@@ -16413,7 +17583,13 @@
         "statedHeadline": null,
         "confidence": "high",
         "notes": ""
-      }
+      },
+      "rowShapes": [
+        "1f2293d81e852b98",
+        "085efa02b89ea32b",
+        "850b21d8acdfd256"
+      ],
+      "shapeKey": "3d810551b2fb87d1"
     },
     "credit-union-sa-cbc123:CREDITUNIONSA_SAV_112": {
       "reviewKey": "23a7196f856c06454a16e91bc215b4592e62dec30fd4fe658546fbe9d4afd8e2",
@@ -16473,7 +17649,13 @@
         "statedHeadline": null,
         "confidence": "medium",
         "notes": "Tiers are published with open-ended maximums; intended bands are <$50k 1.25%, $50k–$250k 2.20%, >$250k 2.55%."
-      }
+      },
+      "rowShapes": [
+        "deb085c93e33b80f",
+        "e6f8d47e60afc3fd",
+        "92d636a50553c547"
+      ],
+      "shapeKey": "82c03b05bc7b796e"
     },
     "bank-of-china-475b2b:55940657": {
       "reviewKey": "c314044c985f80d151c09a5f2cff43ac8a2f5cd02832c4e45a1297d966aca996",
@@ -16521,7 +17703,12 @@
         "statedHeadline": null,
         "confidence": "medium",
         "notes": ""
-      }
+      },
+      "rowShapes": [
+        "b1b8db7d2ec18bcb",
+        "6471806506495f0d"
+      ],
+      "shapeKey": "a88fa6191803e584"
     },
     "newcastle-permanent-8ac556:AC_specialmonthlyinterest": {
       "reviewKey": "0552c0a23d4b98d2c0734c9c2afe5ab3e6c43d4cfda7a4f23c91aeeaee4dce6a",
@@ -16593,7 +17780,14 @@
         "statedHeadline": null,
         "confidence": "high",
         "notes": ""
-      }
+      },
+      "rowShapes": [
+        "4e984540be20949a",
+        "a718986bf4f0b6d7",
+        "9a10abf6c1807b20",
+        "fcee009a2e130f29"
+      ],
+      "shapeKey": "0e7b0c0736032edf"
     },
     "hsbc-bank-australia-limited-wholesale-ba-6acb78:CUA": {
       "reviewKey": "9c7be6efd3414e1c5b64e088074d053427e058b8195144b6e5bdd3e01e23f33c",
@@ -16653,7 +17847,13 @@
         "statedHeadline": null,
         "confidence": "high",
         "notes": "Corporate business cheque account."
-      }
+      },
+      "rowShapes": [
+        "a090d6deb55b2b91",
+        "c84ff26142057dfa",
+        "09993554acf4ab84"
+      ],
+      "shapeKey": "2cf27aaac44ebe05"
     },
     "bank-of-queensland-limited-1f8da9:b5176288-5c03-ee11-8f6e-00224814dce7": {
       "reviewKey": "63fd8db5134cef9a6dd0a860cd65aea9c56dfaf7fc049c52579d940a80d33b85",
@@ -16758,7 +17958,14 @@
         "statedHeadline": null,
         "confidence": "high",
         "notes": "Bonus rows state the total rate (1.20% bonus + 0.05% base = 1.25%)."
-      }
+      },
+      "rowShapes": [
+        "818dce056f644182",
+        "fcd0b7da1b173745",
+        "f21190c2c4b95fc8",
+        "baba3438124f96c9"
+      ],
+      "shapeKey": "c326fa8084d0f46d"
     },
     "gateway-bank-b98426:11": {
       "reviewKey": "016a935306259e2ba2bf66d376469ecb9d5c1162a5baca13a9b5c78621820639",
@@ -16805,7 +18012,11 @@
         "statedHeadline": null,
         "confidence": "medium",
         "notes": "Labelled INTRODUCTORY; treated as this term's rate."
-      }
+      },
+      "rowShapes": [
+        "2c54c8380fe1e0e6"
+      ],
+      "shapeKey": "525c0652fd40a6ab"
     },
     "gateway-bank-b98426:14": {
       "reviewKey": "2bfabb9094868f3e73ed5c06b81117d0c8fca52cb8746a7dae01dac33b7d4a01",
@@ -16852,7 +18063,11 @@
         "statedHeadline": null,
         "confidence": "medium",
         "notes": "Labelled INTRODUCTORY; treated as this term's rate."
-      }
+      },
+      "rowShapes": [
+        "f851daf30c1b78ae"
+      ],
+      "shapeKey": "d567ea69e8e47fa1"
     },
     "gateway-bank-b98426:15": {
       "reviewKey": "611670fd536e683188e42555583a0cf0aace40fa228510e6c964c405a85f92a7",
@@ -16899,7 +18114,11 @@
         "statedHeadline": null,
         "confidence": "medium",
         "notes": "Labelled INTRODUCTORY; treated as this term's rate."
-      }
+      },
+      "rowShapes": [
+        "5748c054d0dfed37"
+      ],
+      "shapeKey": "76bcd7ad11e34d33"
     },
     "gateway-bank-b98426:12": {
       "reviewKey": "06361fd9e43a81c3aafc7f3079f7e565607d543cc510fcef0f832fe61305bbb2",
@@ -16946,7 +18165,11 @@
         "statedHeadline": null,
         "confidence": "medium",
         "notes": "Labelled INTRODUCTORY; treated as this term's rate."
-      }
+      },
+      "rowShapes": [
+        "ab9cc6ab94701228"
+      ],
+      "shapeKey": "995c31752dd0a611"
     },
     "gateway-bank-b98426:8": {
       "reviewKey": "79f44a8c27179832dfba01b780cb1c2d9cb5a97c5e5fe68f804f0bf5e38ba0b3",
@@ -16993,7 +18216,11 @@
         "statedHeadline": null,
         "confidence": "medium",
         "notes": "Labelled INTRODUCTORY; treated as this term's rate."
-      }
+      },
+      "rowShapes": [
+        "4893e2aa672b8b01"
+      ],
+      "shapeKey": "208915df9ee2382a"
     },
     "gateway-bank-b98426:9": {
       "reviewKey": "fcfe876258c8bf557201e0dca3728d7d511d30ab46403b418169817dca1520f7",
@@ -17040,7 +18267,11 @@
         "statedHeadline": null,
         "confidence": "medium",
         "notes": "Labelled INTRODUCTORY; treated as this term's rate."
-      }
+      },
+      "rowShapes": [
+        "674b4bd139b286ee"
+      ],
+      "shapeKey": "faf5c35c4c2e8dc0"
     },
     "horizon-bank-8f3129:S7_S7001": {
       "reviewKey": "acb92ce48f0d8bc671d5d4cf47c1bb7d2be700cc167fceca641c87010eae5d97",
@@ -17099,7 +18330,12 @@
         "statedHeadline": null,
         "confidence": "low",
         "notes": "Description mentions a reward rate for $50/month and no withdrawals, but only a 0.50% 3-month intro and a 0% base are published."
-      }
+      },
+      "rowShapes": [
+        "4654289e3e351b88",
+        "6cae04bfa083bb47"
+      ],
+      "shapeKey": "b2dbb248693d2bf8"
     },
     "bank-of-china-475b2b:55020656": {
       "reviewKey": "0c3fda7abf4b31d91de917599f21ebc563c04574f90871facfe97afae24b4238",
@@ -17147,7 +18383,12 @@
         "statedHeadline": null,
         "confidence": "medium",
         "notes": ""
-      }
+      },
+      "rowShapes": [
+        "69161d163b18264b",
+        "6be4ac5bdb02a9cf"
+      ],
+      "shapeKey": "b806b0eca61b0482"
     },
     "bank-of-china-475b2b:55020657": {
       "reviewKey": "b7201b6b8e762a7fe7d0d9a33d864d0a65bff3447500b9f1202af1074d8db8d1",
@@ -17195,7 +18436,12 @@
         "statedHeadline": null,
         "confidence": "medium",
         "notes": ""
-      }
+      },
+      "rowShapes": [
+        "69161d163b18264b",
+        "6be4ac5bdb02a9cf"
+      ],
+      "shapeKey": "f4f236fdf7f79a48"
     },
     "bank-of-china-475b2b:55920656": {
       "reviewKey": "efa1816f86b4110cc138b5542df2b1700adeb57cd60558339713a6fbb4f68037",
@@ -17243,7 +18489,12 @@
         "statedHeadline": null,
         "confidence": "medium",
         "notes": ""
-      }
+      },
+      "rowShapes": [
+        "8266297dd823aae7",
+        "8d0241cec2737a28"
+      ],
+      "shapeKey": "fbe5e6dd607c7733"
     },
     "bank-of-china-475b2b:55920657": {
       "reviewKey": "c969dd3854e3040aa7c1f22396575a71dda9e13eb8538c6db1eeec30d8d76e63",
@@ -17291,7 +18542,12 @@
         "statedHeadline": null,
         "confidence": "medium",
         "notes": ""
-      }
+      },
+      "rowShapes": [
+        "8266297dd823aae7",
+        "8d0241cec2737a28"
+      ],
+      "shapeKey": "a1289f63a138e031"
     },
     "bank-of-china-475b2b:55160605": {
       "reviewKey": "413c3040c84a320a82585cd76ad2bc6e816619c406f1ef1ba82f1195d0ac9c28",
@@ -17327,7 +18583,11 @@
         "statedHeadline": null,
         "confidence": "high",
         "notes": ""
-      }
+      },
+      "rowShapes": [
+        "a1c1769d3f8f9f7e"
+      ],
+      "shapeKey": "8f64e229f1840628"
     },
     "traditional-credit-union-40a4f0:TCU0030": {
       "reviewKey": "a4a7e6e509729e5cafd5e808942852b1740f4698d11b9b53f1265741adcb8f26",
@@ -17363,7 +18623,11 @@
         "statedHeadline": null,
         "confidence": "high",
         "notes": ""
-      }
+      },
+      "rowShapes": [
+        "7b6910ce8938c17e"
+      ],
+      "shapeKey": "dfa075dd99619a98"
     }
   }
 }

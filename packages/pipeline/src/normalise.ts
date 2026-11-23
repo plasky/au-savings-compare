@@ -5,8 +5,8 @@
  * back to the CDR labels and structured conditions.
  */
 import type { Condition, ConditionType, Product, RateRow, Tier } from '@asc/engine';
-import { isBaseType, isForeignCurrency, isNonPersonal, rateConditions, freeTextParts, restrictionFromName, termRangesMonths } from './rates.js';
-import { alignReview, reviewKeyFor, rowSignature, type ReviewsFile, type RowReview } from './review/review.js';
+import { ageRangeFromText, isBaseType, isForeignCurrency, isNonPersonal, rateConditions, freeTextParts, restrictionFromName, termRangesMonths } from './rates.js';
+import { matchReview, rowSignature, stableStringify, type ReviewsFile, type RowReview } from './review/review.js';
 import type { DepositRate, ProductDetail, RawEndpointFile, RawProduct } from './types.js';
 import { durationToMonths, isIsoDuration, parseAmount, parseRate, truncate } from './util.js';
 
@@ -118,6 +118,31 @@ export function autoAlternatives(rows: RateRow[], labels: Map<string, string>): 
   return true;
 }
 
+/**
+ * Bonus rows that are exact copies of each other (same rate, conditions and
+ * balance bands) are almost always one bonus split by something the data
+ * doesn't say, such as age. Adding them together would double the bonus, so
+ * treat each group as alternatives: only one can apply.
+ */
+export function identicalBonuses(rows: RateRow[], labels: Map<string, string>): boolean {
+  const groups = new Map<string, RateRow[]>();
+  for (const r of rows) {
+    if (r.role === 'BASE' || r.alternativeSet) continue;
+    const k = stableStringify({ role: r.role, rate: r.rate, combine: r.combine, tiers: r.tiers, method: r.method, conditions: r.conditions, intro: r.introMonths });
+    groups.set(k, [...(groups.get(k) ?? []), r]);
+  }
+  let n = 0;
+  for (const g of groups.values()) {
+    if (g.length < 2) continue;
+    n++;
+    g.forEach((r, i) => {
+      r.alternativeSet = `bonus (auto ${n})`;
+      r.option = `${labels.get(r.id) ?? r.id} (${i + 1})`;
+    });
+  }
+  return n > 0;
+}
+
 export function normaliseProduct(
   file: RawEndpointFile,
   raw: RawProduct,
@@ -140,10 +165,12 @@ export function normaliseProduct(
 
   const key = `${file.slug}:${raw.productId}`;
   const entry = reviews.entries[key];
-  const aligned: RowReview[] | null = entry ? alignReview(entry, d) : null;
+  const match = matchReview(entry, d);
+  const aligned: RowReview[] | null = match?.rows ?? null;
   const notes: string[] = [];
-  if (entry && !aligned) notes.push('Rates changed since review; using unreviewed bank labels');
-  if (entry?.review.notes) notes.push(entry.review.notes);
+  if (entry && !match) notes.push('The bank changed this account since it was checked by hand; rates are combined using the bank’s own labels until the next check');
+  if (match && !match.exact) notes.push('Rates changed since the hand check, but how they combine is unchanged, so the check still applies');
+  if (match && entry?.review.notes) notes.push(entry.review.notes);
 
   const rows: RateRow[] = [];
   const labels = new Map<string, string>();
@@ -156,6 +183,11 @@ export function normaliseProduct(
     const { tiers, method } = dollarTiers(r);
     const role = rr ? rr.role : defaultRole(r.depositRateType);
     const conditions: Condition[] = rr ? rr.conditions.map((c) => ({ ...c })) : cdrConditions(r);
+    // Unreviewed bonus rows often say who they're for only in words ("for customers 31 years old or older").
+    if (!rr && role !== 'BASE' && !conditions.some((c) => c.type === 'AGE_RANGE')) {
+      const age = ageRangeFromText([typeof r.additionalValue === 'string' ? r.additionalValue : '', r.additionalInfo ?? ''].join(' '));
+      if (age) conditions.push({ ...blankCondition('AGE_RANGE', 'Age stated in the bank’s description'), ...age, period: 'ONCE' });
+    }
     const introFromData = r.depositRateType === 'INTRODUCTORY' ? durationToMonths(r.additionalValue) : null;
     const id = `${rowSignature(r)}#${i}`;
     const av = typeof r.additionalValue === 'string' && !isIsoDuration(r.additionalValue) ? r.additionalValue : '';
@@ -189,6 +221,7 @@ export function normaliseProduct(
     }
   }
   if (!isTd && autoAlternatives(finalRows, labels)) notes.push('Overlapping base rates treated as alternatives');
+  if (!isTd && !aligned && identicalBonuses(finalRows, labels)) notes.push('Identical bonus rows treated as one bonus, not added together');
   const el = entry?.review.eligibility;
   return {
     key,
@@ -203,7 +236,7 @@ export function normaliseProduct(
       restrictedTo: el?.restrictedTo ?? brandRestrictions[file.slug] ?? (aligned ? null : restrictionFromName(d.name)),
       newCustomersOnly: el?.newCustomersOnly ?? null,
     },
-    reviewed: !!aligned && entry!.reviewKey === reviewKeyFor(d),
+    reviewed: !!match,
     confidence: aligned ? (entry?.review.confidence ?? null) : null,
     notes,
     abn: file.brands.find((b) => b.abn)?.abn ?? null,

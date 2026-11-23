@@ -150,3 +150,113 @@ describe('normaliseProduct (reviewed)', () => {
     expect(oneMonthInterest(p, 60_000)).toBe(at(0.0575, 60_000));
   });
 });
+
+// Bendigo Reward Saver, 23 Nov 2026: one 5.15% bonus published twice, split by age only in words.
+const ageSplit: ProductDetail = {
+  productId: 'reward',
+  name: 'Reward Saver',
+  brandName: 'Bendigo Bank',
+  productCategory: 'TRANS_AND_SAVINGS_ACCOUNTS',
+  lastUpdated: '2026-11-22T13:33:22Z',
+  depositRates: [
+    { depositRateType: 'VARIABLE', rate: '0.001' },
+    {
+      depositRateType: 'BONUS',
+      rate: '0.0515',
+      additionalValue: 'For customers 31 years old or older Subject to eligibility criteria being met',
+      applicabilityConditions: [{ rateApplicabilityType: 'DEPOSIT_BALANCE_INCREASED', additionalValue: '0.01' }],
+    },
+    {
+      depositRateType: 'BONUS',
+      rate: '0.0515',
+      additionalValue: 'For customers 30 years old or younger, subject to eligibility criteria being met',
+      applicabilityConditions: [{ rateApplicabilityType: 'DEPOSIT_BALANCE_INCREASED', additionalValue: '0.01' }],
+    },
+  ],
+};
+const grows = (p: Product, age: number) =>
+  simulate({
+    startDate: '2026-12-01',
+    months: 1,
+    people: [{ id: 'p1', age, taxableIncome: 100_000 }],
+    accounts: [{ kind: 'savings', id: 'a', product: p, owners: { p1: 1 }, openingBalance: 10_000, behaviour: { monthlyDeposit: 100 } }],
+  }).months[0]!.accounts.a!;
+
+describe('bonus rows split by something only the words say', () => {
+  it('reads an age band from the row text, so only one bonus applies (not 10.40%)', () => {
+    const p = norm(ageSplit);
+    const ages = p.rows.filter((r) => r.role === 'BONUS').map((r) => r.conditions.find((c) => c.type === 'AGE_RANGE'));
+    expect(ages.map((a) => [a?.minAge, a?.maxAge])).toEqual([
+      [31, null],
+      [null, 30],
+    ]);
+    expect(grows(p, 40).bonus).toBeCloseTo(grows(p, 25).bonus, 2);
+    const rate = (grows(p, 40).interest / 10_000) * (365 / 31);
+    expect(rate).toBeGreaterThan(0.05);
+    expect(rate).toBeLessThan(0.056);
+  });
+
+  it('treats exact duplicate bonus rows as one bonus', () => {
+    const strip = (r: NonNullable<ProductDetail['depositRates']>[number]) => ({ ...r, additionalValue: 'Subject to eligibility criteria being met' });
+    const p = norm({ ...ageSplit, depositRates: ageSplit.depositRates!.map(strip) });
+    const bonuses = p.rows.filter((r) => r.role === 'BONUS');
+    expect(new Set(bonuses.map((r) => r.alternativeSet))).toEqual(new Set(['bonus (auto 1)']));
+    expect(p.notes.join(' ')).toContain('Identical bonus rows');
+    const rate = (grows(p, 40).interest / 10_000) * (365 / 31);
+    expect(rate).toBeLessThan(0.056);
+  });
+});
+
+describe('hand reviews after a rate change', () => {
+  const answers = {
+    reviews: [
+      {
+        key: 'bank:reward',
+        reviewKey: '',
+        defaultRole: null,
+        rows: [
+          { index: 0, role: 'BASE', combine: 'ADD_TO_BASE', alternativeSet: null, option: null, conditions: [], introMonths: null, termMonths: null, excludeReason: null },
+          ...[1, 2].map((index) => ({
+            index,
+            role: 'BONUS',
+            combine: 'ADD_TO_BASE',
+            alternativeSet: 'age',
+            option: index === 1 ? '31 and over' : '30 and under',
+            conditions: [{ type: 'DEPOSIT_BALANCE_INCREASED', amount: null, count: null, period: 'MONTH', externalOnly: false, minAge: null, maxAge: null, description: '' }],
+            introMonths: null,
+            termMonths: null,
+            excludeReason: null,
+          })),
+        ],
+        eligibility: { minAge: null, maxAge: null, newCustomersOnly: null, jointAllowed: null, restrictedTo: null, notes: '' },
+        statedHeadline: null,
+        confidence: 'high',
+        notes: 'The two bonus rows are the same rate split by age, not stacking.',
+      },
+    ],
+  };
+  const reviewed = () => {
+    const reviews = emptyReviews();
+    const candidates = buildCandidates([rawFile('bank', [ageSplit])]);
+    answers.reviews[0]!.reviewKey = candidates[0]!.reviewKey;
+    const res = applyAnswers(answers, candidates, reviews);
+    if (res.errors.length) throw new Error(res.errors.join('; '));
+    return reviews;
+  };
+
+  it('keeps the review when only rates change', () => {
+    const newRates = { ...ageSplit, depositRates: ageSplit.depositRates!.map((r) => (r.depositRateType === 'BONUS' ? { ...r, rate: '0.0525' } : r)) };
+    const p = norm(newRates, reviewed());
+    expect(p.reviewed).toBe(true);
+    expect(p.rows.filter((r) => r.role === 'BONUS').every((r) => r.alternativeSet === 'age' && r.rate === 0.0525)).toBe(true);
+    expect(p.notes[0]).toContain('Rates changed since the hand check');
+  });
+
+  it('drops the review (and its notes) when the rows change in another way', () => {
+    const rewritten = { ...ageSplit, depositRates: [...ageSplit.depositRates!, { depositRateType: 'BONUS', rate: '0.01', additionalInfo: 'New loyalty bonus' }] };
+    const p = norm(rewritten, reviewed());
+    expect(p.reviewed).toBe(false);
+    expect(p.notes.join(' ')).not.toContain('split by age');
+    expect(p.notes[0]).toContain('changed this account since it was checked by hand');
+  });
+});

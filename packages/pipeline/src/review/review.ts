@@ -96,6 +96,10 @@ export interface ReviewEntry {
   reviewedAt: string;
   /** rowSignature of each depositRates row at review time, by index — lets reviews survive row reordering. */
   rowSignatures: string[];
+  /** rowShape (signature without the rate value) of each row, by index — lets reviews survive rate-only changes. */
+  rowShapes?: string[];
+  /** shapeKeyFor at review time (name and eligibility). */
+  shapeKey?: string;
   review: ProductReview;
 }
 
@@ -149,6 +153,15 @@ export function rowSignature(r: DepositRate): string {
   return sha256(stableStringify(canonicalRate(r))).slice(0, 16);
 }
 
+/**
+ * A row's signature without its rate value. When a bank changes a rate but
+ * nothing else about the row, the shape stays the same, and so does how the
+ * rows combine — the hand review still holds.
+ */
+export function rowShape(r: DepositRate): string {
+  return sha256(stableStringify({ ...(canonicalRate(r) as Record<string, unknown>), rate: undefined })).slice(0, 16);
+}
+
 /** Order-insensitive key over a product's name, rate rows and eligibility. */
 export function reviewKeyFor(d: ProductDetail): string {
   const rows = (d.depositRates ?? []).map(rowSignature).sort();
@@ -161,19 +174,49 @@ export function reviewKeyFor(d: ProductDetail): string {
  * signature (holders sometimes reorder depositRates). Returns null if any
  * current row has no reviewed counterpart.
  */
-export function alignReview(entry: ReviewEntry, detail: ProductDetail): RowReview[] | null {
+export function alignReview(entry: ReviewEntry, detail: ProductDetail, by: 'signature' | 'shape' = 'signature'): RowReview[] | null {
+  const keys = by === 'signature' ? entry.rowSignatures : entry.rowShapes;
+  const keyOf = by === 'signature' ? rowSignature : rowShape;
+  if (!keys || keys.length !== (detail.depositRates ?? []).length) return null;
   const pool = new Map<string, RowReview[]>();
-  entry.rowSignatures.forEach((sig, i) => {
+  keys.forEach((sig, i) => {
     const rr = entry.review.rows.find((r) => r.index === i);
     if (rr) pool.set(sig, [...(pool.get(sig) ?? []), rr]);
   });
   const out: RowReview[] = [];
   for (const [i, r] of (detail.depositRates ?? []).entries()) {
-    const rr = pool.get(rowSignature(r))?.shift();
+    const rr = pool.get(keyOf(r))?.shift();
     if (!rr) return null;
     out.push({ ...rr, index: i });
   }
   return out;
+}
+
+/**
+ * The stored review that still applies to a product: exactly (same rows), or
+ * after a rate-only change (same row shapes, the product's name and
+ * eligibility unchanged). Null when the product has changed in any other way.
+ */
+export function matchReview(entry: ReviewEntry | undefined, detail: ProductDetail): { rows: RowReview[]; exact: boolean } | null {
+  if (!entry) return null;
+  const exact = alignReview(entry, detail, 'signature');
+  if (exact) return { rows: exact, exact: true };
+  if (entry.review.key && entry.rowShapes && sameNameAndEligibility(entry, detail)) {
+    const byShape = alignReview(entry, detail, 'shape');
+    if (byShape) return { rows: byShape, exact: false };
+  }
+  return null;
+}
+
+function sameNameAndEligibility(entry: ReviewEntry, detail: ProductDetail): boolean {
+  if (!entry.shapeKey) return true;
+  return entry.shapeKey === shapeKeyFor(detail);
+}
+
+/** Name and eligibility part of the review key, so a rate-only change can be told apart from a rewrite. */
+export function shapeKeyFor(d: ProductDetail): string {
+  const eligibility = (d.eligibility ?? []).map(stableStringify).sort();
+  return sha256(stableStringify({ name: d.name ?? null, eligibility })).slice(0, 16);
 }
 
 export interface Candidate {
@@ -250,6 +293,8 @@ export function buildCandidates(raws: RawEndpointFile[]): Candidate[] {
 export interface QueueStats {
   candidates: number;
   reviewed: number;
+  /** Reviewed products whose rates changed but nothing else (review still applies). */
+  rateOnly: number;
   stale: number;
   queued: number;
   belowThreshold: number;
@@ -258,12 +303,18 @@ export interface QueueStats {
 
 export function buildQueue(raws: RawEndpointFile[], reviews: ReviewsFile, threshold = DEFAULT_THRESHOLD) {
   const candidates = buildCandidates(raws);
-  const stats: QueueStats = { candidates: candidates.length, reviewed: 0, stale: 0, queued: 0, belowThreshold: 0, threshold };
+  const stats: QueueStats = { candidates: candidates.length, reviewed: 0, rateOnly: 0, stale: 0, queued: 0, belowThreshold: 0, threshold };
   const queue: Candidate[] = [];
   for (const c of candidates) {
     const entry = reviews.entries[c.key];
     if (entry?.reviewKey === c.reviewKey) {
       stats.reviewed++;
+      continue;
+    }
+    // A rate-only change keeps the review: how the rows combine hasn't changed.
+    if (entry && matchReview(entry, c.detail)) {
+      stats.reviewed++;
+      stats.rateOnly++;
       continue;
     }
     if (c.headline < threshold) {
@@ -425,6 +476,8 @@ export function applyAnswers(
       reviewKey: review.reviewKey,
       reviewedAt: now.toISOString(),
       rowSignatures: rates.map(rowSignature),
+      rowShapes: rates.map(rowShape),
+      shapeKey: shapeKeyFor(c.detail),
       review,
     };
     result.applied.push(label);

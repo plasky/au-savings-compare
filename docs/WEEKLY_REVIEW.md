@@ -80,3 +80,7 @@ Example:
     ] }
 ] }
 ```
+
+## Rate-only changes
+
+Each review stores the shape of every row (the row without its rate value) along with its exact signature. When a bank changes rates but nothing else (same rows, conditions, tiers, name and eligibility), the review still applies: the normaliser carries it over with a note, and the product does not go back in the queue. Any other change (a new row, different conditions or tiers, a renamed product) drops the review until the next weekly pass, and unreviewed rows fall back to safeguards: age bands read from the row text become age conditions, and exact duplicate bonus rows count as one bonus.

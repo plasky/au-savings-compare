@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-11-22T21:58:24.054Z",
+  "generatedAt": "2026-11-23T03:37:30.023Z",
   "crawl": {
-    "crawledAt": "2026-11-22T21:58:22.194Z",
+    "crawledAt": "2026-11-23T03:37:28.411Z",
     "registerOk": true,
     "brandsTotal": 390,
     "brandsInScope": 306,
     "endpoints": 306,
-    "endpointsOk": 259,
+    "endpointsOk": 258,
     "endpointsFailed": [
       {
         "brands": "AAA Mortgage Finance",
@@ -218,6 +218,11 @@
         "detail": "urn:au-cds:error:cds-all:Field/Invalid | Invalid Field | Invalid Field"
       },
       {
+        "brands": "Royal Automobile Club of Queensland (RACQ)",
+        "status": 0,
+        "error": "ENOTFOUND"
+      },
+      {
         "brands": "Scene Finance",
         "status": 400,
         "error": "http-400",
@@ -292,45 +297,45 @@
     "listVersions": {
       "3": 2,
       "4": 2,
-      "5": 255
+      "5": 254
     },
     "detailVersions": {
       "4": 13,
       "5": 16,
       "6": 38,
-      "7": 1477,
-      "none": 1
+      "7": 1468,
+      "none": 3
     },
     "cors": {
-      "browserReady": 242,
-      "preflightOk": 244,
+      "browserReady": 241,
+      "preflightOk": 243,
       "exposesXv": 108,
-      "checked": 259
+      "checked": 258
     }
   },
   "products": {
     "byCategory": {
-      "TRANS_AND_SAVINGS_ACCOUNTS": 892,
-      "TERM_DEPOSITS": 654
+      "TRANS_AND_SAVINGS_ACCOUNTS": 886,
+      "TERM_DEPOSITS": 653
     },
-    "detailsOk": 1545,
+    "detailsOk": 1538,
     "detailsMissing": 1,
     "withDepositRates": {
-      "TRANS_AND_SAVINGS_ACCOUNTS": 758,
-      "TERM_DEPOSITS": 646
+      "TRANS_AND_SAVINGS_ACCOUNTS": 753,
+      "TERM_DEPOSITS": 645
     }
   },
   "rates": {
     "rowsByType": {
       "TRANS_AND_SAVINGS_ACCOUNTS": {
-        "VARIABLE": 1796,
+        "VARIABLE": 1788,
         "FIXED": 102,
-        "BONUS": 251,
+        "BONUS": 249,
         "INTRODUCTORY": 41,
         "BUNDLE_BONUS": 3
       },
       "TERM_DEPOSITS": {
-        "FIXED": 6323,
+        "FIXED": 6307,
         "BONUS": 10,
         "INTRODUCTORY": 33,
         "MARKET_LINKED": 1,
@@ -338,28 +343,28 @@
       }
     },
     "tierMethods": {
-      "WHOLE_BALANCE": 10128,
-      "PER_TIER": 1027
+      "WHOLE_BALANCE": 10107,
+      "PER_TIER": 1024
     }
   },
   "bonus": {
-    "rows": 264,
-    "withStructured": 167,
+    "rows": 262,
+    "withStructured": 165,
     "freeTextOnly": 53,
     "structuredOnly": 0,
     "neither": 44,
     "conditionTypes": {
-      "MAX_WITHDRAWALS": 51,
-      "MIN_DEPOSIT_AMOUNT": 97,
+      "MAX_WITHDRAWALS": 49,
+      "MIN_DEPOSIT_AMOUNT": 95,
       "DEPOSIT_BALANCE_INCREASED": 55,
-      "MAX_WITHDRAWAL_AMOUNT": 9,
+      "MAX_WITHDRAWAL_AMOUNT": 7,
       "ONLINE_ONLY": 9,
       "MIN_PURCHASES": 12,
       "EXISTING_CUST": 8,
       "NEW_ACCOUNTS": 4,
       "NEW_CUSTOMER": 5,
       "OTHER": 19,
-      "MIN_DEPOSITS": 11
+      "MIN_DEPOSITS": 9
     }
   },
   "flags": [
@@ -374,7 +379,7 @@
     {
       "code": "NO_DEPOSIT_RATES",
       "description": "Product detail has no depositRates (common for transaction accounts; a problem for savings/TDs)",
-      "count": 141,
+      "count": 140,
       "examples": [
         "ANZ — ANZ Business Extra [TRANS_AND_SAVINGS_ACCOUNTS]",
         "ANZ — ANZ Access Advantage [TRANS_AND_SAVINGS_ACCOUNTS]",
@@ -437,13 +442,8 @@
     {
       "code": "INTRO_WITHOUT_DURATION",
       "description": "INTRODUCTORY rate without an ISO 8601 duration in additionalValue",
-      "count": 4,
-      "examples": [
-        "Bankwest — Bankwest Easy Saver: additionalValue=null",
-        "Bankwest — Bankwest Easy Saver: additionalValue=null",
-        "Bankwest — Bankwest Easy Saver: additionalValue=null",
-        "Bankwest — Bankwest Easy Saver: additionalValue=null"
-      ]
+      "count": 0,
+      "examples": []
     },
     {
       "code": "TD_RATE_WITHOUT_TERM",
@@ -559,7 +559,7 @@
     {
       "code": "NON_PERSONAL_PRODUCT",
       "description": "Business / SMSF / trust / organisation product (to exclude for a household)",
-      "count": 376,
+      "count": 375,
       "examples": [
         "AMP Bank GO — AMP Bank GO 12 Month Business Term Deposit",
         "AMP Bank GO — AMP Bank GO 6 Month Business Term Deposit",
@@ -722,16 +722,6 @@
       "note": ""
     },
     {
-      "brand": "RACQ Bank",
-      "product": "Bonus Saver Account",
-      "productId": "404",
-      "base": 0.0001,
-      "bonus": 0.06,
-      "intro": null,
-      "headline": 0.0601,
-      "note": ""
-    },
-    {
       "brand": "ING BANK (Australia) Ltd",
       "product": "Savings Maximiser",
       "productId": "b7bb9da4-3913-484c-8d2d-3fc99b9b4a72",
@@ -820,6 +810,16 @@
       "intro": null,
       "headline": 0.0585,
       "note": ""
+    },
+    {
+      "brand": "St.George Bank",
+      "product": "Maxi Saver",
+      "productId": "STGSavMaxiSaver",
+      "base": 0.0125,
+      "bonus": 0.0045,
+      "intro": 0.0415,
+      "headline": 0.0585,
+      "note": "intro may be total"
     }
   ],
   "topTd12": [
@@ -852,6 +852,16 @@
       "intro": null,
       "headline": 0.057,
       "note": "at maturity"
+    },
+    {
+      "brand": "SCCU",
+      "product": "TERM DEPOSIT",
+      "productId": "STANDARD_TERM_DEPOSIT",
+      "base": 0.057,
+      "bonus": null,
+      "intro": null,
+      "headline": 0.057,
+      "note": "at maturity; TERM DEPOSIT_Tier: $5,000–$20,000,000 (WHOLE_BALANCE); TERM DEPOSIT_Tier: 12 month–12 month (WHOLE_BALANCE)"
     },
     {
       "brand": "Heartland Bank",
@@ -962,26 +972,17 @@
       "intro": null,
       "headline": 0.055,
       "note": "P12M; Term Deposit for Edvest Members_Tier_1: $1,000–$4,999.99 (WHOLE_BALANCE); Term Deposit for Edvest Members_Tier_1: 12 month–12 month (WHOLE_BALANCE)"
-    },
-    {
-      "brand": "Firefighters Mutual Bank",
-      "product": "Term Deposit for Edvest Members",
-      "productId": "aa76cccb-0cf7-4330-8eb6-e2756aefce0e",
-      "base": 0.055,
-      "bonus": null,
-      "intro": null,
-      "headline": 0.055,
-      "note": "P12M; Term Deposit for Edvest Members_Tier_1: $1,000–$4,999.99 (WHOLE_BALANCE); Term Deposit for Edvest Members_Tier_1: 12 month–12 month (WHOLE_BALANCE)"
     }
   ],
   "td12Coverage": {
-    "products": 453,
-    "with12m": 140
+    "products": 452,
+    "with12m": 139
   },
   "review": {
     "stats": {
-      "candidates": 166,
-      "reviewed": 165,
+      "candidates": 165,
+      "reviewed": 164,
+      "rateOnly": 1,
       "stale": 1,
       "queued": 1,
       "belowThreshold": 0,
@@ -989,11 +990,11 @@
     },
     "top": [
       {
-        "key": "bendigo-bank-c7851b:cb6f3716-4e76-4e5b-b79d-0720756a21ac",
-        "brand": "Bendigo Bank",
-        "name": "Bendigo Reward Saver",
+        "key": "bankwest-c032c0:d10438974ab8417bab388149da5053bb",
+        "brand": "Bankwest",
+        "name": "Bankwest Easy Saver",
         "category": "TRANS_AND_SAVINGS_ACCOUNTS",
-        "headline": 0.104,
+        "headline": 0.115,
         "reasons": [
           "bonus/intro rows"
         ]

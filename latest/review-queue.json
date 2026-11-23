@@ -1,8 +1,9 @@
 {
-  "generatedAt": "2026-11-22T21:58:23.166Z",
+  "generatedAt": "2026-11-23T03:37:29.249Z",
   "stats": {
-    "candidates": 166,
-    "reviewed": 165,
+    "candidates": 165,
+    "reviewed": 164,
+    "rateOnly": 1,
     "stale": 1,
     "queued": 1,
     "belowThreshold": 0,
@@ -10,11 +11,11 @@
   },
   "items": [
     {
-      "key": "bendigo-bank-c7851b:cb6f3716-4e76-4e5b-b79d-0720756a21ac",
-      "brand": "Bendigo Bank",
-      "name": "Bendigo Reward Saver",
+      "key": "bankwest-c032c0:d10438974ab8417bab388149da5053bb",
+      "brand": "Bankwest",
+      "name": "Bankwest Easy Saver",
       "category": "TRANS_AND_SAVINGS_ACCOUNTS",
-      "headline": 0.104,
+      "headline": 0.115,
       "reasons": [
         "bonus/intro rows"
       ]

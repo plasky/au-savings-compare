@@ -20,8 +20,8 @@
     "pagesFetched": 1,
     "productCount": 40,
     "categoryCounts": {
-      "PERS_LOANS": 6,
       "RESIDENTIAL_MORTGAGES": 2,
+      "PERS_LOANS": 6,
       "TERM_DEPOSITS": 12,
       "TRANS_AND_SAVINGS_ACCOUNTS": 16,
       "BUSINESS_LOANS": 3,
@@ -243,7 +243,7 @@
         }
       },
       "detailStatus": 200,
-      "detailVersion": "7"
+      "detailVersion": null
     },
     {
       "productId": "12MTH_TERM",
@@ -893,7 +893,7 @@
         }
       },
       "detailStatus": 200,
-      "detailVersion": "7"
+      "detailVersion": null
     },
     {
       "productId": "6MTH_BUSINESS_TERM",

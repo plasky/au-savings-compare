@@ -20,8 +20,8 @@
     "pagesFetched": 1,
     "productCount": 50,
     "categoryCounts": {
-      "TRANS_AND_SAVINGS_ACCOUNTS": 13,
       "CRED_AND_CHRG_CARDS": 6,
+      "TRANS_AND_SAVINGS_ACCOUNTS": 13,
       "RESIDENTIAL_MORTGAGES": 9,
       "BUSINESS_LOANS": 5,
       "REGULATED_TRUST_ACCOUNTS": 4,
@@ -595,6 +595,7 @@
             "additionalInfo": "*Existing customers only "
           }
         ],
+        "eligibility": [],
         "constraints": [
           {
             "constraintType": "OPENING_BALANCE",
@@ -607,7 +608,6 @@
             "additionalValue": "1.00"
           }
         ],
-        "eligibility": [],
         "fees": [
           {
             "name": "Bank Cheque Withdrawal",
@@ -713,6 +713,8 @@
             "additionalInfo": "This product is only available to retail clients who meet the anti-money laundering and counter terrorism financing legislation requirements and hold an existing Australian dollar account in the same name / title."
           }
         ],
+        "depositRates": [],
+        "lendingRates": [],
         "fees": [
           {
             "name": "Telegraphic transfers",
@@ -738,8 +740,6 @@
             }
           }
         ],
-        "depositRates": [],
-        "lendingRates": [],
         "additionalInformation": {
           "overviewUri": "https://www.bendigobank.com.au/business/manage-fx/",
           "termsUri": "https://www.bendigobank.com.au/disclosure-documents/",
@@ -763,6 +763,7 @@
         "brandName": "Bendigo Bank",
         "isTailored": false,
         "bundles": [],
+        "cardArt": [],
         "features": [
           {
             "featureType": "OTHER",
@@ -806,7 +807,6 @@
             "featureType": "NPP_PAYID"
           }
         ],
-        "cardArt": [],
         "constraints": [
           {
             "constraintType": "OPENING_BALANCE",
@@ -1483,7 +1483,6 @@
             "additionalValue": "A card is available for the product to access funds"
           }
         ],
-        "constraints": [],
         "eligibility": [
           {
             "eligibilityType": "PENSION_RECIPIENT",
@@ -1500,6 +1499,7 @@
             "additionalValue": "You need to be an Australian citizen or resident"
           }
         ],
+        "constraints": [],
         "fees": [
           {
             "name": "International ATM Withdrawal",
@@ -3486,6 +3486,7 @@
         "isTailored": false,
         "bundles": [],
         "cardArt": [],
+        "lendingRates": [],
         "features": [
           {
             "featureType": "NPP_ENABLED"
@@ -3545,7 +3546,6 @@
             }
           }
         ],
-        "lendingRates": [],
         "depositRates": [
           {
             "depositRateType": "VARIABLE",
@@ -3580,6 +3580,7 @@
         "isTailored": false,
         "bundles": [],
         "cardArt": [],
+        "constraints": [],
         "features": [
           {
             "featureType": "OTHER",
@@ -3598,7 +3599,6 @@
             "additionalInfo": "Ability for existing customers to open an account in e-banking"
           }
         ],
-        "constraints": [],
         "eligibility": [
           {
             "eligibilityType": "OTHER",
@@ -4112,13 +4112,13 @@
             "featureType": "DIGITAL_BANKING"
           }
         ],
+        "eligibility": [],
         "constraints": [
           {
             "constraintType": "MIN_BALANCE",
             "additionalValue": "1000.00"
           }
         ],
-        "eligibility": [],
         "fees": [
           {
             "name": "Cash Withdrawal (in branch)",

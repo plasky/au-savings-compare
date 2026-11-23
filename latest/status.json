@@ -1,6 +1,6 @@
 {
-  "crawledAt": "2026-11-22T21:58:22.194Z",
-  "durationMs": 192542,
+  "crawledAt": "2026-11-23T03:37:28.411Z",
+  "durationMs": 191961,
   "register": {
     "ok": true,
     "status": 200,
@@ -11,13 +11,13 @@
     "endpoints": 306
   },
   "totals": {
-    "endpointsOk": 259,
-    "endpointsFailed": 47,
-    "productsListed": 4974,
-    "productsInScope": 1546,
-    "detailsOk": 1545,
+    "endpointsOk": 258,
+    "endpointsFailed": 48,
+    "productsListed": 4936,
+    "productsInScope": 1539,
+    "detailsOk": 1538,
     "detailsFailed": 1,
-    "browserReady": 286
+    "browserReady": 285
   },
   "endpoints": [
     {
@@ -53,7 +53,7 @@
           "allowMethods": null
         }
       },
-      "durationMs": 1952
+      "durationMs": 1747
     },
     {
       "slug": "aaa-financial-corporation-85bee2",
@@ -88,7 +88,7 @@
           "allowMethods": null
         }
       },
-      "durationMs": 1759
+      "durationMs": 1749
     },
     {
       "slug": "aaa-money-24a999",
@@ -123,7 +123,7 @@
           "allowMethods": "GET,OPTIONS"
         }
       },
-      "durationMs": 1990
+      "durationMs": 1764
     },
     {
       "slug": "aaa-mortgage-finance-d62437",
@@ -158,7 +158,7 @@
           "allowMethods": null
         }
       },
-      "durationMs": 4138
+      "durationMs": 4006
     },
     {
       "slug": "abacus-home-loans-191908",
@@ -193,7 +193,7 @@
           "allowMethods": null
         }
       },
-      "durationMs": 1946
+      "durationMs": 1927
     },
     {
       "slug": "afg-align-d326cd",
@@ -228,7 +228,7 @@
           "allowMethods": "GET"
         }
       },
-      "durationMs": 2620
+      "durationMs": 1633
     },
     {
       "slug": "afg-commercial-f4fa22",
@@ -264,7 +264,7 @@
           "allowMethods": "GET"
         }
       },
-      "durationMs": 2096
+      "durationMs": 2055
     },
     {
       "slug": "afg-home-loans-alpha-4fdcec",
@@ -302,7 +302,7 @@
           "allowMethods": "GET, HEAD, POST, PUT, PATCH, DELETE, OPTIONS"
         }
       },
-      "durationMs": 3870
+      "durationMs": 3044
     },
     {
       "slug": "afg-home-loans-options-50aa69",
@@ -337,7 +337,7 @@
           "allowMethods": "GET,OPTIONS"
         }
       },
-      "durationMs": 2116
+      "durationMs": 1688
     },
     {
       "slug": "afg-home-loans-retro-fe42d4",
@@ -372,7 +372,7 @@
           "allowMethods": "GET"
         }
       },
-      "durationMs": 2594
+      "durationMs": 899
     },
     {
       "slug": "afterpay-f3de7a",
@@ -407,7 +407,7 @@
           "allowMethods": "GET"
         }
       },
-      "durationMs": 1208
+      "durationMs": 1069
     },
     {
       "slug": "agco-finance-b6a88c",
@@ -442,7 +442,7 @@
           "allowMethods": "GET"
         }
       },
-      "durationMs": 1926
+      "durationMs": 1239
     },
     {
       "slug": "alb-ay-ijarah-home-finance-256f68",
@@ -477,7 +477,7 @@
           "allowMethods": null
         }
       },
-      "durationMs": 1586
+      "durationMs": 1750
     },
     {
       "slug": "alex-bank-998c65",
@@ -516,7 +516,7 @@
           "allowMethods": "GET"
         }
       },
-      "durationMs": 2936
+      "durationMs": 3026
     },
     {
       "slug": "alfa-romeo-financial-services-australia-8b3c2f",
@@ -552,7 +552,7 @@
           "allowMethods": "GET,HEAD,PUT,PATCH,POST,DELETE"
         }
       },
-      "durationMs": 1459
+      "durationMs": 1480
     },
     {
       "slug": "allcredit-automotive-finance-10f52b",
@@ -588,7 +588,7 @@
           "allowMethods": "GET,HEAD,PUT,PATCH,POST,DELETE"
         }
       },
-      "durationMs": 1455
+      "durationMs": 1446
     },
     {
       "slug": "allstate-home-loans-f9ca5d",
@@ -623,7 +623,7 @@
           "allowMethods": null
         }
       },
-      "durationMs": 3605
+      "durationMs": 3948
     },
     {
       "slug": "amanah-islamic-finance-b84963",
@@ -658,7 +658,7 @@
           "allowMethods": "GET,OPTIONS"
         }
       },
-      "durationMs": 1880
+      "durationMs": 1604
     },
     {
       "slug": "american-express-0ed381",
@@ -693,7 +693,7 @@
           "allowMethods": "GET, OPTIONS"
         }
       },
-      "durationMs": 330
+      "durationMs": 245
     },
     {
       "slug": "amo-6508e3",
@@ -728,7 +728,7 @@
           "allowMethods": null
         }
       },
-      "durationMs": 3598
+      "durationMs": 4088
     },
     {
       "slug": "amp-bank-go-87d866",
@@ -766,7 +766,7 @@
           "allowMethods": "GET"
         }
       },
-      "durationMs": 2710
+      "durationMs": 2859
     },
     {
       "slug": "amp-my-amp-350cf6",
@@ -805,7 +805,7 @@
           "allowMethods": null
         }
       },
-      "durationMs": 2880
+      "durationMs": 3311
     },
     {
       "slug": "angle-auto-finance-1c3431",
@@ -841,7 +841,7 @@
           "allowMethods": "GET,HEAD,PUT,PATCH,POST,DELETE"
         }
       },
-      "durationMs": 1484
+      "durationMs": 1303
     },
     {
       "slug": "angle-finance-b774a1",
@@ -877,7 +877,7 @@
           "allowMethods": "GET,OPTIONS"
         }
       },
-      "durationMs": 1725
+      "durationMs": 1836
     },
     {
       "slug": "anz-20d614",
@@ -921,7 +921,7 @@
           "allowMethods": "GET,POST"
         }
       },
-      "durationMs": 3351
+      "durationMs": 3500
     },
     {
       "slug": "anz-plus-ea74bb",
@@ -958,7 +958,7 @@
           "allowMethods": "GET, OPTIONS"
         }
       },
-      "durationMs": 1175
+      "durationMs": 1374
     },
     {
       "slug": "apollo-bd6ed2",
@@ -993,7 +993,7 @@
           "allowMethods": null
         }
       },
-      "durationMs": 3894
+      "durationMs": 2486
     },
     {
       "slug": "arab-bank-australia-limited-132e40",
@@ -1035,7 +1035,7 @@
           "allowMethods": null
         }
       },
-      "durationMs": 6183
+      "durationMs": 4259
     },
     {
       "slug": "athena-home-loans-99a296",
@@ -1070,7 +1070,7 @@
           "allowMethods": null
         }
       },
-      "durationMs": 4825
+      "durationMs": 1785
     },
     {
       "slug": "audi-financial-services-c53d22",
@@ -1106,7 +1106,7 @@
           "allowMethods": "GET"
         }
       },
-      "durationMs": 1960
+      "durationMs": 1785
     },
     {
       "slug": "aussie-activate-27cd40",
@@ -1141,7 +1141,7 @@
           "allowMethods": "GET,OPTIONS"
         }
       },
-      "durationMs": 1719
+      "durationMs": 1826
     },
     {
       "slug": "aussie-elevate-497d09",
@@ -1179,7 +1179,7 @@
           "allowMethods": "GET, HEAD, POST, PUT, PATCH, DELETE, OPTIONS"
         }
       },
-      "durationMs": 1987
+      "durationMs": 3252
     },
     {
       "slug": "aussie-home-loans-066b35",
@@ -1214,7 +1214,7 @@
           "allowMethods": null
         }
       },
-      "durationMs": 1841
+      "durationMs": 2919
     },
     {
       "slug": "aussie-select-4c48ae",
@@ -1249,7 +1249,7 @@
           "allowMethods": "GET,HEAD,PUT,PATCH,POST,DELETE"
         }
       },
-      "durationMs": 1641
+      "durationMs": 1527
     },
     {
       "slug": "australian-financial-406bb7",
@@ -1284,7 +1284,7 @@
           "allowMethods": null
         }
       },
-      "durationMs": 3651
+      "durationMs": 4395
     },
     {
       "slug": "australian-military-bank-ee4681",
@@ -1325,7 +1325,7 @@
           "allowMethods": null
         }
       },
-      "durationMs": 3734
+      "durationMs": 3625
     },
     {
       "slug": "australian-mortgage-fund-4b1e04",
@@ -1360,7 +1360,7 @@
           "allowMethods": "GET,OPTIONS"
         }
       },
-      "durationMs": 1546
+      "durationMs": 2034
     },
     {
       "slug": "australian-mutual-bank-ltd-493c15",
@@ -1374,8 +1374,8 @@
       "pageErrors": [],
       "productCount": 40,
       "categoryCounts": {
-        "TRANS_AND_SAVINGS_ACCOUNTS": 8,
         "TERM_DEPOSITS": 3,
+        "TRANS_AND_SAVINGS_ACCOUNTS": 8,
         "RESIDENTIAL_MORTGAGES": 16,
         "BUSINESS_LOANS": 5,
         "PERS_LOANS": 6,
@@ -1403,7 +1403,7 @@
           "allowMethods": "TRACE, HEAD, DELETE, POST, GET, PATCH, PUT"
         }
       },
-      "durationMs": 6481
+      "durationMs": 6959
     },
     {
       "slug": "auswide-bank-ltd-5d516b",
@@ -1445,7 +1445,7 @@
           "allowMethods": null
         }
       },
-      "durationMs": 5050
+      "durationMs": 5551
     },
     {
       "slug": "automotive-finance-ec4535",
@@ -1481,7 +1481,7 @@
           "allowMethods": "GET,HEAD,PUT,PATCH,POST,DELETE"
         }
       },
-      "durationMs": 1366
+      "durationMs": 1649
     },
     {
       "slug": "axis-lending-41ecb8",
@@ -1516,7 +1516,7 @@
           "allowMethods": null
         }
       },
-      "durationMs": 3642
+      "durationMs": 3844
     },
     {
       "slug": "axis-lending-81625c",
@@ -1551,7 +1551,7 @@
           "allowMethods": "GET,OPTIONS"
         }
       },
-      "durationMs": 1885
+      "durationMs": 1629
     },
     {
       "slug": "axis-sharia-370fd3",
@@ -1586,7 +1586,7 @@
           "allowMethods": null
         }
       },
-      "durationMs": 3990
+      "durationMs": 3766
     },
     {
       "slug": "bank-australia-b0ab59",
@@ -1628,7 +1628,7 @@
           "allowMethods": "GET,HEAD,PUT,PATCH,POST,DELETE"
         }
       },
-      "durationMs": 3853
+      "durationMs": 4015
     },
     {
       "slug": "bank-first-79ae5f",
@@ -1669,7 +1669,7 @@
           "allowMethods": null
         }
       },
-      "durationMs": 5310
+      "durationMs": 5366
     },
     {
       "slug": "bank-of-china-475b2b",
@@ -1709,7 +1709,7 @@
           "allowMethods": "GET"
         }
       },
-      "durationMs": 15173
+      "durationMs": 15355
     },
     {
       "slug": "bank-of-melbourne-1859a2",
@@ -1753,7 +1753,7 @@
           "allowMethods": "GET, OPTIONS"
         }
       },
-      "durationMs": 44173
+      "durationMs": 42942
     },
     {
       "slug": "bank-of-queensland-limited-1f8da9",
@@ -1796,7 +1796,7 @@
           "allowMethods": "GET,OPTIONS"
         }
       },
-      "durationMs": 6233
+      "durationMs": 6420
     },
     {
       "slug": "bank-of-sydney-78b20b",
@@ -1840,7 +1840,7 @@
           "allowMethods": "GET,OPTIONS"
         }
       },
-      "durationMs": 8663
+      "durationMs": 8276
     },
     {
       "slug": "bank-of-us-7217b2",
@@ -1883,7 +1883,7 @@
           "allowMethods": null
         }
       },
-      "durationMs": 5318
+      "durationMs": 6038
     },
     {
       "slug": "banksa-e6aef2",
@@ -1927,7 +1927,7 @@
           "allowMethods": "GET, OPTIONS"
         }
       },
-      "durationMs": 42233
+      "durationMs": 47194
     },
     {
       "slug": "bankvic-0380b8",
@@ -1968,7 +1968,7 @@
           "allowMethods": null
         }
       },
-      "durationMs": 5331
+      "durationMs": 4026
     },
     {
       "slug": "bankwaw-c66e9a",
@@ -2009,7 +2009,7 @@
           "allowMethods": null
         }
       },
-      "durationMs": 5952
+      "durationMs": 6678
     },
     {
       "slug": "bankwest-c032c0",
@@ -2049,7 +2049,7 @@
           "allowMethods": "GET"
         }
       },
-      "durationMs": 2128
+      "durationMs": 1339
     },
     {
       "slug": "bcu-bank-a9a2f3",
@@ -2092,7 +2092,7 @@
           "allowMethods": "GET"
         }
       },
-      "durationMs": 4442
+      "durationMs": 4959
     },
     {
       "slug": "bendigo-bank-c7851b",
@@ -2106,8 +2106,8 @@
       "pageErrors": [],
       "productCount": 50,
       "categoryCounts": {
-        "TRANS_AND_SAVINGS_ACCOUNTS": 13,
         "CRED_AND_CHRG_CARDS": 6,
+        "TRANS_AND_SAVINGS_ACCOUNTS": 13,
         "RESIDENTIAL_MORTGAGES": 9,
         "BUSINESS_LOANS": 5,
         "REGULATED_TRUST_ACCOUNTS": 4,
@@ -2137,7 +2137,7 @@
           "allowMethods": "GET,POST,HEAD,PUT,PATCH,DELETE,OPTIONS,TRACE,CONNECT"
         }
       },
-      "durationMs": 3396
+      "durationMs": 3906
     },
     {
       "slug": "bentley-financial-services-australia-e739b7",
@@ -2174,7 +2174,7 @@
           "allowMethods": "GET"
         }
       },
-      "durationMs": 1483
+      "durationMs": 2009
     },
     {
       "slug": "better-mortgage-management-80d506",
@@ -2209,7 +2209,7 @@
           "allowMethods": null
         }
       },
-      "durationMs": 3568
+      "durationMs": 3820
     },
     {
       "slug": "beyond-bank-australia-79e425",
@@ -2251,7 +2251,7 @@
           "allowMethods": "GET"
         }
       },
-      "durationMs": 3626
+      "durationMs": 3562
     },
     {
       "slug": "bluebay-home-loans-d81437",
@@ -2286,7 +2286,7 @@
           "allowMethods": null
         }
       },
-      "durationMs": 1540
+      "durationMs": 1612
     },
     {
       "slug": "bluestone-home-loans-bfdedf",
@@ -2322,7 +2322,7 @@
           "allowMethods": "GET,OPTIONS"
         }
       },
-      "durationMs": 1638
+      "durationMs": 1643
     },
     {
       "slug": "bmw-financial-services-05ba26",
@@ -2358,7 +2358,7 @@
           "allowMethods": "GET,OPTIONS"
         }
       },
-      "durationMs": 1853
+      "durationMs": 2052
     },
     {
       "slug": "bnk-bank-goldfields-money-bchl-3f065e",
@@ -2398,7 +2398,7 @@
           "allowMethods": null
         }
       },
-      "durationMs": 2691
+      "durationMs": 2875
     },
     {
       "slug": "boq-finance-f492f2",
@@ -2435,7 +2435,7 @@
           "allowMethods": "GET,OPTIONS"
         }
       },
-      "durationMs": 1973
+      "durationMs": 1881
     },
     {
       "slug": "boq-specialist-79c765",
@@ -2478,7 +2478,7 @@
           "allowMethods": "GET,OPTIONS"
         }
       },
-      "durationMs": 4284
+      "durationMs": 3508
     },
     {
       "slug": "border-bank-a0ec91",
@@ -2519,7 +2519,7 @@
           "allowMethods": null
         }
       },
-      "durationMs": 4038
+      "durationMs": 4405
     },
     {
       "slug": "bravoauto-financial-services-cff973",
@@ -2555,7 +2555,7 @@
           "allowMethods": "GET,HEAD,PUT,PATCH,POST,DELETE"
         }
       },
-      "durationMs": 1845
+      "durationMs": 1476
     },
     {
       "slug": "broken-hill-bank-b9b6af",
@@ -2597,7 +2597,7 @@
           "allowMethods": "GET"
         }
       },
-      "durationMs": 2529
+      "durationMs": 2485
     },
     {
       "slug": "byd-financial-services-b09b2f",
@@ -2633,7 +2633,7 @@
           "allowMethods": "GET,HEAD,PUT,PATCH,POST,DELETE"
         }
       },
-      "durationMs": 1323
+      "durationMs": 1328
     },
     {
       "slug": "cairns-bank-097ca6",
@@ -2675,7 +2675,7 @@
           "allowMethods": null
         }
       },
-      "durationMs": 2923
+      "durationMs": 2759
     },
     {
       "slug": "cba-commbiz-f30d4f",
@@ -2708,7 +2708,7 @@
           "allowMethods": "GET"
         }
       },
-      "durationMs": 704
+      "durationMs": 926
     },
     {
       "slug": "central-murray-bank-00c28c",
@@ -2750,7 +2750,7 @@
           "allowMethods": null
         }
       },
-      "durationMs": 7236
+      "durationMs": 7469
     },
     {
       "slug": "central-west-cul-7fa9cf",
@@ -2764,11 +2764,11 @@
       "pageErrors": [],
       "productCount": 43,
       "categoryCounts": {
+        "RESIDENTIAL_MORTGAGES": 10,
         "TERM_DEPOSITS": 8,
         "OVERDRAFTS": 2,
         "TRANS_AND_SAVINGS_ACCOUNTS": 13,
         "BUSINESS_LOANS": 5,
-        "RESIDENTIAL_MORTGAGES": 10,
         "PERS_LOANS": 5
       },
       "inScope": 21,
@@ -2792,7 +2792,7 @@
           "allowMethods": null
         }
       },
-      "durationMs": 4384
+      "durationMs": 5399
     },
     {
       "slug": "chery-motor-finance-4275fd",
@@ -2828,7 +2828,7 @@
           "allowMethods": "GET,HEAD,PUT,PATCH,POST,DELETE"
         }
       },
-      "durationMs": 1179
+      "durationMs": 1310
     },
     {
       "slug": "citywide-lending-652c71",
@@ -2863,7 +2863,7 @@
           "allowMethods": "GET,OPTIONS"
         }
       },
-      "durationMs": 1553
+      "durationMs": 1567
     },
     {
       "slug": "coastline-bank-bd3508",
@@ -2906,7 +2906,7 @@
           "allowMethods": "GET"
         }
       },
-      "durationMs": 3709
+      "durationMs": 3256
     },
     {
       "slug": "colcap-private-0a1093",
@@ -2941,7 +2941,7 @@
           "allowMethods": null
         }
       },
-      "durationMs": 1829
+      "durationMs": 1619
     },
     {
       "slug": "coles-credit-cards-a3ed5d",
@@ -2976,7 +2976,7 @@
           "allowMethods": "GET"
         }
       },
-      "durationMs": 3050
+      "durationMs": 2985
     },
     {
       "slug": "collective-lending-b8fa71",
@@ -3011,7 +3011,7 @@
           "allowMethods": null
         }
       },
-      "durationMs": 3804
+      "durationMs": 3758
     },
     {
       "slug": "commbank-5b7d50",
@@ -3059,7 +3059,7 @@
           "allowMethods": "GET"
         }
       },
-      "durationMs": 2678
+      "durationMs": 2601
     },
     {
       "slug": "commfcu-afb5c8",
@@ -3102,7 +3102,7 @@
           "allowMethods": null
         }
       },
-      "durationMs": 5204
+      "durationMs": 4912
     },
     {
       "slug": "connective-advance-f84183",
@@ -3138,7 +3138,7 @@
           "allowMethods": "GET"
         }
       },
-      "durationMs": 731
+      "durationMs": 1400
     },
     {
       "slug": "connective-athena-1d45b3",
@@ -3173,7 +3173,7 @@
           "allowMethods": null
         }
       },
-      "durationMs": 1894
+      "durationMs": 1376
     },
     {
       "slug": "connective-complete-578e67",
@@ -3209,7 +3209,7 @@
           "allowMethods": "GET"
         }
       },
-      "durationMs": 882
+      "durationMs": 862
     },
     {
       "slug": "connective-elevate-b3bcf4",
@@ -3245,7 +3245,7 @@
           "allowMethods": "GET,OPTIONS"
         }
       },
-      "durationMs": 1514
+      "durationMs": 1609
     },
     {
       "slug": "connective-select-4809c4",
@@ -3283,7 +3283,7 @@
           "allowMethods": "GET, HEAD, POST, PUT, PATCH, DELETE, OPTIONS"
         }
       },
-      "durationMs": 2603
+      "durationMs": 3310
     },
     {
       "slug": "connective-solutions-ab27a4",
@@ -3318,7 +3318,7 @@
           "allowMethods": "GET,OPTIONS"
         }
       },
-      "durationMs": 1633
+      "durationMs": 1731
     },
     {
       "slug": "credit-union-sa-cbc123",
@@ -3359,7 +3359,7 @@
           "allowMethods": null
         }
       },
-      "durationMs": 4053
+      "durationMs": 4090
     },
     {
       "slug": "crown-money-management-bda2ce",
@@ -3394,7 +3394,7 @@
           "allowMethods": null
         }
       },
-      "durationMs": 1559
+      "durationMs": 1669
     },
     {
       "slug": "csc-home-loans-74796b",
@@ -3429,7 +3429,7 @@
           "allowMethods": null
         }
       },
-      "durationMs": 3598
+      "durationMs": 3871
     },
     {
       "slug": "cupra-financial-services-e0cf23",
@@ -3465,7 +3465,7 @@
           "allowMethods": "GET"
         }
       },
-      "durationMs": 1513
+      "durationMs": 748
     },
     {
       "slug": "darling-downs-bank-4ace17",
@@ -3490,7 +3490,8 @@
       "detailOk": 67,
       "detailFailed": 0,
       "detailVersions": {
-        "7": 67
+        "7": 66,
+        "none": 1
       },
       "detailErrors": {},
       "cors": {
@@ -3507,7 +3508,7 @@
           "allowMethods": null
         }
       },
-      "durationMs": 8381
+      "durationMs": 9170
     },
     {
       "slug": "ddh-graham-d82525",
@@ -3542,7 +3543,7 @@
           "allowMethods": "GET,OPTIONS"
         }
       },
-      "durationMs": 1759
+      "durationMs": 1779
     },
     {
       "slug": "deepal-financial-services-5bfe0c",
@@ -3578,7 +3579,7 @@
           "allowMethods": "GET,HEAD,PUT,PATCH,POST,DELETE"
         }
       },
-      "durationMs": 1326
+      "durationMs": 1217
     },
     {
       "slug": "defence-bank-3d0eb5",
@@ -3619,7 +3620,7 @@
           "allowMethods": null
         }
       },
-      "durationMs": 6059
+      "durationMs": 6333
     },
     {
       "slug": "denza-financial-services-b16ef0",
@@ -3655,7 +3656,7 @@
           "allowMethods": "GET,HEAD,PUT,PATCH,POST,DELETE"
         }
       },
-      "durationMs": 1239
+      "durationMs": 1219
     },
     {
       "slug": "direct-credit-home-loans-de79f3",
@@ -3690,7 +3691,7 @@
           "allowMethods": null
         }
       },
-      "durationMs": 3561
+      "durationMs": 3845
     },
     {
       "slug": "dll-de-lage-landen-e7e7f4",
@@ -3725,7 +3726,7 @@
           "allowMethods": "GET"
         }
       },
-      "durationMs": 1282
+      "durationMs": 676
     },
     {
       "slug": "dnister-7791e6",
@@ -3766,7 +3767,7 @@
           "allowMethods": "GET"
         }
       },
-      "durationMs": 2987
+      "durationMs": 2648
     },
     {
       "slug": "dreamstreet-lending-2d9dee",
@@ -3801,7 +3802,7 @@
           "allowMethods": "GET,OPTIONS"
         }
       },
-      "durationMs": 1538
+      "durationMs": 1585
     },
     {
       "slug": "ducati-financial-services-9ade0f",
@@ -3837,7 +3838,7 @@
           "allowMethods": "GET"
         }
       },
-      "durationMs": 1668
+      "durationMs": 637
     },
     {
       "slug": "dynamoney-bdcdd8",
@@ -3872,7 +3873,7 @@
           "allowMethods": "GET"
         }
       },
-      "durationMs": 2025
+      "durationMs": 1457
     },
     {
       "slug": "easy-street-3db29e",
@@ -3910,7 +3911,7 @@
           "allowMethods": null
         }
       },
-      "durationMs": 2289
+      "durationMs": 2511
     },
     {
       "slug": "empower-money-9f4a7d",
@@ -3945,7 +3946,7 @@
           "allowMethods": null
         }
       },
-      "durationMs": 3567
+      "durationMs": 3868
     },
     {
       "slug": "excel-funding-group-52f0e7",
@@ -3980,7 +3981,7 @@
           "allowMethods": null
         }
       },
-      "durationMs": 3596
+      "durationMs": 3773
     },
     {
       "slug": "fiat-financial-services-australia-392aa2",
@@ -4016,7 +4017,7 @@
           "allowMethods": "GET,HEAD,PUT,PATCH,POST,DELETE"
         }
       },
-      "durationMs": 1261
+      "durationMs": 1224
     },
     {
       "slug": "finstreet-07ff05",
@@ -4051,7 +4052,7 @@
           "allowMethods": "GET,OPTIONS"
         }
       },
-      "durationMs": 1567
+      "durationMs": 1572
     },
     {
       "slug": "finstreet-33cfeb",
@@ -4086,7 +4087,7 @@
           "allowMethods": null
         }
       },
-      "durationMs": 3613
+      "durationMs": 3765
     },
     {
       "slug": "finsure-plus-7f4deb",
@@ -4121,7 +4122,7 @@
           "allowMethods": "GET,OPTIONS"
         }
       },
-      "durationMs": 1657
+      "durationMs": 1743
     },
     {
       "slug": "finsure-thrive-44c39e",
@@ -4157,7 +4158,7 @@
           "allowMethods": "GET"
         }
       },
-      "durationMs": 1467
+      "durationMs": 1443
     },
     {
       "slug": "fire-service-credit-union-0362fb",
@@ -4198,7 +4199,7 @@
           "allowMethods": "GET"
         }
       },
-      "durationMs": 2109
+      "durationMs": 3193
     },
     {
       "slug": "firefighters-mutual-bank-c2ac3e",
@@ -4212,10 +4213,10 @@
       "pageErrors": [],
       "productCount": 30,
       "categoryCounts": {
+        "TERM_DEPOSITS": 3,
         "PERS_LOANS": 4,
         "RESIDENTIAL_MORTGAGES": 16,
         "TRANS_AND_SAVINGS_ACCOUNTS": 6,
-        "TERM_DEPOSITS": 3,
         "CRED_AND_CHRG_CARDS": 1
       },
       "inScope": 9,
@@ -4239,7 +4240,7 @@
           "allowMethods": null
         }
       },
-      "durationMs": 2872
+      "durationMs": 3663
     },
     {
       "slug": "first-option-bank-adb052",
@@ -4253,8 +4254,8 @@
       "pageErrors": [],
       "productCount": 40,
       "categoryCounts": {
-        "PERS_LOANS": 6,
         "RESIDENTIAL_MORTGAGES": 2,
+        "PERS_LOANS": 6,
         "TERM_DEPOSITS": 12,
         "TRANS_AND_SAVINGS_ACCOUNTS": 16,
         "BUSINESS_LOANS": 3,
@@ -4264,7 +4265,8 @@
       "detailOk": 28,
       "detailFailed": 0,
       "detailVersions": {
-        "7": 28
+        "7": 26,
+        "none": 2
       },
       "detailErrors": {},
       "cors": {
@@ -4281,7 +4283,7 @@
           "allowMethods": null
         }
       },
-      "durationMs": 4872
+      "durationMs": 6657
     },
     {
       "slug": "firstmac-cba290",
@@ -4317,7 +4319,7 @@
           "allowMethods": "GET,OPTIONS"
         }
       },
-      "durationMs": 1694
+      "durationMs": 1838
     },
     {
       "slug": "folio-mortgage-finance-al-m-5c9fa9",
@@ -4352,7 +4354,7 @@
           "allowMethods": null
         }
       },
-      "durationMs": 3682
+      "durationMs": 3815
     },
     {
       "slug": "ford-finance-711871",
@@ -4388,7 +4390,7 @@
           "allowMethods": "GET,HEAD,PUT,PATCH,POST,DELETE"
         }
       },
-      "durationMs": 1173
+      "durationMs": 1287
     },
     {
       "slug": "foton-financial-services-fab34f",
@@ -4424,7 +4426,7 @@
           "allowMethods": "GET,HEAD,PUT,PATCH,POST,DELETE"
         }
       },
-      "durationMs": 1435
+      "durationMs": 1225
     },
     {
       "slug": "freedomlend-d5f916",
@@ -4459,7 +4461,7 @@
           "allowMethods": null
         }
       },
-      "durationMs": 3619
+      "durationMs": 3749
     },
     {
       "slug": "fundsnational-lending-specialists-75762c",
@@ -4494,7 +4496,7 @@
           "allowMethods": "GET,OPTIONS"
         }
       },
-      "durationMs": 1470
+      "durationMs": 1600
     },
     {
       "slug": "future-assist-home-loans-356077",
@@ -4529,7 +4531,7 @@
           "allowMethods": null
         }
       },
-      "durationMs": 1598
+      "durationMs": 1632
     },
     {
       "slug": "gateway-bank-b98426",
@@ -4571,7 +4573,7 @@
           "allowMethods": "GET"
         }
       },
-      "durationMs": 5263
+      "durationMs": 5133
     },
     {
       "slug": "geelong-bank-1a2306",
@@ -4609,7 +4611,7 @@
           "allowMethods": null
         }
       },
-      "durationMs": 5209
+      "durationMs": 5492
     },
     {
       "slug": "geely-finance-cfd603",
@@ -4645,7 +4647,7 @@
           "allowMethods": "GET,HEAD,PUT,PATCH,POST,DELETE"
         }
       },
-      "durationMs": 1392
+      "durationMs": 1337
     },
     {
       "slug": "gmcu-3164aa",
@@ -4686,7 +4688,7 @@
           "allowMethods": null
         }
       },
-      "durationMs": 5041
+      "durationMs": 4113
     },
     {
       "slug": "granite-home-loans-pty-ltd-7f75ef",
@@ -4721,7 +4723,7 @@
           "allowMethods": null
         }
       },
-      "durationMs": 1699
+      "durationMs": 1644
     },
     {
       "slug": "great-southern-bank-886d8a",
@@ -4764,7 +4766,7 @@
           "allowMethods": "GET"
         }
       },
-      "durationMs": 3191
+      "durationMs": 3290
     },
     {
       "slug": "great-southern-bank-business-a8c174",
@@ -4802,7 +4804,7 @@
           "allowMethods": "GET"
         }
       },
-      "durationMs": 3607
+      "durationMs": 3944
     },
     {
       "slug": "greater-bank-cb2e22",
@@ -4844,7 +4846,7 @@
           "allowMethods": null
         }
       },
-      "durationMs": 5193
+      "durationMs": 5738
     },
     {
       "slug": "greenhouse-mortgages-a607bf",
@@ -4879,7 +4881,7 @@
           "allowMethods": null
         }
       },
-      "durationMs": 3602
+      "durationMs": 3745
     },
     {
       "slug": "greenline-home-loans-bb3ee2",
@@ -4914,7 +4916,7 @@
           "allowMethods": null
         }
       },
-      "durationMs": 3772
+      "durationMs": 3789
     },
     {
       "slug": "health-professionals-bank-e54229",
@@ -4928,10 +4930,10 @@
       "pageErrors": [],
       "productCount": 30,
       "categoryCounts": {
+        "TERM_DEPOSITS": 3,
         "PERS_LOANS": 4,
         "RESIDENTIAL_MORTGAGES": 16,
         "TRANS_AND_SAVINGS_ACCOUNTS": 6,
-        "TERM_DEPOSITS": 3,
         "CRED_AND_CHRG_CARDS": 1
       },
       "inScope": 9,
@@ -4955,7 +4957,7 @@
           "allowMethods": "TRACE, HEAD, DELETE, POST, GET, PATCH, PUT"
         }
       },
-      "durationMs": 2736
+      "durationMs": 2498
     },
     {
       "slug": "heartland-04a0c2",
@@ -4993,7 +4995,7 @@
           "allowMethods": "GET,OPTIONS"
         }
       },
-      "durationMs": 2864
+      "durationMs": 2794
     },
     {
       "slug": "hejaz-islamic-home-finance-8dc2d1",
@@ -5028,7 +5030,7 @@
           "allowMethods": null
         }
       },
-      "durationMs": 1578
+      "durationMs": 1657
     },
     {
       "slug": "hino-financial-services-ab4a83",
@@ -5064,7 +5066,7 @@
           "allowMethods": "GET,OPTIONS"
         }
       },
-      "durationMs": 1701
+      "durationMs": 1595
     },
     {
       "slug": "homeloans-com-au-ce3082",
@@ -5099,7 +5101,7 @@
           "allowMethods": null
         }
       },
-      "durationMs": 1576
+      "durationMs": 1680
     },
     {
       "slug": "homestar-finance-pty-ltd-6ea41a",
@@ -5134,7 +5136,7 @@
           "allowMethods": null
         }
       },
-      "durationMs": 1780
+      "durationMs": 1834
     },
     {
       "slug": "horizon-bank-8f3129",
@@ -5177,7 +5179,7 @@
           "allowMethods": null
         }
       },
-      "durationMs": 4148
+      "durationMs": 5686
     },
     {
       "slug": "hsbc-2e2b63",
@@ -5210,7 +5212,7 @@
           "allowMethods": "POST,GET,HEAD,PATCH,DELETE,OPTIONS,PUT"
         }
       },
-      "durationMs": 1868
+      "durationMs": 2263
     },
     {
       "slug": "hsbc-bank-australia-limited-wholesale-ba-6acb78",
@@ -5251,7 +5253,7 @@
           "allowMethods": "POST,GET,HEAD,PATCH,DELETE,OPTIONS,PUT"
         }
       },
-      "durationMs": 3391
+      "durationMs": 3322
     },
     {
       "slug": "hume-bank-d0e40f",
@@ -5294,7 +5296,7 @@
           "allowMethods": "GET, HEAD, POST, PUT, OPTIONS"
         }
       },
-      "durationMs": 7021
+      "durationMs": 8330
     },
     {
       "slug": "humm-d787fd",
@@ -5330,7 +5332,7 @@
           "allowMethods": "GET"
         }
       },
-      "durationMs": 1415
+      "durationMs": 1296
     },
     {
       "slug": "ijarah-finance-0eef40",
@@ -5365,7 +5367,7 @@
           "allowMethods": null
         }
       },
-      "durationMs": 3683
+      "durationMs": 3766
     },
     {
       "slug": "ijarah-islamic-finance-f9e282",
@@ -5400,7 +5402,7 @@
           "allowMethods": "GET,OPTIONS"
         }
       },
-      "durationMs": 1494
+      "durationMs": 1257
     },
     {
       "slug": "ikhlas-finance-australia-d95f39",
@@ -5435,7 +5437,7 @@
           "allowMethods": null
         }
       },
-      "durationMs": 3640
+      "durationMs": 3765
     },
     {
       "slug": "imb-bank-198820",
@@ -5478,7 +5480,7 @@
           "allowMethods": "GET"
         }
       },
-      "durationMs": 5671
+      "durationMs": 6140
     },
     {
       "slug": "ineos-grenadier-financial-services-951d15",
@@ -5515,7 +5517,7 @@
           "allowMethods": "GET"
         }
       },
-      "durationMs": 2020
+      "durationMs": 1363
     },
     {
       "slug": "infinity-group-4a040a",
@@ -5550,7 +5552,7 @@
           "allowMethods": null
         }
       },
-      "durationMs": 3621
+      "durationMs": 3769
     },
     {
       "slug": "infinity-group-ef4a35",
@@ -5585,7 +5587,7 @@
           "allowMethods": "GET,OPTIONS"
         }
       },
-      "durationMs": 1690
+      "durationMs": 1255
     },
     {
       "slug": "ing-bank-australia-ltd-2efdf8",
@@ -5626,7 +5628,7 @@
           "allowMethods": "GET"
         }
       },
-      "durationMs": 4155
+      "durationMs": 3599
     },
     {
       "slug": "isuzu-ute-finance-38aa8b",
@@ -5662,7 +5664,7 @@
           "allowMethods": "GET,HEAD,PUT,PATCH,POST,DELETE"
         }
       },
-      "durationMs": 1300
+      "durationMs": 1277
     },
     {
       "slug": "jaguar-financial-services-c15fa4",
@@ -5699,7 +5701,7 @@
           "allowMethods": "GET"
         }
       },
-      "durationMs": 1446
+      "durationMs": 1249
     },
     {
       "slug": "jeep-financial-services-australia-8a2704",
@@ -5735,7 +5737,7 @@
           "allowMethods": "GET,HEAD,PUT,PATCH,POST,DELETE"
         }
       },
-      "durationMs": 1374
+      "durationMs": 1407
     },
     {
       "slug": "judo-bank-e4317d",
@@ -5775,7 +5777,7 @@
           "allowMethods": null
         }
       },
-      "durationMs": 2983
+      "durationMs": 2896
     },
     {
       "slug": "kawasaki-motors-finance-08a825",
@@ -5811,7 +5813,7 @@
           "allowMethods": "GET,HEAD,PUT,PATCH,POST,DELETE"
         }
       },
-      "durationMs": 1368
+      "durationMs": 1209
     },
     {
       "slug": "kogan-money-credit-cards-c6139f",
@@ -5846,7 +5848,7 @@
           "allowMethods": "GET"
         }
       },
-      "durationMs": 2434
+      "durationMs": 1796
     },
     {
       "slug": "la-trobe-financial-9b19c2",
@@ -5881,7 +5883,7 @@
           "allowMethods": "GET,OPTIONS"
         }
       },
-      "durationMs": 3161
+      "durationMs": 1777
     },
     {
       "slug": "laboratories-credit-union-01ca21",
@@ -5921,7 +5923,7 @@
           "allowMethods": null
         }
       },
-      "durationMs": 2864
+      "durationMs": 3065
     },
     {
       "slug": "lamborghini-financial-services-c4002b",
@@ -5958,7 +5960,7 @@
           "allowMethods": "GET"
         }
       },
-      "durationMs": 2289
+      "durationMs": 679
     },
     {
       "slug": "land-rover-financial-services-79f712",
@@ -5995,7 +5997,7 @@
           "allowMethods": "GET"
         }
       },
-      "durationMs": 1450
+      "durationMs": 1378
     },
     {
       "slug": "latitude-credit-cards-864514",
@@ -6030,7 +6032,7 @@
           "allowMethods": "GET,HEAD,PUT,PATCH,POST,DELETE"
         }
       },
-      "durationMs": 1172
+      "durationMs": 1284
     },
     {
       "slug": "latitude-personal-and-motor-loans-7985d7",
@@ -6066,7 +6068,7 @@
           "allowMethods": "GET,HEAD,PUT,PATCH,POST,DELETE"
         }
       },
-      "durationMs": 772
+      "durationMs": 822
     },
     {
       "slug": "ldv-financial-services-943633",
@@ -6103,7 +6105,7 @@
           "allowMethods": "GET"
         }
       },
-      "durationMs": 1312
+      "durationMs": 1167
     },
     {
       "slug": "lexus-financial-services-df6774",
@@ -6139,7 +6141,7 @@
           "allowMethods": "GET,OPTIONS"
         }
       },
-      "durationMs": 1475
+      "durationMs": 1553
     },
     {
       "slug": "liberty-financial-a25b1f",
@@ -6176,7 +6178,7 @@
           "allowMethods": null
         }
       },
-      "durationMs": 1795
+      "durationMs": 1647
     },
     {
       "slug": "lifestyle-home-loans-2466ed",
@@ -6211,7 +6213,7 @@
           "allowMethods": "GET,OPTIONS"
         }
       },
-      "durationMs": 1502
+      "durationMs": 1525
     },
     {
       "slug": "lj-hooker-home-loans-0b451b",
@@ -6246,7 +6248,7 @@
           "allowMethods": "GET,OPTIONS"
         }
       },
-      "durationMs": 1515
+      "durationMs": 1650
     },
     {
       "slug": "lj-hooker-home-loans-b61676",
@@ -6281,7 +6283,7 @@
           "allowMethods": "GET,OPTIONS"
         }
       },
-      "durationMs": 2348
+      "durationMs": 1360
     },
     {
       "slug": "loanguides-9388fa",
@@ -6316,7 +6318,7 @@
           "allowMethods": null
         }
       },
-      "durationMs": 3628
+      "durationMs": 3787
     },
     {
       "slug": "loans-com-au-da06d3",
@@ -6352,7 +6354,7 @@
           "allowMethods": "GET,OPTIONS"
         }
       },
-      "durationMs": 1148
+      "durationMs": 1451
     },
     {
       "slug": "ma-money-966155",
@@ -6388,7 +6390,7 @@
           "allowMethods": "GET"
         }
       },
-      "durationMs": 2185
+      "durationMs": 696
     },
     {
       "slug": "macquarie-bank-limited-60dc9c",
@@ -6431,7 +6433,7 @@
           "allowMethods": "GET, PUT, POST, OPTIONS"
         }
       },
-      "durationMs": 4089
+      "durationMs": 2278
     },
     {
       "slug": "maitland-mutual-limited-057bdf",
@@ -6474,7 +6476,7 @@
           "allowMethods": null
         }
       },
-      "durationMs": 2799
+      "durationMs": 2633
     },
     {
       "slug": "mazda-finance-498285",
@@ -6510,7 +6512,7 @@
           "allowMethods": "GET,OPTIONS"
         }
       },
-      "durationMs": 1561
+      "durationMs": 1569
     },
     {
       "slug": "mcca-6dcf59",
@@ -6545,7 +6547,7 @@
           "allowMethods": "GET,OPTIONS"
         }
       },
-      "durationMs": 391
+      "durationMs": 405
     },
     {
       "slug": "mcca-islamic-finance-778580",
@@ -6580,7 +6582,7 @@
           "allowMethods": "GET,OPTIONS"
         }
       },
-      "durationMs": 1517
+      "durationMs": 1097
     },
     {
       "slug": "me-bank-me-go-7fe1c0",
@@ -6619,7 +6621,7 @@
           "allowMethods": "GET,OPTIONS"
         }
       },
-      "durationMs": 3205
+      "durationMs": 3018
     },
     {
       "slug": "meezan-islamic-finance-f612a2",
@@ -6654,7 +6656,7 @@
           "allowMethods": null
         }
       },
-      "durationMs": 3713
+      "durationMs": 3762
     },
     {
       "slug": "mercedes-benz-financial-fefe8c",
@@ -6691,7 +6693,7 @@
           "allowMethods": "GET,OPTIONS"
         }
       },
-      "durationMs": 1573
+      "durationMs": 1663
     },
     {
       "slug": "metro-finance-371ba9",
@@ -6727,7 +6729,7 @@
           "allowMethods": "GET,OPTIONS"
         }
       },
-      "durationMs": 1758
+      "durationMs": 1201
     },
     {
       "slug": "mini-financial-services-c55e9b",
@@ -6763,7 +6765,7 @@
           "allowMethods": "GET,OPTIONS"
         }
       },
-      "durationMs": 1622
+      "durationMs": 1647
     },
     {
       "slug": "mitsubishi-motors-financial-services-e80275",
@@ -6800,7 +6802,7 @@
           "allowMethods": "GET"
         }
       },
-      "durationMs": 1414
+      "durationMs": 640
     },
     {
       "slug": "moneyme-5c4ee0",
@@ -6836,7 +6838,7 @@
           "allowMethods": "GET, OPTIONS"
         }
       },
-      "durationMs": 1954
+      "durationMs": 1874
     },
     {
       "slug": "moneyplace-5aacd7",
@@ -6871,7 +6873,7 @@
           "allowMethods": null
         }
       },
-      "durationMs": 1191
+      "durationMs": 1166
     },
     {
       "slug": "mortgage-choice-amplify-c31407",
@@ -6907,7 +6909,7 @@
           "allowMethods": "GET,OPTIONS"
         }
       },
-      "durationMs": 385
+      "durationMs": 408
     },
     {
       "slug": "mortgage-choice-freedom-c5f18e",
@@ -6942,7 +6944,7 @@
           "allowMethods": null
         }
       },
-      "durationMs": 1874
+      "durationMs": 2121
     },
     {
       "slug": "mortgage-choice-ignite-572fe9",
@@ -6977,7 +6979,7 @@
           "allowMethods": "GET,OPTIONS"
         }
       },
-      "durationMs": 1218
+      "durationMs": 1783
     },
     {
       "slug": "mortgage-direct-3d08af",
@@ -7012,7 +7014,7 @@
           "allowMethods": null
         }
       },
-      "durationMs": 3607
+      "durationMs": 3796
     },
     {
       "slug": "mortgage-ezy-029470",
@@ -7048,7 +7050,7 @@
           "allowMethods": "GET"
         }
       },
-      "durationMs": 1927
+      "durationMs": 689
     },
     {
       "slug": "mortgage-ezy-26d3aa",
@@ -7083,7 +7085,7 @@
           "allowMethods": "GET,OPTIONS"
         }
       },
-      "durationMs": 1520
+      "durationMs": 1433
     },
     {
       "slug": "mortgage-ezy-d70539",
@@ -7118,7 +7120,7 @@
           "allowMethods": null
         }
       },
-      "durationMs": 1550
+      "durationMs": 1628
     },
     {
       "slug": "mortgage-house-51228e",
@@ -7154,7 +7156,7 @@
           "allowMethods": "OPTIONS, GET, POST, PUT, PATCH, DELETE"
         }
       },
-      "durationMs": 2518
+      "durationMs": 3053
     },
     {
       "slug": "mortgage-mart-023d70",
@@ -7189,7 +7191,7 @@
           "allowMethods": null
         }
       },
-      "durationMs": 1599
+      "durationMs": 1623
     },
     {
       "slug": "mortgage-street-9b8653",
@@ -7223,7 +7225,7 @@
           "allowMethods": null
         }
       },
-      "durationMs": 6545
+      "durationMs": 5833
     },
     {
       "slug": "mortgageway-83eba2",
@@ -7258,7 +7260,7 @@
           "allowMethods": null
         }
       },
-      "durationMs": 3594
+      "durationMs": 3854
     },
     {
       "slug": "motorcycle-finance-a91d67",
@@ -7294,7 +7296,7 @@
           "allowMethods": "GET,HEAD,PUT,PATCH,POST,DELETE"
         }
       },
-      "durationMs": 1195
+      "durationMs": 1364
     },
     {
       "slug": "moula-5ba51b",
@@ -7329,7 +7331,7 @@
           "allowMethods": null
         }
       },
-      "durationMs": 821
+      "durationMs": 384
     },
     {
       "slug": "movebank-2f3c1b",
@@ -7369,7 +7371,7 @@
           "allowMethods": "GET"
         }
       },
-      "durationMs": 2795
+      "durationMs": 3303
     },
     {
       "slug": "my-budget-2cd9a3",
@@ -7404,7 +7406,7 @@
           "allowMethods": "GET,OPTIONS"
         }
       },
-      "durationMs": 1514
+      "durationMs": 2421
     },
     {
       "slug": "mycard-3a922f",
@@ -7439,7 +7441,7 @@
           "allowMethods": "GET"
         }
       },
-      "durationMs": 1814
+      "durationMs": 3321
     },
     {
       "slug": "mystate-bank-132fb8",
@@ -7478,7 +7480,7 @@
           "allowMethods": null
         }
       },
-      "durationMs": 3647
+      "durationMs": 3569
     },
     {
       "slug": "national-australia-bank-26678c",
@@ -7522,7 +7524,7 @@
           "allowMethods": "GET"
         }
       },
-      "durationMs": 5193
+      "durationMs": 4396
     },
     {
       "slug": "newcastle-permanent-8ac556",
@@ -7565,7 +7567,7 @@
           "allowMethods": "GET"
         }
       },
-      "durationMs": 3537
+      "durationMs": 3362
     },
     {
       "slug": "nissan-financial-services-b7f654",
@@ -7602,7 +7604,7 @@
           "allowMethods": "GET"
         }
       },
-      "durationMs": 1456
+      "durationMs": 627
     },
     {
       "slug": "non-conforming-loans-8e5bec",
@@ -7637,7 +7639,7 @@
           "allowMethods": "GET,OPTIONS"
         }
       },
-      "durationMs": 1499
+      "durationMs": 1121
     },
     {
       "slug": "northern-inland-credit-union-limited-9fcbd4",
@@ -7679,7 +7681,7 @@
           "allowMethods": null
         }
       },
-      "durationMs": 4845
+      "durationMs": 6290
     },
     {
       "slug": "now-finance-13ab01",
@@ -7714,7 +7716,7 @@
           "allowMethods": "GET,HEAD,PUT,PATCH,POST,DELETE"
         }
       },
-      "durationMs": 1385
+      "durationMs": 1269
     },
     {
       "slug": "nrma-home-loans-3919f8",
@@ -7752,7 +7754,7 @@
           "allowMethods": "GET, HEAD, POST, PUT, PATCH, DELETE, OPTIONS"
         }
       },
-      "durationMs": 2984
+      "durationMs": 1803
     },
     {
       "slug": "omoda-jaecoo-financial-services-beb93f",
@@ -7788,7 +7790,7 @@
           "allowMethods": "GET,HEAD,PUT,PATCH,POST,DELETE"
         }
       },
-      "durationMs": 1186
+      "durationMs": 1214
     },
     {
       "slug": "orange-credit-union-ltd-e0e024",
@@ -7828,7 +7830,7 @@
           "allowMethods": null
         }
       },
-      "durationMs": 4558
+      "durationMs": 4511
     },
     {
       "slug": "orde-financial-7dbb0f",
@@ -7864,7 +7866,7 @@
           "allowMethods": "GET,OPTIONS"
         }
       },
-      "durationMs": 1930
+      "durationMs": 1778
     },
     {
       "slug": "origin-mortgage-management-services-1d68c2",
@@ -7899,7 +7901,7 @@
           "allowMethods": null
         }
       },
-      "durationMs": 3648
+      "durationMs": 3879
     },
     {
       "slug": "ownhome-76206f",
@@ -7934,7 +7936,7 @@
           "allowMethods": null
         }
       },
-      "durationMs": 1569
+      "durationMs": 1629
     },
     {
       "slug": "oxygen-d3d04b",
@@ -7969,7 +7971,7 @@
           "allowMethods": null
         }
       },
-      "durationMs": 3616
+      "durationMs": 3814
     },
     {
       "slug": "p-n-bank-4f1953",
@@ -8011,7 +8013,7 @@
           "allowMethods": "GET"
         }
       },
-      "durationMs": 3110
+      "durationMs": 3367
     },
     {
       "slug": "paramount-edge-56d56f",
@@ -8047,7 +8049,7 @@
           "allowMethods": "GET"
         }
       },
-      "durationMs": 1320
+      "durationMs": 732
     },
     {
       "slug": "paypal-australia-510769",
@@ -8083,10 +8085,10 @@
           "status": 200,
           "allowOrigin": "*",
           "allowHeaders": "x-v,x-min-v",
-          "allowMethods": "HEAD, PUT, PATCH, GET, DELETE, OPTIONS, POST"
+          "allowMethods": "POST, PATCH, DELETE, GET, OPTIONS, HEAD, PUT"
         }
       },
-      "durationMs": 573
+      "durationMs": 593
     },
     {
       "slug": "people-first-and-heritage-bank-652172",
@@ -8127,7 +8129,7 @@
           "allowMethods": "GET,OPTIONS"
         }
       },
-      "durationMs": 7357
+      "durationMs": 7481
     },
     {
       "slug": "pepper-money-b48576",
@@ -8164,7 +8166,7 @@
           "allowMethods": "GET,OPTIONS"
         }
       },
-      "durationMs": 1843
+      "durationMs": 1822
     },
     {
       "slug": "pepper-money-personal-loans-by-now-finan-604841",
@@ -8199,7 +8201,7 @@
           "allowMethods": "GET,HEAD,PUT,PATCH,POST,DELETE"
         }
       },
-      "durationMs": 1187
+      "durationMs": 3104
     },
     {
       "slug": "peugeot-financial-services-4ce180",
@@ -8235,7 +8237,7 @@
           "allowMethods": "GET,HEAD,PUT,PATCH,POST,DELETE"
         }
       },
-      "durationMs": 1418
+      "durationMs": 1450
     },
     {
       "slug": "plenti-7fa1a8",
@@ -8272,7 +8274,7 @@
           "allowMethods": "GET"
         }
       },
-      "durationMs": 1423
+      "durationMs": 1316
     },
     {
       "slug": "polestar-finance-8ac58d",
@@ -8308,7 +8310,7 @@
           "allowMethods": "GET,HEAD,PUT,PATCH,POST,DELETE"
         }
       },
-      "durationMs": 1264
+      "durationMs": 1222
     },
     {
       "slug": "police-bank-d51dc6",
@@ -8349,7 +8351,7 @@
           "allowMethods": null
         }
       },
-      "durationMs": 4190
+      "durationMs": 3028
     },
     {
       "slug": "police-credit-union-ltd-9741cb",
@@ -8392,7 +8394,7 @@
           "allowMethods": null
         }
       },
-      "durationMs": 7105
+      "durationMs": 6320
     },
     {
       "slug": "porsche-financial-services-33ad36",
@@ -8428,7 +8430,7 @@
           "allowMethods": "GET"
         }
       },
-      "durationMs": 1327
+      "durationMs": 789
     },
     {
       "slug": "power-alliance-finance-f3d5ed",
@@ -8464,7 +8466,7 @@
           "allowMethods": "GET,OPTIONS"
         }
       },
-      "durationMs": 1121
+      "durationMs": 1595
     },
     {
       "slug": "powertorque-finance-4b1400",
@@ -8500,7 +8502,7 @@
           "allowMethods": "GET,OPTIONS"
         }
       },
-      "durationMs": 1725
+      "durationMs": 1550
     },
     {
       "slug": "premium-capital-finance-6e0cdf",
@@ -8535,7 +8537,7 @@
           "allowMethods": null
         }
       },
-      "durationMs": 3662
+      "durationMs": 3810
     },
     {
       "slug": "prime-mortgage-group-2bdd39",
@@ -8570,7 +8572,7 @@
           "allowMethods": null
         }
       },
-      "durationMs": 3655
+      "durationMs": 3838
     },
     {
       "slug": "qantas-money-atlas-home-loans-551057",
@@ -8605,7 +8607,7 @@
           "allowMethods": null
         }
       },
-      "durationMs": 1569
+      "durationMs": 1657
     },
     {
       "slug": "qantas-money-basic-offset-home-loans-333b27",
@@ -8643,7 +8645,7 @@
           "allowMethods": "GET, HEAD, POST, PUT, PATCH, DELETE, OPTIONS"
         }
       },
-      "durationMs": 3076
+      "durationMs": 2330
     },
     {
       "slug": "qantas-money-credit-cards-a12e9b",
@@ -8678,7 +8680,7 @@
           "allowMethods": "GET"
         }
       },
-      "durationMs": 1446
+      "durationMs": 1560
     },
     {
       "slug": "qbank-a01288",
@@ -8720,7 +8722,7 @@
           "allowMethods": null
         }
       },
-      "durationMs": 3683
+      "durationMs": 6023
     },
     {
       "slug": "qudos-bank-171c0a",
@@ -8761,7 +8763,7 @@
           "allowMethods": "GET,HEAD,PUT,PATCH,POST,DELETE"
         }
       },
-      "durationMs": 2237
+      "durationMs": 2203
     },
     {
       "slug": "queensland-country-bank-0fa967",
@@ -8805,7 +8807,7 @@
           "allowMethods": "GET"
         }
       },
-      "durationMs": 4069
+      "durationMs": 3720
     },
     {
       "slug": "rabobank-b18b21",
@@ -8844,7 +8846,7 @@
           "allowMethods": null
         }
       },
-      "durationMs": 4528
+      "durationMs": 4888
     },
     {
       "slug": "ram-trucks-finance-926d3c",
@@ -8881,7 +8883,7 @@
           "allowMethods": "GET"
         }
       },
-      "durationMs": 1383
+      "durationMs": 672
     },
     {
       "slug": "rate-money-0beed3",
@@ -8916,7 +8918,7 @@
           "allowMethods": null
         }
       },
-      "durationMs": 3628
+      "durationMs": 3798
     },
     {
       "slug": "rate-money-c12e3c",
@@ -8951,7 +8953,7 @@
           "allowMethods": "GET,OPTIONS"
         }
       },
-      "durationMs": 1543
+      "durationMs": 1710
     },
     {
       "slug": "rate-money-elevate-bd36cd",
@@ -8987,7 +8989,7 @@
           "allowMethods": "GET"
         }
       },
-      "durationMs": 1234
+      "durationMs": 1251
     },
     {
       "slug": "reduce-home-loans-831aed",
@@ -9022,7 +9024,7 @@
           "allowMethods": null
         }
       },
-      "durationMs": 3651
+      "durationMs": 3758
     },
     {
       "slug": "redzed-3a4517",
@@ -9058,7 +9060,7 @@
           "allowMethods": "GET"
         }
       },
-      "durationMs": 1803
+      "durationMs": 1978
     },
     {
       "slug": "regional-australia-bank-9ebcdc",
@@ -9101,7 +9103,7 @@
           "allowMethods": null
         }
       },
-      "durationMs": 2810
+      "durationMs": 2979
     },
     {
       "slug": "renault-financial-services-776836",
@@ -9138,7 +9140,7 @@
           "allowMethods": "GET"
         }
       },
-      "durationMs": 1330
+      "durationMs": 1851
     },
     {
       "slug": "resimac-asset-finance-9056ba",
@@ -9174,7 +9176,7 @@
           "allowMethods": null
         }
       },
-      "durationMs": 1577
+      "durationMs": 1770
     },
     {
       "slug": "resimac-be2b2c",
@@ -9209,7 +9211,7 @@
           "allowMethods": null
         }
       },
-      "durationMs": 1741
+      "durationMs": 1649
     },
     {
       "slug": "revolut-0420b3",
@@ -9248,7 +9250,7 @@
           "allowMethods": null
         }
       },
-      "durationMs": 1661
+      "durationMs": 753
     },
     {
       "slug": "rhg-mortgages-d5678b",
@@ -9283,7 +9285,7 @@
           "allowMethods": null
         }
       },
-      "durationMs": 3862
+      "durationMs": 3939
     },
     {
       "slug": "riyadh-financial-services-14a4eb",
@@ -9318,7 +9320,7 @@
           "allowMethods": null
         }
       },
-      "durationMs": 1630
+      "durationMs": 1618
     },
     {
       "slug": "royal-automobile-club-of-queensland-racq-772781",
@@ -9326,41 +9328,34 @@
       "brandNames": [
         "Royal Automobile Club of Queensland (RACQ)"
       ],
-      "listOk": true,
-      "listStatus": 200,
-      "listVersion": "5",
+      "listOk": false,
+      "listStatus": 0,
+      "listVersion": null,
+      "listError": "ENOTFOUND",
       "pageErrors": [],
-      "productCount": 38,
-      "categoryCounts": {
-        "RESIDENTIAL_MORTGAGES": 20,
-        "BUSINESS_LOANS": 2,
-        "TRANS_AND_SAVINGS_ACCOUNTS": 6,
-        "OVERDRAFTS": 2,
-        "TERM_DEPOSITS": 1,
-        "PERS_LOANS": 7
-      },
-      "inScope": 7,
-      "detailOk": 7,
+      "productCount": 0,
+      "categoryCounts": {},
+      "inScope": 0,
+      "detailOk": 0,
       "detailFailed": 0,
-      "detailVersions": {
-        "7": 7
-      },
+      "detailVersions": {},
       "detailErrors": {},
       "cors": {
-        "preflightOk": true,
-        "allowsXv": true,
-        "allowsXminv": true,
-        "getAllowsOrigin": true,
+        "preflightOk": false,
+        "allowsXv": false,
+        "allowsXminv": false,
+        "getAllowsOrigin": false,
         "exposesXv": false,
-        "browserReady": true,
+        "browserReady": false,
         "probe": {
-          "status": 200,
-          "allowOrigin": "*",
-          "allowHeaders": "Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token,x-v,x-min-v",
-          "allowMethods": "GET,OPTIONS"
+          "status": 0,
+          "error": "ENOTFOUND",
+          "allowOrigin": null,
+          "allowHeaders": null,
+          "allowMethods": null
         }
       },
-      "durationMs": 3337
+      "durationMs": 7623
     },
     {
       "slug": "rsl-money-a6fbe0",
@@ -9399,7 +9394,7 @@
           "allowMethods": null
         }
       },
-      "durationMs": 2597
+      "durationMs": 2870
     },
     {
       "slug": "s-koda-financial-services-7b6130",
@@ -9435,7 +9430,7 @@
           "allowMethods": "GET"
         }
       },
-      "durationMs": 2149
+      "durationMs": 1858
     },
     {
       "slug": "scene-finance-306f68",
@@ -9470,7 +9465,7 @@
           "allowMethods": null
         }
       },
-      "durationMs": 3633
+      "durationMs": 3763
     },
     {
       "slug": "scotpac-business-finance-4a2c89",
@@ -9505,7 +9500,7 @@
           "allowMethods": "GET,OPTIONS"
         }
       },
-      "durationMs": 1498
+      "durationMs": 1636
     },
     {
       "slug": "skyline-car-finance-1dd0d2",
@@ -9542,7 +9537,7 @@
           "allowMethods": "GET"
         }
       },
-      "durationMs": 1950
+      "durationMs": 1955
     },
     {
       "slug": "so-money-0cbab4",
@@ -9577,7 +9572,7 @@
           "allowMethods": null
         }
       },
-      "durationMs": 3648
+      "durationMs": 3872
     },
     {
       "slug": "societyone-20ef39",
@@ -9612,7 +9607,7 @@
           "allowMethods": "GET, OPTIONS"
         }
       },
-      "durationMs": 1972
+      "durationMs": 1856
     },
     {
       "slug": "solo-by-myob-694bed",
@@ -9649,7 +9644,7 @@
           "allowMethods": "GET"
         }
       },
-      "durationMs": 1859
+      "durationMs": 1950
     },
     {
       "slug": "southern-cross-credit-union-d61f76",
@@ -9663,10 +9658,10 @@
       "pageErrors": [],
       "productCount": 32,
       "categoryCounts": {
+        "TERM_DEPOSITS": 2,
         "RESIDENTIAL_MORTGAGES": 7,
         "BUSINESS_LOANS": 3,
         "TRANS_AND_SAVINGS_ACCOUNTS": 7,
-        "TERM_DEPOSITS": 2,
         "PERS_LOANS": 11,
         "OVERDRAFTS": 1,
         "TRADE_FINANCE": 1
@@ -9692,7 +9687,7 @@
           "allowMethods": null
         }
       },
-      "durationMs": 2655
+      "durationMs": 2573
     },
     {
       "slug": "st-george-bank-66f3a8",
@@ -9737,7 +9732,7 @@
           "allowMethods": "GET, OPTIONS"
         }
       },
-      "durationMs": 32832
+      "durationMs": 32729
     },
     {
       "slug": "state-custodians-a85ef2",
@@ -9772,7 +9767,7 @@
           "allowMethods": null
         }
       },
-      "durationMs": 3665
+      "durationMs": 3843
     },
     {
       "slug": "subaru-financial-services-5f0351",
@@ -9808,7 +9803,7 @@
           "allowMethods": "GET,HEAD,PUT,PATCH,POST,DELETE"
         }
       },
-      "durationMs": 2173
+      "durationMs": 1212
     },
     {
       "slug": "summerland-bank-e79678",
@@ -9851,7 +9846,7 @@
           "allowMethods": "GET"
         }
       },
-      "durationMs": 2187
+      "durationMs": 2219
     },
     {
       "slug": "suncorp-bank-58debb",
@@ -9890,7 +9885,7 @@
           "allowMethods": "GET"
         }
       },
-      "durationMs": 4208
+      "durationMs": 4207
     },
     {
       "slug": "suzuki-financial-services-c68652",
@@ -9926,7 +9921,7 @@
           "allowMethods": "GET,OPTIONS"
         }
       },
-      "durationMs": 1520
+      "durationMs": 1707
     },
     {
       "slug": "swsbank-e962b1",
@@ -9968,7 +9963,7 @@
           "allowMethods": null
         }
       },
-      "durationMs": 3702
+      "durationMs": 4231
     },
     {
       "slug": "synergy-home-loans-9ec44d",
@@ -10003,7 +9998,7 @@
           "allowMethods": null
         }
       },
-      "durationMs": 3635
+      "durationMs": 3856
     },
     {
       "slug": "teachers-mutual-bank-937447",
@@ -10044,7 +10039,7 @@
           "allowMethods": "TRACE, HEAD, DELETE, POST, GET, PATCH, PUT"
         }
       },
-      "durationMs": 3382
+      "durationMs": 5071
     },
     {
       "slug": "the-asset-financier-a134e6",
@@ -10080,7 +10075,7 @@
           "allowMethods": "GET,HEAD,PUT,PATCH,POST,DELETE"
         }
       },
-      "durationMs": 1361
+      "durationMs": 1977
     },
     {
       "slug": "the-capricornian-a71117",
@@ -10122,7 +10117,7 @@
           "allowMethods": null
         }
       },
-      "durationMs": 3013
+      "durationMs": 3014
     },
     {
       "slug": "the-mac-587f94",
@@ -10136,8 +10131,8 @@
       "pageErrors": [],
       "productCount": 47,
       "categoryCounts": {
-        "TERM_DEPOSITS": 3,
         "RESIDENTIAL_MORTGAGES": 28,
+        "TERM_DEPOSITS": 3,
         "PERS_LOANS": 3,
         "TRANS_AND_SAVINGS_ACCOUNTS": 13
       },
@@ -10162,7 +10157,7 @@
           "allowMethods": null
         }
       },
-      "durationMs": 3793
+      "durationMs": 4430
     },
     {
       "slug": "the-sydney-home-loan-centre-a66436",
@@ -10197,7 +10192,7 @@
           "allowMethods": null
         }
       },
-      "durationMs": 3594
+      "durationMs": 3814
     },
     {
       "slug": "thinktank-by-lmg-ccc283",
@@ -10233,7 +10228,7 @@
           "allowMethods": "GET"
         }
       },
-      "durationMs": 718
+      "durationMs": 646
     },
     {
       "slug": "thinktank-c830e3",
@@ -10269,7 +10264,7 @@
           "allowMethods": "GET"
         }
       },
-      "durationMs": 651
+      "durationMs": 1365
     },
     {
       "slug": "thriday-b5dece",
@@ -10304,7 +10299,7 @@
           "allowMethods": null
         }
       },
-      "durationMs": 7773
+      "durationMs": 7812
     },
     {
       "slug": "tiimely-home-e63381",
@@ -10342,7 +10337,7 @@
           "allowMethods": "GET, HEAD, POST, PUT, PATCH, DELETE, OPTIONS"
         }
       },
-      "durationMs": 2605
+      "durationMs": 1817
     },
     {
       "slug": "tmcu-007fd9",
@@ -10365,8 +10360,7 @@
       "detailOk": 19,
       "detailFailed": 0,
       "detailVersions": {
-        "7": 18,
-        "none": 1
+        "7": 19
       },
       "detailErrors": {},
       "cors": {
@@ -10383,7 +10377,7 @@
           "allowMethods": null
         }
       },
-      "durationMs": 5305
+      "durationMs": 4883
     },
     {
       "slug": "toyota-finance-6765ea",
@@ -10419,7 +10413,7 @@
           "allowMethods": "GET,OPTIONS"
         }
       },
-      "durationMs": 1551
+      "durationMs": 1599
     },
     {
       "slug": "tradies-finance-4e68c8",
@@ -10454,7 +10448,7 @@
           "allowMethods": null
         }
       },
-      "durationMs": 3556
+      "durationMs": 3864
     },
     {
       "slug": "traditional-credit-union-40a4f0",
@@ -10493,7 +10487,7 @@
           "allowMethods": null
         }
       },
-      "durationMs": 4328
+      "durationMs": 4155
     },
     {
       "slug": "tyro-banking-5aa40e",
@@ -10531,7 +10525,7 @@
           "allowMethods": "GET"
         }
       },
-      "durationMs": 2306
+      "durationMs": 2260
     },
     {
       "slug": "tyro-payments-fed011",
@@ -10570,7 +10564,7 @@
           "allowMethods": null
         }
       },
-      "durationMs": 2883
+      "durationMs": 2965
     },
     {
       "slug": "ubank-f381eb",
@@ -10608,7 +10602,7 @@
           "allowMethods": "GET"
         }
       },
-      "durationMs": 1515
+      "durationMs": 1216
     },
     {
       "slug": "unibank-cc3047",
@@ -10649,7 +10643,7 @@
           "allowMethods": "TRACE, HEAD, DELETE, POST, GET, PATCH, PUT"
         }
       },
-      "durationMs": 4219
+      "durationMs": 3217
     },
     {
       "slug": "unity-bank-dc705d",
@@ -10691,7 +10685,7 @@
           "allowMethods": null
         }
       },
-      "durationMs": 4234
+      "durationMs": 4588
     },
     {
       "slug": "unloan-ca4fb9",
@@ -10726,7 +10720,7 @@
           "allowMethods": null
         }
       },
-      "durationMs": 1622
+      "durationMs": 1847
     },
     {
       "slug": "up-548b16",
@@ -10764,7 +10758,7 @@
           "allowMethods": "GET, HEAD, POST, PUT, PATCH, DELETE, OPTIONS"
         }
       },
-      "durationMs": 2938
+      "durationMs": 2754
     },
     {
       "slug": "veya-money-42cba7",
@@ -10800,7 +10794,7 @@
           "allowMethods": "GET,HEAD,PUT,PATCH,POST,DELETE"
         }
       },
-      "durationMs": 1172
+      "durationMs": 1276
     },
     {
       "slug": "virgin-money-7bedfe",
@@ -10839,7 +10833,7 @@
           "allowMethods": "GET,OPTIONS"
         }
       },
-      "durationMs": 3573
+      "durationMs": 2820
     },
     {
       "slug": "volkswagen-financial-services-a2930f",
@@ -10876,7 +10870,7 @@
           "allowMethods": "GET"
         }
       },
-      "durationMs": 659
+      "durationMs": 808
     },
     {
       "slug": "volvo-car-financial-services-a76a7f",
@@ -10913,7 +10907,7 @@
           "allowMethods": "GET"
         }
       },
-      "durationMs": 664
+      "durationMs": 867
     },
     {
       "slug": "weekend-toy-finance-c22465",
@@ -10949,7 +10943,7 @@
           "allowMethods": "GET,HEAD,PUT,PATCH,POST,DELETE"
         }
       },
-      "durationMs": 1328
+      "durationMs": 1503
     },
     {
       "slug": "westpac-1ef9e7",
@@ -10995,7 +10989,7 @@
           "allowMethods": "GET, OPTIONS"
         }
       },
-      "durationMs": 42383
+      "durationMs": 40392
     },
     {
       "slug": "wfg-608f3a",
@@ -11030,7 +11024,7 @@
           "allowMethods": null
         }
       },
-      "durationMs": 3645
+      "durationMs": 3873
     },
     {
       "slug": "wholesale-funding-group-ec6c02",
@@ -11065,7 +11059,7 @@
           "allowMethods": "GET,OPTIONS"
         }
       },
-      "durationMs": 1504
+      "durationMs": 1545
     },
     {
       "slug": "wlth-f59907",
@@ -11100,7 +11094,7 @@
           "allowMethods": null
         }
       },
-      "durationMs": 1594
+      "durationMs": 1676
     },
     {
       "slug": "woolworths-team-bank-33fd08",
@@ -11142,7 +11136,7 @@
           "allowMethods": null
         }
       },
-      "durationMs": 4515
+      "durationMs": 3973
     },
     {
       "slug": "xin-financial-pty-ltd-86ac07",
@@ -11177,7 +11171,7 @@
           "allowMethods": null
         }
       },
-      "durationMs": 3645
+      "durationMs": 3863
     },
     {
       "slug": "yard-financial-4d9378",
@@ -11212,7 +11206,7 @@
           "allowMethods": null
         }
       },
-      "durationMs": 3585
+      "durationMs": 3826
     },
     {
       "slug": "ybr-lending-solutions-3bcac5",
@@ -11248,7 +11242,7 @@
           "allowMethods": "GET"
         }
       },
-      "durationMs": 1222
+      "durationMs": 1343
     },
     {
       "slug": "ym-life-pty-ltd-19781f",
@@ -11283,7 +11277,7 @@
           "allowMethods": null
         }
       },
-      "durationMs": 3591
+      "durationMs": 3779
     },
     {
       "slug": "your-manager-e869e2",
@@ -11318,7 +11312,7 @@
           "allowMethods": null
         }
       },
-      "durationMs": 3638
+      "durationMs": 3913
     },
     {
       "slug": "zank-financial-78f68e",
@@ -11353,7 +11347,7 @@
           "allowMethods": null
         }
       },
-      "durationMs": 1525
+      "durationMs": 1730
     },
     {
       "slug": "zeus-24c47e",
@@ -11388,7 +11382,7 @@
           "allowMethods": null
         }
       },
-      "durationMs": 1581
+      "durationMs": 1741
     },
     {
       "slug": "zillion-finance-n1-plus-0e8a19",
@@ -11423,7 +11417,7 @@
           "allowMethods": "GET,OPTIONS"
         }
       },
-      "durationMs": 1585
+      "durationMs": 1567
     },
     {
       "slug": "zip-6a5c9e",
@@ -11460,7 +11454,7 @@
           "allowMethods": "GET,OPTIONS"
         }
       },
-      "durationMs": 553
+      "durationMs": 549
     }
   ]
 }

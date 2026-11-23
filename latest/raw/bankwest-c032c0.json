@@ -1298,7 +1298,13 @@
           {
             "featureType": "CASHBACK_OFFER",
             "additionalValue": "$50",
-            "additionalInfo": "Cashback offers are available from time to time. Eligibility Criteria and Terms & Conditions may apply"
+            "additionalInfo": "Cashback offers are available from time to time. Eligibility Criteria and Terms & Conditions may apply."
+          },
+          {
+            "featureType": "CASHBACK_OFFER",
+            "additionalValue": "$40",
+            "additionalInfo": "From 23 November 2026 to 22 January 2027, new customers aged 18+ who haven't held a Bankwest account in the past 12 months can earn up to $40 cashback when they open an Easy Transaction Account. Create a virtual card linked to an Easy Transaction Account. Spend at least $50 using the linked virtual card during days 1-30 to receive $20 cashback for that period. Spend at least $50 using the linked virtual card during days 31-60 to receive a separate $20 cashback for that period. Each period is assessed separately, and you can receive cashback for either or both periods. Terms and Conditions apply.",
+            "additionalInfoUri": "https://www.bankwest.com.au/virtual-cards"
           },
           {
             "featureType": "OTHER",
@@ -1482,7 +1488,7 @@
         ],
         "productId": "96c746fbac2349d0b4e8e14b89d988ee",
         "effectiveTo": "9999-12-31T00:00:00.000Z",
-        "lastUpdated": "2026-11-23T01:15:04.000Z",
+        "lastUpdated": "2026-11-23T11:36:50.000Z",
         "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
         "name": "Easy Transaction Account",
         "description": "Our Easy Transaction Account is an everyday spending account with no monthly maintenance fee",
@@ -2474,6 +2480,7 @@
                 ]
               }
             ],
+            "additionalValue": "P4M",
             "additionalInfo": "4 month variable introductory rate",
             "additionalInfoUri": "https://www.bankwest.com.au/savings-accounts/high-interest"
           },
@@ -2499,6 +2506,7 @@
                 ]
               }
             ],
+            "additionalValue": "P4M",
             "additionalInfo": "4 month variable introductory rate",
             "additionalInfoUri": "https://www.bankwest.com.au/savings-accounts/high-interest"
           },
@@ -2524,6 +2532,7 @@
                 ]
               }
             ],
+            "additionalValue": "P4M",
             "additionalInfo": "4 month variable introductory rate",
             "additionalInfoUri": "https://www.bankwest.com.au/savings-accounts/high-interest"
           },
@@ -2548,13 +2557,14 @@
                 ]
               }
             ],
+            "additionalValue": "P4M",
             "additionalInfo": "4 month variable introductory rate",
             "additionalInfoUri": "https://www.bankwest.com.au/savings-accounts/high-interest"
           }
         ],
         "productId": "d10438974ab8417bab388149da5053bb",
         "effectiveTo": "9999-12-31T00:00:00.000Z",
-        "lastUpdated": "2026-11-23T01:15:04.000Z",
+        "lastUpdated": "2026-11-23T11:37:10.000Z",
         "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
         "name": "Bankwest Easy Saver",
         "description": "The Easy Saver Account is our flexible savings account that lets you earn credit interest on a tiered basis on all balances in the account with no minimum monthly deposit (you can also move your money in and out of your account without affecting your interest rate). Credit interest is calculated at the applicable rate on that portion of the balance which falls within each of the tiers.",

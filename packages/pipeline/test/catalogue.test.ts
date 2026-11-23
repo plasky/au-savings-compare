@@ -47,7 +47,8 @@ describe('catalogue', () => {
     const prize: ProductDetail = { ...boostSaver, productId: 'prize', depositRates: [{ depositRateType: 'FIXED', rate: '0.20' }] };
     const cat = buildCatalogue({ raws: [rawFile('t', [percentTiers, prize])], reviews: emptyReviews() });
     expect(cat.products.map((p) => p.rows.map((r) => r.rate).sort())).toEqual([[0.0025, 0.0225]]);
-    expect(cat.counts.implausible).toBe(1);
+    // The 20% row is dropped by the normaliser (unreviewed rates above 10%), leaving nothing to publish.
+    expect(cat.counts.implausible).toBe(0);
   });
 
   it('leaves out accounts for organisations and super funds', () => {

@@ -5,7 +5,7 @@
  * back to the CDR labels and structured conditions.
  */
 import type { Condition, ConditionType, Product, RateRow, Tier } from '@asc/engine';
-import { ageRangeFromText, isBaseType, isForeignCurrency, isNonPersonal, rateConditions, freeTextParts, restrictionFromName, termRangesMonths } from './rates.js';
+import { ageRangeFromText, isBaseType, isForeignCurrency, isNonPersonal, rateConditions, tierConditions, freeTextParts, restrictionFromName, termRangesMonths } from './rates.js';
 import { matchReview, rowSignature, stableStringify, type ReviewsFile, type RowReview } from './review/review.js';
 import type { DepositRate, ProductDetail, RawEndpointFile, RawProduct } from './types.js';
 import { durationToMonths, isIsoDuration, parseAmount, parseRate, truncate } from './util.js';
@@ -25,6 +25,10 @@ const CDR_TO_ENGINE: Record<string, ConditionType> = {
   OTHER: 'OTHER',
 };
 
+/** Wording that marks a rate as not generally available: competition prizes, promo codes, hand-picked customers. */
+export const PRIZE_RE = /\b(competition|prize|winners?|promo(?:tional)? codes?|selected customers|by invitation|invited customers|from time to time)\b/i;
+export const MAX_UNREVIEWED_RATE = 0.1;
+
 function blankCondition(type: ConditionType, description = ''): Condition {
   return { type, amount: null, count: null, minAge: null, maxAge: null, period: 'MONTH', externalOnly: null, description };
 }
@@ -32,7 +36,17 @@ function blankCondition(type: ConditionType, description = ''): Condition {
 /** Structured CDR conditions for an unreviewed row; free-text-only bonuses become an OTHER condition. */
 function cdrConditions(r: DepositRate): Condition[] {
   const out: Condition[] = [];
-  for (const c of rateConditions(r)) {
+  // Conditions can sit on the row or on its balance tiers (Bankwest puts them on tiers).
+  const seen = new Set<string>();
+  // Tier-level OTHER entries are usually just descriptions ("interest calculated daily"), so only structured ones count.
+  const fromTiers = (r.tiers ?? []).flatMap(tierConditions).filter((c) => c.rateApplicabilityType !== 'OTHER');
+  const all = [...rateConditions(r), ...fromTiers].filter((c) => {
+    const k = `${c.rateApplicabilityType}|${c.additionalValue ?? ''}|${c.additionalInfo ?? ''}`;
+    if (seen.has(k)) return false;
+    seen.add(k);
+    return true;
+  });
+  for (const c of all) {
     const type = CDR_TO_ENGINE[c.rateApplicabilityType ?? ''];
     if (!type) continue;
     const cond = blankCondition(type, c.additionalInfo ? truncate(c.additionalInfo, 120) : '');
@@ -169,17 +183,32 @@ export function normaliseProduct(
   const aligned: RowReview[] | null = match?.rows ?? null;
   const notes: string[] = [];
   if (entry && !match) notes.push('The bank changed this account since it was checked by hand; rates are combined using the bank’s own labels until the next check');
-  if (match && !match.exact) notes.push('Rates changed since the hand check, but how they combine is unchanged, so the check still applies');
+  if (match?.how === 'rates') notes.push('Rates changed since the hand check, but how they combine is unchanged, so the check still applies');
+  if (match?.how === 'wording') notes.push('The bank reworded this account since the hand check; the check still applies until it’s looked at again');
   if (match && entry?.review.notes) notes.push(entry.review.notes);
 
   const rows: RateRow[] = [];
   const labels = new Map<string, string>();
   const nameForTerms = category === 'TERM_DEPOSITS' ? d.name : undefined;
+  let prizeRows = 0;
+  let implausibleRows = 0;
   rates.forEach((r, i) => {
     const value = rateOf(r);
     if (value === null) return;
     const rr = aligned?.[i];
     if (rr?.role === 'EXCLUDE') return;
+    if (!rr) {
+      // Without a hand check, leave out rates that only competition winners or hand-picked customers get,
+      // and any rate above 10%, which is a prize or a data error rather than something you can open.
+      if (PRIZE_RE.test(freeTextParts(r).join(' '))) {
+        prizeRows++;
+        return;
+      }
+      if (value > MAX_UNREVIEWED_RATE) {
+        implausibleRows++;
+        return;
+      }
+    }
     const { tiers, method } = dollarTiers(r);
     const role = rr ? rr.role : defaultRole(r.depositRateType);
     const conditions: Condition[] = rr ? rr.conditions.map((c) => ({ ...c })) : cdrConditions(r);
@@ -208,6 +237,8 @@ export function normaliseProduct(
       payment: payment(r),
     });
   });
+  if (prizeRows) notes.push('Left out rates offered only to competition winners or selected customers');
+  if (implausibleRows) notes.push('Left out a rate above 10% as a likely prize or data error');
   if (!rows.length) return null;
 
   const isTd = category === 'TERM_DEPOSITS' || rows.every((r) => r.term !== null && r.role !== 'INTRO');

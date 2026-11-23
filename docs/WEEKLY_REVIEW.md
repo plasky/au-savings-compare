@@ -83,4 +83,10 @@ Example:
 
 ## Rate-only changes
 
-Each review stores the shape of every row (the row without its rate value) along with its exact signature. When a bank changes rates but nothing else (same rows, conditions, tiers, name and eligibility), the review still applies: the normaliser carries it over with a note, and the product does not go back in the queue. Any other change (a new row, different conditions or tiers, a renamed product) drops the review until the next weekly pass, and unreviewed rows fall back to safeguards: age bands read from the row text become age conditions, and exact duplicate bonus rows count as one bonus.
+Each review stores three fingerprints of every row: its exact signature, its shape (without the rate value) and its core (rate type, balance bands and structured conditions only, without the rate or any wording).
+
+- **Rates changed only** (shape matches): the review still applies, with a note, and the product stays out of the queue.
+- **Reworded** (core matches: a typo fixed, a label like "P4M" added): the review still applies, with a note, but the product goes back in the queue so the next weekly pass confirms nothing meaningful changed.
+- **Anything else** (a new row, different conditions or tiers, a renamed product or new eligibility) drops the review until the next weekly pass.
+
+Unreviewed rows fall back to safeguards: conditions on balance tiers are read as well as those on rows; rates offered only to competition winners, promo-code holders or "selected customers" are left out, as is any rate above 10%; age bands in the row text become age conditions; and exact duplicate bonus rows count as one bonus.

@@ -100,6 +100,8 @@ export interface ReviewEntry {
   rowShapes?: string[];
   /** shapeKeyFor at review time (name and eligibility). */
   shapeKey?: string;
+  /** rowCore (type, balance bands and structured conditions only) of each row, by index — survives rewording. */
+  rowCores?: string[];
   review: ProductReview;
 }
 
@@ -162,6 +164,40 @@ export function rowShape(r: DepositRate): string {
   return sha256(stableStringify({ ...(canonicalRate(r) as Record<string, unknown>), rate: undefined })).slice(0, 16);
 }
 
+const amountKey = (v: unknown) => {
+  const n = typeof v === 'number' ? v : typeof v === 'string' ? Number(v.replace(/[$,\s]/g, '')) : NaN;
+  return Number.isFinite(n) ? Math.round(n * 100) / 100 : null;
+};
+
+/** Structured conditions as type plus any short value; free text is left out. */
+function coreConditions(list: unknown): unknown[] {
+  const arr = Array.isArray(list) ? list : list && typeof list === 'object' ? [list] : [];
+  return sortByContent(
+    arr
+      .filter((c): c is Record<string, unknown> => !!c && typeof c === 'object')
+      .map((c) => ({ t: c.rateApplicabilityType ?? null, v: typeof c.additionalValue === 'string' && c.additionalValue.length <= 24 ? c.additionalValue.trim() : null })),
+  );
+}
+
+/**
+ * A row's core: its rate type, balance bands and structured conditions,
+ * without the rate or any wording. Banks often fix a typo or add a label
+ * ("P4M") without changing what a row means; the core stays the same, so the
+ * hand review can carry on until the next weekly check looks at it again.
+ */
+export function rowCore(r: DepositRate): string {
+  const tiers = sortByContent(
+    (r.tiers ?? []).map((t) => ({
+      unit: t.unitOfMeasure ?? null,
+      min: amountKey(t.minimumValue),
+      max: amountKey(t.maximumValue),
+      method: t.rateApplicationMethod ?? null,
+      conds: coreConditions(t.applicabilityConditions),
+    })),
+  );
+  return sha256(stableStringify({ type: r.depositRateType ?? null, tiers, conds: coreConditions(r.applicabilityConditions) })).slice(0, 16);
+}
+
 /** Order-insensitive key over a product's name, rate rows and eligibility. */
 export function reviewKeyFor(d: ProductDetail): string {
   const rows = (d.depositRates ?? []).map(rowSignature).sort();
@@ -174,9 +210,9 @@ export function reviewKeyFor(d: ProductDetail): string {
  * signature (holders sometimes reorder depositRates). Returns null if any
  * current row has no reviewed counterpart.
  */
-export function alignReview(entry: ReviewEntry, detail: ProductDetail, by: 'signature' | 'shape' = 'signature'): RowReview[] | null {
-  const keys = by === 'signature' ? entry.rowSignatures : entry.rowShapes;
-  const keyOf = by === 'signature' ? rowSignature : rowShape;
+export function alignReview(entry: ReviewEntry, detail: ProductDetail, by: 'signature' | 'shape' | 'core' = 'signature'): RowReview[] | null {
+  const keys = by === 'signature' ? entry.rowSignatures : by === 'shape' ? entry.rowShapes : entry.rowCores;
+  const keyOf = by === 'signature' ? rowSignature : by === 'shape' ? rowShape : rowCore;
   if (!keys || keys.length !== (detail.depositRates ?? []).length) return null;
   const pool = new Map<string, RowReview[]>();
   keys.forEach((sig, i) => {
@@ -197,14 +233,18 @@ export function alignReview(entry: ReviewEntry, detail: ProductDetail, by: 'sign
  * after a rate-only change (same row shapes, the product's name and
  * eligibility unchanged). Null when the product has changed in any other way.
  */
-export function matchReview(entry: ReviewEntry | undefined, detail: ProductDetail): { rows: RowReview[]; exact: boolean } | null {
+export function matchReview(
+  entry: ReviewEntry | undefined,
+  detail: ProductDetail,
+): { rows: RowReview[]; exact: boolean; how: 'exact' | 'rates' | 'wording' } | null {
   if (!entry) return null;
   const exact = alignReview(entry, detail, 'signature');
-  if (exact) return { rows: exact, exact: true };
-  if (entry.review.key && entry.rowShapes && sameNameAndEligibility(entry, detail)) {
-    const byShape = alignReview(entry, detail, 'shape');
-    if (byShape) return { rows: byShape, exact: false };
-  }
+  if (exact) return { rows: exact, exact: true, how: 'exact' };
+  if (!sameNameAndEligibility(entry, detail)) return null;
+  const byShape = entry.rowShapes ? alignReview(entry, detail, 'shape') : null;
+  if (byShape) return { rows: byShape, exact: false, how: 'rates' };
+  const byCore = entry.rowCores ? alignReview(entry, detail, 'core') : null;
+  if (byCore) return { rows: byCore, exact: false, how: 'wording' };
   return null;
 }
 
@@ -295,6 +335,8 @@ export interface QueueStats {
   reviewed: number;
   /** Reviewed products whose rates changed but nothing else (review still applies). */
   rateOnly: number;
+  /** Reviewed products whose wording changed (review still applied, but queued again). */
+  reworded: number;
   stale: number;
   queued: number;
   belowThreshold: number;
@@ -303,7 +345,7 @@ export interface QueueStats {
 
 export function buildQueue(raws: RawEndpointFile[], reviews: ReviewsFile, threshold = DEFAULT_THRESHOLD) {
   const candidates = buildCandidates(raws);
-  const stats: QueueStats = { candidates: candidates.length, reviewed: 0, rateOnly: 0, stale: 0, queued: 0, belowThreshold: 0, threshold };
+  const stats: QueueStats = { candidates: candidates.length, reviewed: 0, rateOnly: 0, reworded: 0, stale: 0, queued: 0, belowThreshold: 0, threshold };
   const queue: Candidate[] = [];
   for (const c of candidates) {
     const entry = reviews.entries[c.key];
@@ -312,11 +354,14 @@ export function buildQueue(raws: RawEndpointFile[], reviews: ReviewsFile, thresh
       continue;
     }
     // A rate-only change keeps the review: how the rows combine hasn't changed.
-    if (entry && matchReview(entry, c.detail)) {
+    const m = entry ? matchReview(entry, c.detail) : null;
+    if (m?.how === 'rates') {
       stats.reviewed++;
       stats.rateOnly++;
       continue;
     }
+    // Reworded rows keep the review for now, but go back in the queue to be looked at again.
+    if (m?.how === 'wording') stats.reworded++;
     if (c.headline < threshold) {
       stats.belowThreshold++;
       continue;
@@ -477,6 +522,7 @@ export function applyAnswers(
       reviewedAt: now.toISOString(),
       rowSignatures: rates.map(rowSignature),
       rowShapes: rates.map(rowShape),
+      rowCores: rates.map(rowCore),
       shapeKey: shapeKeyFor(c.detail),
       review,
     };

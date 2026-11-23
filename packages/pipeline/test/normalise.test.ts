@@ -260,3 +260,103 @@ describe('hand reviews after a rate change', () => {
     expect(p.notes[0]).toContain('changed this account since it was checked by hand');
   });
 });
+
+// Bankwest Easy Saver, 23 Nov 2026: an 11.5% competition-prize rate and "selected customers" bonuses,
+// with their conditions on the balance tiers rather than the row.
+const prizeRow = {
+  depositRateType: 'FIXED',
+  rate: '0.115',
+  tiers: [
+    {
+      name: 'Amount',
+      unitOfMeasure: 'DOLLAR',
+      minimumValue: '0.00',
+      maximumValue: '250000.99',
+      rateApplicationMethod: 'PER_TIER',
+      applicabilityConditions: [{ rateApplicabilityType: 'NEW_ACCOUNTS' }, { rateApplicabilityType: 'OTHER', additionalInfo: 'Available only to eligible winners of the Interesting Rates competition' }],
+    },
+  ],
+  additionalInfo: 'Available only to eligible winners of the Interesting Rates Competition.',
+};
+const easySaver: ProductDetail = {
+  productId: 'easy',
+  name: 'Easy Saver',
+  brandName: 'Bankwest',
+  productCategory: 'TRANS_AND_SAVINGS_ACCOUNTS',
+  depositRates: [
+    { depositRateType: 'VARIABLE', rate: '0.055', tiers: [{ name: 'Amount', unitOfMeasure: 'DOLLAR', minimumValue: '0.00', maximumValue: '250000.99', rateApplicationMethod: 'PER_TIER' }] },
+    prizeRow,
+    {
+      depositRateType: 'BONUS',
+      rate: '0.001',
+      additionalInfo: 'Bonus rates available from time to time for selected customers, bonus rates applied may vary.',
+      tiers: [{ name: 'Amount', unitOfMeasure: 'DOLLAR', minimumValue: '0.00', maximumValue: '250000.99', rateApplicationMethod: 'PER_TIER', applicabilityConditions: [{ rateApplicabilityType: 'EXISTING_CUST' }] }],
+    },
+    {
+      depositRateType: 'INTRODUCTORY',
+      rate: '0.0075',
+      additionalInfo: '4 month variable introductory rate',
+      tiers: [{ name: 'Amount', unitOfMeasure: 'DOLLAR', minimumValue: '0.00', maximumValue: '250000.99', rateApplicationMethod: 'PER_TIER', applicabilityConditions: [{ rateApplicabilityType: 'NEW_ACCOUNTS', additionalInfo: 'Only applies to new accounts.' }] }],
+    },
+  ],
+};
+
+describe('unreviewed prize rates and tier-level conditions', () => {
+  it('leaves out competition and selected-customer rates, and reads conditions on tiers', () => {
+    const p = norm(easySaver);
+    expect(p.rows.map((r) => [r.role, r.rate])).toEqual([
+      ['BASE', 0.055],
+      ['INTRO', 0.0075],
+    ]);
+    expect(p.rows[1]!.conditions.map((c) => c.type)).toEqual(['NEW_CUSTOMER']);
+    expect(p.notes.join(' ')).toContain('competition winners or selected customers');
+  });
+
+  it('leaves out any unreviewed rate above 10%', () => {
+    const p = norm({ ...easySaver, depositRates: [easySaver.depositRates![0]!, { ...prizeRow, additionalInfo: 'Promotional rate', tiers: [{ ...prizeRow.tiers[0]!, applicabilityConditions: [] }] }] });
+    expect(p.rows.map((r) => r.rate)).toEqual([0.055]);
+    expect(p.notes.join(' ')).toContain('above 10%');
+  });
+
+  it('keeps a hand review when the bank only rewords rows or adds a label', () => {
+    const reviews = emptyReviews();
+    const candidates = buildCandidates([rawFile('bank', [easySaver])]);
+    const res = applyAnswers(
+      {
+        reviews: [
+          {
+            key: 'bank:easy',
+            reviewKey: candidates[0]!.reviewKey,
+            defaultRole: null,
+            rows: [
+              { index: 0, role: 'BASE', combine: 'ADD_TO_BASE', alternativeSet: null, option: null, conditions: [], introMonths: null, termMonths: null, excludeReason: null },
+              { index: 1, role: 'EXCLUDE', combine: 'ADD_TO_BASE', alternativeSet: null, option: null, conditions: [], introMonths: null, termMonths: null, excludeReason: 'competition prize' },
+              { index: 2, role: 'EXCLUDE', combine: 'ADD_TO_BASE', alternativeSet: null, option: null, conditions: [], introMonths: null, termMonths: null, excludeReason: 'discretionary' },
+              { index: 3, role: 'INTRO', combine: 'ADD_TO_BASE', alternativeSet: null, option: null, conditions: [], introMonths: 4, termMonths: null, excludeReason: null },
+            ],
+            eligibility: { minAge: null, maxAge: null, newCustomersOnly: null, jointAllowed: null, restrictedTo: null, notes: '' },
+            statedHeadline: null,
+            confidence: 'high',
+            notes: 'Prize and discretionary rows excluded.',
+          },
+        ],
+      },
+      candidates,
+      reviews,
+    );
+    expect(res.errors).toEqual([]);
+    const reworded: ProductDetail = {
+      ...easySaver,
+      depositRates: easySaver.depositRates!.map((r) =>
+        r.depositRateType === 'INTRODUCTORY' ? { ...r, additionalValue: 'P4M', additionalInfo: '4-month variable introductory rate' } : r,
+      ),
+    };
+    const p = norm(reworded, reviews);
+    expect(p.reviewed).toBe(true);
+    expect(p.rows.map((r) => [r.role, r.rate])).toEqual([
+      ['BASE', 0.055],
+      ['INTRO', 0.0075],
+    ]);
+    expect(p.notes[0]).toContain('reworded');
+  });
+});

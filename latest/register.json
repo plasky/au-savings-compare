@@ -1454,7 +1454,7 @@
       "publicBaseUri": "https://api.openbanking.secure.coles.com.au",
       "productBaseUri": "https://api.openbanking.secure.coles.com.au",
       "logoUri": "https://www.coles.com.au/content/dam/coles/coles-financial-services/credit-cards/images/Coles-credit-cards-stacked-logo.png",
-      "lastUpdated": "2026-11-19T23:46:14Z"
+      "lastUpdated": "2026-11-23T23:14:55Z"
     },
     {
       "dataHolderBrandId": "db23f052-0bec-48ab-87fe-59290d142704",
@@ -3014,7 +3014,7 @@
       "publicBaseUri": "https://api.openbanking.cards.koganmoney.com.au",
       "productBaseUri": "https://api.openbanking.cards.koganmoney.com.au",
       "logoUri": "https://usl.nab.com.au/static/assets/kogan/img/kogan-money_logo_lg.svg",
-      "lastUpdated": "2026-11-19T23:46:14Z"
+      "lastUpdated": "2026-11-23T23:14:55Z"
     },
     {
       "dataHolderBrandId": "91167d53-a563-f111-9b47-6045bd3f59f5",
@@ -3794,7 +3794,7 @@
       "publicBaseUri": "https://api-openbanking.secure.mycard.com.au",
       "productBaseUri": "https://api-openbanking.secure.mycard.com.au",
       "logoUri": "https://content.nab.com.au/content/dam/mycard/images/eds/mycard-logo-stack-bronze-rgb.svg",
-      "lastUpdated": "2026-11-19T23:46:14Z"
+      "lastUpdated": "2026-11-23T23:14:55Z"
     },
     {
       "dataHolderBrandId": "45cd7adb-8830-4189-b5d7-4010c6dabb3c",
@@ -3839,7 +3839,7 @@
       "publicBaseUri": "https://openbank.api.nab.com.au",
       "productBaseUri": "https://openbank.api.nab.com.au",
       "logoUri": "https://www.nab.com.au/etc/designs/nabrwd/clientlibs/images/logo.png",
-      "lastUpdated": "2026-11-19T23:46:14Z"
+      "lastUpdated": "2026-11-23T23:14:55Z"
     },
     {
       "dataHolderBrandId": "47dd2161-c951-ee11-a81c-002248e31327",
@@ -4439,7 +4439,7 @@
       "publicBaseUri": "https://api.openbanking.qantasmoney.com",
       "productBaseUri": "https://api.openbanking.qantasmoney.com",
       "logoUri": "https://assets.qantasmoney.com/logos/qantas-money-logo-sm.svg",
-      "lastUpdated": "2026-11-19T23:46:14Z"
+      "lastUpdated": "2026-11-23T23:14:55Z"
     },
     {
       "dataHolderBrandId": "2830e32a-4edd-eb11-a824-000d3a884a20",
@@ -5433,7 +5433,7 @@
     },
     {
       "dataHolderBrandId": "307dbf74-8bbe-eb11-a823-000d3a884a20",
-      "brandName": "UBank",
+      "brandName": "Ubank",
       "brandGroup": null,
       "abn": "12004044937",
       "acn": "004044937",
@@ -5444,7 +5444,7 @@
       "publicBaseUri": "https://public.cdr-api.86400.com.au",
       "productBaseUri": "https://public.cdr-api.86400.com.au",
       "logoUri": "https://www.ubank.com.au/assets/images/light/ubank-logo.svg",
-      "lastUpdated": "2026-11-19T23:46:14Z"
+      "lastUpdated": "2026-11-23T23:14:55Z"
     },
     {
       "dataHolderBrandId": "8ac1db25-30b1-eb11-a822-000d3a884a20",
@@ -5683,8 +5683,8 @@
       ],
       "publicBaseUri": "https://online.woolworthsteambank.com.au/OpenBanking",
       "productBaseUri": "https://online.woolworthsteambank.com.au/OpenBanking",
-      "logoUri": "https://woolworthsteambank.com.au/wp-content/uploads/2021/06/wp-log-top-navi-logo.png",
-      "lastUpdated": "2026-11-20T06:11:04Z"
+      "logoUri": "https://woolworthsteambank.com.au/assets/main-media/logo.png",
+      "lastUpdated": "2026-11-23T21:43:10Z"
     },
     {
       "dataHolderBrandId": "4d2d4b41-e0ba-f111-81be-000d3a799057",

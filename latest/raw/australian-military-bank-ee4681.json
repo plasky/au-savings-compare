@@ -20,11 +20,11 @@
     "pagesFetched": 1,
     "productCount": 40,
     "categoryCounts": {
-      "RESIDENTIAL_MORTGAGES": 22,
       "TRANS_AND_SAVINGS_ACCOUNTS": 11,
       "TERM_DEPOSITS": 3,
-      "CRED_AND_CHRG_CARDS": 1,
-      "PERS_LOANS": 3
+      "PERS_LOANS": 3,
+      "RESIDENTIAL_MORTGAGES": 22,
+      "CRED_AND_CHRG_CARDS": 1
     }
   },
   "products": [
@@ -1014,7 +1014,7 @@
         "brand": "AMB",
         "description": "Make a regular income on your savings with interest paid monthly.",
         "isTailored": false,
-        "lastUpdated": "2026-10-20T13:00:00.413558Z",
+        "lastUpdated": "2026-11-23T13:00:00.420935Z",
         "name": "Income Plus",
         "productCategory": "TERM_DEPOSITS",
         "productId": "3b2158a8-34ee-4cb2-870d-1b741ad6e77e",
@@ -1214,27 +1214,7 @@
           },
           {
             "depositRateType": "FIXED",
-            "rate": "0.053",
-            "additionalInfo": null,
-            "additionalInfoUri": null,
-            "additionalValue": "P12M",
-            "applicationFrequency": "P1M",
-            "calculationFrequency": "P1D",
-            "tiers": [
-              {
-                "name": "Tier 1",
-                "unitOfMeasure": "DOLLAR",
-                "minimumValue": "1000.00",
-                "rateApplicationMethod": "WHOLE_BALANCE",
-                "applicabilityConditions": []
-              }
-            ],
-            "applicationType": "PERIODIC",
-            "applicabilityConditions": []
-          },
-          {
-            "depositRateType": "FIXED",
-            "rate": "0.0535",
+            "rate": "0.056",
             "additionalInfo": null,
             "additionalInfoUri": null,
             "additionalValue": "P6M",
@@ -1250,6 +1230,26 @@
               }
             ],
             "applicationType": "MATURITY",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.055",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "P12M",
+            "applicationFrequency": "P1M",
+            "calculationFrequency": "P1D",
+            "tiers": [
+              {
+                "name": "Tier 1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "1000.00",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "applicabilityConditions": []
+              }
+            ],
+            "applicationType": "PERIODIC",
             "applicabilityConditions": []
           }
         ],
@@ -1978,7 +1978,7 @@
         "brand": "AMB",
         "description": "Make a regular income on your savings with interest paid monthly.",
         "isTailored": false,
-        "lastUpdated": "2026-11-05T05:13:19.985833Z",
+        "lastUpdated": "2026-11-23T13:00:00.388582Z",
         "name": "Teen Plus",
         "productCategory": "TERM_DEPOSITS",
         "productId": "4f86dc3e-4af2-40a4-adcf-210d341f538f",
@@ -2612,46 +2612,6 @@
           },
           {
             "depositRateType": "FIXED",
-            "rate": "0.0545",
-            "additionalInfo": null,
-            "additionalInfoUri": null,
-            "additionalValue": "P6M",
-            "applicationFrequency": "P6M",
-            "calculationFrequency": "P1D",
-            "tiers": [
-              {
-                "name": "Tier 1",
-                "unitOfMeasure": "DOLLAR",
-                "minimumValue": "500.00",
-                "rateApplicationMethod": "WHOLE_BALANCE",
-                "applicabilityConditions": []
-              }
-            ],
-            "applicationType": "PERIODIC",
-            "applicabilityConditions": []
-          },
-          {
-            "depositRateType": "FIXED",
-            "rate": "0.054",
-            "additionalInfo": null,
-            "additionalInfoUri": null,
-            "additionalValue": "P12M",
-            "applicationFrequency": "P1Y",
-            "calculationFrequency": "P1D",
-            "tiers": [
-              {
-                "name": "Tier 1",
-                "unitOfMeasure": "DOLLAR",
-                "minimumValue": "500.00",
-                "rateApplicationMethod": "WHOLE_BALANCE",
-                "applicabilityConditions": []
-              }
-            ],
-            "applicationType": "MATURITY",
-            "applicabilityConditions": []
-          },
-          {
-            "depositRateType": "FIXED",
             "rate": "0.054",
             "additionalInfo": null,
             "additionalInfoUri": null,
@@ -2688,6 +2648,46 @@
               }
             ],
             "applicationType": "PERIODIC",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.057",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "P6M",
+            "applicationFrequency": "P6M",
+            "calculationFrequency": "P1D",
+            "tiers": [
+              {
+                "name": "Tier 1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "500.00",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "applicabilityConditions": []
+              }
+            ],
+            "applicationType": "PERIODIC",
+            "applicabilityConditions": []
+          },
+          {
+            "depositRateType": "FIXED",
+            "rate": "0.056",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "P12M",
+            "applicationFrequency": "P1Y",
+            "calculationFrequency": "P1D",
+            "tiers": [
+              {
+                "name": "Tier 1",
+                "unitOfMeasure": "DOLLAR",
+                "minimumValue": "500.00",
+                "rateApplicationMethod": "WHOLE_BALANCE",
+                "applicabilityConditions": []
+              }
+            ],
+            "applicationType": "MATURITY",
             "applicabilityConditions": []
           }
         ],
@@ -4920,7 +4920,7 @@
         "brand": "AMB",
         "description": "Capital Guaranteed Super account is a retirement savings account\n(RSA) that offers a tax advantaged way to save for your retirement.\nIt is a low risk, low cost investment option with nominal monthly\nfees.\nThe account is a capital guaranteed investment, meaning your\nretirement savings are protected from negative earnings.\nRetirement Savings Account (RSA) is a superannuation account\nwith the same tax concessions as any other superannuation fund,\nhowever it operates similar to a savings/investment account.",
         "isTailored": false,
-        "lastUpdated": "2026-11-06T06:08:46.4318Z",
+        "lastUpdated": "2026-11-23T22:36:03.321403Z",
         "name": " Capital Guaranteed Super",
         "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
         "productId": "a7d9a6dc-8261-4252-978b-66bb95bec20c",
@@ -5001,11 +5001,11 @@
           },
           {
             "depositRateType": "FIXED",
-            "rate": "0.032",
+            "rate": "0.04",
             "additionalInfo": null,
             "additionalInfoUri": null,
-            "additionalValue": "P36M",
-            "applicationFrequency": "P36M",
+            "additionalValue": "P24M",
+            "applicationFrequency": "P24M",
             "calculationFrequency": "P1D",
             "tiers": [
               {
@@ -5021,11 +5021,11 @@
           },
           {
             "depositRateType": "FIXED",
-            "rate": "0.0355",
+            "rate": "0.0345",
             "additionalInfo": null,
             "additionalInfoUri": null,
-            "additionalValue": "P24M",
-            "applicationFrequency": "P24M",
+            "additionalValue": "P36M",
+            "applicationFrequency": "P36M",
             "calculationFrequency": "P1D",
             "tiers": [
               {
@@ -5213,7 +5213,7 @@
         "brand": "AMB",
         "description": "Make a solid return on your investment with interest paid on maturity or annually if your term is greater than 12 months. ",
         "isTailored": false,
-        "lastUpdated": "2026-10-20T13:00:00.401707Z",
+        "lastUpdated": "2026-11-23T13:00:00.355704Z",
         "name": "Investment Plus",
         "productCategory": "TERM_DEPOSITS",
         "productId": "c70ea9ac-cf01-49ff-a100-b59a953ff33a",
@@ -5827,7 +5827,7 @@
           },
           {
             "depositRateType": "FIXED",
-            "rate": "0.054",
+            "rate": "0.056",
             "additionalInfo": null,
             "additionalInfoUri": null,
             "additionalValue": "P12M",
@@ -5867,7 +5867,7 @@
           },
           {
             "depositRateType": "FIXED",
-            "rate": "0.0545",
+            "rate": "0.057",
             "additionalInfo": null,
             "additionalInfoUri": null,
             "additionalValue": "P6M",
@@ -6071,7 +6071,7 @@
         "brand": "AMB",
         "description": "Capital Guaranteed Pension account is a complying account\nbased pension.\nAccount based pensions are designed to convert your\naccumulated superannuation into a tax effective income\nstream. This income is paid into your nominated bank account.\nThe minimum amount you draw from your pension account each\nyear is subject to a pension factor set by the Government and\nother Government prescribed pension standards.",
         "isTailored": false,
-        "lastUpdated": "2026-10-20T13:00:00.29232Z",
+        "lastUpdated": "2026-11-23T22:37:07.111711Z",
         "name": "Capital Guaranteed Pension Account",
         "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
         "productId": "cc36cf83-266d-4537-8c71-325313bf07c4",
@@ -6111,7 +6111,7 @@
         "depositRates": [
           {
             "depositRateType": "FIXED",
-            "rate": "0.032",
+            "rate": "0.0345",
             "additionalInfo": null,
             "additionalInfoUri": null,
             "additionalValue": "P36M",
@@ -6172,7 +6172,7 @@
           },
           {
             "depositRateType": "FIXED",
-            "rate": "0.0355",
+            "rate": "0.04",
             "additionalInfo": null,
             "additionalInfoUri": null,
             "additionalValue": "P24M",

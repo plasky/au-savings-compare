@@ -20,12 +20,12 @@
     "pagesFetched": 1,
     "productCount": 34,
     "categoryCounts": {
-      "RESIDENTIAL_MORTGAGES": 8,
-      "PERS_LOANS": 3,
-      "TRANS_AND_SAVINGS_ACCOUNTS": 14,
-      "TERM_DEPOSITS": 2,
-      "BUSINESS_LOANS": 2,
       "OVERDRAFTS": 4,
+      "BUSINESS_LOANS": 2,
+      "TERM_DEPOSITS": 2,
+      "TRANS_AND_SAVINGS_ACCOUNTS": 14,
+      "PERS_LOANS": 3,
+      "RESIDENTIAL_MORTGAGES": 8,
       "REGULATED_TRUST_ACCOUNTS": 1
     }
   },
@@ -36,7 +36,7 @@
       "detail": {
         "productId": "TD-1-1",
         "effectiveFrom": "2020-10-01T00:00:00+10:00",
-        "lastUpdated": "2026-10-23T00:00:00+11:00",
+        "lastUpdated": "2026-11-24T00:00:00+11:00",
         "productCategory": "TERM_DEPOSITS",
         "name": "Term Deposit",
         "description": "Earn great returns with an IMB Term Deposit. An IMB Term Deposit offers competitive returns for investment terms from 1 month up to 5 years for amounts of $1,000 or more. Term Deposits are a secure way to grow your savings for the future!",
@@ -46,8 +46,9 @@
         "additionalInformation": {
           "overviewUri": "https://www.imb.com.au/banking/term-deposits",
           "termsUri": "https://www.imb.com.au/important-information",
+          "eligibilityUri": "https://www.imb.com.au/important-information/target-market-determinations",
           "feesAndPricingUri": "https://www.imb.com.au/help-centre/rates-and-fees",
-          "bundleUri": "Opening a Term Deposit online will also open an Everyday Online Term Link Account for you to deposit funds, if you don't already have one, which is an Everyday Account with added benefits. Not all product options are available online.",
+          "bundleUri": "https://www.imb.com.au/banking/term-deposits/term-deposits-opened-online",
           "additionalOverviewUris": [
             {
               "description": "Opening a Term Deposit online will also open an Everyday Online Term Link Account for you to deposit funds, if you don't already have one, which is an Everyday Account with added benefits. Not all product options are available online.",
@@ -359,9 +360,10 @@
         ],
         "depositRates": [
           {
-            "applicationType": "UPFRONT",
+            "applicationType": "MATURITY",
             "depositRateType": "FIXED",
-            "rate": "0.049",
+            "rate": "0.05",
+            "calculationFrequency": "P1D",
             "applicationFrequency": "P3M",
             "tiers": [
               {
@@ -382,9 +384,10 @@
             "additionalInfoUri": "https://www.imb.com.au/help-centre/rates-and-fees"
           },
           {
-            "applicationType": "UPFRONT",
+            "applicationType": "MATURITY",
             "depositRateType": "FIXED",
-            "rate": "0.05",
+            "rate": "0.052",
+            "calculationFrequency": "P1D",
             "applicationFrequency": "P6M",
             "tiers": [
               {
@@ -405,9 +408,10 @@
             "additionalInfoUri": "https://www.imb.com.au/help-centre/rates-and-fees"
           },
           {
-            "applicationType": "UPFRONT",
+            "applicationType": "MATURITY",
             "depositRateType": "FIXED",
-            "rate": "0.053",
+            "rate": "0.054",
+            "calculationFrequency": "P1D",
             "applicationFrequency": "P12M",
             "tiers": [
               {
@@ -428,9 +432,10 @@
             "additionalInfoUri": "https://www.imb.com.au/help-centre/rates-and-fees"
           },
           {
-            "applicationType": "UPFRONT",
+            "applicationType": "MATURITY",
             "depositRateType": "FIXED",
             "rate": "0.0125",
+            "calculationFrequency": "P1D",
             "tiers": [
               {
                 "name": "1 to less than 3 months",
@@ -445,14 +450,15 @@
                 "rateApplicationMethod": "WHOLE_BALANCE"
               }
             ],
-            "additionalValue": "P1M/P2M",
+            "additionalValue": "P1M",
             "additionalInfo": "1 to less than 3 months - Interest paid on Maturity",
             "additionalInfoUri": "https://www.imb.com.au/help-centre/rates-and-fees"
           },
           {
-            "applicationType": "UPFRONT",
+            "applicationType": "MATURITY",
             "depositRateType": "FIXED",
             "rate": "0.015",
+            "calculationFrequency": "P1D",
             "tiers": [
               {
                 "name": "3 to less than 6 months",
@@ -467,14 +473,15 @@
                 "rateApplicationMethod": "WHOLE_BALANCE"
               }
             ],
-            "additionalValue": "P3M/P5M",
+            "additionalValue": "P3M",
             "additionalInfo": "3 to less than 6 months - Interest paid on Maturity",
             "additionalInfoUri": "https://www.imb.com.au/help-centre/rates-and-fees"
           },
           {
-            "applicationType": "UPFRONT",
+            "applicationType": "MATURITY",
             "depositRateType": "FIXED",
             "rate": "0.0225",
+            "calculationFrequency": "P1D",
             "tiers": [
               {
                 "name": "6 to less than 9 months",
@@ -489,14 +496,15 @@
                 "rateApplicationMethod": "WHOLE_BALANCE"
               }
             ],
-            "additionalValue": "P6M/P8M",
+            "additionalValue": "P6M",
             "additionalInfo": "6 to less than 9 months - Interest paid on Maturity",
             "additionalInfoUri": "https://www.imb.com.au/help-centre/rates-and-fees"
           },
           {
-            "applicationType": "UPFRONT",
+            "applicationType": "MATURITY",
             "depositRateType": "FIXED",
             "rate": "0.0225",
+            "calculationFrequency": "P1D",
             "tiers": [
               {
                 "name": "9 to less than 12 months",
@@ -511,14 +519,15 @@
                 "rateApplicationMethod": "WHOLE_BALANCE"
               }
             ],
-            "additionalValue": "P9M/P11M",
+            "additionalValue": "P9M",
             "additionalInfo": "9 to less than 12 months - Interest paid on Maturity",
             "additionalInfoUri": "https://www.imb.com.au/help-centre/rates-and-fees"
           },
           {
-            "applicationType": "UPFRONT",
+            "applicationType": "MATURITY",
             "depositRateType": "FIXED",
             "rate": "0.0225",
+            "calculationFrequency": "P1D",
             "applicationFrequency": "P12M",
             "tiers": [
               {
@@ -539,9 +548,10 @@
             "additionalInfoUri": "https://www.imb.com.au/help-centre/rates-and-fees"
           },
           {
-            "applicationType": "UPFRONT",
+            "applicationType": "PERIODIC",
             "depositRateType": "FIXED",
             "rate": "0.05",
+            "calculationFrequency": "P1D",
             "applicationFrequency": "P12M",
             "tiers": [
               {
@@ -562,9 +572,10 @@
             "additionalInfoUri": "https://www.imb.com.au/help-centre/rates-and-fees"
           },
           {
-            "applicationType": "UPFRONT",
+            "applicationType": "PERIODIC",
             "depositRateType": "FIXED",
             "rate": "0.045",
+            "calculationFrequency": "P1D",
             "applicationFrequency": "P12M",
             "tiers": [
               {
@@ -585,9 +596,10 @@
             "additionalInfoUri": "https://www.imb.com.au/help-centre/rates-and-fees"
           },
           {
-            "applicationType": "UPFRONT",
+            "applicationType": "PERIODIC",
             "depositRateType": "FIXED",
             "rate": "0.04",
+            "calculationFrequency": "P1D",
             "applicationFrequency": "P12M",
             "tiers": [
               {
@@ -608,9 +620,10 @@
             "additionalInfoUri": "https://www.imb.com.au/help-centre/rates-and-fees"
           },
           {
-            "applicationType": "UPFRONT",
+            "applicationType": "PERIODIC",
             "depositRateType": "FIXED",
             "rate": "0.04",
+            "calculationFrequency": "P1D",
             "applicationFrequency": "P12M",
             "tiers": [
               {
@@ -631,9 +644,10 @@
             "additionalInfoUri": "https://www.imb.com.au/help-centre/rates-and-fees"
           },
           {
-            "applicationType": "UPFRONT",
+            "applicationType": "PERIODIC",
             "depositRateType": "FIXED",
             "rate": "0.0225",
+            "calculationFrequency": "P1D",
             "applicationFrequency": "P6M",
             "tiers": [
               {
@@ -649,14 +663,15 @@
                 "rateApplicationMethod": "WHOLE_BALANCE"
               }
             ],
-            "additionalValue": "P6M/P8M",
+            "additionalValue": "P6M",
             "additionalInfo": "6 to less than 9 months - Interest paid 6 monthly and on Maturity",
             "additionalInfoUri": "https://www.imb.com.au/help-centre/rates-and-fees"
           },
           {
-            "applicationType": "UPFRONT",
+            "applicationType": "PERIODIC",
             "depositRateType": "FIXED",
             "rate": "0.0225",
+            "calculationFrequency": "P1D",
             "applicationFrequency": "P6M",
             "tiers": [
               {
@@ -672,14 +687,15 @@
                 "rateApplicationMethod": "WHOLE_BALANCE"
               }
             ],
-            "additionalValue": "P9M/P11M",
+            "additionalValue": "P9M",
             "additionalInfo": "9 to less than 12 months - Interest paid 6 monthly and on Maturity",
             "additionalInfoUri": "https://www.imb.com.au/help-centre/rates-and-fees"
           },
           {
-            "applicationType": "UPFRONT",
+            "applicationType": "PERIODIC",
             "depositRateType": "FIXED",
             "rate": "0.0225",
+            "calculationFrequency": "P1D",
             "applicationFrequency": "P6M",
             "tiers": [
               {
@@ -695,14 +711,15 @@
                 "rateApplicationMethod": "WHOLE_BALANCE"
               }
             ],
-            "additionalValue": "P12M/P23M",
+            "additionalValue": "P12M",
             "additionalInfo": "12 to less than 24 months - Interest paid 6 monthly and on Maturity",
             "additionalInfoUri": "https://www.imb.com.au/help-centre/rates-and-fees"
           },
           {
-            "applicationType": "UPFRONT",
+            "applicationType": "PERIODIC",
             "depositRateType": "FIXED",
             "rate": "0.0225",
+            "calculationFrequency": "P1D",
             "applicationFrequency": "P6M",
             "tiers": [
               {
@@ -718,14 +735,15 @@
                 "rateApplicationMethod": "WHOLE_BALANCE"
               }
             ],
-            "additionalValue": "P24M/P35M",
+            "additionalValue": "P24M",
             "additionalInfo": "24 to less than 36 months - Interest paid 6 monthly and on Maturity",
             "additionalInfoUri": "https://www.imb.com.au/help-centre/rates-and-fees"
           },
           {
-            "applicationType": "UPFRONT",
+            "applicationType": "PERIODIC",
             "depositRateType": "FIXED",
             "rate": "0.0225",
+            "calculationFrequency": "P1D",
             "applicationFrequency": "P6M",
             "tiers": [
               {
@@ -741,14 +759,15 @@
                 "rateApplicationMethod": "WHOLE_BALANCE"
               }
             ],
-            "additionalValue": "P36M/P47M",
+            "additionalValue": "P36M",
             "additionalInfo": "36 to less than 48 months - Interest paid 6 monthly and on Maturity",
             "additionalInfoUri": "https://www.imb.com.au/help-centre/rates-and-fees"
           },
           {
-            "applicationType": "UPFRONT",
+            "applicationType": "PERIODIC",
             "depositRateType": "FIXED",
             "rate": "0.0225",
+            "calculationFrequency": "P1D",
             "applicationFrequency": "P6M",
             "tiers": [
               {
@@ -764,14 +783,15 @@
                 "rateApplicationMethod": "WHOLE_BALANCE"
               }
             ],
-            "additionalValue": "P48M/P59M",
+            "additionalValue": "P48M",
             "additionalInfo": "48 to less than 60 months - Interest paid 6 monthly and on Maturity",
             "additionalInfoUri": "https://www.imb.com.au/help-centre/rates-and-fees"
           },
           {
-            "applicationType": "UPFRONT",
+            "applicationType": "PERIODIC",
             "depositRateType": "FIXED",
             "rate": "0.0225",
+            "calculationFrequency": "P1D",
             "applicationFrequency": "P6M",
             "tiers": [
               {
@@ -792,9 +812,10 @@
             "additionalInfoUri": "https://www.imb.com.au/help-centre/rates-and-fees"
           },
           {
-            "applicationType": "UPFRONT",
+            "applicationType": "PERIODIC",
             "depositRateType": "FIXED",
             "rate": "0.0145",
+            "calculationFrequency": "P1D",
             "applicationFrequency": "P1M",
             "tiers": [
               {
@@ -810,14 +831,15 @@
                 "rateApplicationMethod": "WHOLE_BALANCE"
               }
             ],
-            "additionalValue": "P3M/P5M",
+            "additionalValue": "P3M",
             "additionalInfo": "3 to less than 6 months - Interest paid Monthly (every 28 days)",
             "additionalInfoUri": "https://www.imb.com.au/help-centre/rates-and-fees"
           },
           {
-            "applicationType": "UPFRONT",
+            "applicationType": "PERIODIC",
             "depositRateType": "FIXED",
             "rate": "0.022",
+            "calculationFrequency": "P1D",
             "applicationFrequency": "P1M",
             "tiers": [
               {
@@ -833,14 +855,15 @@
                 "rateApplicationMethod": "WHOLE_BALANCE"
               }
             ],
-            "additionalValue": "P6M/P8M",
+            "additionalValue": "P6M",
             "additionalInfo": "6 to less than 9 months - Interest paid Monthly (every 28 days)",
             "additionalInfoUri": "https://www.imb.com.au/help-centre/rates-and-fees"
           },
           {
-            "applicationType": "UPFRONT",
+            "applicationType": "PERIODIC",
             "depositRateType": "FIXED",
             "rate": "0.022",
+            "calculationFrequency": "P1D",
             "applicationFrequency": "P1M",
             "tiers": [
               {
@@ -856,14 +879,15 @@
                 "rateApplicationMethod": "WHOLE_BALANCE"
               }
             ],
-            "additionalValue": "P9M/P11M",
+            "additionalValue": "P9M",
             "additionalInfo": "9 to less than 12 months - Interest paid Monthly (every 28 days)",
             "additionalInfoUri": "https://www.imb.com.au/help-centre/rates-and-fees"
           },
           {
-            "applicationType": "UPFRONT",
+            "applicationType": "PERIODIC",
             "depositRateType": "FIXED",
             "rate": "0.022",
+            "calculationFrequency": "P1D",
             "applicationFrequency": "P1M",
             "tiers": [
               {
@@ -879,14 +903,15 @@
                 "rateApplicationMethod": "WHOLE_BALANCE"
               }
             ],
-            "additionalValue": "P12M/P23M",
+            "additionalValue": "P12M",
             "additionalInfo": "12 to less than 24 months - Interest paid Monthly (every 28 days)",
             "additionalInfoUri": "https://www.imb.com.au/help-centre/rates-and-fees"
           },
           {
-            "applicationType": "UPFRONT",
+            "applicationType": "PERIODIC",
             "depositRateType": "FIXED",
             "rate": "0.022",
+            "calculationFrequency": "P1D",
             "applicationFrequency": "P1M",
             "tiers": [
               {
@@ -902,14 +927,15 @@
                 "rateApplicationMethod": "WHOLE_BALANCE"
               }
             ],
-            "additionalValue": "P24M/P35M",
+            "additionalValue": "P24M",
             "additionalInfo": "24 to less than 36 months - Interest paid Monthly (every 28 days)",
             "additionalInfoUri": "https://www.imb.com.au/help-centre/rates-and-fees"
           },
           {
-            "applicationType": "UPFRONT",
+            "applicationType": "PERIODIC",
             "depositRateType": "FIXED",
             "rate": "0.022",
+            "calculationFrequency": "P1D",
             "applicationFrequency": "P1M",
             "tiers": [
               {
@@ -925,14 +951,15 @@
                 "rateApplicationMethod": "WHOLE_BALANCE"
               }
             ],
-            "additionalValue": "P36M/P47M",
+            "additionalValue": "P36M",
             "additionalInfo": "36 to less than 48 months - Interest paid Monthly (every 28 days)",
             "additionalInfoUri": "https://www.imb.com.au/help-centre/rates-and-fees"
           },
           {
-            "applicationType": "UPFRONT",
+            "applicationType": "PERIODIC",
             "depositRateType": "FIXED",
             "rate": "0.022",
+            "calculationFrequency": "P1D",
             "applicationFrequency": "P1M",
             "tiers": [
               {
@@ -948,14 +975,15 @@
                 "rateApplicationMethod": "WHOLE_BALANCE"
               }
             ],
-            "additionalValue": "P48M/P59M",
+            "additionalValue": "P48M",
             "additionalInfo": "48 to less than 60 months - Interest paid Monthly (every 28 days)",
             "additionalInfoUri": "https://www.imb.com.au/help-centre/rates-and-fees"
           },
           {
-            "applicationType": "UPFRONT",
+            "applicationType": "PERIODIC",
             "depositRateType": "FIXED",
             "rate": "0.022",
+            "calculationFrequency": "P1D",
             "applicationFrequency": "P1M",
             "tiers": [
               {
@@ -976,9 +1004,10 @@
             "additionalInfoUri": "https://www.imb.com.au/help-centre/rates-and-fees"
           },
           {
-            "applicationType": "UPFRONT",
+            "applicationType": "PERIODIC",
             "depositRateType": "FIXED",
             "rate": "0.0215",
+            "calculationFrequency": "P1D",
             "applicationFrequency": "P14D",
             "tiers": [
               {
@@ -999,9 +1028,10 @@
             "additionalInfoUri": "https://www.imb.com.au/help-centre/rates-and-fees"
           },
           {
-            "applicationType": "UPFRONT",
+            "applicationType": "PERIODIC",
             "depositRateType": "FIXED",
-            "rate": "0.0517",
+            "rate": "0.0527",
+            "calculationFrequency": "P1D",
             "applicationFrequency": "P1M",
             "tiers": [
               {
@@ -1022,9 +1052,10 @@
             "additionalInfoUri": "https://www.imb.com.au/help-centre/rates-and-fees"
           },
           {
-            "applicationType": "UPFRONT",
+            "applicationType": "PERIODIC",
             "depositRateType": "FIXED",
             "rate": "0.0488",
+            "calculationFrequency": "P1D",
             "applicationFrequency": "P1M",
             "tiers": [
               {
@@ -2335,7 +2366,7 @@
       "detail": {
         "productId": "TSA-22-2",
         "effectiveFrom": "2020-10-01T00:00:00+10:00",
-        "lastUpdated": "2026-11-13T00:00:00+11:00",
+        "lastUpdated": "2026-11-24T00:00:00+11:00",
         "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
         "name": "Reward Saver Kick Start",
         "description": "Kick Start your savings with the IMB Reward Saver Kick Start Account. Designed for teens and young adults under 30.",
@@ -3208,14 +3239,13 @@
                 "rateApplicationMethod": "PER_TIER"
               }
             ],
-            "additionalValue": "",
             "additionalInfo": "",
             "additionalInfoUri": "https://www.imb.com.au/help-centre/rates-and-fees"
           },
           {
             "applicationType": "PERIODIC",
             "depositRateType": "BONUS",
-            "rate": "0.0215",
+            "rate": "0.025",
             "calculationFrequency": "P1D",
             "applicationFrequency": "P1M",
             "tiers": [
@@ -3306,7 +3336,6 @@
                 "rateApplicationMethod": "PER_TIER"
               }
             ],
-            "additionalValue": "",
             "additionalInfoUri": "https://www.imb.com.au/help-centre/rates-and-fees"
           },
           {
@@ -6100,38 +6129,10 @@
             "applicationFrequency": "P1M",
             "tiers": [
               {
-                "name": "Up to $4,999.99",
+                "name": "$0 & above",
                 "unitOfMeasure": "DOLLAR",
                 "minimumValue": "0",
-                "maximumValue": "4999",
-                "rateApplicationMethod": "WHOLE_BALANCE"
-              },
-              {
-                "name": "$5,000 to $19,999.99",
-                "unitOfMeasure": "DOLLAR",
-                "minimumValue": "5000",
-                "maximumValue": "19999",
-                "rateApplicationMethod": "WHOLE_BALANCE"
-              },
-              {
-                "name": "$20,000 to $49,999.99",
-                "unitOfMeasure": "DOLLAR",
-                "minimumValue": "20000",
-                "maximumValue": "49999",
-                "rateApplicationMethod": "WHOLE_BALANCE"
-              },
-              {
-                "name": "$50,000 to $99,999.99",
-                "unitOfMeasure": "DOLLAR",
-                "minimumValue": "50000",
-                "maximumValue": "99999",
-                "rateApplicationMethod": "WHOLE_BALANCE"
-              },
-              {
-                "name": "$100,000 and over",
-                "unitOfMeasure": "DOLLAR",
-                "minimumValue": "100000",
-                "rateApplicationMethod": "WHOLE_BALANCE"
+                "rateApplicationMethod": "PER_TIER"
               }
             ],
             "additionalInfoUri": "https://www.imb.com.au/help-centre/rates-and-fees"
@@ -6623,7 +6624,7 @@
       "detail": {
         "productId": "TSA-29-1",
         "effectiveFrom": "2020-10-01T00:00:00+10:00",
-        "lastUpdated": "2026-10-23T00:00:00+11:00",
+        "lastUpdated": "2026-11-24T00:00:00+11:00",
         "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
         "name": "Zoo Account",
         "description": "An account made for Kids. The IMB Zoo Account is a fun, interactive account that encourages kids to save by rewarding them for their efforts.",
@@ -6633,6 +6634,7 @@
         "additionalInformation": {
           "overviewUri": "https://www.imb.com.au/banking/transaction-accounts/zoo-account",
           "termsUri": "https://www.imb.com.au/important-information",
+          "eligibilityUri": "https://www.imb.com.au/important-information/target-market-determinations",
           "feesAndPricingUri": "https://www.imb.com.au/help-centre/rates-and-fees"
         },
         "features": [
@@ -6961,7 +6963,7 @@
           {
             "applicationType": "PERIODIC",
             "depositRateType": "BONUS",
-            "rate": "0.0465",
+            "rate": "0.049",
             "calculationFrequency": "P1D",
             "applicationFrequency": "P1M",
             "applicabilityConditions": [
@@ -6998,7 +7000,7 @@
       "detail": {
         "productId": "TSA-33-1",
         "effectiveFrom": "2020-10-01T00:00:00+10:00",
-        "lastUpdated": "2026-10-09T00:00:00+11:00",
+        "lastUpdated": "2026-11-24T00:00:00+11:00",
         "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
         "name": "Business Cash Management Account",
         "description": "IMB Business Cash Management Account is ideal for businesses looking for a higher interest account on cash investments or a place to park funds.",
@@ -7008,6 +7010,7 @@
         "additionalInformation": {
           "overviewUri": "https://www.imb.com.au/banking/saving-accounts/cash-management-account",
           "termsUri": "https://www.imb.com.au/important-information",
+          "eligibilityUri": "https://www.imb.com.au/important-information/target-market-determinations",
           "feesAndPricingUri": "https://www.imb.com.au/help-centre/rates-and-fees"
         },
         "cardArt": [
@@ -7916,7 +7919,7 @@
           {
             "applicationType": "PERIODIC",
             "depositRateType": "VARIABLE",
-            "rate": "0.0275",
+            "rate": "0.03",
             "calculationFrequency": "P1D",
             "applicationFrequency": "P1M",
             "tiers": [
@@ -7932,7 +7935,7 @@
           {
             "applicationType": "PERIODIC",
             "depositRateType": "VARIABLE",
-            "rate": "0.0225",
+            "rate": "0.025",
             "calculationFrequency": "P1D",
             "applicationFrequency": "P1M",
             "tiers": [
@@ -7949,7 +7952,7 @@
           {
             "applicationType": "PERIODIC",
             "depositRateType": "VARIABLE",
-            "rate": "0.02",
+            "rate": "0.0225",
             "calculationFrequency": "P1D",
             "applicationFrequency": "P1M",
             "tiers": [
@@ -7966,7 +7969,7 @@
           {
             "applicationType": "PERIODIC",
             "depositRateType": "VARIABLE",
-            "rate": "0.025",
+            "rate": "0.0275",
             "calculationFrequency": "P1D",
             "applicationFrequency": "P1M",
             "tiers": [
@@ -7983,7 +7986,7 @@
           {
             "applicationType": "PERIODIC",
             "depositRateType": "VARIABLE",
-            "rate": "0.0175",
+            "rate": "0.02",
             "calculationFrequency": "P1D",
             "applicationFrequency": "P1M",
             "tiers": [

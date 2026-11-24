@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-11-23T03:57:10.140Z",
+  "generatedAt": "2026-11-24T03:01:06.092Z",
   "stats": {
     "candidates": 165,
-    "reviewed": 164,
-    "rateOnly": 1,
-    "reworded": 1,
-    "stale": 1,
-    "queued": 1,
+    "reviewed": 163,
+    "rateOnly": 4,
+    "reworded": 2,
+    "stale": 2,
+    "queued": 2,
     "belowThreshold": 0,
     "threshold": 0.03
   },
@@ -17,6 +17,16 @@
       "name": "Bankwest Easy Saver",
       "category": "TRANS_AND_SAVINGS_ACCOUNTS",
       "headline": 0.115,
+      "reasons": [
+        "bonus/intro rows"
+      ]
+    },
+    {
+      "key": "imb-bank-198820:TSA-22-2",
+      "brand": "IMB Bank",
+      "name": "Reward Saver Kick Start",
+      "category": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "headline": 0.062,
       "reasons": [
         "bonus/intro rows"
       ]

@@ -20,11 +20,11 @@
     "pagesFetched": 1,
     "productCount": 27,
     "categoryCounts": {
+      "TERM_DEPOSITS": 1,
       "BUSINESS_LOANS": 3,
       "RESIDENTIAL_MORTGAGES": 7,
       "OVERDRAFTS": 1,
       "TRANS_AND_SAVINGS_ACCOUNTS": 12,
-      "TERM_DEPOSITS": 1,
       "PERS_LOANS": 2,
       "CRED_AND_CHRG_CARDS": 1
     }
@@ -3842,7 +3842,7 @@
           },
           {
             "depositRateType": "FIXED",
-            "rate": "0.0525",
+            "rate": "0.0545",
             "calculationFrequency": "P1D",
             "applicationType": "MATURITY",
             "tiers": [
@@ -3867,7 +3867,7 @@
           },
           {
             "depositRateType": "FIXED",
-            "rate": "0.0525",
+            "rate": "0.0545",
             "calculationFrequency": "P1D",
             "applicationType": "MATURITY",
             "tiers": [
@@ -3892,7 +3892,7 @@
           },
           {
             "depositRateType": "FIXED",
-            "rate": "0.0525",
+            "rate": "0.0545",
             "calculationFrequency": "P1D",
             "applicationType": "MATURITY",
             "tiers": [
@@ -4142,7 +4142,7 @@
           },
           {
             "depositRateType": "FIXED",
-            "rate": "0.0535",
+            "rate": "0.054",
             "calculationFrequency": "P1D",
             "applicationType": "MATURITY",
             "tiers": [
@@ -4167,7 +4167,7 @@
           },
           {
             "depositRateType": "FIXED",
-            "rate": "0.0535",
+            "rate": "0.054",
             "calculationFrequency": "P1D",
             "applicationType": "MATURITY",
             "tiers": [
@@ -4192,7 +4192,7 @@
           },
           {
             "depositRateType": "FIXED",
-            "rate": "0.0535",
+            "rate": "0.054",
             "calculationFrequency": "P1D",
             "applicationType": "MATURITY",
             "tiers": [
@@ -6070,7 +6070,7 @@
           },
           {
             "depositRateType": "FIXED",
-            "rate": "0.0525",
+            "rate": "0.0545",
             "calculationFrequency": "P1D",
             "applicationType": "MATURITY",
             "tiers": [
@@ -6095,7 +6095,7 @@
           },
           {
             "depositRateType": "FIXED",
-            "rate": "0.0525",
+            "rate": "0.0545",
             "calculationFrequency": "P1D",
             "applicationType": "MATURITY",
             "tiers": [
@@ -6120,7 +6120,7 @@
           },
           {
             "depositRateType": "FIXED",
-            "rate": "0.0525",
+            "rate": "0.0545",
             "calculationFrequency": "P1D",
             "applicationType": "MATURITY",
             "tiers": [
@@ -6370,7 +6370,7 @@
           },
           {
             "depositRateType": "FIXED",
-            "rate": "0.0535",
+            "rate": "0.054",
             "calculationFrequency": "P1D",
             "applicationType": "MATURITY",
             "tiers": [
@@ -6395,7 +6395,7 @@
           },
           {
             "depositRateType": "FIXED",
-            "rate": "0.0535",
+            "rate": "0.054",
             "calculationFrequency": "P1D",
             "applicationType": "MATURITY",
             "tiers": [
@@ -6420,7 +6420,7 @@
           },
           {
             "depositRateType": "FIXED",
-            "rate": "0.0535",
+            "rate": "0.054",
             "calculationFrequency": "P1D",
             "applicationType": "MATURITY",
             "tiers": [
@@ -7878,7 +7878,7 @@
         ],
         "productCategory": "TERM_DEPOSITS",
         "productId": "Term_Investment",
-        "lastUpdated": "2026-10-19T07:02:21.000+11:00",
+        "lastUpdated": "2026-11-23T07:43:12.000+11:00",
         "name": "FIXED TERM INVESTMENT",
         "description": "If you have $5,000 or more to invest, we have a choice of terms ranging from 1 - 36 months for you to lock your money away for, with the certainty of a great fixed interest rate. At the end of the ter",
         "brand": "BNE LTD",

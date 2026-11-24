@@ -20,10 +20,10 @@
     "pagesFetched": 2,
     "productCount": 177,
     "categoryCounts": {
-      "TERM_DEPOSITS": 15,
-      "PERS_LOANS": 8,
       "TRANS_AND_SAVINGS_ACCOUNTS": 15,
       "RESIDENTIAL_MORTGAGES": 137,
+      "TERM_DEPOSITS": 15,
+      "PERS_LOANS": 8,
       "CRED_AND_CHRG_CARDS": 2
     }
   },
@@ -128,7 +128,7 @@
         "brand": "Bank First",
         "description": "Preschool Savings Account",
         "isTailored": false,
-        "lastUpdated": "2026-10-15T20:49:39.072285Z",
+        "lastUpdated": "2026-11-23T20:15:01.752034Z",
         "name": "Preschool Savings Account",
         "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
         "productId": "084cf055-883f-4214-8d86-d99811bba357",
@@ -176,7 +176,7 @@
           },
           {
             "depositRateType": "VARIABLE",
-            "rate": "0.0455",
+            "rate": "0.048",
             "additionalInfo": null,
             "additionalInfoUri": null,
             "additionalValue": null,
@@ -683,7 +683,7 @@
         "brand": "Bank First",
         "description": "Child Savings Account",
         "isTailored": false,
-        "lastUpdated": "2026-10-15T20:48:43.436058Z",
+        "lastUpdated": "2026-11-23T20:14:05.92104Z",
         "name": "First Saver Account",
         "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
         "productId": "2e9788d2-636a-4c59-9f2b-1e23935028ff",
@@ -710,7 +710,7 @@
         "depositRates": [
           {
             "depositRateType": "VARIABLE",
-            "rate": "0.0465",
+            "rate": "0.049",
             "additionalInfo": null,
             "additionalInfoUri": null,
             "additionalValue": null,
@@ -730,7 +730,7 @@
           },
           {
             "depositRateType": "VARIABLE",
-            "rate": "0.0465",
+            "rate": "0.049",
             "additionalInfo": null,
             "additionalInfoUri": null,
             "additionalValue": null,
@@ -2203,7 +2203,7 @@
         "brand": "Bank First",
         "description": "Pension Account",
         "isTailored": false,
-        "lastUpdated": "2026-10-15T20:49:02.778717Z",
+        "lastUpdated": "2026-11-23T20:14:24.744328Z",
         "name": "Pension Account",
         "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
         "productId": "523398f7-b767-446a-b4f7-ee26025a82ba",
@@ -2237,7 +2237,7 @@
         "depositRates": [
           {
             "depositRateType": "VARIABLE",
-            "rate": "0.0365",
+            "rate": "0.039",
             "additionalInfo": null,
             "additionalInfoUri": null,
             "additionalValue": null,
@@ -2258,7 +2258,7 @@
           },
           {
             "depositRateType": "VARIABLE",
-            "rate": "0.0365",
+            "rate": "0.039",
             "additionalInfo": null,
             "additionalInfoUri": null,
             "additionalValue": null,
@@ -2278,7 +2278,7 @@
           },
           {
             "depositRateType": "VARIABLE",
-            "rate": "0.0365",
+            "rate": "0.039",
             "additionalInfo": null,
             "additionalInfoUri": null,
             "additionalValue": null,
@@ -2788,7 +2788,7 @@
         "brand": "Bank First",
         "description": "School Transaction Account",
         "isTailored": false,
-        "lastUpdated": "2026-10-15T20:49:32.881985Z",
+        "lastUpdated": "2026-11-23T20:14:55.581008Z",
         "name": "School Everyday Account",
         "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
         "productId": "5df8fad1-a08c-44bd-9b2f-7e64c32e6c6e",
@@ -2815,7 +2815,7 @@
         "depositRates": [
           {
             "depositRateType": "VARIABLE",
-            "rate": "0.0265",
+            "rate": "0.029",
             "additionalInfo": null,
             "additionalInfoUri": null,
             "additionalValue": null,
@@ -3397,7 +3397,7 @@
         "brand": "Bank First",
         "description": "Savings Account",
         "isTailored": false,
-        "lastUpdated": "2026-10-15T20:49:09.001594Z",
+        "lastUpdated": "2026-11-23T20:14:30.944491Z",
         "name": "Christmas Club Account",
         "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
         "productId": "6690c88c-04b8-4c36-8a56-cec0909f8ad4",
@@ -3424,7 +3424,7 @@
         "depositRates": [
           {
             "depositRateType": "VARIABLE",
-            "rate": "0.036",
+            "rate": "0.0385",
             "additionalInfo": null,
             "additionalInfoUri": null,
             "additionalValue": null,
@@ -3643,7 +3643,7 @@
         "brand": "Bank First",
         "description": "Savings Account",
         "isTailored": false,
-        "lastUpdated": "2026-11-01T20:34:36.642148Z",
+        "lastUpdated": "2026-11-24T02:12:35.671695Z",
         "name": "Bonus Saver Account",
         "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
         "productId": "7001a0c9-b435-4dae-b386-f1cabd79229f",
@@ -3718,7 +3718,7 @@
           },
           {
             "depositRateType": "BONUS",
-            "rate": "0.0525",
+            "rate": "0.052",
             "additionalInfo": null,
             "additionalInfoUri": null,
             "additionalValue": "Bonus interest additional to the base rate applies when you make at least one deposit of a minimum of $1.00 and no withdrawals in the calendar month",
@@ -3726,9 +3726,10 @@
             "calculationFrequency": "P1D",
             "tiers": [
               {
-                "name": "Bonus Saver Account_Tier_2",
+                "name": "Bonus Saver Account_Tier_1",
                 "unitOfMeasure": "DOLLAR",
-                "minimumValue": "149999.99",
+                "minimumValue": "0.00",
+                "maximumValue": "149999.99",
                 "rateApplicationMethod": "PER_TIER",
                 "applicabilityConditions": []
               }
@@ -3759,10 +3760,9 @@
             "calculationFrequency": "P1D",
             "tiers": [
               {
-                "name": "Bonus Saver Account_Tier_1",
+                "name": "Bonus Saver Account_Tier_2",
                 "unitOfMeasure": "DOLLAR",
-                "minimumValue": "0.00",
-                "maximumValue": "149999.99",
+                "minimumValue": "149999.99",
                 "rateApplicationMethod": "PER_TIER",
                 "applicabilityConditions": []
               }
@@ -4361,7 +4361,7 @@
         "brand": "Bank First",
         "description": "Savings Account",
         "isTailored": false,
-        "lastUpdated": "2026-10-15T20:48:36.992398Z",
+        "lastUpdated": "2026-11-23T20:13:59.680718Z",
         "name": "Online Saver Account",
         "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
         "productId": "c4738728-0e16-4957-b37b-5547a99d56c4",
@@ -4388,7 +4388,7 @@
         "depositRates": [
           {
             "depositRateType": "VARIABLE",
-            "rate": "0.0405",
+            "rate": "0.043",
             "additionalInfo": null,
             "additionalInfoUri": null,
             "additionalValue": null,
@@ -4408,7 +4408,7 @@
           },
           {
             "depositRateType": "VARIABLE",
-            "rate": "0.0405",
+            "rate": "0.043",
             "additionalInfo": null,
             "additionalInfoUri": null,
             "additionalValue": null,
@@ -5038,7 +5038,7 @@
         "brand": "Bank First",
         "description": "Preschool Fundraising Account",
         "isTailored": false,
-        "lastUpdated": "2026-10-15T20:49:21.01622Z",
+        "lastUpdated": "2026-11-23T20:14:43.071673Z",
         "name": "Preschool Fundraising Account",
         "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
         "productId": "d5a0e79e-b820-4629-9e63-1fd43725c0ee",
@@ -5065,7 +5065,7 @@
         "depositRates": [
           {
             "depositRateType": "VARIABLE",
-            "rate": "0.044",
+            "rate": "0.0465",
             "additionalInfo": null,
             "additionalInfoUri": null,
             "additionalValue": null,
@@ -6109,7 +6109,7 @@
         "brand": "Bank First",
         "description": "Child Transaction Account",
         "isTailored": false,
-        "lastUpdated": "2026-10-15T20:49:15.032799Z",
+        "lastUpdated": "2026-11-23T20:14:36.939202Z",
         "name": "First Access Account",
         "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
         "productId": "e0589ed4-b32b-4d7d-9c60-2ad88b038e11",
@@ -6143,7 +6143,7 @@
         "depositRates": [
           {
             "depositRateType": "VARIABLE",
-            "rate": "0.022",
+            "rate": "0.0245",
             "additionalInfo": null,
             "additionalInfoUri": null,
             "additionalValue": null,
@@ -6670,7 +6670,7 @@
         "brand": "Bank First",
         "description": "Savings account (15-35years inclusive)",
         "isTailored": false,
-        "lastUpdated": "2026-10-16T04:29:50.382696Z",
+        "lastUpdated": "2026-11-24T01:23:52.049807Z",
         "name": "Strong Start Saver",
         "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
         "productId": "f1d7c8a4-9e63-4b2f-8a71-c5e904d2b6ef",
@@ -6697,7 +6697,7 @@
         "depositRates": [
           {
             "depositRateType": "VARIABLE",
-            "rate": "0.0565",
+            "rate": "0.059",
             "additionalInfo": null,
             "additionalInfoUri": null,
             "additionalValue": null,
@@ -6734,7 +6734,7 @@
           },
           {
             "depositRateType": "VARIABLE",
-            "rate": "0.045",
+            "rate": "0.0475",
             "additionalInfo": null,
             "additionalInfoUri": null,
             "additionalValue": null,
@@ -6987,7 +6987,7 @@
         "brand": "Bank First",
         "description": "Preschool Long Service and Sick Leave Provisions Account",
         "isTailored": false,
-        "lastUpdated": "2026-10-15T20:49:27.001091Z",
+        "lastUpdated": "2026-11-23T20:14:49.506061Z",
         "name": "Preschool Long Service and Sick Leave Provisions Account",
         "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
         "productId": "f552452d-7c34-4e49-b18f-85b72bac750f",
@@ -7014,7 +7014,7 @@
         "depositRates": [
           {
             "depositRateType": "VARIABLE",
-            "rate": "0.0455",
+            "rate": "0.048",
             "additionalInfo": null,
             "additionalInfoUri": null,
             "additionalValue": null,

@@ -20,9 +20,9 @@
     "pagesFetched": 1,
     "productCount": 32,
     "categoryCounts": {
+      "TRANS_AND_SAVINGS_ACCOUNTS": 11,
       "RESIDENTIAL_MORTGAGES": 8,
       "TERM_DEPOSITS": 8,
-      "TRANS_AND_SAVINGS_ACCOUNTS": 11,
       "PERS_LOANS": 2,
       "BUSINESS_LOANS": 3
     }
@@ -143,7 +143,7 @@
         ],
         "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
         "productId": "Advantage_Saver",
-        "lastUpdated": "2026-11-01T15:44:26.000+11:00",
+        "lastUpdated": "2026-11-24T09:44:21.000+11:00",
         "name": "Advantage Saver",
         "description": "Advantage Saver account is a savings account for those dedicated to a regular savings plan. A bonus rate is available in months where there are no withdrawals and a deposit of at least $20.",
         "brand": "Goulburn Murray Credit Union Co-Operative Ltd",
@@ -2009,7 +2009,7 @@
         ],
         "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
         "productId": "Online_Saver",
-        "lastUpdated": "2026-04-09T14:24:21.000+10:00",
+        "lastUpdated": "2026-11-24T09:42:26.000+11:00",
         "name": "Online Saver",
         "description": "The Online Saver account is a special savings account for electronic use.",
         "brand": "Goulburn Murray Credit Union Co-Operative Ltd",

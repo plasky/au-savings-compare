@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-23T03:57:10.909Z",
+  "generatedAt": "2026-11-24T03:01:06.985Z",
   "crawl": {
-    "crawledAt": "2026-11-23T03:57:09.323Z",
+    "crawledAt": "2026-11-24T03:01:05.137Z",
     "registerOk": true,
     "brandsTotal": 390,
     "brandsInScope": 306,
@@ -303,8 +303,7 @@
       "4": 13,
       "5": 16,
       "6": 38,
-      "7": 1470,
-      "none": 1
+      "7": 1470
     },
     "cors": {
       "browserReady": 241,
@@ -318,17 +317,17 @@
       "TRANS_AND_SAVINGS_ACCOUNTS": 886,
       "TERM_DEPOSITS": 653
     },
-    "detailsOk": 1538,
-    "detailsMissing": 1,
+    "detailsOk": 1537,
+    "detailsMissing": 2,
     "withDepositRates": {
-      "TRANS_AND_SAVINGS_ACCOUNTS": 753,
+      "TRANS_AND_SAVINGS_ACCOUNTS": 752,
       "TERM_DEPOSITS": 645
     }
   },
   "rates": {
     "rowsByType": {
       "TRANS_AND_SAVINGS_ACCOUNTS": {
-        "VARIABLE": 1788,
+        "VARIABLE": 1780,
         "FIXED": 102,
         "BONUS": 249,
         "INTRODUCTORY": 41,
@@ -343,8 +342,8 @@
       }
     },
     "tierMethods": {
-      "WHOLE_BALANCE": 10107,
-      "PER_TIER": 1024
+      "WHOLE_BALANCE": 10094,
+      "PER_TIER": 1025
     }
   },
   "bonus": {
@@ -371,9 +370,10 @@
     {
       "code": "DETAIL_MISSING",
       "description": "In-scope product whose detail request failed",
-      "count": 1,
+      "count": 2,
       "examples": [
-        "Bank of Sydney — usd_fccy_account: http-406 (PCUA006 | Unsupported Version | Unable to find the version requested in x-v)"
+        "Bank of Sydney — usd_fccy_account: http-406 (PCUA006 | Unsupported Version | Unable to find the version requested in x-v)",
+        "Westpac — SavComSolCashRes: http-404 (404 | Resource Not Found | Product not found)"
       ]
     },
     {
@@ -436,7 +436,7 @@
         "IMB Bank — Christmas Club Account",
         "My State PM Production — Bonus Saver",
         "Summerland Bank — Bonus Saver",
-        "UBank — Save account"
+        "Ubank — Save account"
       ]
     },
     {
@@ -559,7 +559,7 @@
     {
       "code": "NON_PERSONAL_PRODUCT",
       "description": "Business / SMSF / trust / organisation product (to exclude for a household)",
-      "count": 375,
+      "count": 374,
       "examples": [
         "AMP Bank GO — AMP Bank GO 12 Month Business Term Deposit",
         "AMP Bank GO — AMP Bank GO 6 Month Business Term Deposit",
@@ -632,7 +632,7 @@
       "note": ""
     },
     {
-      "brand": "UBank",
+      "brand": "Ubank",
       "product": "Save account",
       "productId": "1",
       "base": null,
@@ -692,6 +692,16 @@
       "note": ""
     },
     {
+      "brand": "IMB Bank",
+      "product": "Reward Saver Kick Start",
+      "productId": "TSA-22-2",
+      "base": 0,
+      "bonus": 0.062,
+      "intro": null,
+      "headline": 0.062,
+      "note": "2 bonuses stacked"
+    },
+    {
       "brand": "Westpac",
       "product": "Westpac Life",
       "productId": "SavLife",
@@ -739,6 +749,16 @@
       "bonus": 0.05,
       "intro": null,
       "headline": 0.059000000000000004,
+      "note": ""
+    },
+    {
+      "brand": "Bank First Production",
+      "product": "Strong Start Saver",
+      "productId": "f1d7c8a4-9e63-4b2f-8a71-c5e904d2b6ef",
+      "base": 0.059,
+      "bonus": null,
+      "intro": null,
+      "headline": 0.059,
       "note": ""
     },
     {
@@ -800,26 +820,6 @@
       "intro": 0.058,
       "headline": 0.0585,
       "note": "intro may be total"
-    },
-    {
-      "brand": "QBANK",
-      "product": "Intro Saver",
-      "productId": "S19_Intro",
-      "base": 0.0585,
-      "bonus": null,
-      "intro": null,
-      "headline": 0.0585,
-      "note": ""
-    },
-    {
-      "brand": "St.George Bank",
-      "product": "Maxi Saver",
-      "productId": "STGSavMaxiSaver",
-      "base": 0.0125,
-      "bonus": 0.0045,
-      "intro": 0.0415,
-      "headline": 0.0585,
-      "note": "intro may be total"
     }
   ],
   "topTd12": [
@@ -874,6 +874,26 @@
       "note": "at maturity; Term: 12 month–12 month (WHOLE_BALANCE); Amount: $5,000–∞ (WHOLE_BALANCE)"
     },
     {
+      "brand": "AMB Bank Product ",
+      "product": "Teen Plus",
+      "productId": "4f86dc3e-4af2-40a4-adcf-210d341f538f",
+      "base": 0.056,
+      "bonus": null,
+      "intro": null,
+      "headline": 0.056,
+      "note": "at maturity; Tier 1: $500–∞ (WHOLE_BALANCE)"
+    },
+    {
+      "brand": "AMB Bank Product ",
+      "product": "Investment Plus",
+      "productId": "c70ea9ac-cf01-49ff-a100-b59a953ff33a",
+      "base": 0.056,
+      "bonus": null,
+      "intro": null,
+      "headline": 0.056,
+      "note": "at maturity; Tier 1: $1,000–∞ (WHOLE_BALANCE)"
+    },
+    {
       "brand": "Community First Credit Union",
       "product": "12 Month Term Deposit Special",
       "productId": "12_TERM_DEPOSIT_MTH_SPECIAL",
@@ -904,6 +924,46 @@
       "note": "at maturity; Term Deposit 12 Month_Tier_3: $250,000–$9,999,999 (WHOLE_BALANCE); Term Deposit 12 Month_Tier_3: 12 month–12 month (WHOLE_BALANCE)"
     },
     {
+      "brand": "RSL Money Prod",
+      "product": "RSL Sub-Branch Investment Plus",
+      "productId": "0cf9e8d4-3a9d-4bbb-9b7c-3065f1a52a65",
+      "base": 0.056,
+      "bonus": null,
+      "intro": null,
+      "headline": 0.056,
+      "note": "at maturity; Tier 1: $1,000–∞ (WHOLE_BALANCE)"
+    },
+    {
+      "brand": "RSL Money Prod",
+      "product": "RSL Sub-Branch Income Plus",
+      "productId": "TRBMT",
+      "base": 0.056,
+      "bonus": null,
+      "intro": null,
+      "headline": 0.056,
+      "note": "P1Y; Tier 1: $1,000–∞ (WHOLE_BALANCE)"
+    },
+    {
+      "brand": "RSL Money Prod",
+      "product": "RSL Member Investment Plus",
+      "productId": "TRPMA",
+      "base": 0.056,
+      "bonus": null,
+      "intro": null,
+      "headline": 0.056,
+      "note": "at maturity; Tier 1: $1,000–∞ (WHOLE_BALANCE)"
+    },
+    {
+      "brand": "RSL Money Prod",
+      "product": "RSL Member Income Plus",
+      "productId": "TRPMT",
+      "base": 0.056,
+      "bonus": null,
+      "intro": null,
+      "headline": 0.056,
+      "note": "P1Y; Tier 1: $1,000–∞ (WHOLE_BALANCE)"
+    },
+    {
       "brand": "Bank First Production",
       "product": "Preschool Long Service Leave 1 Year Term Deposit",
       "productId": "01b75f79-4873-4db3-9773-d79095a3426d",
@@ -912,66 +972,6 @@
       "intro": null,
       "headline": 0.0555,
       "note": "at maturity"
-    },
-    {
-      "brand": "Bank First Production",
-      "product": "1 Year Term Deposit",
-      "productId": "993169e5-0490-4e85-a2c9-011f3c689e97",
-      "base": 0.0555,
-      "bonus": null,
-      "intro": null,
-      "headline": 0.0555,
-      "note": "at maturity; 1 Year Term Deposit: 365 day–365 day (WHOLE_BALANCE); 1 Year Term Deposit: $500.01–$9,999,999.99 (WHOLE_BALANCE)"
-    },
-    {
-      "brand": "Dnister",
-      "product": "Term Deposit - 12 Months",
-      "productId": "12",
-      "base": 0.0555,
-      "bonus": null,
-      "intro": null,
-      "headline": 0.0555,
-      "note": "at maturity; Interest Rate: $1,000–$1,000,000 (PER_TIER)"
-    },
-    {
-      "brand": "Heartland Bank",
-      "product": "Broker Term Deposit",
-      "productId": "TD03.1",
-      "base": 0.0555,
-      "bonus": null,
-      "intro": null,
-      "headline": 0.0555,
-      "note": "at maturity; Term: 12 month–12 month (WHOLE_BALANCE); Amount: $10,000–$2,000,000 (WHOLE_BALANCE)"
-    },
-    {
-      "brand": "Qudos Bank",
-      "product": "Term Deposits",
-      "productId": "f435abef-eaed-4d9f-a535-5c2925645472",
-      "base": 0.0555,
-      "bonus": null,
-      "intro": null,
-      "headline": 0.0555,
-      "note": "at maturity; 12 Months Interest Paid At Maturity: $500–∞ (WHOLE_BALANCE); 12 Months Interest Paid At Maturity: 12 month–∞ (WHOLE_BALANCE)"
-    },
-    {
-      "brand": "Alex.Bank",
-      "product": "Term Deposit - Intermediary",
-      "productId": "7aa47c12-436d-4927-af7a-1b9ea7e1e7a3",
-      "base": 0.055,
-      "bonus": null,
-      "intro": null,
-      "headline": 0.055,
-      "note": "at maturity; Amount: $10,000–$500,000"
-    },
-    {
-      "brand": "Australian Mutual Bank",
-      "product": "Term Deposit for Edvest Members",
-      "productId": "74073f50-1e84-11f1-b37a-325096b39f47",
-      "base": 0.055,
-      "bonus": null,
-      "intro": null,
-      "headline": 0.055,
-      "note": "P12M; Term Deposit for Edvest Members_Tier_1: $1,000–$4,999.99 (WHOLE_BALANCE); Term Deposit for Edvest Members_Tier_1: 12 month–12 month (WHOLE_BALANCE)"
     }
   ],
   "td12Coverage": {
@@ -981,11 +981,11 @@
   "review": {
     "stats": {
       "candidates": 165,
-      "reviewed": 164,
-      "rateOnly": 1,
-      "reworded": 1,
-      "stale": 1,
-      "queued": 1,
+      "reviewed": 163,
+      "rateOnly": 4,
+      "reworded": 2,
+      "stale": 2,
+      "queued": 2,
       "belowThreshold": 0,
       "threshold": 0.03
     },
@@ -996,6 +996,16 @@
         "name": "Bankwest Easy Saver",
         "category": "TRANS_AND_SAVINGS_ACCOUNTS",
         "headline": 0.115,
+        "reasons": [
+          "bonus/intro rows"
+        ]
+      },
+      {
+        "key": "imb-bank-198820:TSA-22-2",
+        "brand": "IMB Bank",
+        "name": "Reward Saver Kick Start",
+        "category": "TRANS_AND_SAVINGS_ACCOUNTS",
+        "headline": 0.062,
         "reasons": [
           "bonus/intro rows"
         ]

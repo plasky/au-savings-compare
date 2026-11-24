@@ -973,7 +973,7 @@
             "applicationFrequency": "P3M",
             "applicationType": "MATURITY",
             "depositRateType": "FIXED",
-            "rate": "0.0535",
+            "rate": "0.0515",
             "tiers": [
               {
                 "maximumValue": "500000.00",
@@ -1039,7 +1039,7 @@
           }
         ],
         "isTailored": false,
-        "lastUpdated": "2026-11-11T13:01:10Z",
+        "lastUpdated": "2026-11-23T13:01:12Z",
         "name": "Term Deposit - Intermediary",
         "productCategory": "TERM_DEPOSITS",
         "productId": "7aa47c12-436d-4927-af7a-1b9ea7e1e7a3"

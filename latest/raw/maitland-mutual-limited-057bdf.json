@@ -20,10 +20,10 @@
     "pagesFetched": 1,
     "productCount": 25,
     "categoryCounts": {
+      "TERM_DEPOSITS": 2,
       "TRANS_AND_SAVINGS_ACCOUNTS": 10,
       "RESIDENTIAL_MORTGAGES": 4,
       "BUSINESS_LOANS": 2,
-      "TERM_DEPOSITS": 2,
       "REGULATED_TRUST_ACCOUNTS": 4,
       "PERS_LOANS": 2,
       "CRED_AND_CHRG_CARDS": 1
@@ -3582,7 +3582,7 @@
           },
           {
             "depositRateType": "FIXED",
-            "rate": "0.049",
+            "rate": "0.048",
             "calculationFrequency": "P1D",
             "applicationType": "MATURITY",
             "tiers": [
@@ -3605,7 +3605,7 @@
           },
           {
             "depositRateType": "FIXED",
-            "rate": "0.049",
+            "rate": "0.048",
             "calculationFrequency": "P1D",
             "applicationType": "MATURITY",
             "tiers": [
@@ -3628,7 +3628,7 @@
           },
           {
             "depositRateType": "FIXED",
-            "rate": "0.052",
+            "rate": "0.051",
             "calculationFrequency": "P1D",
             "applicationType": "MATURITY",
             "tiers": [
@@ -3651,7 +3651,7 @@
           },
           {
             "depositRateType": "FIXED",
-            "rate": "0.052",
+            "rate": "0.051",
             "calculationFrequency": "P1D",
             "applicationType": "MATURITY",
             "tiers": [
@@ -4278,7 +4278,7 @@
           },
           {
             "depositRateType": "FIXED",
-            "rate": "0.049",
+            "rate": "0.048",
             "calculationFrequency": "P1D",
             "applicationType": "MATURITY",
             "tiers": [
@@ -4301,7 +4301,7 @@
           },
           {
             "depositRateType": "FIXED",
-            "rate": "0.049",
+            "rate": "0.048",
             "calculationFrequency": "P1D",
             "applicationType": "MATURITY",
             "tiers": [
@@ -4324,7 +4324,7 @@
           },
           {
             "depositRateType": "FIXED",
-            "rate": "0.052",
+            "rate": "0.051",
             "calculationFrequency": "P1D",
             "applicationType": "MATURITY",
             "tiers": [
@@ -4347,7 +4347,7 @@
           },
           {
             "depositRateType": "FIXED",
-            "rate": "0.052",
+            "rate": "0.051",
             "calculationFrequency": "P1D",
             "applicationType": "MATURITY",
             "tiers": [
@@ -5175,7 +5175,7 @@
         ],
         "productCategory": "TERM_DEPOSITS",
         "productId": "Term_Deposit",
-        "lastUpdated": "2026-10-01T21:35:58.000+10:00",
+        "lastUpdated": "2026-11-23T22:11:44.000+11:00",
         "name": "Term Deposit",
         "description": "A Term Deposit which offers a fixed rate for terms up to 36 months.",
         "brand": "TheMutualBank",

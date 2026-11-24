@@ -20,13 +20,13 @@
     "pagesFetched": 1,
     "productCount": 65,
     "categoryCounts": {
-      "MARGIN_LOANS": 3,
+      "CRED_AND_CHRG_CARDS": 13,
       "TRANS_AND_SAVINGS_ACCOUNTS": 18,
+      "MARGIN_LOANS": 3,
       "RESIDENTIAL_MORTGAGES": 11,
       "OVERDRAFTS": 2,
       "BUSINESS_LOANS": 6,
       "PERS_LOANS": 3,
-      "CRED_AND_CHRG_CARDS": 13,
       "REGULATED_TRUST_ACCOUNTS": 3,
       "LEASES": 2,
       "TERM_DEPOSITS": 4
@@ -1705,7 +1705,10 @@
     {
       "productId": "SavComSolCashRes",
       "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
-      "detail": {
+      "detail": null,
+      "detailStatus": 404,
+      "detailVersion": "7",
+      "summary": {
         "productId": "SavComSolCashRes",
         "lastUpdated": "2026-11-13T23:31:49Z",
         "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
@@ -1718,347 +1721,10 @@
           "termsUri": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/bb/deposit-accts-bus-customers-tandc.pdf",
           "eligibilityUri": "https://www.westpac.com.au/business-banking/savings-accounts/not-for-profit/community-cash-reserve/",
           "feesAndPricingUri": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/bb/deposit-accts-bus-customers-tandc.pdf"
-        },
-        "features": [
-          {
-            "featureType": "OTHER",
-            "additionalInfo": "No account-keeping fees"
-          },
-          {
-            "featureType": "OTHER",
-            "additionalInfo": "No fees to move cash to and from your Westpac transaction account through Online Banking and the Westpac App"
-          },
-          {
-            "featureType": "OTHER",
-            "additionalInfo": "Regularly deposit funds to grow savings balance"
-          },
-          {
-            "featureType": "OTHER",
-            "additionalInfo": "Earn interest on your surplus funds, noting that zero interest rates may apply from time to time"
-          },
-          {
-            "featureType": "OTHER",
-            "additionalInfo": "Get access to your savings at any time"
-          },
-          {
-            "featureType": "OTHER",
-            "additionalInfo": "No minimum balance needed"
-          },
-          {
-            "featureType": "DIGITAL_BANKING"
-          },
-          {
-            "featureType": "OTHER",
-            "additionalInfo": "Tiered interest is paid on certain balances"
-          },
-          {
-            "featureType": "OTHER",
-            "additionalInfo": "Interest is paid on a monthly basis."
-          },
-          {
-            "featureType": "OTHER",
-            "additionalInfo": "You will be provided regular statements for the account and you have a choice of 3 or 6 monthly statements."
-          },
-          {
-            "featureType": "OTHER",
-            "additionalInfo": "Unlimited free self-service enquiries."
-          },
-          {
-            "featureType": "FRAUD_PROTECTION",
-            "additionalInfo": "The product includes FRAUD_PROTECTION features."
-          },
-          {
-            "featureType": "OTHER",
-            "additionalInfo": "Account enquiries are always free when you use Online Banking"
-          }
-        ],
-        "eligibility": [
-          {
-            "eligibilityType": "MIN_AGE",
-            "additionalValue": "18",
-            "additionalInfo": "Applicant plus all signatories"
-          },
-          {
-            "eligibilityType": "RESIDENCY_STATUS",
-            "additionalValue": "Operating in Australia with an Australian address"
-          },
-          {
-            "eligibilityType": "BUSINESS",
-            "additionalInfo": "Not-for-profit organisations including charities, community and sporting groups, schools, government bodies, and registered political parties"
-          },
-          {
-            "eligibilityType": "OTHER",
-            "additionalInfo": "Needs an eligible Westpac business transaction account to link to."
-          }
-        ],
-        "fees": [
-          {
-            "name": "Account Keeping Fee",
-            "feeType": "PERIODIC",
-            "feeMethodUType": "fixedAmount",
-            "fixedAmount": {
-              "amount": "0.00"
-            },
-            "additionalValue": "P1M"
-          },
-          {
-            "name": "Overdrawn Fee",
-            "feeType": "EVENT",
-            "feeMethodUType": "fixedAmount",
-            "fixedAmount": {
-              "amount": "15.00"
-            },
-            "additionalInfo": "$15.00 per occurrence"
-          },
-          {
-            "name": "Self-Service (Electronic) Withdrawals",
-            "feeType": "WITHDRAWAL",
-            "feeMethodUType": "fixedAmount",
-            "fixedAmount": {
-              "amount": "0.00"
-            }
-          },
-          {
-            "name": "Self-Service (Electronic) Deposits",
-            "feeType": "DEPOSIT",
-            "feeMethodUType": "fixedAmount",
-            "fixedAmount": {
-              "amount": "0.00"
-            }
-          },
-          {
-            "name": "Cheques Collected / Deposited",
-            "feeType": "DEPOSIT",
-            "feeMethodUType": "fixedAmount",
-            "fixedAmount": {
-              "amount": "0.00"
-            },
-            "additionalInfo": "Cheques collected or deposited (Additional charge for the branch transaction applies)"
-          },
-          {
-            "name": "Staff-Assisted Withdrawal",
-            "feeType": "WITHDRAWAL",
-            "feeMethodUType": "fixedAmount",
-            "fixedAmount": {
-              "amount": "3.00"
-            },
-            "additionalInfo": "These transactions are not available, however if they occur, a $3.00 fee will be charged for each transaction."
-          },
-          {
-            "name": "Staff-Assisted Deposit",
-            "feeType": "DEPOSIT",
-            "feeMethodUType": "fixedAmount",
-            "fixedAmount": {
-              "amount": "0.00"
-            }
-          },
-          {
-            "name": "Periodical Payments",
-            "feeType": "PAYMENT",
-            "feeMethodUType": "fixedAmount",
-            "fixedAmount": {
-              "amount": "0.00"
-            }
-          },
-          {
-            "name": "Telephone Banking",
-            "feeType": "EVENT",
-            "feeMethodUType": "fixedAmount",
-            "fixedAmount": {
-              "amount": "0.00"
-            },
-            "additionalInfo": "Unlimited free self-service enquiries"
-          },
-          {
-            "name": "Online Banking",
-            "feeType": "EVENT",
-            "feeMethodUType": "fixedAmount",
-            "fixedAmount": {
-              "amount": "0.00"
-            },
-            "additionalInfo": "Account enquiries are always free when you use Online Banking."
-          }
-        ],
-        "depositRates": [
-          {
-            "depositRateType": "VARIABLE",
-            "rate": "0.0065",
-            "calculationFrequency": "P1D",
-            "applicationType": "PERIODIC",
-            "applicationFrequency": "P1M",
-            "tiers": [
-              {
-                "name": "0.00 to 4999.00",
-                "unitOfMeasure": "DOLLAR",
-                "minimumValue": "0.00",
-                "maximumValue": "4999.00",
-                "rateApplicationMethod": "WHOLE_BALANCE"
-              }
-            ],
-            "applicabilityConditions": [
-              {
-                "rateApplicabilityType": "MIN_DEPOSIT_AMOUNT",
-                "additionalValue": "0.00"
-              }
-            ]
-          },
-          {
-            "depositRateType": "VARIABLE",
-            "rate": "0.0065",
-            "calculationFrequency": "P1D",
-            "applicationType": "PERIODIC",
-            "applicationFrequency": "P1M",
-            "tiers": [
-              {
-                "name": "5000.00 to 9999.00",
-                "unitOfMeasure": "DOLLAR",
-                "minimumValue": "5000.00",
-                "maximumValue": "9999.00",
-                "rateApplicationMethod": "WHOLE_BALANCE"
-              }
-            ],
-            "applicabilityConditions": [
-              {
-                "rateApplicabilityType": "MIN_DEPOSIT_AMOUNT",
-                "additionalValue": "5000.00"
-              }
-            ]
-          },
-          {
-            "depositRateType": "VARIABLE",
-            "rate": "0.0065",
-            "calculationFrequency": "P1D",
-            "applicationType": "PERIODIC",
-            "applicationFrequency": "P1M",
-            "tiers": [
-              {
-                "name": "10000.00 to 24999.00",
-                "unitOfMeasure": "DOLLAR",
-                "minimumValue": "10000.00",
-                "maximumValue": "24999.00",
-                "rateApplicationMethod": "WHOLE_BALANCE"
-              }
-            ],
-            "applicabilityConditions": [
-              {
-                "rateApplicabilityType": "MIN_DEPOSIT_AMOUNT",
-                "additionalValue": "10000.00"
-              }
-            ]
-          },
-          {
-            "depositRateType": "VARIABLE",
-            "rate": "0.0065",
-            "calculationFrequency": "P1D",
-            "applicationType": "PERIODIC",
-            "applicationFrequency": "P1M",
-            "tiers": [
-              {
-                "name": "25000.00 to 49999.00",
-                "unitOfMeasure": "DOLLAR",
-                "minimumValue": "25000.00",
-                "maximumValue": "49999.00",
-                "rateApplicationMethod": "WHOLE_BALANCE"
-              }
-            ],
-            "applicabilityConditions": [
-              {
-                "rateApplicabilityType": "MIN_DEPOSIT_AMOUNT",
-                "additionalValue": "25000.00"
-              }
-            ]
-          },
-          {
-            "depositRateType": "VARIABLE",
-            "rate": "0.0095",
-            "calculationFrequency": "P1D",
-            "applicationType": "PERIODIC",
-            "applicationFrequency": "P1M",
-            "tiers": [
-              {
-                "name": "50000.00 to 249999.00",
-                "unitOfMeasure": "DOLLAR",
-                "minimumValue": "50000.00",
-                "maximumValue": "249999.00",
-                "rateApplicationMethod": "WHOLE_BALANCE"
-              }
-            ],
-            "applicabilityConditions": [
-              {
-                "rateApplicabilityType": "MIN_DEPOSIT_AMOUNT",
-                "additionalValue": "50000.00"
-              }
-            ]
-          },
-          {
-            "depositRateType": "VARIABLE",
-            "rate": "0.015",
-            "calculationFrequency": "P1D",
-            "applicationType": "PERIODIC",
-            "applicationFrequency": "P1M",
-            "tiers": [
-              {
-                "name": "250000.00 to 499999.00",
-                "unitOfMeasure": "DOLLAR",
-                "minimumValue": "250000.00",
-                "maximumValue": "499999.00",
-                "rateApplicationMethod": "WHOLE_BALANCE"
-              }
-            ],
-            "applicabilityConditions": [
-              {
-                "rateApplicabilityType": "MIN_DEPOSIT_AMOUNT",
-                "additionalValue": "250000.00"
-              }
-            ]
-          },
-          {
-            "depositRateType": "VARIABLE",
-            "rate": "0.015",
-            "calculationFrequency": "P1D",
-            "applicationType": "PERIODIC",
-            "applicationFrequency": "P1M",
-            "tiers": [
-              {
-                "name": "500000.00 to 999999.00",
-                "unitOfMeasure": "DOLLAR",
-                "minimumValue": "500000.00",
-                "maximumValue": "999999.00",
-                "rateApplicationMethod": "WHOLE_BALANCE"
-              }
-            ],
-            "applicabilityConditions": [
-              {
-                "rateApplicabilityType": "MIN_DEPOSIT_AMOUNT",
-                "additionalValue": "500000.00"
-              }
-            ]
-          },
-          {
-            "depositRateType": "VARIABLE",
-            "rate": "0.0165",
-            "calculationFrequency": "P1D",
-            "applicationType": "PERIODIC",
-            "applicationFrequency": "P1M",
-            "tiers": [
-              {
-                "name": "1000001",
-                "unitOfMeasure": "DOLLAR",
-                "minimumValue": "1000001.00",
-                "rateApplicationMethod": "WHOLE_BALANCE"
-              }
-            ],
-            "applicabilityConditions": [
-              {
-                "rateApplicabilityType": "MIN_DEPOSIT_AMOUNT",
-                "additionalValue": "1000000.00"
-              }
-            ]
-          }
-        ]
+        }
       },
-      "detailStatus": 200,
-      "detailVersion": "7"
+      "detailError": "http-404",
+      "detailErrorDetail": "404 | Resource Not Found | Product not found"
     },
     {
       "productId": "SavESaver",
@@ -6178,7 +5844,7 @@
       "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
       "detail": {
         "productId": "TrChoice",
-        "lastUpdated": "2026-11-03T23:31:47Z",
+        "lastUpdated": "2026-11-23T04:47:52Z",
         "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
         "name": "Westpac Choice",
         "description": "Westpac Choice is our most popular account. A simple-to-use everyday bank account.",
@@ -6310,10 +5976,6 @@
           },
           {
             "featureType": "FRAUD_PROTECTION",
-            "additionalInfo": "Under 18 Card Transactions Block: If the cardholder is under 18 years of age, a protective block is enabled by default on the card. This block is mandatory and will automatically be removed when the cardholder turns 18 years old."
-          },
-          {
-            "featureType": "FRAUD_PROTECTION",
             "additionalInfo": "Can't find your card? Don't panic, you can temporarily lock it in seconds with Card on Hold while you search"
           },
           {
@@ -6397,80 +6059,7 @@
             "fixedAmount": {
               "amount": "5.00"
             },
-            "additionalValue": "P1M",
-            "discounts": [
-              {
-                "description": "This fee is waived for: Deposit at least $2,000 by the close of business on the last business day of the month (other fees apply)",
-                "discountType": "DEPOSITS",
-                "discountMethodUType": "fixedAmount",
-                "fixedAmount": {
-                  "amount": "5.00"
-                },
-                "additionalValue": "2000.00",
-                "eligibility": [
-                  {
-                    "discountEligibilityType": "OTHER",
-                    "additionalInfo": "Deposit at least $2,000 by the close of business on the last business day of the month"
-                  }
-                ]
-              },
-              {
-                "description": "This fee is waived for: Are under the age of 41",
-                "discountType": "ELIGIBILITY_ONLY",
-                "discountMethodUType": "fixedAmount",
-                "fixedAmount": {
-                  "amount": "5.00"
-                },
-                "eligibility": [
-                  {
-                    "discountEligibilityType": "MAX_AGE",
-                    "additionalValue": "41"
-                  }
-                ]
-              },
-              {
-                "description": "This fee is waived for: Full-time tertiary students",
-                "discountType": "ELIGIBILITY_ONLY",
-                "discountMethodUType": "fixedAmount",
-                "fixedAmount": {
-                  "amount": "5.00"
-                },
-                "eligibility": [
-                  {
-                    "discountEligibilityType": "STUDENT",
-                    "additionalInfo": "Customers who are full-time tertiary students"
-                  }
-                ]
-              },
-              {
-                "description": "This fee is waived for: Link your Choice account to your Rocket Repay Home Loan or Rocket Investment Loan as an offset account (for as long as the account is linked).",
-                "discountType": "ELIGIBILITY_ONLY",
-                "discountMethodUType": "fixedAmount",
-                "fixedAmount": {
-                  "amount": "5.00"
-                },
-                "eligibility": [
-                  {
-                    "discountEligibilityType": "OTHER",
-                    "additionalInfo": "Link your Choice account to your Rocket Repay Home Loan or Rocket Investment Loan as an offset account (for as long as the account is linked)."
-                  }
-                ]
-              },
-              {
-                "description": "This fee is waived for: Are new to Australia or expatriate customers (for the first 12 months after opening a new Westpac Choice account)",
-                "discountType": "ELIGIBILITY_ONLY",
-                "discountMethodUType": "fixedAmount",
-                "fixedAmount": {
-                  "amount": "5.00"
-                },
-                "eligibility": [
-                  {
-                    "discountEligibilityType": "RESIDENCY_STATUS",
-                    "additionalValue": "Are new to Australia or expatriate customers (for the first 12 months after opening a new Westpac Choice account)"
-                  }
-                ]
-              }
-            ]
+            "additionalValue": "P1M"
           },
           {
             "name": "Online Banking",
@@ -6660,14 +6249,14 @@
             "interestPaymentDue": "IN_ARREARS",
             "repaymentType": "OTHER",
             "loanPurpose": "OTHER",
+            "additionalValue": "P1M",
             "applicabilityConditions": [
               {
                 "rateApplicabilityType": "OTHER",
                 "additionalInfo": "The ULR is a debit interest rate charged to a transaction account if it becomes overdrawn without arrangement. It will be calculated daily on the debit balance (and deducted on the last business day of each month) using the then current ULR until the account balance is positive again.",
                 "additionalInfoUri": "https://www.westpac.com.au/bank-accounts/choice"
               }
-            ],
-            "additionalValue": "P1M"
+            ]
           }
         ]
       },
@@ -7523,7 +7112,7 @@
       "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
       "detail": {
         "productId": "TrChoiceMigrant",
-        "lastUpdated": "2026-10-29T02:41:56Z",
+        "lastUpdated": "2026-11-23T04:47:53Z",
         "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
         "name": "Westpac Choice for migrants",
         "description": "A Westpac Choice everyday bank account for people who need to already be in Australia or arriving in the next 14 days to do this.",
@@ -7653,10 +7242,6 @@
           },
           {
             "featureType": "FRAUD_PROTECTION",
-            "additionalInfo": "Under 18 Card Transactions Block: If the cardholder is under 18 years of age, a protective block is enabled by default on the card. This block is mandatory and will automatically be removed when the cardholder turns 18 years old."
-          },
-          {
-            "featureType": "FRAUD_PROTECTION",
             "additionalInfo": "Can't find your card? Don't panic, you can temporarily lock it in seconds with Card on Hold while you search"
           },
           {
@@ -7748,94 +7333,7 @@
             "fixedAmount": {
               "amount": "5.00"
             },
-            "additionalValue": "P1M",
-            "discounts": [
-              {
-                "description": "This fee is waived for: Deposit at least $2,000 by the close of business on the last business day of the month (other fees apply)",
-                "discountType": "DEPOSITS",
-                "discountMethodUType": "fixedAmount",
-                "fixedAmount": {
-                  "amount": "5.00"
-                },
-                "additionalValue": "2000.00",
-                "eligibility": [
-                  {
-                    "discountEligibilityType": "OTHER",
-                    "additionalInfo": "To waive the $5 Account-Keeping Fee, you must deposit at least $2,000 into your Westpac Choice account by the close of business on the last business day of the month. If you deposit after this time, you will not qualify for the fee waiver for that month and the deposit will instead count towards the following month."
-                  }
-                ]
-              },
-              {
-                "description": "This fee is waived for: Are under the age of 41",
-                "discountType": "ELIGIBILITY_ONLY",
-                "discountMethodUType": "fixedAmount",
-                "fixedAmount": {
-                  "amount": "5.00"
-                },
-                "eligibility": [
-                  {
-                    "discountEligibilityType": "MAX_AGE",
-                    "additionalValue": "41"
-                  }
-                ]
-              },
-              {
-                "description": "This fee is waived for: Full-time tertiary students",
-                "discountType": "ELIGIBILITY_ONLY",
-                "discountMethodUType": "fixedAmount",
-                "fixedAmount": {
-                  "amount": "5.00"
-                },
-                "eligibility": [
-                  {
-                    "discountEligibilityType": "STUDENT",
-                    "additionalInfo": "Customers who are full-time tertiary students"
-                  }
-                ]
-              },
-              {
-                "description": "This fee is waived for: Are a Westpac Choice Concession account holder",
-                "discountType": "ELIGIBILITY_ONLY",
-                "discountMethodUType": "fixedAmount",
-                "fixedAmount": {
-                  "amount": "5.00"
-                },
-                "eligibility": [
-                  {
-                    "discountEligibilityType": "OTHER",
-                    "additionalInfo": "Westpac Choice Concession account holder"
-                  }
-                ]
-              },
-              {
-                "description": "This fee is waived for: Link your Choice account to your Rocket Repay Home Loan or Rocket Investment Loan as an offset account (for as long as the account is linked).",
-                "discountType": "ELIGIBILITY_ONLY",
-                "discountMethodUType": "fixedAmount",
-                "fixedAmount": {
-                  "amount": "5.00"
-                },
-                "eligibility": [
-                  {
-                    "discountEligibilityType": "OTHER",
-                    "additionalInfo": "Link your Choice account to your Rocket Repay Home Loan or Rocket Investment Loan as an offset account (for as long as the account is linked)."
-                  }
-                ]
-              },
-              {
-                "description": "This fee is waived for: Are new to Australia or expatriate customers (for the first 12 months after opening a new Westpac Choice account)",
-                "discountType": "ELIGIBILITY_ONLY",
-                "discountMethodUType": "fixedAmount",
-                "fixedAmount": {
-                  "amount": "5.00"
-                },
-                "eligibility": [
-                  {
-                    "discountEligibilityType": "RESIDENCY_STATUS",
-                    "additionalValue": "Are new to Australia or expatriate customers (for the first 12 months after opening a new Westpac Choice account)"
-                  }
-                ]
-              }
-            ]
+            "additionalValue": "P1M"
           },
           {
             "name": "Online Banking",
@@ -8009,14 +7507,14 @@
             "interestPaymentDue": "IN_ARREARS",
             "repaymentType": "OTHER",
             "loanPurpose": "OTHER",
+            "additionalValue": "P1M",
             "applicabilityConditions": [
               {
                 "rateApplicabilityType": "OTHER",
                 "additionalInfo": "The ULR is a debit interest rate charged to a transaction account if it becomes overdrawn without arrangement. It will be calculated daily on the debit balance (and deducted on the last business day of each month) using the then current ULR until the account balance is positive again.",
                 "additionalInfoUri": "https://www.westpac.com.au/international-travel/new-to-australia/choice-new-arrivals/"
               }
-            ],
-            "additionalValue": "P1M"
+            ]
           }
         ]
       },
@@ -8028,7 +7526,7 @@
       "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
       "detail": {
         "productId": "TrChoiceStudent",
-        "lastUpdated": "2026-10-28T01:56:10Z",
+        "lastUpdated": "2026-11-23T04:47:53Z",
         "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
         "name": "Bank account with debit card for Students and young adults",
         "description": "An everyday account packed with features so you can bank your way with ease.",
@@ -8156,10 +7654,6 @@
             "featureType": "FRAUD_PROTECTION",
             "additionalInfo": "Layers of defence - Stay safe online and use our Digital Card with dynamic CVC that updates every 24 hours, Card Lock, Smart Verify and SafeBlock.",
             "additionalInfoUri": "https://www.westpac.com.au/security/"
-          },
-          {
-            "featureType": "FRAUD_PROTECTION",
-            "additionalInfo": "Under 18 Card Transactions Block: If the cardholder is under 18 years of age, a protective block is enabled by default on the card. This block is mandatory and will automatically be removed when the cardholder turns 18 years old."
           },
           {
             "featureType": "FRAUD_PROTECTION",
@@ -8433,14 +7927,14 @@
             "interestPaymentDue": "IN_ARREARS",
             "repaymentType": "OTHER",
             "loanPurpose": "OTHER",
+            "additionalValue": "P1M",
             "applicabilityConditions": [
               {
                 "rateApplicabilityType": "OTHER",
                 "additionalInfo": "The ULR is a debit interest rate charged to a transaction account if it becomes overdrawn without arrangement. It will be calculated daily on the debit balance (and deducted on the last business day of each month) using the then current ULR until the account balance is positive again.",
                 "additionalInfoUri": "https://www.westpac.com.au/bank-accounts/students-and-young-adults"
               }
-            ],
-            "additionalValue": "P1M"
+            ]
           }
         ]
       },
@@ -8452,7 +7946,7 @@
       "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
       "detail": {
         "productId": "TrChoiceYouth",
-        "lastUpdated": "2026-10-28T01:56:10Z",
+        "lastUpdated": "2026-11-23T04:47:53Z",
         "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
         "name": "Youth Bank Account and Debit Card",
         "description": "Get a head start with a Westpac Choice Youth account. A simple-to-use kids bank account with a debit card that will grow up with you.",
@@ -8576,10 +8070,6 @@
             "featureType": "FRAUD_PROTECTION",
             "additionalInfo": "Layers of defence - Stay safe online and use our Digital Card with dynamic CVC that updates every 24 hours, Card Lock, Smart Verify and SafeBlock.",
             "additionalInfoUri": "https://www.westpac.com.au/security/"
-          },
-          {
-            "featureType": "FRAUD_PROTECTION",
-            "additionalInfo": "Under 18 Card Transactions Block: If the cardholder is under 18 years of age, a protective block is enabled by default on the card. This block is mandatory and will automatically be removed when the cardholder turns 18 years old."
           },
           {
             "featureType": "FRAUD_PROTECTION",
@@ -8889,14 +8379,14 @@
             "interestPaymentDue": "IN_ARREARS",
             "repaymentType": "OTHER",
             "loanPurpose": "OTHER",
+            "additionalValue": "P1M",
             "applicabilityConditions": [
               {
                 "rateApplicabilityType": "OTHER",
                 "additionalInfo": "The ULR is a debit interest rate charged to a transaction account if it becomes overdrawn without arrangement. It will be calculated daily on the debit balance (and deducted on the last business day of each month) using the then current ULR until the account balance is positive again.",
                 "additionalInfoUri": "https://www.westpac.com.au/bank-accounts/kids-and-teens"
               }
-            ],
-            "additionalValue": "P1M"
+            ]
           }
         ]
       },

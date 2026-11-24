@@ -5445,7 +5445,7 @@
       "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
       "detail": {
         "productId": "STGTrCompleteFreedom",
-        "lastUpdated": "2026-11-20T00:43:30Z",
+        "lastUpdated": "2026-11-23T06:14:42Z",
         "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
         "name": "Complete Freedom Account",
         "description": "An everyday bank account that has all the features to help make managing your day-to-day money a breeze",
@@ -5553,10 +5553,6 @@
             "additionalInfo": "With PayTo, you can see, review and authorise all new PayTo payments for things such as recurring bills, memberships and subscriptions before the money leaves your account."
           },
           {
-            "featureType": "FRAUD_PROTECTION",
-            "additionalInfo": "Under 18 Card Transactions Block: If the cardholder is under 18 years of age, a protective block is enabled by default on the card. This block is mandatory and will automatically be removed when the cardholder turns 18 years old."
-          },
-          {
             "featureType": "OTHER",
             "additionalInfo": "My Offers Hub: Access to offers and benefits on popular lifestyle brands just for being an eligible cardholder.",
             "additionalInfoUri": "https://www.stgeorge.com.au/online-services/my-offers-hub"
@@ -5600,7 +5596,7 @@
           },
           {
             "featureType": "CARD_ACCESS",
-            "additionalValue": "Visa Debit Card if you are 14 years old or over and have an Australian residential address. If you're 12 or 13 years old and have an Australian residential address, you can request a Freedom Card in branch. A new Freedom Card is not available unless you already have one linked to your account (e.g. existing Freedom Card holders may order replacement cards and renew their card)."
+            "additionalValue": "Visa Debit Card if you are 14 years old or over and have an Australian residential address. A new Freedom Card is not available unless you already have one linked to your account (e.g. existing Freedom Card holders may order replacement cards and renew their card)."
           },
           {
             "featureType": "FRAUD_PROTECTION",

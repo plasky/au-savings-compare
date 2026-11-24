@@ -25,8 +25,8 @@
       "TRANS_AND_SAVINGS_ACCOUNTS": 11,
       "OVERDRAFTS": 2,
       "CRED_AND_CHRG_CARDS": 10,
-      "BUSINESS_LOANS": 2,
       "PERS_LOANS": 2,
+      "BUSINESS_LOANS": 2,
       "TERM_DEPOSITS": 2
     }
   },

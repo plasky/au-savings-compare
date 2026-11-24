@@ -20,11 +20,11 @@
     "pagesFetched": 1,
     "productCount": 18,
     "categoryCounts": {
+      "TRANS_AND_SAVINGS_ACCOUNTS": 4,
       "TERM_DEPOSITS": 1,
       "RESIDENTIAL_MORTGAGES": 3,
       "BUSINESS_LOANS": 7,
       "OVERDRAFTS": 1,
-      "TRANS_AND_SAVINGS_ACCOUNTS": 4,
       "CRED_AND_CHRG_CARDS": 1,
       "PERS_LOANS": 1
     }
@@ -386,7 +386,7 @@
       "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
       "detail": {
         "productId": "0c186288-5c03-ee11-8f6e-00224814dce7",
-        "lastUpdated": "2026-10-21T04:46:57Z",
+        "lastUpdated": "2026-11-22T22:39:44Z",
         "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
         "name": "32 Day Notice Account",
         "description": "If you need more frequent access to your savings, our notice account features a competitive interest rate, that is calculated on the daily closing credit balance of your account and paid monthly, and gives you access to your money after providing 32 days’ notice. A good choice for you if you are saving for a goal such as a deposit on a house, new car or holiday, you would like to make regular deposits to your savings, and if you prefer a variable interest rate.",
@@ -595,15 +595,6 @@
         ],
         "depositRates": [
           {
-            "rate": "0.0400000000000000",
-            "calculationFrequency": "P1D",
-            "applicationType": "PERIODIC",
-            "applicationFrequency": "P1M",
-            "additionalInfo": "Interest paid monthly",
-            "additionalInfoUri": "https://www.boqspecialist.com.au/personal-banking/savings-accounts/interest-rates",
-            "depositRateType": "VARIABLE"
-          },
-          {
             "rate": "0.0095000000000000",
             "calculationFrequency": "P1D",
             "applicationType": "PERIODIC",
@@ -629,6 +620,15 @@
               }
             ],
             "depositRateType": "INTRODUCTORY"
+          },
+          {
+            "rate": "0.0425000000000000",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "additionalInfo": "Interest paid monthly",
+            "additionalInfoUri": "https://www.boqspecialist.com.au/personal-banking/savings-accounts/interest-rates",
+            "depositRateType": "VARIABLE"
           }
         ]
       },
@@ -1453,7 +1453,7 @@
       "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
       "detail": {
         "productId": "81906e88-5c03-ee11-8f6e-00224814d330",
-        "lastUpdated": "2026-10-21T04:07:01Z",
+        "lastUpdated": "2026-11-22T22:39:54Z",
         "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
         "name": "Private Access Account",
         "description": "The BOQ Specialist Private Access account allows you to make deposits and transfer funds at any time, requires no ongoing minimum balance and pays a competitive variable rate of interest on your entire balance. A good choice for you if you want daily access to your funds and you prefer a variable interest rate.",
@@ -1668,7 +1668,7 @@
         ],
         "depositRates": [
           {
-            "rate": "0.0350000000000000",
+            "rate": "0.0375000000000000",
             "calculationFrequency": "P1D",
             "applicationType": "PERIODIC",
             "applicationFrequency": "P1M",

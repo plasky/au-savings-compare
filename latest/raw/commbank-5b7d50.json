@@ -20,12 +20,12 @@
     "pagesFetched": 1,
     "productCount": 75,
     "categoryCounts": {
+      "BUSINESS_LOANS": 4,
       "TRANS_AND_SAVINGS_ACCOUNTS": 21,
       "OVERDRAFTS": 4,
+      "TERM_DEPOSITS": 5,
       "CRED_AND_CHRG_CARDS": 15,
       "BUY_NOW_PAY_LATER": 1,
-      "TERM_DEPOSITS": 5,
-      "BUSINESS_LOANS": 4,
       "REGULATED_TRUST_ACCOUNTS": 1,
       "MARGIN_LOANS": 2,
       "TRAVEL_CARDS": 1,
@@ -404,7 +404,7 @@
           }
         ],
         "productId": "07546f4ac1d4455d8dd2f3954d33ca68",
-        "lastUpdated": "2026-11-23T10:00:57.000Z",
+        "lastUpdated": "2026-11-24T13:00:14.000Z",
         "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
         "name": "Standard Business Cheque Account - Interest Bearing Option",
         "description": "Transaction accounts that pays interest above minimum balances.",
@@ -952,7 +952,7 @@
           }
         ],
         "productId": "33557e367d324529b38813adfc655b55",
-        "lastUpdated": "2026-11-23T14:00:33.000Z",
+        "lastUpdated": "2026-11-24T11:00:34.000Z",
         "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
         "name": "Smart Access",
         "description": "An everyday bank account, giving you access to unlimited electronic transactions and features to help your spending and bills stay on track. Plus if you meet certain criteria, we'll waive your $4 monthly account fee.",
@@ -9436,7 +9436,7 @@
           }
         ],
         "productId": "523f5c6a7e5b46e78a533e3272faeb97",
-        "lastUpdated": "2026-11-23T02:15:37.000Z",
+        "lastUpdated": "2026-11-24T08:01:04.000Z",
         "productCategory": "TERM_DEPOSITS",
         "name": "Standard Term Deposit",
         "description": "Feel confident knowing exactly how much your money will earn. Lock-in a competitive interest rate from as short as 1 month to as long as 5 years.",
@@ -12994,7 +12994,7 @@
           }
         ],
         "productId": "5669534e63ea45d0b9c0b58ead071748",
-        "lastUpdated": "2026-11-23T02:15:37.000Z",
+        "lastUpdated": "2026-11-24T08:00:28.000Z",
         "productCategory": "TERM_DEPOSITS",
         "name": "Business Investment Account",
         "description": "Feel confident knowing exactly how much your money will earn. Lock-in a competitive interest rate with our range of fixed term deposits.",
@@ -13294,7 +13294,7 @@
           }
         ],
         "productId": "5921439d2525442da3841a25572a740e",
-        "lastUpdated": "2026-11-23T02:15:37.000Z",
+        "lastUpdated": "2026-11-24T02:15:37.000Z",
         "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
         "name": "Streamline Basic",
         "description": "An everyday bank account for health care or pensioner concession card holders or receiving a government benefit payment that makes you eligible to hold a card.",
@@ -14057,7 +14057,7 @@
           }
         ],
         "productId": "71865ffd1ab249df9baa4b29c7751824",
-        "lastUpdated": "2026-11-23T02:15:37.000Z",
+        "lastUpdated": "2026-11-24T08:01:05.000Z",
         "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
         "name": "CommSec Notice Investor",
         "description": "A notice account that offers higher variable interest rates on your surplus funds while waiting for the next investment opportunity. Simply submit a notice to access your funds via your CDIA after the predetermined notice period.",
@@ -14310,7 +14310,7 @@
           }
         ],
         "productId": "72f214498c7f47a98fe59b794e7c01ab",
-        "lastUpdated": "2026-11-23T02:15:37.000Z",
+        "lastUpdated": "2026-11-24T02:15:37.000Z",
         "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
         "name": "GoalSaver",
         "description": "Be rewarded with a variable bonus interest rate for saving regularly each month.",
@@ -14743,7 +14743,7 @@
           }
         ],
         "productId": "7375f63775b4489a890655e25395e12d",
-        "lastUpdated": "2026-11-23T14:00:11.000Z",
+        "lastUpdated": "2026-11-24T11:00:21.000Z",
         "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
         "name": "Pensioner Security Account",
         "description": "One convenient account for your transaction and savings needs - for customers aged 55 and above.",
@@ -14900,7 +14900,7 @@
           }
         ],
         "productId": "78ff8e5eacd64d1ab6ab368b1f0106bc",
-        "lastUpdated": "2026-11-23T02:15:37.000Z",
+        "lastUpdated": "2026-11-24T02:15:37.000Z",
         "productCategory": "TERM_DEPOSITS",
         "name": "TD Parent Visa Bank Guarantee",
         "description": "A Term Deposit opened for the specific purpose of providing security for a bank guarantee required by the Commonwealth Government in relation to their requirement for an assurance of support.",
@@ -15066,7 +15066,7 @@
           }
         ],
         "productId": "7aff9e0e85e6450eb052d4ff2e953223",
-        "lastUpdated": "2026-11-23T02:15:37.000Z",
+        "lastUpdated": "2026-11-24T02:15:37.000Z",
         "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
         "name": "Youthsaver Account",
         "description": "Designed to help teach saving skills to under 18s, our Youthsaver account offers bonus interest for reaching saving goals.",
@@ -15422,7 +15422,7 @@
           },
           {
             "depositRateType": "VARIABLE",
-            "rate": "0.02125",
+            "rate": "0.03625",
             "calculationFrequency": "P1D",
             "applicationType": "PERIODIC",
             "applicationFrequency": "P1M",
@@ -15440,7 +15440,7 @@
           },
           {
             "depositRateType": "VARIABLE",
-            "rate": "0.03125",
+            "rate": "0.04625",
             "calculationFrequency": "P1D",
             "applicationType": "PERIODIC",
             "applicationFrequency": "P1M",
@@ -15458,7 +15458,7 @@
           },
           {
             "depositRateType": "VARIABLE",
-            "rate": "0.04125",
+            "rate": "0.05625",
             "calculationFrequency": "P1D",
             "applicationType": "PERIODIC",
             "applicationFrequency": "P1M",
@@ -15510,7 +15510,7 @@
           },
           {
             "lendingRateType": "VARIABLE",
-            "rate": "0.105",
+            "rate": "0.10575",
             "calculationFrequency": "P1D",
             "applicationType": "PERIODIC",
             "applicationFrequency": "P1M",
@@ -15521,7 +15521,7 @@
           },
           {
             "lendingRateType": "VARIABLE",
-            "rate": "0.1098",
+            "rate": "0.1092",
             "calculationFrequency": "P1D",
             "applicationType": "PERIODIC",
             "applicationFrequency": "P1M",
@@ -15532,7 +15532,7 @@
           },
           {
             "lendingRateType": "VARIABLE",
-            "rate": "0.1111",
+            "rate": "0.111",
             "calculationFrequency": "P1D",
             "applicationType": "PERIODIC",
             "applicationFrequency": "P1M",
@@ -15543,7 +15543,7 @@
           },
           {
             "lendingRateType": "VARIABLE",
-            "rate": "0.113",
+            "rate": "0.11375",
             "calculationFrequency": "P1D",
             "applicationType": "PERIODIC",
             "applicationFrequency": "P1M",
@@ -15554,24 +15554,24 @@
           },
           {
             "lendingRateType": "VARIABLE",
-            "rate": "0.11435",
-            "calculationFrequency": "P1D",
-            "applicationType": "PERIODIC",
-            "applicationFrequency": "P1M",
-            "repaymentType": "OTHER",
-            "loanPurpose": "OTHER",
-            "additionalInfo": "Applicable to currency HKD",
-            "additionalInfoUri": "https://www.commbank.com.au/personal/international/foreign-currency-account.html#rates"
-          },
-          {
-            "lendingRateType": "VARIABLE",
-            "rate": "0.1145",
+            "rate": "0.11475",
             "calculationFrequency": "P1D",
             "applicationType": "PERIODIC",
             "applicationFrequency": "P1M",
             "repaymentType": "OTHER",
             "loanPurpose": "OTHER",
             "additionalInfo": "Applicable to currency EUR",
+            "additionalInfoUri": "https://www.commbank.com.au/personal/international/foreign-currency-account.html#rates"
+          },
+          {
+            "lendingRateType": "VARIABLE",
+            "rate": "0.1163",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "repaymentType": "OTHER",
+            "loanPurpose": "OTHER",
+            "additionalInfo": "Applicable to currency HKD",
             "additionalInfoUri": "https://www.commbank.com.au/personal/international/foreign-currency-account.html#rates"
           },
           {
@@ -15593,23 +15593,23 @@
             "applicationFrequency": "P1M",
             "repaymentType": "OTHER",
             "loanPurpose": "OTHER",
-            "additionalInfo": "Applicable to currency USD",
-            "additionalInfoUri": "https://www.commbank.com.au/personal/international/foreign-currency-account.html#rates"
-          },
-          {
-            "lendingRateType": "VARIABLE",
-            "rate": "0.13",
-            "calculationFrequency": "P1D",
-            "applicationType": "PERIODIC",
-            "applicationFrequency": "P1M",
-            "repaymentType": "OTHER",
-            "loanPurpose": "OTHER",
             "additionalInfo": "Applicable to currency GBP",
             "additionalInfoUri": "https://www.commbank.com.au/personal/international/foreign-currency-account.html#rates"
           },
           {
             "lendingRateType": "VARIABLE",
-            "rate": "0.134153",
+            "rate": "0.1288",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "repaymentType": "OTHER",
+            "loanPurpose": "OTHER",
+            "additionalInfo": "Applicable to currency USD",
+            "additionalInfoUri": "https://www.commbank.com.au/personal/international/foreign-currency-account.html#rates"
+          },
+          {
+            "lendingRateType": "VARIABLE",
+            "rate": "0.134112",
             "calculationFrequency": "P1D",
             "applicationType": "PERIODIC",
             "applicationFrequency": "P1M",
@@ -15620,7 +15620,7 @@
           },
           {
             "lendingRateType": "VARIABLE",
-            "rate": "0.14125",
+            "rate": "0.15625",
             "calculationFrequency": "P1D",
             "applicationType": "PERIODIC",
             "applicationFrequency": "P1M",
@@ -15631,7 +15631,7 @@
           }
         ],
         "productId": "8bba7e425a5a4eeb8ecb7eec4daadf0c",
-        "lastUpdated": "2026-11-23T02:15:37.000Z",
+        "lastUpdated": "2026-11-24T09:00:37.000Z",
         "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
         "name": "Foreign Currency Account (Retail)",
         "description": "A flexible way to make, receive and convert regular payments in foreign currencies.",
@@ -15753,7 +15753,7 @@
           }
         ],
         "productId": "9a2b1a1885e749538f08973b6998cf10",
-        "lastUpdated": "2026-11-23T02:15:37.000Z",
+        "lastUpdated": "2026-11-24T02:15:37.000Z",
         "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
         "name": "SMSF Saver",
         "description": "A savings account for Self Managed Super Fund customers with the ability to move money via a linked CommBank transaction account.",
@@ -16100,7 +16100,7 @@
           }
         ],
         "productId": "a6e501926615417284d36b010c30b42b",
-        "lastUpdated": "2026-11-23T02:15:37.000Z",
+        "lastUpdated": "2026-11-24T02:15:37.000Z",
         "productCategory": "TERM_DEPOSITS",
         "name": "TD Immigration (DIMIA) Bank Guarantee",
         "description": "A Term Deposit opened for the specific purpose of providing security for a bank guarantee required by the Commonwealth Government in relation to their requirement for an assurance of support.",
@@ -16277,7 +16277,7 @@
           }
         ],
         "productId": "ad22b1f0967349e8a5d586afe7f0d845",
-        "lastUpdated": "2026-11-23T02:15:37.000Z",
+        "lastUpdated": "2026-11-24T08:01:07.000Z",
         "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
         "name": "NetBank Saver",
         "description": "An online savings account with the flexibility to move money in and out of your linked CommBank transaction account using NetBank or the CommBank app.",
@@ -16462,7 +16462,7 @@
           }
         ],
         "productId": "b31f8ddfc16b4121a0522fdc4af6cf7e",
-        "lastUpdated": "2026-11-23T12:00:10.000Z",
+        "lastUpdated": "2026-11-24T12:00:49.000Z",
         "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
         "name": "Business Online Saver",
         "description": "A business savings account that can help you manage cash flow and set aside money for tax payments.",
@@ -16838,7 +16838,7 @@
           },
           {
             "depositRateType": "VARIABLE",
-            "rate": "0.02125",
+            "rate": "0.03625",
             "calculationFrequency": "P1D",
             "applicationType": "PERIODIC",
             "applicationFrequency": "P1M",
@@ -16856,7 +16856,7 @@
           },
           {
             "depositRateType": "VARIABLE",
-            "rate": "0.03125",
+            "rate": "0.04625",
             "calculationFrequency": "P1D",
             "applicationType": "PERIODIC",
             "applicationFrequency": "P1M",
@@ -16874,7 +16874,7 @@
           },
           {
             "depositRateType": "VARIABLE",
-            "rate": "0.04125",
+            "rate": "0.05625",
             "calculationFrequency": "P1D",
             "applicationType": "PERIODIC",
             "applicationFrequency": "P1M",
@@ -16937,7 +16937,7 @@
           },
           {
             "lendingRateType": "VARIABLE",
-            "rate": "0.105",
+            "rate": "0.10575",
             "calculationFrequency": "P1D",
             "applicationType": "PERIODIC",
             "applicationFrequency": "P1M",
@@ -16948,7 +16948,7 @@
           },
           {
             "lendingRateType": "VARIABLE",
-            "rate": "0.1098",
+            "rate": "0.1092",
             "calculationFrequency": "P1D",
             "applicationType": "PERIODIC",
             "applicationFrequency": "P1M",
@@ -16959,7 +16959,7 @@
           },
           {
             "lendingRateType": "VARIABLE",
-            "rate": "0.1111",
+            "rate": "0.111",
             "calculationFrequency": "P1D",
             "applicationType": "PERIODIC",
             "applicationFrequency": "P1M",
@@ -16970,7 +16970,7 @@
           },
           {
             "lendingRateType": "VARIABLE",
-            "rate": "0.113",
+            "rate": "0.11375",
             "calculationFrequency": "P1D",
             "applicationType": "PERIODIC",
             "applicationFrequency": "P1M",
@@ -16981,24 +16981,24 @@
           },
           {
             "lendingRateType": "VARIABLE",
-            "rate": "0.11435",
-            "calculationFrequency": "P1D",
-            "applicationType": "PERIODIC",
-            "applicationFrequency": "P1M",
-            "repaymentType": "OTHER",
-            "loanPurpose": "OTHER",
-            "additionalInfo": "Applicable to currency HKD",
-            "additionalInfoUri": "https://www.commbank.com.au/business/international/international-payments/foreign-currency-accounts.html#rates"
-          },
-          {
-            "lendingRateType": "VARIABLE",
-            "rate": "0.1145",
+            "rate": "0.11475",
             "calculationFrequency": "P1D",
             "applicationType": "PERIODIC",
             "applicationFrequency": "P1M",
             "repaymentType": "OTHER",
             "loanPurpose": "OTHER",
             "additionalInfo": "Applicable to currency EUR",
+            "additionalInfoUri": "https://www.commbank.com.au/business/international/international-payments/foreign-currency-accounts.html#rates"
+          },
+          {
+            "lendingRateType": "VARIABLE",
+            "rate": "0.1163",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "repaymentType": "OTHER",
+            "loanPurpose": "OTHER",
+            "additionalInfo": "Applicable to currency HKD",
             "additionalInfoUri": "https://www.commbank.com.au/business/international/international-payments/foreign-currency-accounts.html#rates"
           },
           {
@@ -17042,23 +17042,23 @@
             "applicationFrequency": "P1M",
             "repaymentType": "OTHER",
             "loanPurpose": "OTHER",
-            "additionalInfo": "Applicable to currency USD",
-            "additionalInfoUri": "https://www.commbank.com.au/business/international/international-payments/foreign-currency-accounts.html#rates"
-          },
-          {
-            "lendingRateType": "VARIABLE",
-            "rate": "0.13",
-            "calculationFrequency": "P1D",
-            "applicationType": "PERIODIC",
-            "applicationFrequency": "P1M",
-            "repaymentType": "OTHER",
-            "loanPurpose": "OTHER",
             "additionalInfo": "Applicable to currency GBP",
             "additionalInfoUri": "https://www.commbank.com.au/business/international/international-payments/foreign-currency-accounts.html#rates"
           },
           {
             "lendingRateType": "VARIABLE",
-            "rate": "0.134153",
+            "rate": "0.1288",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "repaymentType": "OTHER",
+            "loanPurpose": "OTHER",
+            "additionalInfo": "Applicable to currency USD",
+            "additionalInfoUri": "https://www.commbank.com.au/business/international/international-payments/foreign-currency-accounts.html#rates"
+          },
+          {
+            "lendingRateType": "VARIABLE",
+            "rate": "0.134112",
             "calculationFrequency": "P1D",
             "applicationType": "PERIODIC",
             "applicationFrequency": "P1M",
@@ -17069,18 +17069,7 @@
           },
           {
             "lendingRateType": "VARIABLE",
-            "rate": "0.14125",
-            "calculationFrequency": "P1D",
-            "applicationType": "PERIODIC",
-            "applicationFrequency": "P1M",
-            "repaymentType": "OTHER",
-            "loanPurpose": "OTHER",
-            "additionalInfo": "Applicable to currency ZAR",
-            "additionalInfoUri": "https://www.commbank.com.au/business/international/international-payments/foreign-currency-accounts.html#rates"
-          },
-          {
-            "lendingRateType": "VARIABLE",
-            "rate": "0.143401",
+            "rate": "0.143236",
             "calculationFrequency": "P1D",
             "applicationType": "PERIODIC",
             "applicationFrequency": "P1M",
@@ -17091,7 +17080,7 @@
           },
           {
             "lendingRateType": "VARIABLE",
-            "rate": "0.1454",
+            "rate": "0.14595",
             "calculationFrequency": "P1D",
             "applicationType": "PERIODIC",
             "applicationFrequency": "P1M",
@@ -17099,10 +17088,21 @@
             "loanPurpose": "OTHER",
             "additionalInfo": "Applicable to currency HUF",
             "additionalInfoUri": "https://www.commbank.com.au/business/international/international-payments/foreign-currency-accounts.html#rates"
+          },
+          {
+            "lendingRateType": "VARIABLE",
+            "rate": "0.15625",
+            "calculationFrequency": "P1D",
+            "applicationType": "PERIODIC",
+            "applicationFrequency": "P1M",
+            "repaymentType": "OTHER",
+            "loanPurpose": "OTHER",
+            "additionalInfo": "Applicable to currency ZAR",
+            "additionalInfoUri": "https://www.commbank.com.au/business/international/international-payments/foreign-currency-accounts.html#rates"
           }
         ],
         "productId": "b9e5529bf94f46e5a30b1baea8db0df5",
-        "lastUpdated": "2026-11-23T02:15:37.000Z",
+        "lastUpdated": "2026-11-24T13:00:19.000Z",
         "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
         "name": "Foreign Currency Account (Business)",
         "description": "A flexible way to make, receive and convert regular payments in foreign currencies.",
@@ -17301,7 +17301,7 @@
           }
         ],
         "productId": "bfb76d44264b45b7b8edd61dca13aa94",
-        "lastUpdated": "2026-11-23T09:00:22.000Z",
+        "lastUpdated": "2026-11-24T09:00:53.000Z",
         "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
         "name": "Capital Growth Account",
         "description": "An account that lets you save and top-up your balance, with flexibility to access your funds by providing notice.",
@@ -17468,7 +17468,7 @@
           }
         ],
         "productId": "c46aece72af442a8a7253d61d502f800",
-        "lastUpdated": "2026-11-23T02:15:36.000Z",
+        "lastUpdated": "2026-11-24T02:15:36.000Z",
         "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
         "name": "Cash Deposit Account (At Call)",
         "description": "A choice of investment alternatives within one account with competitive interest rates.",
@@ -17609,7 +17609,7 @@
           }
         ],
         "productId": "c50e04c305df4bc9bb045492e3b12d55",
-        "lastUpdated": "2026-11-23T02:15:36.000Z",
+        "lastUpdated": "2026-11-24T02:15:36.000Z",
         "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
         "name": "Cash Deposit Account (Fixed Term)",
         "description": "A choice of investment alternatives within one account with competitive interest rates.",
@@ -18044,7 +18044,7 @@
           }
         ],
         "productId": "c50f2a2cf77c47248ebbb565d2d6c1cb",
-        "lastUpdated": "2026-11-23T02:15:37.000Z",
+        "lastUpdated": "2026-11-24T02:15:37.000Z",
         "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
         "name": "Commonwealth Private Bank Account",
         "description": "The Commonwealth Private Bank Account is an interest bearing transaction account which pays a banded interest rate and is exclusively available to Commonwealth Private Bank clients.",
@@ -18233,7 +18233,7 @@
           }
         ],
         "productId": "cea8baa02cca4e0990372984db2b0bf2",
-        "lastUpdated": "2026-11-23T02:15:37.000Z",
+        "lastUpdated": "2026-11-24T02:15:37.000Z",
         "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
         "name": "Farm Management Deposit account (At Call)",
         "description": "A tax-effective investment that allows primary producers to set aside pre-tax income as a cash reserve for later years.",
@@ -18639,7 +18639,7 @@
           }
         ],
         "productId": "da527ba1942246edac4d5da36dbc1da8",
-        "lastUpdated": "2026-11-23T14:00:52.000Z",
+        "lastUpdated": "2026-11-24T13:00:09.000Z",
         "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
         "name": "Commonwealth Direct Investment Account",
         "description": "A cash management account for investors allowing you to trade and transact when and where it suits you.",
@@ -18960,7 +18960,7 @@
           }
         ],
         "productId": "e78c63efd0f64a32a9db0899e2caf301",
-        "lastUpdated": "2026-11-23T02:15:37.000Z",
+        "lastUpdated": "2026-11-24T02:15:37.000Z",
         "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
         "name": "Society Cheque Account",
         "description": "A transaction account for eligible not-for-profit and community organisations and associations, and organisations that operate for the benefit of the wider community. You can set one up in any of our branches.",
@@ -19286,7 +19286,7 @@
           }
         ],
         "productId": "ed65bdaefe1d4b2d83cdcd384c9d582d",
-        "lastUpdated": "2026-11-23T02:15:37.000Z",
+        "lastUpdated": "2026-11-24T02:15:37.000Z",
         "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
         "name": "Everyday Offset",
         "description": "Everyday Offset is a transaction account which is linked to an eligible home loan, and account holder(s) must also be account holders of the linked home loan. Interest is not charged on the part of the Home Loan balance equal to the Transaction account. Full terms and conditions for transaction and savings accounts are available at CommBank.com.au or from any branch of the Commonwealth Bank. Fees and charges apply.",
@@ -19698,7 +19698,7 @@
           }
         ],
         "productId": "f70238d4ee324ad99af6ee0f01f7cdde",
-        "lastUpdated": "2026-11-23T02:15:37.000Z",
+        "lastUpdated": "2026-11-24T08:01:00.000Z",
         "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
         "name": "Business Transaction Account",
         "description": "An everyday business bank account that you can open online, which provides unlimited electronic transactions and 5 assisted transactions on a monthly basis for customers on the $10 monthly account fee pricing option. Fees and charges will apply if you exceed this amount. Customers with the $0 monthly account fee pricing option will not have included assisted transactions - each assisted transaction will be chargeable. Please note Access, CommBiz and NetBank Service Fees may apply and are excluded from the unlimited electronic transactions.",
@@ -20330,7 +20330,7 @@
           }
         ],
         "productId": "f889dd909d1d44858a2f2ad839dcda89",
-        "lastUpdated": "2026-11-23T02:15:37.000Z",
+        "lastUpdated": "2026-11-24T08:01:05.000Z",
         "productCategory": "TERM_DEPOSITS",
         "name": "Farm Management Deposit account (Fixed Term)",
         "description": "A tax-effective investment that allows primary producers to set aside pre-tax income as a cash reserve for later years.",

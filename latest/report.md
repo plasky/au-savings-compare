@@ -1,6 +1,6 @@
 # CDR product data — crawl report
 
-Crawled 2026-11-23T03:57:09.323Z · report 2026-11-23T03:57:10.909Z
+Crawled 2026-11-24T03:01:05.137Z · report 2026-11-24T03:01:06.985Z
 
 ## Coverage
 
@@ -11,10 +11,10 @@ Crawled 2026-11-23T03:57:09.323Z · report 2026-11-23T03:57:10.909Z
 | Unique product endpoints crawled | 306 |
 | Endpoints answering | 258 / 306 |
 | In-scope products (savings/transaction + term deposits) | TRANS_AND_SAVINGS_ACCOUNTS: 886, TERM_DEPOSITS: 653 |
-| Product details fetched | 1538 ok, 1 failed |
-| Products with deposit rates | TRANS_AND_SAVINGS_ACCOUNTS: 753, TERM_DEPOSITS: 645 |
+| Product details fetched | 1537 ok, 2 failed |
+| Products with deposit rates | TRANS_AND_SAVINGS_ACCOUNTS: 752, TERM_DEPOSITS: 645 |
 | List endpoint versions (x-v) | 5: 254, 3: 2, 4: 2 |
-| Detail endpoint versions (x-v) | 7: 1470, 6: 38, 5: 16, 4: 13, none: 1 |
+| Detail endpoint versions (x-v) | 7: 1470, 6: 38, 5: 16, 4: 13 |
 | Browser-callable (CORS ok with x-v) | 241 / 258 |
 
 ### Endpoints that failed
@@ -74,10 +74,10 @@ Crawled 2026-11-23T03:57:09.323Z · report 2026-11-23T03:57:10.909Z
 
 | Category | Rows by depositRateType |
 | --- | --- |
-| TRANS_AND_SAVINGS_ACCOUNTS | VARIABLE: 1788, BONUS: 249, FIXED: 102, INTRODUCTORY: 41, BUNDLE_BONUS: 3 |
+| TRANS_AND_SAVINGS_ACCOUNTS | VARIABLE: 1780, BONUS: 249, FIXED: 102, INTRODUCTORY: 41, BUNDLE_BONUS: 3 |
 | TERM_DEPOSITS | FIXED: 6307, VARIABLE: 60, INTRODUCTORY: 33, BONUS: 10, MARKET_LINKED: 1 |
 
-Tier application methods: WHOLE_BALANCE: 10107, PER_TIER: 1024
+Tier application methods: WHOLE_BALANCE: 10094, PER_TIER: 1025
 
 ## Bonus conditions
 
@@ -91,17 +91,18 @@ Structured condition types: MIN_DEPOSIT_AMOUNT: 95, DEPOSIT_BALANCE_INCREASED: 5
 
 | Needing judgement | Reviewed | Rates changed only (review kept) | Changed since review | Queued (≥3.0%) | Below threshold |
 | --- | --- | --- | --- | --- | --- |
-| 165 | 164 | 1 | 1 | 1 | 0 |
+| 165 | 163 | 4 | 2 | 2 | 0 |
 
 | Brand | Product | Headline | Why |
 | --- | --- | --- | --- |
 | Bankwest | Bankwest Easy Saver | 11.50% | bonus/intro rows |
+| IMB Bank | Reward Saver Kick Start | 6.20% | bonus/intro rows |
 
 ## Data-quality flags
 
 | Flag | Count | Meaning |
 | --- | --- | --- |
-| DETAIL_MISSING | 1 | In-scope product whose detail request failed |
+| DETAIL_MISSING | 2 | In-scope product whose detail request failed |
 | NO_DEPOSIT_RATES | 140 | Product detail has no depositRates (common for transaction accounts; a problem for savings/TDs) |
 | RATE_LOOKS_LIKE_PERCENT | 15 | Rate above 25% — probably published as a percentage ("5.33") instead of a fraction ("0.0533") |
 | SAVINGS_WITHOUT_BASE | 6 | Savings/transaction product with rates but no base (FIXED/VARIABLE/FLOATING/MARKET_LINKED) rate |
@@ -114,11 +115,12 @@ Structured condition types: MIN_DEPOSIT_AMOUNT: 95, DEPOSIT_BALANCE_INCREASED: 5
 | OVERLAPPING_BASE_ROWS | 21 | Several different base rates apply at the same balance — plan or eligibility alternatives that need disambiguating |
 | INTRO_MAYBE_TOTAL | 19 | Introductory rate of 3%+ — probably published as the total rate rather than an add-on to base |
 | NON_AUD_PRODUCT | 41 | Foreign-currency product (to exclude) |
-| NON_PERSONAL_PRODUCT | 375 | Business / SMSF / trust / organisation product (to exclude for a household) |
+| NON_PERSONAL_PRODUCT | 374 | Business / SMSF / trust / organisation product (to exclude for a household) |
 
 <details><summary>DETAIL_MISSING — examples</summary>
 
 - Bank of Sydney — usd_fccy_account: http-406 (PCUA006 | Unsupported Version | Unable to find the version requested in x-v)
+- Westpac — SavComSolCashRes: http-404 (404 | Resource Not Found | Product not found)
 
 </details>
 
@@ -151,7 +153,7 @@ Structured condition types: MIN_DEPOSIT_AMOUNT: 95, DEPOSIT_BALANCE_INCREASED: 5
 - IMB Bank — Christmas Club Account
 - My State PM Production — Bonus Saver
 - Summerland Bank — Bonus Saver
-- UBank — Save account
+- Ubank — Save account
 
 </details>
 
@@ -271,25 +273,25 @@ Headline = base + stacked bonuses (+ intro where present), assuming all conditio
 | Bendigo Bank | Bendigo Reward Saver | 0.10% | 10.30% | — | 10.40% | 2 bonuses stacked |
 | Defence Bank Limited | Salute Account | 4.25% | 6.00% | — | 10.25% |  |
 | ING BANK (Australia) Ltd | Savings Booster | 2.75% | 3.15% | 0.60% | 6.50% |  |
-| UBank | Save account | — | 5.60% | 0.90% | 6.50% |  |
+| Ubank | Save account | — | 5.60% | 0.90% | 6.50% |  |
 | Bankwest | Bankwest Easy Saver | 5.50% | 0.10% | 0.75% | 6.35% |  |
 | Virgin Money Australia | Virgin Money Boost Saver | 0.05% | 6.25% | — | 6.30% | 2 bonuses stacked |
 | Westpac | Westpac eSaver | 1.25% | 1.00% | 4.05% | 6.30% | 2 bonuses stacked; intro may be total |
 | Bank of Queensland | Future Saver Account | 0.05% | 6.20% | — | 6.25% |  |
 | Newcastle Permanent | Smart Saver Account (under 25) | 0.05% | 6.20% | — | 6.25% |  |
+| IMB Bank | Reward Saver Kick Start | 0.00% | 6.20% | — | 6.20% | 2 bonuses stacked |
 | Westpac | Westpac Life | 0.10% | 6.10% | — | 6.20% | 2 bonuses stacked |
 | Bank Australia | Bonus Saver | 0.10% | 5.50% | 0.50% | 6.10% |  |
 | Defence Bank Limited | iSaver | 0.50% | 5.60% | — | 6.10% |  |
 | ING BANK (Australia) Ltd | Savings Maximiser | 0.01% | 5.99% | — | 6.00% |  |
 | Rabobank | PremiumSaver | 0.90% | 5.00% | — | 5.90% |  |
+| Bank First Production | Strong Start Saver | 5.90% | — | — | 5.90% |  |
 | Bank of Melbourne | Maxi Saver | 1.25% | 0.45% | 4.15% | 5.85% | intro may be total |
 | Bank of Queensland | Smart Saver Account | 0.05% | 5.80% | — | 5.85% |  |
 | BankSA | Maxi Saver | 1.25% | 0.45% | 4.15% | 5.85% | intro may be total |
 | bcu | Bonus Saver | 0.05% | — | 5.80% | 5.85% | intro may be total |
 | ME Bank | HomeME | 0.05% | 5.80% | — | 5.85% |  |
 | P&N Bank | Hi Saver Account | 0.05% | — | 5.80% | 5.85% | intro may be total |
-| QBANK | Intro Saver | 5.85% | — | — | 5.85% |  |
-| St.George Bank | Maxi Saver | 1.25% | 0.45% | 4.15% | 5.85% | intro may be total |
 
 ## Top 12-month term deposits (personal AUD products)
 
@@ -302,13 +304,13 @@ Headline = base + stacked bonuses (+ intro where present), assuming all conditio
 | AMP Bank GO | AMP Bank GO 12 Month Term Deposit | 5.70% | at maturity |
 | SCCU | TERM DEPOSIT | 5.70% | at maturity; TERM DEPOSIT_Tier: $5,000–$20,000,000 (WHOLE_BALANCE); TERM DEPOSIT_Tier: 12… |
 | Heartland Bank | Term Deposit | 5.62% | at maturity; Term: 12 month–12 month (WHOLE_BALANCE); Amount: $5,000–∞ (WHOLE_BALANCE) |
+| AMB Bank Product  | Teen Plus | 5.60% | at maturity; Tier 1: $500–∞ (WHOLE_BALANCE) |
+| AMB Bank Product  | Investment Plus | 5.60% | at maturity; Tier 1: $1,000–∞ (WHOLE_BALANCE) |
 | Community First Credit Union | 12 Month Term Deposit Special | 5.60% | P12M; 12 Month Term Deposit Special_Tier: $10,000–$2,000,000 (WHOLE_BALANCE); 12 Month Te… |
 | WARWICK CREDIT UNION | FIXED TERM DEPOSITS | 5.60% | at maturity; FIXED TERM DEPOSITS_Tier: $200,000–$500,000 (WHOLE_BALANCE); FIXED TERM DEPO… |
 | QBANK | Term Deposit 12 Month | 5.60% | at maturity; Term Deposit 12 Month_Tier_3: $250,000–$9,999,999 (WHOLE_BALANCE); Term Depo… |
+| RSL Money Prod | RSL Sub-Branch Investment Plus | 5.60% | at maturity; Tier 1: $1,000–∞ (WHOLE_BALANCE) |
+| RSL Money Prod | RSL Sub-Branch Income Plus | 5.60% | P1Y; Tier 1: $1,000–∞ (WHOLE_BALANCE) |
+| RSL Money Prod | RSL Member Investment Plus | 5.60% | at maturity; Tier 1: $1,000–∞ (WHOLE_BALANCE) |
+| RSL Money Prod | RSL Member Income Plus | 5.60% | P1Y; Tier 1: $1,000–∞ (WHOLE_BALANCE) |
 | Bank First Production | Preschool Long Service Leave 1 Year Term Deposit | 5.55% | at maturity |
-| Bank First Production | 1 Year Term Deposit | 5.55% | at maturity; 1 Year Term Deposit: 365 day–365 day (WHOLE_BALANCE); 1 Year Term Deposit: $… |
-| Dnister | Term Deposit - 12 Months | 5.55% | at maturity; Interest Rate: $1,000–$1,000,000 (PER_TIER) |
-| Heartland Bank | Broker Term Deposit | 5.55% | at maturity; Term: 12 month–12 month (WHOLE_BALANCE); Amount: $10,000–$2,000,000 (WHOLE_B… |
-| Qudos Bank | Term Deposits | 5.55% | at maturity; 12 Months Interest Paid At Maturity: $500–∞ (WHOLE_BALANCE); 12 Months Inter… |
-| Alex.Bank | Term Deposit - Intermediary | 5.50% | at maturity; Amount: $10,000–$500,000 |
-| Australian Mutual Bank | Term Deposit for Edvest Members | 5.50% | P12M; Term Deposit for Edvest Members_Tier_1: $1,000–$4,999.99 (WHOLE_BALANCE); Term Depo… |

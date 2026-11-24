@@ -21,10 +21,10 @@
     "productCount": 30,
     "categoryCounts": {
       "TERM_DEPOSITS": 3,
+      "CRED_AND_CHRG_CARDS": 1,
       "PERS_LOANS": 4,
       "RESIDENTIAL_MORTGAGES": 16,
-      "TRANS_AND_SAVINGS_ACCOUNTS": 6,
-      "CRED_AND_CHRG_CARDS": 1
+      "TRANS_AND_SAVINGS_ACCOUNTS": 6
     }
   },
   "products": [
@@ -524,7 +524,7 @@
       "productCategory": "TERM_DEPOSITS",
       "detail": {
         "productId": "547fbdc8-8e95-4f1f-9481-df8c742394ba",
-        "lastUpdated": "2026-11-11T00:41:54.000+11:00",
+        "lastUpdated": "2026-11-24T13:47:03.000+11:00",
         "productCategory": "TERM_DEPOSITS",
         "name": "Term Deposit for Customers",
         "description": "Take advantage of great returns on our term deposits.",
@@ -3731,7 +3731,7 @@
       "productCategory": "TERM_DEPOSITS",
       "detail": {
         "productId": "e556280d-1d2b-4fb1-b22f-151e8050bdda",
-        "lastUpdated": "2026-11-11T00:20:03.000+11:00",
+        "lastUpdated": "2026-11-24T13:46:48.000+11:00",
         "productCategory": "TERM_DEPOSITS",
         "name": "Term Deposit for Edvest Members",
         "description": "Take advantage of great returns on our term deposits.",

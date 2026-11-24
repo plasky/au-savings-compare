@@ -20,8 +20,8 @@
     "pagesFetched": 1,
     "productCount": 48,
     "categoryCounts": {
-      "TRANS_AND_SAVINGS_ACCOUNTS": 9,
       "RESIDENTIAL_MORTGAGES": 25,
+      "TRANS_AND_SAVINGS_ACCOUNTS": 9,
       "TERM_DEPOSITS": 1,
       "PERS_LOANS": 10,
       "CRED_AND_CHRG_CARDS": 3
@@ -419,8 +419,9 @@
         "bundles": [],
         "features": [
           {
-            "featureType": "UNLIMITED_TXNS",
-            "additionalInfoUri": "https://www.creditunionsa.com.au/accounts/transaction-accounts/55-account/"
+            "featureType": "DIGITAL_WALLET",
+            "additionalValue": "Google Pay",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/tools/digital-wallet/"
           },
           {
             "featureType": "CARD_ACCESS",
@@ -433,13 +434,12 @@
             "additionalInfoUri": "https://www.creditunionsa.com.au/accounts/transaction-accounts/55-account/"
           },
           {
-            "featureType": "DIGITAL_WALLET",
-            "additionalValue": "Apple Pay",
-            "additionalInfoUri": "https://www.creditunionsa.com.au/tools/digital-wallet/"
+            "featureType": "UNLIMITED_TXNS",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/accounts/transaction-accounts/55-account/"
           },
           {
             "featureType": "DIGITAL_WALLET",
-            "additionalValue": "Google Pay",
+            "additionalValue": "Apple Pay",
             "additionalInfoUri": "https://www.creditunionsa.com.au/tools/digital-wallet/"
           },
           {
@@ -1591,6 +1591,19 @@
         "eligibility": [],
         "fees": [
           {
+            "name": "Paper Statement",
+            "feeType": "PERIODIC",
+            "currency": "AUD",
+            "additionalValue": "Paper Statement Fee",
+            "additionalInfo": "If you have not opted in for eStatements and we send a paper statements to your nominated postal address we have on record. Note: An electronic statement can be requested at any time with no fee payable.",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/fees/other-fees/",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "2.00"
+            },
+            "discounts": []
+          },
+          {
             "name": "Deposit Periodic",
             "feeType": "PERIODIC",
             "currency": "AUD",
@@ -1656,19 +1669,6 @@
                 "feeMinimum": "0.01",
                 "feeMaximum": "9999999.99"
               }
-            },
-            "discounts": []
-          },
-          {
-            "name": "Paper Statement",
-            "feeType": "PERIODIC",
-            "currency": "AUD",
-            "additionalValue": "Paper Statement Fee",
-            "additionalInfo": "If you have not opted in for eStatements and we send a paper statements to your nominated postal address we have on record. Note: An electronic statement can be requested at any time with no fee payable.",
-            "additionalInfoUri": "https://www.creditunionsa.com.au/fees/other-fees/",
-            "feeMethodUType": "fixedAmount",
-            "fixedAmount": {
-              "amount": "2.00"
             },
             "discounts": []
           },
@@ -1837,6 +1837,19 @@
         ],
         "fees": [
           {
+            "name": "Deposit Periodic",
+            "feeType": "PERIODIC",
+            "currency": "AUD",
+            "additionalValue": "No monthly or annual fees",
+            "additionalInfo": "Where permitted by the account terms and conditions, you can perform unlimited transactions of the following types and we will not charge you a transaction fee: ATM enquiry, ATM transfer, ATM withdrawal, Bank@Post deposit, Bank@Post withdrawal, BPAY payment, branch deposit, branch transfer, branch withdrawal, corporate cheque, direct credit, direct debit, EFTPOS cash withdrawal, EFTPOS purchase, internet banking transfer, overseas ATM enquiry, overseas ATM withdrawal, Member Contact Centre transfer or payment, mobile banking transfer, periodical payment, phone banking transfer, Visa debit cash advance, Visa debit purchase. Not all transaction types are permitted on all accounts.",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/fees/accounts/",
+            "feeMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "0.00"
+            },
+            "discounts": []
+          },
+          {
             "name": "Transaction",
             "feeType": "TRANSACTION",
             "currency": "AUD",
@@ -1858,19 +1871,6 @@
             "feeMethodUType": "fixedAmount",
             "fixedAmount": {
               "amount": "15.00"
-            },
-            "discounts": []
-          },
-          {
-            "name": "Deposit Periodic",
-            "feeType": "PERIODIC",
-            "currency": "AUD",
-            "additionalValue": "No monthly or annual fees",
-            "additionalInfo": "Where permitted by the account terms and conditions, you can perform unlimited transactions of the following types and we will not charge you a transaction fee: ATM enquiry, ATM transfer, ATM withdrawal, Bank@Post deposit, Bank@Post withdrawal, BPAY payment, branch deposit, branch transfer, branch withdrawal, corporate cheque, direct credit, direct debit, EFTPOS cash withdrawal, EFTPOS purchase, internet banking transfer, overseas ATM enquiry, overseas ATM withdrawal, Member Contact Centre transfer or payment, mobile banking transfer, periodical payment, phone banking transfer, Visa debit cash advance, Visa debit purchase. Not all transaction types are permitted on all accounts.",
-            "additionalInfoUri": "https://www.creditunionsa.com.au/fees/accounts/",
-            "feeMethodUType": "fixedAmount",
-            "fixedAmount": {
-              "amount": "0.00"
             },
             "discounts": []
           },

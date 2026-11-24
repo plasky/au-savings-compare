@@ -33,7 +33,7 @@
         "brand": "RSL",
         "description": "As part of our ongoing commitment to the Returned & Services League of Australia, Australian Military Bank is proud to offer Sub Branches an exclusive offer on our Term Deposits. Make a solid return on your investment with interest paid on maturity or annually if your term is greater than 12 months.​",
         "isTailored": false,
-        "lastUpdated": "2026-10-20T13:00:00.503741Z",
+        "lastUpdated": "2026-11-23T22:43:39.712095Z",
         "name": "RSL Sub-Branch Investment Plus",
         "productCategory": "TERM_DEPOSITS",
         "productId": "0cf9e8d4-3a9d-4bbb-9b7c-3065f1a52a65",
@@ -228,11 +228,11 @@
           },
           {
             "depositRateType": "FIXED",
-            "rate": "0.0545",
+            "rate": "0.054",
             "additionalInfo": null,
             "additionalInfoUri": null,
-            "additionalValue": "P6M",
-            "applicationFrequency": "P6M",
+            "additionalValue": "P7M",
+            "applicationFrequency": "P7M",
             "calculationFrequency": "P1D",
             "tiers": [
               {
@@ -249,11 +249,11 @@
           },
           {
             "depositRateType": "FIXED",
-            "rate": "0.054",
+            "rate": "0.057",
             "additionalInfo": null,
             "additionalInfoUri": null,
-            "additionalValue": "P7M",
-            "applicationFrequency": "P7M",
+            "additionalValue": "P6M",
+            "applicationFrequency": "P6M",
             "calculationFrequency": "P1D",
             "tiers": [
               {
@@ -594,11 +594,11 @@
           },
           {
             "depositRateType": "FIXED",
-            "rate": "0.054",
+            "rate": "0.043",
             "additionalInfo": null,
             "additionalInfoUri": null,
-            "additionalValue": "P12M",
-            "applicationFrequency": "P1Y",
+            "additionalValue": "P5M",
+            "applicationFrequency": "P5M",
             "calculationFrequency": "P1D",
             "tiers": [
               {
@@ -615,11 +615,11 @@
           },
           {
             "depositRateType": "FIXED",
-            "rate": "0.043",
+            "rate": "0.056",
             "additionalInfo": null,
             "additionalInfoUri": null,
-            "additionalValue": "P5M",
-            "applicationFrequency": "P5M",
+            "additionalValue": "P12M",
+            "applicationFrequency": "P1Y",
             "calculationFrequency": "P1D",
             "tiers": [
               {
@@ -2044,7 +2044,7 @@
         "brand": "RSL",
         "description": "As part of our ongoing commitment to the Returned & Services League of Australia, Australian Military Bank is proud to offer Sub Branches an exclusive offer on our Term Deposits. Make a regular income on your savings with interest paid monthly.​",
         "isTailored": false,
-        "lastUpdated": "2026-10-20T13:00:00.482179Z",
+        "lastUpdated": "2026-11-23T22:44:36.065349Z",
         "name": "RSL Sub-Branch Income Plus",
         "productCategory": "TERM_DEPOSITS",
         "productId": "TRBMT",
@@ -2204,7 +2204,7 @@
           },
           {
             "depositRateType": "FIXED",
-            "rate": "0.054",
+            "rate": "0.056",
             "additionalInfo": null,
             "additionalInfoUri": null,
             "additionalValue": "P12M",
@@ -2225,7 +2225,7 @@
           },
           {
             "depositRateType": "FIXED",
-            "rate": "0.0545",
+            "rate": "0.057",
             "additionalInfo": null,
             "additionalInfoUri": null,
             "additionalValue": "P6M",
@@ -2426,7 +2426,7 @@
         "brand": "RSL",
         "description": "As part of our ongoing commitment to the Returned & Services League of Australia, Australian Military Bank is proud to offer Sub Branch members and their spouses an exclusive offer on our Term Deposits. Receiving bonus interest on your investment, you can be sure that Australian Military Bank’s Term Deposits are reliable and secure. Make a solid return on your investment with interest paid on maturity or annually if your term is greater than 12 months.",
         "isTailored": false,
-        "lastUpdated": "2026-10-20T13:00:00.460737Z",
+        "lastUpdated": "2026-11-23T22:43:39.71209Z",
         "name": "RSL Member Investment Plus",
         "productCategory": "TERM_DEPOSITS",
         "productId": "TRPMA",
@@ -2621,11 +2621,11 @@
           },
           {
             "depositRateType": "FIXED",
-            "rate": "0.0545",
+            "rate": "0.054",
             "additionalInfo": null,
             "additionalInfoUri": null,
-            "additionalValue": "P6M",
-            "applicationFrequency": "P6M",
+            "additionalValue": "P7M",
+            "applicationFrequency": "P7M",
             "calculationFrequency": "P1D",
             "tiers": [
               {
@@ -2642,11 +2642,11 @@
           },
           {
             "depositRateType": "FIXED",
-            "rate": "0.054",
+            "rate": "0.057",
             "additionalInfo": null,
             "additionalInfoUri": null,
-            "additionalValue": "P7M",
-            "applicationFrequency": "P7M",
+            "additionalValue": "P6M",
+            "applicationFrequency": "P6M",
             "calculationFrequency": "P1D",
             "tiers": [
               {
@@ -2987,11 +2987,11 @@
           },
           {
             "depositRateType": "FIXED",
-            "rate": "0.054",
+            "rate": "0.043",
             "additionalInfo": null,
             "additionalInfoUri": null,
-            "additionalValue": "P12M",
-            "applicationFrequency": "P1Y",
+            "additionalValue": "P5M",
+            "applicationFrequency": "P5M",
             "calculationFrequency": "P1D",
             "tiers": [
               {
@@ -3008,11 +3008,11 @@
           },
           {
             "depositRateType": "FIXED",
-            "rate": "0.043",
+            "rate": "0.056",
             "additionalInfo": null,
             "additionalInfoUri": null,
-            "additionalValue": "P5M",
-            "applicationFrequency": "P5M",
+            "additionalValue": "P12M",
+            "applicationFrequency": "P1Y",
             "calculationFrequency": "P1D",
             "tiers": [
               {
@@ -3291,7 +3291,7 @@
         "brand": "RSL",
         "description": "As part of our ongoing commitment to the Returned & Services League of Australia, Australian Military Bank is proud to offer Sub Branch members and their spouses an exclusive offer on our Term Deposits. Receiving bonus interest on your investment, you can be sure that Australian Military Bank’s Term Deposits are reliable and secure. Make a regular income on your savings with interest paid monthly.​",
         "isTailored": false,
-        "lastUpdated": "2026-10-20T13:00:00.503733Z",
+        "lastUpdated": "2026-11-23T22:44:36.065363Z",
         "name": "RSL Member Income Plus",
         "productCategory": "TERM_DEPOSITS",
         "productId": "TRPMT",
@@ -3451,7 +3451,7 @@
           },
           {
             "depositRateType": "FIXED",
-            "rate": "0.054",
+            "rate": "0.056",
             "additionalInfo": null,
             "additionalInfoUri": null,
             "additionalValue": "P12M",
@@ -3472,7 +3472,7 @@
           },
           {
             "depositRateType": "FIXED",
-            "rate": "0.0545",
+            "rate": "0.057",
             "additionalInfo": null,
             "additionalInfoUri": null,
             "additionalValue": "P6M",

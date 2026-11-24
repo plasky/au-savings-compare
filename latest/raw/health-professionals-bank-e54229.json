@@ -20,11 +20,11 @@
     "pagesFetched": 1,
     "productCount": 30,
     "categoryCounts": {
-      "TERM_DEPOSITS": 3,
-      "PERS_LOANS": 4,
-      "RESIDENTIAL_MORTGAGES": 16,
       "TRANS_AND_SAVINGS_ACCOUNTS": 6,
-      "CRED_AND_CHRG_CARDS": 1
+      "TERM_DEPOSITS": 3,
+      "CRED_AND_CHRG_CARDS": 1,
+      "PERS_LOANS": 4,
+      "RESIDENTIAL_MORTGAGES": 16
     }
   },
   "products": [
@@ -596,7 +596,7 @@
       "productCategory": "TERM_DEPOSITS",
       "detail": {
         "productId": "933409b9-7d24-46cd-8d38-5a5b645f1b97",
-        "lastUpdated": "2026-11-11T00:41:54.000+11:00",
+        "lastUpdated": "2026-11-24T13:45:30.000+11:00",
         "productCategory": "TERM_DEPOSITS",
         "name": "Term Deposit for Customers",
         "description": "Take advantage of great returns on our term deposits.",
@@ -2346,7 +2346,7 @@
       "productCategory": "TERM_DEPOSITS",
       "detail": {
         "productId": "d45a38f4-5462-4883-8239-7eaea4e2871b",
-        "lastUpdated": "2026-11-11T00:20:03.000+11:00",
+        "lastUpdated": "2026-11-24T13:45:47.000+11:00",
         "productCategory": "TERM_DEPOSITS",
         "name": "Term Deposit for Edvest Members",
         "description": "Take advantage of great returns on our term deposits.",
@@ -5126,7 +5126,7 @@
       "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
       "detail": {
         "productId": "f79ad2ac-29f3-4580-b847-118566c38adf",
-        "lastUpdated": "2026-11-12T07:31:01.000+11:00",
+        "lastUpdated": "2026-11-24T13:46:30.000+11:00",
         "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
         "name": "Essential Saver account",
         "description": "An interest bearing online savings account with a tiered interest rate structure",

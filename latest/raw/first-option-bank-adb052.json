@@ -20,10 +20,10 @@
     "pagesFetched": 1,
     "productCount": 40,
     "categoryCounts": {
+      "TRANS_AND_SAVINGS_ACCOUNTS": 16,
       "RESIDENTIAL_MORTGAGES": 2,
       "PERS_LOANS": 6,
       "TERM_DEPOSITS": 12,
-      "TRANS_AND_SAVINGS_ACCOUNTS": 16,
       "BUSINESS_LOANS": 3,
       "CRED_AND_CHRG_CARDS": 1
     }
@@ -2927,7 +2927,7 @@
         ],
         "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
         "productId": "KIDS_BONUS_SAVER",
-        "lastUpdated": "2026-11-11T11:52:07.000+11:00",
+        "lastUpdated": "2026-11-25T10:17:30.000+11:00",
         "name": "KIDS BONUS SAVER",
         "description": "KIDS BONUS SAVER",
         "brand": "FIRST OPTION BANK LTD",

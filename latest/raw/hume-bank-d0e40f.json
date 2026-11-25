@@ -21,12 +21,12 @@
     "productCount": 160,
     "categoryCounts": {
       "BUSINESS_LOANS": 7,
-      "RESIDENTIAL_MORTGAGES": 115,
       "TRANS_AND_SAVINGS_ACCOUNTS": 11,
       "TERM_DEPOSITS": 19,
       "REGULATED_TRUST_ACCOUNTS": 1,
       "CRED_AND_CHRG_CARDS": 3,
-      "PERS_LOANS": 4
+      "PERS_LOANS": 4,
+      "RESIDENTIAL_MORTGAGES": 115
     }
   },
   "products": [

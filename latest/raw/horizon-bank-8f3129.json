@@ -1961,7 +1961,7 @@
           },
           {
             "depositRateType": "VARIABLE",
-            "rate": "0.02",
+            "rate": "0.022",
             "calculationFrequency": "P1D",
             "applicationType": "PERIODIC",
             "applicationFrequency": "P1M",
@@ -1978,7 +1978,7 @@
           },
           {
             "depositRateType": "VARIABLE",
-            "rate": "0.0225",
+            "rate": "0.0245",
             "calculationFrequency": "P1D",
             "applicationType": "PERIODIC",
             "applicationFrequency": "P1M",
@@ -1995,7 +1995,7 @@
           },
           {
             "depositRateType": "VARIABLE",
-            "rate": "0.0275",
+            "rate": "0.0295",
             "calculationFrequency": "P1D",
             "applicationType": "PERIODIC",
             "applicationFrequency": "P1M",
@@ -2308,7 +2308,7 @@
         "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
         "productId": "S7_S7001",
         "effectiveFrom": "2020-10-01T00:00:00.000+10:00",
-        "lastUpdated": "2026-11-18T16:38:20.000+11:00",
+        "lastUpdated": "2026-11-25T08:33:26.000+11:00",
         "name": "REWARD SAVER",
         "description": "The Reward Saver account rewards you for saving. Deposit just $50 per month and make no withdrawals to earn the reward rate.",
         "brand": "HORIZON BANK",

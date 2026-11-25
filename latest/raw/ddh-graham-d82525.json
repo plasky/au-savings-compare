@@ -13,13 +13,11 @@
     }
   ],
   "list": {
-    "ok": false,
-    "status": 401,
+    "ok": true,
+    "status": 200,
     "version": "5",
-    "error": "http-401",
-    "errorDetail": "EBAU001 | Error while fetching token | Error while fetching the authorisation token for the given tenantId",
     "totalPages": null,
-    "pagesFetched": 0,
+    "pagesFetched": 1,
     "productCount": 0,
     "categoryCounts": {}
   },

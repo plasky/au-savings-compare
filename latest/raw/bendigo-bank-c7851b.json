@@ -46,6 +46,7 @@
         "isTailored": false,
         "bundles": [],
         "cardArt": [],
+        "constraints": [],
         "features": [
           {
             "featureType": "DIGITAL_BANKING"
@@ -58,7 +59,6 @@
             "additionalValue": "A card is available for the product to access funds"
           }
         ],
-        "constraints": [],
         "eligibility": [
           {
             "eligibilityType": "EMPLOYMENT_STATUS",
@@ -70,7 +70,6 @@
             "additionalValue": "55"
           }
         ],
-        "lendingRates": [],
         "fees": [
           {
             "name": "Staff Assisted Transaction In Branch Fee",
@@ -213,6 +212,7 @@
             }
           }
         ],
+        "lendingRates": [],
         "depositRates": [
           {
             "depositRateType": "VARIABLE",
@@ -544,6 +544,7 @@
             "additionalValue": "10000.00"
           }
         ],
+        "eligibility": [],
         "features": [
           {
             "featureType": "OTHER",
@@ -551,8 +552,6 @@
             "additionalInfoUri": "https://www.bendigobank.com.au/globalassets/documents/interestrates/schedule-for-bendigo-foreign-currency-at-call-deposit-account.pdf"
           }
         ],
-        "eligibility": [],
-        "fees": [],
         "lendingRates": [],
         "depositRates": [
           {
@@ -564,6 +563,7 @@
             "applicationType": "PERIODIC"
           }
         ],
+        "fees": [],
         "additionalInformation": {
           "overviewUri": "https://www.bendigobank.com.au/business/manage-fx/",
           "termsUri": "https://www.bendigobank.com.au/disclosure-documents/",
@@ -589,6 +589,12 @@
         "isTailored": false,
         "bundles": [],
         "cardArt": [],
+        "features": [
+          {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": "*Existing customers only "
+          }
+        ],
         "constraints": [
           {
             "constraintType": "OPENING_BALANCE",
@@ -599,12 +605,6 @@
             "constraintType": "MIN_BALANCE",
             "additionalInfo": "*Minimum Balance to Maintain",
             "additionalValue": "1.00"
-          }
-        ],
-        "features": [
-          {
-            "featureType": "DIGITAL_BANKING",
-            "additionalInfo": "*Existing customers only "
           }
         ],
         "eligibility": [],
@@ -764,17 +764,6 @@
         "isTailored": false,
         "bundles": [],
         "cardArt": [],
-        "constraints": [
-          {
-            "constraintType": "OPENING_BALANCE",
-            "additionalValue": "1.00"
-          }
-        ],
-        "eligibility": [
-          {
-            "eligibilityType": "BUSINESS"
-          }
-        ],
         "features": [
           {
             "featureType": "OTHER",
@@ -816,6 +805,17 @@
           },
           {
             "featureType": "NPP_PAYID"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "BUSINESS"
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "OPENING_BALANCE",
+            "additionalValue": "1.00"
           }
         ],
         "fees": [
@@ -952,21 +952,6 @@
             "additionalInfo": "At call, no early withdrawal notice required."
           }
         ],
-        "constraints": [
-          {
-            "constraintType": "OPENING_BALANCE",
-            "additionalValue": "1000.00"
-          },
-          {
-            "constraintType": "MAX_BALANCE",
-            "additionalInfo": "The total of all FMD’s held in a client’s name must not exceed $800,000.",
-            "additionalValue": "800000.00"
-          },
-          {
-            "constraintType": "MIN_BALANCE",
-            "additionalValue": "1000.00"
-          }
-        ],
         "eligibility": [
           {
             "eligibilityType": "OTHER",
@@ -984,6 +969,21 @@
           {
             "eligibilityType": "OTHER",
             "additionalInfo": "Subject to farm management deposit scheme eligibility guidelines."
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "OPENING_BALANCE",
+            "additionalValue": "1000.00"
+          },
+          {
+            "constraintType": "MAX_BALANCE",
+            "additionalInfo": "The total of all FMD’s held in a client’s name must not exceed $800,000.",
+            "additionalValue": "800000.00"
+          },
+          {
+            "constraintType": "MIN_BALANCE",
+            "additionalValue": "1000.00"
           }
         ],
         "fees": [
@@ -1500,7 +1500,6 @@
             "additionalValue": "You need to be an Australian citizen or resident"
           }
         ],
-        "lendingRates": [],
         "fees": [
           {
             "name": "International ATM Withdrawal",
@@ -1624,6 +1623,7 @@
             }
           }
         ],
+        "lendingRates": [],
         "depositRates": [
           {
             "depositRateType": "VARIABLE",
@@ -1657,18 +1657,12 @@
         "brandName": "Bendigo Bank",
         "isTailored": true,
         "bundles": [],
-        "cardArt": [],
         "features": [
           {
             "featureType": "DIGITAL_BANKING"
           }
         ],
-        "constraints": [
-          {
-            "constraintType": "OPENING_BALANCE",
-            "additionalValue": "5000.00"
-          }
-        ],
+        "cardArt": [],
         "eligibility": [],
         "fees": [
           {
@@ -1692,6 +1686,12 @@
           }
         ],
         "lendingRates": [],
+        "constraints": [
+          {
+            "constraintType": "OPENING_BALANCE",
+            "additionalValue": "5000.00"
+          }
+        ],
         "depositRates": [
           {
             "depositRateType": "FIXED",
@@ -2049,7 +2049,6 @@
         ],
         "constraints": [],
         "eligibility": [],
-        "lendingRates": [],
         "fees": [
           {
             "name": "Staff Assisted Transaction In Branch Fee",
@@ -2186,6 +2185,7 @@
             }
           }
         ],
+        "lendingRates": [],
         "depositRates": [
           {
             "depositRateType": "VARIABLE",
@@ -4282,7 +4282,6 @@
             "featureType": "NPP_ENABLED"
           }
         ],
-        "constraints": [],
         "eligibility": [
           {
             "eligibilityType": "MAX_AGE",
@@ -4290,6 +4289,7 @@
             "additionalInfo": "Available to children under 12 years. Account must be opened in the childs names with a parent or guardian acting as a non-titled member."
           }
         ],
+        "constraints": [],
         "fees": [],
         "lendingRates": [],
         "depositRates": [

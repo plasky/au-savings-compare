@@ -29,7 +29,7 @@
       "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
       "detail": {
         "productId": "SAVING01",
-        "lastUpdated": "2026-11-12T13:00:00.000Z",
+        "lastUpdated": "2026-11-24T13:00:00.000Z",
         "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
         "name": "ANZ Plus Growth Saver",
         "description": "Get an ANZ Plus Growth Saver account to help smash your savings goals",
@@ -38,23 +38,11 @@
         "applicationUri": "https://anz.com/plus/products",
         "isTailored": false,
         "additionalInformation": {
-          "bundleUri": "https://anz.com/plus/products",
           "eligibilityUri": "https://anz.com/plus/terms",
           "feesAndPricingUri": "https://anz.com/plus/terms",
           "overviewUri": "https://anz.com/plus/products",
           "termsUri": "https://anz.com/plus/terms"
         },
-        "bundles": [
-          {
-            "additionalInfoUri": "https://anz.com/plus/products",
-            "description": "ANZ Plus bundle with a single ANZ Plus Everyday account, a single ANZ Plus Growth Saver account and a Visa Debit Consumer Standard Card attached as a service to the ANZ Plus Everyday account.",
-            "name": "ANZ Plus",
-            "productIds": [
-              "TRANSACT01",
-              "SAVING01"
-            ]
-          }
-        ],
         "features": [
           {
             "featureType": "DIGITAL_BANKING",
@@ -292,7 +280,7 @@
       "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
       "detail": {
         "productId": "TRANSACT01",
-        "lastUpdated": "2026-04-27T14:00:00.000Z",
+        "lastUpdated": "2026-11-24T13:00:00.000Z",
         "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
         "name": "ANZ Plus Everyday",
         "description": "Get an ANZ Plus Everyday account to help sort your spending",
@@ -301,7 +289,6 @@
         "applicationUri": "https://anz.com/plus/products",
         "isTailored": false,
         "additionalInformation": {
-          "bundleUri": "https://anz.com/plus/products",
           "eligibilityUri": "https://anz.com/plus/terms",
           "feesAndPricingUri": "https://anz.com/plus/terms",
           "overviewUri": "https://anz.com/plus/products",
@@ -313,17 +300,6 @@
             "cardType": "DEBIT",
             "imageUri": "https://anz.com.au/content/dam/anzplus/images/open-banking/anzplus-visa-debit-card-512px.png",
             "title": "Consumer Visa Debit Card Standard"
-          }
-        ],
-        "bundles": [
-          {
-            "additionalInfoUri": "https://anz.com/plus/products",
-            "description": "ANZ Plus bundle with a single ANZ Plus Everyday account, a single ANZ Plus Growth Saver account and a Visa Debit Consumer Standard Card attached as a service to the ANZ Plus Everyday account.",
-            "name": "ANZ Plus",
-            "productIds": [
-              "TRANSACT01",
-              "SAVING01"
-            ]
           }
         ],
         "features": [

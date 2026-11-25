@@ -20,8 +20,8 @@
     "pagesFetched": 1,
     "productCount": 4,
     "categoryCounts": {
-      "BUSINESS_LOANS": 2,
-      "RESIDENTIAL_MORTGAGES": 2
+      "RESIDENTIAL_MORTGAGES": 2,
+      "BUSINESS_LOANS": 2
     }
   },
   "products": []

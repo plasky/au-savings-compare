@@ -1,6 +1,6 @@
 # CDR product data — crawl report
 
-Crawled 2026-11-24T03:01:05.137Z · report 2026-11-24T03:01:06.985Z
+Crawled 2026-11-25T00:58:11.723Z · report 2026-11-25T00:58:13.073Z
 
 ## Coverage
 
@@ -9,13 +9,13 @@ Crawled 2026-11-24T03:01:05.137Z · report 2026-11-24T03:01:06.985Z
 | Register brands (all industries) | 390 |
 | Brands in scope (banking + non-bank lending) | 306 |
 | Unique product endpoints crawled | 306 |
-| Endpoints answering | 258 / 306 |
+| Endpoints answering | 259 / 306 |
 | In-scope products (savings/transaction + term deposits) | TRANS_AND_SAVINGS_ACCOUNTS: 886, TERM_DEPOSITS: 653 |
-| Product details fetched | 1537 ok, 2 failed |
-| Products with deposit rates | TRANS_AND_SAVINGS_ACCOUNTS: 752, TERM_DEPOSITS: 645 |
-| List endpoint versions (x-v) | 5: 254, 3: 2, 4: 2 |
-| Detail endpoint versions (x-v) | 7: 1470, 6: 38, 5: 16, 4: 13 |
-| Browser-callable (CORS ok with x-v) | 241 / 258 |
+| Product details fetched | 1538 ok, 1 failed |
+| Products with deposit rates | TRANS_AND_SAVINGS_ACCOUNTS: 753, TERM_DEPOSITS: 645 |
+| List endpoint versions (x-v) | 5: 255, 3: 2, 4: 2 |
+| Detail endpoint versions (x-v) | 7: 1468, 6: 38, 5: 16, 4: 13, none: 3 |
+| Browser-callable (CORS ok with x-v) | 242 / 259 |
 
 ### Endpoints that failed
 
@@ -32,7 +32,6 @@ Crawled 2026-11-24T03:01:05.137Z · report 2026-11-24T03:01:06.985Z
 | Better Mortgage Management | 400 | http-400 | urn:au-cds:error:cds-all:Field/Invalid \| Invalid Field \| Invalid Field |
 | Collective Lending | 400 | http-400 | urn:au-cds:error:cds-all:Field/Invalid \| Invalid Field \| Invalid Field |
 | CSC Home Loans | 400 | http-400 | urn:au-cds:error:cds-all:Field/Invalid \| Invalid Field \| Invalid Field |
-| DDH Graham | 401 | http-401 | EBAU001 \| Error while fetching token \| Error while fetching the authorisation token for the given tenantId |
 | Direct Credit Home Loans | 400 | http-400 | urn:au-cds:error:cds-all:Field/Invalid \| Invalid Field \| Invalid Field |
 | Empower Money | 400 | http-400 | urn:au-cds:error:cds-all:Field/Invalid \| Invalid Field \| Invalid Field |
 | Excel Funding Group | 400 | http-400 | urn:au-cds:error:cds-all:Field/Invalid \| Invalid Field \| Invalid Field |
@@ -74,10 +73,10 @@ Crawled 2026-11-24T03:01:05.137Z · report 2026-11-24T03:01:06.985Z
 
 | Category | Rows by depositRateType |
 | --- | --- |
-| TRANS_AND_SAVINGS_ACCOUNTS | VARIABLE: 1780, BONUS: 249, FIXED: 102, INTRODUCTORY: 41, BUNDLE_BONUS: 3 |
+| TRANS_AND_SAVINGS_ACCOUNTS | VARIABLE: 1788, BONUS: 249, FIXED: 102, INTRODUCTORY: 41, BUNDLE_BONUS: 3 |
 | TERM_DEPOSITS | FIXED: 6307, VARIABLE: 60, INTRODUCTORY: 33, BONUS: 10, MARKET_LINKED: 1 |
 
-Tier application methods: WHOLE_BALANCE: 10094, PER_TIER: 1025
+Tier application methods: WHOLE_BALANCE: 10102, PER_TIER: 1025
 
 ## Bonus conditions
 
@@ -91,7 +90,7 @@ Structured condition types: MIN_DEPOSIT_AMOUNT: 95, DEPOSIT_BALANCE_INCREASED: 5
 
 | Needing judgement | Reviewed | Rates changed only (review kept) | Changed since review | Queued (≥3.0%) | Below threshold |
 | --- | --- | --- | --- | --- | --- |
-| 165 | 163 | 4 | 2 | 2 | 0 |
+| 165 | 163 | 7 | 2 | 2 | 0 |
 
 | Brand | Product | Headline | Why |
 | --- | --- | --- | --- |
@@ -102,7 +101,7 @@ Structured condition types: MIN_DEPOSIT_AMOUNT: 95, DEPOSIT_BALANCE_INCREASED: 5
 
 | Flag | Count | Meaning |
 | --- | --- | --- |
-| DETAIL_MISSING | 2 | In-scope product whose detail request failed |
+| DETAIL_MISSING | 1 | In-scope product whose detail request failed |
 | NO_DEPOSIT_RATES | 140 | Product detail has no depositRates (common for transaction accounts; a problem for savings/TDs) |
 | RATE_LOOKS_LIKE_PERCENT | 15 | Rate above 25% — probably published as a percentage ("5.33") instead of a fraction ("0.0533") |
 | SAVINGS_WITHOUT_BASE | 6 | Savings/transaction product with rates but no base (FIXED/VARIABLE/FLOATING/MARKET_LINKED) rate |
@@ -115,12 +114,11 @@ Structured condition types: MIN_DEPOSIT_AMOUNT: 95, DEPOSIT_BALANCE_INCREASED: 5
 | OVERLAPPING_BASE_ROWS | 21 | Several different base rates apply at the same balance — plan or eligibility alternatives that need disambiguating |
 | INTRO_MAYBE_TOTAL | 19 | Introductory rate of 3%+ — probably published as the total rate rather than an add-on to base |
 | NON_AUD_PRODUCT | 41 | Foreign-currency product (to exclude) |
-| NON_PERSONAL_PRODUCT | 374 | Business / SMSF / trust / organisation product (to exclude for a household) |
+| NON_PERSONAL_PRODUCT | 375 | Business / SMSF / trust / organisation product (to exclude for a household) |
 
 <details><summary>DETAIL_MISSING — examples</summary>
 
 - Bank of Sydney — usd_fccy_account: http-406 (PCUA006 | Unsupported Version | Unable to find the version requested in x-v)
-- Westpac — SavComSolCashRes: http-404 (404 | Resource Not Found | Product not found)
 
 </details>
 

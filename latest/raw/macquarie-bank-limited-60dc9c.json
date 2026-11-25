@@ -20,10 +20,10 @@
     "pagesFetched": 1,
     "productCount": 21,
     "categoryCounts": {
+      "TERM_DEPOSITS": 3,
       "RESIDENTIAL_MORTGAGES": 2,
       "TRANS_AND_SAVINGS_ACCOUNTS": 7,
       "BUSINESS_LOANS": 4,
-      "TERM_DEPOSITS": 3,
       "REGULATED_TRUST_ACCOUNTS": 1,
       "OVERDRAFTS": 1,
       "CRED_AND_CHRG_CARDS": 3
@@ -1156,7 +1156,7 @@
       "productCategory": "TERM_DEPOSITS",
       "detail": {
         "productId": "TD001MBLTDA001",
-        "lastUpdated": "2026-11-10T00:01:00.001Z",
+        "lastUpdated": "2026-11-24T00:01:00.001Z",
         "productCategory": "TERM_DEPOSITS",
         "name": "Macquarie Term Deposit",
         "description": "Lock in a fixed interest rate for a set term.",
@@ -1267,7 +1267,7 @@
           },
           {
             "depositRateType": "FIXED",
-            "rate": "0.0520",
+            "rate": "0.0525",
             "applicationType": "MATURITY",
             "additionalValue": "P3M",
             "applicabilityConditions": [
@@ -1296,7 +1296,7 @@
           },
           {
             "depositRateType": "FIXED",
-            "rate": "0.0518",
+            "rate": "0.0523",
             "applicationType": "PERIODIC",
             "additionalValue": "P3M",
             "applicabilityConditions": [
@@ -1325,7 +1325,7 @@
           },
           {
             "depositRateType": "FIXED",
-            "rate": "0.0520",
+            "rate": "0.0525",
             "applicationType": "MATURITY",
             "additionalValue": "P4M",
             "applicabilityConditions": [
@@ -1354,7 +1354,7 @@
           },
           {
             "depositRateType": "FIXED",
-            "rate": "0.0517",
+            "rate": "0.0522",
             "applicationType": "PERIODIC",
             "additionalValue": "P4M",
             "applicabilityConditions": [
@@ -1383,7 +1383,7 @@
           },
           {
             "depositRateType": "FIXED",
-            "rate": "0.0540",
+            "rate": "0.0545",
             "applicationType": "MATURITY",
             "additionalValue": "P6M",
             "applicabilityConditions": [
@@ -1412,7 +1412,7 @@
           },
           {
             "depositRateType": "FIXED",
-            "rate": "0.0534",
+            "rate": "0.0539",
             "applicationType": "PERIODIC",
             "additionalValue": "P6M",
             "applicabilityConditions": [
@@ -1441,7 +1441,7 @@
           },
           {
             "depositRateType": "FIXED",
-            "rate": "0.0536",
+            "rate": "0.0541",
             "applicationType": "PERIODIC",
             "additionalValue": "P6M",
             "applicabilityConditions": [
@@ -1470,7 +1470,7 @@
           },
           {
             "depositRateType": "FIXED",
-            "rate": "0.0540",
+            "rate": "0.0545",
             "applicationType": "MATURITY",
             "additionalValue": "P9M",
             "applicabilityConditions": [
@@ -1499,7 +1499,7 @@
           },
           {
             "depositRateType": "FIXED",
-            "rate": "0.0531",
+            "rate": "0.0535",
             "applicationType": "PERIODIC",
             "additionalValue": "P9M",
             "applicabilityConditions": [
@@ -1528,7 +1528,7 @@
           },
           {
             "depositRateType": "FIXED",
-            "rate": "0.0533",
+            "rate": "0.0538",
             "applicationType": "PERIODIC",
             "additionalValue": "P9M",
             "applicabilityConditions": [
@@ -2224,7 +2224,7 @@
           },
           {
             "depositRateType": "FIXED",
-            "rate": "0.0495",
+            "rate": "0.0500",
             "applicationType": "MATURITY",
             "additionalValue": "P3M",
             "applicabilityConditions": [
@@ -2253,7 +2253,7 @@
           },
           {
             "depositRateType": "FIXED",
-            "rate": "0.0493",
+            "rate": "0.0498",
             "applicationType": "PERIODIC",
             "additionalValue": "P3M",
             "applicabilityConditions": [
@@ -2282,7 +2282,7 @@
           },
           {
             "depositRateType": "FIXED",
-            "rate": "0.0495",
+            "rate": "0.0500",
             "applicationType": "MATURITY",
             "additionalValue": "P4M",
             "applicabilityConditions": [
@@ -2311,7 +2311,7 @@
           },
           {
             "depositRateType": "FIXED",
-            "rate": "0.0492",
+            "rate": "0.0497",
             "applicationType": "PERIODIC",
             "additionalValue": "P4M",
             "applicabilityConditions": [
@@ -2340,7 +2340,7 @@
           },
           {
             "depositRateType": "FIXED",
-            "rate": "0.0525",
+            "rate": "0.0530",
             "applicationType": "MATURITY",
             "additionalValue": "P6M",
             "applicabilityConditions": [
@@ -2369,7 +2369,7 @@
           },
           {
             "depositRateType": "FIXED",
-            "rate": "0.0519",
+            "rate": "0.0524",
             "applicationType": "PERIODIC",
             "additionalValue": "P6M",
             "applicabilityConditions": [
@@ -2398,7 +2398,7 @@
           },
           {
             "depositRateType": "FIXED",
-            "rate": "0.0522",
+            "rate": "0.0527",
             "applicationType": "PERIODIC",
             "additionalValue": "P6M",
             "applicabilityConditions": [
@@ -2427,7 +2427,7 @@
           },
           {
             "depositRateType": "FIXED",
-            "rate": "0.0530",
+            "rate": "0.0535",
             "applicationType": "MATURITY",
             "additionalValue": "P9M",
             "applicabilityConditions": [
@@ -2456,7 +2456,7 @@
           },
           {
             "depositRateType": "FIXED",
-            "rate": "0.0521",
+            "rate": "0.0526",
             "applicationType": "PERIODIC",
             "additionalValue": "P9M",
             "applicabilityConditions": [
@@ -2485,7 +2485,7 @@
           },
           {
             "depositRateType": "FIXED",
-            "rate": "0.0523",
+            "rate": "0.0528",
             "applicationType": "PERIODIC",
             "additionalValue": "P9M",
             "applicabilityConditions": [
@@ -3157,7 +3157,7 @@
       "productCategory": "TERM_DEPOSITS",
       "detail": {
         "productId": "TD001MBLTDA002",
-        "lastUpdated": "2026-11-10T00:01:00.001Z",
+        "lastUpdated": "2026-11-24T00:01:00.001Z",
         "productCategory": "TERM_DEPOSITS",
         "name": "Macquarie Digital Term Deposit",
         "description": "Lock in a fixed interest rate for a set term.",
@@ -3181,7 +3181,7 @@
         "depositRates": [
           {
             "depositRateType": "FIXED",
-            "rate": "0.0520",
+            "rate": "0.0525",
             "applicationType": "MATURITY",
             "additionalValue": "P3M",
             "applicabilityConditions": [
@@ -3210,7 +3210,7 @@
           },
           {
             "depositRateType": "FIXED",
-            "rate": "0.0540",
+            "rate": "0.0545",
             "applicationType": "MATURITY",
             "additionalValue": "P6M",
             "applicabilityConditions": [
@@ -3239,7 +3239,7 @@
           },
           {
             "depositRateType": "FIXED",
-            "rate": "0.0540",
+            "rate": "0.0545",
             "applicationType": "MATURITY",
             "additionalValue": "P9M",
             "applicabilityConditions": [
@@ -3297,7 +3297,7 @@
           },
           {
             "depositRateType": "FIXED",
-            "rate": "0.0495",
+            "rate": "0.0500",
             "applicationType": "MATURITY",
             "additionalValue": "P3M",
             "applicabilityConditions": [
@@ -3326,7 +3326,7 @@
           },
           {
             "depositRateType": "FIXED",
-            "rate": "0.0525",
+            "rate": "0.0530",
             "applicationType": "MATURITY",
             "additionalValue": "P6M",
             "applicabilityConditions": [
@@ -3355,7 +3355,7 @@
           },
           {
             "depositRateType": "FIXED",
-            "rate": "0.0530",
+            "rate": "0.0535",
             "applicationType": "MATURITY",
             "additionalValue": "P9M",
             "applicabilityConditions": [

@@ -20,13 +20,13 @@
     "pagesFetched": 1,
     "productCount": 75,
     "categoryCounts": {
+      "TRANS_AND_SAVINGS_ACCOUNTS": 10,
       "PERS_LOANS": 4,
       "TERM_DEPOSITS": 8,
       "RESIDENTIAL_MORTGAGES": 29,
       "CRED_AND_CHRG_CARDS": 2,
       "BUSINESS_LOANS": 20,
-      "OVERDRAFTS": 2,
-      "TRANS_AND_SAVINGS_ACCOUNTS": 10
+      "OVERDRAFTS": 2
     }
   },
   "products": [
@@ -2842,7 +2842,7 @@
         "productId": "2000-2000",
         "effectiveFrom": "2019-12-31T14:00:00.00000Z",
         "effectiveTo": "2030-12-31T13:59:59.00000Z",
-        "lastUpdated": "2026-10-26T14:01:00.00000Z",
+        "lastUpdated": "2026-11-24T14:01:00.00000Z",
         "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
         "name": "Youth eSaver",
         "description": "An online savings account for newborns up to 17 years old to help save for a bright future.",
@@ -2927,7 +2927,7 @@
         "depositRates": [
           {
             "depositRateType": "VARIABLE",
-            "rate": "0.0575",
+            "rate": "0.060",
             "calculationFrequency": "P1D",
             "applicationFrequency": "P1M",
             "tiers": [
@@ -2944,7 +2944,7 @@
           },
           {
             "depositRateType": "VARIABLE",
-            "rate": "0.01",
+            "rate": "0.0125",
             "calculationFrequency": "P1D",
             "applicationFrequency": "P1M",
             "tiers": [
@@ -2970,7 +2970,7 @@
         "productId": "2000-2600",
         "effectiveFrom": "2019-12-31T14:00:00.00000Z",
         "effectiveTo": "2030-12-31T13:59:59.00000Z",
-        "lastUpdated": "2026-10-26T14:01:00.00000Z",
+        "lastUpdated": "2026-11-24T14:01:00.00000Z",
         "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
         "name": "Everyday 50+ Account",
         "description": "For those aged 50+",
@@ -3426,7 +3426,7 @@
           },
           {
             "depositRateType": "VARIABLE",
-            "rate": "0.0165",
+            "rate": "0.0175",
             "calculationFrequency": "P1D",
             "applicationFrequency": "P1M",
             "tiers": [
@@ -3443,7 +3443,7 @@
           },
           {
             "depositRateType": "VARIABLE",
-            "rate": "0.0275",
+            "rate": "0.0285",
             "calculationFrequency": "P1D",
             "applicationFrequency": "P1M",
             "tiers": [
@@ -3469,7 +3469,7 @@
         "productId": "2000-2700",
         "effectiveFrom": "2024-09-07T14:00:00.00000Z",
         "effectiveTo": "2030-12-30T14:00:00.00000Z",
-        "lastUpdated": "2026-10-26T14:01:00.00000Z",
+        "lastUpdated": "2026-11-24T14:01:00.00000Z",
         "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
         "name": "Everyday Saver",
         "description": "Receive a competitive interest rate on balances up to $750,000 per account",
@@ -3550,7 +3550,7 @@
         "depositRates": [
           {
             "depositRateType": "VARIABLE",
-            "rate": "0.0505",
+            "rate": "0.0530",
             "calculationFrequency": "P1D",
             "applicationFrequency": "P1M",
             "tiers": [
@@ -4022,7 +4022,7 @@
         "productId": "2000-3100",
         "effectiveFrom": "2021-06-12T14:01:00.00000Z",
         "effectiveTo": "2030-12-31T13:59:59.00000Z",
-        "lastUpdated": "2026-10-26T14:01:00.00000Z",
+        "lastUpdated": "2026-11-24T14:01:00.00000Z",
         "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
         "name": "Home Saver",
         "description": "Receive bonus interest on balances up to $100,000 when you deposit $2,000 or more each month into your Everyday Edge Account from a non-Great Southern Bank account and make five or more Visa Debit Card purchases.",
@@ -4112,7 +4112,7 @@
         "depositRates": [
           {
             "depositRateType": "BONUS",
-            "rate": "0.050",
+            "rate": "0.0525",
             "calculationFrequency": "P1D",
             "applicationFrequency": "P1M",
             "tiers": [
@@ -4147,7 +4147,7 @@
         "productId": "2000-3200",
         "effectiveFrom": "2022-03-26T14:00:00.00000Z",
         "effectiveTo": "2030-12-31T13:59:59.00000Z",
-        "lastUpdated": "2026-10-26T14:01:00.00000Z",
+        "lastUpdated": "2026-11-24T14:01:00.00000Z",
         "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
         "name": "Goal Saver",
         "description": "For customers aged 18 to 24 years old. Receive bonus interest on balances up to $50,000 when you deposit $500 or more each month into your Everyday Edge Account from a non-Great Southern Bank account and make five or more Visa Debit Card purchases.",
@@ -4241,7 +4241,7 @@
         "depositRates": [
           {
             "depositRateType": "BONUS",
-            "rate": "0.0510",
+            "rate": "0.0535",
             "calculationFrequency": "P1D",
             "applicationFrequency": "P1M",
             "tiers": [
@@ -4276,7 +4276,7 @@
         "productId": "2000-3400",
         "effectiveFrom": "2024-09-07T14:00:00.00000Z",
         "effectiveTo": "2030-12-30T14:00:00.00000Z",
-        "lastUpdated": "2026-10-26T14:01:00.00000Z",
+        "lastUpdated": "2026-11-24T14:01:00.00000Z",
         "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
         "name": "Future Saver",
         "description": "Receive a stepped bonus rate if the balance of the Future Saver account increases by $250 by the end of each calendar month",
@@ -4362,7 +4362,7 @@
         "depositRates": [
           {
             "depositRateType": "BONUS",
-            "rate": "0.050",
+            "rate": "0.0525",
             "calculationFrequency": "P1D",
             "applicationFrequency": "P1M",
             "tiers": [
@@ -4379,7 +4379,7 @@
           },
           {
             "depositRateType": "BONUS",
-            "rate": "0.0365",
+            "rate": "0.0390",
             "calculationFrequency": "P1D",
             "applicationFrequency": "P1M",
             "tiers": [

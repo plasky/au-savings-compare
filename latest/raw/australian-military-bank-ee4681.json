@@ -20,9 +20,9 @@
     "pagesFetched": 1,
     "productCount": 40,
     "categoryCounts": {
+      "PERS_LOANS": 3,
       "TRANS_AND_SAVINGS_ACCOUNTS": 11,
       "TERM_DEPOSITS": 3,
-      "PERS_LOANS": 3,
       "RESIDENTIAL_MORTGAGES": 22,
       "CRED_AND_CHRG_CARDS": 1
     }

@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-11-24T03:01:06.985Z",
+  "generatedAt": "2026-11-25T00:58:13.073Z",
   "crawl": {
-    "crawledAt": "2026-11-24T03:01:05.137Z",
+    "crawledAt": "2026-11-25T00:58:11.723Z",
     "registerOk": true,
     "brandsTotal": 390,
     "brandsInScope": 306,
     "endpoints": 306,
-    "endpointsOk": 258,
+    "endpointsOk": 259,
     "endpointsFailed": [
       {
         "brands": "AAA Mortgage Finance",
@@ -73,12 +73,6 @@
         "status": 400,
         "error": "http-400",
         "detail": "urn:au-cds:error:cds-all:Field/Invalid | Invalid Field | Invalid Field"
-      },
-      {
-        "brands": "DDH Graham",
-        "status": 401,
-        "error": "http-401",
-        "detail": "EBAU001 | Error while fetching token | Error while fetching the authorisation token for the given tenantId"
       },
       {
         "brands": "Direct Credit Home Loans",
@@ -297,19 +291,20 @@
     "listVersions": {
       "3": 2,
       "4": 2,
-      "5": 254
+      "5": 255
     },
     "detailVersions": {
       "4": 13,
       "5": 16,
       "6": 38,
-      "7": 1470
+      "7": 1468,
+      "none": 3
     },
     "cors": {
-      "browserReady": 241,
-      "preflightOk": 243,
+      "browserReady": 242,
+      "preflightOk": 244,
       "exposesXv": 108,
-      "checked": 258
+      "checked": 259
     }
   },
   "products": {
@@ -317,17 +312,17 @@
       "TRANS_AND_SAVINGS_ACCOUNTS": 886,
       "TERM_DEPOSITS": 653
     },
-    "detailsOk": 1537,
-    "detailsMissing": 2,
+    "detailsOk": 1538,
+    "detailsMissing": 1,
     "withDepositRates": {
-      "TRANS_AND_SAVINGS_ACCOUNTS": 752,
+      "TRANS_AND_SAVINGS_ACCOUNTS": 753,
       "TERM_DEPOSITS": 645
     }
   },
   "rates": {
     "rowsByType": {
       "TRANS_AND_SAVINGS_ACCOUNTS": {
-        "VARIABLE": 1780,
+        "VARIABLE": 1788,
         "FIXED": 102,
         "BONUS": 249,
         "INTRODUCTORY": 41,
@@ -342,7 +337,7 @@
       }
     },
     "tierMethods": {
-      "WHOLE_BALANCE": 10094,
+      "WHOLE_BALANCE": 10102,
       "PER_TIER": 1025
     }
   },
@@ -370,10 +365,9 @@
     {
       "code": "DETAIL_MISSING",
       "description": "In-scope product whose detail request failed",
-      "count": 2,
+      "count": 1,
       "examples": [
-        "Bank of Sydney — usd_fccy_account: http-406 (PCUA006 | Unsupported Version | Unable to find the version requested in x-v)",
-        "Westpac — SavComSolCashRes: http-404 (404 | Resource Not Found | Product not found)"
+        "Bank of Sydney — usd_fccy_account: http-406 (PCUA006 | Unsupported Version | Unable to find the version requested in x-v)"
       ]
     },
     {
@@ -559,7 +553,7 @@
     {
       "code": "NON_PERSONAL_PRODUCT",
       "description": "Business / SMSF / trust / organisation product (to exclude for a household)",
-      "count": 374,
+      "count": 375,
       "examples": [
         "AMP Bank GO — AMP Bank GO 12 Month Business Term Deposit",
         "AMP Bank GO — AMP Bank GO 6 Month Business Term Deposit",
@@ -982,7 +976,7 @@
     "stats": {
       "candidates": 165,
       "reviewed": 163,
-      "rateOnly": 4,
+      "rateOnly": 7,
       "reworded": 2,
       "stale": 2,
       "queued": 2,

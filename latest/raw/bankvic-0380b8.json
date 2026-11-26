@@ -18,10 +18,10 @@
     "version": "5",
     "totalPages": 1,
     "pagesFetched": 1,
-    "productCount": 62,
+    "productCount": 61,
     "categoryCounts": {
       "RESIDENTIAL_MORTGAGES": 35,
-      "TERM_DEPOSITS": 17,
+      "TERM_DEPOSITS": 16,
       "TRANS_AND_SAVINGS_ACCOUNTS": 6,
       "CRED_AND_CHRG_CARDS": 2,
       "PERS_LOANS": 2
@@ -1342,67 +1342,6 @@
         "isTailored": false,
         "additionalInformation": {
           "overviewUri": "https://www.bankvic.com.au/savings/?filter=Term-Deposits",
-          "termsUri": "https://cdn.intelligencebank.com/au/share/NZw2/RVzr/yzJw/original/BankVic+Terms+%2526+Conditions",
-          "eligibilityUri": "https://www.bankvic.com.au/savings/?filter=Term-Deposits",
-          "feesAndPricingUri": "https://cdn.intelligencebank.com/au/share/NZw2/RVzr/dwqA/original/Fees+and+Charges"
-        }
-      },
-      "detailStatus": 200,
-      "detailVersion": "7"
-    },
-    {
-      "productId": "Police_Term_Deposit_Special",
-      "productCategory": "TERM_DEPOSITS",
-      "detail": {
-        "features": [
-          {
-            "featureType": "DIGITAL_BANKING",
-            "additionalInfo": "Bank 24/7 wherever you are and whenever you want with BankVic mobile and Internet banking"
-          }
-        ],
-        "constraints": [
-          {
-            "constraintType": "MIN_BALANCE",
-            "additionalValue": "5000.00"
-          }
-        ],
-        "eligibility": [
-          {
-            "eligibilityType": "OTHER",
-            "additionalInfo": "BankVic Member"
-          },
-          {
-            "eligibilityType": "OTHER",
-            "additionalInfo": "Police Officer"
-          },
-          {
-            "eligibilityType": "RESIDENCY_STATUS",
-            "additionalInfo": "Australian Citizen"
-          }
-        ],
-        "fees": [
-          {
-            "name": "TERM_DEPOSIT_-_EARLY_REDEMPTION_CHARGES",
-            "feeType": "WITHDRAWAL",
-            "feeMethodUType": "fixedAmount",
-            "fixedAmount": {
-              "amount": "0.00"
-            },
-            "currency": "AUD",
-            "additionalInfo": "We do not charge a fee for early withdrawal, however, we will reduce the interest rate to the rate payable on the Everyday account."
-          }
-        ],
-        "productCategory": "TERM_DEPOSITS",
-        "productId": "Police_Term_Deposit_Special",
-        "lastUpdated": "2026-11-16T17:32:13.000+11:00",
-        "name": "Police Term Deposit Special",
-        "description": "Invest with peace of mind knowing your rate is locked in for the term",
-        "brand": "BankVic",
-        "brandName": "BankVic",
-        "applicationUri": "https://www.bankvic.com.au/police/",
-        "isTailored": true,
-        "additionalInformation": {
-          "overviewUri": "https://www.bankvic.com.au/police/",
           "termsUri": "https://cdn.intelligencebank.com/au/share/NZw2/RVzr/yzJw/original/BankVic+Terms+%2526+Conditions",
           "eligibilityUri": "https://www.bankvic.com.au/savings/?filter=Term-Deposits",
           "feesAndPricingUri": "https://cdn.intelligencebank.com/au/share/NZw2/RVzr/dwqA/original/Fees+and+Charges"

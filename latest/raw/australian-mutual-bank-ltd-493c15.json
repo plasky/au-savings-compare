@@ -20,8 +20,8 @@
     "pagesFetched": 1,
     "productCount": 40,
     "categoryCounts": {
-      "TERM_DEPOSITS": 3,
       "RESIDENTIAL_MORTGAGES": 16,
+      "TERM_DEPOSITS": 3,
       "CRED_AND_CHRG_CARDS": 1,
       "TRANS_AND_SAVINGS_ACCOUNTS": 8,
       "BUSINESS_LOANS": 5,

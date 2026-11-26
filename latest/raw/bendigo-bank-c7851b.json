@@ -46,7 +46,6 @@
         "isTailored": false,
         "bundles": [],
         "cardArt": [],
-        "constraints": [],
         "features": [
           {
             "featureType": "DIGITAL_BANKING"
@@ -59,6 +58,7 @@
             "additionalValue": "A card is available for the product to access funds"
           }
         ],
+        "constraints": [],
         "eligibility": [
           {
             "eligibilityType": "EMPLOYMENT_STATUS",
@@ -302,7 +302,6 @@
         "applicationUri": "https://applynow.bendigobank.com.au/apply/#/apply/new/depositAccounts/productSelection?productCode=DDA-14-STU",
         "isTailored": false,
         "bundles": [],
-        "cardArt": [],
         "features": [
           {
             "featureType": "DIGITAL_BANKING",
@@ -316,7 +315,7 @@
             "additionalValue": "A card is available for the product to access funds"
           }
         ],
-        "constraints": [],
+        "cardArt": [],
         "eligibility": [
           {
             "eligibilityType": "STUDENT",
@@ -447,7 +446,7 @@
             }
           }
         ],
-        "lendingRates": [],
+        "constraints": [],
         "depositRates": [
           {
             "depositRateType": "VARIABLE",
@@ -513,6 +512,7 @@
             ]
           }
         ],
+        "lendingRates": [],
         "additionalInformation": {
           "overviewUri": "https://www.bendigobank.com.au/personal/transaction-accounts/student-account/",
           "termsUri": "https://www.bendigobank.com.au/disclosure-documents/",
@@ -537,6 +537,13 @@
         "isTailored": false,
         "bundles": [],
         "cardArt": [],
+        "features": [
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "At call account denominated in a foreign currency provided you do so prior to the relevant \"cut off time\" for the applicable currency otherwise it will be the next business day.",
+            "additionalInfoUri": "https://www.bendigobank.com.au/globalassets/documents/interestrates/schedule-for-bendigo-foreign-currency-at-call-deposit-account.pdf"
+          }
+        ],
         "constraints": [
           {
             "constraintType": "OPENING_BALANCE",
@@ -545,13 +552,7 @@
           }
         ],
         "eligibility": [],
-        "features": [
-          {
-            "featureType": "OTHER",
-            "additionalInfo": "At call account denominated in a foreign currency provided you do so prior to the relevant \"cut off time\" for the applicable currency otherwise it will be the next business day.",
-            "additionalInfoUri": "https://www.bendigobank.com.au/globalassets/documents/interestrates/schedule-for-bendigo-foreign-currency-at-call-deposit-account.pdf"
-          }
-        ],
+        "fees": [],
         "lendingRates": [],
         "depositRates": [
           {
@@ -563,7 +564,6 @@
             "applicationType": "PERIODIC"
           }
         ],
-        "fees": [],
         "additionalInformation": {
           "overviewUri": "https://www.bendigobank.com.au/business/manage-fx/",
           "termsUri": "https://www.bendigobank.com.au/disclosure-documents/",
@@ -699,18 +699,18 @@
             "additionalInfo": "Maximum period of 12 months of of Investment Term, and interest is calculated on daily basis. The interest rate paid varies based on the prevailing foreign currency market interest rate for the relevant foreign currency."
           }
         ],
+        "eligibility": [
+          {
+            "eligibilityType": "OTHER",
+            "additionalInfo": "This product is only available to retail clients who meet the anti-money laundering and counter terrorism financing legislation requirements and hold an existing Australian dollar account in the same name / title."
+          }
+        ],
         "constraints": [
           {
             "constraintType": "OPENING_BALANCE",
             "additionalInfo": "Cut off time for various currencies on offer",
             "additionalValue": "10000.00",
             "additionalInfoUri": "https://www.bendigobank.com.au/globalassets/documents/interestrates/schedule-for-bendigo-foreign-currency-term-deposit-account.pdf"
-          }
-        ],
-        "eligibility": [
-          {
-            "eligibilityType": "OTHER",
-            "additionalInfo": "This product is only available to retail clients who meet the anti-money laundering and counter terrorism financing legislation requirements and hold an existing Australian dollar account in the same name / title."
           }
         ],
         "fees": [
@@ -764,6 +764,12 @@
         "isTailored": false,
         "bundles": [],
         "cardArt": [],
+        "constraints": [
+          {
+            "constraintType": "OPENING_BALANCE",
+            "additionalValue": "1.00"
+          }
+        ],
         "features": [
           {
             "featureType": "OTHER",
@@ -810,12 +816,6 @@
         "eligibility": [
           {
             "eligibilityType": "BUSINESS"
-          }
-        ],
-        "constraints": [
-          {
-            "constraintType": "OPENING_BALANCE",
-            "additionalValue": "1.00"
           }
         ],
         "fees": [
@@ -934,58 +934,7 @@
         "isTailored": false,
         "bundles": [],
         "cardArt": [],
-        "features": [
-          {
-            "featureType": "OTHER",
-            "additionalInfo": "Designed for primary producers who’ve earned a taxable non-farm income of $100,000 or less over a financial year."
-          },
-          {
-            "featureType": "OTHER",
-            "additionalInfo": "You can have more than one Farm Management Deposit, up to a combined value of $800,000 per farmer."
-          },
-          {
-            "featureType": "OTHER",
-            "additionalInfo": "No monthly account service fees or transaction fees apply to Bendigo Bank Farm Management Deposit accounts."
-          },
-          {
-            "featureType": "OTHER",
-            "additionalInfo": "At call, no early withdrawal notice required."
-          }
-        ],
-        "eligibility": [
-          {
-            "eligibilityType": "OTHER",
-            "additionalInfo": "Customer must be a primary producer with an off-farm taxable income of less than $100,000 per annum."
-          },
-          {
-            "eligibilityType": "RESIDENCY_STATUS",
-            "additionalValue": "Australian Resident ",
-            "additionalInfo": "Only available to Australian primary producers."
-          },
-          {
-            "eligibilityType": "OTHER",
-            "additionalInfo": "Can only be opened in the name of an individual."
-          },
-          {
-            "eligibilityType": "OTHER",
-            "additionalInfo": "Subject to farm management deposit scheme eligibility guidelines."
-          }
-        ],
-        "constraints": [
-          {
-            "constraintType": "OPENING_BALANCE",
-            "additionalValue": "1000.00"
-          },
-          {
-            "constraintType": "MAX_BALANCE",
-            "additionalInfo": "The total of all FMD’s held in a client’s name must not exceed $800,000.",
-            "additionalValue": "800000.00"
-          },
-          {
-            "constraintType": "MIN_BALANCE",
-            "additionalValue": "1000.00"
-          }
-        ],
+        "lendingRates": [],
         "fees": [
           {
             "name": "Bank Cheque Fee",
@@ -998,7 +947,6 @@
             }
           }
         ],
-        "lendingRates": [],
         "depositRates": [
           {
             "depositRateType": "VARIABLE",
@@ -1047,6 +995,58 @@
                 "rateApplicationMethod": "WHOLE_BALANCE"
               }
             ]
+          }
+        ],
+        "features": [
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "Designed for primary producers who’ve earned a taxable non-farm income of $100,000 or less over a financial year."
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "You can have more than one Farm Management Deposit, up to a combined value of $800,000 per farmer."
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "No monthly account service fees or transaction fees apply to Bendigo Bank Farm Management Deposit accounts."
+          },
+          {
+            "featureType": "OTHER",
+            "additionalInfo": "At call, no early withdrawal notice required."
+          }
+        ],
+        "constraints": [
+          {
+            "constraintType": "OPENING_BALANCE",
+            "additionalValue": "1000.00"
+          },
+          {
+            "constraintType": "MAX_BALANCE",
+            "additionalInfo": "The total of all FMD’s held in a client’s name must not exceed $800,000.",
+            "additionalValue": "800000.00"
+          },
+          {
+            "constraintType": "MIN_BALANCE",
+            "additionalValue": "1000.00"
+          }
+        ],
+        "eligibility": [
+          {
+            "eligibilityType": "OTHER",
+            "additionalInfo": "Customer must be a primary producer with an off-farm taxable income of less than $100,000 per annum."
+          },
+          {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalValue": "Australian Resident ",
+            "additionalInfo": "Only available to Australian primary producers."
+          },
+          {
+            "eligibilityType": "OTHER",
+            "additionalInfo": "Can only be opened in the name of an individual."
+          },
+          {
+            "eligibilityType": "OTHER",
+            "additionalInfo": "Subject to farm management deposit scheme eligibility guidelines."
           }
         ],
         "additionalInformation": {
@@ -1657,12 +1657,18 @@
         "brandName": "Bendigo Bank",
         "isTailored": true,
         "bundles": [],
+        "cardArt": [],
         "features": [
           {
             "featureType": "DIGITAL_BANKING"
           }
         ],
-        "cardArt": [],
+        "constraints": [
+          {
+            "constraintType": "OPENING_BALANCE",
+            "additionalValue": "5000.00"
+          }
+        ],
         "eligibility": [],
         "fees": [
           {
@@ -1686,12 +1692,6 @@
           }
         ],
         "lendingRates": [],
-        "constraints": [
-          {
-            "constraintType": "OPENING_BALANCE",
-            "additionalValue": "5000.00"
-          }
-        ],
         "depositRates": [
           {
             "depositRateType": "FIXED",
@@ -3486,6 +3486,7 @@
         "isTailored": false,
         "bundles": [],
         "cardArt": [],
+        "constraints": [],
         "features": [
           {
             "featureType": "NPP_ENABLED"
@@ -3504,7 +3505,6 @@
             "additionalValue": "2"
           }
         ],
-        "constraints": [],
         "eligibility": [],
         "fees": [
           {

@@ -538,7 +538,7 @@
         "depositRates": [
           {
             "depositRateType": "VARIABLE",
-            "rate": "0.035",
+            "rate": "0.0375",
             "calculationFrequency": "P1D",
             "applicationType": "PERIODIC",
             "applicationFrequency": "P1M"
@@ -1961,7 +1961,7 @@
           },
           {
             "depositRateType": "VARIABLE",
-            "rate": "0.022",
+            "rate": "0.02",
             "calculationFrequency": "P1D",
             "applicationType": "PERIODIC",
             "applicationFrequency": "P1M",
@@ -1978,7 +1978,7 @@
           },
           {
             "depositRateType": "VARIABLE",
-            "rate": "0.0245",
+            "rate": "0.0225",
             "calculationFrequency": "P1D",
             "applicationType": "PERIODIC",
             "applicationFrequency": "P1M",
@@ -1995,7 +1995,7 @@
           },
           {
             "depositRateType": "VARIABLE",
-            "rate": "0.0295",
+            "rate": "0.0275",
             "calculationFrequency": "P1D",
             "applicationType": "PERIODIC",
             "applicationFrequency": "P1M",

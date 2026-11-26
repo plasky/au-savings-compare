@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-25T00:58:13.073Z",
+  "generatedAt": "2026-11-26T00:36:26.228Z",
   "crawl": {
-    "crawledAt": "2026-11-25T00:58:11.723Z",
+    "crawledAt": "2026-11-26T00:36:24.178Z",
     "registerOk": true,
     "brandsTotal": 390,
     "brandsInScope": 306,
@@ -297,8 +297,8 @@
       "4": 13,
       "5": 16,
       "6": 38,
-      "7": 1468,
-      "none": 3
+      "7": 1469,
+      "none": 1
     },
     "cors": {
       "browserReady": 242,
@@ -310,9 +310,9 @@
   "products": {
     "byCategory": {
       "TRANS_AND_SAVINGS_ACCOUNTS": 886,
-      "TERM_DEPOSITS": 653
+      "TERM_DEPOSITS": 652
     },
-    "detailsOk": 1538,
+    "detailsOk": 1537,
     "detailsMissing": 1,
     "withDepositRates": {
       "TRANS_AND_SAVINGS_ACCOUNTS": 753,
@@ -373,7 +373,7 @@
     {
       "code": "NO_DEPOSIT_RATES",
       "description": "Product detail has no depositRates (common for transaction accounts; a problem for savings/TDs)",
-      "count": 140,
+      "count": 139,
       "examples": [
         "ANZ — ANZ Business Extra [TRANS_AND_SAVINGS_ACCOUNTS]",
         "ANZ — ANZ Access Advantage [TRANS_AND_SAVINGS_ACCOUNTS]",
@@ -736,6 +736,16 @@
       "note": ""
     },
     {
+      "brand": "Summerland Bank",
+      "product": "iSave Online",
+      "productId": "3",
+      "base": null,
+      "bonus": null,
+      "intro": 0.0595,
+      "headline": 0.0595,
+      "note": "intro may be total"
+    },
+    {
       "brand": "Rabobank",
       "product": "PremiumSaver",
       "productId": "f5079e11-c89f-43bf-bd15-91df6602699d",
@@ -804,16 +814,6 @@
       "intro": null,
       "headline": 0.0585,
       "note": ""
-    },
-    {
-      "brand": "P&N Bank",
-      "product": "Hi Saver Account",
-      "productId": "37",
-      "base": 0.0005,
-      "bonus": null,
-      "intro": 0.058,
-      "headline": 0.0585,
-      "note": "intro may be total"
     }
   ],
   "topTd12": [
@@ -976,7 +976,7 @@
     "stats": {
       "candidates": 165,
       "reviewed": 163,
-      "rateOnly": 7,
+      "rateOnly": 10,
       "reworded": 2,
       "stale": 2,
       "queued": 2,

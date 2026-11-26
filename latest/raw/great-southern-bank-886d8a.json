@@ -20,13 +20,13 @@
     "pagesFetched": 1,
     "productCount": 75,
     "categoryCounts": {
+      "BUSINESS_LOANS": 20,
+      "OVERDRAFTS": 2,
       "TRANS_AND_SAVINGS_ACCOUNTS": 10,
       "PERS_LOANS": 4,
       "TERM_DEPOSITS": 8,
       "RESIDENTIAL_MORTGAGES": 29,
-      "CRED_AND_CHRG_CARDS": 2,
-      "BUSINESS_LOANS": 20,
-      "OVERDRAFTS": 2
+      "CRED_AND_CHRG_CARDS": 2
     }
   },
   "products": [

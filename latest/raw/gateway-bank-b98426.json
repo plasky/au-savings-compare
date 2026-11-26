@@ -21,10 +21,10 @@
     "productCount": 171,
     "categoryCounts": {
       "TRANS_AND_SAVINGS_ACCOUNTS": 20,
+      "TERM_DEPOSITS": 34,
       "RESIDENTIAL_MORTGAGES": 87,
       "OVERDRAFTS": 6,
       "BUSINESS_LOANS": 20,
-      "TERM_DEPOSITS": 34,
       "PERS_LOANS": 4
     }
   },
@@ -35,7 +35,7 @@
       "detail": {
         "productId": "1",
         "effectiveFrom": "2006-06-30T14:30:00.0000000Z",
-        "lastUpdated": "2026-11-25T00:00:32.9609049Z",
+        "lastUpdated": "2026-11-26T00:00:33.4140603Z",
         "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
         "name": "Savings Account",
         "description": "Savings Account",
@@ -335,7 +335,7 @@
       "detail": {
         "productId": "10",
         "effectiveFrom": "2006-06-30T14:30:00.0000000Z",
-        "lastUpdated": "2026-11-11T00:00:32.7819965Z",
+        "lastUpdated": "2026-11-26T00:00:33.4140603Z",
         "productCategory": "TERM_DEPOSITS",
         "name": "Term Deposit 6 Months",
         "description": "Term Deposit 6 Months",
@@ -401,7 +401,7 @@
         "depositRates": [
           {
             "depositRateType": "INTRODUCTORY",
-            "rate": "0.055",
+            "rate": "0.0555",
             "calculationFrequency": "P1D",
             "applicationType": "MATURITY",
             "tiers": [
@@ -836,7 +836,7 @@
       "detail": {
         "productId": "16",
         "effectiveFrom": "2006-06-30T14:30:00.0000000Z",
-        "lastUpdated": "2026-11-11T00:00:32.7819965Z",
+        "lastUpdated": "2026-11-26T00:00:33.4140603Z",
         "productCategory": "TERM_DEPOSITS",
         "name": "Term Deposit 12 Months",
         "description": "Term Deposit 12 Months",
@@ -905,7 +905,7 @@
         "depositRates": [
           {
             "depositRateType": "INTRODUCTORY",
-            "rate": "0.057",
+            "rate": "0.0555",
             "calculationFrequency": "P1D",
             "applicationType": "MATURITY",
             "tiers": [
@@ -1634,7 +1634,7 @@
       "detail": {
         "productId": "200",
         "effectiveFrom": "2006-06-30T14:30:00.0000000Z",
-        "lastUpdated": "2026-11-25T00:00:32.9609049Z",
+        "lastUpdated": "2026-11-26T00:00:33.4140603Z",
         "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
         "name": "Offset Account",
         "description": "Offset Account",
@@ -1820,7 +1820,7 @@
       "detail": {
         "productId": "202",
         "effectiveFrom": "2012-04-30T14:30:00.0000000Z",
-        "lastUpdated": "2026-11-25T00:00:32.9609049Z",
+        "lastUpdated": "2026-11-26T00:00:33.4140603Z",
         "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
         "name": "Construction Loan Offset",
         "description": "Construction Loan Offset",
@@ -2006,7 +2006,7 @@
       "detail": {
         "productId": "203",
         "effectiveFrom": "2012-04-30T14:30:00.0000000Z",
-        "lastUpdated": "2026-11-25T00:00:32.9609049Z",
+        "lastUpdated": "2026-11-26T00:00:33.4140603Z",
         "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
         "name": "Land Loan Offset",
         "description": "Land Loan Offset",
@@ -2187,7 +2187,7 @@
       "detail": {
         "productId": "206",
         "effectiveFrom": "2012-12-05T13:30:00.0000000Z",
-        "lastUpdated": "2026-11-25T00:00:32.9609049Z",
+        "lastUpdated": "2026-11-26T00:00:33.4140603Z",
         "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
         "name": "Premium Package Offset",
         "description": "Premium Package Offset",
@@ -2364,7 +2364,7 @@
       "detail": {
         "productId": "207",
         "effectiveFrom": "2015-09-03T14:30:00.0000000Z",
-        "lastUpdated": "2026-11-25T00:00:32.9609049Z",
+        "lastUpdated": "2026-11-26T00:00:33.4140603Z",
         "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
         "name": "INV Standard Variable Offset",
         "description": "INV Standard Variable Offset",
@@ -2545,7 +2545,7 @@
       "detail": {
         "productId": "208",
         "effectiveFrom": "2015-09-03T14:30:00.0000000Z",
-        "lastUpdated": "2026-11-25T00:00:32.9609049Z",
+        "lastUpdated": "2026-11-26T00:00:33.4140603Z",
         "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
         "name": "INV Construction Offset",
         "description": "INV Construction Offset",
@@ -2726,7 +2726,7 @@
       "detail": {
         "productId": "209",
         "effectiveFrom": "2015-09-03T14:30:00.0000000Z",
-        "lastUpdated": "2026-11-25T00:00:32.9609049Z",
+        "lastUpdated": "2026-11-26T00:00:33.4140603Z",
         "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
         "name": "INV Land Offset",
         "description": "INV Land Offset",
@@ -3001,7 +3001,7 @@
       "detail": {
         "productId": "210",
         "effectiveFrom": "2015-09-03T14:30:00.0000000Z",
-        "lastUpdated": "2026-11-25T00:00:32.9609049Z",
+        "lastUpdated": "2026-11-26T00:00:33.4140603Z",
         "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
         "name": "INV Premium Package Offset",
         "description": "INV Premium Package Offset",
@@ -3182,7 +3182,7 @@
       "detail": {
         "productId": "211",
         "effectiveFrom": "2021-04-26T14:30:00.0000000Z",
-        "lastUpdated": "2026-11-25T00:00:32.9609049Z",
+        "lastUpdated": "2026-11-26T00:00:33.4140603Z",
         "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
         "name": "Green Home Loan Offset",
         "description": "Green Home Loan Offset",
@@ -3363,7 +3363,7 @@
       "detail": {
         "productId": "212",
         "effectiveFrom": "2021-04-26T14:30:00.0000000Z",
-        "lastUpdated": "2026-11-25T00:00:32.9609049Z",
+        "lastUpdated": "2026-11-26T00:00:33.4140603Z",
         "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
         "name": "Green Plus Home Loan Offset",
         "description": "Green Plus Home Loan Offset",
@@ -4007,7 +4007,7 @@
       "detail": {
         "productId": "225",
         "effectiveFrom": "2025-05-13T14:30:00.0000000Z",
-        "lastUpdated": "2026-11-25T00:00:32.9609049Z",
+        "lastUpdated": "2026-11-26T00:00:33.4140603Z",
         "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
         "name": "Allium Money Premium Offset",
         "description": "Allium Money Premium Offset",
@@ -4176,7 +4176,7 @@
       "detail": {
         "productId": "226",
         "effectiveFrom": "2025-05-13T14:30:00.0000000Z",
-        "lastUpdated": "2026-11-25T00:00:32.9609049Z",
+        "lastUpdated": "2026-11-26T00:00:33.4140603Z",
         "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
         "name": "Allium Money Prem Inv Offset",
         "description": "Allium Money Prem Inv Offset",
@@ -4345,7 +4345,7 @@
       "detail": {
         "productId": "227",
         "effectiveFrom": "2026-05-28T14:30:00.0000000Z",
-        "lastUpdated": "2026-11-25T00:00:32.9609049Z",
+        "lastUpdated": "2026-11-26T00:00:33.4140603Z",
         "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
         "name": "Eco Advantage Transaction Acct",
         "description": "Eco Advantage Transaction Account",
@@ -4844,7 +4844,7 @@
       "detail": {
         "productId": "27",
         "effectiveFrom": "2019-01-22T13:30:00.0000000Z",
-        "lastUpdated": "2026-11-11T00:00:32.7819965Z",
+        "lastUpdated": "2026-11-26T00:00:33.4140603Z",
         "productCategory": "TERM_DEPOSITS",
         "name": "Package TD 6 Months",
         "description": "Package TD 6 Months",
@@ -4904,7 +4904,7 @@
         "depositRates": [
           {
             "depositRateType": "INTRODUCTORY",
-            "rate": "0.056",
+            "rate": "0.0565",
             "calculationFrequency": "P1D",
             "applicationType": "MATURITY",
             "tiers": [
@@ -5354,7 +5354,7 @@
       "detail": {
         "productId": "33",
         "effectiveFrom": "2019-01-22T13:30:00.0000000Z",
-        "lastUpdated": "2026-11-11T00:00:32.7819965Z",
+        "lastUpdated": "2026-11-26T00:00:33.4140603Z",
         "productCategory": "TERM_DEPOSITS",
         "name": "Package TD 12 Months",
         "description": "Package TD 12 Months",
@@ -5414,7 +5414,7 @@
         "depositRates": [
           {
             "depositRateType": "INTRODUCTORY",
-            "rate": "0.058",
+            "rate": "0.0565",
             "calculationFrequency": "P1D",
             "applicationType": "MATURITY",
             "tiers": [

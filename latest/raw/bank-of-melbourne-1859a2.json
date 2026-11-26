@@ -5262,7 +5262,7 @@
       "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
       "detail": {
         "productId": "BOMTrBusStatutoryTrustAccount",
-        "lastUpdated": "2026-10-23T08:52:13Z",
+        "lastUpdated": "2026-11-25T05:56:01Z",
         "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
         "name": "Statutory Trust Account",
         "description": "This product is a specific purpose account for members of professional associations such as solicitors, real estate agents, conveyancers, motor dealers who are required to meet specific legal requirements when holding and managing funds on behalf of their clients.",
@@ -5298,15 +5298,15 @@
           },
           {
             "featureType": "OTHER",
-            "additionalInfo": "Statutory Trust ? Real Estate Agents account is suitable for real estate agents (in all states) and collection agents (in Queensland)"
+            "additionalInfo": "Statutory Trust - Real Estate Agents account is suitable for real estate agents (in all states) and collection agents (in Queensland)"
           },
           {
             "featureType": "OTHER",
-            "additionalInfo": "Statutory Trust ? Solicitors account is suitable for solicitors"
+            "additionalInfo": "Statutory Trust - Solicitors account is suitable for solicitors"
           },
           {
             "featureType": "OTHER",
-            "additionalInfo": "Statutory Trust ? Conveyancers and Settlement Agents account is suitable for conveyancers (in all states) and settlement agents (in Western Australia)."
+            "additionalInfo": "Statutory Trust - Conveyancers and Settlement Agents account is suitable for conveyancers (in all states) and settlement agents (in Western Australia)."
           }
         ],
         "eligibility": [
@@ -5317,15 +5317,15 @@
           },
           {
             "eligibilityType": "OTHER",
-            "additionalInfo": "Operating in Australia with an Australian address"
+            "additionalInfo": "Be operating using an Australian address"
           },
           {
             "eligibilityType": "OTHER",
-            "additionalInfo": "Must be a member of a professional association and required by law to deposit funds held on behalf of clients in statutory trust accounts"
+            "additionalInfo": "Be members of professional associations or licensees who are legally required to deposit funds held on behalf of their clients in a statutory trust account"
           },
           {
             "eligibilityType": "OTHER",
-            "additionalInfo": "Needs an eligible business transaction account from which fees and charges can be debited."
+            "additionalInfo": "Have an eligible Bank of Melbourne transaction account in the same name from which fees and charges can be debited."
           }
         ],
         "fees": [

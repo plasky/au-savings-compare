@@ -1,6 +1,6 @@
 # CDR product data — crawl report
 
-Crawled 2026-11-25T00:58:11.723Z · report 2026-11-25T00:58:13.073Z
+Crawled 2026-11-26T00:36:24.178Z · report 2026-11-26T00:36:26.228Z
 
 ## Coverage
 
@@ -10,11 +10,11 @@ Crawled 2026-11-25T00:58:11.723Z · report 2026-11-25T00:58:13.073Z
 | Brands in scope (banking + non-bank lending) | 306 |
 | Unique product endpoints crawled | 306 |
 | Endpoints answering | 259 / 306 |
-| In-scope products (savings/transaction + term deposits) | TRANS_AND_SAVINGS_ACCOUNTS: 886, TERM_DEPOSITS: 653 |
-| Product details fetched | 1538 ok, 1 failed |
+| In-scope products (savings/transaction + term deposits) | TRANS_AND_SAVINGS_ACCOUNTS: 886, TERM_DEPOSITS: 652 |
+| Product details fetched | 1537 ok, 1 failed |
 | Products with deposit rates | TRANS_AND_SAVINGS_ACCOUNTS: 753, TERM_DEPOSITS: 645 |
 | List endpoint versions (x-v) | 5: 255, 3: 2, 4: 2 |
-| Detail endpoint versions (x-v) | 7: 1468, 6: 38, 5: 16, 4: 13, none: 3 |
+| Detail endpoint versions (x-v) | 7: 1469, 6: 38, 5: 16, 4: 13, none: 1 |
 | Browser-callable (CORS ok with x-v) | 242 / 259 |
 
 ### Endpoints that failed
@@ -90,7 +90,7 @@ Structured condition types: MIN_DEPOSIT_AMOUNT: 95, DEPOSIT_BALANCE_INCREASED: 5
 
 | Needing judgement | Reviewed | Rates changed only (review kept) | Changed since review | Queued (≥3.0%) | Below threshold |
 | --- | --- | --- | --- | --- | --- |
-| 165 | 163 | 7 | 2 | 2 | 0 |
+| 165 | 163 | 10 | 2 | 2 | 0 |
 
 | Brand | Product | Headline | Why |
 | --- | --- | --- | --- |
@@ -102,7 +102,7 @@ Structured condition types: MIN_DEPOSIT_AMOUNT: 95, DEPOSIT_BALANCE_INCREASED: 5
 | Flag | Count | Meaning |
 | --- | --- | --- |
 | DETAIL_MISSING | 1 | In-scope product whose detail request failed |
-| NO_DEPOSIT_RATES | 140 | Product detail has no depositRates (common for transaction accounts; a problem for savings/TDs) |
+| NO_DEPOSIT_RATES | 139 | Product detail has no depositRates (common for transaction accounts; a problem for savings/TDs) |
 | RATE_LOOKS_LIKE_PERCENT | 15 | Rate above 25% — probably published as a percentage ("5.33") instead of a fraction ("0.0533") |
 | SAVINGS_WITHOUT_BASE | 6 | Savings/transaction product with rates but no base (FIXED/VARIABLE/FLOATING/MARKET_LINKED) rate |
 | TD_RATE_WITHOUT_TERM | 3 | Term-deposit base rate with no determinable term (no duration, no MONTH/DAY tiers) |
@@ -282,6 +282,7 @@ Headline = base + stacked bonuses (+ intro where present), assuming all conditio
 | Bank Australia | Bonus Saver | 0.10% | 5.50% | 0.50% | 6.10% |  |
 | Defence Bank Limited | iSaver | 0.50% | 5.60% | — | 6.10% |  |
 | ING BANK (Australia) Ltd | Savings Maximiser | 0.01% | 5.99% | — | 6.00% |  |
+| Summerland Bank | iSave Online | — | — | 5.95% | 5.95% | intro may be total |
 | Rabobank | PremiumSaver | 0.90% | 5.00% | — | 5.90% |  |
 | Bank First Production | Strong Start Saver | 5.90% | — | — | 5.90% |  |
 | Bank of Melbourne | Maxi Saver | 1.25% | 0.45% | 4.15% | 5.85% | intro may be total |
@@ -289,7 +290,6 @@ Headline = base + stacked bonuses (+ intro where present), assuming all conditio
 | BankSA | Maxi Saver | 1.25% | 0.45% | 4.15% | 5.85% | intro may be total |
 | bcu | Bonus Saver | 0.05% | — | 5.80% | 5.85% | intro may be total |
 | ME Bank | HomeME | 0.05% | 5.80% | — | 5.85% |  |
-| P&N Bank | Hi Saver Account | 0.05% | — | 5.80% | 5.85% | intro may be total |
 
 ## Top 12-month term deposits (personal AUD products)
 

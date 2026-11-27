@@ -20,9 +20,9 @@
     "pagesFetched": 1,
     "productCount": 94,
     "categoryCounts": {
-      "TERM_DEPOSITS": 11,
       "TRANS_AND_SAVINGS_ACCOUNTS": 12,
       "OVERDRAFTS": 4,
+      "TERM_DEPOSITS": 11,
       "BUSINESS_LOANS": 2,
       "RESIDENTIAL_MORTGAGES": 60,
       "PERS_LOANS": 4,
@@ -2871,7 +2871,7 @@
           },
           {
             "depositRateType": "VARIABLE",
-            "rate": "0.0175",
+            "rate": "0.02",
             "calculationFrequency": "P1D",
             "applicationType": "PERIODIC",
             "applicationFrequency": "P3M",
@@ -2888,7 +2888,7 @@
           },
           {
             "depositRateType": "VARIABLE",
-            "rate": "0.0275",
+            "rate": "0.03",
             "calculationFrequency": "P1D",
             "applicationType": "PERIODIC",
             "applicationFrequency": "P3M",
@@ -2914,7 +2914,7 @@
         ],
         "productId": "S14-EP",
         "effectiveFrom": "2026-11-26T00:00:00.000+11:00",
-        "lastUpdated": "2026-11-26T09:44:15.000+11:00",
+        "lastUpdated": "2026-11-26T19:19:13.000+11:00",
         "name": "Everyday Plus",
         "description": "An everyday transaction account for members who are aged 55+. For one monthly fee, enjoy interest paid on balances and a range of ways to bank for added convenience.",
         "brand": "C",
@@ -2982,7 +2982,7 @@
         "depositRates": [
           {
             "depositRateType": "VARIABLE",
-            "rate": "0.035",
+            "rate": "0.0375",
             "calculationFrequency": "P1D",
             "applicationType": "PERIODIC",
             "applicationFrequency": "P1M",
@@ -2999,7 +2999,7 @@
           },
           {
             "depositRateType": "VARIABLE",
-            "rate": "0.04",
+            "rate": "0.0425",
             "calculationFrequency": "P1D",
             "applicationType": "PERIODIC",
             "applicationFrequency": "P1M",
@@ -3034,7 +3034,7 @@
         "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
         "productId": "S16-OS",
         "effectiveFrom": "2026-11-26T00:00:00.000+11:00",
-        "lastUpdated": "2026-11-26T09:45:41.000+11:00",
+        "lastUpdated": "2026-11-26T19:19:55.000+11:00",
         "name": "Online Saver",
         "description": "An online savings account that allows you to move money in and out via internet banking or the mobile app and that pays interest every month on balances, regardless of how you save.",
         "brand": "C",
@@ -3324,7 +3324,7 @@
         "depositRates": [
           {
             "depositRateType": "VARIABLE",
-            "rate": "0.035",
+            "rate": "0.0365",
             "calculationFrequency": "P1D",
             "applicationType": "PERIODIC",
             "applicationFrequency": "P1M",
@@ -3367,7 +3367,7 @@
         ],
         "productId": "S18-JS",
         "effectiveFrom": "2026-11-26T00:00:00.000+11:00",
-        "lastUpdated": "2026-11-26T09:46:23.000+11:00",
+        "lastUpdated": "2026-11-26T19:20:22.000+11:00",
         "name": "Wildlife Saver account",
         "description": "An account for members aged under 18 to kick start their savings with the help of a parent or guardian. Account holders 12+ are eligible for debit card access - all balances earn competitive interest",
         "brand": "C",
@@ -4374,7 +4374,7 @@
         "depositRates": [
           {
             "depositRateType": "VARIABLE",
-            "rate": "0.051",
+            "rate": "0.0525",
             "calculationFrequency": "P1D",
             "applicationType": "PERIODIC",
             "applicationFrequency": "P1Y",
@@ -4411,7 +4411,7 @@
         "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
         "productId": "S25-CS",
         "effectiveFrom": "2026-11-26T00:00:00.000+11:00",
-        "lastUpdated": "2026-11-26T09:43:04.000+11:00",
+        "lastUpdated": "2026-11-26T19:18:24.000+11:00",
         "name": "Santa Saver",
         "description": "A savings account that helps you save for Christmas throughout the year and stops you dipping in to your savings by only allowing access to funds between 1 November and 31 January each year.",
         "brand": "C",
@@ -5002,7 +5002,7 @@
         "depositRates": [
           {
             "depositRateType": "VARIABLE",
-            "rate": "0.035",
+            "rate": "0.0375",
             "calculationFrequency": "P1D",
             "applicationType": "PERIODIC",
             "applicationFrequency": "P1M",
@@ -5019,7 +5019,7 @@
           },
           {
             "depositRateType": "VARIABLE",
-            "rate": "0.03",
+            "rate": "0.0325",
             "calculationFrequency": "P1D",
             "applicationType": "PERIODIC",
             "applicationFrequency": "P1M",
@@ -5036,7 +5036,7 @@
           },
           {
             "depositRateType": "VARIABLE",
-            "rate": "0.025",
+            "rate": "0.0275",
             "calculationFrequency": "P1D",
             "applicationType": "PERIODIC",
             "applicationFrequency": "P1M",
@@ -5054,7 +5054,7 @@
         "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
         "productId": "S99-FBOS",
         "effectiveFrom": "2026-11-26T00:00:00.000+11:00",
-        "lastUpdated": "2026-11-26T09:47:11.000+11:00",
+        "lastUpdated": "2026-11-26T19:21:13.000+11:00",
         "name": "FIRSTBIZ ONLINE SAVER",
         "description": "An online savings account for businesses. Earn interest every month on balances, regardless of how you save.",
         "brand": "C",

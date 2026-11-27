@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-11-26T00:36:25.225Z",
+  "generatedAt": "2026-11-27T00:44:18.694Z",
   "stats": {
-    "candidates": 165,
-    "reviewed": 163,
-    "rateOnly": 10,
+    "candidates": 164,
+    "reviewed": 161,
+    "rateOnly": 9,
     "reworded": 2,
-    "stale": 2,
-    "queued": 2,
+    "stale": 3,
+    "queued": 3,
     "belowThreshold": 0,
     "threshold": 0.03
   },
@@ -27,6 +27,16 @@
       "name": "Reward Saver Kick Start",
       "category": "TRANS_AND_SAVINGS_ACCOUNTS",
       "headline": 0.062,
+      "reasons": [
+        "bonus/intro rows"
+      ]
+    },
+    {
+      "key": "commbank-5b7d50:ad22b1f0967349e8a5d586afe7f0d845",
+      "brand": "CommBank",
+      "name": "NetBank Saver",
+      "category": "TRANS_AND_SAVINGS_ACCOUNTS",
+      "headline": 0.0575,
       "reasons": [
         "bonus/intro rows"
       ]

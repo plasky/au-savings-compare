@@ -938,6 +938,11 @@
                 "rateApplicationMethod": "WHOLE_BALANCE",
                 "applicabilityConditions": [
                   {
+                    "rateApplicabilityType": "MIN_PURCHASES",
+                    "additionalValue": "5",
+                    "additionalInfo": "For customers who also have an Orange Everyday bank account and do this each month: Make 5 or more settled (not pending) eligible ING card purchases"
+                  },
+                  {
                     "rateApplicabilityType": "MIN_DEPOSIT_AMOUNT",
                     "additionalValue": "1000.00",
                     "additionalInfo": "For customers who also have an Orange Everyday bank account and do this each month: Deposit at least $1,000 from an external source to an Orange Everyday, Savings Maximiser, Savings Accelerator, Personal Term Deposit, ING Personal Loan or ING Home Loan in your name."
@@ -946,16 +951,16 @@
                     "rateApplicabilityType": "DEPOSIT_BALANCE_INCREASED",
                     "additionalValue": "0.01",
                     "additionalInfo": "For customers who also have an Orange Everyday bank account and do this each month: Grow their nominated Savings Maximiser balance (excluding interest earned for the current month)."
-                  },
-                  {
-                    "rateApplicabilityType": "MIN_PURCHASES",
-                    "additionalValue": "5",
-                    "additionalInfo": "For customers who also have an Orange Everyday bank account and do this each month: Make 5 or more settled (not pending) eligible ING card purchases"
                   }
                 ]
               }
             ],
             "applicabilityConditions": [
+              {
+                "rateApplicabilityType": "MIN_PURCHASES",
+                "additionalValue": "5",
+                "additionalInfo": "For customers who also have an Orange Everyday bank account and do this each month: Make 5 or more settled (not pending) eligible ING card purchases"
+              },
               {
                 "rateApplicabilityType": "MIN_DEPOSIT_AMOUNT",
                 "additionalValue": "1000.00",
@@ -965,11 +970,6 @@
                 "rateApplicabilityType": "DEPOSIT_BALANCE_INCREASED",
                 "additionalValue": "0.01",
                 "additionalInfo": "For customers who also have an Orange Everyday bank account and do this each month: Grow their nominated Savings Maximiser balance (excluding interest earned for the current month)."
-              },
-              {
-                "rateApplicabilityType": "MIN_PURCHASES",
-                "additionalValue": "5",
-                "additionalInfo": "For customers who also have an Orange Everyday bank account and do this each month: Make 5 or more settled (not pending) eligible ING card purchases"
               }
             ],
             "additionalValue": "P1M",

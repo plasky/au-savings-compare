@@ -1,6 +1,6 @@
 # CDR product data — crawl report
 
-Crawled 2026-11-26T00:36:24.178Z · report 2026-11-26T00:36:26.228Z
+Crawled 2026-11-27T00:44:17.646Z · report 2026-11-27T00:44:19.704Z
 
 ## Coverage
 
@@ -9,13 +9,13 @@ Crawled 2026-11-26T00:36:24.178Z · report 2026-11-26T00:36:26.228Z
 | Register brands (all industries) | 390 |
 | Brands in scope (banking + non-bank lending) | 306 |
 | Unique product endpoints crawled | 306 |
-| Endpoints answering | 259 / 306 |
-| In-scope products (savings/transaction + term deposits) | TRANS_AND_SAVINGS_ACCOUNTS: 886, TERM_DEPOSITS: 652 |
-| Product details fetched | 1537 ok, 1 failed |
-| Products with deposit rates | TRANS_AND_SAVINGS_ACCOUNTS: 753, TERM_DEPOSITS: 645 |
-| List endpoint versions (x-v) | 5: 255, 3: 2, 4: 2 |
-| Detail endpoint versions (x-v) | 7: 1469, 6: 38, 5: 16, 4: 13, none: 1 |
-| Browser-callable (CORS ok with x-v) | 242 / 259 |
+| Endpoints answering | 258 / 306 |
+| In-scope products (savings/transaction + term deposits) | TRANS_AND_SAVINGS_ACCOUNTS: 873, TERM_DEPOSITS: 647 |
+| Product details fetched | 1518 ok, 2 failed |
+| Products with deposit rates | TRANS_AND_SAVINGS_ACCOUNTS: 740, TERM_DEPOSITS: 640 |
+| List endpoint versions (x-v) | 5: 254, 3: 2, 4: 2 |
+| Detail endpoint versions (x-v) | 7: 1447, 6: 38, 5: 16, 4: 13, none: 4 |
+| Browser-callable (CORS ok with x-v) | 241 / 258 |
 
 ### Endpoints that failed
 
@@ -29,6 +29,7 @@ Crawled 2026-11-26T00:36:24.178Z · report 2026-11-26T00:36:26.228Z
 | Australian Financial | 400 | http-400 | urn:au-cds:error:cds-all:Field/Invalid \| Invalid Field \| Invalid Field |
 | Axis Lending | 400 | http-400 | urn:au-cds:error:cds-all:Field/Invalid \| Invalid Field \| Invalid Field |
 | Axis Sharia | 400 | http-400 | urn:au-cds:error:cds-all:Field/Invalid \| Invalid Field \| Invalid Field |
+| Bendigo Bank | 401 | http-401 | urn:au-cds:error:cds-all:GeneralError/Expected \| Expected Error Encountered \| Unauthorized |
 | Better Mortgage Management | 400 | http-400 | urn:au-cds:error:cds-all:Field/Invalid \| Invalid Field \| Invalid Field |
 | Collective Lending | 400 | http-400 | urn:au-cds:error:cds-all:Field/Invalid \| Invalid Field \| Invalid Field |
 | CSC Home Loans | 400 | http-400 | urn:au-cds:error:cds-all:Field/Invalid \| Invalid Field \| Invalid Field |
@@ -73,36 +74,37 @@ Crawled 2026-11-26T00:36:24.178Z · report 2026-11-26T00:36:26.228Z
 
 | Category | Rows by depositRateType |
 | --- | --- |
-| TRANS_AND_SAVINGS_ACCOUNTS | VARIABLE: 1788, BONUS: 249, FIXED: 102, INTRODUCTORY: 41, BUNDLE_BONUS: 3 |
-| TERM_DEPOSITS | FIXED: 6307, VARIABLE: 60, INTRODUCTORY: 33, BONUS: 10, MARKET_LINKED: 1 |
+| TRANS_AND_SAVINGS_ACCOUNTS | VARIABLE: 1767, BONUS: 247, FIXED: 102, INTRODUCTORY: 41, BUNDLE_BONUS: 3 |
+| TERM_DEPOSITS | FIXED: 6143, VARIABLE: 60, INTRODUCTORY: 33, BONUS: 9, MARKET_LINKED: 1 |
 
-Tier application methods: WHOLE_BALANCE: 10102, PER_TIER: 1025
+Tier application methods: WHOLE_BALANCE: 9968, PER_TIER: 1021
 
 ## Bonus conditions
 
 | Bonus rows | Structured + text | Structured only | Free text only | Neither |
 | --- | --- | --- | --- | --- |
-| 262 | 165 (63%) | 0 (0%) | 53 (20%) | 44 (17%) |
+| 259 | 162 (63%) | 0 (0%) | 53 (20%) | 44 (17%) |
 
-Structured condition types: MIN_DEPOSIT_AMOUNT: 95, DEPOSIT_BALANCE_INCREASED: 55, MAX_WITHDRAWALS: 49, OTHER: 19, MIN_PURCHASES: 12, ONLINE_ONLY: 9, MIN_DEPOSITS: 9, EXISTING_CUST: 8, MAX_WITHDRAWAL_AMOUNT: 7, NEW_CUSTOMER: 5, NEW_ACCOUNTS: 4
+Structured condition types: MIN_DEPOSIT_AMOUNT: 95, DEPOSIT_BALANCE_INCREASED: 53, MAX_WITHDRAWALS: 49, OTHER: 19, MIN_PURCHASES: 12, MIN_DEPOSITS: 9, ONLINE_ONLY: 8, EXISTING_CUST: 8, MAX_WITHDRAWAL_AMOUNT: 7, NEW_CUSTOMER: 5, NEW_ACCOUNTS: 4
 
 ## Claude review queue (weekly, in chat)
 
 | Needing judgement | Reviewed | Rates changed only (review kept) | Changed since review | Queued (≥3.0%) | Below threshold |
 | --- | --- | --- | --- | --- | --- |
-| 165 | 163 | 10 | 2 | 2 | 0 |
+| 164 | 161 | 9 | 3 | 3 | 0 |
 
 | Brand | Product | Headline | Why |
 | --- | --- | --- | --- |
 | Bankwest | Bankwest Easy Saver | 11.50% | bonus/intro rows |
 | IMB Bank | Reward Saver Kick Start | 6.20% | bonus/intro rows |
+| CommBank | NetBank Saver | 5.75% | bonus/intro rows |
 
 ## Data-quality flags
 
 | Flag | Count | Meaning |
 | --- | --- | --- |
-| DETAIL_MISSING | 1 | In-scope product whose detail request failed |
-| NO_DEPOSIT_RATES | 139 | Product detail has no depositRates (common for transaction accounts; a problem for savings/TDs) |
+| DETAIL_MISSING | 2 | In-scope product whose detail request failed |
+| NO_DEPOSIT_RATES | 138 | Product detail has no depositRates (common for transaction accounts; a problem for savings/TDs) |
 | RATE_LOOKS_LIKE_PERCENT | 15 | Rate above 25% — probably published as a percentage ("5.33") instead of a fraction ("0.0533") |
 | SAVINGS_WITHOUT_BASE | 6 | Savings/transaction product with rates but no base (FIXED/VARIABLE/FLOATING/MARKET_LINKED) rate |
 | TD_RATE_WITHOUT_TERM | 3 | Term-deposit base rate with no determinable term (no duration, no MONTH/DAY tiers) |
@@ -110,15 +112,16 @@ Structured condition types: MIN_DEPOSIT_AMOUNT: 95, DEPOSIT_BALANCE_INCREASED: 5
 | TIER_NUMERIC_VALUES | 140 | Tier min/max sent as numbers instead of strings |
 | TIER_LEGACY_CONDITIONS | 3 | Tier applicabilityConditions as a single object (pre-v6 shape) |
 | BONUS_FREE_TEXT_ONLY | 53 | Bonus rate whose conditions exist only as free text |
-| HEADLINE_IMPLAUSIBLE | 9 | Base + stacked bonuses at $10k above 9% — likely a "total rate" bonus double-counted, or bad data |
+| HEADLINE_IMPLAUSIBLE | 8 | Base + stacked bonuses at $10k above 9% — likely a "total rate" bonus double-counted, or bad data |
 | OVERLAPPING_BASE_ROWS | 21 | Several different base rates apply at the same balance — plan or eligibility alternatives that need disambiguating |
 | INTRO_MAYBE_TOTAL | 19 | Introductory rate of 3%+ — probably published as the total rate rather than an add-on to base |
-| NON_AUD_PRODUCT | 41 | Foreign-currency product (to exclude) |
-| NON_PERSONAL_PRODUCT | 375 | Business / SMSF / trust / organisation product (to exclude for a household) |
+| NON_AUD_PRODUCT | 40 | Foreign-currency product (to exclude) |
+| NON_PERSONAL_PRODUCT | 369 | Business / SMSF / trust / organisation product (to exclude for a household) |
 
 <details><summary>DETAIL_MISSING — examples</summary>
 
 - Bank of Sydney — usd_fccy_account: http-406 (PCUA006 | Unsupported Version | Unable to find the version requested in x-v)
+- BankSA — BSATDBusTermDeposit: http-404 (404 | Resource Not Found | Product not found)
 
 </details>
 
@@ -206,12 +209,12 @@ Structured condition types: MIN_DEPOSIT_AMOUNT: 95, DEPOSIT_BALANCE_INCREASED: 5
 
 <details><summary>HEADLINE_IMPLAUSIBLE — examples</summary>
 
-- Bendigo Bank — Bendigo Reward Saver: base 0.10% + bonus 10.30%
 - Defence Bank Limited — Salute Account: base 4.25% + bonus 6.00%
 - My State PM Production — Bonus Saver: base — + bonus 10.95%
 - Traditional Credit Union — S1 Everyday Account: base 200.00% + bonus —
 - Traditional Credit Union — S2 Budget Account: base 200.00% + bonus —
 - Traditional Credit Union — S3 Christmas Club Account: base 225.00% + bonus —
+- Traditional Credit Union — S4 Family/Clan/Group Account: base 225.00% + bonus —
 
 </details>
 
@@ -268,7 +271,6 @@ Headline = base + stacked bonuses (+ intro where present), assuming all conditio
 | Revolut | Revolut Instant Access Savings | 5.55% | — | 6.50% | 12.05% | 4 base alternatives; intro may be total |
 | My State PM Production | Bonus Saver | — | 10.95% | — | 10.95% | 2 bonuses stacked |
 | Rabobank | High Interest Savings Account | 4.30% | — | 6.40% | 10.70% | intro may be total |
-| Bendigo Bank | Bendigo Reward Saver | 0.10% | 10.30% | — | 10.40% | 2 bonuses stacked |
 | Defence Bank Limited | Salute Account | 4.25% | 6.00% | — | 10.25% |  |
 | ING BANK (Australia) Ltd | Savings Booster | 2.75% | 3.15% | 0.60% | 6.50% |  |
 | Ubank | Save account | — | 5.60% | 0.90% | 6.50% |  |
@@ -290,10 +292,11 @@ Headline = base + stacked bonuses (+ intro where present), assuming all conditio
 | BankSA | Maxi Saver | 1.25% | 0.45% | 4.15% | 5.85% | intro may be total |
 | bcu | Bonus Saver | 0.05% | — | 5.80% | 5.85% | intro may be total |
 | ME Bank | HomeME | 0.05% | 5.80% | — | 5.85% |  |
+| P&N Bank | Hi Saver Account | 0.05% | — | 5.80% | 5.85% | intro may be total |
 
 ## Top 12-month term deposits (personal AUD products)
 
-139 of 452 personal AUD term-deposit products have an identifiable 12-month rate.
+136 of 449 personal AUD term-deposit products have an identifiable 12-month rate.
 
 | Brand | Product | Rate | Paid / tiers |
 | --- | --- | --- | --- |

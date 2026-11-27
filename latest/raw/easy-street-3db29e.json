@@ -20,8 +20,8 @@
     "pagesFetched": 1,
     "productCount": 15,
     "categoryCounts": {
-      "TRANS_AND_SAVINGS_ACCOUNTS": 2,
-      "RESIDENTIAL_MORTGAGES": 13
+      "RESIDENTIAL_MORTGAGES": 13,
+      "TRANS_AND_SAVINGS_ACCOUNTS": 2
     }
   },
   "products": [

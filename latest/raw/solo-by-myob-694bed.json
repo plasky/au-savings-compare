@@ -36,13 +36,8 @@
         "brandName": "Solo by MYOB",
         "constraints": [
           {
-            "additionalInfo": "Offline transaction limit of $250.",
-            "additionalValue": "250.00",
-            "constraintType": "MAX_LIMIT"
-          },
-          {
-            "additionalInfo": "Maximum single transaction limit of $30,000.",
-            "additionalValue": "30000.00",
+            "additionalInfo": "Single cash ATM/POS withdrawal limit of $2,009.99.",
+            "additionalValue": "2009.99",
             "constraintType": "MAX_LIMIT"
           },
           {
@@ -51,23 +46,18 @@
             "constraintType": "MAX_LIMIT"
           },
           {
-            "additionalInfo": "Maximum cumulative value of transactions is $100,000 per day.",
-            "additionalValue": "100000.00",
-            "constraintType": "MAX_LIMIT"
-          },
-          {
             "additionalInfo": "International single card transaction limit of $20,000.",
             "additionalValue": "20000.00",
             "constraintType": "MAX_LIMIT"
           },
           {
-            "additionalInfo": "Single cash ATM/POS withdrawal limit of $2,009.99.",
-            "additionalValue": "2009.99",
+            "additionalInfo": "Maximum single transaction limit of $30,000.",
+            "additionalValue": "30000.00",
             "constraintType": "MAX_LIMIT"
           },
           {
-            "additionalInfo": "Maximum number of transactions per day is 50.",
-            "additionalValue": "50.00",
+            "additionalInfo": "You can hold a maximum of 1 account for this product.",
+            "additionalValue": "1.00",
             "constraintType": "MAX_LIMIT"
           },
           {
@@ -81,8 +71,18 @@
             "constraintType": "MAX_LIMIT"
           },
           {
-            "additionalInfo": "You can hold a maximum of 1 account for this product.",
-            "additionalValue": "1.00",
+            "additionalInfo": "Maximum number of transactions per day is 50.",
+            "additionalValue": "50.00",
+            "constraintType": "MAX_LIMIT"
+          },
+          {
+            "additionalInfo": "Maximum cumulative value of transactions is $100,000 per day.",
+            "additionalValue": "100000.00",
+            "constraintType": "MAX_LIMIT"
+          },
+          {
+            "additionalInfo": "Offline transaction limit of $250.",
+            "additionalValue": "250.00",
             "constraintType": "MAX_LIMIT"
           }
         ],
@@ -94,7 +94,7 @@
             "eligibilityType": "MIN_AGE"
           },
           {
-            "additionalInfo": "To open an account, you must meet our ID verification requirements.",
+            "additionalInfo": "You must have an Australian mobile number and a valid email address.",
             "eligibilityType": "OTHER"
           },
           {
@@ -102,15 +102,15 @@
             "eligibilityType": "RESIDENCY_STATUS"
           },
           {
-            "additionalInfo": "To open an account, you must have an active ABN or ACN, and you must be registered as either a Sole Trader, Private Company or a Partnership with the Australian Business Register.",
-            "eligibilityType": "BUSINESS"
-          },
-          {
             "additionalInfo": "To open an account, you must have an Australian Address.",
             "eligibilityType": "OTHER"
           },
           {
-            "additionalInfo": "You must have an Australian mobile number and a valid email address.",
+            "additionalInfo": "To open an account, you must have an active ABN or ACN, and you must be registered as either a Sole Trader, Private Company or a Partnership with the Australian Business Register.",
+            "eligibilityType": "BUSINESS"
+          },
+          {
+            "additionalInfo": "To open an account, you must meet our ID verification requirements.",
             "eligibilityType": "OTHER"
           }
         ],
@@ -120,24 +120,24 @@
             "featureType": "FRAUD_PROTECTION"
           },
           {
-            "additionalInfo": "You can access your accounts on your mobile for all your online banking.",
-            "featureType": "DIGITAL_BANKING"
-          },
-          {
-            "additionalValue": "All statements, notices and other communication in connection with these terms and conditions and your account may be given electronically by: email, text message, in app push notifications, in app prompts, or letting you know by email, text message or push notification that the information is available on the app or on a website. You should check your emails, text messages and push notifications regularly.",
-            "featureType": "NOTIFICATIONS"
+            "additionalValue": "Link your transaction account to Mastercard® debit card.",
+            "featureType": "CARD_ACCESS"
           },
           {
             "additionalInfo": "Make transfers and send payments in real time.",
             "featureType": "NPP_ENABLED"
           },
           {
-            "additionalValue": "Link your transaction account to Mastercard® debit card.",
-            "featureType": "CARD_ACCESS"
-          },
-          {
             "additionalInfo": "Use this account to make and receive PayID payments.",
             "featureType": "NPP_PAYID"
+          },
+          {
+            "additionalValue": "All statements, notices and other communication in connection with these terms and conditions and your account may be given electronically by: email, text message, in app push notifications, in app prompts, or letting you know by email, text message or push notification that the information is available on the app or on a website. You should check your emails, text messages and push notifications regularly.",
+            "featureType": "NOTIFICATIONS"
+          },
+          {
+            "additionalInfo": "You can access your accounts on your mobile for all your online banking.",
+            "featureType": "DIGITAL_BANKING"
           }
         ],
         "fees": [

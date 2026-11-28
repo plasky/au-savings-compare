@@ -37,7 +37,7 @@
       "detail": {
         "productId": "1",
         "effectiveFrom": "2015-06-30T14:30:00.0000000Z",
-        "lastUpdated": "2026-11-27T00:00:25.6062314Z",
+        "lastUpdated": "2026-11-28T00:00:24.4126532Z",
         "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
         "name": "All Access",
         "description": "The All Access account provides versatility and reliability for your everyday banking.",
@@ -368,7 +368,7 @@
       "detail": {
         "productId": "10",
         "effectiveFrom": "2015-06-30T14:30:00.0000000Z",
-        "lastUpdated": "2026-11-27T00:00:25.6062314Z",
+        "lastUpdated": "2026-11-28T00:00:24.4126532Z",
         "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
         "name": "Future Start Savings",
         "description": "Encouraging savings for our Students and Apprentices with a bonus interest rate once the minimum $5 monthly deposit is made and no more than one withdrawal in the same month",
@@ -632,7 +632,7 @@
       "detail": {
         "productId": "2",
         "effectiveFrom": "2015-06-30T14:30:00.0000000Z",
-        "lastUpdated": "2026-11-27T00:00:25.6062314Z",
+        "lastUpdated": "2026-11-28T00:00:24.4126532Z",
         "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
         "name": "Learners & Earners All Access",
         "description": "An everyday banking solution for young people undertaking full-time studies or an apprenticeship",
@@ -877,7 +877,7 @@
       "detail": {
         "productId": "21",
         "effectiveFrom": "2015-06-30T14:30:00.0000000Z",
-        "lastUpdated": "2026-11-27T00:00:25.6062314Z",
+        "lastUpdated": "2026-11-28T00:00:24.4126532Z",
         "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
         "name": "Business Platinum",
         "description": "Our Business Platinum Account is ideal if you have high volume transaction needs or are considering an overdraft facility",
@@ -1171,7 +1171,7 @@
       "detail": {
         "productId": "22",
         "effectiveFrom": "2015-06-30T14:30:00.0000000Z",
-        "lastUpdated": "2026-11-27T00:00:25.6062314Z",
+        "lastUpdated": "2026-11-28T00:00:24.4126532Z",
         "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
         "name": "Business Basic",
         "description": "Our Business Basic Account is ideal if you are a business wanting to manage your funds by separating accounts with minimal fees and is a business that has low transaction requirements",
@@ -1443,7 +1443,7 @@
       "detail": {
         "productId": "23",
         "effectiveFrom": "2015-06-30T14:30:00.0000000Z",
-        "lastUpdated": "2026-11-27T00:00:25.6062314Z",
+        "lastUpdated": "2026-11-28T00:00:24.4126532Z",
         "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
         "name": "Business Online Saver",
         "description": "Our Business Online Saver is ideal if you want a high interest rate on funds that are at call and prefer to transact via online methods",
@@ -1573,7 +1573,7 @@
       "detail": {
         "productId": "24",
         "effectiveFrom": "2015-06-30T14:30:00.0000000Z",
-        "lastUpdated": "2026-11-27T00:00:25.6062314Z",
+        "lastUpdated": "2026-11-28T00:00:24.4126532Z",
         "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
         "name": "SmartBudget",
         "description": "Transaction account linked to an agreement in which regular deposits are made in return for payment of nominated bills. When combined with the linked agreement this assists budgeting by smoothing out the expenses paid under the agreement.",
@@ -1677,7 +1677,7 @@
       "detail": {
         "productId": "4",
         "effectiveFrom": "2015-06-30T14:30:00.0000000Z",
-        "lastUpdated": "2026-11-27T00:00:25.6062314Z",
+        "lastUpdated": "2026-11-28T00:00:24.4126532Z",
         "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
         "name": "Pension Plus",
         "description": "An everyday account providing freedom and ease of access for our Members aged 65 and over",
@@ -1914,7 +1914,7 @@
       "detail": {
         "productId": "40",
         "effectiveFrom": "2022-03-27T13:30:00.0000000Z",
-        "lastUpdated": "2026-11-27T00:00:25.6062314Z",
+        "lastUpdated": "2026-11-28T00:00:24.4126532Z",
         "productCategory": "TERM_DEPOSITS",
         "name": "FTD - Interest at Maturity",
         "description": "Fixed Term Deposits are available for terms from 3mths to 36mths.  Fixed Term Deposits allow you to lock funds away for the agreed time, at the agreed rate with options for interest to be paid monthly, annually or at the end term.",
@@ -2042,7 +2042,7 @@
       "detail": {
         "productId": "41",
         "effectiveFrom": "2022-03-27T13:30:00.0000000Z",
-        "lastUpdated": "2026-11-27T00:00:25.6062314Z",
+        "lastUpdated": "2026-11-28T00:00:24.4126532Z",
         "productCategory": "TERM_DEPOSITS",
         "name": "FTD - Interest Monthly",
         "description": "Fixed Term Deposits are available for terms from 3mths to 36mths.  Fixed Term Deposits allow you to lock funds away for the agreed time, at the agreed rate with options for interest to be paid monthly, annually or at the end term.",
@@ -2175,7 +2175,7 @@
       "detail": {
         "productId": "42",
         "effectiveFrom": "2022-03-27T13:30:00.0000000Z",
-        "lastUpdated": "2026-11-27T00:00:25.6062314Z",
+        "lastUpdated": "2026-11-28T00:00:24.4126532Z",
         "productCategory": "TERM_DEPOSITS",
         "name": "FTD Retirees Interest Monthly",
         "description": "Fixed Term Deposits are available for terms from 3mths to 36mths.  Fixed Term Deposits allow you to lock funds away for the agreed time, at the agreed rate with options for interest to be paid monthly, annually or at the end term.",
@@ -2308,7 +2308,7 @@
       "detail": {
         "productId": "43",
         "effectiveFrom": "2022-03-27T13:30:00.0000000Z",
-        "lastUpdated": "2026-11-27T00:00:25.6062314Z",
+        "lastUpdated": "2026-11-28T00:00:24.4126532Z",
         "productCategory": "TERM_DEPOSITS",
         "name": "FTD - Interest Annually",
         "description": "Fixed Term Deposits are available for terms from 3mths to 36mths.  Fixed Term Deposits allow you to lock funds away for the agreed time, at the agreed rate with options for interest to be paid monthly, annually or at the end term.",
@@ -2390,7 +2390,7 @@
       "detail": {
         "productId": "5",
         "effectiveFrom": "2015-06-30T14:30:00.0000000Z",
-        "lastUpdated": "2026-11-27T00:00:25.6062314Z",
+        "lastUpdated": "2026-11-28T00:00:24.4126532Z",
         "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
         "name": "Mortgage Offset",
         "description": "An account that is linked to your home loan which can help you save interest and possibly own your home sooner by providing 100% offset benefit",
@@ -2598,7 +2598,7 @@
       "detail": {
         "productId": "6",
         "effectiveFrom": "2015-06-30T14:30:00.0000000Z",
-        "lastUpdated": "2026-11-27T00:00:25.6062314Z",
+        "lastUpdated": "2026-11-28T00:00:24.4126532Z",
         "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
         "name": "Online Saver",
         "description": "Designed for those happy to manage their own savings online but wanting the freedom to access funds at any time.",
@@ -2718,7 +2718,7 @@
       "detail": {
         "productId": "66",
         "effectiveFrom": "2025-02-12T13:30:00.0000000Z",
-        "lastUpdated": "2026-11-27T00:00:25.6062314Z",
+        "lastUpdated": "2026-11-28T00:00:24.4126532Z",
         "productCategory": "TERM_DEPOSITS",
         "name": "FMD 3 Mth Int at Maturity",
         "description": "Farm Management Deposit Accounts (FMDA's) are available for terms from 3-24 months. This product allows members to lock funds away for the agreed period, at the agreed rate with options for earned interest to be paid monthly, annually or at maturity.",
@@ -2776,7 +2776,7 @@
       "detail": {
         "productId": "67",
         "effectiveFrom": "2025-02-12T13:30:00.0000000Z",
-        "lastUpdated": "2026-11-27T00:00:25.6062314Z",
+        "lastUpdated": "2026-11-28T00:00:24.4126532Z",
         "productCategory": "TERM_DEPOSITS",
         "name": "FMD 6 Mth Int at Maturity",
         "description": "Farm Management Deposit Accounts (FMDA's) are available for terms from 3-24 months. This product allows members to lock funds away for the agreed period, at the agreed rate with options for earned interest to be paid monthly, annually or at maturity.",
@@ -2834,7 +2834,7 @@
       "detail": {
         "productId": "68",
         "effectiveFrom": "2025-02-13T13:30:00.0000000Z",
-        "lastUpdated": "2026-11-27T00:00:25.6062314Z",
+        "lastUpdated": "2026-11-28T00:00:24.4126532Z",
         "productCategory": "TERM_DEPOSITS",
         "name": "FMD 12 Mth Int at Maturity",
         "description": "Farm Management Deposit Accounts (FMDA's) are available for terms from 3-24 months. This product allows members to lock funds away for the agreed period, at the agreed rate with options for earned interest to be paid monthly, annually or at maturity.",
@@ -2892,7 +2892,7 @@
       "detail": {
         "productId": "69",
         "effectiveFrom": "2025-02-13T13:30:00.0000000Z",
-        "lastUpdated": "2026-11-27T00:00:25.6062314Z",
+        "lastUpdated": "2026-11-28T00:00:24.4126532Z",
         "productCategory": "TERM_DEPOSITS",
         "name": "FMD 24 Mth Int at Maturity",
         "description": "Farm Management Deposit Accounts (FMDA's) are available for terms from 3-24 months. This product allows members to lock funds away for the agreed period, at the agreed rate with options for earned interest to be paid monthly, annually or at maturity.",
@@ -2950,7 +2950,7 @@
       "detail": {
         "productId": "7",
         "effectiveFrom": "2015-06-30T14:30:00.0000000Z",
-        "lastUpdated": "2026-11-27T00:00:25.6062314Z",
+        "lastUpdated": "2026-11-28T00:00:24.4126532Z",
         "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
         "name": "Bonus Saver",
         "description": "An account which rewards the dedicated saver",
@@ -3099,7 +3099,7 @@
       "detail": {
         "productId": "70",
         "effectiveFrom": "2025-02-13T13:30:00.0000000Z",
-        "lastUpdated": "2026-11-27T00:00:25.6062314Z",
+        "lastUpdated": "2026-11-28T00:00:24.4126532Z",
         "productCategory": "TERM_DEPOSITS",
         "name": "FMD 3 Mth Int Monthly",
         "description": "Farm Management Deposit Accounts (FMDA's) are available for terms from 3-24 months. This product allows members to lock funds away for the agreed period, at the agreed rate with options for earned interest to be paid monthly, annually or at maturity.",
@@ -3158,7 +3158,7 @@
       "detail": {
         "productId": "71",
         "effectiveFrom": "2025-02-13T13:30:00.0000000Z",
-        "lastUpdated": "2026-11-27T00:00:25.6062314Z",
+        "lastUpdated": "2026-11-28T00:00:24.4126532Z",
         "productCategory": "TERM_DEPOSITS",
         "name": "FMD 6 Mth Int Monthly",
         "description": "Farm Management Deposit Accounts (FMDA's) are available for terms from 3-24 months. This product allows members to lock funds away for the agreed period, at the agreed rate with options for earned interest to be paid monthly, annually or at maturity.",
@@ -3217,7 +3217,7 @@
       "detail": {
         "productId": "72",
         "effectiveFrom": "2025-02-13T13:30:00.0000000Z",
-        "lastUpdated": "2026-11-27T00:00:25.6062314Z",
+        "lastUpdated": "2026-11-28T00:00:24.4126532Z",
         "productCategory": "TERM_DEPOSITS",
         "name": "FMD 12 Mth Int Monthly",
         "description": "Farm Management Deposit Accounts (FMDA's) are available for terms from 3-24 months. This product allows members to lock funds away for the agreed period, at the agreed rate with options for earned interest to be paid monthly, annually or at maturity.",
@@ -3276,7 +3276,7 @@
       "detail": {
         "productId": "73",
         "effectiveFrom": "2025-02-13T13:30:00.0000000Z",
-        "lastUpdated": "2026-11-27T00:00:25.6062314Z",
+        "lastUpdated": "2026-11-28T00:00:24.4126532Z",
         "productCategory": "TERM_DEPOSITS",
         "name": "FMD 24 Mth Int Monthly",
         "description": "Farm Management Deposit Accounts (FMDA's) are available for terms from 3-24 months. This product allows members to lock funds away for the agreed period, at the agreed rate with options for earned interest to be paid monthly, annually or at maturity.",
@@ -3335,7 +3335,7 @@
       "detail": {
         "productId": "74",
         "effectiveFrom": "2025-02-13T13:30:00.0000000Z",
-        "lastUpdated": "2026-11-27T00:00:25.6062314Z",
+        "lastUpdated": "2026-11-28T00:00:24.4126532Z",
         "productCategory": "TERM_DEPOSITS",
         "name": "FMD 24 Mth Int Annually",
         "description": "Farm Management Deposit Accounts (FMDA's) are available for terms from 3-24 months. This product allows members to lock funds away for the agreed period, at the agreed rate with options for earned interest to be paid monthly, annually or at maturity.",
@@ -3394,7 +3394,7 @@
       "detail": {
         "productId": "75",
         "effectiveFrom": "2018-06-25T14:30:00.0000000Z",
-        "lastUpdated": "2026-11-27T00:00:25.6062314Z",
+        "lastUpdated": "2026-11-28T00:00:24.4126532Z",
         "productCategory": "TERM_DEPOSITS",
         "name": "Special 5 month",
         "description": "Special 5 Month Fixed Term Deposits are available for term of 5 months. Fixed Term Deposits allow you to lock funds away for the agreed time, at the agreed rate with options for interest to be paid monthly, annually or at the end term.",
@@ -3452,7 +3452,7 @@
       "detail": {
         "productId": "76",
         "effectiveFrom": "2018-12-09T13:30:00.0000000Z",
-        "lastUpdated": "2026-11-27T00:00:25.6062314Z",
+        "lastUpdated": "2026-11-28T00:00:24.4126532Z",
         "productCategory": "TERM_DEPOSITS",
         "name": "Special 8 month",
         "description": "Special 8 Month Fixed Term Deposits are available for term of 8 months. Fixed Term Deposits allow you to lock funds away for the agreed time, at the agreed rate with options for interest to be paid monthly, annually or at the end term.",
@@ -3510,7 +3510,7 @@
       "detail": {
         "productId": "8",
         "effectiveFrom": "2015-06-30T14:30:00.0000000Z",
-        "lastUpdated": "2026-11-27T00:00:25.6062314Z",
+        "lastUpdated": "2026-11-28T00:00:24.4126532Z",
         "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
         "name": "Christmas Club",
         "description": "Designed to help you save for the festive season, deposit regularly throughout the year and watch your savings grow.",
@@ -3752,7 +3752,7 @@
       "detail": {
         "productId": "9",
         "effectiveFrom": "2015-06-30T14:30:00.0000000Z",
-        "lastUpdated": "2026-11-27T00:00:25.6062314Z",
+        "lastUpdated": "2026-11-28T00:00:24.4126532Z",
         "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
         "name": "Student Money Saver",
         "description": "Actively rewards our youngest members with a bonus interest rate, once the minimum $5 monthly deposit is made and no more than one withdrawal in the same month",

@@ -20,13 +20,13 @@
     "pagesFetched": 1,
     "productCount": 29,
     "categoryCounts": {
-      "TERM_DEPOSITS": 3,
+      "REGULATED_TRUST_ACCOUNTS": 4,
       "TRANS_AND_SAVINGS_ACCOUNTS": 11,
+      "TERM_DEPOSITS": 3,
       "RESIDENTIAL_MORTGAGES": 5,
       "OVERDRAFTS": 1,
       "BUSINESS_LOANS": 2,
-      "CRED_AND_CHRG_CARDS": 3,
-      "REGULATED_TRUST_ACCOUNTS": 4
+      "CRED_AND_CHRG_CARDS": 3
     }
   },
   "products": [
@@ -3577,7 +3577,7 @@
       "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
       "detail": {
         "productId": "18906e88-5c03-ee11-8f6e-00224814d330",
-        "lastUpdated": "2026-11-11T21:53:42Z",
+        "lastUpdated": "2026-11-27T00:34:43Z",
         "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
         "name": "Business WebSavings Account",
         "description": "Make the most of your business savings with the flexibility of accessing your money anytime",
@@ -3624,13 +3624,13 @@
         ],
         "eligibility": [
           {
-            "eligibilityType": "BUSINESS",
-            "additionalInfo": "Be an Australian company, sole trader, partnership, association, trust, self-managed superannuation fund, non-for-profit organisation or other forms of business structure acceptable to BOQ and  have an ABN or ACN where applicable, or be a foreign company carrying on business in Australia that is registered with ASIC.",
+            "eligibilityType": "OTHER",
+            "additionalInfo": "QLD solicitors and QLD property agents and motor dealers looking for an interest-bearing Controlled Money Account or Investment Trust Account to hold clients' money in trust and hold relevant practicing certificate as legal practitioners or relevant industry license as agents.",
             "additionalInfoUri": "https://www.boq.com.au/important-information/terms-and-conditions"
           },
           {
-            "eligibilityType": "OTHER",
-            "additionalInfo": "QLD/NSW solicitors and QLD/NSW property agents and motor dealers looking for an interest-bearing Controlled Money Account or Investment Trust Account to hold clients' money in trust and hold relevant practicing certificate as legal practitioners or relevant industry license as agents.",
+            "eligibilityType": "BUSINESS",
+            "additionalInfo": "Be an Australian company, sole trader, partnership, association, trust, self-managed superannuation fund, non-for-profit organisation or other forms of business structure acceptable to BOQ and  have an ABN or ACN where applicable, or be a foreign company carrying on business in Australia that is registered with ASIC.",
             "additionalInfoUri": "https://www.boq.com.au/important-information/terms-and-conditions"
           }
         ],

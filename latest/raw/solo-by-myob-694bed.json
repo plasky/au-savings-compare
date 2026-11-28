@@ -36,13 +36,28 @@
         "brandName": "Solo by MYOB",
         "constraints": [
           {
+            "additionalInfo": "Minimum single transaction limit of $0.01.",
+            "additionalValue": "0.01",
+            "constraintType": "MIN_LIMIT"
+          },
+          {
+            "additionalInfo": "Maximum cumulative value of transactions is $100,000 per day.",
+            "additionalValue": "100000.00",
+            "constraintType": "MAX_LIMIT"
+          },
+          {
             "additionalInfo": "Single cash ATM/POS withdrawal limit of $2,009.99.",
             "additionalValue": "2009.99",
             "constraintType": "MAX_LIMIT"
           },
           {
-            "additionalInfo": "Daily domestic single card transaction limit of $20,000.",
-            "additionalValue": "20000.00",
+            "additionalInfo": "You can hold a maximum of 1 account for this product.",
+            "additionalValue": "1.00",
+            "constraintType": "MAX_LIMIT"
+          },
+          {
+            "additionalInfo": "You can only hold a maximum of 1 card for this product.",
+            "additionalValue": "1.00",
             "constraintType": "MAX_LIMIT"
           },
           {
@@ -56,39 +71,28 @@
             "constraintType": "MAX_LIMIT"
           },
           {
-            "additionalInfo": "You can hold a maximum of 1 account for this product.",
-            "additionalValue": "1.00",
-            "constraintType": "MAX_LIMIT"
-          },
-          {
-            "additionalInfo": "Minimum single transaction limit of $0.01.",
-            "additionalValue": "0.01",
-            "constraintType": "MIN_LIMIT"
-          },
-          {
-            "additionalInfo": "You can only hold a maximum of 1 card for this product.",
-            "additionalValue": "1.00",
-            "constraintType": "MAX_LIMIT"
-          },
-          {
-            "additionalInfo": "Maximum number of transactions per day is 50.",
-            "additionalValue": "50.00",
-            "constraintType": "MAX_LIMIT"
-          },
-          {
-            "additionalInfo": "Maximum cumulative value of transactions is $100,000 per day.",
-            "additionalValue": "100000.00",
+            "additionalInfo": "Daily domestic single card transaction limit of $20,000.",
+            "additionalValue": "20000.00",
             "constraintType": "MAX_LIMIT"
           },
           {
             "additionalInfo": "Offline transaction limit of $250.",
             "additionalValue": "250.00",
             "constraintType": "MAX_LIMIT"
+          },
+          {
+            "additionalInfo": "Maximum number of transactions per day is 50.",
+            "additionalValue": "50.00",
+            "constraintType": "MAX_LIMIT"
           }
         ],
         "description": "Everyday banking for your business.",
         "effectiveFrom": "2025-06-04T23:00:00Z",
         "eligibility": [
+          {
+            "additionalInfo": "To open an account, you must have an active ABN or ACN, and you must be registered as either a Sole Trader, Private Company or a Partnership with the Australian Business Register.",
+            "eligibilityType": "BUSINESS"
+          },
           {
             "additionalValue": "18",
             "eligibilityType": "MIN_AGE"
@@ -98,16 +102,12 @@
             "eligibilityType": "OTHER"
           },
           {
-            "additionalValue": "You must be an Australian tax resident.",
-            "eligibilityType": "RESIDENCY_STATUS"
-          },
-          {
             "additionalInfo": "To open an account, you must have an Australian Address.",
             "eligibilityType": "OTHER"
           },
           {
-            "additionalInfo": "To open an account, you must have an active ABN or ACN, and you must be registered as either a Sole Trader, Private Company or a Partnership with the Australian Business Register.",
-            "eligibilityType": "BUSINESS"
+            "additionalValue": "You must be an Australian tax resident.",
+            "eligibilityType": "RESIDENCY_STATUS"
           },
           {
             "additionalInfo": "To open an account, you must meet our ID verification requirements.",
@@ -116,24 +116,24 @@
         ],
         "features": [
           {
-            "additionalInfo": "The product includes fraud protection functionality.",
-            "featureType": "FRAUD_PROTECTION"
-          },
-          {
-            "additionalValue": "Link your transaction account to Mastercard® debit card.",
-            "featureType": "CARD_ACCESS"
+            "additionalInfo": "Use this account to make and receive PayID payments.",
+            "featureType": "NPP_PAYID"
           },
           {
             "additionalInfo": "Make transfers and send payments in real time.",
             "featureType": "NPP_ENABLED"
           },
           {
-            "additionalInfo": "Use this account to make and receive PayID payments.",
-            "featureType": "NPP_PAYID"
+            "additionalInfo": "The product includes fraud protection functionality.",
+            "featureType": "FRAUD_PROTECTION"
           },
           {
             "additionalValue": "All statements, notices and other communication in connection with these terms and conditions and your account may be given electronically by: email, text message, in app push notifications, in app prompts, or letting you know by email, text message or push notification that the information is available on the app or on a website. You should check your emails, text messages and push notifications regularly.",
             "featureType": "NOTIFICATIONS"
+          },
+          {
+            "additionalValue": "Link your transaction account to Mastercard® debit card.",
+            "featureType": "CARD_ACCESS"
           },
           {
             "additionalInfo": "You can access your accounts on your mobile for all your online banking.",
@@ -141,16 +141,6 @@
           }
         ],
         "fees": [
-          {
-            "additionalInfo": "Account Inactivity Fee is charged where any Solo Money Account balance is below $500 but more than $0 for 6 calendar months, with no customer initiated transactions in that period. The fee amount is $10, or the Solo Money Account balance, whichever is lower, and will not overdraw the Solo Money Account.",
-            "currency": "AUD",
-            "feeMethodUType": "fixedAmount",
-            "feeType": "EVENT",
-            "fixedAmount": {
-              "amount": "10.00"
-            },
-            "name": "Account Inactivity Fee"
-          },
           {
             "currency": "AUD",
             "feeMethodUType": "rateBased",
@@ -160,6 +150,16 @@
               "rate": "2.95",
               "rateType": "TRANSACTION"
             }
+          },
+          {
+            "additionalInfo": "Account Inactivity Fee is charged where any Solo Money Account balance is below $500 but more than $0 for 6 calendar months, with no customer initiated transactions in that period. The fee amount is $10, or the Solo Money Account balance, whichever is lower, and will not overdraw the Solo Money Account.",
+            "currency": "AUD",
+            "feeMethodUType": "fixedAmount",
+            "feeType": "EVENT",
+            "fixedAmount": {
+              "amount": "10.00"
+            },
+            "name": "Account Inactivity Fee"
           }
         ],
         "isTailored": false,

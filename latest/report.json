@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-11-27T00:44:19.704Z",
+  "generatedAt": "2026-11-28T00:11:05.038Z",
   "crawl": {
-    "crawledAt": "2026-11-27T00:44:17.646Z",
+    "crawledAt": "2026-11-28T00:11:03.872Z",
     "registerOk": true,
     "brandsTotal": 390,
     "brandsInScope": 306,
     "endpoints": 306,
-    "endpointsOk": 258,
+    "endpointsOk": 259,
     "endpointsFailed": [
       {
         "brands": "AAA Mortgage Finance",
@@ -55,12 +55,6 @@
         "status": 400,
         "error": "http-400",
         "detail": "urn:au-cds:error:cds-all:Field/Invalid | Invalid Field | Invalid Field"
-      },
-      {
-        "brands": "Bendigo Bank",
-        "status": 401,
-        "error": "http-401",
-        "detail": "urn:au-cds:error:cds-all:GeneralError/Expected | Expected Error Encountered | Unauthorized"
       },
       {
         "brands": "Better Mortgage Management",
@@ -297,68 +291,68 @@
     "listVersions": {
       "3": 2,
       "4": 2,
-      "5": 254
+      "5": 255
     },
     "detailVersions": {
       "4": 13,
       "5": 16,
       "6": 38,
-      "7": 1447,
-      "none": 4
+      "7": 1467,
+      "none": 1
     },
     "cors": {
-      "browserReady": 241,
-      "preflightOk": 243,
+      "browserReady": 242,
+      "preflightOk": 244,
       "exposesXv": 108,
-      "checked": 258
+      "checked": 259
     }
   },
   "products": {
     "byCategory": {
-      "TRANS_AND_SAVINGS_ACCOUNTS": 873,
-      "TERM_DEPOSITS": 647
+      "TRANS_AND_SAVINGS_ACCOUNTS": 886,
+      "TERM_DEPOSITS": 651
     },
-    "detailsOk": 1518,
+    "detailsOk": 1535,
     "detailsMissing": 2,
     "withDepositRates": {
-      "TRANS_AND_SAVINGS_ACCOUNTS": 740,
-      "TERM_DEPOSITS": 640
+      "TRANS_AND_SAVINGS_ACCOUNTS": 752,
+      "TERM_DEPOSITS": 644
     }
   },
   "rates": {
     "rowsByType": {
       "TRANS_AND_SAVINGS_ACCOUNTS": {
-        "VARIABLE": 1767,
+        "VARIABLE": 1779,
         "FIXED": 102,
-        "BONUS": 247,
+        "BONUS": 249,
         "INTRODUCTORY": 41,
         "BUNDLE_BONUS": 3
       },
       "TERM_DEPOSITS": {
-        "FIXED": 6143,
-        "BONUS": 9,
+        "FIXED": 6306,
+        "BONUS": 10,
         "INTRODUCTORY": 33,
         "MARKET_LINKED": 1,
         "VARIABLE": 60
       }
     },
     "tierMethods": {
-      "WHOLE_BALANCE": 9968,
-      "PER_TIER": 1021
+      "WHOLE_BALANCE": 10093,
+      "PER_TIER": 1025
     }
   },
   "bonus": {
-    "rows": 259,
-    "withStructured": 162,
+    "rows": 262,
+    "withStructured": 165,
     "freeTextOnly": 53,
     "structuredOnly": 0,
     "neither": 44,
     "conditionTypes": {
       "MAX_WITHDRAWALS": 49,
       "MIN_DEPOSIT_AMOUNT": 95,
-      "DEPOSIT_BALANCE_INCREASED": 53,
+      "DEPOSIT_BALANCE_INCREASED": 55,
       "MAX_WITHDRAWAL_AMOUNT": 7,
-      "ONLINE_ONLY": 8,
+      "ONLINE_ONLY": 9,
       "MIN_PURCHASES": 12,
       "EXISTING_CUST": 8,
       "NEW_ACCOUNTS": 4,
@@ -374,13 +368,13 @@
       "count": 2,
       "examples": [
         "Bank of Sydney — usd_fccy_account: http-406 (PCUA006 | Unsupported Version | Unable to find the version requested in x-v)",
-        "BankSA — BSATDBusTermDeposit: http-404 (404 | Resource Not Found | Product not found)"
+        "St.George Bank — STGTrBusFreedomBusinessAccount: http-404 (404 | Resource Not Found | Product not found)"
       ]
     },
     {
       "code": "NO_DEPOSIT_RATES",
       "description": "Product detail has no depositRates (common for transaction accounts; a problem for savings/TDs)",
-      "count": 138,
+      "count": 139,
       "examples": [
         "ANZ — ANZ Business Extra [TRANS_AND_SAVINGS_ACCOUNTS]",
         "ANZ — ANZ Access Advantage [TRANS_AND_SAVINGS_ACCOUNTS]",
@@ -508,14 +502,14 @@
     {
       "code": "HEADLINE_IMPLAUSIBLE",
       "description": "Base + stacked bonuses at $10k above 9% — likely a \"total rate\" bonus double-counted, or bad data",
-      "count": 8,
+      "count": 9,
       "examples": [
+        "Bendigo Bank — Bendigo Reward Saver: base 0.10% + bonus 10.30%",
         "Defence Bank Limited — Salute Account: base 4.25% + bonus 6.00%",
         "My State PM Production — Bonus Saver: base — + bonus 10.95%",
         "Traditional Credit Union — S1 Everyday Account: base 200.00% + bonus —",
         "Traditional Credit Union — S2 Budget Account: base 200.00% + bonus —",
-        "Traditional Credit Union — S3 Christmas Club Account: base 225.00% + bonus —",
-        "Traditional Credit Union — S4 Family/Clan/Group Account: base 225.00% + bonus —"
+        "Traditional Credit Union — S3 Christmas Club Account: base 225.00% + bonus —"
       ]
     },
     {
@@ -547,7 +541,7 @@
     {
       "code": "NON_AUD_PRODUCT",
       "description": "Foreign-currency product (to exclude)",
-      "count": 40,
+      "count": 41,
       "examples": [
         "Arab Bank Australia Ltd Prod — Swiss Francs/CHF Term Deposit (Monthly)",
         "Arab Bank Australia Ltd Prod — EURO Term Deposit (Monthly)",
@@ -560,7 +554,7 @@
     {
       "code": "NON_PERSONAL_PRODUCT",
       "description": "Business / SMSF / trust / organisation product (to exclude for a household)",
-      "count": 369,
+      "count": 374,
       "examples": [
         "AMP Bank GO — AMP Bank GO 12 Month Business Term Deposit",
         "AMP Bank GO — AMP Bank GO 6 Month Business Term Deposit",
@@ -601,6 +595,16 @@
       "intro": 0.064,
       "headline": 0.107,
       "note": "intro may be total"
+    },
+    {
+      "brand": "Bendigo Bank",
+      "product": "Bendigo Reward Saver",
+      "productId": "cb6f3716-4e76-4e5b-b79d-0720756a21ac",
+      "base": 0.001,
+      "bonus": 0.103,
+      "intro": null,
+      "headline": 0.104,
+      "note": "2 bonuses stacked"
     },
     {
       "brand": "Defence Bank Limited",
@@ -811,16 +815,6 @@
       "intro": null,
       "headline": 0.0585,
       "note": ""
-    },
-    {
-      "brand": "P&N Bank",
-      "product": "Hi Saver Account",
-      "productId": "37",
-      "base": 0.0005,
-      "bonus": null,
-      "intro": 0.058,
-      "headline": 0.0585,
-      "note": "intro may be total"
     }
   ],
   "topTd12": [
@@ -976,14 +970,14 @@
     }
   ],
   "td12Coverage": {
-    "products": 449,
-    "with12m": 136
+    "products": 451,
+    "with12m": 139
   },
   "review": {
     "stats": {
-      "candidates": 164,
-      "reviewed": 161,
-      "rateOnly": 9,
+      "candidates": 165,
+      "reviewed": 162,
+      "rateOnly": 10,
       "reworded": 2,
       "stale": 3,
       "queued": 3,

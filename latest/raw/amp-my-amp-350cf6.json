@@ -20,9 +20,9 @@
     "pagesFetched": 1,
     "productCount": 9,
     "categoryCounts": {
+      "TRANS_AND_SAVINGS_ACCOUNTS": 2,
       "RESIDENTIAL_MORTGAGES": 6,
-      "BUSINESS_LOANS": 1,
-      "TRANS_AND_SAVINGS_ACCOUNTS": 2
+      "BUSINESS_LOANS": 1
     }
   },
   "products": [
@@ -45,7 +45,7 @@
             "feeType": "PERIODIC",
             "feeMethodUType": "fixedAmount",
             "fixedAmount": {
-              "amount": "0"
+              "amount": "0.00"
             },
             "additionalValue": "P1M",
             "additionalInfo": "Refer to the banks fees and charges guides for information relevant to your product",
@@ -56,7 +56,7 @@
             "feeType": "WITHDRAWAL",
             "feeMethodUType": "fixedAmount",
             "fixedAmount": {
-              "amount": "4.5"
+              "amount": "4.50"
             },
             "additionalInfo": "When you withdraw from your account at any international ATM",
             "additionalInfoUri": "https://www.amp.com.au/personal-banking/bank-terms-and-conditions"
@@ -77,7 +77,7 @@
             "feeType": "REPLACEMENT",
             "feeMethodUType": "fixedAmount",
             "fixedAmount": {
-              "amount": "15"
+              "amount": "15.00"
             },
             "additionalInfo": "When you request urgent delivery of a replacement AMP Visa Debit Card",
             "additionalInfoUri": "https://www.amp.com.au/personal-banking/bank-terms-and-conditions"
@@ -87,7 +87,7 @@
             "feeType": "DEPOSIT",
             "feeMethodUType": "fixedAmount",
             "fixedAmount": {
-              "amount": "30"
+              "amount": "30.00"
             },
             "additionalInfo": "When funds are transferred to your account (by SWIFT) from a bank in Australia or overseas (in Australian dollars)",
             "additionalInfoUri": "https://www.amp.com.au/personal-banking/bank-terms-and-conditions"
@@ -97,7 +97,7 @@
             "feeType": "WITHDRAWAL",
             "feeMethodUType": "fixedAmount",
             "fixedAmount": {
-              "amount": "30"
+              "amount": "30.00"
             },
             "additionalInfo": "When you request us to transfer funds from your account (by SWIFT) to a bank in Australia (in Australian dollars)\nWhen you request us to transfer funds from your account (by telegraphic transfer) to an overseas bank (in Australian dollars or a foreign currency).",
             "additionalInfoUri": "https://www.amp.com.au/personal-banking/bank-terms-and-conditions"
@@ -107,7 +107,7 @@
             "feeType": "EVENT",
             "feeMethodUType": "fixedAmount",
             "fixedAmount": {
-              "amount": "20"
+              "amount": "20.00"
             },
             "additionalInfo": "When you request us to investigate and trace a transaction",
             "additionalInfoUri": "https://www.amp.com.au/personal-banking/bank-terms-and-conditions"
@@ -117,7 +117,7 @@
             "feeType": "EVENT",
             "feeMethodUType": "fixedAmount",
             "fixedAmount": {
-              "amount": "25"
+              "amount": "25.00"
             },
             "additionalInfo": "When you dispute a Visa transaction and we do not find in your favour",
             "additionalInfoUri": "https://www.amp.com.au/personal-banking/bank-terms-and-conditions"
@@ -127,7 +127,7 @@
             "feeType": "EVENT",
             "feeMethodUType": "fixedAmount",
             "fixedAmount": {
-              "amount": "25"
+              "amount": "25.00"
             },
             "additionalInfo": "When you or an auditor request an audit certificate for your account",
             "additionalInfoUri": "https://www.amp.com.au/personal-banking/bank-terms-and-conditions"
@@ -164,13 +164,13 @@
         "constraints": [
           {
             "additionalInfoUri": "https://www.amp.com.au/personal-banking/bank-terms-and-conditions",
-            "additionalValue": "0",
+            "additionalValue": "0.00",
             "additionalInfo": "You don't need to maintain a specific minimum balance",
             "constraintType": "MIN_BALANCE"
           },
           {
             "additionalInfoUri": "https://www.amp.com.au/personal-banking/bank-terms-and-conditions",
-            "additionalValue": "5000000",
+            "additionalValue": "5000000.00",
             "additionalInfo": "Balances over $5,000,000 are available at our discretion.",
             "constraintType": "MAX_BALANCE"
           }
@@ -178,7 +178,7 @@
         "depositRates": [
           {
             "depositRateType": "VARIABLE",
-            "rate": "0.0",
+            "rate": "0.0000",
             "calculationFrequency": "P1D",
             "applicationType": "PERIODIC",
             "applicationFrequency": "P1M",
@@ -186,8 +186,8 @@
               {
                 "name": "Tiered Interest rate for balances $0 to $10000",
                 "unitOfMeasure": "DOLLAR",
-                "minimumValue": "0",
-                "maximumValue": "10000",
+                "minimumValue": "0.00",
+                "maximumValue": "10000.00",
                 "rateApplicationMethod": "WHOLE_BALANCE",
                 "additionalInfoUri": "https://www.amp.com.au/personal-banking/interest-rates-fees"
               }
@@ -196,7 +196,7 @@
           },
           {
             "depositRateType": "VARIABLE",
-            "rate": "0.045",
+            "rate": "0.0450",
             "calculationFrequency": "P1D",
             "applicationType": "PERIODIC",
             "applicationFrequency": "P1M",
@@ -205,7 +205,7 @@
                 "name": "Tiered Interest rate for balances $10000.01 to $250000",
                 "unitOfMeasure": "DOLLAR",
                 "minimumValue": "10000.01",
-                "maximumValue": "250000",
+                "maximumValue": "250000.00",
                 "rateApplicationMethod": "WHOLE_BALANCE",
                 "additionalInfoUri": "https://www.amp.com.au/personal-banking/interest-rates-fees"
               }
@@ -223,7 +223,7 @@
                 "name": "Tiered Interest rate for balances $250000.01 to $5000000",
                 "unitOfMeasure": "DOLLAR",
                 "minimumValue": "250000.01",
-                "maximumValue": "5000000",
+                "maximumValue": "5000000.00",
                 "rateApplicationMethod": "WHOLE_BALANCE",
                 "additionalInfoUri": "https://www.amp.com.au/personal-banking/interest-rates-fees"
               }
@@ -232,7 +232,7 @@
           },
           {
             "depositRateType": "VARIABLE",
-            "rate": "0.02",
+            "rate": "0.0200",
             "calculationFrequency": "P1D",
             "applicationType": "PERIODIC",
             "applicationFrequency": "P1M",
@@ -273,7 +273,7 @@
             "feeType": "PERIODIC",
             "feeMethodUType": "fixedAmount",
             "fixedAmount": {
-              "amount": "6"
+              "amount": "6.00"
             },
             "additionalValue": "P1M",
             "additionalInfo": "Only payable when your offset account is attached to a Basic Variable Home Loan. Fee is not applicable to offset accounts attached to any other loan type.",
@@ -284,7 +284,7 @@
             "feeType": "WITHDRAWAL",
             "feeMethodUType": "fixedAmount",
             "fixedAmount": {
-              "amount": "4.5"
+              "amount": "4.50"
             },
             "additionalInfo": "When you withdraw from your account at any international ATM",
             "additionalInfoUri": "https://www.amp.com.au/personal-banking/bank-terms-and-conditions"
@@ -305,7 +305,7 @@
             "feeType": "REPLACEMENT",
             "feeMethodUType": "fixedAmount",
             "fixedAmount": {
-              "amount": "15"
+              "amount": "15.00"
             },
             "additionalInfo": "When you request urgent delivery of a replacement AMP Visa Debit Card",
             "additionalInfoUri": "https://www.amp.com.au/personal-banking/bank-terms-and-conditions"
@@ -315,7 +315,7 @@
             "feeType": "DEPOSIT",
             "feeMethodUType": "fixedAmount",
             "fixedAmount": {
-              "amount": "30"
+              "amount": "30.00"
             },
             "additionalInfo": "When funds are transferred to your account (by SWIFT) from a bank in Australia or overseas (in Australian dollars)",
             "additionalInfoUri": "https://www.amp.com.au/personal-banking/bank-terms-and-conditions"
@@ -325,7 +325,7 @@
             "feeType": "WITHDRAWAL",
             "feeMethodUType": "fixedAmount",
             "fixedAmount": {
-              "amount": "30"
+              "amount": "30.00"
             },
             "additionalInfo": "When you request us to transfer funds from your account (by SWIFT) to a bank in Australia (in Australian dollars)\nWhen you request us to transfer funds from your account (by telegraphic transfer) to an overseas bank (in Australian dollars or a foreign currency).",
             "additionalInfoUri": "https://www.amp.com.au/personal-banking/bank-terms-and-conditions"
@@ -335,7 +335,7 @@
             "feeType": "EVENT",
             "feeMethodUType": "fixedAmount",
             "fixedAmount": {
-              "amount": "20"
+              "amount": "20.00"
             },
             "additionalInfo": "When you request us to investigate and trace a transaction",
             "additionalInfoUri": "https://www.amp.com.au/personal-banking/bank-terms-and-conditions"
@@ -345,7 +345,7 @@
             "feeType": "EVENT",
             "feeMethodUType": "fixedAmount",
             "fixedAmount": {
-              "amount": "25"
+              "amount": "25.00"
             },
             "additionalInfo": "When you dispute a Visa transaction and we do not find in your favour",
             "additionalInfoUri": "https://www.amp.com.au/personal-banking/bank-terms-and-conditions"
@@ -355,7 +355,7 @@
             "feeType": "EVENT",
             "feeMethodUType": "fixedAmount",
             "fixedAmount": {
-              "amount": "25"
+              "amount": "25.00"
             },
             "additionalInfo": "When you or an auditor request an audit certificate for your account",
             "additionalInfoUri": "https://www.amp.com.au/personal-banking/bank-terms-and-conditions"
@@ -392,13 +392,13 @@
         "constraints": [
           {
             "additionalInfoUri": "https://www.amp.com.au/personal-banking/bank-terms-and-conditions",
-            "additionalValue": "0",
+            "additionalValue": "0.00",
             "additionalInfo": "You don't need to maintain a specific minimum balance",
             "constraintType": "MIN_BALANCE"
           },
           {
             "additionalInfoUri": "https://www.amp.com.au/personal-banking/bank-terms-and-conditions",
-            "additionalValue": "5000000",
+            "additionalValue": "5000000.00",
             "additionalInfo": "Balances over $5,000,000 are available at our discretion.",
             "constraintType": "MAX_BALANCE"
           }
@@ -406,7 +406,7 @@
         "depositRates": [
           {
             "depositRateType": "VARIABLE",
-            "rate": "0.0",
+            "rate": "0.0000",
             "calculationFrequency": "P1D",
             "applicationType": "PERIODIC",
             "applicationFrequency": "P1M",

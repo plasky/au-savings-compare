@@ -20,10 +20,10 @@
     "pagesFetched": 1,
     "productCount": 35,
     "categoryCounts": {
+      "CRED_AND_CHRG_CARDS": 10,
       "RESIDENTIAL_MORTGAGES": 4,
       "TRANS_AND_SAVINGS_ACCOUNTS": 11,
       "REGULATED_TRUST_ACCOUNTS": 2,
-      "CRED_AND_CHRG_CARDS": 10,
       "OVERDRAFTS": 2,
       "PERS_LOANS": 2,
       "BUSINESS_LOANS": 2,

@@ -18,9 +18,9 @@
     "version": "5",
     "totalPages": 1,
     "pagesFetched": 1,
-    "productCount": 52,
+    "productCount": 51,
     "categoryCounts": {
-      "TERM_DEPOSITS": 22,
+      "TERM_DEPOSITS": 21,
       "RESIDENTIAL_MORTGAGES": 17,
       "PERS_LOANS": 4,
       "TRANS_AND_SAVINGS_ACCOUNTS": 8,
@@ -3118,109 +3118,12 @@
       "detailVersion": "7"
     },
     {
-      "productId": "239",
-      "productCategory": "TERM_DEPOSITS",
-      "detail": {
-        "productId": "239",
-        "effectiveFrom": "2026-04-01T00:00:00.000+11:00",
-        "effectiveTo": "2029-12-31T00:00:00.000+11:00",
-        "lastUpdated": "2026-05-20T00:00:00.000+10:00",
-        "productCategory": "TERM_DEPOSITS",
-        "name": "Term Deposit 1 month",
-        "description": "Fixed Term Deposits start from as little as $1,000, and you can choose a range of terms that works for you between 30 days and 24 months.",
-        "brand": "Defence Bank",
-        "brandName": "Defence Bank Limited",
-        "applicationUri": "https://join.defencebank.com.au",
-        "isTailored": false,
-        "additionalInformation": {
-          "overviewUri": "https://www.defencebank.com.au/banking/term-deposits/premium-term-deposits/",
-          "termsUri": "https://www.defencebank.com.au/tools-and-advice/legal-and-compliance/disclosure-documents/",
-          "eligibilityUri": "https://www.defencebank.com.au/banking/term-deposits/premium-term-deposits/",
-          "feesAndPricingUri": "https://www.defencebank.com.au/banking/term-deposits/premium-term-deposits/",
-          "additionalOverviewUris": [],
-          "additionalTermsUris": [],
-          "additionalEligibilityUris": [],
-          "additionalFeesAndPricingUris": [],
-          "additionalBundleUris": []
-        },
-        "cardArt": [],
-        "bundles": [],
-        "features": [
-          {
-            "featureType": "DIGITAL_BANKING",
-            "additionalInfo": "View your term deposit with convenient Online Banking.",
-            "additionalInfoUri": "https://www.defencebank.com.au/banking/term-deposits/premium-term-deposits/"
-          },
-          {
-            "featureType": "OTHER",
-            "additionalInfo": "Fixed rate for the life of the Term.",
-            "additionalInfoUri": "https://www.defencebank.com.au/banking/term-deposits/premium-term-deposits/"
-          }
-        ],
-        "constraints": [
-          {
-            "constraintType": "MIN_BALANCE",
-            "additionalValue": "1000.00",
-            "additionalInfo": "The Member must be a natural person rather than another legal entity",
-            "additionalInfoUri": "https://www.defencebank.com.au/banking/term-deposits/premium-term-deposits/"
-          },
-          {
-            "constraintType": "MAX_BALANCE",
-            "additionalValue": "1000000.00",
-            "additionalInfo": "All term deposit rates are for amounts up to $1million. For larger amounts please contact us to discuss your options.",
-            "additionalInfoUri": "https://www.defencebank.com.au/banking/term-deposits/premium-term-deposits/"
-          }
-        ],
-        "eligibility": [
-          {
-            "eligibilityType": "NATURAL_PERSON",
-            "additionalValue": "The Member must be a natural person rather than another legal entity",
-            "additionalInfo": "Individuals and Joint accounts only.",
-            "additionalInfoUri": "https://www.defencebank.com.au/banking/term-deposits/term-deposit"
-          },
-          {
-            "eligibilityType": "OTHER",
-            "additionalInfo": "Available on request only"
-          }
-        ],
-        "fees": [
-          {
-            "name": "Early Withdrawal Penalty",
-            "feeType": "EXIT",
-            "additionalInfo": "Early withdrawal may incurr a partial loss of interest accrued depending on the Term remaining at the time of ealry withdrawal.",
-            "additionalInfoUri": "https://www.defencebank.com.au/globalassets/documents/fees--charges/defence-bank-fees-and-charges-schedule.pdf",
-            "feeMethodUType": "fixedAmount",
-            "fixedAmount": {
-              "amount": "30.00"
-            },
-            "discounts": []
-          }
-        ],
-        "depositRates": [
-          {
-            "depositRateType": "FIXED",
-            "rate": "0.0210",
-            "calculationFrequency": "P1D",
-            "applicationType": "MATURITY",
-            "applicationFrequency": "P1M",
-            "tiers": [],
-            "additionalValue": "P1M",
-            "additionalInfo": "Where terms exceed 12 months, interest is capitalised annually. Interest payable in respect of the last 12 months or part thereof is added to the balance at maturity.",
-            "additionalInfoUri": "https://www.defencebank.com.au/banking/term-deposits/premium-term-deposits/"
-          }
-        ],
-        "lendingRates": []
-      },
-      "detailStatus": 200,
-      "detailVersion": "7"
-    },
-    {
       "productId": "240",
       "productCategory": "TERM_DEPOSITS",
       "detail": {
         "productId": "240",
         "effectiveFrom": "2026-04-01T00:00:00.000+11:00",
-        "effectiveTo": "2029-12-31T00:00:00.000+11:00",
+        "effectiveTo": "2029-04-02T00:00:00.000+10:00",
         "lastUpdated": "2026-05-20T00:00:00.000+10:00",
         "productCategory": "TERM_DEPOSITS",
         "name": "Term Deposit 2 months",
@@ -3317,7 +3220,7 @@
       "detail": {
         "productId": "243",
         "effectiveFrom": "2026-04-01T00:00:00.000+11:00",
-        "effectiveTo": "2029-12-31T00:00:00.000+11:00",
+        "effectiveTo": "2026-11-30T00:00:00.000+11:00",
         "lastUpdated": "2026-05-20T00:00:00.000+10:00",
         "productCategory": "TERM_DEPOSITS",
         "name": "Business Term Deposit  1 mth",
@@ -3410,7 +3313,7 @@
       "detail": {
         "productId": "244",
         "effectiveFrom": "2026-04-01T00:00:00.000+11:00",
-        "effectiveTo": "2029-12-31T00:00:00.000+11:00",
+        "effectiveTo": "2026-11-30T00:00:00.000+11:00",
         "lastUpdated": "2026-05-20T00:00:00.000+10:00",
         "productCategory": "TERM_DEPOSITS",
         "name": "Business Term Deposit 2 mths",
